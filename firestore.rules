@@ -1,0 +1,235 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // --- HELPER FUNCTIONS ---
+    
+    // 1. Cek apakah Super Admin (Akses Mutlak)
+    function isSuperAdmin() {
+      return request.auth != null && request.auth.token.email in ["ilhamnp22@gmail.com", "inurprtma22@gmail.com"];
+    }
+
+    // 2. Cek apakah Asisten Admin / Editor (Bisa Kelola Soal & Laporan)
+    function isEditor() {
+      return request.auth != null && request.auth.token.email in [
+        "glorifikalaw@gmail.com", 
+        "amifaveiro9@gmail.com",
+        "febrilliank@gmail.com",
+        "brain1dead@gmail.com"
+      ];
+    }
+
+    // Fungsi Gabungan Admin (Super atau Editor)
+    function isAnyAdmin() {
+      return isSuperAdmin() || isEditor();
+    }
+
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Cek apakah akun terverifikasi (VIP, PAID, atau FREE yang aktif)
+    function isVerifiedUser() {
+       return request.auth != null && 
+              exists(/databases/$(database)/documents/vip_access/$(request.auth.token.email)) &&
+              get(/databases/$(database)/documents/vip_access/$(request.auth.token.email)).data.isVerified == true &&
+              get(/databases/$(database)/documents/vip_access/$(request.auth.token.email)).data.isBlocked != true;
+    }
+
+    function isVIP() {
+       return request.auth != null && 
+              exists(/databases/$(database)/documents/vip_access/$(request.auth.token.email)) &&
+              get(/databases/$(database)/documents/vip_access/$(request.auth.token.email)).data.isVerified == true &&
+              (
+                get(/databases/$(database)/documents/vip_access/$(request.auth.token.email)).data.role == 'VIP' ||
+                !('role' in get(/databases/$(database)/documents/vip_access/$(request.auth.token.email)).data)
+              );
+    }
+
+    // --- 1. SETTINGS & MAINTENANCE ---
+    match /settings/tryout_quota {
+      allow read: if true; 
+      allow write: if request.auth != null;
+    }
+
+    match /tryout_sessions/{document=**} {
+      allow read: if true; 
+      allow write: if request.auth != null;
+    }
+
+    match /settings/{document=**} {
+      allow read: if true; 
+      allow write: if isSuperAdmin();
+    }
+
+    // --- 2. BANK SOAL (Hanya Terverifikasi & Admin yang bisa baca) ---
+    match /bank_soal/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser(); 
+      allow write: if isAnyAdmin();
+    }
+    
+    match /bank_soal_v2/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser(); 
+      allow write: if isAnyAdmin();
+    }
+
+    // --- 3. LEADERBOARD ---
+    match /leaderboard/{docId} {
+      allow read: if true;
+      allow create: if request.auth != null 
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.skor is number
+                    && request.resource.data.skor <= 100; 
+
+      allow update, delete: if isOwner(resource.data.uid) || isAnyAdmin();
+    }
+
+    // --- 4. RIWAYAT BELAJAR ---
+    match /riwayat_belajar/{docId} {
+      allow read: if isOwner(resource.data.uid) || isAnyAdmin();
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if isOwner(resource.data.uid) || isAnyAdmin();
+    }
+    
+    // --- 5. RIWAYAT PSIKOTES ---
+    match /riwayat_psikotes/{docId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if isOwner(resource.data.uid) || isAnyAdmin();
+    }
+    
+    // --- 6. DATA USER ---
+    match /users/{userId} {
+      allow read, write: if isOwner(userId) || isAnyAdmin();
+    }
+
+    // --- 7. VIP ACCESS (KONTROL AKSES & VERIFIKASI) ---
+    match /vip_access/{email} {
+      // User boleh membaca dokumen aksesnya sendiri (untuk verifikasi realtime), Super Admin bisa baca semua
+      allow read: if isSuperAdmin() || (request.auth != null && request.auth.token.email.lower() == email.lower());
+      
+      // User baru boleh membuat dokumen awal miliknya sendiri
+      allow create: if isSuperAdmin() || (request.auth != null && request.auth.token.email.lower() == email.lower());
+      
+      // User boleh update verifikasi dokumen miliknya sendiri, Super Admin bisa update semua (untuk atur langganan)
+      allow update: if isSuperAdmin() || (request.auth != null && request.auth.token.email.lower() == email.lower());
+
+      allow delete: if isSuperAdmin();
+    }
+
+    // --- 8. LAPORAN SOAL & PENGADUAN PESERTA ---
+    match /laporan_soal/{docId} {
+      allow read, update, delete: if isAnyAdmin();
+      allow create: if request.auth != null 
+                    && request.resource.data.uid_pelapor == request.auth.uid;
+    }
+
+    match /pengaduan_user/{docId} {
+      allow read: if isSuperAdmin() || (request.auth != null && (
+        resource == null || 
+        resource.data.uid == request.auth.uid || 
+        resource.data.uid_pelapor == request.auth.uid ||
+        resource.data.userEmail == request.auth.token.email.lower()
+      ));
+      allow update: if isSuperAdmin() || (request.auth != null && (
+        resource.data.uid == request.auth.uid || 
+        resource.data.userEmail == request.auth.token.email.lower()
+      ));
+      allow delete: if isSuperAdmin();
+      allow create: if request.auth != null;
+    }
+
+    // --- 9. STATUS ONLINE PESERTA (RADAR) ---
+    match /user_status/{userId} {
+      allow read: if isSuperAdmin();
+      allow write: if isOwner(userId) || isSuperAdmin();
+    }
+    
+    // --- 10. MULTIPLAYER ROOMS ---
+    match /rooms/{roomId} {
+      allow read, write: if request.auth != null;
+      match /{allSubcollections=**} {
+        allow read, write: if request.auth != null;
+      }
+    }
+
+    // --- 11. MATERI & DOKUMEN HUKUM ---
+    match /buku_dua_ma/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser(); 
+      allow write: if isAnyAdmin();
+    }
+    match /kitab_kuning/{document=**} {
+      allow read: if request.auth != null; 
+      allow write: if isAnyAdmin();
+    }
+    match /uu_ma/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser();
+      allow write: if isAnyAdmin();
+    }
+    match /uu_kk/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser();
+      allow write: if isAnyAdmin();
+    }
+    match /ayat_hukum/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser();
+      allow write: if isAnyAdmin();
+    }
+    match /uu_pa/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser();
+      allow write: if isAnyAdmin();
+    }
+    match /khi/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser();
+      allow write: if isAnyAdmin();
+    }
+
+    // --- 18. JAWABAN UJIAN CBT PUTUSAN (PRO-TAMA) ---
+    match /artifacts/{appId}/users/{userId}/jawaban_putusan/{document=**} {
+      allow create, read, update: if request.auth != null && request.auth.uid == userId;
+      allow delete: if false; 
+    }
+
+    // --- 19. BUKTI PEMBAYARAN PESERTA ---
+    match /bukti_pembayaran/{docId} {
+      allow read: if isAnyAdmin() || (request.auth != null && (
+        resource == null || 
+        resource.data.uid == request.auth.uid || 
+        resource.data.uid_pelapor == request.auth.uid ||
+        resource.data.userEmail == request.auth.token.email.lower()
+      ));
+      allow create: if request.auth != null;
+      allow update, delete: if isAnyAdmin();
+    }
+
+    // --- 19B. MENUJU ASN (CPNS 2026) ---
+    match /cpns_rooms/{document=**} {
+      allow read, write: if request.auth != null;
+    }
+    match /cpns_users/{userId} {
+      allow read, write: if request.auth != null && (request.auth.uid == userId || isSuperAdmin());
+    }
+    match /cpns_tryout_sessions/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /cpns_settings/{document=**} {
+      allow read: if true;
+      allow write: if isSuperAdmin();
+    }
+    match /cpns_packages/{document=**} {
+      allow read: if true;
+      allow write: if isSuperAdmin();
+    }
+
+    // --- 20. ATURAN MODUL SOAL CBT & KUNCI JAWABAN ---
+    match /{modulId}/{document=**} {
+      allow read: if isAnyAdmin() || isVerifiedUser();
+      allow write: if isAnyAdmin();
+    }
+
+    match /kunci_jawaban/{modulId}/{document=**} {
+      allow read: if isAnyAdmin() || isVIP();
+      allow write: if isAnyAdmin();
+    }
+  }
+}
