@@ -15,7 +15,7 @@ import {
 
 export const firebaseConfig = {
     apiKey: "AIzaSyAC4Tskg8XC1N0a13xcsV3A1Mq_8mDnY-A",
-    authDomain: "simulasi-cbt-cakim-2026.firebaseapp.com",
+    authDomain: "menuju-asn.web.app",
     projectId: "simulasi-cbt-cakim-2026",
     storageBucket: "simulasi-cbt-cakim-2026.firebasestorage.app",
     messagingSenderId: "209182753461",
