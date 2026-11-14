@@ -92,26 +92,46 @@ async function loadUserProfile(user) {
 function updateAuthUI(user) {
     const btnAuth = document.getElementById('btnAuth');
     const userProfileEl = document.getElementById('userProfileBadge');
+    const preLoginEl = document.getElementById('preLoginLanding');
+    const lobbyEl = document.getElementById('lobbySection');
+    const dashUserName = document.getElementById('dashUserName');
+    const sidebarTierLabel = document.getElementById('sidebarTierLabel');
+    const kpiTierValue = document.getElementById('kpiTierValue');
+
     if (user) {
+        const firstName = user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN';
+        const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+        const tierText = prof.isAdmin ? 'ADMIN' : String(prof.tier || 'free').toUpperCase();
+
         if (btnAuth) btnAuth.style.display = 'none';
         if (userProfileEl) {
-            const tierBadge = window.currentUserProfile.isAdmin
+            const tierBadge = prof.isAdmin
                 ? `<span style="background:#f59e0b; color:#0f172a; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">ADMIN</span>`
-                : (window.currentUserProfile.isPaid
-                    ? `<span style="background:#10b981; color:white; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">${String(window.currentUserProfile.tier).toUpperCase()}</span>`
+                : (prof.isPaid
+                    ? `<span style="background:#10b981; color:white; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">${tierText}</span>`
                     : `<span style="background:rgba(255,255,255,0.18); color:#cbd5e1; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:10px;">FREE</span>`);
 
             userProfileEl.style.display = 'flex';
             userProfileEl.innerHTML = `
                 <img src="${user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(user.displayName || 'User')}" style="width:30px; height:30px; border-radius:50%; border:1.5px solid #f59e0b;" />
-                <span style="font-weight:700; font-size:0.82rem; color:white;">${user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN'}</span>
+                <span style="font-weight:700; font-size:0.82rem; color:white;">${firstName}</span>
                 ${tierBadge}
                 <button onclick="window.eksekusiLogout()" style="background:none; border:none; color:#f87171; cursor:pointer; font-size:0.85rem;" title="Keluar"><i class="fas fa-sign-out-alt"></i></button>
             `;
         }
+        if (dashUserName) dashUserName.textContent = firstName;
+        if (sidebarTierLabel) sidebarTierLabel.textContent = prof.isPaid || prof.isAdmin ? `PAKET ${tierText}` : 'AKUN FREE';
+        if (kpiTierValue) kpiTierValue.textContent = tierText;
+
+        if (preLoginEl) preLoginEl.style.display = 'none';
+        if (lobbyEl && window.currentAppMode === 'lobby') {
+            lobbyEl.style.display = 'flex';
+        }
     } else {
         if (btnAuth) btnAuth.style.display = 'inline-flex';
         if (userProfileEl) userProfileEl.style.display = 'none';
+        if (preLoginEl) preLoginEl.style.display = 'block';
+        if (lobbyEl) lobbyEl.style.display = 'none';
     }
 }
 
@@ -145,6 +165,43 @@ window.eksekusiLogout = async () => {
         await signOut(auth);
         window.location.reload();
     }
+};
+
+window.switchAppView = (viewName) => {
+    document.querySelectorAll('.app-view').forEach(v => v.classList.remove('active'));
+    const targetView = document.getElementById(`view-${viewName}`);
+    if (targetView) targetView.classList.add('active');
+
+    document.querySelectorAll('.sidebar-item, .mob-nav-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-view') === viewName);
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.kirimPesanDiskusi = (e) => {
+    e.preventDefault();
+    const input = document.getElementById('chatInputText');
+    const box = document.getElementById('chatMessagesBox');
+    if (!input || !box) return;
+    const text = input.value.trim();
+    if (!text) return;
+
+    const user = window.currentUser;
+    const nama = user && user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN';
+    const initial = nama.charAt(0).toUpperCase();
+
+    const msgEl = document.createElement('div');
+    msgEl.className = 'chat-msg mine';
+    msgEl.innerHTML = `
+        <div class="chat-avatar">${initial}</div>
+        <div class="chat-bubble">
+            <div class="chat-meta"><strong>${nama}</strong> <span>Baru saja</span></div>
+            <p>${text.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+        </div>
+    `;
+    box.appendChild(msgEl);
+    box.scrollTop = box.scrollHeight;
+    input.value = '';
 };
 
 window.switchLobbyTab = (tab) => {
@@ -511,9 +568,9 @@ window.kembaliKeLobby = () => {
     window.activeRoomCode = null;
     window.latestRoomData = null;
     document.getElementById('examStage').style.display = 'none';
-    document.getElementById('lobbySection').style.display = 'block';
+    document.getElementById('lobbySection').style.display = 'flex';
     const heroEl = document.getElementById('heroBannerSection');
-    if (heroEl) heroEl.style.display = 'block';
+    if (heroEl) heroEl.style.display = 'flex';
     window.currentAppMode = 'lobby';
 };
 

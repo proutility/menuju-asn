@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.0.4">
+    <link rel="stylesheet" href="style.css?v=2.1.0">
 </head>
 <body>
 
@@ -214,184 +214,496 @@
         </section>
     </div>
 
-    <!-- HERO & PASSING GRADE BANNER (LOGGED IN) -->
-    <section class="hero-section" id="heroBannerSection" style="display:none;">
-        <div class="hero-card">
-            <div class="hero-text">
-                <h2>Simulasi CAT SKD CPNS Real-Time 🚀</h2>
-                <p>Uji kesiapan menghadapi seleksi CPNS 2026 dengan format resmi CAT BKN: Pembobotan TKP skala 1-5, skor TWK & TIU benar +5, serta evaluasi passing grade saklek.</p>
-                <div class="pg-badges-row">
-                    <span class="pg-pill"><i class="fas fa-shield-alt" style="color:#60a5fa;"></i> TWK: Min 65</span>
-                    <span class="pg-pill"><i class="fas fa-brain" style="color:#fde047;"></i> TIU: Min 80</span>
-                    <span class="pg-pill"><i class="fas fa-user-check" style="color:#6ee7b7;"></i> TKP: Min 166</span>
-                    <span class="pg-pill"><i class="fas fa-trophy" style="color:#fcd34d;"></i> Maks: 550</span>
-                </div>
-            </div>
-            <div>
-                <button onclick="window.mulaiSingleplayer('full')" style="background:#f59e0b; color:#0f172a; border:none; padding:12px 24px; border-radius:10px; font-weight:800; font-size:0.95rem; cursor:pointer; box-shadow:0 4px 12px rgba(245, 158, 11, 0.4); display:inline-flex; align-items:center; gap:8px;">
-                    <i class="fas fa-play"></i> Mulai Simulasi SKD
+    <!-- POST-LOGIN APP SHELL (LOBBY DASHBOARD MENUJU ASN) -->
+    <div id="lobbySection" class="app-shell" style="display:none;">
+        <!-- SIDEBAR NAVIGASI (DESKTOP) -->
+        <aside class="app-sidebar">
+            <div class="sidebar-group-label">MENU UTAMA</div>
+            <nav class="sidebar-nav">
+                <button class="sidebar-item active" data-view="beranda" onclick="window.switchAppView('beranda')">
+                    <i class="fas fa-home"></i><span>Beranda</span>
+                </button>
+                <button class="sidebar-item" data-view="cat" onclick="window.switchAppView('cat')">
+                    <i class="fas fa-laptop-code"></i><span>Simulasi CAT</span>
+                </button>
+                <button class="sidebar-item" data-view="cbt" onclick="window.switchAppView('cbt')">
+                    <i class="fas fa-users"></i><span>CBT Mabar</span>
+                </button>
+                <button class="sidebar-item" data-view="brankas" onclick="window.switchAppView('brankas')">
+                    <i class="fas fa-vault"></i><span>Brankas Pembahasan</span>
+                </button>
+                <button class="sidebar-item" data-view="studi" onclick="window.switchAppView('studi')">
+                    <i class="fas fa-graduation-cap"></i><span>Pusat Studi ASN</span>
+                    <span class="sidebar-badge gold">GOLD</span>
+                </button>
+                <button class="sidebar-item" data-view="diskusi" onclick="window.switchAppView('diskusi')">
+                    <i class="fas fa-comments"></i><span>Diskusi &amp; Chat</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-upgrade-box">
+                <div class="sidebar-upgrade-title"><i class="fas fa-crown"></i> Status Paket</div>
+                <div id="sidebarTierLabel" class="sidebar-tier-pill">AKUN FREE</div>
+                <p>Buka akses hingga 19.999++ soal, Brankas Pembahasan, &amp; CBT Mabar.</p>
+                <button class="btn-sidebar-upgrade" onclick="window.switchAppView('upgrade')">
+                    Lihat Paket &amp; Upgrade
                 </button>
             </div>
-        </div>
-    </section>
+        </aside>
 
-    <!-- LOBBY MAIN SECTION (LOGGED IN) -->
-    <main class="main-content" id="lobbySection" style="display:none;">
-        <!-- TAB SWITCHER CAT vs CBT -->
-        <div class="lobby-tabs">
-            <button class="lobby-tab active" id="tabCatBtn" onclick="window.switchLobbyTab('cat')">
-                <i class="fas fa-laptop-code"></i> CAT Mandiri (Singleplayer)
+        <!-- KONTEN UTAMA -->
+        <main class="app-main">
+            <!-- VIEW 1: BERANDA -->
+            <section id="view-beranda" class="app-view active">
+                <!-- WELCOME BANNER -->
+                <div class="dash-welcome-banner" id="heroBannerSection">
+                    <div class="dash-welcome-text">
+                        <div class="dash-welcome-pill">
+                            <i class="fas fa-shield-alt"></i> STANDAR RESMI CAT BKN 2026
+                        </div>
+                        <h2>Selamat Datang, <span id="dashUserName">Pejuang ASN</span>! 🚀</h2>
+                        <p>Fokus kejar Passing Grade saklek BKN (TWK 65 • TIU 80 • TKP 166) lewat Simulasi CAT 110 Soal atau tantang teman di CBT Mabar.</p>
+                        <div class="dash-welcome-actions">
+                            <button class="btn-dash-gold" onclick="window.mulaiSingleplayer('full')">
+                                <i class="fas fa-play"></i> Mulai Simulasi 110 Soal
+                            </button>
+                            <button class="btn-dash-ghost" onclick="window.switchAppView('cbt')">
+                                <i class="fas fa-users"></i> Masuk CBT Mabar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dash-pg-card">
+                        <div class="dash-pg-title">Target Passing Grade BKN</div>
+                        <div class="dash-pg-row"><span>TWK (30 Soal)</span><strong>Min 65</strong></div>
+                        <div class="dash-pg-row"><span>TIU (35 Soal)</span><strong>Min 80</strong></div>
+                        <div class="dash-pg-row"><span>TKP (45 Soal • 1–5)</span><strong>Min 166</strong></div>
+                        <div class="dash-pg-total"><span>Skor Maksimal</span><strong>550</strong></div>
+                    </div>
+                </div>
+
+                <!-- 4 KARTU RINGKASAN CEPAT -->
+                <div class="dash-kpi-grid">
+                    <div class="dash-kpi-card" onclick="window.switchAppView('cat')">
+                        <div class="kpi-icon blue"><i class="fas fa-layer-group"></i></div>
+                        <div>
+                            <div class="kpi-label">Bank Soal</div>
+                            <div class="kpi-value">19.999++</div>
+                            <div class="kpi-sub">TWK • TIU • TKP</div>
+                        </div>
+                    </div>
+                    <div class="dash-kpi-card" onclick="window.switchAppView('brankas')">
+                        <div class="kpi-icon green"><i class="fas fa-check-double"></i></div>
+                        <div>
+                            <div class="kpi-label">Brankas Pembahasan</div>
+                            <div class="kpi-value">Siap Review</div>
+                            <div class="kpi-sub">Benar, Salah &amp; Nilai</div>
+                        </div>
+                    </div>
+                    <div class="dash-kpi-card" onclick="window.switchAppView('cbt')">
+                        <div class="kpi-icon purple"><i class="fas fa-trophy"></i></div>
+                        <div>
+                            <div class="kpi-label">CBT Mabar</div>
+                            <div class="kpi-value">Kode 5 Digit</div>
+                            <div class="kpi-sub">Live Tie-Breaker BKN</div>
+                        </div>
+                    </div>
+                    <div class="dash-kpi-card" onclick="window.switchAppView('upgrade')">
+                        <div class="kpi-icon gold"><i class="fas fa-crown"></i></div>
+                        <div>
+                            <div class="kpi-label">Paket Aktif</div>
+                            <div class="kpi-value" id="kpiTierValue">FREE</div>
+                            <div class="kpi-sub">Klik untuk Upgrade</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AKSES CEPAT FITUR UNGGULAN -->
+                <div class="dash-section-head">
+                    <h3><i class="fas fa-compass" style="color:var(--primary);"></i> Mulai dari Mana Hari Ini?</h3>
+                    <span>Pilih jalur latihan sesuai targetmu</span>
+                </div>
+                <div class="dash-quick-grid">
+                    <div class="quick-action-card" onclick="window.switchAppView('cat')">
+                        <div class="qa-badge free">CAT MANDIRI</div>
+                        <h4>Tryout &amp; Drill Subtes</h4>
+                        <p>Simulasi 100 menit (110 soal) atau latihan cepat per subtes TWK, TIU, TKP.</p>
+                        <span class="qa-link">Buka Paket Soal <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                    <div class="quick-action-card" onclick="window.switchAppView('cbt')">
+                        <div class="qa-badge cbt">CBT MULTIPLAYER</div>
+                        <h4>Bikin / Gabung Room Mabar</h4>
+                        <p>Adu cepat &amp; akurat bareng teman dengan kapasitas sesuai paket (1 / 2 / 3 orang).</p>
+                        <span class="qa-link">Masuk Lobby Mabar <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                    <div class="quick-action-card" onclick="window.switchAppView('studi')">
+                        <div class="qa-badge gold">KHUSUS GOLD</div>
+                        <h4>Pusat Studi ASN &amp; Remedial</h4>
+                        <p>Pelajari materi kisi-kisi BKN dan coba lagi soal-soal yang masih salah.</p>
+                        <span class="qa-link">Buka Pusat Studi <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 2: SIMULASI CAT (PAKET SOAL FREE & BERBAYAR) -->
+            <section id="view-cat" class="app-view">
+                <div class="view-banner navy">
+                    <div>
+                        <h2><i class="fas fa-laptop-code"></i> Simulasi CAT &amp; Paket Soal SKD</h2>
+                        <p>Pilih paket gratis untuk pemanasan atau buka paket berbayar untuk akses bank soal lengkap &amp; pembahasan 1x klik.</p>
+                    </div>
+                </div>
+
+                <div class="lobby-filter-bar">
+                    <div class="filter-chips">
+                        <button class="filter-chip active" onclick="window.filterPaketSoal('all', this)">Semua</button>
+                        <button class="filter-chip" onclick="window.filterPaketSoal('free', this)">Gratis</button>
+                        <button class="filter-chip" onclick="window.filterPaketSoal('paid', this)">Berbayar</button>
+                        <button class="filter-chip" onclick="window.filterPaketSoal('subtes', this)">Drill Subtes</button>
+                    </div>
+                </div>
+
+                <div class="grid-modes" id="paketSoalGrid">
+                    <!-- KARTU FREE 1: SIMULASI SKD -->
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="full">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
+                                <span class="badge-cat">TRYOUT FULL</span>
+                            </div>
+                            <div class="card-mode-header">
+                                <div class="mode-icon blue"><i class="fas fa-laptop-code"></i></div>
+                                <div>
+                                    <h3>Simulasi Akbar SKD</h3>
+                                    <span style="font-size:0.75rem; color:#2563eb; font-weight:700;">110 Soal • 100 Menit</span>
+                                </div>
+                            </div>
+                            <p>Simulasi CAT BKN standar resmi memadukan TWK, TIU, dan TKP dengan evaluasi Passing Grade otomatis.</p>
+                        </div>
+                        <button class="btn-card primary" onclick="window.mulaiSingleplayer('full')"><i class="fas fa-play"></i> Mulai Kerjakan</button>
+                    </div>
+
+                    <!-- KARTU FREE 2: DRILL SUBTES -->
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
+                                <span class="badge-cat">DRILL SUBTES</span>
+                            </div>
+                            <div class="card-mode-header">
+                                <div class="mode-icon gold"><i class="fas fa-bolt"></i></div>
+                                <div>
+                                    <h3>Drill Cepat Sub-Tes</h3>
+                                    <span style="font-size:0.75rem; color:#d97706; font-weight:700;">Fokus TWK / TIU / TKP</span>
+                                </div>
+                            </div>
+                            <p>Latihan terfokus per subtes untuk mengejar ambang batas (Passing Grade) BKN.</p>
+                            <div style="display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap;">
+                                <button onclick="window.mulaiSingleplayer('twk')" style="padding:5px 11px; font-size:0.74rem; border-radius:6px; border:1px solid #bfdbfe; background:#eff6ff; color:#1d4ed8; cursor:pointer; font-weight:700;">Drill TWK</button>
+                                <button onclick="window.mulaiSingleplayer('tiu')" style="padding:5px 11px; font-size:0.74rem; border-radius:6px; border:1px solid #fde68a; background:#fffbeb; color:#b45309; cursor:pointer; font-weight:700;">Drill TIU</button>
+                                <button onclick="window.mulaiSingleplayer('tkp')" style="padding:5px 11px; font-size:0.74rem; border-radius:6px; border:1px solid #a7f3d0; background:#ecfdf5; color:#047857; cursor:pointer; font-weight:700;">Drill TKP</button>
+                            </div>
+                        </div>
+                        <button class="btn-card outline" onclick="window.mulaiSingleplayer('tiu')"><i class="fas fa-crosshairs"></i> Mulai Drill TIU</button>
+                    </div>
+
+                    <!-- KARTU BERBAYAR 1: TRYOUT HOTS / SATUAN -->
+                    <div class="card-mode packet-card paid" data-tier="paid" data-cat="full">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>
+                                <span class="badge-cat">SATUAN Rp 5rb / PRO</span>
+                            </div>
+                            <div class="card-mode-header">
+                                <div class="mode-icon gold"><i class="fas fa-fire"></i></div>
+                                <div>
+                                    <h3>Tryout SKD HOTS 2026 #1</h3>
+                                    <span style="font-size:0.75rem; color:#b45309; font-weight:700;">110 Soal • 100 Menit • HOTS</span>
+                                </div>
+                            </div>
+                            <p>Paket soal HOTS prediksi CPNS 2026 lengkap dengan pembahasan detail &amp; pembobotan TKP 1–5.</p>
+                        </div>
+                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Tryout SKD HOTS 2026 #1', 'Mulai Rp 5.000 / Paket')">
+                            <i class="fas fa-lock"></i> Buka Akses Paket
+                        </button>
+                    </div>
+
+                    <!-- KARTU BERBAYAR 2: MODE BELAJAR 1x KLIK -->
+                    <div class="card-mode packet-card paid" data-tier="paid" data-cat="subtes">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access paid"><i class="fas fa-crown"></i> BRONZE / SILVER / GOLD</span>
+                                <span class="badge-cat">MODE BELAJAR</span>
+                            </div>
+                            <div class="card-mode-header">
+                                <div class="mode-icon blue"><i class="fas fa-lightbulb"></i></div>
+                                <div>
+                                    <h3>1x Klik Langsung Pembahasan</h3>
+                                    <span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">Instan Cek Kunci &amp; Bobot</span>
+                                </div>
+                            </div>
+                            <p>Klik pilihan jawaban dan langsung lihat kunci benar/salah, bobot TKP 1–5, serta pembahasannya seketika.</p>
+                        </div>
+                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Mode Belajar 1x Klik Pembahasan', 'Paket Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')">
+                            <i class="fas fa-lock"></i> Buka Mode Belajar
+                        </button>
+                    </div>
+
+                    <!-- KARTU BERBAYAR 3: COBA LAGI SOAL SALAH (GOLD) -->
+                    <div class="card-mode packet-card paid gold-border" data-tier="paid" data-cat="subtes">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access gold-badge"><i class="fas fa-crown"></i> KHUSUS GOLD</span>
+                                <span class="badge-cat">REMEDIAL</span>
+                            </div>
+                            <div class="card-mode-header">
+                                <div class="mode-icon gold"><i class="fas fa-redo-alt"></i></div>
+                                <div>
+                                    <h3>Coba Lagi Soal yang Salah</h3>
+                                    <span style="font-size:0.75rem; color:#b45309; font-weight:700;">Latih Ulang Otomatis</span>
+                                </div>
+                            </div>
+                            <p>Kumpulkan otomatis soal-soal yang masih salah dari tryout sebelumnya dan kerjakan ulang sampai tuntas.</p>
+                        </div>
+                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Fitur Coba Lagi Soal Salah', 'Paket Gold (Rp 99.999)')">
+                            <i class="fas fa-crown"></i> Upgrade ke Gold
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 3: CBT MABAR (MULTIPLAYER) -->
+            <section id="view-cbt" class="app-view">
+                <div class="view-banner green">
+                    <div>
+                        <h2><i class="fas fa-users"></i> CBT Mabar Real-Time (Multiplayer)</h2>
+                        <p>Buat room, sebarkan kode 5 digit, dan adu skor dengan tie-breaker resmi BKN (TKP → TIU → TWK → Waktu Tercepat).</p>
+                    </div>
+                </div>
+
+                <div class="mabar-lobby-card">
+                    <div class="mabar-lobby-info">
+                        <h3>Siap Adu Skor Bareng Pejuang ASN Lainnya?</h3>
+                        <p>Kapasitas room menyesuaikan jenjang paket aktifmu. Gunakan kode 5 digit atau link undangan instan untuk mulai bertanding.</p>
+                        <div class="mabar-cap-pills">
+                            <span class="cap-pill">Bronze: Maks 1 Orang</span>
+                            <span class="cap-pill">Silver: Maks 2 Orang</span>
+                            <span class="cap-pill gold">Gold: Maks 3 Orang</span>
+                        </div>
+                    </div>
+                    <div class="mabar-lobby-actions">
+                        <button class="btn-card accent" onclick="window.bukaModalBikinRoom()"><i class="fas fa-plus-circle"></i> Bikin Room Mabar</button>
+                        <button class="btn-card outline" onclick="window.bukaModalGabungRoom()"><i class="fas fa-door-open"></i> Gabung Kode Room</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 4: BRANKAS PEMBAHASAN -->
+            <section id="view-brankas" class="app-view">
+                <div class="view-banner navy">
+                    <div>
+                        <h2><i class="fas fa-vault"></i> Brankas Pembahasan</h2>
+                        <p>Pantau riwayat jawaban benar, salah, perolehan nilai per butir soal, hingga latih ulang soal yang masih keliru.</p>
+                    </div>
+                </div>
+
+                <div class="brankas-summary-grid">
+                    <div class="brankas-stat">
+                        <span>Status Review</span>
+                        <strong>Siap Dipelajari</strong>
+                    </div>
+                    <div class="brankas-stat">
+                        <span>Riwayat Nilai</span>
+                        <strong>TWK • TIU • TKP</strong>
+                    </div>
+                    <div class="brankas-stat gold">
+                        <span>Remedial Soal Salah</span>
+                        <strong>Khusus Paket Gold</strong>
+                    </div>
+                </div>
+
+                <div class="empty-state-card">
+                    <div class="empty-icon"><i class="fas fa-folder-open"></i></div>
+                    <h3>Riwayat Pembahasan &amp; Remedial Soal Salah</h3>
+                    <p>Selesaikan simulasi CAT untuk menyimpan riwayat benar/salah dan nilai di Brankas Pembahasan. Pemilik paket Gold bisa langsung klik <strong>Coba Lagi Soal yang Salah</strong>.</p>
+                    <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+                        <button class="btn-card primary" style="width:auto;" onclick="window.mulaiSingleplayer('full')">
+                            <i class="fas fa-play"></i> Kerjakan Simulasi Sekarang
+                        </button>
+                        <button class="btn-card paid-cta" style="width:auto;" onclick="window.bukaModalUpgrade('Coba Lagi Soal yang Salah', 'Paket Gold (Rp 99.999)')">
+                            <i class="fas fa-crown"></i> Remedial Soal Salah (Gold)
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 5: PUSAT STUDI ASN (GOLD) -->
+            <section id="view-studi" class="app-view">
+                <div class="view-banner gold">
+                    <div>
+                        <h2><i class="fas fa-graduation-cap"></i> Pusat Studi ASN (Eksklusif Gold)</h2>
+                        <p>Kumpulan materi inti, trik cepat hitung TIU, dan panduan kisi-kisi resmi BKN CPNS 2026.</p>
+                    </div>
+                </div>
+
+                <div class="grid-modes">
+                    <div class="card-mode packet-card paid gold-border">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access gold-badge"><i class="fas fa-crown"></i> GOLD</span>
+                                <span class="badge-cat">TWK • PG 65</span>
+                            </div>
+                            <h3>Modul Inti TWK &amp; Pilar Negara</h3>
+                            <p>Ringkasan Nasionalisme, Integritas, Bela Negara, UUD 1945, dan Bahasa Indonesia sesuai kisi-kisi BKN.</p>
+                        </div>
+                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Pusat Studi ASN - Modul TWK', 'Paket Gold (Rp 99.999)')">
+                            <i class="fas fa-lock"></i> Buka Materi Gold
+                        </button>
+                    </div>
+                    <div class="card-mode packet-card paid gold-border">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access gold-badge"><i class="fas fa-crown"></i> GOLD</span>
+                                <span class="badge-cat">TIU • PG 80</span>
+                            </div>
+                            <h3>Trik Cepat Numerik &amp; Figural TIU</h3>
+                            <p>Rumus cepat deret angka, perbandingan kuantitatif, silogisme, dan penalaran analitis tanpa buang waktu.</p>
+                        </div>
+                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Pusat Studi ASN - Modul TIU', 'Paket Gold (Rp 99.999)')">
+                            <i class="fas fa-lock"></i> Buka Materi Gold
+                        </button>
+                    </div>
+                    <div class="card-mode packet-card paid gold-border">
+                        <div>
+                            <div class="packet-badges">
+                                <span class="badge-access gold-badge"><i class="fas fa-crown"></i> GOLD</span>
+                                <span class="badge-cat">TKP • PG 166</span>
+                            </div>
+                            <h3>Strategi Skor 5 di Semua Aspek TKP</h3>
+                            <p>Cara membaca kata kunci Pelayanan Publik, Jejaring Kerja, Sosial Budaya, TIK, Profesionalisme &amp; Anti-Radikalisme.</p>
+                        </div>
+                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Pusat Studi ASN - Modul TKP', 'Paket Gold (Rp 99.999)')">
+                            <i class="fas fa-lock"></i> Buka Materi Gold
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 6: DISKUSI & CHAT DALAM APLIKASI -->
+            <section id="view-diskusi" class="app-view">
+                <div class="view-banner navy">
+                    <div>
+                        <h2><i class="fas fa-comments"></i> Diskusi &amp; Chat Pejuang ASN</h2>
+                        <p>Bahas soal sulit, tanya trik cepat TIU, dan berbagi semangat sesama peserta CPNS 2026 langsung di dalam aplikasi.</p>
+                    </div>
+                </div>
+
+                <div class="chat-shell">
+                    <div class="chat-channels">
+                        <span class="chat-channel active"><i class="fas fa-hashtag"></i> umum-cpns-2026</span>
+                        <span class="chat-channel"><i class="fas fa-hashtag"></i> bedah-soal-tiu</span>
+                        <span class="chat-channel"><i class="fas fa-hashtag"></i> sharing-twk-tkp</span>
+                    </div>
+                    <div class="chat-messages-box" id="chatMessagesBox">
+                        <div class="chat-msg">
+                            <div class="chat-avatar">M</div>
+                            <div class="chat-bubble">
+                                <div class="chat-meta"><strong>Magaski • Analisis Soal</strong> <span>Baru saja</span></div>
+                                <p>Selamat datang di Ruang Diskusi MENUJU ASN! Ada soal TWK atau TIU yang bikin bingung? Drop nomor atau topiknya di sini ya.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="chat-input-row" onsubmit="window.kirimPesanDiskusi(event)">
+                        <input type="text" id="chatInputText" placeholder="Tulis pesan atau tanya soal di sini..." autocomplete="off" />
+                        <button type="submit"><i class="fas fa-paper-plane"></i> Kirim</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- VIEW 7: BELI PAKET / UPGRADE -->
+            <section id="view-upgrade" class="app-view">
+                <div class="view-banner gold">
+                    <div>
+                        <h2><i class="fas fa-crown"></i> Pilih Paket Belajar MENUJU ASN</h2>
+                        <p>Mulai dari paket satuan Rp 5.000 atau pilih Bronze, Silver, dan Gold untuk akses fitur lengkap.</p>
+                    </div>
+                </div>
+
+                <div class="satuan-banner" style="margin-bottom:20px;">
+                    <div class="satuan-info">
+                        <span class="satuan-badge"><i class="fas fa-ticket-alt"></i> PAKET ECERAN</span>
+                        <h3>Paket Tryout Satuan Mulai Rp 5.000</h3>
+                        <p>Sekali bayar per paket, cocok untuk pemanasan sebelum ambil langganan.</p>
+                    </div>
+                    <button class="btn-satuan" onclick="window.bukaModalUpgrade('Paket Satuan', 'Mulai Rp 5.000')">
+                        Pilih Satuan <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card bronze">
+                        <div class="pricing-tier">BRONZE</div>
+                        <div class="pricing-price">Rp 49.999</div>
+                        <ul class="pricing-list">
+                            <li><i class="fas fa-check-circle"></i><span>Akses Bank Soal <strong>9.999+</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Mode Fokus CAT BKN 100 Menit</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>1x Klik</strong> Langsung Pembahasan</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>Brankas Pembahasan</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>1 Orang</strong></span></li>
+                        </ul>
+                        <button class="btn-pricing outline" onclick="window.bukaModalUpgrade('Paket Bronze', 'Rp 49.999')">Pilih Bronze</button>
+                    </div>
+                    <div class="pricing-card silver popular">
+                        <div class="popular-tag">⭐ PALING LARIS</div>
+                        <div class="pricing-tier">SILVER</div>
+                        <div class="pricing-price">Rp 74.999</div>
+                        <ul class="pricing-list">
+                            <li><i class="fas fa-check-circle"></i><span>Akses Bank Soal <strong>14.999++</strong> (+ HOTS)</span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Mode Fokus CAT BKN 100 Menit</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>1x Klik</strong> Langsung Pembahasan</span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Analisis Skor &amp; Ambang Batas BKN</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>Brankas Pembahasan</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>2 Orang</strong></span></li>
+                        </ul>
+                        <button class="btn-pricing primary" onclick="window.bukaModalUpgrade('Paket Silver', 'Rp 74.999')">Pilih Silver</button>
+                    </div>
+                    <div class="pricing-card gold">
+                        <div class="popular-tag gold-tag">👑 TERLENGKAP</div>
+                        <div class="pricing-tier">GOLD</div>
+                        <div class="pricing-price">Rp 99.999</div>
+                        <ul class="pricing-list">
+                            <li><i class="fas fa-check-circle"></i><span>Akses Bank Soal <strong>19.999++</strong> (Full)</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>1x Klik</strong> Langsung Pembahasan</span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Analisis Skor &amp; Ambang Batas BKN</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>Brankas Pembahasan</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>Coba Lagi Soal Salah</strong> (Remedial)</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>Pusat Studi ASN</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>3 Orang</strong></span></li>
+                        </ul>
+                        <button class="btn-pricing gold-btn" onclick="window.bukaModalUpgrade('Paket Gold', 'Rp 99.999')">Pilih Gold</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- BOTTOM NAVIGATION (KHUSUS MOBILE) -->
+        <nav class="mobile-bottom-nav">
+            <button class="mob-nav-btn active" data-view="beranda" onclick="window.switchAppView('beranda')">
+                <i class="fas fa-home"></i><span>Beranda</span>
             </button>
-            <button class="lobby-tab" id="tabCbtBtn" onclick="window.switchLobbyTab('cbt')">
-                <i class="fas fa-users"></i> CBT Mabar (Multiplayer)
+            <button class="mob-nav-btn" data-view="cat" onclick="window.switchAppView('cat')">
+                <i class="fas fa-laptop-code"></i><span>CAT</span>
             </button>
-        </div>
-
-        <!-- PANEL 1: CAT MANDIRI (SINGLEPLAYER) -->
-        <div id="panelCatSingleplayer">
-            <div class="lobby-filter-bar">
-                <div class="section-title" style="margin-bottom:0;">
-                    <i class="fas fa-layer-group" style="color:var(--primary);"></i> Paket Soal &amp; Simulasi SKD
-                </div>
-                <div class="filter-chips">
-                    <button class="filter-chip active" onclick="window.filterPaketSoal('all', this)">Semua</button>
-                    <button class="filter-chip" onclick="window.filterPaketSoal('free', this)">Gratis</button>
-                    <button class="filter-chip" onclick="window.filterPaketSoal('paid', this)">Berbayar</button>
-                    <button class="filter-chip" onclick="window.filterPaketSoal('subtes', this)">Drill Subtes</button>
-                </div>
-            </div>
-
-            <div class="grid-modes" id="paketSoalGrid">
-                <!-- KARTU FREE 1: SIMULASI SKD -->
-                <div class="card-mode packet-card free" data-tier="free" data-cat="full">
-                    <div>
-                        <div class="packet-badges">
-                            <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
-                            <span class="badge-cat">TRYOUT FULL</span>
-                        </div>
-                        <div class="card-mode-header">
-                            <div class="mode-icon blue"><i class="fas fa-laptop-code"></i></div>
-                            <div>
-                                <h3>Simulasi Akbar SKD</h3>
-                                <span style="font-size:0.75rem; color:#2563eb; font-weight:700;">110 Soal • 100 Menit</span>
-                            </div>
-                        </div>
-                        <p>Simulasi CAT BKN standar resmi memadukan TWK, TIU, dan TKP dengan evaluasi Passing Grade otomatis.</p>
-                    </div>
-                    <button class="btn-card primary" onclick="window.mulaiSingleplayer('full')"><i class="fas fa-play"></i> Mulai Kerjakan</button>
-                </div>
-
-                <!-- KARTU FREE 2: DRILL SUBTES -->
-                <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
-                    <div>
-                        <div class="packet-badges">
-                            <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
-                            <span class="badge-cat">DRILL SUBTES</span>
-                        </div>
-                        <div class="card-mode-header">
-                            <div class="mode-icon gold"><i class="fas fa-bolt"></i></div>
-                            <div>
-                                <h3>Drill Cepat Sub-Tes</h3>
-                                <span style="font-size:0.75rem; color:#d97706; font-weight:700;">Fokus TWK / TIU / TKP</span>
-                            </div>
-                        </div>
-                        <p>Latihan terfokus per subtes untuk mengejar ambang batas (Passing Grade) BKN.</p>
-                        <div style="display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap;">
-                            <button onclick="window.mulaiSingleplayer('twk')" style="padding:5px 11px; font-size:0.74rem; border-radius:6px; border:1px solid #bfdbfe; background:#eff6ff; color:#1d4ed8; cursor:pointer; font-weight:700;">Drill TWK</button>
-                            <button onclick="window.mulaiSingleplayer('tiu')" style="padding:5px 11px; font-size:0.74rem; border-radius:6px; border:1px solid #fde68a; background:#fffbeb; color:#b45309; cursor:pointer; font-weight:700;">Drill TIU</button>
-                            <button onclick="window.mulaiSingleplayer('tkp')" style="padding:5px 11px; font-size:0.74rem; border-radius:6px; border:1px solid #a7f3d0; background:#ecfdf5; color:#047857; cursor:pointer; font-weight:700;">Drill TKP</button>
-                        </div>
-                    </div>
-                    <button class="btn-card outline" onclick="window.mulaiSingleplayer('tiu')"><i class="fas fa-crosshairs"></i> Mulai Drill TIU</button>
-                </div>
-
-                <!-- KARTU BERBAYAR 1: TRYOUT HOTS / SATUAN -->
-                <div class="card-mode packet-card paid" data-tier="paid" data-cat="full">
-                    <div>
-                        <div class="packet-badges">
-                            <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>
-                            <span class="badge-cat">SATUAN Rp 5rb / PRO</span>
-                        </div>
-                        <div class="card-mode-header">
-                            <div class="mode-icon gold"><i class="fas fa-fire"></i></div>
-                            <div>
-                                <h3>Tryout SKD HOTS 2026 #1</h3>
-                                <span style="font-size:0.75rem; color:#b45309; font-weight:700;">110 Soal • 100 Menit • HOTS</span>
-                            </div>
-                        </div>
-                        <p>Paket soal HOTS prediksi CPNS 2026 lengkap dengan pembahasan detail &amp; pembobotan TKP 1–5.</p>
-                    </div>
-                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Tryout SKD HOTS 2026 #1', 'Mulai Rp 5.000 / Paket')">
-                        <i class="fas fa-lock"></i> Buka Akses Paket
-                    </button>
-                </div>
-
-                <!-- KARTU BERBAYAR 2: MODE BELAJAR 1x KLIK -->
-                <div class="card-mode packet-card paid" data-tier="paid" data-cat="subtes">
-                    <div>
-                        <div class="packet-badges">
-                            <span class="badge-access paid"><i class="fas fa-crown"></i> SILVER / GOLD</span>
-                            <span class="badge-cat">MODE BELAJAR</span>
-                        </div>
-                        <div class="card-mode-header">
-                            <div class="mode-icon blue"><i class="fas fa-lightbulb"></i></div>
-                            <div>
-                                <h3>1x Klik Langsung Pembahasan</h3>
-                                <span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">Instan Cek Kunci &amp; Bobot</span>
-                            </div>
-                        </div>
-                        <p>Klik pilihan jawaban dan langsung lihat kunci benar/salah, bobot TKP 1–5, serta pembahasannya seketika.</p>
-                    </div>
-                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Mode Belajar 1x Klik Pembahasan', 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)')">
-                        <i class="fas fa-lock"></i> Aktifkan Silver / Gold
-                    </button>
-                </div>
-
-                <!-- KARTU BERBAYAR 3: COBA LAGI SOAL SALAH (GOLD) -->
-                <div class="card-mode packet-card paid gold-border" data-tier="paid" data-cat="subtes">
-                    <div>
-                        <div class="packet-badges">
-                            <span class="badge-access gold-badge"><i class="fas fa-crown"></i> KHUSUS GOLD</span>
-                            <span class="badge-cat">REMEDIAL</span>
-                        </div>
-                        <div class="card-mode-header">
-                            <div class="mode-icon gold"><i class="fas fa-redo-alt"></i></div>
-                            <div>
-                                <h3>Coba Lagi Soal yang Salah</h3>
-                                <span style="font-size:0.75rem; color:#b45309; font-weight:700;">Latih Ulang Otomatis</span>
-                            </div>
-                        </div>
-                        <p>Kumpulkan otomatis soal-soal yang masih salah dari tryout sebelumnya dan kerjakan ulang sampai tuntas.</p>
-                    </div>
-                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Fitur Coba Lagi Soal Salah', 'Paket Gold (Rp 99.999)')">
-                        <i class="fas fa-crown"></i> Upgrade ke Gold
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- PANEL 2: CBT MABAR (MULTIPLAYER) -->
-        <div id="panelCbtMultiplayer" style="display:none;">
-            <div class="section-title">
-                <i class="fas fa-users" style="color:var(--success);"></i> CBT Mabar Real-Time (Multiplayer)
-            </div>
-            <div class="mabar-lobby-card">
-                <div class="mabar-lobby-info">
-                    <h3>Adu Skor SKD Bareng Teman Belajar</h3>
-                    <p>Buat Room Mabar dengan kode 5 digit atau gabung ke room temanmu. Sistem otomatis menghitung peringkat dengan tie-breaker resmi BKN (TKP → TIU → TWK → Waktu Tercepat).</p>
-                    <div class="mabar-cap-pills">
-                        <span class="cap-pill">Bronze: Maks 1 Orang</span>
-                        <span class="cap-pill">Silver: Maks 2 Orang</span>
-                        <span class="cap-pill gold">Gold: Maks 3 Orang</span>
-                    </div>
-                </div>
-                <div class="mabar-lobby-actions">
-                    <button class="btn-card accent" onclick="window.bukaModalBikinRoom()"><i class="fas fa-plus-circle"></i> Bikin Room Mabar</button>
-                    <button class="btn-card outline" onclick="window.bukaModalGabungRoom()"><i class="fas fa-door-open"></i> Gabung Kode Room</button>
-                </div>
-            </div>
-        </div>
-    </main>
+            <button class="mob-nav-btn" data-view="cbt" onclick="window.switchAppView('cbt')">
+                <i class="fas fa-users"></i><span>Mabar</span>
+            </button>
+            <button class="mob-nav-btn" data-view="brankas" onclick="window.switchAppView('brankas')">
+                <i class="fas fa-vault"></i><span>Brankas</span>
+            </button>
+            <button class="mob-nav-btn" data-view="diskusi" onclick="window.switchAppView('diskusi')">
+                <i class="fas fa-comments"></i><span>Diskusi</span>
+            </button>
+        </nav>
+    </div>
 
     <!-- EXAM STAGE -->
     <main id="examStage">
@@ -430,14 +742,14 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="data_skd_cpns.js?v=2.0.0"></script>
-    <script type="module" src="app.js?v=2.0.0"></script>
+    <script src="data_skd_cpns.js?v=2.1.0"></script>
+    <script type="module" src="app.js?v=2.1.0"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.0.4')
+                navigator.serviceWorker.register('./sw.js?v=2.1.0')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
