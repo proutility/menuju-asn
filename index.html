@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MENUJU ASN - CBT CAT SKD CPNS 2026</title>
+    
+    <!-- PWA & SEO META -->
+    <meta name="theme-color" content="#1e3a8a">
+    <meta name="description" content="Platform Simulasi CAT BKN Real-Time & Live Battle SKD CPNS 2026 dengan Standar Passing Grade Resmi KemenPAN-RB">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+    <!-- GOOGLE FONTS & ICONS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="style.css?v=1.0.0">
+</head>
+<body>
+
+    <!-- NAVBAR HEADER -->
+    <header class="navbar-asn">
+        <div class="brand-wrap" onclick="window.kembaliKeLobby()" style="cursor:pointer;">
+            <div class="brand-logo-badge">
+                <i class="fas fa-landmark"></i>
+            </div>
+            <div class="brand-text">
+                <h1>MENUJU ASN</h1>
+                <span>CBT SKD CPNS 2026 • BKN CAT STANDARD</span>
+            </div>
+        </div>
+        <div class="nav-actions">
+            <button id="btnAuth" class="btn-auth" onclick="window.eksekusiLoginGoogle()">
+                <i class="fab fa-google"></i> Masuk Akun
+            </button>
+            <div id="userProfileBadge" style="display:none; align-items:center; gap:8px;"></div>
+        </div>
+    </header>
+
+    <!-- HERO & PASSING GRADE BANNER -->
+    <section class="hero-section" id="heroBannerSection">
+        <div class="hero-card">
+            <div class="hero-text">
+                <h2>Simulasi CAT SKD CPNS Real-Time 🚀</h2>
+                <p>Uji kesiapan menghadapi seleksi CPNS 2026 dengan format resmi CAT BKN: Pembobotan TKP skala 1-5, skor TWK & TIU benar +5, serta evaluasi passing grade saklek.</p>
+                <div class="pg-badges-row">
+                    <span class="pg-pill"><i class="fas fa-shield-alt" style="color:#60a5fa;"></i> TWK: Min 65</span>
+                    <span class="pg-pill"><i class="fas fa-brain" style="color:#fde047;"></i> TIU: Min 80</span>
+                    <span class="pg-pill"><i class="fas fa-user-check" style="color:#6ee7b7;"></i> TKP: Min 166</span>
+                    <span class="pg-pill"><i class="fas fa-trophy" style="color:#fcd34d;"></i> Maks: 550</span>
+                </div>
+            </div>
+            <div>
+                <button onclick="window.mulaiSingleplayer('full')" style="background:#f59e0b; color:#0f172a; border:none; padding:12px 24px; border-radius:10px; font-weight:800; font-size:0.95rem; cursor:pointer; box-shadow:0 4px 12px rgba(245, 158, 11, 0.4); display:inline-flex; align-items:center; gap:8px;">
+                    <i class="fas fa-play"></i> Mulai Simulasi SKD
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOBBY MAIN SECTION -->
+    <main class="main-content" id="lobbySection">
+        <div class="section-title">
+            <i class="fas fa-th-large" style="color:var(--primary);"></i> Pilih Mode Latihan & Ujian
+        </div>
+
+        <div class="grid-modes">
+            <!-- MODE 1: SIMULASI FULL -->
+            <div class="card-mode" onclick="window.mulaiSingleplayer('full')">
+                <div>
+                    <div class="card-mode-header">
+                        <div class="mode-icon blue"><i class="fas fa-laptop-code"></i></div>
+                        <div>
+                            <h3>Simulasi Akbar SKD</h3>
+                            <span style="font-size:0.75rem; color:#2563eb; font-weight:700;">110 Soal • 100 Menit</span>
+                        </div>
+                    </div>
+                    <p>Paket simulasi komprehensif memadukan TWK, TIU, dan TKP secara berurutan sesuai durasi dan tekanan waktu ujian CAT BKN sesungguhnya.</p>
+                </div>
+                <button class="btn-card primary"><i class="fas fa-play"></i> Uji Coba Sekarang</button>
+            </div>
+
+            <!-- MODE 2: DRILL SUBTES -->
+            <div class="card-mode">
+                <div>
+                    <div class="card-mode-header">
+                        <div class="mode-icon gold"><i class="fas fa-bolt"></i></div>
+                        <div>
+                            <h3>Drill Cepat Sub-Tes</h3>
+                            <span style="font-size:0.75rem; color:#d97706; font-weight:700;">Fokus Materi Spesifik</span>
+                        </div>
+                    </div>
+                    <p>Perkuat kelemahan Anda di subtes tertentu untuk mendongkrak perolehan poin ambang batas (Passing Grade).</p>
+                    <div style="display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap;">
+                        <button onclick="window.mulaiSingleplayer('twk')" style="padding:4px 10px; font-size:0.72rem; border-radius:6px; border:1px solid #bfdbfe; background:#eff6ff; color:#1d4ed8; cursor:pointer; font-weight:700;">Drill TWK</button>
+                        <button onclick="window.mulaiSingleplayer('tiu')" style="padding:4px 10px; font-size:0.72rem; border-radius:6px; border:1px solid #fde68a; background:#fffbeb; color:#b45309; cursor:pointer; font-weight:700;">Drill TIU</button>
+                        <button onclick="window.mulaiSingleplayer('tkp')" style="padding:4px 10px; font-size:0.72rem; border-radius:6px; border:1px solid #a7f3d0; background:#ecfdf5; color:#047857; cursor:pointer; font-weight:700;">Drill TKP</button>
+                    </div>
+                </div>
+                <button class="btn-card outline" onclick="window.mulaiSingleplayer('tiu')"><i class="fas fa-crosshairs"></i> Pilih Subtes</button>
+            </div>
+
+            <!-- MODE 3: MULTIPLAYER MABAR -->
+            <div class="card-mode">
+                <div>
+                    <div class="card-mode-header">
+                        <div class="mode-icon green"><i class="fas fa-users"></i></div>
+                        <div>
+                            <h3>Live Battle Mabar CPNS</h3>
+                            <span style="font-size:0.75rem; color:#059669; font-weight:700;">Multiplayer Realtime</span>
+                        </div>
+                    </div>
+                    <p>Bikin room latihan bareng teman bimbel atau pejuang CPNS se-Indonesia. Lengkap dengan leaderboard dinamis dan bypass akun free via whitelist.</p>
+                </div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+                    <button class="btn-card accent" onclick="window.bukaModalBikinRoom()"><i class="fas fa-plus-circle"></i> Bikin Room</button>
+                    <button class="btn-card outline" onclick="window.bukaModalGabungRoom()"><i class="fas fa-door-open"></i> Gabung</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- EXAM STAGE -->
+    <main id="examStage">
+        <div class="exam-header">
+            <div class="exam-meta">
+                <span id="badgeSubtes" class="badge-subtes twk">TWK</span>
+                <span id="noSoalDisplay" style="font-weight:700; font-size:0.85rem; color:#334155;">Soal 1 dari 15</span>
+            </div>
+            <div class="exam-timer" id="examTimerDisplay">
+                <i class="fas fa-stopwatch"></i> 100:00
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-text" id="questionTextDisplay">
+                Memuat butir pertanyaan...
+            </div>
+            <div class="options-list" id="optionsListDisplay">
+                <!-- Pilihan Jawaban diinjeksi via app.js -->
+            </div>
+            
+            <div class="exam-nav">
+                <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
+                    <i class="fas fa-chevron-left"></i> Sebelumnya
+                </button>
+                <button id="btnNextSoal" class="btn-nav primary" onclick="window.nextSoal()">
+                    Berikutnya <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div><b>MENUJU ASN</b> • Platform CBT CAT SKD CPNS 2026</div>
+        <div style="margin-top:4px; font-size:0.72rem; color:#94a3b8;">
+            Infrastruktur Berbagi Cloud Firebase • Dilengkapi Mesin Live Real-Time Multi-Peserta
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="data_skd_cpns.js?v=1.0.0"></script>
+    <script type="module" src="app.js?v=1.0.0"></script>
+    
+    <script>
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js?v=1.0.0')
+                    .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
+                    .catch(err => console.warn('PWA registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>

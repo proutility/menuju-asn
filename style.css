@@ -1,0 +1,481 @@
+/* ==========================================================
+   MENUJU ASN - CBT SKD CPNS 2026 STYLESHEET
+   Warna Resmi: Deep Navy Blue (#1e3a8a), Gold (#d97706), Slate
+   ========================================================== */
+
+:root {
+    --primary: #1e3a8a;
+    --primary-light: #2563eb;
+    --primary-dark: #0f172a;
+    --accent: #d97706;
+    --accent-light: #f59e0b;
+    --success: #059669;
+    --danger: #dc2626;
+    --bg-page: #f8fafc;
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --font-main: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR HEADER */
+.navbar-asn {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.brand-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo-badge {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 0 2px 8px rgba(217, 119, 6, 0.4);
+}
+
+.brand-text h1 {
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.brand-text span {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-auth {
+    background: white;
+    color: var(--primary);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.82rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn-auth:hover {
+    background: #f1f5f9;
+    transform: translateY(-1px);
+}
+
+/* HERO BANNER & PASSING GRADE PILLS */
+.hero-section {
+    max-width: 1100px;
+    margin: 20px auto 10px;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.hero-card {
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+    border-radius: 16px;
+    padding: 24px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero-text h2 {
+    font-size: 1.45rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.hero-text p {
+    font-size: 0.88rem;
+    color: #cbd5e1;
+    max-width: 580px;
+    line-height: 1.5;
+}
+
+.pg-badges-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.pg-pill {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* LOBBY MODE CARDS */
+.main-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+    width: 100%;
+    flex: 1;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.grid-modes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card-mode {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: all 0.25s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-mode:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(30, 58, 138, 0.12);
+    border-color: #93c5fd;
+}
+
+.card-mode-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.mode-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.mode-icon.blue { background: #eff6ff; color: #2563eb; }
+.mode-icon.gold { background: #fffbeb; color: #d97706; }
+.mode-icon.green { background: #ecfdf5; color: #059669; }
+
+.card-mode h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--text-main);
+}
+
+.card-mode p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+    margin-bottom: 16px;
+}
+
+.btn-card {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: background 0.2s;
+}
+
+.btn-card.primary { background: var(--primary); color: white; }
+.btn-card.primary:hover { background: var(--primary-light); }
+.btn-card.accent { background: var(--accent); color: white; }
+.btn-card.accent:hover { background: var(--accent-light); }
+.btn-card.outline { background: #f1f5f9; color: var(--text-main); border: 1px solid #cbd5e1; }
+.btn-card.outline:hover { background: #e2e8f0; }
+
+/* EXAM STAGE */
+#examStage {
+    display: none;
+    max-width: 900px;
+    margin: 16px auto;
+    width: 100%;
+}
+
+.exam-header {
+    background: white;
+    border-radius: 12px;
+    padding: 14px 18px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+.exam-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge-subtes {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.badge-subtes.twk { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+.badge-subtes.tiu { background: #fffbeb; color: #b45309; border: 1px solid #fde68a; }
+.badge-subtes.tkp { background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; }
+
+.exam-timer {
+    background: #0f172a;
+    color: #f59e0b;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 0.92rem;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* QUESTION CARD */
+.question-card {
+    background: white;
+    border-radius: 14px;
+    padding: 24px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    margin-bottom: 16px;
+}
+
+.question-text {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #1e293b;
+    margin-bottom: 20px;
+    font-weight: 500;
+    white-space: pre-line;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: white;
+}
+
+.option-item:hover {
+    border-color: #93c5fd;
+    background: #f8fafc;
+}
+
+.option-item.selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.option-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #64748b;
+    flex-shrink: 0;
+}
+
+.option-item.selected .option-circle {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: white;
+}
+
+.option-label {
+    font-size: 0.92rem;
+    color: #334155;
+    line-height: 1.5;
+}
+
+/* NAVIGATION FOOTER */
+.exam-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-nav {
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border: 1px solid #cbd5e1;
+    background: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-nav.primary {
+    background: var(--primary);
+    color: white;
+    border: none;
+}
+
+/* FLOATING BAR (MULTIPLAYER) */
+.floating-mabar-bar {
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15, 23, 42, 0.92);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+    padding: 6px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.floating-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.floating-btn:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.floating-btn.danger {
+    background: #dc2626;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 18px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-color);
+    background: white;
+    margin-top: auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 640px) {
+    .hero-card { padding: 18px; }
+    .hero-text h2 { font-size: 1.25rem; }
+    .question-card { padding: 18px; }
+    .navbar-asn { padding: 10px 14px; }
+}

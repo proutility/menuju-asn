@@ -1,0 +1,21 @@
+{
+  "name": "MENUJU ASN - CBT SKD CPNS 2026",
+  "short_name": "Menuju ASN",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "description": "Platform Simulasi CAT BKN Real-Time & Live Battle SKD CPNS 2026",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
