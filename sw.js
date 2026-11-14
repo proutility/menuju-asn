@@ -1,12 +1,12 @@
-// Service Worker untuk PWA MENUJU ASN (CBT SKD CPNS 2026) v1.0.0
-const CACHE_NAME = 'menuju-asn-v1.0.0';
+// Service Worker untuk PWA MENUJU ASN (CBT SKD CPNS 2026) v2.0.0
+const CACHE_NAME = 'menuju-asn-v2.0.0';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  './style.css',
-  './app.js',
+  './style.css?v=2.0.0',
+  './app.js?v=2.0.0',
   './firebase-config.js',
-  './data_skd_cpns.js',
+  './data_skd_cpns.js?v=2.0.0',
   './manifest.json',
   './menang.mp3'
 ];
@@ -48,17 +48,14 @@ self.addEventListener('fetch', (event) => {
   }
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        // Fetch background update
-        fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
-          }
-        }).catch(() => {});
-        return cachedResponse;
-      }
-      return fetch(event.request);
-    })
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const responseClone = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+        }
+        return networkResponse;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

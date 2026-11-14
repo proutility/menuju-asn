@@ -147,6 +147,58 @@ window.eksekusiLogout = async () => {
     }
 };
 
+window.switchLobbyTab = (tab) => {
+    const catPanel = document.getElementById('panelCatSingleplayer');
+    const cbtPanel = document.getElementById('panelCbtMultiplayer');
+    const tabCatBtn = document.getElementById('tabCatBtn');
+    const tabCbtBtn = document.getElementById('tabCbtBtn');
+
+    if (tab === 'cbt') {
+        if (catPanel) catPanel.style.display = 'none';
+        if (cbtPanel) cbtPanel.style.display = 'block';
+        if (tabCatBtn) tabCatBtn.classList.remove('active');
+        if (tabCbtBtn) tabCbtBtn.classList.add('active');
+    } else {
+        if (catPanel) catPanel.style.display = 'block';
+        if (cbtPanel) cbtPanel.style.display = 'none';
+        if (tabCatBtn) tabCatBtn.classList.add('active');
+        if (tabCbtBtn) tabCbtBtn.classList.remove('active');
+    }
+};
+
+window.filterPaketSoal = (filter, btnEl) => {
+    document.querySelectorAll('.filter-chip').forEach(btn => btn.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+
+    document.querySelectorAll('.packet-card').forEach(card => {
+        const tier = card.getAttribute('data-tier');
+        const cat = card.getAttribute('data-cat');
+        const show =
+            filter === 'all' ||
+            (filter === 'free' && tier === 'free') ||
+            (filter === 'paid' && tier === 'paid') ||
+            (filter === 'subtes' && cat === 'subtes');
+        card.style.display = show ? 'flex' : 'none';
+    });
+};
+
+window.bukaModalUpgrade = (namaFitur, infoHarga) => {
+    Swal.fire({
+        title: `🔒 ${namaFitur}`,
+        html: `
+            <p style="font-size:0.9rem; color:#475569; margin-bottom:10px;">
+                Fitur ini tersedia khusus untuk paket <b>${infoHarga}</b>.
+            </p>
+            <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px; font-size:0.82rem; color:#92400e;">
+                💡 Hubungi Admin untuk aktivasi paket &amp; langsung buka seluruh akses belajar SKD 2026.
+            </div>
+        `,
+        icon: 'info',
+        confirmButtonText: 'Mengerti',
+        confirmButtonColor: '#1e3a8a'
+    });
+};
+
 // ==========================================================
 // 2. MODE SINGLEPLAYER & ENGINE SOAL (TANPA WRITE PER KLIK)
 // ==========================================================
