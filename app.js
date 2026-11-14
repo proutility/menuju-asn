@@ -1,15 +1,16 @@
 // ==========================================================
 // MENUJU ASN - CBT SKD CPNS 2026 MAIN CONTROLLER
-// PWA & Multiplayer Realtime Engine (BKN Standard)
+// PWA & Hybrid Hemat-Database Multiplayer Engine (BKN Standard)
 // ==========================================================
 import { 
     auth, provider, db, ADMIN_EMAILS, COLLECTIONS,
     signInWithPopup, signOut, onAuthStateChanged,
-    doc, getDoc, setDoc, updateDoc, onSnapshot, arrayUnion
+    doc, getDoc, setDoc, updateDoc, onSnapshot
 } from "./firebase-config.js";
 
 // Global App State
 window.currentUser = null;
+window.currentUserProfile = { tier: 'free', isPaid: false };
 window.currentAppMode = "lobby"; // lobby | singleplayer | multiplayer
 window.currentQuestions = [];
 window.currentIdx = 0;
@@ -17,18 +18,33 @@ window.userAnswers = {}; // { qId: selectedOptionLabel }
 window.userAnswerPoints = {}; // { qId: point }
 window.examTimerInterval = null;
 window.examTimeRemaining = 0; // seconds
+window.examStartTimeMs = 0;
+window.syncedSubtes = { TWK: false, TIU: false, TKP: false };
 window.activeRoomCode = null;
 window.roomUnsubscribe = null;
+window.latestRoomData = null;
+
+// Batas Kapasitas Paket Mabar (Hybrid Hemat Database)
+const TIER_CAPACITY = {
+    bronze: 2,
+    silver: 5,
+    gold: 10,
+    admin: 100
+};
 
 // ==========================================================
-// 1. AUTHENTICATION & INITIALIZATION
+// 1. AUTHENTICATION & USER PROFILE INITIALIZATION
 // ==========================================================
 window.addEventListener('DOMContentLoaded', () => {
     console.log("🚀 [MENUJU ASN] Inisialisasi Aplikasi CBT SKD CPNS 2026...");
     
-    // Auth State Listener
-    onAuthStateChanged(auth, (user) => {
+    onAuthStateChanged(auth, async (user) => {
         window.currentUser = user;
+        if (user) {
+            await loadUserProfile(user);
+        } else {
+            window.currentUserProfile = { tier: 'free', isPaid: false };
+        }
         updateAuthUI(user);
     });
 
@@ -40,16 +56,56 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+async function loadUserProfile(user) {
+    const email = (user.email || '').toLowerCase().trim();
+    if (ADMIN_EMAILS.map(e => e.toLowerCase()).includes(email)) {
+        window.currentUserProfile = { tier: 'admin', isPaid: true, isAdmin: true };
+        return;
+    }
+    try {
+        const uSnap = await getDoc(doc(db, COLLECTIONS.USERS, user.uid));
+        if (uSnap.exists()) {
+            const d = uSnap.data();
+            window.currentUserProfile = {
+                tier: d.tier || 'free',
+                isPaid: d.isPaid === true,
+                isAdmin: false
+            };
+        } else {
+            // Inisialisasi profil awal akun free
+            await setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
+                uid: user.uid,
+                email: email,
+                nama: user.displayName || 'Pejuang ASN',
+                tier: 'free',
+                isPaid: false,
+                createdAt: Date.now()
+            }, { merge: true }).catch(() => {});
+            window.currentUserProfile = { tier: 'free', isPaid: false, isAdmin: false };
+        }
+    } catch (e) {
+        console.warn("Gagal load profil user:", e);
+        window.currentUserProfile = { tier: 'free', isPaid: false, isAdmin: false };
+    }
+}
+
 function updateAuthUI(user) {
     const btnAuth = document.getElementById('btnAuth');
     const userProfileEl = document.getElementById('userProfileBadge');
     if (user) {
         if (btnAuth) btnAuth.style.display = 'none';
         if (userProfileEl) {
+            const tierBadge = window.currentUserProfile.isAdmin
+                ? `<span style="background:#f59e0b; color:#0f172a; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">ADMIN</span>`
+                : (window.currentUserProfile.isPaid
+                    ? `<span style="background:#10b981; color:white; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">${String(window.currentUserProfile.tier).toUpperCase()}</span>`
+                    : `<span style="background:rgba(255,255,255,0.18); color:#cbd5e1; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:10px;">FREE</span>`);
+
             userProfileEl.style.display = 'flex';
             userProfileEl.innerHTML = `
                 <img src="${user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(user.displayName || 'User')}" style="width:30px; height:30px; border-radius:50%; border:1.5px solid #f59e0b;" />
                 <span style="font-weight:700; font-size:0.82rem; color:white;">${user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN'}</span>
+                ${tierBadge}
                 <button onclick="window.eksekusiLogout()" style="background:none; border:none; color:#f87171; cursor:pointer; font-size:0.85rem;" title="Keluar"><i class="fas fa-sign-out-alt"></i></button>
             `;
         }
@@ -92,13 +148,13 @@ window.eksekusiLogout = async () => {
 };
 
 // ==========================================================
-// 2. MODE SINGLEPLAYER (SIMULASI & DRILL SKD)
+// 2. MODE SINGLEPLAYER & ENGINE SOAL (TANPA WRITE PER KLIK)
 // ==========================================================
 window.mulaiSingleplayer = (tipe) => {
     let rawData = window.DATA_SKD_CPNS || [];
     if (tipe === 'twk') {
         window.currentQuestions = rawData.filter(q => q.kategori === 'TWK');
-        window.examTimeRemaining = window.currentQuestions.length * 60; // 1 menit per soal
+        window.examTimeRemaining = window.currentQuestions.length * 60;
     } else if (tipe === 'tiu') {
         window.currentQuestions = rawData.filter(q => q.kategori === 'TIU');
         window.examTimeRemaining = window.currentQuestions.length * 60;
@@ -106,7 +162,6 @@ window.mulaiSingleplayer = (tipe) => {
         window.currentQuestions = rawData.filter(q => q.kategori === 'TKP');
         window.examTimeRemaining = window.currentQuestions.length * 60;
     } else {
-        // Full SKD Simulation
         window.currentQuestions = [...rawData];
         window.examTimeRemaining = 100 * 60; // 100 Menit standar BKN
     }
@@ -116,22 +171,69 @@ window.mulaiSingleplayer = (tipe) => {
     }
 
     window.currentAppMode = 'singleplayer';
+    startExamSessionUI();
+};
+
+function startExamSessionUI() {
     window.currentIdx = 0;
     window.userAnswers = {};
     window.userAnswerPoints = {};
+    window.examStartTimeMs = Date.now();
+    window.syncedSubtes = { TWK: false, TIU: false, TKP: false };
 
     document.getElementById('lobbySection').style.display = 'none';
-    document.getElementById('examStage').style.display = 'block';
+    const heroEl = document.getElementById('heroBannerSection');
+    if (heroEl) heroEl.style.display = 'none';
+
+    const examStage = document.getElementById('examStage');
+    examStage.style.display = 'block';
+    examStage.innerHTML = buildExamStageMarkup();
 
     renderSoalSekarang();
     startExamTimer();
-};
+}
+
+function buildExamStageMarkup() {
+    return `
+        <div class="exam-header">
+            <div class="exam-meta">
+                <span id="badgeSubtes" class="badge-subtes twk">TWK</span>
+                <span id="noSoalDisplay" style="font-weight:700; font-size:0.85rem; color:#334155;">Soal 1</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+                ${window.currentAppMode === 'multiplayer' ? `
+                    <button onclick="window.bukaModalKlasemenMabar()" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
+                        <i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen
+                    </button>
+                ` : ''}
+                <div class="exam-timer" id="examTimerDisplay">
+                    <i class="fas fa-stopwatch"></i> 100:00
+                </div>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <div class="question-text" id="questionTextDisplay">
+                Memuat butir pertanyaan...
+            </div>
+            <div class="options-list" id="optionsListDisplay"></div>
+            
+            <div class="exam-nav">
+                <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
+                    <i class="fas fa-chevron-left"></i> Sebelumnya
+                </button>
+                <button id="btnNextSoal" class="btn-nav primary" onclick="window.nextSoal()">
+                    Berikutnya <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    `;
+}
 
 function startExamTimer() {
     clearInterval(window.examTimerInterval);
-    const timerEl = document.getElementById('examTimerDisplay');
-
     const updateDisplay = () => {
+        const timerEl = document.getElementById('examTimerDisplay');
         const m = Math.floor(window.examTimeRemaining / 60);
         const s = window.examTimeRemaining % 60;
         if (timerEl) {
@@ -142,7 +244,7 @@ function startExamTimer() {
             Swal.fire({
                 icon: 'warning',
                 title: 'Waktu Habis!',
-                text: 'Waktu pengerjaan telah berakhir. Menghitung hasil evaluasi...',
+                text: 'Waktu pengerjaan telah berakhir. Mengirim hasil evaluasi...',
                 timer: 2000,
                 showConfirmButton: false
             }).then(() => {
@@ -160,26 +262,22 @@ function renderSoalSekarang() {
     const q = window.currentQuestions[window.currentIdx];
     if (!q) return;
 
-    // Subtes Badge
     const badgeEl = document.getElementById('badgeSubtes');
     if (badgeEl) {
         badgeEl.className = `badge-subtes ${q.kategori.toLowerCase()}`;
         badgeEl.innerText = `${q.kategori} • ${q.subKategori || ''}`;
     }
 
-    // Nomor Soal Counter
     const noSoalEl = document.getElementById('noSoalDisplay');
     if (noSoalEl) {
         noSoalEl.innerText = `Soal ${window.currentIdx + 1} dari ${window.currentQuestions.length}`;
     }
 
-    // Teks Soal
     const qTextEl = document.getElementById('questionTextDisplay');
     if (qTextEl) {
         qTextEl.innerText = q.soal;
     }
 
-    // List Opsi
     const opsListEl = document.getElementById('optionsListDisplay');
     if (opsListEl) {
         const currentAns = window.userAnswers[q.id];
@@ -194,7 +292,6 @@ function renderSoalSekarang() {
         }).join('');
     }
 
-    // Navigasi Prev/Next
     const btnPrev = document.getElementById('btnPrevSoal');
     const btnNext = document.getElementById('btnNextSoal');
     if (btnPrev) btnPrev.style.visibility = (window.currentIdx > 0) ? 'visible' : 'hidden';
@@ -209,6 +306,7 @@ function renderSoalSekarang() {
     }
 }
 
+// HEMAT KUOTA: Klik opsi HANYA simpan di memori lokal (0 write ke Firestore!)
 window.pilihJawaban = (qId, label, poin) => {
     window.userAnswers[qId] = label;
     window.userAnswerPoints[qId] = poin;
@@ -224,10 +322,64 @@ window.prevSoal = () => {
 
 window.nextSoal = () => {
     if (window.currentIdx < window.currentQuestions.length - 1) {
+        const prevQ = window.currentQuestions[window.currentIdx];
         window.currentIdx++;
+        const nextQ = window.currentQuestions[window.currentIdx];
+
+        // HEMAT KUOTA: Sync ke Firestore HANYA saat pergantian subtes (TWK -> TIU -> TKP)
+        if (window.currentAppMode === 'multiplayer' && prevQ && nextQ && prevQ.kategori !== nextQ.kategori) {
+            syncCheckpointToFirestore(prevQ.kategori, false);
+        }
+
         renderSoalSekarang();
     }
 };
+
+function hitungSkorSekarang() {
+    let skorTWK = 0, skorTIU = 0, skorTKP = 0;
+    window.currentQuestions.forEach(q => {
+        const userAns = window.userAnswers[q.id];
+        if (!userAns) return;
+        const opt = q.opsi.find(o => o.label === userAns);
+        if (!opt) return;
+        if (q.kategori === 'TWK' && opt.benar) skorTWK += 5;
+        else if (q.kategori === 'TIU' && opt.benar) skorTIU += 5;
+        else if (q.kategori === 'TKP') skorTKP += (opt.poin || 0);
+    });
+    return {
+        skorTWK,
+        skorTIU,
+        skorTKP,
+        totalSkor: skorTWK + skorTIU + skorTKP,
+        totalWaktu: Math.max(1, Math.round((Date.now() - window.examStartTimeMs) / 1000))
+    };
+}
+
+// Sync Checkpoint (Hanya dipanggil saat pindah subtes atau selesai ujian)
+async function syncCheckpointToFirestore(subtesName, isFinal = false) {
+    if (!window.activeRoomCode || !window.currentUser) return;
+    if (!isFinal && subtesName && window.syncedSubtes[subtesName]) return; // Cegah tulis ulang subtes yang sama
+
+    if (subtesName) window.syncedSubtes[subtesName] = true;
+    const stats = hitungSkorSekarang();
+    const uid = window.currentUser.uid;
+
+    try {
+        const roomRef = doc(db, COLLECTIONS.ROOMS, String(window.activeRoomCode));
+        await updateDoc(roomRef, {
+            [`players.${uid}.skor`]: stats.totalSkor,
+            [`players.${uid}.skorTWK`]: stats.skorTWK,
+            [`players.${uid}.skorTIU`]: stats.skorTIU,
+            [`players.${uid}.skorTKP`]: stats.skorTKP,
+            [`players.${uid}.totalWaktu`]: stats.totalWaktu,
+            [`players.${uid}.isFinished`]: isFinal,
+            [`players.${uid}.lastSeen`]: Date.now()
+        });
+        console.log(`📡 [HEMAT KUOTA] Sync checkpoint (${isFinal ? 'FINAL' : subtesName}) berhasil -> Skor: ${stats.totalSkor}`);
+    } catch (e) {
+        console.warn("Gagal sync checkpoint:", e);
+    }
+}
 
 window.konfirmasiSelesaiUjian = async () => {
     const totalJawab = Object.keys(window.userAnswers).length;
@@ -244,35 +396,18 @@ window.konfirmasiSelesaiUjian = async () => {
     });
 
     if (res.isConfirmed) {
-        selesaikanUjian();
+        await selesaikanUjian();
     }
 };
 
-function selesaikanUjian() {
+async function selesaikanUjian() {
     clearInterval(window.examTimerInterval);
 
-    // Hitung Skor Sesuai Aturan BKN
-    let skorTWK = 0, skorTIU = 0, skorTKP = 0;
-    
-    window.currentQuestions.forEach(q => {
-        const userAns = window.userAnswers[q.id];
-        if (q.kategori === 'TWK') {
-            const opt = q.opsi.find(o => o.label === userAns);
-            if (opt && opt.benar) skorTWK += 5;
-        } else if (q.kategori === 'TIU') {
-            const opt = q.opsi.find(o => o.label === userAns);
-            if (opt && opt.benar) skorTIU += 5;
-        } else if (q.kategori === 'TKP') {
-            const opt = q.opsi.find(o => o.label === userAns);
-            if (opt) skorTKP += (opt.poin || 0);
-        }
-    });
+    if (window.currentAppMode === 'multiplayer') {
+        await syncCheckpointToFirestore(null, true);
+    }
 
-    const totalSkor = skorTWK + skorTIU + skorTKP;
-    
-    // Validasi Passing Grade Standar BKN:
-    // TWK: 65, TIU: 80, TKP: 166 (Untuk full simulasi)
-    // Untuk drill mini, gunakan rasio persentase
+    const { skorTWK, skorTIU, skorTKP, totalSkor } = hitungSkorSekarang();
     const isFullSim = window.currentQuestions.length >= 15;
     const lolosTWK = skorTWK >= (isFullSim ? 25 : 15);
     const lolosTIU = skorTIU >= (isFullSim ? 25 : 15);
@@ -280,7 +415,7 @@ function selesaikanUjian() {
     const statusLolos = lolosTWK && lolosTIU && lolosTKP;
 
     Swal.fire({
-        title: statusLolos ? '🎉 SELAMAT! ANDA LOLOS PASSING GRADE' : '⚠️ BELUM MEMENUHI PASSING GRADE',
+        title: statusLolos ? '🎉 SELAMAT! MEMENUHI PASSING GRADE' : '⚠️ BELUM MEMENUHI PASSING GRADE',
         html: `
             <div style="text-align:left; font-size:0.9rem; padding:10px; background:#f8fafc; border-radius:12px; margin-top:10px;">
                 <div style="font-size:1.4rem; font-weight:800; color:#1e3a8a; text-align:center; margin-bottom:12px;">
@@ -299,15 +434,19 @@ function selesaikanUjian() {
                     <b>${skorTKP} ${lolosTKP ? '✅ Lolos' : '❌ Kurang'}</b>
                 </div>
             </div>
-            <div style="font-size:0.78rem; color:#64748b; margin-top:10px;">
-                Evaluasi: Kelulusan SKD mensyaratkan ketiga subtes wajib lolos ambang batas sekaligus.
-            </div>
+            ${window.currentAppMode === 'multiplayer' ? `
+                <button onclick="Swal.close(); window.bukaModalKlasemenMabar();" style="margin-top:12px; width:100%; background:#d97706; color:white; border:none; padding:10px; border-radius:8px; font-weight:800; cursor:pointer;">
+                    🏆 Lihat Klasemen Live Mabar
+                </button>
+            ` : ''}
         `,
         icon: statusLolos ? 'success' : 'warning',
         confirmButtonText: 'Kembali ke Lobby',
         confirmButtonColor: '#1e3a8a'
-    }).then(() => {
-        window.kembaliKeLobby();
+    }).then((r) => {
+        if (r.isConfirmed || r.dismiss === Swal.DismissReason.backdrop) {
+            window.kembaliKeLobby();
+        }
     });
 }
 
@@ -317,13 +456,17 @@ window.kembaliKeLobby = () => {
         window.roomUnsubscribe();
         window.roomUnsubscribe = null;
     }
+    window.activeRoomCode = null;
+    window.latestRoomData = null;
     document.getElementById('examStage').style.display = 'none';
     document.getElementById('lobbySection').style.display = 'block';
+    const heroEl = document.getElementById('heroBannerSection');
+    if (heroEl) heroEl.style.display = 'block';
     window.currentAppMode = 'lobby';
 };
 
 // ==========================================================
-// 3. MODE MULTIPLAYER (MABAR BILIK & WHITELIST TAMU FREE)
+// 3. MODE MULTIPLAYER (HYBRID HEMAT DB & KAPASITAS TIER)
 // ==========================================================
 window.bukaModalBikinRoom = () => {
     if (!window.currentUser) {
@@ -338,20 +481,46 @@ window.bukaModalBikinRoom = () => {
         });
     }
 
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    if (!prof.isAdmin && !prof.isPaid) {
+        return Swal.fire({
+            title: 'Fitur Khusus Paket Aktif',
+            html: `Pembuatan Room Mabar hanya tersedia untuk pemilik paket <b>Bronze (2 org)</b>, <b>Silver (5 org)</b>, atau <b>Gold (10 org)</b>.<br><br><small style="color:#64748b;">Akun Free tetap bisa ikut mabar jika didaftarkan oleh Host melalui Whitelist Email Tamu.</small>`,
+            icon: 'warning',
+            confirmButtonText: 'Mengerti',
+            confirmButtonColor: '#1e3a8a'
+        });
+    }
+
+    const defaultTier = prof.isAdmin ? 'gold' : prof.tier;
+    const tierOptionsHtml = prof.isAdmin
+        ? `
+            <option value="bronze">Bronze (Maks 2 Peserta)</option>
+            <option value="silver">Silver (Maks 5 Peserta)</option>
+            <option value="gold" selected>Gold (Maks 10 Peserta)</option>
+            <option value="admin">Akbar Nasional (Maks 100 Peserta)</option>
+          `
+        : `<option value="${defaultTier}" selected>${defaultTier.toUpperCase()} (Maks ${TIER_CAPACITY[defaultTier] || 2} Peserta)</option>`;
+
     Swal.fire({
         title: '🏛️ Buka Room Mabar CPNS',
         html: `
-            <div style="text-align:left; font-size:0.85rem; color:#475569; margin-bottom:10px;">
-                Buat ruang latihan bersama. Teman yang memiliki akun Free bisa dimasukkan emailnya di bawah ini untuk bypass langsung.
+            <div style="text-align:left; font-size:0.82rem; color:#475569; margin-bottom:10px; background:#eff6ff; padding:8px 10px; border-radius:8px; border:1px solid #bfdbfe;">
+                <i class="fas fa-bolt" style="color:#2563eb;"></i> <b>Mode Hemat Database:</b> Skor peserta disinkronkan tiap pergantian subtes & selesai ujian.
             </div>
             <div style="text-align:left; margin-bottom:10px;">
                 <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Nama Room:</label>
-                <input id="swalInputNamaRoom" class="swal2-input" style="width:100%; margin:4px 0 10px; font-size:0.85rem;" placeholder="Misal: Mabar SKD Pejuang Kemenkumham" value="Mabar SKD CPNS #${Math.floor(100+Math.random()*900)}">
+                <input id="swalInputNamaRoom" class="swal2-input" style="width:100%; margin:4px 0 10px; font-size:0.85rem;" value="Mabar SKD CPNS #${Math.floor(100+Math.random()*900)}">
             </div>
             <div style="text-align:left; margin-bottom:10px;">
-                <label style="font-weight:700; font-size:0.8rem; color:#15803d;">Daftarkan Email Tamu (Whitelist Free Bypass):</label>
-                <textarea id="swalInputGuestEmails" class="swal2-textarea" style="width:100%; height:70px; margin:4px 0; font-size:0.82rem; font-family:inherit;" placeholder="teman1@gmail.com, teman2@gmail.com (pisahkan koma/baris)"></textarea>
-                <small style="color:#16a34a; font-size:0.73rem;">Akun Free dengan email terdaftar dapat langsung ikut mabar via Link Invite tanpa batas.</small>
+                <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Kapasitas Paket Room:</label>
+                <select id="swalSelectTierRoom" class="swal2-select" style="width:100%; margin:4px 0 10px; font-size:0.85rem; padding:8px; border-radius:6px; border:1px solid #cbd5e1;">
+                    ${tierOptionsHtml}
+                </select>
+            </div>
+            <div style="text-align:left; margin-bottom:10px;">
+                <label style="font-weight:700; font-size:0.8rem; color:#15803d;">Whitelist Email Tamu (Bypass Akun Free):</label>
+                <textarea id="swalInputGuestEmails" class="swal2-textarea" style="width:100%; height:65px; margin:4px 0; font-size:0.82rem; font-family:inherit;" placeholder="teman1@gmail.com, teman2@gmail.com"></textarea>
             </div>
         `,
         focusConfirm: false,
@@ -361,25 +530,27 @@ window.bukaModalBikinRoom = () => {
         confirmButtonColor: '#1e3a8a',
         preConfirm: () => {
             const nama = document.getElementById('swalInputNamaRoom')?.value.trim() || 'Room Mabar CPNS';
+            const tier = document.getElementById('swalSelectTierRoom')?.value || defaultTier;
             const rawEmails = document.getElementById('swalInputGuestEmails')?.value.trim() || '';
             const emailList = Array.from(new Set(
                 rawEmails.split(/[\n,;]+/)
                     .map(e => e.trim().toLowerCase())
                     .filter(e => e.length > 3 && e.includes('@') && e.includes('.'))
             ));
-            return { nama, emailList };
+            return { nama, tier, emailList };
         }
     }).then(async (result) => {
         if (result.isConfirmed) {
-            const { nama, emailList } = result.value;
-            await eksekusiBikinRoom(nama, emailList);
+            const { nama, tier, emailList } = result.value;
+            await eksekusiBikinRoom(nama, tier, emailList);
         }
     });
 };
 
-async function eksekusiBikinRoom(namaRoom, guestEmails) {
+async function eksekusiBikinRoom(namaRoom, tier, guestEmails) {
     const kodeRoom = Math.floor(10000 + Math.random() * 90000).toString();
     const u = window.currentUser;
+    const maxPlayers = TIER_CAPACITY[tier] || 2;
 
     Swal.fire({ title: 'Menyiapkan Room Mabar...', allowOutsideClick: false, didOpen: () => Swal.showLoading() });
 
@@ -388,11 +559,13 @@ async function eksekusiBikinRoom(namaRoom, guestEmails) {
         await setDoc(roomRef, {
             nama: namaRoom,
             kode: kodeRoom,
+            tier: tier,
+            maxPlayers: maxPlayers,
             hostUid: u.uid,
             hostName: u.displayName || 'Host',
-            hostEmail: u.email || '',
+            hostEmail: (u.email || '').toLowerCase(),
             status: 'waiting',
-            waktuPerSoal: 54, // 54 detik per soal standar BKN
+            waktuPerSoal: 54,
             allowedGuestEmails: guestEmails,
             createdAt: Date.now(),
             players: {
@@ -401,8 +574,13 @@ async function eksekusiBikinRoom(namaRoom, guestEmails) {
                     nama: u.displayName || 'Host',
                     photoURL: u.photoURL || null,
                     skor: 0,
+                    skorTWK: 0,
+                    skorTIU: 0,
+                    skorTKP: 0,
+                    totalWaktu: 0,
+                    isFinished: false,
                     role: 'HOST',
-                    email: u.email || '',
+                    email: (u.email || '').toLowerCase(),
                     lastSeen: Date.now()
                 }
             }
@@ -464,23 +642,44 @@ window.gabungRoom = async (kodeRoom) => {
         const myEmail = (u.email || '').toLowerCase().trim();
         const guestEmails = (Array.isArray(dataRoom.allowedGuestEmails) ? dataRoom.allowedGuestEmails : []).map(e => e.toLowerCase().trim());
         const isGuest = guestEmails.includes(myEmail);
+        const prof = window.currentUserProfile || { isPaid: false, isAdmin: false };
 
-        // Update player ke room
-        await updateDoc(roomRef, {
-            [`players.${u.uid}`]: {
-                uid: u.uid,
-                nama: u.displayName || 'Peserta',
-                photoURL: u.photoURL || null,
-                skor: 0,
-                role: isGuest ? 'GUEST' : (dataRoom.hostUid === u.uid ? 'HOST' : 'PESERTA'),
-                isGuest: isGuest,
-                email: myEmail,
-                lastSeen: Date.now()
-            }
-        });
+        const existingPlayers = dataRoom.players || {};
+        const alreadyJoined = Boolean(existingPlayers[u.uid]);
+        const maxPlayers = dataRoom.maxPlayers || 2;
+
+        // Validasi Hak Akses (Harus Paid / Admin / Whitelisted Guest)
+        if (!alreadyJoined && !prof.isAdmin && !prof.isPaid && !isGuest) {
+            return Swal.fire('Akses Terbatas', 'Room ini hanya untuk peserta berbayar aktif atau Tamu Undangan yang emailnya telah didaftarkan oleh Host.', 'warning');
+        }
+
+        // Validasi Batas Kapasitas Room (2 / 5 / 10)
+        if (!alreadyJoined && !prof.isAdmin && Object.keys(existingPlayers).length >= maxPlayers) {
+            return Swal.fire('Room Penuh!', `Kapasitas maksimal paket ${(dataRoom.tier || 'bronze').toUpperCase()} (${maxPlayers} peserta) telah penuh.`, 'warning');
+        }
+
+        if (!alreadyJoined) {
+            await updateDoc(roomRef, {
+                [`players.${u.uid}`]: {
+                    uid: u.uid,
+                    nama: u.displayName || 'Peserta',
+                    photoURL: u.photoURL || null,
+                    skor: 0,
+                    skorTWK: 0,
+                    skorTIU: 0,
+                    skorTKP: 0,
+                    totalWaktu: 0,
+                    isFinished: false,
+                    role: isGuest ? 'GUEST' : (dataRoom.hostUid === u.uid ? 'HOST' : 'PESERTA'),
+                    isGuest: isGuest,
+                    email: myEmail,
+                    lastSeen: Date.now()
+                }
+            });
+        }
 
         Swal.close();
-        if (isGuest) {
+        if (isGuest && !alreadyJoined) {
             Swal.fire({
                 toast: true,
                 position: 'top-end',
@@ -500,7 +699,6 @@ window.gabungRoom = async (kodeRoom) => {
 };
 
 window.gabungRoomOtomatis = (kodeRoom) => {
-    // Dipanggil otomatis jika URL mengandung ?room=XXXXX
     setTimeout(() => {
         window.gabungRoom(kodeRoom);
     }, 1200);
@@ -508,9 +706,10 @@ window.gabungRoomOtomatis = (kodeRoom) => {
 
 function bukaWaitingRoom(kodeRoom) {
     const linkInvite = `${window.location.origin}${window.location.pathname}?room=${kodeRoom}`;
-    
-    // Listen realtime changes
     const roomRef = doc(db, COLLECTIONS.ROOMS, String(kodeRoom));
+    let hasStartedExamClient = false;
+
+    if (window.roomUnsubscribe) window.roomUnsubscribe();
     window.roomUnsubscribe = onSnapshot(roomRef, (docSnap) => {
         if (!docSnap.exists()) {
             Swal.fire('Room Ditutup', 'Host telah membubarkan room ini.', 'info').then(() => window.kembaliKeLobby());
@@ -518,11 +717,26 @@ function bukaWaitingRoom(kodeRoom) {
         }
 
         const data = docSnap.data();
+        window.latestRoomData = data;
         const players = data.players || {};
         const isHost = data.hostUid === window.currentUser?.uid;
 
-        // Render Waiting Room UI di dalam examStage
+        // Jika Host sudah klik MULAI MABAR, otomatis masuk ke ujian
+        if (data.status === 'ujian' && !hasStartedExamClient) {
+            hasStartedExamClient = true;
+            window.currentAppMode = 'multiplayer';
+            window.currentQuestions = [...(window.DATA_SKD_CPNS || [])];
+            window.examTimeRemaining = 100 * 60;
+            startExamSessionUI();
+            return;
+        }
+
+        if (data.status !== 'waiting') return;
+
         document.getElementById('lobbySection').style.display = 'none';
+        const heroEl = document.getElementById('heroBannerSection');
+        if (heroEl) heroEl.style.display = 'none';
+
         const examStage = document.getElementById('examStage');
         examStage.style.display = 'block';
 
@@ -532,7 +746,7 @@ function bukaWaitingRoom(kodeRoom) {
             return `
                 <div style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:12px; display:flex; align-items:center; gap:10px; box-shadow:0 2px 6px rgba(0,0,0,0.03);">
                     <img src="${p.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(p.nama)}" style="width:40px; height:40px; border-radius:50%; border:2px solid #2563eb;" />
-                    <div>
+                    <div style="text-align:left;">
                         <div style="font-weight:700; font-size:0.88rem; color:#1e293b;">${p.nama}</div>
                         <div style="display:flex; gap:6px; margin-top:2px;">${isHostBadge} ${isGuestBadge}</div>
                     </div>
@@ -542,10 +756,10 @@ function bukaWaitingRoom(kodeRoom) {
 
         examStage.innerHTML = `
             <div style="background:white; border-radius:16px; padding:24px; border:1px solid #e2e8f0; box-shadow:0 8px 24px rgba(0,0,0,0.05); text-align:center;">
-                <div style="display:inline-flex; align-items:center; gap:8px; background:#eff6ff; color:#1d4ed8; padding:6px 16px; border-radius:20px; font-weight:800; font-size:0.85rem; margin-bottom:12px;">
-                    <i class="fas fa-satellite-dish fa-spin"></i> LIVE WAITING ROOM CPNS
+                <div style="display:inline-flex; align-items:center; gap:8px; background:#eff6ff; color:#1d4ed8; padding:6px 16px; border-radius:20px; font-weight:800; font-size:0.82rem; margin-bottom:10px;">
+                    <i class="fas fa-satellite-dish fa-spin"></i> WAITING ROOM • PAKET ${(data.tier || 'bronze').toUpperCase()} (MAKS ${data.maxPlayers || 2} PESERTA)
                 </div>
-                <h2 style="font-size:1.4rem; font-weight:800; color:#1e3a8a; margin-bottom:4px;">${data.nama}</h2>
+                <h2 style="font-size:1.35rem; font-weight:800; color:#1e3a8a; margin-bottom:4px;">${data.nama}</h2>
                 <div style="font-size:2rem; font-weight:900; letter-spacing:4px; color:#d97706; margin:8px 0; font-family:monospace;">
                     ${kodeRoom}
                 </div>
@@ -560,16 +774,16 @@ function bukaWaitingRoom(kodeRoom) {
                     ` : ''}
                 </div>
                 
-                <div style="text-align:left; font-weight:800; font-size:0.92rem; color:#1e293b; margin-bottom:12px; display:flex; justify-content:space-between;">
-                    <span>Peserta Terhubung (${Object.keys(players).length})</span>
-                    <span style="color:#059669; font-size:0.8rem;"><i class="fas fa-circle" style="font-size:0.6rem;"></i> Siap Mabar</span>
+                <div style="text-align:left; font-weight:800; font-size:0.9rem; color:#1e293b; margin-bottom:12px; display:flex; justify-content:space-between;">
+                    <span>Peserta Terhubung (${Object.keys(players).length} / ${data.maxPlayers || 2})</span>
+                    <span style="color:#059669; font-size:0.8rem;"><i class="fas fa-shield-alt"></i> Mode Hemat Kuota Aktif</span>
                 </div>
                 
                 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:24px;">
                     ${playerTilesHtml}
                 </div>
 
-                <div style="display:flex; justify-content:center; gap:10px;">
+                <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
                     <button onclick="window.kembaliKeLobby()" style="background:#f1f5f9; color:#475569; border:1px solid #cbd5e1; padding:10px 20px; border-radius:8px; font-weight:700; font-size:0.85rem; cursor:pointer;">
                         Keluar Room
                     </button>
@@ -598,7 +812,7 @@ window.kelolaEmailTamu = async (kodeRoom) => {
         title: '🎟️ Kelola Email Tamu Undangan',
         html: `
             <div style="text-align:left; font-size:0.82rem; color:#475569; margin-bottom:8px;">
-                Daftarkan alamat email pengguna <b>Akun Free</b> agar mendapatkan akses penuh ke room mabar ini tanpa batas.
+                Daftarkan alamat email pengguna <b>Akun Free</b> agar mendapatkan akses masuk ke room ini (tetap mengikuti batas kapasitas room).
             </div>
             <textarea id="swalUpdateGuestEmails" class="swal2-textarea" style="width:100%; height:110px; font-size:0.85rem;" placeholder="contoh1@gmail.com\ncontoh2@gmail.com">${textCurrent}</textarea>
         `,
@@ -620,13 +834,53 @@ window.kelolaEmailTamu = async (kodeRoom) => {
 };
 
 window.mulaiUjianMultiplayer = async (kodeRoom) => {
+    try {
+        await updateDoc(doc(db, COLLECTIONS.ROOMS, String(kodeRoom)), {
+            status: 'ujian',
+            startedAt: Date.now()
+        });
+    } catch (err) {
+        Swal.fire('Gagal Memulai', err.message, 'error');
+    }
+};
+
+// Klasemen Live Mabar (Tie-Breaker Resmi BKN: Total -> TKP -> TIU -> TWK -> Waktu)
+window.bukaModalKlasemenMabar = () => {
+    const data = window.latestRoomData || {};
+    const players = Object.values(data.players || {});
+    
+    players.sort((a, b) => {
+        if ((b.skor || 0) !== (a.skor || 0)) return (b.skor || 0) - (a.skor || 0);
+        if ((b.skorTKP || 0) !== (a.skorTKP || 0)) return (b.skorTKP || 0) - (a.skorTKP || 0);
+        if ((b.skorTIU || 0) !== (a.skorTIU || 0)) return (b.skorTIU || 0) - (a.skorTIU || 0);
+        if ((b.skorTWK || 0) !== (a.skorTWK || 0)) return (b.skorTWK || 0) - (a.skorTWK || 0);
+        return (a.totalWaktu || 999999) - (b.totalWaktu || 999999);
+    });
+
+    const rows = players.map((p, idx) => `
+        <div style="display:flex; align-items:center; justify-content:space-between; padding:10px; border-bottom:1px solid #e2e8f0; background:${p.uid === window.currentUser?.uid ? '#eff6ff' : 'white'};">
+            <div style="display:flex; align-items:center; gap:10px;">
+                <span style="font-weight:900; color:${idx === 0 ? '#d97706' : '#64748b'}; width:22px;">#${idx + 1}</span>
+                <div style="text-align:left;">
+                    <div style="font-weight:700; font-size:0.86rem; color:#1e293b;">${p.nama} ${p.isFinished ? '✅' : '⏳'}</div>
+                    <div style="font-size:0.72rem; color:#64748b;">TWK:${p.skorTWK || 0} | TIU:${p.skorTIU || 0} | TKP:${p.skorTKP || 0}</div>
+                </div>
+            </div>
+            <div style="font-weight:800; font-size:1rem; color:#1e3a8a;">${p.skor || 0}</div>
+        </div>
+    `).join('');
+
     Swal.fire({
-        icon: 'info',
-        title: 'Mulai Ujian Mabar',
-        text: 'Fitur Live Countdown & Sinkronisasi Jawaban Multiplayer sedang diaktifkan!',
-        timer: 1500,
-        showConfirmButton: false
-    }).then(() => {
-        window.mulaiSingleplayer('full');
+        title: '🏆 Klasemen Live Mabar',
+        html: `
+            <div style="font-size:0.75rem; color:#64748b; margin-bottom:10px;">
+                Urutan tie-breaker BKN: Total Skor ➔ TKP ➔ TIU ➔ TWK ➔ Waktu.
+            </div>
+            <div style="max-height:300px; overflow-y:auto; border:1px solid #e2e8f0; border-radius:10px;">
+                ${rows || '<div style="padding:16px; color:#94a3b8;">Belum ada data skor.</div>'}
+            </div>
+        `,
+        confirmButtonText: 'Tutup',
+        confirmButtonColor: '#1e3a8a'
     });
 };

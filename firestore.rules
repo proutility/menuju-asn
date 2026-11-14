@@ -202,11 +202,74 @@ service cloud.firestore {
     }
 
     // --- 19B. MENUJU ASN (CPNS 2026) ---
-    match /cpns_rooms/{document=**} {
-      allow read, write: if request.auth != null;
+    match /cpns_rooms/{roomId} {
+      function getCpnsUserData() {
+        return get(/databases/$(database)/documents/cpns_users/$(request.auth.uid)).data;
+      }
+
+      function isPaidCpnsUser() {
+        return request.auth != null &&
+          exists(/databases/$(database)/documents/cpns_users/$(request.auth.uid)) &&
+          (
+            getCpnsUserData().get('isPaid', false) == true ||
+            getCpnsUserData().get('tier', '') in ['bronze', 'silver', 'gold']
+          );
+      }
+
+      function isValidMaxPlayersForTier(maxPlayers) {
+        let tier = getCpnsUserData().get('tier', '');
+        return (tier == 'bronze' && maxPlayers == 2) ||
+               (tier == 'silver' && maxPlayers == 5) ||
+               (tier == 'gold' && maxPlayers == 10);
+      }
+
+      function isGuestWhitelisted() {
+        return request.auth != null &&
+          request.auth.token.email != null &&
+          resource.data.get('allowedGuestEmails', []) is list &&
+          (
+            request.auth.token.email in resource.data.get('allowedGuestEmails', []) ||
+            request.auth.token.email.lower() in resource.data.get('allowedGuestEmails', [])
+          );
+      }
+
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null &&
+        request.resource.data.hostUid == request.auth.uid &&
+        request.resource.data.maxPlayers is int &&
+        (
+          (isSuperAdmin() && request.resource.data.maxPlayers > 0) ||
+          (isPaidCpnsUser() && isValidMaxPlayersForTier(request.resource.data.maxPlayers))
+        );
+
+      allow update: if request.auth != null && (
+        isSuperAdmin() ||
+        (
+          (isPaidCpnsUser() || isGuestWhitelisted()) &&
+          request.resource.data.maxPlayers == resource.data.maxPlayers &&
+          request.resource.data.players is map &&
+          resource.data.maxPlayers is int &&
+          request.resource.data.players.keys().size() <= resource.data.maxPlayers
+        )
+      );
+
+      allow delete: if request.auth != null && (
+        resource.data.hostUid == request.auth.uid ||
+        isSuperAdmin()
+      );
     }
     match /cpns_users/{userId} {
-      allow read, write: if request.auth != null && (request.auth.uid == userId || isSuperAdmin());
+      allow read: if request.auth != null && (request.auth.uid == userId || isSuperAdmin());
+      allow create: if request.auth != null && (
+        isSuperAdmin() ||
+        (
+          request.auth.uid == userId &&
+          request.resource.data.get('isPaid', false) == false &&
+          request.resource.data.get('tier', 'free') == 'free'
+        )
+      );
+      allow update, delete: if isSuperAdmin();
     }
     match /cpns_tryout_sessions/{document=**} {
       allow read: if true;
