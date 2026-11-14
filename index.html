@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.1.0">
+    <link rel="stylesheet" href="style.css?v=2.1.1">
 </head>
 <body>
 
@@ -261,8 +261,8 @@
                         <div class="dash-welcome-pill">
                             <i class="fas fa-shield-alt"></i> STANDAR RESMI CAT BKN 2026
                         </div>
-                        <h2>Selamat Datang, <span id="dashUserName">Pejuang ASN</span>! 🚀</h2>
-                        <p>Fokus kejar Passing Grade saklek BKN (TWK 65 • TIU 80 • TKP 166) lewat Simulasi CAT 110 Soal atau tantang teman di CBT Mabar.</p>
+                        <h2>Siap Tembus NIP 2026, <span id="dashUserName">Pejuang ASN</span>! 🚀</h2>
+                        <p>Asah kecepatan dan ketepatanmu menghadapi 110 soal SKD standar BKN. Lampaui ambang batas TWK, TIU, dan TKP lewat simulasi mandiri maupun adu cepat di CBT Mabar.</p>
                         <div class="dash-welcome-actions">
                             <button class="btn-dash-gold" onclick="window.mulaiSingleplayer('full')">
                                 <i class="fas fa-play"></i> Mulai Simulasi 110 Soal
@@ -743,13 +743,13 @@
 
     <!-- SCRIPTS -->
     <script src="data_skd_cpns.js?v=2.1.0"></script>
-    <script type="module" src="app.js?v=2.1.0"></script>
+    <script type="module" src="app.js?v=2.1.1"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.1.0')
+                navigator.serviceWorker.register('./sw.js?v=2.1.1')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
