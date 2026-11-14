@@ -18,16 +18,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.0.1">
+    <link rel="stylesheet" href="style.css?v=2.0.2">
 </head>
 <body>
 
     <!-- NAVBAR HEADER -->
     <header class="navbar-asn">
         <div class="brand-wrap" onclick="window.kembaliKeLobby()" style="cursor:pointer;">
-            <div class="brand-logo-badge">
-                <img src="logo%20menuju%20asn.png" alt="Logo Menuju ASN" style="width:100%; height:100%; object-fit:contain; border-radius:8px;">
-            </div>
+            <img class="brand-logo-img" src="logo%20menuju%20asn.png" alt="Logo Menuju ASN">
             <div class="brand-text">
                 <h1>MENUJU ASN</h1>
                 <span>PLATFORM CAT CPNS 2026 • TERINTEGRASI</span>
@@ -159,7 +157,7 @@
                 <!-- BRONZE -->
                 <div class="pricing-card bronze">
                     <div class="pricing-tier">BRONZE</div>
-                    <div class="pricing-price">Rp 99.999</div>
+                    <div class="pricing-price">Rp 49.999</div>
                     <p class="pricing-desc">Pas untuk latihan rutin CAT mandiri &amp; duel 1 lawan 1.</p>
                     <ul class="pricing-list">
                         <li><i class="fas fa-check-circle"></i><span>Akses Bank Soal <strong>9.999+</strong></span></li>
@@ -168,7 +166,7 @@
                         <li><i class="fas fa-check-circle"></i><span><strong>Brankas Pembahasan</strong> (Riwayat Benar, Salah, Nilai &amp; Review)</span></li>
                         <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>2 Orang</strong></span></li>
                     </ul>
-                    <button class="btn-pricing outline" onclick="window.pilihPaketLanding('Paket Bronze', 'Rp 99.999')">
+                    <button class="btn-pricing outline" onclick="window.pilihPaketLanding('Paket Bronze', 'Rp 49.999')">
                         Pilih Bronze
                     </button>
                 </div>
@@ -177,7 +175,7 @@
                 <div class="pricing-card silver popular">
                     <div class="popular-tag">⭐ PALING LARIS</div>
                     <div class="pricing-tier">SILVER</div>
-                    <div class="pricing-price">Rp 149.999</div>
+                    <div class="pricing-price">Rp 74.999</div>
                     <p class="pricing-desc">Bank soal lebih banyak, fitur lebih lengkap &amp; mabar grup.</p>
                     <ul class="pricing-list">
                         <li><i class="fas fa-check-circle"></i><span>Akses Bank Soal <strong>14.999++</strong> (+ Soal HOTS)</span></li>
@@ -187,7 +185,7 @@
                         <li><i class="fas fa-check-circle"></i><span><strong>Brankas Pembahasan</strong> (Riwayat Benar, Salah, Nilai &amp; Review)</span></li>
                         <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>5 Orang</strong></span></li>
                     </ul>
-                    <button class="btn-pricing primary" onclick="window.pilihPaketLanding('Paket Silver', 'Rp 149.999')">
+                    <button class="btn-pricing primary" onclick="window.pilihPaketLanding('Paket Silver', 'Rp 74.999')">
                         Pilih Silver
                     </button>
                 </div>
@@ -196,7 +194,7 @@
                 <div class="pricing-card gold">
                     <div class="popular-tag gold-tag">👑 TERLENGKAP</div>
                     <div class="pricing-tier">GOLD</div>
-                    <div class="pricing-price">Rp 199.999</div>
+                    <div class="pricing-price">Rp 99.999</div>
                     <p class="pricing-desc">Akses maksimal + Pusat Studi ASN &amp; fitur remedial soal salah.</p>
                     <ul class="pricing-list">
                         <li><i class="fas fa-check-circle"></i><span>Akses Bank Soal <strong>19.999++</strong> (Full Unlock &amp; Update)</span></li>
@@ -208,7 +206,7 @@
                         <li><i class="fas fa-check-circle"></i><span><strong>Pusat Studi ASN</strong> (Materi &amp; Kisi-Kisi Lengkap)</span></li>
                         <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>8 Orang</strong></span></li>
                     </ul>
-                    <button class="btn-pricing gold-btn" onclick="window.pilihPaketLanding('Paket Gold', 'Rp 199.999')">
+                    <button class="btn-pricing gold-btn" onclick="window.pilihPaketLanding('Paket Gold', 'Rp 99.999')">
                         Pilih Gold
                     </button>
                 </div>
@@ -344,7 +342,7 @@
                         </div>
                         <p>Klik pilihan jawaban dan langsung lihat kunci benar/salah, bobot TKP 1–5, serta pembahasannya seketika.</p>
                     </div>
-                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Mode Belajar 1x Klik Pembahasan', 'Paket Silver (Rp 149.999) / Gold (Rp 199.999)')">
+                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Mode Belajar 1x Klik Pembahasan', 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)')">
                         <i class="fas fa-lock"></i> Aktifkan Silver / Gold
                     </button>
                 </div>
@@ -365,7 +363,7 @@
                         </div>
                         <p>Kumpulkan otomatis soal-soal yang masih salah dari tryout sebelumnya dan kerjakan ulang sampai tuntas.</p>
                     </div>
-                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Fitur Coba Lagi Soal Salah', 'Paket Gold (Rp 199.999)')">
+                    <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Fitur Coba Lagi Soal Salah', 'Paket Gold (Rp 99.999)')">
                         <i class="fas fa-crown"></i> Upgrade ke Gold
                     </button>
                 </div>
@@ -439,7 +437,7 @@
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.0.1')
+                navigator.serviceWorker.register('./sw.js?v=2.0.2')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
