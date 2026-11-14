@@ -57,12 +57,13 @@ body {
 }
 
 .brand-logo-img {
-    height: 54px;
+    height: 78px;
     width: auto;
-    max-width: 64px;
+    max-width: 110px;
     object-fit: contain;
     display: block;
     flex-shrink: 0;
+    margin: -12px -4px -12px -8px;
 }
 
 .brand-text h1 {
