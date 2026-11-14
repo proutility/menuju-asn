@@ -26,9 +26,9 @@ window.latestRoomData = null;
 
 // Batas Kapasitas Paket Mabar (Hybrid Hemat Database)
 const TIER_CAPACITY = {
-    bronze: 2,
-    silver: 5,
-    gold: 10,
+    bronze: 1,
+    silver: 2,
+    gold: 3,
     admin: 100
 };
 
@@ -537,7 +537,7 @@ window.bukaModalBikinRoom = () => {
     if (!prof.isAdmin && !prof.isPaid) {
         return Swal.fire({
             title: 'Fitur Khusus Paket Aktif',
-            html: `Pembuatan Room Mabar hanya tersedia untuk pemilik paket <b>Bronze (2 org)</b>, <b>Silver (5 org)</b>, atau <b>Gold (10 org)</b>.<br><br><small style="color:#64748b;">Akun Free tetap bisa ikut mabar jika didaftarkan oleh Host melalui Whitelist Email Tamu.</small>`,
+            html: `Pembuatan Room Mabar hanya tersedia untuk pemilik paket <b>Bronze (1 org)</b>, <b>Silver (2 org)</b>, atau <b>Gold (3 org)</b>.<br><br><small style="color:#64748b;">Akun Free tetap bisa ikut mabar jika didaftarkan oleh Host melalui Whitelist Email Tamu.</small>`,
             icon: 'warning',
             confirmButtonText: 'Mengerti',
             confirmButtonColor: '#1e3a8a'
@@ -547,12 +547,12 @@ window.bukaModalBikinRoom = () => {
     const defaultTier = prof.isAdmin ? 'gold' : prof.tier;
     const tierOptionsHtml = prof.isAdmin
         ? `
-            <option value="bronze">Bronze (Maks 2 Peserta)</option>
-            <option value="silver">Silver (Maks 5 Peserta)</option>
-            <option value="gold" selected>Gold (Maks 10 Peserta)</option>
+            <option value="bronze">Bronze (Maks 1 Peserta)</option>
+            <option value="silver">Silver (Maks 2 Peserta)</option>
+            <option value="gold" selected>Gold (Maks 3 Peserta)</option>
             <option value="admin">Akbar Nasional (Maks 100 Peserta)</option>
           `
-        : `<option value="${defaultTier}" selected>${defaultTier.toUpperCase()} (Maks ${TIER_CAPACITY[defaultTier] || 2} Peserta)</option>`;
+        : `<option value="${defaultTier}" selected>${defaultTier.toUpperCase()} (Maks ${TIER_CAPACITY[defaultTier] || 1} Peserta)</option>`;
 
     Swal.fire({
         title: '🏛️ Buka Room Mabar CPNS',
@@ -809,7 +809,7 @@ function bukaWaitingRoom(kodeRoom) {
         examStage.innerHTML = `
             <div style="background:white; border-radius:16px; padding:24px; border:1px solid #e2e8f0; box-shadow:0 8px 24px rgba(0,0,0,0.05); text-align:center;">
                 <div style="display:inline-flex; align-items:center; gap:8px; background:#eff6ff; color:#1d4ed8; padding:6px 16px; border-radius:20px; font-weight:800; font-size:0.82rem; margin-bottom:10px;">
-                    <i class="fas fa-satellite-dish fa-spin"></i> WAITING ROOM • PAKET ${(data.tier || 'bronze').toUpperCase()} (MAKS ${data.maxPlayers || 2} PESERTA)
+                    <i class="fas fa-satellite-dish fa-spin"></i> WAITING ROOM • PAKET ${(data.tier || 'bronze').toUpperCase()} (MAKS ${data.maxPlayers || 1} PESERTA)
                 </div>
                 <h2 style="font-size:1.35rem; font-weight:800; color:#1e3a8a; margin-bottom:4px;">${data.nama}</h2>
                 <div style="font-size:2rem; font-weight:900; letter-spacing:4px; color:#d97706; margin:8px 0; font-family:monospace;">
