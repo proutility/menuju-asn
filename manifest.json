@@ -8,12 +8,12 @@
   "description": "Platform Simulasi CAT BKN Real-Time & Live Battle SKD CPNS 2026",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "src": "./logo%20menuju%20asn.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "src": "./logo%20menuju%20asn.png",
       "sizes": "512x512",
       "type": "image/png"
     }

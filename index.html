@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#1e3a8a">
     <meta name="description" content="Platform Simulasi CAT BKN Real-Time & Live Battle SKD CPNS 2026 dengan Standar Passing Grade Resmi KemenPAN-RB">
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <link rel="icon" type="image/png" href="logo%20menuju%20asn.png">
 
     <!-- GOOGLE FONTS & ICONS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.0.0">
+    <link rel="stylesheet" href="style.css?v=2.0.1">
 </head>
 <body>
 
@@ -26,7 +26,7 @@
     <header class="navbar-asn">
         <div class="brand-wrap" onclick="window.kembaliKeLobby()" style="cursor:pointer;">
             <div class="brand-logo-badge">
-                <i class="fas fa-landmark"></i>
+                <img src="logo%20menuju%20asn.png" alt="Logo Menuju ASN" style="width:100%; height:100%; object-fit:contain; border-radius:8px;">
             </div>
             <div class="brand-text">
                 <h1>MENUJU ASN</h1>
@@ -439,7 +439,7 @@
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.0.0')
+                navigator.serviceWorker.register('./sw.js?v=2.0.1')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
