@@ -56,18 +56,13 @@ body {
     gap: 12px;
 }
 
-.brand-logo-badge {
-    width: 44px;
-    height: 44px;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    padding: 2px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+.brand-logo-img {
+    height: 54px;
+    width: auto;
+    max-width: 64px;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
 }
 
 .brand-text h1 {
