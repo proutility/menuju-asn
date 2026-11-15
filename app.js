@@ -231,6 +231,8 @@ window.switchAppView = (viewName) => {
     } else if (viewName === 'cbt') {
         if (typeof window.renderArenaSavedRooms === 'function') window.renderArenaSavedRooms();
         if (typeof window.renderArenaLeaderboardHistory === 'function') window.renderArenaLeaderboardHistory();
+    } else if (viewName === 'studi') {
+        if (typeof window.syncPusatStudiButtons === 'function') window.syncPusatStudiButtons();
     }
 };
 
@@ -1179,7 +1181,7 @@ window.applyAdminBypassUI = () => {
         if (oc.includes('Mode Belajar')) label = 'Admin Bypass: Mode Belajar';
         else if (oc.includes('Coba Lagi') || oc.includes('Remedial')) label = 'Admin Bypass: Remedial Soal';
         else if (oc.includes('Tryout SKD')) label = 'Admin Bypass: Buka Tryout';
-        else if (oc.includes('Pusat Studi')) label = 'Admin Bypass: Buka Materi';
+        else if (oc.includes('Pusat Studi') || oc.includes('bukaMateriPusatStudi')) label = 'Admin Bypass: Buka Tips & Trik';
         else if (oc.includes('infoPaketBelumTersedia')) label = 'Admin Bypass: Cek Paket';
         btn.classList.remove('locked-free');
         btn.innerHTML = `<i class="fas fa-unlock-alt"></i> ${label}`;
@@ -5965,4 +5967,433 @@ window.adminSimpanBotApiKey = async () => {
     } catch (err) {
         Swal.fire('Gagal Menyimpan', err.message, 'error');
     }
+};
+
+// ==========================================================
+// PUSAT STUDI ASN - HALAMAN TIPS & TRIK (TWK, TIU, TKP)
+// ==========================================================
+const PUSAT_STUDI_DATA = {
+    twk: {
+        title: 'Modul & Tips Trik TWK (Tes Wawasan Kebangsaan)',
+        subtitle: 'Kisi-kisi resmi BKN • Passing Grade 65 • Saripati Bank Soal Part 1 & Part 2.',
+        bannerClass: 'navy',
+        topics: [
+            {
+                id: 'twk-nasionalisme',
+                badge: 'TWK • NASIONALISME',
+                title: 'Trik Membedakan Nasionalisme Adaptif vs Chauvinisme',
+                summary: 'Soal TWK Part 1 & 2 sering menguji studi kasus benturan budaya lokal, teknologi modern, atau produk asing.',
+                points: [
+                    'Pilih jawaban yang merangkul kemajuan zaman sambil menjaga jati diri/budaya lokal (adaptif, bukan anti-asing secara membabi buta).',
+                    'Hindari opsi yang bersikap sempit, memaksa kehendak, atau mengucilkan kelompok tertentu.',
+                    'Dalam kasus ASN di daerah, selalu utamakan persatuan NKRI di atas kepentingan golongan/daerah sendiri.'
+                ],
+                goodKeywords: 'Kolaborasi tradisi & inovasi, jati diri bangsa, persatuan lintas suku/budaya, cinta produk dalam negeri secara sehat.',
+                trapKeywords: 'Menutup diri total dari modernisasi, menganggap budaya sendiri paling unggul (chauvinisme), membatalkan kegiatan tanpa dialog.',
+                exampleQ: 'Sebuah komunitas pemuda berencana mengganti seni tradisional pada festival tahunan dengan budaya populer luar negeri seluruhnya. Langkah pembinaan nasionalisme yang tepat adalah...',
+                exampleAns: '<b>Kunci: Mengajak komunitas memadukan kreativitas modern dengan warisan budaya lokal agar diminati generasi muda.</b><br><i>Trik:</i> Nasionalisme budaya tidak menolak modernitas, melainkan menjaga akar lokal tetap hidup dan relevan.'
+            },
+            {
+                id: 'twk-integritas',
+                badge: 'TWK • INTEGRITAS',
+                title: 'Kunci Mutlak Soal Integritas & Anti-Korupsi ASN',
+                summary: 'Integritas diukur dari konsistensi antara nilai moral, aturan hukum/SOP, dan tindakan nyata saat ada godaan.',
+                points: [
+                    'Tolak tegas segala bentuk gratifikasi, suap, atau fasilitas khusus—sekecil apa pun nilainya dan meski dianggap "tanda terima kasih".',
+                    'Jika menemukan pelanggaran rekan/atasan, pilih opsi klarifikasi/lapor lewat jalur resmi (whistleblowing/inspektorat), bukan ikut menutupi atau menyebar ke medsos.',
+                    'Pisahkan urusan pribadi/keluarga dari fasilitas maupun kewenangan jabatan.'
+                ],
+                goodKeywords: 'Transparan, akuntabel, tolak gratifikasi, patuh SOP, lapor jalur resmi, jaga netralitas.',
+                trapKeywords: 'Menerima demi menghargai pemberi, mendiamkan pelanggaran demi solidaritas semu, memakai kendaraan/anggaran dinas untuk pribadi.',
+                exampleQ: 'Seorang rekanan proyek memberikan bingkisan bernilai kecil ke rumah Anda setelah kontrak selesai dengan alasan silaturahmi. Sikap berintegritas adalah...',
+                exampleAns: '<b>Kunci: Menolak dengan sopan dan melaporkan potensi gratifikasi kepada UPG/atasan sesuai ketentuan KPK.</b><br><i>Trik:</i> Pada soal integritas, tidak ada toleransi "nilai kecil" jika berkaitan dengan jabatan/rekanan.'
+            },
+            {
+                id: 'twk-bela-negara',
+                badge: 'TWK • BELA NEGARA',
+                title: '5 Nilai Dasar Bela Negara dalam Konteks Profesi Modern',
+                summary: 'Bela negara di SKD modern bukan hanya angkat senjata, melainkan kontribusi nyata sesuai profesi dan literasi digital.',
+                points: [
+                    'Ingat 5 nilai dasar: Cinta Tanah Air, Sadar Berbangsa & Bernegara, Setia pada Pancasila, Rela Berkorban, dan Kemampuan Awal Bela Negara.',
+                    'Di era digital, menyaring hoaks/ujaran kebencian sebelum membagikan informasi termasuk wujud Bela Negara.',
+                    'Bekerja profesional, bayar pajak tepat waktu, menjaga lingkungan, dan melayani publik dengan prima adalah implementasi langsung.'
+                ],
+                goodKeywords: 'Verifikasi fakta anti-hoaks, pengabdian sesuai profesi, kesiapsiagaan bencana, bela negara non-fisik.',
+                trapKeywords: 'Menganggap bela negara hanya tugas TNI/Polri, apatis terhadap isu hoaks pemecah belah.',
+                exampleQ: 'Anda menerima pesan berantai di grup kerja yang memprovokasi isu SARA tanpa sumber jelas menjelang pemilu. Tindakan bela negara yang tepat adalah...',
+                exampleAns: '<b>Kunci: Tidak meneruskan pesan, memverifikasi kebenarannya lewat kanal resmi, dan mengedukasi grup agar tetap kondusif.</b><br><i>Trik:</i> Bela negara era digital selalu menekankan "saring sebelum sharing" dan menjaga kondusivitas.'
+            },
+            {
+                id: 'twk-pilar-negara',
+                badge: 'TWK • PILAR NEGARA',
+                title: 'Peta Cepat UUD 1945 & Pengamalan Pancasila',
+                summary: 'Fokuskan hafalan pada pasal-pasal UUD 1945 yang paling sering muncul serta perbedaan penerapan sila ke-2 vs sila ke-5.',
+                points: [
+                    'Pasal langganan: Pasal 1 (Bentuk & Kedaulatan), Pasal 27 (Hak & Kewajiban Warga + Bela Negara), Pasal 28A–28J (HAM), Pasal 29 (Agama), Pasal 31 (Pendidikan), Pasal 33–34 (Ekonomi & Kesejahteraan Sosial).',
+                    'Trik Pancasila: Sila ke-2 fokus pada kemanusiaan/empati/martabat individu; Sila ke-5 fokus pada keadilan sosial, pemerataan, dan keseimbangan hak-kewajiban publik.',
+                    'Sila ke-4 selalu ditandai dengan musyawarah mufakat, menghargai suara berbeda, dan tidak memaksakan kehendak.'
+                ],
+                goodKeywords: 'Musyawarah mufakat (Sila 4), kemanusiaan/empati (Sila 2), pemerataan fasilitas publik (Sila 5), supremasi hukum (Pasal 1 ayat 3).',
+                trapKeywords: 'Tertukar antara Pasal 27 ayat 3 (Bela Negara) dan Pasal 30 ayat 1 (Pertahanan & Keamanan), atau tertukar Sila 2 dengan Sila 5.',
+                exampleQ: 'Pemerintah membangun akses jalan dan puskesmas yang setara di wilayah 3T agar masyarakat terpencil mendapat layanan kesehatan layak. Hal ini mencerminkan sila ke...',
+                exampleAns: '<b>Kunci: Sila ke-5 (Keadilan Sosial bagi Seluruh Rakyat Indonesia) dan amanat Pasal 34 UUD 1945.</b><br><i>Trik:</i> Jika menyangkut pemerataan pembangunan & kesejahteraan masyarakat luas = Sila 5.'
+            },
+            {
+                id: 'twk-bahasa',
+                badge: 'TWK • BAHASA INDONESIA',
+                title: 'Trik Cepat Kalimat Efektif, EYD V & Gagasan Utama',
+                summary: 'Jangan baca seluruh teks panjang berulang kali—baca pertanyaan dulu, lalu bidik kalimat pertama/terakhir paragraf.',
+                points: [
+                    'Kalimat efektif wajib punya Subjek (S) dan Predikat (P) yang jelas; hindari kata depan ("di", "pada", "bagi", "dalam") di awal subjek.',
+                    'Waspadai pleonasme (pemborosan kata): "para hadirin sekalian", "saling bantu-membantu", "agar supaya", "demi untuk".',
+                    'Penulisan gelar, huruf kapital nama geografis yang diikuti nama diri ("Sungai Musi" kapital, "berenang di sungai" kecil), serta kata baku sesuai KBBI sering diuji.'
+                ],
+                goodKeywords: 'Struktur S-P jelas, hemat kata, kata baku KBBI (misal: risiko, analisis, sistem, apotek, praktik).',
+                trapKeywords: 'Subjek didahului preposisi ("Bagi peserta harap..."), bentuk tidak baku ("resiko", "analisa", "sistim", "apotik", "praktek").',
+                exampleQ: 'Manakah kalimat yang paling efektif sesuai kaidah Bahasa Indonesia?',
+                exampleAns: '<b>Kunci: "Para peserta ujian wajib membawa kartu identitas asli."</b><br><i>Trik:</i> Hindari bentuk tidak efektif seperti "Bagi para peserta ujian sekalian diwajibkan..." (ada "Bagi" di depan subjek dan pemborosan "para + sekalian").'
+            }
+        ]
+    },
+    tiu: {
+        title: 'Trik Cepat & Rumus TIU (Tes Inteligensi Umum)',
+        subtitle: 'Kisi-kisi resmi BKN • Passing Grade 80 • Saripati Bank Soal Part 1 & Part 2.',
+        bannerClass: 'gold',
+        topics: [
+            {
+                id: 'tiu-analogi',
+                badge: 'TIU • VERBAL ANALOGI',
+                title: 'Teknik "Kalimat Jembatan" untuk Analogi Kata',
+                summary: 'Jangan sekadar menebak kata yang mirip maknanya—buat 1 kalimat penghubung yang tepat dan uji arahnya (kiri ke kanan).',
+                points: [
+                    'Buat kalimat jembatan spesifik, misal: "[KIRI] menggunakan [KANAN] sebagai alat kerja khasnya".',
+                    'Pastikan arah hubungan sama persis! Jangan sampai terbalik antara "Pekerja : Alat" dan "Alat : Pekerja".',
+                    'Jika ada dua opsi mirip, persempit jenis hubungannya (sinonim, antonim, sebab-akibat, bagian-keseluruhan, bahan baku, atau fungsi).'
+                ],
+                goodKeywords: 'Kalimat jembatan identik, arah kiri→kanan konsisten, jenis kelas kata sejajar (kata benda : kata benda).',
+                trapKeywords: 'Arah hubungan terbalik, hanya mengandalkan kemiripan tema tanpa relasi logis yang sama.',
+                exampleQ: 'DOKTER : STETOSKOP = ... : ...',
+                exampleAns: '<b>Kunci: HAKIM : PALU</b><br><i>Trik:</i> Jembatan = "Alat kerja khas profesi". Dokter memakai stetoskop; Hakim memakai palu. (Bukan Guru : Buku atau Petani : Panen).'
+            },
+            {
+                id: 'tiu-silogisme',
+                badge: 'TIU • VERBAL SILOGISME',
+                title: 'Rumus Kilat Penarikan Kesimpulan (Silogisme)',
+                summary: 'Gunakan hukum logika murni—abaikan pengetahuan umum dunia nyata jika bertentangan dengan premis soal.',
+                points: [
+                    'Modus Ponens: Jika P → Q, dan P terjadi, maka kesimpulan pasti Q.',
+                    'Modus Tollens: Jika P → Q, dan ~Q (tidak Q), maka kesimpulan pasti ~P (tidak P).',
+                    'Silogisme Rantai: Jika P → Q dan Q → R, maka P → R (ekuivalen dengan ~R → ~P).',
+                    'Aturan Kuantor: "Semua + Sebagian" selalu menghasilkan kesimpulan "Sebagian/Ada", bukan "Semua".'
+                ],
+                goodKeywords: 'Cek P→Q, ~Q→~P, serta aturan "Semua + Sebagian = Sebagian".',
+                trapKeywords: 'Membalik P→Q menjadi Q→P (salah!), atau menyimpulkan "Semua" padahal salah satu premis hanya "Sebagian".',
+                exampleQ: 'Semua pegawai yang mengikuti diklat mendapat sertifikat. Sebagian pegawai di bagian keuangan tidak mendapat sertifikat. Kesimpulannya adalah...',
+                exampleAns: '<b>Kunci: Sebagian pegawai di bagian keuangan tidak mengikuti diklat.</b><br><i>Trik:</i> Gunakan Modus Tollens (Ikut Diklat → Sertifikat; Tidak Sertifikat → Tidak Ikut Diklat) + aturan kuantor "Sebagian".'
+            },
+            {
+                id: 'tiu-deret',
+                badge: 'TIU • NUMERIK DERET',
+                title: 'Metode 3 Lapis Membongkar Pola Deret Angka < 20 Detik',
+                summary: 'Jangan panik melihat angka besar—cek selisih berurutan dulu sebelum melompat ke pola campuran.',
+                points: [
+                    'Lapis 1 (Berurutan): Hitung selisih (+ / -) atau rasio (× / ÷) antarsuku berdekatan.',
+                    'Lapis 2 (Bertingkat): Jika selisih lapis 1 belum konstan, hitung selisih dari selisihnya (deret aritmetika tingkat 2).',
+                    'Lapis 3 (Lompat / Fibonacci): Jika naik-turun, cek pola lompat 1 suku (suku ganjil sendiri, genap sendiri) atau penjumlahan 2 suku sebelumnya.'
+                ],
+                goodKeywords: 'Selisih tingkat 1 & 2, pola lompat ganjil-genap, kuadrat/kubik (n², n³ ± k), Fibonacci.',
+                trapKeywords: 'Terlalu lama menghitung angka besar padahal cukup lihat digit terakhir atau pola selisihnya.',
+                exampleQ: 'Tentukan angka berikutnya pada deret: 3, 5, 9, 15, 23, ...',
+                exampleAns: '<b>Kunci: 33</b><br><i>Trik:</i> Cek selisih lapis 1: +2, +4, +6, +8 → berikutnya pasti +10. Jadi 23 + 10 = 33!'
+            },
+            {
+                id: 'tiu-perbandingan',
+                badge: 'TIU • NUMERIK HITUNG & CERITA',
+                title: 'Trik Perbandingan Senilai vs Berbalik Nilai & Persen',
+                summary: 'Kesalahan paling sering di TIU adalah tertukar antara perbandingan senilai (kali silang) dan berbalik nilai (kali lurus).',
+                points: [
+                    'Perbandingan Senilai (contoh: jarak vs bensin, barang vs harga): makin banyak A, makin banyak B → gunakan kali silang (A1/B1 = A2/B2).',
+                    'Perbandingan Berbalik Nilai (contoh: jumlah pekerja vs waktu selesai, kecepatan vs waktu): makin banyak A, makin sedikit B → kalikan sejajar (A1 × B1 = A2 × B2).',
+                    'Trik Persentase: 10% = 1/10, 20% = 1/5, 25% = 1/4, 12,5% = 1/8, 33,3% = 1/3 — ubah ke pecahan agar hitungan jauh lebih cepat!'
+                ],
+                goodKeywords: 'Pekerja × Waktu = Pekerja × Waktu (berbalik nilai), ubah persen populer ke pecahan sederhana.',
+                trapKeywords: 'Menggunakan kali silang untuk soal jumlah pekerja vs hari kerja.',
+                exampleQ: 'Sebuah proyek selesai dalam 20 hari oleh 12 pekerja. Jika proyek harus selesai dalam 15 hari, berapa tambahan pekerja yang dibutuhkan?',
+                exampleAns: '<b>Kunci: 4 pekerja tambahan</b> (Total 16 pekerja).<br><i>Trik:</i> Berbalik nilai → 12 × 20 = P × 15 → P = 240 / 15 = 16. Jangan lupa baca pertanyaannya: "tambahan" = 16 - 12 = 4!'
+            },
+            {
+                id: 'tiu-analitis-figural',
+                badge: 'TIU • ANALITIS & FIGURAL',
+                title: 'Strategi Coretan Cepat Analitis & Patokan 1 Elemen Figural',
+                summary: 'Soal posisi duduk/jadwal dan gambar figural bisa diselesaikan sangat cepat jika tidak dikerjakan di awang-awang.',
+                points: [
+                    'Penalaran Analitis: Segera gambar garis urutan (1–5) atau tabel kecil di kertas buram; mulai dari syarat yang paling pasti/mengikat (misal: "A duduk di ujung kiri").',
+                    'Figural (Rotasi/Pencerminan/Serial): Jangan lihat seluruh gambar sekaligus! Pilih 1 elemen paling mencolok (misal: panah atau titik hitam), lacak arah putarnya (searah jarum jam 45°/90°), lalu eliminasi opsi yang salah.',
+                    'Untuk soal "Cari Gambar Berbeda", hitung jumlah sisi, jumlah titik, atau arah rotasi (searah vs berlawanan).'
+                ],
+                goodKeywords: 'Visualisasi cepat di kertas buram, mulai dari syarat mutlak, lacak 1 elemen kunci di Figural.',
+                trapKeywords: 'Menghafal posisi analitis di kepala tanpa coretan, atau meneliti semua detail gambar figural sekaligus.',
+                exampleQ: 'Pada deret gambar, sebuah segitiga berputar 90° searah jarum jam di setiap langkah sambil titik hitam berpindah 1 sudut. Bagaimana cara cepat memilih opsi?',
+                exampleAns: '<b>Trik:</b> Cek posisi titik hitam terlebih dahulu pada langkah ke-4—biasanya langsung mengeliminasi 3 dari 5 opsi dalam 5 detik, lalu konfirmasi arah puncak segitiganya.'
+            }
+        ]
+    },
+    tkp: {
+        title: 'Strategi Skor 5 Semua Aspek TKP (Tes Karakteristik Pribadi)',
+        subtitle: 'Kisi-kisi resmi BKN • Skala Bobot 1–5 • Passing Grade 166 • Saripati Bank Soal Part 1 & Part 2.',
+        bannerClass: 'green',
+        topics: [
+            {
+                id: 'tkp-pelayanan',
+                badge: 'TKP • PELAYANAN PUBLIK',
+                title: 'Prinsip Emas Pelayanan Publik: Cepat, Ramah, Solutif & Patuh SOP',
+                summary: 'Di soal pelayanan publik, warga/masyarakat adalah prioritas utama, tetapi prosedur hukum (SOP) tetap tidak boleh dilanggar.',
+                points: [
+                    'Pilih tindakan yang langsung menolong/menenangkan warga dengan ramah sambil memberi solusi sesuai aturan.',
+                    'Jika ada rekan kerja bersikap kasar ke pemohon, selamatkan pelayanan warga dulu, baru ingatkan rekan secara pribadi (bukan di depan umum).',
+                    'Jangan melempar tanggung jawab ke loket lain tanpa memandu pemohon dengan jelas.'
+                ],
+                goodKeywords: 'Ramah, sigap membantu, memandu solusi prioritas sesuai SOP, menjaga martabat instansi.',
+                trapKeywords: 'Menolak mentah-mentah tanpa solusi, memproses berkas yang melanggar aturan, membiarkan warga kebingungan.',
+                exampleQ: 'Rekan kerja di loket sebelah berbicara dengan nada tinggi kepada pemohon yang menanyakan ulang berkasnya berkali-kali. Sikap Anda yang paling tepat adalah...',
+                exampleAns: '<b>Skor 5: Mengambil alih komunikasi dengan ramah untuk menenangkan pemohon dan memproses kebutuhannya, lalu mengingatkan rekan secara pribadi setelah antrean reda.</b><br><i>Trik:</i> Selamatkan layanan publik dulu, jaga keharmonisan tim lewat teguran personal yang santun.'
+            },
+            {
+                id: 'tkp-jejaring',
+                badge: 'TKP • JEJARING KERJA',
+                title: 'Kunci Jejaring Kerja: Kolaborasi Aktif & Komunikasi Asertif',
+                summary: 'Aspek ini menguji kemampuan Anda membangun sinergi lintas tim, berbagi informasi, dan menyelesaikan konflik kerja.',
+                points: [
+                    'Pilih opsi yang membuka ruang koordinasi, diskusi konstruktif, dan saling membantu mencapai target bersama.',
+                    'Jika terjadi perbedaan pendapat dengan rekan/divisi lain, cari titik temu berbasis data dan tujuan organisasi.',
+                    'Bangun relasi profesional yang inklusif tanpa membeda-bedakan latar belakang.'
+                ],
+                goodKeywords: 'Koordinasi aktif, sinergi lintas divisi, berbagi pengetahuan, musyawarah cari solusi bersama.',
+                trapKeywords: 'Bekerja sendiri-sendiri (ego sektoral), menghindari komunikasi saat konflik, menyalahkan tim lain.',
+                exampleQ: 'Divisi lain meminta data pendukung yang sebenarnya bukan tugas pokok harian Anda, sementara tenggat laporan mereka mendesak. Sikap Anda...',
+                exampleAns: '<b>Skor 5: Berkoordinasi cepat untuk membantu menyediakan data yang diperlukan sepanjang sesuai kewenangan, tanpa mengabaikan tugas utama Anda.</b><br><i>Trik:</i> ASN unggul selalu mendukung kelancaran kerja tim lintas unit.'
+            },
+            {
+                id: 'tkp-sosbud',
+                badge: 'TKP • SOSIAL BUDAYA',
+                title: 'Sosial Budaya: Adaptif, Toleran & Menghormati Kearifan Lokal',
+                summary: 'Menguji kesiapan ASN ditempatkan di mana saja di seluruh Indonesia dengan beragam adat, bahasa, dan kebiasaan.',
+                points: [
+                    'Tunjukkan sikap terbuka, mau belajar budaya setempat, dan menghormati adat istiadat selama tidak bertentangan dengan hukum/Pancasila.',
+                    'Jika berbeda pendapat karena latar belakang budaya, kedepankan empati dan komunikasi yang santun.',
+                    'Jangan memaksakan standar atau kebiasaan daerah asal ke masyarakat tempat Anda bertugas.'
+                ],
+                goodKeywords: 'Menghargai keberagaman, adaptif di lingkungan baru, dialog santun, inklusif.',
+                trapKeywords: 'Menarik diri dari pergaulan warga, menganggap budaya lokal kolot, memicu gesekan tradisi.',
+                exampleQ: 'Anda ditugaskan di daerah terpencil yang memiliki tradisi musyawarah adat sebelum program pemerintah dijalankan. Langkah Anda adalah...',
+                exampleAns: '<b>Skor 5: Menghormati dan mengikuti forum musyawarah adat setempat untuk menjelaskan manfaat program pemerintah secara persuasif.</b><br><i>Trik:</i> Pendekatan budaya lokal mempercepat penerimaan program kerja.'
+            },
+            {
+                id: 'tkp-tik',
+                badge: 'TKP • TEKNOLOGI INFORMASI (TIK)',
+                title: 'Aspek TIK: Melek Digital, Aman Siber & Membantu Rekan',
+                summary: 'BKN menilai antusiasme Anda memanfaatkan teknologi informasi untuk efisiensi kerja sekaligus menjaga keamanan data instansi.',
+                points: [
+                    'Selalu pilih opsi yang mau belajar sistem/aplikasi baru dengan cepat dan memanfaatkannya untuk mempercepat layanan.',
+                    'Jika ada rekan senior yang kesulitan memakai aplikasi kantor, bantu mengajari dengan sabar (bukan mengambil alih selamanya atau mengejek).',
+                    'Patuhi keamanan siber: jangan sembarangan klik tautan mencurigakan, jaga kerahasiaan akun/password, dan simpan data di sistem resmi.'
+                ],
+                goodKeywords: 'Adaptif teknologi, edukasi rekan secara sabar, keamanan data/siber, efisiensi digital.',
+                trapKeywords: 'Menolak sistem baru karena ribet, kembali ke cara manual tanpa izin, membagikan password akun dinas.',
+                exampleQ: 'Kantor menerapkan aplikasi persuratan digital baru dan beberapa rekan senior kesulitan mengoperasikannya. Sikap Anda...',
+                exampleAns: '<b>Skor 5: Mempelajari alur aplikasi hingga mahir lalu meluangkan waktu mendampingi rekan senior agar seluruh tim dapat bekerja lebih cepat.</b><br><i>Trik:</i> Skor 5 TIK menggabungkan penguasaan teknologi + kolaborasi tim.'
+            },
+            {
+                id: 'tkp-profesionalisme',
+                badge: 'TKP • PROFESIONALISME',
+                title: 'Profesionalisme: Tuntas Target, Tenang di Tekanan & Jaga Rahasia',
+                summary: 'Diukur dari komitmen menyelesaikan pekerjaan tepat waktu, kualitas hasil, serta etika menjaga kerahasiaan negara/instansi.',
+                points: [
+                    'Saat beban kerja menumpuk atau ada tugas mendadak, susun skala prioritas dan selesaikan tanpa mengeluh.',
+                    'Jika melakukan kesalahan kerja, segera akui, perbaiki dampaknya, dan evaluasi agar tidak terulang.',
+                    'Jaga kerahasiaan dokumen/data instansi bahkan dari keluarga atau teman dekat.'
+                ],
+                goodKeywords: 'Skala prioritas, tanggung jawab penuh, tepat waktu, tenang di bawah tekanan, jaga rahasia jabatan.',
+                trapKeywords: 'Menunda pekerjaan hingga lewat tenggat, mencari alasan/menyalahkan rekan, membocorkan data internal.',
+                exampleQ: 'Menjelang jam pulang kantor, atasan meminta revisi laporan penting yang harus diserahkan besok pagi. Sikap Anda...',
+                exampleAns: '<b>Skor 5: Memetakan bagian yang perlu direvisi dan menyelesaikannya dengan cermat agar laporan siap tepat waktu besok pagi.</b><br><i>Trik:</i> Profesionalisme mengutamakan ketuntasan tanggung jawab dan ketenangan kerja.'
+            },
+            {
+                id: 'tkp-antiradikalisme',
+                badge: 'TKP • ANTI-RADIKALISME',
+                title: 'Anti-Radikalisme: Tegas Tolak Intoleransi & Lapor Jalur Resmi',
+                summary: 'Aspek krusial! Pilih sikap yang tegas menolak paham ekstrem/intoleran, mengedepankan klarifikasi tenang, dan melapor sesuai prosedur.',
+                points: [
+                    'Jangan bersikap netral atau apatis terhadap ajakan/konten yang merongrong Pancasila, UUD 1945, atau mendiskriminasi kelompok lain.',
+                    'Hadapi penyebaran paham intoleran di lingkungan kerja dengan dialog berbasis fakta/aturan ASN serta melaporkan indikasi serius kepada atasan/pejabat berwenang.',
+                    'Hindari tindakan main hakim sendiri atau menyebarkan tuduhan tanpa bukti.'
+                ],
+                goodKeywords: 'Setia Pancasila & NKRI, tolak intoleransi secara tegas dan santun, lapor atasan/berwenang, klarifikasi fakta.',
+                trapKeywords: 'Membiarkan karena dianggap urusan pribadi, ikut menyebarkan provokasi, main hakim sendiri.',
+                exampleQ: 'Anda melihat rekan kerja rutin membagikan tautan berisi ajakan menolak dasar negara dan merendahkan pemeluk agama lain di grup internal kantor. Sikap Anda...',
+                exampleAns: '<b>Skor 5: Menegur/mengingatkan dengan santun bahwa tindakan tersebut melanggar etika ASN, serta melaporkan temuan tersebut kepada atasan atau bagian pembinaan kepegawaian.</b><br><i>Trik:</i> Anti-radikalisme menuntut ketegasan ideologi Pancasila + prosedur resmi.'
+            }
+        ]
+    }
+};
+
+function getStudiDoneMap() {
+    try {
+        return JSON.parse(localStorage.getItem('menuju_asn_studi_done_v1') || '{}');
+    } catch {
+        return {};
+    }
+}
+
+function saveStudiDoneMap(map) {
+    try {
+        localStorage.setItem('menuju_asn_studi_done_v1', JSON.stringify(map));
+    } catch {}
+}
+
+window.currentStudiSubtes = 'twk';
+
+window.syncPusatStudiButtons = () => {
+    const isGoldOrAdmin = Boolean(
+        window.currentUserProfile?.isAdmin ||
+        String(window.currentUserProfile?.tier || '').toLowerCase() === 'gold'
+    );
+    document.querySelectorAll('.btn-studi-open').forEach(btn => {
+        if (isGoldOrAdmin) {
+            btn.classList.remove('locked-free');
+            btn.innerHTML = `<i class="fas fa-book-open"></i> Buka Tips &amp; Trik`;
+        } else {
+            btn.classList.add('locked-free');
+            btn.innerHTML = `<i class="fas fa-lock"></i> Buka Materi Gold`;
+        }
+    });
+};
+
+window.bukaMateriPusatStudi = (subtes) => {
+    const key = ['twk', 'tiu', 'tkp'].includes(String(subtes).toLowerCase())
+        ? String(subtes).toLowerCase()
+        : 'twk';
+
+    const isGoldOrAdmin = Boolean(
+        window.currentUserProfile?.isAdmin ||
+        String(window.currentUserProfile?.tier || '').toLowerCase() === 'gold'
+    );
+
+    if (!isGoldOrAdmin) {
+        return window.bukaModalUpgrade(`Pusat Studi ASN - Modul ${key.toUpperCase()}`, 'Paket Gold (Rp 99.999)');
+    }
+
+    window.currentStudiSubtes = key;
+    const searchInput = document.getElementById('studiSearchInput');
+    if (searchInput) searchInput.value = '';
+
+    window.renderHalamanPusatStudi(key, '');
+    window.switchAppView('studi-detail');
+};
+
+window.filterMateriPusatStudi = () => {
+    const q = document.getElementById('studiSearchInput')?.value.trim().toLowerCase() || '';
+    window.renderHalamanPusatStudi(window.currentStudiSubtes || 'twk', q);
+};
+
+window.toggleContohStudi = (btn) => {
+    const box = btn?.closest('.studi-example-box')?.querySelector('.studi-example-ans');
+    if (!box) return;
+    const isHidden = box.style.display === 'none' || !box.style.display;
+    box.style.display = isHidden ? 'block' : 'none';
+    btn.innerHTML = isHidden
+        ? '<i class="fas fa-eye-slash"></i> Sembunyikan Trik &amp; Jawaban'
+        : '<i class="fas fa-lightbulb"></i> Lihat Trik &amp; Jawaban';
+};
+
+window.toggleBabSelesaiStudi = (subtes, babId) => {
+    const doneMap = getStudiDoneMap();
+    doneMap[babId] = !doneMap[babId];
+    saveStudiDoneMap(doneMap);
+    const q = document.getElementById('studiSearchInput')?.value.trim().toLowerCase() || '';
+    window.renderHalamanPusatStudi(subtes, q);
+};
+
+window.renderHalamanPusatStudi = (subtes, queryText = '') => {
+    const mod = PUSAT_STUDI_DATA[subtes] || PUSAT_STUDI_DATA.twk;
+    const bannerEl = document.getElementById('studiDetailBanner');
+    const titleEl = document.getElementById('studiDetailTitle');
+    const subEl = document.getElementById('studiDetailSubtitle');
+    const progEl = document.getElementById('studiProgressPill');
+    const listEl = document.getElementById('studiDetailContent');
+
+    if (bannerEl) {
+        bannerEl.className = `view-banner ${mod.bannerClass || 'navy'}`;
+    }
+    if (titleEl) {
+        titleEl.innerHTML = `<i class="fas fa-book-open"></i> ${escapeHtmlMentor(mod.title)}`;
+    }
+    if (subEl) {
+        subEl.textContent = mod.subtitle;
+    }
+
+    document.querySelectorAll('.studi-pill').forEach(pill => {
+        pill.classList.toggle('active', pill.getAttribute('data-subtes') === subtes);
+    });
+
+    const doneMap = getStudiDoneMap();
+    const totalBab = mod.topics.length;
+    const doneCount = mod.topics.filter(t => doneMap[t.id]).length;
+    if (progEl) {
+        progEl.textContent = `${doneCount} / ${totalBab} Bab Dipelajari`;
+    }
+
+    const filtered = mod.topics.filter(t => {
+        if (!queryText) return true;
+        const hay = `${t.badge} ${t.title} ${t.summary} ${t.points.join(' ')} ${t.goodKeywords} ${t.trapKeywords} ${t.exampleQ}`.toLowerCase();
+        return hay.includes(queryText);
+    });
+
+    if (!listEl) return;
+    if (!filtered.length) {
+        listEl.innerHTML = '<div class="cc-empty">Topik tips &amp; trik tidak ditemukan untuk kata kunci tersebut.</div>';
+        return;
+    }
+
+    listEl.innerHTML = filtered.map(t => {
+        const isDone = Boolean(doneMap[t.id]);
+        return `
+            <article class="studi-tip-card ${isDone ? 'is-done' : ''}">
+                <div class="studi-tip-head">
+                    <div>
+                        <span class="studi-tip-badge">${escapeHtmlMentor(t.badge)}</span>
+                        <h3>${escapeHtmlMentor(t.title)}</h3>
+                    </div>
+                    <button type="button" class="btn-studi-done ${isDone ? 'done' : ''}" onclick="window.toggleBabSelesaiStudi('${subtes}', '${t.id}')">
+                        <i class="fas ${isDone ? 'fa-check-circle' : 'fa-circle'}"></i>
+                        ${isDone ? 'Sudah Dipelajari' : 'Tandai Selesai'}
+                    </button>
+                </div>
+                <p class="studi-tip-summary">${escapeHtmlMentor(t.summary)}</p>
+                <ul class="studi-tip-points">
+                    ${t.points.map(p => `<li>${escapeHtmlMentor(p)}</li>`).join('')}
+                </ul>
+                <div class="studi-keywords-grid">
+                    <div class="studi-kw-box good">
+                        <strong><i class="fas fa-check-circle"></i> Kata Kunci Skor Tinggi:</strong><br>
+                        ${escapeHtmlMentor(t.goodKeywords)}
+                    </div>
+                    <div class="studi-kw-box trap">
+                        <strong><i class="fas fa-exclamation-triangle"></i> Jebakan Umum:</strong><br>
+                        ${escapeHtmlMentor(t.trapKeywords)}
+                    </div>
+                </div>
+                <div class="studi-example-box">
+                    <div class="studi-example-label"><i class="fas fa-bolt"></i> Contoh Kasus Bank Soal</div>
+                    <p class="studi-example-q">${escapeHtmlMentor(t.exampleQ)}</p>
+                    <button type="button" class="btn-studi-toggle" onclick="window.toggleContohStudi(this)">
+                        <i class="fas fa-lightbulb"></i> Lihat Trik &amp; Jawaban
+                    </button>
+                    <div class="studi-example-ans" style="display:none;">
+                        ${t.exampleAns}
+                    </div>
+                </div>
+            </article>
+        `;
+    }).join('');
 };

@@ -932,7 +932,7 @@
                             <h3>Modul Inti TWK &amp; Pilar Negara</h3>
                             <p>Ringkasan Nasionalisme, Integritas, Bela Negara, UUD 1945, dan Bahasa Indonesia sesuai kisi-kisi BKN.</p>
                         </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Pusat Studi ASN - Modul TWK', 'Paket Gold (Rp 99.999)')">
+                        <button class="btn-card paid-cta btn-studi-open" data-studi="twk" onclick="window.bukaMateriPusatStudi('twk')">
                             <i class="fas fa-lock"></i> Buka Materi Gold
                         </button>
                     </div>
@@ -945,7 +945,7 @@
                             <h3>Trik Cepat Numerik &amp; Figural TIU</h3>
                             <p>Rumus cepat deret angka, perbandingan kuantitatif, silogisme, dan penalaran analitis tanpa buang waktu.</p>
                         </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Pusat Studi ASN - Modul TIU', 'Paket Gold (Rp 99.999)')">
+                        <button class="btn-card paid-cta btn-studi-open" data-studi="tiu" onclick="window.bukaMateriPusatStudi('tiu')">
                             <i class="fas fa-lock"></i> Buka Materi Gold
                         </button>
                     </div>
@@ -958,11 +958,40 @@
                             <h3>Strategi Skor 5 di Semua Aspek TKP</h3>
                             <p>Cara membaca kata kunci Pelayanan Publik, Jejaring Kerja, Sosial Budaya, TIK, Profesionalisme &amp; Anti-Radikalisme.</p>
                         </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Pusat Studi ASN - Modul TKP', 'Paket Gold (Rp 99.999)')">
+                        <button class="btn-card paid-cta btn-studi-open" data-studi="tkp" onclick="window.bukaMateriPusatStudi('tkp')">
                             <i class="fas fa-lock"></i> Buka Materi Gold
                         </button>
                     </div>
                 </div>
+            </section>
+
+            <!-- VIEW 5B: HALAMAN BACA TIPS & TRIK PUSAT STUDI ASN -->
+            <section id="view-studi-detail" class="app-view">
+                <div class="studi-detail-topbar">
+                    <button type="button" class="btn-studi-back" onclick="window.switchAppView('studi')">
+                        <i class="fas fa-arrow-left"></i> Kembali ke Pusat Studi ASN
+                    </button>
+                    <div class="studi-switch-pills">
+                        <button type="button" class="studi-pill" data-subtes="twk" onclick="window.bukaMateriPusatStudi('twk')">TWK</button>
+                        <button type="button" class="studi-pill" data-subtes="tiu" onclick="window.bukaMateriPusatStudi('tiu')">TIU</button>
+                        <button type="button" class="studi-pill" data-subtes="tkp" onclick="window.bukaMateriPusatStudi('tkp')">TKP</button>
+                    </div>
+                </div>
+
+                <div id="studiDetailBanner" class="view-banner navy">
+                    <div>
+                        <h2 id="studiDetailTitle"><i class="fas fa-book-open"></i> Tips &amp; Trik SKD</h2>
+                        <p id="studiDetailSubtitle">Panduan ringkas &amp; strategi cepat berdasarkan kisi-kisi BKN dan bank soal Part 1 &amp; 2.</p>
+                    </div>
+                    <div class="studi-progress-pill" id="studiProgressPill">0 / 0 Bab Dipelajari</div>
+                </div>
+
+                <div class="studi-search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="studiSearchInput" placeholder="Cari topik tips &amp; trik (misal: silogisme, UUD 1945, pelayanan publik)..." oninput="window.filterMateriPusatStudi()" />
+                </div>
+
+                <div id="studiDetailContent" class="studi-tips-list"></div>
             </section>
 
             <!-- VIEW 6: DISKUSI & CHAT DALAM APLIKASI -->

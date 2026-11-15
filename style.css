@@ -3164,3 +3164,260 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==========================================================
+   PUSAT STUDI ASN - HALAMAN TIPS & TRIK (TWK, TIU, TKP)
+   ========================================================== */
+.studi-detail-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.btn-studi-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    color: #0f172a;
+    font-size: 0.84rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.btn-studi-back:hover {
+    background: #f1f5f9;
+    border-color: #94a3b8;
+}
+
+.studi-switch-pills {
+    display: inline-flex;
+    gap: 8px;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 11px;
+}
+
+.studi-pill {
+    border: none;
+    background: transparent;
+    color: #475569;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 7px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.studi-pill.active {
+    background: #1e3a8a;
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(30, 58, 138, 0.22);
+}
+
+.studi-progress-pill {
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.studi-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin: 16px 0;
+}
+
+.studi-search-bar i {
+    color: #64748b;
+}
+
+.studi-search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 0.88rem;
+    color: #0f172a;
+    background: transparent;
+}
+
+.studi-tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.studi-tip-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.studi-tip-card.is-done {
+    border-color: #86efac;
+    background: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);
+}
+
+.studi-tip-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.studi-tip-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    margin-bottom: 6px;
+}
+
+.studi-tip-head h3 {
+    margin: 0;
+    font-size: 1.02rem;
+    color: #0f172a;
+}
+
+.btn-studi-done {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 0.76rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-studi-done.done {
+    background: #16a34a;
+    border-color: #16a34a;
+    color: #ffffff;
+}
+
+.studi-tip-summary {
+    margin: 0 0 12px;
+    font-size: 0.87rem;
+    color: #334155;
+    line-height: 1.6;
+}
+
+.studi-tip-points {
+    margin: 0 0 14px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 0.85rem;
+    color: #1e293b;
+    line-height: 1.55;
+}
+
+.studi-keywords-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.studi-kw-box {
+    border-radius: 11px;
+    padding: 10px 12px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.studi-kw-box.good {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    color: #166534;
+}
+
+.studi-kw-box.trap {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #991b1b;
+}
+
+.studi-example-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #1e3a8a;
+    border-radius: 12px;
+    padding: 13px 15px;
+}
+
+.studi-example-label {
+    font-size: 0.74rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.studi-example-q {
+    margin: 0 0 10px;
+    font-size: 0.85rem;
+    color: #0f172a;
+    line-height: 1.55;
+}
+
+.btn-studi-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #1e3a8a;
+    color: #ffffff;
+    font-size: 0.78rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.studi-example-ans {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #cbd5e1;
+    font-size: 0.83rem;
+    color: #1e293b;
+    line-height: 1.55;
+}
+
+@media (max-width: 680px) {
+    .studi-keywords-grid {
+        grid-template-columns: 1fr;
+    }
+    .studi-tip-card {
+        padding: 14px 15px;
+    }
+}
