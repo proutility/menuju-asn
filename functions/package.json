@@ -2,7 +2,7 @@
   "name": "menuju-asn-functions",
   "description": "Cloud Functions for MENUJU ASN (MenujuASN-BOT AI & Quota)",
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "main": "index.js",
   "dependencies": {
