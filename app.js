@@ -2245,13 +2245,28 @@ window.renderBrankasPembahasan = () => {
         return;
     }
 
-    // HALAMAN UTAMA BRANKAS: FILTER PER HARI + KARTU RINGKAS
+    // HALAMAN UTAMA BRANKAS: FILTER KATEGORI + TANGGAL + PROGRES GRAFIK
     const toDayKey = (ts) => {
         const d = new Date(ts || Date.now());
         return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     };
     const todayKey = toDayKey(Date.now());
     const dateFilter = window.brankasDateFilter || 'all';
+    const catFilter = window.brankasCatFilter || 'all';
+
+    window.setBrankasCatFilter = (cat) => {
+        window.brankasCatFilter = cat || 'all';
+        window.renderBrankasPembahasan();
+    };
+
+    const getBrankasCat = (item) => {
+        const tipe = String(item?.tipe || '').toLowerCase();
+        const title = String(item?.title || '').toLowerCase();
+        if (tipe.startsWith('twk') || title.includes('twk')) return 'twk';
+        if (tipe.startsWith('tiu') || title.includes('tiu')) return 'tiu';
+        if (tipe.startsWith('tkp') || title.includes('tkp')) return 'tkp';
+        return 'tryout';
+    };
 
     const uniqueDays = [];
     const seenDays = new Set();
@@ -2268,15 +2283,109 @@ window.renderBrankasPembahasan = () => {
 
     const filteredHistory = history.filter(item => {
         const key = toDayKey(item.finishedAt);
-        if (dateFilter === 'today') return key === todayKey;
-        if (dateFilter === '7d') return (Date.now() - (item.finishedAt || 0)) <= (7 * 24 * 60 * 60 * 1000);
-        if (dateFilter !== 'all') return key === dateFilter;
-        return true;
+        const matchDate = dateFilter === 'all' || key === dateFilter;
+        const matchCat = catFilter === 'all' || getBrankasCat(item) === catFilter;
+        return matchDate && matchCat;
     });
 
     const dayOptionsHtml = uniqueDays.map(d =>
         `<option value="${d.key}" ${dateFilter === d.key ? 'selected' : ''}>${d.label}${d.key === todayKey ? ' (Hari Ini)' : ''}</option>`
     ).join('');
+
+    const buildProgressAnalyticsHtml = (dataset) => {
+        if (!dataset || dataset.length === 0) return '';
+        const chrono = [...dataset].slice(0, 10).reverse();
+        const pctList = chrono.map(it => it.maxSkor > 0 ? Math.round(((it.totalSkor || 0) / it.maxSkor) * 100) : 0);
+        const avgPct = Math.round(pctList.reduce((a, b) => a + b, 0) / pctList.length);
+        const bestItem = dataset.reduce((best, cur) => {
+            const bPct = best.maxSkor > 0 ? best.totalSkor / best.maxSkor : 0;
+            const cPct = cur.maxSkor > 0 ? cur.totalSkor / cur.maxSkor : 0;
+            return cPct > bPct ? cur : best;
+        }, dataset[0]);
+        const lulusCount = dataset.filter(it => it.statusLolos).length;
+
+        // SVG Line Chart (Grafik Garis Naik-Turun)
+        const w = 440, h = 148, padL = 32, padR = 18, padT = 18, padB = 26;
+        const plotW = w - padL - padR;
+        const plotH = h - padT - padB;
+        const pts = chrono.map((it, idx) => {
+            const x = chrono.length === 1 ? padL + plotW / 2 : padL + (idx / (chrono.length - 1)) * plotW;
+            const pct = pctList[idx];
+            const y = padT + plotH - (pct / 100) * plotH;
+            return { x: Number(x.toFixed(1)), y: Number(y.toFixed(1)), pct, skor: it.totalSkor || 0, max: it.maxSkor || 0 };
+        });
+        const polyPoints = pts.map(p => `${p.x},${p.y}`).join(' ');
+        const areaPoints = pts.length > 1
+            ? `${pts[0].x},${padT + plotH} ${polyPoints} ${pts[pts.length - 1].x},${padT + plotH}`
+            : '';
+        const dotsSvg = pts.map((p, idx) => `
+            <circle cx="${p.x}" cy="${p.y}" r="4.5" fill="#1e3a8a" stroke="#ffffff" stroke-width="2"/>
+            <text x="${p.x}" y="${Math.max(11, p.y - 8)}" text-anchor="middle" font-size="9" font-weight="800" fill="#1e3a8a">${p.skor}</text>
+            <text x="${p.x}" y="${h - 6}" text-anchor="middle" font-size="9" font-weight="700" fill="#64748b">#${idx + 1}</text>
+        `).join('');
+
+        // Bar Batang Rata-Rata Subtes (TWK, TIU, TKP)
+        const subMetrics = [
+            { label: 'TWK', val: Math.round(dataset.reduce((s, x) => s + (x.skorTWK || 0), 0) / dataset.length), refMax: 150, color: '#2563eb' },
+            { label: 'TIU', val: Math.round(dataset.reduce((s, x) => s + (x.skorTIU || 0), 0) / dataset.length), refMax: 175, color: '#d97706' },
+            { label: 'TKP', val: Math.round(dataset.reduce((s, x) => s + (x.skorTKP || 0), 0) / dataset.length), refMax: 225, color: '#16a34a' }
+        ];
+        const barsHtml = subMetrics.map(m => {
+            const hPct = Math.max(10, Math.min(100, Math.round((m.val / m.refMax) * 100)));
+            return `
+                <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:5px;">
+                    <span style="font-size:0.74rem; font-weight:800; color:#0f172a;">${m.val}</span>
+                    <div style="width:100%; max-width:52px; height:86px; background:#f1f5f9; border-radius:8px; display:flex; align-items:flex-end; overflow:hidden; border:1px solid #e2e8f0;">
+                        <div style="width:100%; height:${hPct}%; background:${m.color}; border-radius:6px 6px 0 0; transition:height 0.3s;"></div>
+                    </div>
+                    <span style="font-size:0.75rem; font-weight:800; color:#475569;">${m.label}</span>
+                </div>
+            `;
+        }).join('');
+
+        return `
+            <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:14px; padding:16px 18px; margin-bottom:16px; box-shadow:0 4px 14px rgba(15,23,42,0.03);">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+                    <h3 style="margin:0; font-size:0.98rem; font-weight:800; color:#1e3a8a;"><i class="fas fa-chart-line" style="color:#2563eb;"></i> Progres &amp; Klasemen Nilai</h3>
+                    <div style="display:flex; gap:8px; flex-wrap:wrap; font-size:0.75rem; font-weight:800;">
+                        <span style="background:#eff6ff; color:#1d4ed8; padding:4px 10px; border-radius:999px;">Rata-rata: ${avgPct}%</span>
+                        <span style="background:#fef3c7; color:#b45309; padding:4px 10px; border-radius:999px;">Terbaik: ${bestItem.totalSkor}/${bestItem.maxSkor}</span>
+                        <span style="background:#dcfce7; color:#15803d; padding:4px 10px; border-radius:999px;">Lulus PG: ${lulusCount}/${dataset.length}</span>
+                    </div>
+                </div>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px; align-items:stretch;">
+                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px;">
+                        <div style="font-size:0.76rem; font-weight:800; color:#475569; margin-bottom:4px;">Grafik Garis Tren Nilai (Skor Paket)</div>
+                        <svg viewBox="0 0 ${w} ${h}" style="width:100%; height:145px; display:block;">
+                            <defs>
+                                <linearGradient id="brankasLineArea" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#2563eb" stop-opacity="0.22"/>
+                                    <stop offset="100%" stop-color="#2563eb" stop-opacity="0.01"/>
+                                </linearGradient>
+                            </defs>
+                            <line x1="${padL}" y1="${padT}" x2="${w - padR}" y2="${padT}" stroke="#e2e8f0" stroke-dasharray="3,3"/>
+                            <line x1="${padL}" y1="${padT + plotH / 2}" x2="${w - padR}" y2="${padT + plotH / 2}" stroke="#e2e8f0" stroke-dasharray="3,3"/>
+                            <line x1="${padL}" y1="${padT + plotH}" x2="${w - padR}" y2="${padT + plotH}" stroke="#cbd5e1"/>
+                            <text x="4" y="${padT + 3}" font-size="8.5" fill="#94a3b8" font-weight="700">100%</text>
+                            <text x="8" y="${padT + plotH / 2 + 3}" font-size="8.5" fill="#94a3b8" font-weight="700">50%</text>
+                            <text x="14" y="${padT + plotH + 3}" font-size="8.5" fill="#94a3b8" font-weight="700">0%</text>
+                            ${areaPoints ? `<polygon points="${areaPoints}" fill="url(#brankasLineArea)"/>` : ''}
+                            ${pts.length > 1 ? `<polyline fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" points="${polyPoints}"/>` : ''}
+                            ${dotsSvg}
+                        </svg>
+                    </div>
+                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 14px; display:flex; flex-direction:column; justify-content:space-between;">
+                        <div style="font-size:0.76rem; font-weight:800; color:#475569; margin-bottom:8px;">Diagram Bar Batang Rata-Rata Subtes</div>
+                        <div style="display:flex; align-items:flex-end; justify-content:space-around; gap:12px; flex:1; padding-top:4px;">
+                            ${barsHtml}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    };
+
+    const analyticsHtml = buildProgressAnalyticsHtml(filteredHistory.length ? filteredHistory : history);
 
     const listHtml = filteredHistory.map(item => {
         const tgl = new Date(item.finishedAt || Date.now()).toLocaleString('id-ID', {
@@ -2319,11 +2428,14 @@ window.renderBrankasPembahasan = () => {
     }).join('');
 
     area.innerHTML = `
+        ${analyticsHtml}
         <div class="lobby-filter-bar" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:16px;">
             <div class="filter-chips" style="margin:0;">
-                <button class="filter-chip ${dateFilter === 'all' ? 'active' : ''}" onclick="window.setBrankasDateFilter('all')">Semua Hari (${history.length})</button>
-                <button class="filter-chip ${dateFilter === 'today' ? 'active' : ''}" onclick="window.setBrankasDateFilter('today')">Hari Ini</button>
-                <button class="filter-chip ${dateFilter === '7d' ? 'active' : ''}" onclick="window.setBrankasDateFilter('7d')">7 Hari Terakhir</button>
+                <button class="filter-chip ${catFilter === 'all' ? 'active' : ''}" onclick="window.setBrankasCatFilter('all')">Semua (${history.length})</button>
+                <button class="filter-chip ${catFilter === 'tryout' ? 'active' : ''}" onclick="window.setBrankasCatFilter('tryout')">Tryout</button>
+                <button class="filter-chip ${catFilter === 'twk' ? 'active' : ''}" onclick="window.setBrankasCatFilter('twk')">TWK</button>
+                <button class="filter-chip ${catFilter === 'tiu' ? 'active' : ''}" onclick="window.setBrankasCatFilter('tiu')">TIU</button>
+                <button class="filter-chip ${catFilter === 'tkp' ? 'active' : ''}" onclick="window.setBrankasCatFilter('tkp')">TKP</button>
             </div>
             <div style="display:flex; align-items:center; gap:8px;">
                 <label for="brankasDaySelect" style="font-size:0.8rem; font-weight:700; color:#475569;"><i class="fas fa-calendar-alt"></i> Pilih Tanggal:</label>
@@ -2335,7 +2447,7 @@ window.renderBrankasPembahasan = () => {
         </div>
         ${filteredHistory.length > 0
             ? `<div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(310px, 1fr)); gap:16px;">${listHtml}</div>`
-            : `<div class="empty-state-card"><p>Tidak ada riwayat simulasi pada tanggal/rentang hari ini.</p></div>`
+            : `<div class="empty-state-card"><p>Tidak ada riwayat simulasi pada kategori/tanggal yang dipilih.</p></div>`
         }
     `;
 };
