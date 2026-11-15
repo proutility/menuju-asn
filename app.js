@@ -140,6 +140,9 @@ function updateAuthUI(user) {
         if (typeof window.renderBrankasPembahasan === 'function') {
             window.renderBrankasPembahasan();
         }
+        if (typeof window.renderBerandaProgressPanel === 'function') {
+            window.renderBerandaProgressPanel();
+        }
     } else {
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = 'none';
@@ -198,8 +201,9 @@ window.switchAppView = (viewName) => {
 
     if (viewName === 'command') {
         window.loadCommandCenterData();
-    } else if (viewName === 'beranda' && typeof window.renderSavedExamsOnBeranda === 'function') {
-        window.renderSavedExamsOnBeranda();
+    } else if (viewName === 'beranda') {
+        if (typeof window.renderSavedExamsOnBeranda === 'function') window.renderSavedExamsOnBeranda();
+        if (typeof window.renderBerandaProgressPanel === 'function') window.renderBerandaProgressPanel();
     } else if (viewName === 'brankas' && typeof window.renderBrankasPembahasan === 'function') {
         window.renderBrankasPembahasan();
     }
@@ -833,7 +837,11 @@ window.lanjutkanUjianTersimpan = (saveId) => {
         return Swal.fire('Info', 'Data progres tidak ditemukan.', 'info');
     }
 
-    const pool = [...(window.DATA_SKD_CPNS || []), ...(window.DATA_TKP_GRATIS || [])];
+    const pool = [
+        ...(window.DATA_SKD_CPNS || []),
+        ...(window.DATA_TIU_GRATIS || []),
+        ...(window.DATA_TKP_GRATIS || [])
+    ];
     const byId = new Map(pool.map(q => [q.id, q]));
     const restoredQuestions = (saved.questionIds || []).map(id => byId.get(id)).filter(Boolean);
 
@@ -910,6 +918,7 @@ window.renderSavedExamsOnBeranda = () => {
 };
 
 window.mulaiSingleplayer = (tipe, paketNo = null) => {
+    window.isInstantReviewMode = false;
     let rawData = window.DATA_SKD_CPNS || [];
     let title = 'Latihan Soal SKD';
     let saveId = tipe;
@@ -922,6 +931,13 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
         window.currentQuestions = rawData.filter(q => q.kategori === 'TIU');
         window.examTimeRemaining = window.currentQuestions.length * 60;
         title = 'Paket Soal TIU';
+    } else if (tipe === 'tiu_gratis') {
+        const no = Math.max(1, Math.min(3, Number(paketNo) || 1));
+        const gratisPool = window.DATA_TIU_GRATIS || [];
+        window.currentQuestions = gratisPool.slice((no - 1) * 35, no * 35);
+        window.examTimeRemaining = window.currentQuestions.length * 60; // 35 Menit
+        title = `TIU Gratis — Paket ${no}`;
+        saveId = `tiu_gratis_${no}`;
     } else if (tipe === 'tkp_gratis') {
         const no = Math.max(1, Math.min(3, Number(paketNo) || 1));
         const gratisPool = window.DATA_TKP_GRATIS || [];
@@ -1027,6 +1043,7 @@ function buildExamStageMarkup() {
                     Memuat butir pertanyaan...
                 </div>
                 <div class="options-list" id="optionsListDisplay"></div>
+                <div id="instantPembahasanBox" style="display:none; margin-top:16px;"></div>
                 
                 <div class="exam-nav">
                     <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
@@ -1102,21 +1119,72 @@ function renderSoalSekarang() {
 
     const qTextEl = document.getElementById('questionTextDisplay');
     if (qTextEl) {
-        qTextEl.innerText = q.soal;
+        const escaped = String(q.soal || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
+        const formatted = escaped
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\n/g, '<br>');
+        qTextEl.innerHTML = q.gambar
+            ? `${formatted}<div style="margin-top:14px; padding:12px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${q.gambar}</div>`
+            : formatted;
     }
 
     const opsListEl = document.getElementById('optionsListDisplay');
+    const instantBoxEl = document.getElementById('instantPembahasanBox');
     if (opsListEl) {
         const currentAns = window.userAnswers[q.id];
+        const showInstant = Boolean(window.isInstantReviewMode && currentAns);
+        const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
+
         opsListEl.innerHTML = q.opsi.map(opt => {
             const isSel = currentAns === opt.label;
+            let inlineStyle = '';
+            let badgeHtml = '';
+
+            if (showInstant) {
+                const isBest = q.kategori === 'TKP' ? Number(opt.poin || 0) >= maxPoin : Boolean(opt.benar);
+                if (isBest) {
+                    inlineStyle = 'border-color:#16a34a; background:#f0fdf4;';
+                } else if (isSel && !isBest) {
+                    inlineStyle = 'border-color:#ef4444; background:#fef2f2;';
+                }
+                badgeHtml = q.kategori === 'TKP'
+                    ? `<span style="margin-left:auto; font-size:0.75rem; font-weight:800; color:#475569;">Poin ${opt.poin || 0}</span>`
+                    : (opt.benar ? `<span style="margin-left:auto; font-size:0.75rem; font-weight:800; color:#15803d;">Kunci</span>` : '');
+            }
+
             return `
-                <div class="option-item ${isSel ? 'selected' : ''}" onclick="window.pilihJawaban('${q.id}', '${opt.label}', ${opt.poin || 0})">
+                <div class="option-item ${isSel ? 'selected' : ''}" style="${inlineStyle}" onclick="window.pilihJawaban('${q.id}', '${opt.label}', ${opt.poin || 0})">
                     <div class="option-circle">${opt.label}</div>
                     <div class="option-label">${opt.teks}</div>
+                    ${badgeHtml}
                 </div>
             `;
         }).join('');
+
+        if (instantBoxEl) {
+            if (showInstant) {
+                const pickedOpt = (q.opsi || []).find(o => o.label === currentAns);
+                const gotPoin = q.kategori === 'TKP' ? Number(pickedOpt?.poin || 0) : (pickedOpt?.benar ? 5 : 0);
+                instantBoxEl.style.display = 'block';
+                instantBoxEl.innerHTML = `
+                    <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:8px; font-size:0.87rem; color:#334155; line-height:1.6;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap;">
+                            <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan Instan (1x Klik)</strong>
+                            <span style="font-size:0.76rem; font-weight:800; padding:3px 10px; border-radius:999px; ${gotPoin >= maxPoin ? 'background:#dcfce7; color:#15803d;' : 'background:#fef3c7; color:#b45309;'}">
+                                Pilihanmu ${currentAns} (+${gotPoin} poin)
+                            </span>
+                        </div>
+                        ${q.pembahasan ? q.pembahasan : 'Opsi hijau menunjukkan jawaban/bobot nilai tertinggi sesuai indikator BKN pada subtes ini.'}
+                    </div>
+                `;
+            } else {
+                instantBoxEl.style.display = 'none';
+                instantBoxEl.innerHTML = '';
+            }
+        }
     }
 
     const btnPrev = document.getElementById('btnPrevSoal');
@@ -1983,6 +2051,138 @@ window.renderBrankasPembahasan = () => {
             : `<div class="empty-state-card"><p>Tidak ada riwayat simulasi pada tanggal/rentang hari ini.</p></div>`
         }
     `;
+};
+
+window.pilihPreviewLanding = (btnEl, poin, feedbackText) => {
+    const container = document.getElementById('landingPreviewOptions');
+    if (container) {
+        container.querySelectorAll('.preview-opt-btn').forEach(b => b.classList.remove('best', 'mid'));
+    }
+    if (btnEl) {
+        btnEl.classList.add(poin >= 5 ? 'best' : 'mid');
+    }
+    const fb = document.getElementById('landingPreviewFeedback');
+    if (fb) {
+        fb.style.display = 'block';
+        fb.style.borderLeftColor = poin >= 5 ? '#16a34a' : '#f59e0b';
+        fb.style.background = poin >= 5 ? '#f0fdf4' : '#fffbeb';
+        fb.style.color = poin >= 5 ? '#14532d' : '#78350f';
+        fb.innerHTML = `<strong>Skor Opsi: +${poin} Poin</strong> — ${feedbackText}`;
+    }
+};
+
+window.ubahTargetSkorSKD = async () => {
+    const uid = window.currentUser?.uid || 'guest';
+    const key = `menuju_asn_target_skor_${uid}`;
+    const current = Number(localStorage.getItem(key) || 420);
+    const res = await Swal.fire({
+        title: 'Atur Target Skor SKD',
+        input: 'number',
+        inputValue: current,
+        inputAttributes: { min: 150, max: 550, step: 5 },
+        text: 'Masukkan target skor SKD impianmu (maksimal 550):',
+        showCancelButton: true,
+        confirmButtonText: 'Simpan Target',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#1e3a8a'
+    });
+    if (res.isConfirmed && res.value) {
+        const val = Math.max(150, Math.min(550, Number(res.value) || 420));
+        localStorage.setItem(key, String(val));
+        window.renderBerandaProgressPanel();
+    }
+};
+
+window.renderBerandaProgressPanel = () => {
+    const el = document.getElementById('berandaProgressPanel');
+    if (!el) return;
+
+    const uid = window.currentUser?.uid || 'guest';
+    const targetSkor = Number(localStorage.getItem(`menuju_asn_target_skor_${uid}`) || 420);
+    const history = typeof getBrankasHistory === 'function' ? getBrankasHistory() : [];
+    const recent = history.slice(0, 6).reverse();
+    const bestSkor = history.reduce((mx, h) => Math.max(mx, Number(h.totalSkor || 0)), 0);
+    const pct = Math.min(100, Math.round((bestSkor / targetSkor) * 100));
+
+    let trendHtml = '';
+    if (recent.length === 0) {
+        trendHtml = `
+            <div style="font-size:0.84rem; color:#64748b; padding:12px 0;">
+                Belum ada riwayat simulasi. Selesaikan 1 paket latihan untuk melihat grafik perkembangan skormu di sini!
+            </div>
+        `;
+    } else {
+        const maxBar = recent.reduce((mx, h) => Math.max(mx, Number(h.maxSkor || 225), Number(h.totalSkor || 0)), 100);
+        const bars = recent.map((h, i) => {
+            const hPct = Math.max(10, Math.round(((h.totalSkor || 0) / maxBar) * 100));
+            return `
+                <div class="trend-bar-col" title="${h.title}: ${h.totalSkor}/${h.maxSkor}">
+                    <span class="trend-bar-val">${h.totalSkor}</span>
+                    <div class="trend-bar-rect" style="height:${hPct}%;"></div>
+                    <span class="trend-bar-lbl">#${i + 1}</span>
+                </div>
+            `;
+        }).join('');
+        trendHtml = `<div class="trend-bars-wrap">${bars}</div>`;
+    }
+
+    el.innerHTML = `
+        <div class="progress-card-grid">
+            <div class="progress-box">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
+                    <strong style="font-size:0.94rem; color:#0f172a;"><i class="fas fa-bullseye" style="color:var(--primary);"></i> Target Skor SKD Kamu</strong>
+                    <button onclick="window.ubahTargetSkorSKD()" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; border-radius:8px; padding:4px 10px; font-size:0.74rem; font-weight:700; cursor:pointer;">Ubah Target</button>
+                </div>
+                <div style="display:flex; justify-content:space-between; align-items:baseline; margin-top:10px;">
+                    <span style="font-size:1.35rem; font-weight:900; color:var(--primary);">${bestSkor} <small style="font-size:0.82rem; color:#64748b; font-weight:600;">/ ${targetSkor} poin</small></span>
+                    <span style="font-size:0.82rem; font-weight:800; color:#16a34a;">${pct}% Tercapai</span>
+                </div>
+                <div class="progress-bar-track"><div class="progress-bar-fill" style="width:${pct}%;"></div></div>
+                <div style="font-size:0.76rem; color:#64748b;">Skor terbaik diambil otomatis dari riwayat Brankas Pembahasanmu.</div>
+            </div>
+            <div class="progress-box">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:8px;">
+                    <strong style="font-size:0.94rem; color:#0f172a;"><i class="fas fa-chart-line" style="color:#16a34a;"></i> Tren ${recent.length || ''} Simulasi Terakhir</strong>
+                    <span style="font-size:0.75rem; color:#64748b; font-weight:600;">${history.length} Total Paket</span>
+                </div>
+                ${trendHtml}
+            </div>
+        </div>
+    `;
+};
+
+window.mulaiModeBelajar1Klik = async () => {
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    if (!prof.isPaid && !prof.isAdmin) {
+        return window.bukaModalUpgrade(
+            'Mode Belajar 1x Klik Pembahasan',
+            'Paket Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
+        );
+    }
+
+    const res = await Swal.fire({
+        title: 'Mode Belajar 1x Klik Pembahasan',
+        text: 'Pilih fokus subtes yang ingin dipelajari (langsung tampil kunci, bobot 1–5 & pembahasan saat klik opsi):',
+        input: 'select',
+        inputOptions: {
+            tkp: 'TKP (45 Soal • Bobot 1–5)',
+            twk: 'TWK (Tes Wawasan Kebangsaan)',
+            tiu: 'TIU (Tes Inteligensi Umum)'
+        },
+        inputValue: 'tkp',
+        showCancelButton: true,
+        confirmButtonText: 'Mulai Belajar',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#1e3a8a'
+    });
+
+    if (!res.isConfirmed || !res.value) return;
+    window.mulaiSingleplayer(res.value);
+    window.isInstantReviewMode = true;
+    if (window.currentPackageMeta) {
+        window.currentPackageMeta.title = `Mode Belajar 1x Klik (${String(res.value).toUpperCase()})`;
+    }
+    renderSoalSekarang();
 };
 
 window.kembaliKeLobby = () => {

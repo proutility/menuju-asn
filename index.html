@@ -132,6 +132,83 @@
             </div>
         </section>
 
+        <!-- PREVIEW INTERAKTIF RUANG CAT & FAQ -->
+        <section class="landing-preview-section" id="catPreviewSection">
+            <div class="landing-section-head">
+                <span class="section-eyebrow">SIMULASI INTERAKTIF</span>
+                <h2>Intip Ruang Ujian CAT &amp; Pembahasan Instan</h2>
+                <p>Coba klik salah satu opsi jawaban di bawah ini untuk melihat simulasi bobot nilai TKP dan kunci jawaban secara langsung.</p>
+            </div>
+
+            <div class="preview-cat-shell">
+                <div class="preview-cat-main">
+                    <div class="preview-cat-topbar">
+                        <span class="badge-subtes tkp">TKP • PELAYANAN PUBLIK</span>
+                        <span class="preview-timer-pill"><i class="fas fa-stopwatch"></i> 42:18</span>
+                    </div>
+                    <p class="preview-q-text">Anda bertugas di loket Pelayanan Terpadu. Seorang lansia datang dari desa jauh membawa berkas yang kurang lengkap menjelang jam tutup layanan. Langkah terbaik Anda adalah...</p>
+                    <div class="preview-options" id="landingPreviewOptions">
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 2, 'Kurang optimal — langsung menolak membuat pemohon yang sudah jauh-jauh datang kecewa tanpa solusi.')">
+                            <span class="preview-opt-label">A</span>
+                            <span>Menolak berkas dengan tegas karena jam layanan sudah hampir tutup.</span>
+                        </button>
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 5, 'Tepat (Poin 5)! Memberikan solusi ramah, memeriksa kekurangan berkas, dan memandu langkah tercepat tetap menjaga integritas & pelayanan prima.')">
+                            <span class="preview-opt-label">B</span>
+                            <span>Melayani dengan ramah, mengecek kekurangan berkasnya, lalu memandu solusi tercepat atau menjadwalkan prioritas esok hari.</span>
+                        </button>
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 1, 'Berisiko melanggar SOP karena meloloskan berkas yang belum memenuhi syarat.')">
+                            <span class="preview-opt-label">C</span>
+                            <span>Tetap memproses permohonan meski berkas belum lengkap agar cepat selesai.</span>
+                        </button>
+                    </div>
+                    <div id="landingPreviewFeedback" class="preview-feedback-box" style="display:none;"></div>
+                </div>
+                <aside class="preview-cat-side">
+                    <div class="preview-side-head">
+                        <strong>Navigasi Soal</strong>
+                        <span>1–45</span>
+                    </div>
+                    <div class="preview-num-grid">
+                        <span class="pnum answered">1</span><span class="pnum answered">2</span><span class="pnum ragu">3</span><span class="pnum current">4</span><span class="pnum">5</span>
+                        <span class="pnum">6</span><span class="pnum">7</span><span class="pnum">8</span><span class="pnum">9</span><span class="pnum">10</span>
+                    </div>
+                    <div class="preview-legend">
+                        <span><i class="dot g"></i> Dijawab</span>
+                        <span><i class="dot y"></i> Ragu</span>
+                        <span><i class="dot w"></i> Kosong</span>
+                    </div>
+                    <button class="btn-card primary" style="margin-top:14px;" onclick="window.eksekusiLoginGoogle()">
+                        <i class="fas fa-play"></i> Mulai Latihan Gratis
+                    </button>
+                </aside>
+            </div>
+
+            <div class="landing-faq-wrap">
+                <div class="landing-section-head" style="margin-top:42px; margin-bottom:20px;">
+                    <span class="section-eyebrow">PERTANYAAN UMUM</span>
+                    <h2>Yang Sering Ditanyakan Pejuang ASN</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item" open>
+                        <summary>Apakah soal sudah sesuai kisi-kisi terbaru BKN &amp; KemenPAN-RB?</summary>
+                        <p>Ya, seluruh bank soal TWK, TIU, dan TKP (termasuk 40 paket TKP / 1.800 soal berbobot 1–5) disusun mengikuti standar ambang batas BKN.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Apa bedanya paket Satuan, Bronze, Silver, dan Gold?</summary>
+                        <p>Semua paket berbayar membuka akses Brankas Pembahasan dan ribuan soal. Bronze/Silver/Gold menambah kapasitas CBT Mabar (1/2/3 teman), dan khusus <b>Gold</b> membuka Pusat Studi ASN serta fitur <b>Remedial Ulangi Soal Salah</b>.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Apakah progres ujian tersimpan kalau keluar di tengah jalan?</summary>
+                        <p>Ya! Tersedia tombol <b>Simpan &amp; Kembali</b> untuk melanjutkan latihan nanti dari Beranda, dan setelah selesai nilai otomatis masuk ke Brankas Pembahasan.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Apakah bisa dibuka dan diinstal di HP Android atau iOS?</summary>
+                        <p>Bisa! MENUJU ASN sudah mendukung tampilan responsif mobile dan PWA sehingga bisa langsung diinstal ke layar utama HP.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
         <!-- UJI COBA GRATIS 3 PAKET SOAL -->
         <section class="landing-free-trial" id="freeTrialSection">
             <div class="landing-section-head">
@@ -404,6 +481,9 @@
                     </div>
                 </div>
 
+                <!-- TARGET SKOR & GRAFIK TREN NILAI -->
+                <div id="berandaProgressPanel" class="beranda-progress-panel"></div>
+
                 <!-- AKSES CEPAT FITUR UNGGULAN -->
                 <div class="dash-section-head">
                     <h3><i class="fas fa-compass" style="color:var(--primary);"></i> Mulai dari Mana Hari Ini?</h3>
@@ -520,60 +600,60 @@
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tiu">
                         <div>
                             <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
                                 <span class="badge-cat">TIU • PAKET 1</span>
                             </div>
                             <div class="card-mode-header">
                                 <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
                                 <div>
                                     <h3>TIU Gratis — Paket 1</h3>
-                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">Verbal &amp; Silogisme</span>
+                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">35 Soal • 35 Menit • Mode Lama &amp; Baru</span>
                                 </div>
                             </div>
-                            <p>Latihan soal Tes Inteligensi Umum standar BKN 2026 (Passing Grade Min 80).</p>
+                            <p>Latihan lengkap Verbal, Numerik &amp; Figural SVG standar BKN 2026 (Passing Grade Min 80).</p>
                         </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('TIU Gratis — Paket 1')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
+                        <button class="btn-card free-cta" onclick="window.mulaiSingleplayer('tiu_gratis', 1)">
+                            <i class="fas fa-play"></i> Kerjakan Gratis
                         </button>
                     </div>
 
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tiu">
                         <div>
                             <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
                                 <span class="badge-cat">TIU • PAKET 2</span>
                             </div>
                             <div class="card-mode-header">
                                 <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
                                 <div>
                                     <h3>TIU Gratis — Paket 2</h3>
-                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">Numerik &amp; Deret Angka</span>
+                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">35 Soal • 35 Menit • Mode Lama &amp; Baru</span>
                                 </div>
                             </div>
-                            <p>Latihan soal Tes Inteligensi Umum standar BKN 2026 (Passing Grade Min 80).</p>
+                            <p>Latihan lengkap Verbal, Numerik &amp; Figural SVG standar BKN 2026 (Passing Grade Min 80).</p>
                         </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('TIU Gratis — Paket 2')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
+                        <button class="btn-card free-cta" onclick="window.mulaiSingleplayer('tiu_gratis', 2)">
+                            <i class="fas fa-play"></i> Kerjakan Gratis
                         </button>
                     </div>
 
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tiu">
                         <div>
                             <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
                                 <span class="badge-cat">TIU • PAKET 3</span>
                             </div>
                             <div class="card-mode-header">
                                 <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
                                 <div>
                                     <h3>TIU Gratis — Paket 3</h3>
-                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">Figural &amp; Analitis</span>
+                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">35 Soal • 35 Menit • Mode Lama &amp; Baru</span>
                                 </div>
                             </div>
-                            <p>Latihan soal Tes Inteligensi Umum standar BKN 2026 (Passing Grade Min 80).</p>
+                            <p>Latihan lengkap Verbal, Numerik &amp; Figural SVG standar BKN 2026 (Passing Grade Min 80).</p>
                         </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('TIU Gratis — Paket 3')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
+                        <button class="btn-card free-cta" onclick="window.mulaiSingleplayer('tiu_gratis', 3)">
+                            <i class="fas fa-play"></i> Kerjakan Gratis
                         </button>
                     </div>
 
@@ -654,8 +734,8 @@
                             </div>
                             <p>Klik pilihan jawaban dan langsung lihat kunci benar/salah, bobot TKP 1–5, serta pembahasannya seketika.</p>
                         </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Mode Belajar 1x Klik Pembahasan', 'Paket Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')">
-                            <i class="fas fa-lock"></i> Buka Mode Belajar
+                        <button id="btnModeBelajar1Klik" class="btn-card paid-cta" onclick="window.mulaiModeBelajar1Klik()">
+                            <i class="fas fa-bolt"></i> Mulai Mode Belajar 1x Klik
                         </button>
                     </div>
 
@@ -1175,8 +1255,9 @@
 
     <!-- SCRIPTS -->
     <script src="data_skd_cpns.js?v=2.1.5"></script>
+    <script src="data_tiu_gratis.js?v=1.0.0"></script>
     <script src="data_tkp_gratis.js?v=1.0.0"></script>
-    <script type="module" src="app.js?v=2.1.5"></script>
+    <script type="module" src="app.js?v=2.1.6"></script>
     
     <script>
         // PWA Service Worker Registration
