@@ -27,11 +27,11 @@ let _cachedApiKey = "";
 let _cachedApiKeyAt = 0;
 
 const DAILY_LIMITS = {
-  free: { explain: 0, weakness: 0, newsSearch: 0 },
-  bronze: { explain: 10, weakness: 1, newsSearch: 0 },
-  silver: { explain: 25, weakness: 2, newsSearch: 3 },
-  gold: { explain: 50, weakness: 5, newsSearch: 5 },
-  admin: { explain: 9999, weakness: 9999, newsSearch: 9999 }
+  free: { total: 0, explain: 0, weakness: 0, newsSearch: 0 },
+  bronze: { total: 10, explain: 10, weakness: 10, newsSearch: 0 },
+  silver: { total: 20, explain: 20, weakness: 20, newsSearch: 20 },
+  gold: { total: 30, explain: 30, weakness: 30, newsSearch: 30 },
+  admin: { total: 9999, explain: 9999, weakness: 9999, newsSearch: 9999 }
 };
 
 function getTodayWIB() {
@@ -204,6 +204,8 @@ exports.menujuAsnBot = onRequest(
       }
 
       const userCtx = await getUserTierAndQuota(uid, email);
+      const totalUsed = (userCtx.counts.explain || 0) + (userCtx.counts.weakness || 0) + (userCtx.counts.newsSearch || 0);
+      const totalLimit = userCtx.limits.total ?? userCtx.limits.explain ?? 0;
 
       if (action === "quota") {
         return res.json({
@@ -211,26 +213,32 @@ exports.menujuAsnBot = onRequest(
           tier: userCtx.tier,
           today: userCtx.today,
           used: userCtx.counts,
-          limits: userCtx.limits
+          limits: userCtx.limits,
+          totalUsed,
+          totalLimit,
+          remaining: Math.max(0, totalLimit - totalUsed)
         });
       }
 
-      const limitForAction = userCtx.limits[action] || 0;
-      const usedForAction = userCtx.counts[action] || 0;
+      const limitForAction = totalLimit;
+      const usedForAction = totalUsed;
 
-      if (!userCtx.isAdmin && limitForAction <= 0) {
+      if (!userCtx.isAdmin && totalLimit <= 0) {
         return res.status(403).json({
-          error: `Fitur ini belum tersedia di paket ${userCtx.tier.toUpperCase()}. Upgrade paket untuk membuka akses MenujuASN-BOT.`,
+          error: `Fitur MenujuASN-BOT belum tersedia di paket ${userCtx.tier.toUpperCase()}. Upgrade ke Bronze (10 token/hari), Silver (20 token/hari), atau Gold (30 token/hari).`,
           code: "TIER_LOCKED"
         });
       }
 
-      if (!userCtx.isAdmin && usedForAction >= limitForAction) {
+      if (!userCtx.isAdmin && totalUsed >= totalLimit) {
         return res.status(429).json({
-          error: `Kuota harian MenujuASN-BOT (${limitForAction}x/hari) untuk paket ${userCtx.tier.toUpperCase()} sudah habis. Reset otomatis besok pukul 00.00 WIB.`,
+          error: `Token harian MenujuASN-BOT (${totalLimit} token/hari) untuk paket ${userCtx.tier.toUpperCase()} sudah habis. Reset otomatis besok pukul 00.00 WIB.`,
           code: "QUOTA_EXCEEDED",
-          used: usedForAction,
-          limit: limitForAction
+          used: totalUsed,
+          limit: totalLimit,
+          totalUsed,
+          totalLimit,
+          remaining: 0
         });
       }
 
@@ -297,13 +305,17 @@ exports.menujuAsnBot = onRequest(
         }
 
         const nextCounts = await incrementQuota(userCtx.userRef, userCtx.today, userCtx.counts, "explain");
+        const newTotalUsed = totalUsed + 1;
         return res.json({
           ok: true,
           cached: false,
           reply: result.text,
           model: result.model,
-          used: nextCounts.explain,
-          limit: limitForAction
+          used: newTotalUsed,
+          limit: totalLimit,
+          totalUsed: newTotalUsed,
+          totalLimit,
+          remaining: Math.max(0, totalLimit - newTotalUsed)
         });
       }
 
@@ -323,13 +335,17 @@ exports.menujuAsnBot = onRequest(
         const prompt = `Data Riwayat Latihan Peserta:\n${statsSummary}\n\nBerikan diagnosis kelemahan dan strategi belajar yang paling efektif.`;
         const result = await callGemini({ apiKey, systemInstruction, prompt });
         const nextCounts = await incrementQuota(userCtx.userRef, userCtx.today, userCtx.counts, "weakness");
+        const newTotalUsed = totalUsed + 1;
 
         return res.json({
           ok: true,
           reply: result.text,
           model: result.model,
-          used: nextCounts.weakness,
-          limit: limitForAction
+          used: newTotalUsed,
+          limit: totalLimit,
+          totalUsed: newTotalUsed,
+          totalLimit,
+          remaining: Math.max(0, totalLimit - newTotalUsed)
         });
       }
 

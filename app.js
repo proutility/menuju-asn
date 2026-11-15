@@ -5564,10 +5564,79 @@ function formatBotTextHtml(text) {
         .replace(/\n/g, '<br/>');
 }
 
+window._botQuotaState = null;
+
+window.konfirmasiPakaiTokenBot = async (namaFitur = 'Tanya MenujuASN-BOT') => {
+    if (!window.currentUser) {
+        Swal.fire('Perlu Login', 'Silakan login dengan akun Google terlebih dahulu.', 'info');
+        return false;
+    }
+    try {
+        if (!window._botQuotaState) {
+            const q = await callMenujuAsnBot({ action: 'quota' });
+            window._botQuotaState = q;
+        }
+    } catch (e) {
+        // lanjutkan, server tetap akan memvalidasi
+    }
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const tier = prof.isAdmin ? 'admin' : (prof.isPaid ? String(prof.tier || 'bronze').toLowerCase() : 'free');
+    const defaultLim = tier === 'admin' ? 9999 : (tier === 'gold' ? 30 : (tier === 'silver' ? 20 : (tier === 'bronze' ? 10 : 0)));
+    const totalLimit = window._botQuotaState?.totalLimit ?? defaultLim;
+    const totalUsed = window._botQuotaState?.totalUsed ?? 0;
+    const remaining = Math.max(0, totalLimit - totalUsed);
+
+    if (tier !== 'admin' && totalLimit <= 0) {
+        window.bukaModalUpgrade(namaFitur, 'Bronze (10 Token/hari) • Silver (20 Token/hari) • Gold (30 Token/hari)');
+        return false;
+    }
+
+    if (tier !== 'admin' && remaining <= 0) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Token Harian Habis',
+            html: `Jatah token <b>MenujuASN-BOT</b> paket <b>${tier.toUpperCase()}</b> hari ini (<b>${totalLimit} token/hari</b>) sudah terpakai semua.<br><br><span style="font-size:0.82rem; color:#64748b;">Kuota di-reset otomatis pukul 00.00 WIB.</span>`,
+            confirmButtonColor: '#1e3a8a'
+        });
+        return false;
+    }
+
+    const sisaBadge = tier === 'admin'
+        ? `<span style="color:#059669; font-weight:800;">Unlimited (Admin)</span>`
+        : `<span style="color:#1d4ed8; font-weight:800;">${remaining} dari ${totalLimit} Token</span>`;
+
+    const ask = await Swal.fire({
+        title: '🤖 Pakai Token MenujuASN-BOT?',
+        html: `
+            <div style="text-align:left; font-size:0.86rem; line-height:1.55; color:#334155;">
+                <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px; margin-bottom:10px;">
+                    <div>Fitur: <b>${escapeHtmlMentor(namaFitur)}</b></div>
+                    <div>Paket Aktif: <b>${tier.toUpperCase()}</b></div>
+                    <div>Sisa Token Hari Ini: ${sisaBadge}</div>
+                </div>
+                <div style="font-size:0.78rem; color:#64748b;">
+                    • Setiap pertanyaan memakai <b>1 token</b>.<br/>
+                    • Batas harian: <b>Bronze 10</b> • <b>Silver 20</b> • <b>Gold 30</b> token/hari (reset 00.00 WIB).
+                </div>
+            </div>
+        `,
+        showCancelButton: true,
+        confirmButtonText: 'Ya, Lanjut Tanya (-1 Token)',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#1e3a8a'
+    });
+
+    return Boolean(ask.isConfirmed);
+};
+
 window.bedahSoalDenganBot = async (safeId, followUpText = '') => {
     const ctx = window._botSoalContextMap?.[safeId];
     const box = document.getElementById(`botExplainWrap_${safeId}`);
     if (!ctx || !box) return;
+
+    const okToken = await window.konfirmasiPakaiTokenBot(followUpText ? 'Tanya Lanjutan Soal' : 'Bedah Soal dengan AI');
+    if (!okToken) return;
 
     box.style.display = 'block';
     box.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang membedah soal ini...`;
@@ -5584,12 +5653,19 @@ window.bedahSoalDenganBot = async (safeId, followUpText = '') => {
             pembahasan: ctx.pembahasan,
             followUp: followUpText
         });
-        const quotaTxt = res.limit >= 9999 ? 'Unlimited (Admin)' : `${res.used}/${res.limit} hari ini`;
-        const cacheTag = res.cached ? ' • <span style="color:#059669; font-weight:700;">Cache Hemat (0 Kuota)</span>' : '';
+        if (res.totalLimit !== undefined) {
+            window._botQuotaState = {
+                totalUsed: res.totalUsed ?? res.used ?? 0,
+                totalLimit: res.totalLimit ?? res.limit ?? 0
+            };
+        }
+        const rem = Math.max(0, (res.totalLimit || res.limit || 0) - (res.totalUsed ?? res.used ?? 0));
+        const quotaTxt = (res.totalLimit || res.limit) >= 9999 ? 'Unlimited (Admin)' : `Sisa ${rem}/${res.totalLimit || res.limit} token hari ini`;
+        const cacheTag = res.cached ? ' • <span style="color:#059669; font-weight:700;">Cache Hemat (0 Token)</span>' : '';
         box.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
                 <strong style="color:#0369a1;"><i class="fas fa-robot"></i> MenujuASN-BOT</strong>
-                <span style="font-size:0.72rem; color:#475569;">Kuota: <b>${quotaTxt}</b>${cacheTag}</span>
+                <span style="font-size:0.72rem; color:#475569;"><b>${quotaTxt}</b>${cacheTag}</span>
             </div>
             <div>${formatBotTextHtml(res.reply)}</div>
             <form style="display:flex; gap:6px; margin-top:10px;" onsubmit="event.preventDefault(); const inp=this.querySelector('input'); if(inp.value.trim()) window.bedahSoalDenganBot('${safeId}', inp.value.trim());">
@@ -5610,9 +5686,12 @@ window.refreshBotAndNewsView = async () => {
     if (!window.currentUser) return;
     try {
         const res = await callMenujuAsnBot({ action: 'quota' });
-        const fmt = (used, lim) => lim >= 9999 ? 'Unlimited (Admin)' : (lim <= 0 ? 'Terkunci' : `${Math.max(0, lim - used)}/${lim} tersisa`);
-        if (qExp) qExp.textContent = fmt(res.used.explain, res.limits.explain);
-        if (qWeak) qWeak.textContent = fmt(res.used.weakness, res.limits.weakness);
+        window._botQuotaState = res;
+        const totLim = res.totalLimit ?? res.limits?.total ?? 0;
+        const totUsed = res.totalUsed ?? 0;
+        const fmt = (used, lim) => lim >= 9999 ? 'Unlimited (Admin)' : (lim <= 0 ? 'Terkunci (Free)' : `${Math.max(0, lim - used)} / ${lim} Token`);
+        if (qExp) qExp.textContent = fmt(totUsed, totLim);
+        if (qWeak) qWeak.textContent = 'Bronze 10 • Silver 20 • Gold 30';
     } catch (e) {
         if (qExp) qExp.textContent = 'Belum aktif';
     }
@@ -5749,6 +5828,9 @@ window.jalankanAnalisisKelemahanAI = async () => {
         outBox.innerHTML = 'Belum ada riwayat simulasi di Brankas Pembahasan. Kerjakan minimal 1 latihan/tryout dulu agar MenujuASN-BOT bisa membaca pola kelemahanmu.';
         return;
     }
+
+    const okToken = await window.konfirmasiPakaiTokenBot('Crosscheck Kelemahan Strategis');
+    if (!okToken) return;
 
     const recent = rawList.slice(0, 8);
     const subKatErrors = {};
