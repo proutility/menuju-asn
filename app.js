@@ -775,47 +775,121 @@ async function selesaikanUjian() {
         await syncCheckpointToFirestore(null, true);
     }
 
-    const { skorTWK, skorTIU, skorTKP, totalSkor } = hitungSkorSekarang();
-    const isFullSim = window.currentQuestions.length >= 15;
-    const lolosTWK = skorTWK >= (isFullSim ? 25 : 15);
-    const lolosTIU = skorTIU >= (isFullSim ? 25 : 15);
-    const lolosTKP = skorTKP >= (isFullSim ? 20 : 15);
+    const { skorTWK, skorTIU, skorTKP, totalSkor, totalWaktu } = hitungSkorSekarang();
+    const qs = window.currentQuestions || [];
+    const countTWK = qs.filter(q => q.kategori === 'TWK').length;
+    const countTIU = qs.filter(q => q.kategori === 'TIU').length;
+    const countTKP = qs.filter(q => q.kategori === 'TKP').length;
+
+    const pgTWK = countTWK >= 30 ? 65 : Math.max(5, Math.round(countTWK * 5 * 0.43));
+    const pgTIU = countTIU >= 35 ? 80 : Math.max(5, Math.round(countTIU * 5 * 0.45));
+    const pgTKP = countTKP >= 45 ? 166 : Math.max(5, Math.round(countTKP * 5 * 0.73));
+
+    const lolosTWK = countTWK === 0 || skorTWK >= pgTWK;
+    const lolosTIU = countTIU === 0 || skorTIU >= pgTIU;
+    const lolosTKP = countTKP === 0 || skorTKP >= pgTKP;
     const statusLolos = lolosTWK && lolosTIU && lolosTKP;
 
-    Swal.fire({
-        title: statusLolos ? '🎉 SELAMAT! MEMENUHI PASSING GRADE' : '⚠️ BELUM MEMENUHI PASSING GRADE',
-        html: `
-            <div style="text-align:left; font-size:0.9rem; padding:10px; background:#f8fafc; border-radius:12px; margin-top:10px;">
-                <div style="font-size:1.4rem; font-weight:800; color:#1e3a8a; text-align:center; margin-bottom:12px;">
-                    Total Nilai: ${totalSkor}
+    const maxSkor = (countTWK + countTIU + countTKP) * 5;
+    const menit = Math.floor((totalWaktu || 0) / 60);
+    const detik = (totalWaktu || 0) % 60;
+    const durasiText = `${menit}m ${detik}d`;
+
+    const rows = [];
+    if (countTWK > 0) rows.push({ label: 'Tes Wawasan Kebangsaan (TWK)', pg: pgTWK, nilai: skorTWK, max: countTWK * 5, lolos: lolosTWK });
+    if (countTIU > 0) rows.push({ label: 'Tes Inteligensi Umum (TIU)', pg: pgTIU, nilai: skorTIU, max: countTIU * 5, lolos: lolosTIU });
+    if (countTKP > 0) rows.push({ label: 'Tes Karakteristik Pribadi (TKP)', pg: pgTKP, nilai: skorTKP, max: countTKP * 5, lolos: lolosTKP });
+
+    const rowsHtml = rows.map(r => {
+        const pct = r.max > 0 ? Math.min(100, Math.round((r.nilai / r.max) * 100)) : 0;
+        return `
+            <tr>
+                <td>
+                    <strong>${r.label}</strong>
+                    <div class="res-bar-track"><div class="res-bar-fill ${r.lolos ? 'pass' : 'fail'}" style="width:${pct}%;"></div></div>
+                </td>
+                <td>${r.pg}</td>
+                <td><strong>${r.nilai}</strong> <small style="color:#94a3b8;">/ ${r.max}</small></td>
+                <td>
+                    <span class="res-badge ${r.lolos ? 'pass' : 'fail'}">
+                        ${r.lolos ? 'Lulus PG' : 'Belum Lulus'}
+                    </span>
+                </td>
+            </tr>
+        `;
+    }).join('');
+
+    const examStage = document.getElementById('examStage');
+    if (examStage) {
+        examStage.style.display = 'block';
+        examStage.innerHTML = `
+            <div class="result-shell">
+                <div class="result-top-banner">
+                    <div>
+                        <span class="result-eyebrow"><i class="fas fa-award"></i> LAPORAN HASIL EVALUASI CAT • MENUJU ASN</span>
+                        <h2>Hasil Simulasi SKD CPNS 2026</h2>
+                        <div class="result-meta-chips">
+                            <span><i class="fas fa-list-ol"></i> ${qs.length} Soal</span>
+                            <span><i class="fas fa-stopwatch"></i> Waktu: ${durasiText}</span>
+                            <span><i class="fas fa-gamepad"></i> ${window.currentAppMode === 'multiplayer' ? 'CBT Mabar' : 'CAT Mandiri'}</span>
+                        </div>
+                    </div>
+                    <button class="btn-dash-ghost" onclick="window.kembaliKeLobby()">
+                        <i class="fas fa-arrow-left"></i> Kembali ke Dashboard
+                    </button>
                 </div>
-                <div style="display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #e2e8f0;">
-                    <span>TWK (Wawasan Kebangsaan):</span>
-                    <b>${skorTWK} ${lolosTWK ? '✅ Lolos' : '❌ Kurang'}</b>
-                </div>
-                <div style="display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #e2e8f0;">
-                    <span>TIU (Inteligensi Umum):</span>
-                    <b>${skorTIU} ${lolosTIU ? '✅ Lolos' : '❌ Kurang'}</b>
-                </div>
-                <div style="display:flex; justify-content:space-between; padding:6px 0;">
-                    <span>TKP (Karakteristik Pribadi):</span>
-                    <b>${skorTKP} ${lolosTKP ? '✅ Lolos' : '❌ Kurang'}</b>
+
+                <div class="result-grid">
+                    <!-- PANEL KIRI: RINCIAN NILAI -->
+                    <div class="result-breakdown-card">
+                        <div class="result-card-head">
+                            <h3><i class="fas fa-chart-bar" style="color:var(--primary);"></i> Rincian Skor &amp; Ambang Batas BKN</h3>
+                            <span class="res-chip-info">Perolehan Nilai Terbaru</span>
+                        </div>
+                        <div class="result-table-wrap">
+                            <table class="result-table">
+                                <thead>
+                                    <tr>
+                                        <th>SUBTES</th>
+                                        <th>PASSING GRADE</th>
+                                        <th>NILAI KAMU</th>
+                                        <th>STATUS</th>
+                                    </tr>
+                                </thead>
+                                <tbody>${rowsHtml}</tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- PANEL KANAN: TOTAL SKOR -->
+                    <div class="result-score-card ${statusLolos ? 'pass' : 'fail'}">
+                        <div class="score-box-inner">
+                            <span class="score-box-label">Total Perolehan Nilai Kamu</span>
+                            <div class="score-big-num">${totalSkor}</div>
+                            <span class="score-max-sub">dari maksimal ${maxSkor} poin</span>
+                            <div class="score-status-pill ${statusLolos ? 'pass' : 'fail'}">
+                                ${statusLolos ? '<i class="fas fa-check-circle"></i> LULUS PASSING GRADE' : '<i class="fas fa-exclamation-circle"></i> BELUM MEMENUHI PG'}
+                            </div>
+                        </div>
+                        <div class="score-actions-stack">
+                            <button class="btn-card primary" onclick="window.kembaliKeLobby(); window.switchAppView('brankas');">
+                                <i class="fas fa-vault"></i> Buka Brankas Pembahasan
+                            </button>
+                            ${window.currentAppMode === 'multiplayer' ? `
+                                <button class="btn-card accent" onclick="window.bukaModalKlasemenMabar()">
+                                    <i class="fas fa-trophy"></i> Klasemen Live Mabar
+                                </button>
+                            ` : ''}
+                            <button class="btn-card outline" onclick="window.kembaliKeLobby()">
+                                <i class="fas fa-home"></i> Kembali ke Dashboard
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            ${window.currentAppMode === 'multiplayer' ? `
-                <button onclick="Swal.close(); window.bukaModalKlasemenMabar();" style="margin-top:12px; width:100%; background:#d97706; color:white; border:none; padding:10px; border-radius:8px; font-weight:800; cursor:pointer;">
-                    🏆 Lihat Klasemen Live Mabar
-                </button>
-            ` : ''}
-        `,
-        icon: statusLolos ? 'success' : 'warning',
-        confirmButtonText: 'Kembali ke Lobby',
-        confirmButtonColor: '#1e3a8a'
-    }).then((r) => {
-        if (r.isConfirmed || r.dismiss === Swal.DismissReason.backdrop) {
-            window.kembaliKeLobby();
-        }
-    });
+        `;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 }
 
 window.kembaliKeLobby = () => {
