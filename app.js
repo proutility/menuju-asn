@@ -1301,7 +1301,7 @@ function formatQuestionTextHtml(rawText) {
             });
         } else {
             flushTable();
-            out.push(line);
+            out.push(line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'));
         }
     });
     flushTable();
@@ -2125,7 +2125,7 @@ window.renderBrankasPembahasan = () => {
                             ${it.userAns ? `Jawaban: ${it.userAns} (+${it.userPoin} poin)` : 'Tidak Dijawab (0 poin)'}
                         </span>
                     </div>
-                    <p style="font-size:0.93rem; color:#0f172a; line-height:1.6; margin:0 0 12px; white-space:pre-line;">${it.soal}</p>
+                    <div style="font-size:0.93rem; color:#0f172a; line-height:1.6; margin:0 0 12px; white-space:pre-line;">${formatQuestionTextHtml(it.soal)}</div>
                     ${it.gambar ? `<div style="margin:0 0 12px; padding:10px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${it.gambar}</div>` : ''}
                     <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:12px;">${opsiHtml}</div>
                     ${window.buildInteractivePembahasanHtml(it, it.userAns, `brankas_${it.no}`, {
@@ -3028,6 +3028,13 @@ function escapeHtmlMentor(str) {
         .replace(/>/g, '&gt;');
 }
 
+function formatMentorTextHtml(str) {
+    return escapeHtmlMentor(str)
+        .replace(/\*\*([^*\n]+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/(^|[\s(,;:])'([^'\n]{1,60})'(?=[\s.,;:!?)]|$)/g, '$1<strong>$2</strong>')
+        .replace(/(^|[\s(:;])"([^"\n]{1,120})"(?=[\s.,;:!?)]|$)/g, '$1<strong>$2</strong>');
+}
+
 function buildMentorVisualHtml(q) {
     if (!q) return '';
     const sub = String(q.subKategori || '').toLowerCase();
@@ -3290,7 +3297,10 @@ function buildMentorTrikAndJebakan(q, userAns, kunciLabel, gotPoin, maxPoin) {
     } else if (sub.includes('hitung') || sub.includes('numerik') || sub.includes('perbandingan')) {
         trik = 'Gunakan pembulatan cerdas atau cek digit satuan/persentase pecahan istimewa (12,5% = 1/8; 33,3% = 1/3) untuk hemat waktu.';
         jebakan = 'Salah konversi satuan (persen vs desimal) atau lupa urutan operasi perkalian/pembagian sebelum penjumlahan.';
-    } else if (sub.includes('sinonim') || sub.includes('antonim') || sub.includes('analogi') || kat === 'TIU') {
+    } else if (sub.includes('sinonim') || sub.includes('antonim') || sub.includes('kosakata')) {
+        trik = 'Kenali makna dasar atau kata serapannya, lalu eliminasi opsi yang maknanya berlawanan/terlalu sempit.';
+        jebakan = 'Memilih kata yang sering muncul dalam satu topik padahal bukan padanan/lawan kata yang diminta.';
+    } else if (sub.includes('analogi') || kat === 'TIU') {
         trik = 'Untuk analogi, buat 1 kalimat penghubung baku antara kata kiri dan kanan, lalu terapkan kalimat persis sama ke opsi.';
         jebakan = 'Terbalik arah hubungan (sebab-akibat tertukar akibat-sebab) atau memilih kata yang sebidang makna tapi beda kelas kata.';
     } else if (kat === 'TWK') {
@@ -3329,7 +3339,7 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
     if (parts.length === 1 && bestOpt) {
         parts = [
             parts[0],
-            `Berdasarkan analisis di atas, jawaban yang paling tepat adalah opsi ${kunciLabel}: "${bestOpt.teks}".`
+            `Berdasarkan analisis di atas, jawaban yang paling tepat adalah opsi ${kunciLabel}: **${bestOpt.teks}**.`
         ];
     }
     if (parts.length > 4) {
@@ -3346,7 +3356,7 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
     const stepsHtml = parts.map((stepTxt, idx) => `
         <div class="mentor-step-item" data-step-idx="${idx}" style="${idx === 0 ? '' : 'display:none;'} background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
             <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 8px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1} • ${getStepTitle(idx, parts.length)}</span>
-            ${escapeHtmlMentor(stepTxt)}
+            ${formatMentorTextHtml(stepTxt)}
         </div>
     `).join('');
 
