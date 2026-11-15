@@ -1169,6 +1169,7 @@ function startExamSessionUI(restoredState = null) {
 
     renderSoalSekarang();
     if (window.currentAppMode === 'multiplayer') {
+        if (typeof window.mountArenaFloatingChatDock === 'function') window.mountArenaFloatingChatDock();
         if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
         if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
     }
@@ -1209,9 +1210,10 @@ function buildExamStageMarkup() {
                     Memuat butir pertanyaan...
                 </div>
                 <div class="options-list" id="optionsListDisplay"></div>
-                <div id="instantPembahasanBox" style="display:none; margin-top:16px;"></div>
+                <div id="arenaBotNextBanner" style="display:none; margin-top:14px;"></div>
+                <div id="instantPembahasanBox" style="display:none; margin-top:14px;"></div>
                 
-                <div class="exam-nav">
+                <div class="exam-nav" style="${window.currentAppMode === 'multiplayer' ? 'display:none;' : ''}">
                     <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
                         <i class="fas fa-chevron-left"></i> Sebelumnya
                     </button>
@@ -1225,20 +1227,20 @@ function buildExamStageMarkup() {
             </div>
 
             <aside class="exam-nav-panel" id="examNavPanel">
-                <div class="exam-nav-panel-head">
-                    <h4><i class="fas fa-th" style="color:var(--primary);"></i> Nomor Soal</h4>
-                    <span class="exam-nav-count" id="examNavAnsweredCount">0/0 Terjawab</span>
-                </div>
-                <div class="exam-number-grid" id="examNumberGrid"></div>
-                <div class="exam-nav-legend">
-                    <span class="exam-legend-item"><span class="exam-legend-dot answered"></span> Dijawab</span>
-                    <span class="exam-legend-item"><span class="exam-legend-dot ragu"></span> Ragu-ragu</span>
-                    <span class="exam-legend-item"><span class="exam-legend-dot empty"></span> Belum diisi</span>
-                </div>
                 ${window.currentAppMode === 'multiplayer' ? `
-                    <div id="arenaLiveKlasemenSidebar" style="margin-top:14px; border-top:1px solid #e2e8f0; padding-top:12px;"></div>
-                    <div id="arenaChatStickerSidebar" style="margin-top:12px; border-top:1px solid #e2e8f0; padding-top:12px;"></div>
-                ` : ''}
+                    <div id="arenaLiveKlasemenSidebar"></div>
+                ` : `
+                    <div class="exam-nav-panel-head">
+                        <h4><i class="fas fa-th" style="color:var(--primary);"></i> Nomor Soal</h4>
+                        <span class="exam-nav-count" id="examNavAnsweredCount">0/0 Terjawab</span>
+                    </div>
+                    <div class="exam-number-grid" id="examNumberGrid"></div>
+                    <div class="exam-nav-legend">
+                        <span class="exam-legend-item"><span class="exam-legend-dot answered"></span> Dijawab</span>
+                        <span class="exam-legend-item"><span class="exam-legend-dot ragu"></span> Ragu-ragu</span>
+                        <span class="exam-legend-item"><span class="exam-legend-dot empty"></span> Belum diisi</span>
+                    </div>
+                `}
             </aside>
         </div>
     `;
@@ -1426,6 +1428,9 @@ function renderSoalSekarang() {
     }
 
     renderExamNumberGrid();
+    if (window.currentAppMode === 'multiplayer' && typeof window.evaluateMenujuAsnBotAutoNext === 'function') {
+        window.evaluateMenujuAsnBotAutoNext(window.latestRoomData || {});
+    }
 }
 
 function renderExamNumberGrid() {
@@ -1489,7 +1494,7 @@ window.pilihJawaban = (qId, label, poin) => {
     renderSoalSekarang();
     if (window.currentAppMode === 'multiplayer') {
         if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
-        syncLiveArenaScoreThrottled();
+        syncCheckpointToFirestore(null, false, true);
     }
 };
 
@@ -1561,6 +1566,7 @@ async function syncCheckpointToFirestore(subtesName, isFinal = false, forceLive 
             [`players.${uid}.skorTIU`]: stats.skorTIU,
             [`players.${uid}.skorTKP`]: stats.skorTKP,
             [`players.${uid}.answeredCount`]: answeredCount,
+            [`players.${uid}.lastAnsweredIdx`]: window.currentIdx,
             [`players.${uid}.totalWaktu`]: stats.totalWaktu,
             [`players.${uid}.isFinished`]: isFinal,
             [`players.${uid}.lastSeen`]: Date.now()
@@ -1591,6 +1597,8 @@ window.konfirmasiSelesaiUjian = async () => {
 
 async function selesaikanUjian() {
     clearInterval(window.examTimerInterval);
+    clearInterval(window._botAutoNextInterval);
+    document.getElementById('arenaFloatingChatDock')?.remove();
 
     if (window.currentPackageMeta?.saveId && typeof window.removeSavedExamById === 'function') {
         window.removeSavedExamById(window.currentPackageMeta.saveId);
@@ -2586,6 +2594,8 @@ window.mulaiModeBelajar1Klik = async () => {
 
 window.kembaliKeLobby = () => {
     clearInterval(window.examTimerInterval);
+    clearInterval(window._botAutoNextInterval);
+    document.getElementById('arenaFloatingChatDock')?.remove();
     if (window.roomUnsubscribe) {
         window.roomUnsubscribe();
         window.roomUnsubscribe = null;
@@ -3057,9 +3067,26 @@ function bukaWaitingRoom(kodeRoom) {
             return;
         }
 
+        if (data.status === 'finished' && hasStartedExamClient) {
+            clearInterval(window._botAutoNextInterval);
+            selesaikanUjian();
+            return;
+        }
+
         if (data.status === 'ujian' && hasStartedExamClient) {
+            if (typeof data.currentQuestionIdx === 'number' && data.currentQuestionIdx > window.currentIdx) {
+                clearInterval(window._botAutoNextInterval);
+                window._botCountdownTargetIdx = null;
+                if (data.currentQuestionIdx >= (window.currentQuestions || []).length) {
+                    selesaikanUjian();
+                    return;
+                }
+                window.currentIdx = data.currentQuestionIdx;
+                renderSoalSekarang();
+            }
             if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
             if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
+            if (typeof window.evaluateMenujuAsnBotAutoNext === 'function') window.evaluateMenujuAsnBotAutoNext(data);
             return;
         }
 
@@ -3154,6 +3181,7 @@ function bukaWaitingRoom(kodeRoom) {
                 </div>
             </div>
         `;
+        if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
     });
 }
 
@@ -3192,6 +3220,7 @@ window.mulaiUjianMultiplayer = async (kodeRoom) => {
     try {
         await updateDoc(doc(db, COLLECTIONS.ROOMS, String(kodeRoom)), {
             status: 'ujian',
+            currentQuestionIdx: 0,
             startedAt: Date.now()
         });
     } catch (err) {
@@ -3317,6 +3346,8 @@ window.renderInlineArenaKlasemen = () => {
     const myUid = window.currentUser?.uid;
     const stats = hitungSkorSekarang();
     const answeredCount = Object.keys(window.userAnswers || {}).length;
+    const curQ = (window.currentQuestions || [])[window.currentIdx];
+    const iAnsweredThisQ = Boolean(curQ && window.userAnswers?.[curQ.id]);
 
     const mergedMap = {};
     Object.values(data.players || {}).forEach(p => { if (p && p.uid) mergedMap[p.uid] = p; });
@@ -3330,33 +3361,161 @@ window.renderInlineArenaKlasemen = () => {
             skorTIU: stats.skorTIU,
             skorTKP: stats.skorTKP,
             answeredCount,
+            lastAnsweredIdx: iAnsweredThisQ ? Math.max(Number(mergedMap[myUid]?.lastAnsweredIdx ?? -1), window.currentIdx) : (mergedMap[myUid]?.lastAnsweredIdx ?? -1),
             totalWaktu: stats.totalWaktu
         };
     }
 
-    const players = sortArenaPlayersBkn(Object.values(mergedMap));
-    const rows = players.map((p, idx) => `
-        <div style="display:flex; justify-content:space-between; align-items:center; padding:6px 8px; border-radius:7px; font-size:0.76rem; margin-bottom:4px; background:${p.uid === myUid ? '#eff6ff' : '#f8fafc'}; border:1px solid ${p.uid === myUid ? '#bfdbfe' : '#e2e8f0'};">
-            <div style="min-width:0; flex:1;">
-                <div style="font-weight:800; color:#0f172a; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
-                    #${idx + 1} ${p.nama || 'Peserta'} ${p.isFinished ? '✅' : ''}
+    const allPlayers = Object.values(mergedMap);
+    const answeredThisQCount = allPlayers.filter(p => Number(p.lastAnsweredIdx ?? -1) >= window.currentIdx).length;
+    const totalP = Math.max(1, allPlayers.length);
+
+    const players = sortArenaPlayersBkn(allPlayers);
+    const rows = players.map((p, idx) => {
+        const doneThisQ = Number(p.lastAnsweredIdx ?? -1) >= window.currentIdx;
+        return `
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:8px 10px; border-radius:8px; font-size:0.78rem; margin-bottom:6px; background:${p.uid === myUid ? '#eff6ff' : '#f8fafc'}; border:1px solid ${p.uid === myUid ? '#bfdbfe' : '#e2e8f0'};">
+                <div style="min-width:0; flex:1;">
+                    <div style="font-weight:800; color:#0f172a; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                        #${idx + 1} ${p.nama || 'Peserta'} ${doneThisQ ? '<span title="Sudah menjawab soal ini">✅</span>' : '<span title="Sedang menjawab">⏳</span>'}
+                    </div>
+                    <div style="font-size:0.7rem; color:#64748b;">TKP:${p.skorTKP || 0} • TIU:${p.skorTIU || 0} • TWK:${p.skorTWK || 0}</div>
                 </div>
-                <div style="font-size:0.68rem; color:#64748b;">${p.answeredCount || 0} terjawab • TKP:${p.skorTKP || 0} TIU:${p.skorTIU || 0} TWK:${p.skorTWK || 0}</div>
+                <strong style="color:#1d4ed8; font-size:0.9rem; margin-left:6px;">${p.skor || 0}</strong>
             </div>
-            <strong style="color:#1d4ed8; font-size:0.84rem; margin-left:6px;">${p.skor || 0}</strong>
-        </div>
-    `).join('');
+        `;
+    }).join('');
 
     el.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:7px 10px; margin-bottom:12px;">
+            <span style="font-size:0.76rem; font-weight:800; color:#334155;"><i class="fas fa-user-check" style="color:#16a34a;"></i> Menjawab Soal Ini</span>
+            <span style="font-size:0.76rem; font-weight:800; background:${answeredThisQCount >= totalP ? '#dcfce7' : '#eff6ff'}; color:${answeredThisQCount >= totalP ? '#15803d' : '#1d4ed8'}; padding:2px 9px; border-radius:999px;">
+                ${answeredThisQCount}/${totalP} Peserta
+            </span>
+        </div>
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-            <strong style="font-size:0.82rem; color:#1e3a8a;"><i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen Sementara</strong>
+            <strong style="font-size:0.86rem; color:#1e3a8a;"><i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen Sementara</strong>
             <span style="font-size:0.68rem; font-weight:800; background:#dcfce7; color:#15803d; padding:2px 7px; border-radius:999px;">LIVE</span>
         </div>
         ${rows || '<div style="font-size:0.76rem; color:#64748b;">Menunggu skor...</div>'}
     `;
 };
 
-function buildArenaChatWidgetHtml(ctx = 'sidebar') {
+window.hostBypassNextSoal = async () => {
+    if (!window.activeRoomCode || !window.currentUser) return;
+    const data = window.latestRoomData || {};
+    if (data.hostUid !== window.currentUser.uid) return;
+
+    clearInterval(window._botAutoNextInterval);
+    window._botCountdownTargetIdx = null;
+
+    const nextIdx = window.currentIdx + 1;
+    const isLast = nextIdx >= (window.currentQuestions || []).length;
+    try {
+        await updateDoc(doc(db, COLLECTIONS.ROOMS, String(window.activeRoomCode)), isLast
+            ? { status: 'finished', currentQuestionIdx: nextIdx }
+            : { currentQuestionIdx: nextIdx }
+        );
+    } catch (e) {
+        console.warn('Gagal bypass next soal:', e);
+    }
+};
+
+window.evaluateMenujuAsnBotAutoNext = (roomData) => {
+    const bannerEl = document.getElementById('arenaBotNextBanner');
+    if (!bannerEl || window.currentAppMode !== 'multiplayer') return;
+
+    const curQ = (window.currentQuestions || [])[window.currentIdx];
+    const iAnswered = Boolean(curQ && window.userAnswers?.[curQ.id]);
+    if (!iAnswered) {
+        bannerEl.style.display = 'none';
+        bannerEl.innerHTML = '';
+        return;
+    }
+
+    const data = roomData || window.latestRoomData || {};
+    const myUid = window.currentUser?.uid;
+    const isHost = data.hostUid === myUid;
+    const playersObj = { ...(data.players || {}) };
+    if (myUid) {
+        playersObj[myUid] = {
+            ...(playersObj[myUid] || {}),
+            lastAnsweredIdx: Math.max(Number(playersObj[myUid]?.lastAnsweredIdx ?? -1), window.currentIdx)
+        };
+    }
+
+    const allPlayers = Object.values(playersObj);
+    const totalP = Math.max(1, allPlayers.length);
+    const answeredCount = allPlayers.filter(p => Number(p.lastAnsweredIdx ?? -1) >= window.currentIdx).length;
+    const allReady = answeredCount >= totalP;
+    const isLastQ = window.currentIdx >= (window.currentQuestions || []).length - 1;
+    const nextLabel = isLastQ ? 'Podium & Hasil Akhir' : `Soal #${window.currentIdx + 2}`;
+
+    const bypassBtn = isHost
+        ? `<button type="button" onclick="window.hostBypassNextSoal()" style="background:#d97706; color:#fff; border:none; padding:5px 11px; border-radius:7px; font-size:0.74rem; font-weight:800; cursor:pointer; white-space:nowrap;">⚡ Bypass Next (Host)</button>`
+        : '';
+
+    bannerEl.style.display = 'block';
+
+    if (!allReady) {
+        clearInterval(window._botAutoNextInterval);
+        window._botCountdownTargetIdx = null;
+        bannerEl.innerHTML = `
+            <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px 13px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+                <div style="font-size:0.8rem; color:#92400e; line-height:1.45;">
+                    <strong>🤖 MenujuASN-Bot:</strong> Menunggu peserta lain menjawab (<b>${answeredCount}/${totalP}</b>).<br/>
+                    <span>Silakan baca &amp; pahami pembahasan di bawah sementara menunggu next soal.</span>
+                </div>
+                ${bypassBtn}
+            </div>
+        `;
+        return;
+    }
+
+    // Semua peserta sudah menjawab -> jalankan hitung mundur 5 detik
+    if (window._botCountdownTargetIdx !== window.currentIdx) {
+        clearInterval(window._botAutoNextInterval);
+        window._botCountdownTargetIdx = window.currentIdx;
+        let sec = 5;
+
+        const renderCountdown = () => {
+            bannerEl.innerHTML = `
+                <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:10px 13px; display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap;">
+                    <div style="font-size:0.8rem; color:#1e40af; line-height:1.45;">
+                        <strong>🤖 MenujuASN-Bot:</strong> Menuju <b>${nextLabel}</b> otomatis dalam <b style="font-size:0.95rem; color:#d97706;">${sec} detik</b>.<br/>
+                        <span>Silakan baca &amp; pahami pembahasan di bawah ini.</span>
+                    </div>
+                    ${bypassBtn}
+                </div>
+            `;
+        };
+        renderCountdown();
+
+        window._botAutoNextInterval = setInterval(async () => {
+            sec--;
+            if (sec > 0) {
+                renderCountdown();
+            } else {
+                clearInterval(window._botAutoNextInterval);
+                window._botCountdownTargetIdx = null;
+                if (isHost) {
+                    await window.hostBypassNextSoal();
+                } else {
+                    // Fallback jika Host terputus, peserta sinkron otomatis
+                    const nextIdx = window.currentIdx + 1;
+                    try {
+                        await updateDoc(doc(db, COLLECTIONS.ROOMS, String(window.activeRoomCode)), isLastQ
+                            ? { status: 'finished', currentQuestionIdx: nextIdx }
+                            : { currentQuestionIdx: nextIdx }
+                        );
+                    } catch (_) {}
+                }
+            }
+        }, 1000);
+    }
+};
+
+function buildArenaChatWidgetHtml(ctx = 'floating') {
     const stickers = [
         { icon: '👏', label: 'Mantap!' },
         { icon: '🔥', label: 'Gaspol!' },
@@ -3366,7 +3525,7 @@ function buildArenaChatWidgetHtml(ctx = 'sidebar') {
         { icon: '🎉', label: 'Juara!' }
     ];
     const stickerBtns = stickers.map(s => `
-        <button type="button" onclick="window.kirimArenaStiker('${s.icon} ${s.label}')" style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:999px; padding:3px 8px; font-size:0.72rem; font-weight:700; cursor:pointer;">
+        <button type="button" onclick="window.kirimArenaStiker('${s.icon} ${s.label}')" style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:999px; padding:3px 7px; font-size:0.72rem; font-weight:700; cursor:pointer;">
             ${s.icon} ${ctx === 'waiting' ? s.label : ''}
         </button>
     `).join('');
@@ -3374,16 +3533,18 @@ function buildArenaChatWidgetHtml(ctx = 'sidebar') {
     const feedId = `arenaChatFeed_${ctx}`;
     const inputId = `arenaChatInput_${ctx}`;
     return `
-        <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:10px; padding:10px;">
-            <div style="font-size:0.8rem; font-weight:800; color:#0f172a; margin-bottom:6px;">
-                <i class="fas fa-comments" style="color:#2563eb;"></i> Live Chat &amp; Stiker (Zoom Mode)
-            </div>
-            <div style="display:flex; gap:5px; flex-wrap:wrap; margin-bottom:8px;">${stickerBtns}</div>
-            <div id="${feedId}" class="arena-chat-feed-list" style="max-height:115px; overflow-y:auto; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:6px 8px; margin-bottom:7px; font-size:0.74rem; color:#334155;">
+        <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:10px; display:flex; flex-direction:column; height:100%; box-sizing:border-box;">
+            ${ctx === 'waiting' ? `
+                <div style="font-size:0.8rem; font-weight:800; color:#0f172a; margin-bottom:6px;">
+                    <i class="fas fa-comments" style="color:#2563eb;"></i> Live Chat &amp; Stiker (Zoom Mode)
+                </div>
+            ` : ''}
+            <div style="display:flex; gap:4px; flex-wrap:wrap; margin-bottom:7px;">${stickerBtns}</div>
+            <div id="${feedId}" class="arena-chat-feed-list" style="flex:1; min-height:${ctx === 'waiting' ? '100px' : '190px'}; max-height:${ctx === 'waiting' ? '130px' : '240px'}; overflow-y:auto; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:7px 9px; margin-bottom:7px; font-size:0.75rem; color:#334155;">
                 <span style="color:#94a3b8;">Belum ada pesan atau stiker.</span>
             </div>
             <div style="display:flex; gap:6px;">
-                <input id="${inputId}" type="text" maxlength="120" placeholder="Tulis chat singkat..." onkeydown="if(event.key==='Enter'){window.kirimArenaChat('${inputId}');}" style="flex:1; min-width:0; padding:6px 9px; border:1px solid #cbd5e1; border-radius:7px; font-size:0.76rem;" />
+                <input id="${inputId}" type="text" maxlength="120" placeholder="Tulis chat..." onkeydown="if(event.key==='Enter'){window.kirimArenaChat('${inputId}');}" style="flex:1; min-width:0; padding:6px 9px; border:1px solid #cbd5e1; border-radius:7px; font-size:0.76rem;" />
                 <button type="button" onclick="window.kirimArenaChat('${inputId}')" style="background:#2563eb; color:#fff; border:none; padding:6px 10px; border-radius:7px; font-size:0.75rem; font-weight:700; cursor:pointer;">
                     Kirim
                 </button>
@@ -3392,17 +3553,83 @@ function buildArenaChatWidgetHtml(ctx = 'sidebar') {
     `;
 }
 
-window.renderArenaChatFeed = () => {
-    const sidebarWrap = document.getElementById('arenaChatStickerSidebar');
-    if (sidebarWrap && !sidebarWrap.innerHTML.trim() && window.currentAppMode === 'multiplayer') {
-        sidebarWrap.innerHTML = buildArenaChatWidgetHtml('sidebar');
+window.toggleArenaFloatingChat = (forceOpen) => {
+    const btn = document.getElementById('arenaFloatingChatToggleBtn');
+    const panel = document.getElementById('arenaFloatingChatPanel');
+    if (!btn || !panel) return;
+    const willOpen = typeof forceOpen === 'boolean' ? forceOpen : (panel.style.display === 'none');
+    panel.style.display = willOpen ? 'flex' : 'none';
+    btn.style.display = willOpen ? 'none' : 'flex';
+    if (willOpen) {
+        const badge = document.getElementById('arenaChatUnreadBadge');
+        if (badge) { badge.style.display = 'none'; badge.textContent = '0'; }
+        window.renderArenaChatFeed();
     }
+};
 
+window.mountArenaFloatingChatDock = () => {
+    document.getElementById('arenaFloatingChatDock')?.remove();
+    if (window.currentAppMode !== 'multiplayer') return;
+
+    const dock = document.createElement('div');
+    dock.id = 'arenaFloatingChatDock';
+    dock.style.cssText = 'position:fixed; left:16px; bottom:20px; z-index:9990;';
+    dock.innerHTML = `
+        <button id="arenaFloatingChatToggleBtn" type="button" onclick="window.toggleArenaFloatingChat(true)" style="display:flex; align-items:center; gap:7px; background:#1e3a8a; color:#fff; border:none; padding:10px 14px; border-radius:999px; font-size:0.82rem; font-weight:800; cursor:pointer; box-shadow:0 8px 22px rgba(30,58,138,0.35);">
+            <i class="fas fa-comments"></i> Chat
+            <span id="arenaChatUnreadBadge" style="display:none; background:#ef4444; color:#fff; font-size:0.68rem; padding:1px 6px; border-radius:999px;">0</span>
+        </button>
+        <div id="arenaFloatingChatPanel" style="display:none; width:275px; height:380px; flex-direction:column; background:#fff; border:1px solid #cbd5e1; border-radius:14px; box-shadow:0 14px 36px rgba(15,23,42,0.22); overflow:hidden;">
+            <div id="arenaFloatingChatDragHandle" style="background:#1e3a8a; color:#fff; padding:9px 12px; display:flex; justify-content:space-between; align-items:center; cursor:grab; user-select:none;">
+                <span style="font-size:0.8rem; font-weight:800;"><i class="fas fa-arrows-alt"></i> Live Chat &amp; Stiker</span>
+                <button type="button" onclick="window.toggleArenaFloatingChat(false)" title="Tutup / Minimize" style="background:rgba(255,255,255,0.2); color:#fff; border:none; width:24px; height:24px; border-radius:6px; font-weight:800; cursor:pointer;">✕</button>
+            </div>
+            <div style="flex:1; padding:8px; overflow:hidden;">
+                ${buildArenaChatWidgetHtml('floating')}
+            </div>
+        </div>
+    `;
+    document.body.appendChild(dock);
+
+    // Drag support (mouse & touch)
+    const handle = document.getElementById('arenaFloatingChatDragHandle');
+    if (handle) {
+        let dragging = false, startX = 0, startY = 0, origLeft = 16, origBottom = 20;
+        const onStart = (cx, cy) => {
+            dragging = true;
+            startX = cx;
+            startY = cy;
+            const rect = dock.getBoundingClientRect();
+            origLeft = rect.left;
+            origBottom = window.innerHeight - rect.bottom;
+            handle.style.cursor = 'grabbing';
+        };
+        const onMove = (cx, cy) => {
+            if (!dragging) return;
+            const dx = cx - startX;
+            const dy = cy - startY;
+            dock.style.left = `${Math.max(8, Math.min(window.innerWidth - 285, origLeft + dx))}px`;
+            dock.style.bottom = `${Math.max(8, Math.min(window.innerHeight - 390, origBottom - dy))}px`;
+        };
+        const onEnd = () => {
+            dragging = false;
+            handle.style.cursor = 'grab';
+        };
+        handle.addEventListener('mousedown', (e) => { if (e.target.tagName !== 'BUTTON') onStart(e.clientX, e.clientY); });
+        window.addEventListener('mousemove', (e) => onMove(e.clientX, e.clientY));
+        window.addEventListener('mouseup', onEnd);
+        handle.addEventListener('touchstart', (e) => { if (e.target.tagName !== 'BUTTON' && e.touches[0]) onStart(e.touches[0].clientX, e.touches[0].clientY); }, { passive: true });
+        window.addEventListener('touchmove', (e) => { if (dragging && e.touches[0]) onMove(e.touches[0].clientX, e.touches[0].clientY); }, { passive: true });
+        window.addEventListener('touchend', onEnd);
+    }
+};
+
+window.renderArenaChatFeed = () => {
     const msgs = Array.isArray(window.latestRoomData?.chatMessages) ? window.latestRoomData.chatMessages : [];
-    const latest = msgs.slice(-15);
+    const latest = msgs.slice(-20);
     const html = latest.length
         ? latest.map(m => `
-            <div style="margin-bottom:4px; line-height:1.35;">
+            <div style="margin-bottom:5px; line-height:1.35;">
                 <strong style="color:#1e3a8a;">${escapeHtmlMentor(m.nama || 'Peserta')}:</strong>
                 <span>${escapeHtmlMentor(m.text || '')}</span>
             </div>
@@ -3420,7 +3647,7 @@ function showArenaFloatingReactionToast(senderName, text) {
     if (!container) {
         container = document.createElement('div');
         container.id = 'arenaFloatingReactionBox';
-        container.style.cssText = 'position:fixed; bottom:20px; left:20px; z-index:9999; display:flex; flex-direction:column; gap:6px; pointer-events:none;';
+        container.style.cssText = 'position:fixed; bottom:74px; left:16px; z-index:9999; display:flex; flex-direction:column; gap:6px; pointer-events:none;';
         document.body.appendChild(container);
     }
     const pill = document.createElement('div');
@@ -3438,6 +3665,12 @@ function handleIncomingArenaChatMessages(msgs) {
         if (m && m.id && !window._seenArenaChatIds.has(m.id)) {
             window._seenArenaChatIds.add(m.id);
             showArenaFloatingReactionToast(m.nama || 'Peserta', m.text || '');
+            const panel = document.getElementById('arenaFloatingChatPanel');
+            const badge = document.getElementById('arenaChatUnreadBadge');
+            if (panel && panel.style.display === 'none' && badge) {
+                badge.textContent = String((Number(badge.textContent) || 0) + 1);
+                badge.style.display = 'inline-block';
+            }
         }
     });
 }
