@@ -285,20 +285,26 @@ window.loadCommandCenterData = async () => {
                 reportsList.innerHTML = '<div class="cc-empty">Belum ada laporan masuk dari peserta.</div>';
             } else {
                 let rHtml = '';
-                reportsSnap.forEach(d => {
-                    const rep = d.data();
+                const sortedReps = [];
+                reportsSnap.forEach(d => sortedReps.push({ id: d.id, ...d.data() }));
+                sortedReps.sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0));
+                sortedReps.forEach(rep => {
                     const status = rep.status || 'pending';
+                    const tgl = rep.createdAt ? new Date(rep.createdAt).toLocaleString('id-ID', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '-';
                     rHtml += `
                         <div class="cc-report-card">
-                            <div>
+                            <div style="flex:1;">
                                 <div class="cc-report-head">
                                     <strong>${rep.judul || 'Laporan Peserta'}</strong>
                                     <span class="cc-status-pill ${status}">${status.toUpperCase()}</span>
                                 </div>
-                                <p>${rep.pesan || rep.keterangan || '-'}</p>
-                                <small>Pelapor: ${rep.email || rep.uid_pelapor || '-'}</small>
+                                <p style="white-space:pre-line;">${rep.pesan || rep.keterangan || '-'}</p>
+                                <small>Pelapor: ${rep.nama_pelapor ? rep.nama_pelapor + ' • ' : ''}${rep.email || rep.uid_pelapor || '-'} • ${tgl}</small>
                             </div>
-                            ${status !== 'selesai' ? `<button class="cc-btn success" onclick="window.adminSelesaiLaporan('${d.id}')">Tandai Selesai</button>` : ''}
+                            <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+                                ${status !== 'selesai' ? `<button class="cc-btn success" onclick="window.adminSelesaiLaporan('${rep.id}')">Tandai Selesai</button>` : ''}
+                                <button class="cc-btn danger" onclick="window.adminHapusLaporan('${rep.id}')">Hapus</button>
+                            </div>
                         </div>
                     `;
                 });
@@ -411,6 +417,16 @@ window.adminSelesaiLaporan = async (docId) => {
         window.loadCommandCenterData();
     } catch (err) {
         Swal.fire('Gagal', err.message, 'error');
+    }
+};
+
+window.adminHapusLaporan = async (docId) => {
+    try {
+        await deleteDoc(doc(db, 'laporan_soal', docId));
+        Swal.fire({ icon: 'success', title: 'Laporan Dihapus', timer: 1100, showConfirmButton: false });
+        window.loadCommandCenterData();
+    } catch (err) {
+        Swal.fire('Gagal Hapus', err.message, 'error');
     }
 };
 
@@ -1082,6 +1098,9 @@ function buildExamStageMarkup() {
                         <i class="fas fa-bookmark"></i> Simpan &amp; Kembali
                     </button>
                 ` : ''}
+                <button onclick="window.bukaModalLaporSoal()" title="Laporkan kesalahan soal/kunci" style="background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:6px 11px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
+                    <i class="fas fa-flag"></i> Lapor
+                </button>
                 ${window.currentAppMode === 'multiplayer' ? `
                     <button onclick="window.bukaModalKlasemenMabar()" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
                         <i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen
@@ -1278,17 +1297,11 @@ function renderSoalSekarang() {
                 const pickedOpt = (q.opsi || []).find(o => o.label === currentAns);
                 const gotPoin = q.kategori === 'TKP' ? Number(pickedOpt?.poin || 0) : (pickedOpt?.benar ? 5 : 0);
                 instantBoxEl.style.display = 'block';
-                instantBoxEl.innerHTML = `
-                    <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:8px; font-size:0.87rem; color:#334155; line-height:1.6;">
-                        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:6px; flex-wrap:wrap;">
-                            <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan Instan (1x Klik)</strong>
-                            <span style="font-size:0.76rem; font-weight:800; padding:3px 10px; border-radius:999px; ${gotPoin >= maxPoin ? 'background:#dcfce7; color:#15803d;' : 'background:#fef3c7; color:#b45309;'}">
-                                Pilihanmu ${currentAns} (+${gotPoin} poin)
-                            </span>
-                        </div>
-                        ${q.pembahasan ? q.pembahasan : 'Opsi hijau menunjukkan jawaban/bobot nilai tertinggi sesuai indikator BKN pada subtes ini.'}
-                    </div>
-                `;
+                instantBoxEl.innerHTML = window.buildInteractivePembahasanHtml(q, currentAns, `instant_${q.id}`, {
+                    headerTitle: 'Pembahasan Mentor (1x Klik)',
+                    gotPoin,
+                    maxPoin
+                });
             } else {
                 instantBoxEl.style.display = 'none';
                 instantBoxEl.innerHTML = '';
@@ -2031,11 +2044,13 @@ window.renderBrankasPembahasan = () => {
                         </span>
                     </div>
                     <p style="font-size:0.93rem; color:#0f172a; line-height:1.6; margin:0 0 12px; white-space:pre-line;">${it.soal}</p>
+                    ${it.gambar ? `<div style="margin:0 0 12px; padding:10px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${it.gambar}</div>` : ''}
                     <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:12px;">${opsiHtml}</div>
-                    <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:10px 14px; border-radius:6px; font-size:0.84rem; color:#334155; line-height:1.55;">
-                        <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan:</strong><br/>
-                        ${it.pembahasan ? it.pembahasan : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.'}
-                    </div>
+                    ${window.buildInteractivePembahasanHtml(it, it.userAns, `brankas_${it.no}`, {
+                        headerTitle: 'Pembahasan Mentor',
+                        gotPoin: it.userPoin,
+                        maxPoin: it.maxPoin
+                    })}
                 </div>
             `;
         }).join('');
@@ -2727,4 +2742,306 @@ window.bukaModalKlasemenMabar = () => {
         confirmButtonText: 'Tutup',
         confirmButtonColor: '#1e3a8a'
     });
+};
+
+// ==========================================================
+// 11. PEMBAHASAN MENTOR INTERAKTIF (TANPA VIDEO) & LAPOR SOAL
+// ==========================================================
+function escapeHtmlMentor(str) {
+    return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+}
+
+function buildMentorVisualHtml(q) {
+    if (!q) return '';
+    // 1. Visualisasi Bar Poin TKP (1-5)
+    if (q.kategori === 'TKP' && Array.isArray(q.opsi) && q.opsi.length) {
+        const sorted = [...q.opsi].sort((a, b) => Number(b.poin || 0) - Number(a.poin || 0));
+        const bars = sorted.map(o => {
+            const p = Number(o.poin || 0);
+            const pct = Math.max(15, (p / 5) * 100);
+            const color = p >= 5 ? '#16a34a' : (p === 4 ? '#2563eb' : (p === 3 ? '#d97706' : '#94a3b8'));
+            return `
+                <div style="display:flex; align-items:center; gap:8px; font-size:0.76rem; margin-bottom:4px;">
+                    <strong style="min-width:20px; color:#0f172a;">${o.label}</strong>
+                    <div style="flex:1; height:8px; background:#e2e8f0; border-radius:999px; overflow:hidden;">
+                        <div style="width:${pct}%; height:100%; background:${color}; border-radius:999px;"></div>
+                    </div>
+                    <span style="min-width:46px; text-align:right; font-weight:700; color:${color};">${p} poin</span>
+                </div>
+            `;
+        }).join('');
+        return `
+            <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
+                <div style="font-size:0.74rem; font-weight:800; color:#475569; margin-bottom:6px;"><i class="fas fa-chart-bar" style="color:#16a34a;"></i> Peringkat Bobot Poin TKP (5 → 1)</div>
+                ${bars}
+            </div>
+        `;
+    }
+
+    // 2. Visualisasi Diagram Lompatan Deret Angka
+    if ((q.subKategori || '').includes('Deret') && q.soal) {
+        const match = q.soal.match(/(-?\d+(?:\s*,\s*-?\d+){3,})/);
+        if (match) {
+            const nums = match[1].split(',').map(s => Number(s.trim())).filter(n => !Number.isNaN(n));
+            if (nums.length >= 4) {
+                const chips = nums.map((n, idx) => {
+                    const diff = idx < nums.length - 1 ? nums[idx + 1] - n : null;
+                    const diffTag = diff !== null
+                        ? `<span style="font-size:0.68rem; font-weight:800; color:#1d4ed8; background:#dbeafe; padding:2px 6px; border-radius:999px;">${diff >= 0 ? '+' + diff : diff}</span>`
+                        : '';
+                    return `<span style="font-weight:800; color:#0f172a; background:#ffffff; border:1px solid #cbd5e1; padding:3px 8px; border-radius:6px; font-size:0.78rem;">${n}</span>${diffTag}`;
+                }).join('');
+                return `
+                    <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
+                        <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:6px;"><i class="fas fa-project-diagram"></i> Visualisasi Lompatan Selisih Deret</div>
+                        <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">${chips}<span style="font-weight:800; color:#16a34a; background:#dcfce7; border:1px dashed #16a34a; padding:3px 9px; border-radius:6px; font-size:0.78rem;">?</span></div>
+                    </div>
+                `;
+            }
+        }
+    }
+
+    // 3. Visualisasi Alur Logika Silogisme
+    if ((q.subKategori || '').includes('Silogisme')) {
+        return `
+            <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
+                <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:6px;"><i class="fas fa-sitemap"></i> Alur Logika Penarikan Kesimpulan</div>
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:0.76rem; font-weight:700;">
+                    <span style="background:#eff6ff; color:#1e40af; padding:4px 9px; border-radius:6px;">Premis Diketahui</span>
+                    <span style="color:#64748b;">➔</span>
+                    <span style="background:#fef3c7; color:#92400e; padding:4px 9px; border-radius:6px;">Cek Kuantor / Negasi</span>
+                    <span style="color:#64748b;">➔</span>
+                    <span style="background:#dcfce7; color:#166534; padding:4px 9px; border-radius:6px;">Simpulan Pasti</span>
+                </div>
+            </div>
+        `;
+    }
+    return '';
+}
+
+window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {}) => {
+    const rawText = (q && q.pembahasan)
+        ? String(q.pembahasan)
+        : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.';
+    const safeId = String(uidSuffix).replace(/[^a-zA-Z0-9_-]/g, '_');
+
+    // Pecah pembahasan menjadi langkah-langkah logis (max 4 langkah)
+    let parts = rawText
+        .split(/(?:\n+|(?<=[.!?])\s+(?=[A-Z0-9(]))/)
+        .map(s => s.trim())
+        .filter(Boolean);
+    if (parts.length === 0) parts = [rawText];
+    if (parts.length > 4) {
+        parts = [parts[0], parts[1], parts.slice(2).join(' ')];
+    }
+
+    const bestOpt = (q.opsi || []).find(o => o.benar) ||
+        (q.opsi || []).reduce((best, cur) => (Number(cur.poin || 0) > Number(best?.poin || -1) ? cur : best), null);
+    const kunciLabel = q.kunci || bestOpt?.label || '-';
+
+    const stepsHtml = parts.map((stepTxt, idx) => `
+        <div class="mentor-step-item" data-step-idx="${idx}" style="${idx === 0 ? '' : 'display:none;'} background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
+            <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 7px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1}</span>
+            ${escapeHtmlMentor(stepTxt)}
+        </div>
+    `).join('');
+
+    const hasMoreSteps = parts.length > 1;
+    const visualHtml = buildMentorVisualHtml(q);
+    const gotPoin = meta.gotPoin !== undefined ? Number(meta.gotPoin) : 0;
+    const maxPoin = meta.maxPoin !== undefined ? Number(meta.maxPoin) : 5;
+    const needCorrection = Boolean(userAns && gotPoin < maxPoin);
+    const headerTitle = meta.headerTitle || 'Pembahasan Mentor';
+    const qIdForReport = escapeHtmlMentor(q.id || safeId);
+
+    const speechText = escapeHtmlMentor(`${rawText}. Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
+
+    return `
+        <div id="mentorBox_${safeId}" style="background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:10px; font-size:0.86rem; color:#334155;">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+                <strong style="color:var(--primary); font-size:0.9rem;"><i class="fas fa-chalkboard-teacher"></i> ${headerTitle}</strong>
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                    ${meta.gotPoin !== undefined ? `
+                        <span style="font-size:0.74rem; font-weight:800; padding:3px 9px; border-radius:999px; ${gotPoin >= maxPoin ? 'background:#dcfce7; color:#15803d;' : 'background:#fef3c7; color:#b45309;'}">
+                            Pilihanmu ${userAns || '-'} (+${gotPoin} poin)
+                        </span>
+                    ` : ''}
+                    <button type="button" data-speech="${speechText}" onclick="window.toggleBacakanPembahasan(this)" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:4px 10px; border-radius:999px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                        <i class="fas fa-volume-up"></i> Dengarkan
+                    </button>
+                    <button type="button" onclick="window.bukaModalLaporSoal('${qIdForReport}')" style="background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:4px 10px; border-radius:999px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                        <i class="fas fa-flag"></i> Lapor Soal
+                    </button>
+                </div>
+            </div>
+
+            ${visualHtml}
+
+            <div id="mentorSteps_${safeId}" data-revealed="1" data-total="${parts.length}">
+                ${stepsHtml}
+            </div>
+
+            ${hasMoreSteps ? `
+                <div id="mentorStepControls_${safeId}" style="display:flex; gap:8px; flex-wrap:wrap; margin:6px 0 10px;">
+                    <button type="button" onclick="window.nextPembahasanStep('${safeId}')" style="background:var(--primary); color:#fff; border:none; padding:5px 12px; border-radius:8px; font-size:0.76rem; font-weight:700; cursor:pointer;">
+                        <i class="fas fa-step-forward"></i> Lanjut Langkah (1/${parts.length})
+                    </button>
+                    <button type="button" onclick="window.bukaSemuaPembahasanStep('${safeId}')" style="background:#fff; color:#334155; border:1px solid #cbd5e1; padding:5px 12px; border-radius:8px; font-size:0.76rem; font-weight:700; cursor:pointer;">
+                        Buka Semua
+                    </button>
+                </div>
+            ` : ''}
+
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:8px; margin-top:8px;">
+                <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:8px 11px; font-size:0.78rem; color:#166534;">
+                    <strong><i class="fas fa-bolt"></i> Kunci / Target Skor:</strong> Opsi <b>${kunciLabel}</b> (${q.kategori === 'TKP' ? `Poin ${maxPoin}` : 'Benar +5'})
+                </div>
+                ${needCorrection ? `
+                    <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:8px; padding:8px 11px; font-size:0.78rem; color:#92400e;">
+                        <strong><i class="fas fa-exclamation-triangle"></i> Koreksi Pilihanmu:</strong> Opsi <b>${userAns}</b> belum maksimal — perhatikan kata kunci pada langkah di atas.
+                    </div>
+                ` : ''}
+            </div>
+        </div>
+    `;
+};
+
+window.nextPembahasanStep = (safeId) => {
+    const wrap = document.getElementById(`mentorSteps_${safeId}`);
+    if (!wrap) return;
+    const total = Number(wrap.dataset.total || 1);
+    let revealed = Number(wrap.dataset.revealed || 1);
+    if (revealed < total) revealed++;
+    wrap.dataset.revealed = String(revealed);
+    wrap.querySelectorAll('.mentor-step-item').forEach((el, idx) => {
+        if (idx < revealed) el.style.display = 'block';
+    });
+    const ctrl = document.getElementById(`mentorStepControls_${safeId}`);
+    if (ctrl) {
+        if (revealed >= total) {
+            ctrl.style.display = 'none';
+        } else {
+            const btn = ctrl.querySelector('button');
+            if (btn) btn.innerHTML = `<i class="fas fa-step-forward"></i> Lanjut Langkah (${revealed}/${total})`;
+        }
+    }
+};
+
+window.bukaSemuaPembahasanStep = (safeId) => {
+    const wrap = document.getElementById(`mentorSteps_${safeId}`);
+    if (!wrap) return;
+    wrap.querySelectorAll('.mentor-step-item').forEach(el => { el.style.display = 'block'; });
+    const ctrl = document.getElementById(`mentorStepControls_${safeId}`);
+    if (ctrl) ctrl.style.display = 'none';
+};
+
+window.toggleBacakanPembahasan = (btnEl) => {
+    if (!('speechSynthesis' in window)) {
+        return Swal.fire('Info', 'Browser ini belum mendukung fitur suara otomatis.', 'info');
+    }
+    const isSpeaking = btnEl.dataset.speaking === '1';
+    window.speechSynthesis.cancel();
+    document.querySelectorAll('button[data-speaking="1"]').forEach(b => {
+        b.dataset.speaking = '0';
+        b.innerHTML = '<i class="fas fa-volume-up"></i> Dengarkan';
+    });
+    if (isSpeaking) return;
+
+    const text = btnEl.dataset.speech || '';
+    if (!text) return;
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'id-ID';
+    utter.rate = 1.02;
+    btnEl.dataset.speaking = '1';
+    btnEl.innerHTML = '<i class="fas fa-stop"></i> Hentikan';
+    utter.onend = () => {
+        btnEl.dataset.speaking = '0';
+        btnEl.innerHTML = '<i class="fas fa-volume-up"></i> Dengarkan';
+    };
+    utter.onerror = () => {
+        btnEl.dataset.speaking = '0';
+        btnEl.innerHTML = '<i class="fas fa-volume-up"></i> Dengarkan';
+    };
+    window.speechSynthesis.speak(utter);
+};
+
+window.bukaModalLaporSoal = async (explicitSoalId = null) => {
+    if (!window.currentUser) {
+        return Swal.fire('Perlu Login', 'Silakan login terlebih dahulu untuk mengirim laporan soal.', 'info');
+    }
+    const activeQ = (!explicitSoalId && Array.isArray(window.currentQuestions) && window.currentQuestions[window.currentIdx])
+        ? window.currentQuestions[window.currentIdx]
+        : null;
+    const allPool = [
+        ...(window.currentQuestions || []),
+        ...(window.DATA_SKD_CPNS || []),
+        ...(window.DATA_TIU_GRATIS || []),
+        ...(window.DATA_TKP_GRATIS || [])
+    ];
+    const targetQ = activeQ || allPool.find(x => x && x.id === explicitSoalId) || { id: explicitSoalId || 'umum', kategori: 'SKD', soal: '' };
+
+    const { value: formValues } = await Swal.fire({
+        title: '🚩 Lapor Kesalahan Soal',
+        html: `
+            <div style="text-align:left; font-size:0.84rem;">
+                <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:8px 10px; margin-bottom:10px; color:#475569;">
+                    ID Soal: <b>${escapeHtmlMentor(targetQ.id)}</b> (${escapeHtmlMentor(targetQ.kategori || 'SKD')})
+                </div>
+                <label style="font-weight:700; display:block; margin-bottom:4px;">Jenis Kendala</label>
+                <select id="laporJenisInput" class="swal2-select" style="width:100%; margin:0 0 10px; font-size:0.86rem;">
+                    <option value="Kunci Jawaban Salah">Kunci Jawaban Salah / Kurang Tepat</option>
+                    <option value="Soal atau Gambar Kurang Jelas">Soal / Gambar SVG Kurang Jelas</option>
+                    <option value="Typo / Salah Ketik">Typo / Salah Ketik</option>
+                    <option value="Pembahasan Kurang Jelas">Pembahasan Kurang Jelas</option>
+                    <option value="Lainnya">Kendala Lainnya</option>
+                </select>
+                <label style="font-weight:700; display:block; margin-bottom:4px;">Detail Catatan</label>
+                <textarea id="laporCatatanInput" class="swal2-textarea" placeholder="Jelaskan bagian mana yang perlu diperbaiki..." style="width:100%; margin:0; min-height:85px; font-size:0.85rem;"></textarea>
+            </div>
+        `,
+        showCancelButton: true,
+        confirmButtonText: 'Kirim ke Admin',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#b91c1c',
+        preConfirm: () => {
+            const jenis = document.getElementById('laporJenisInput')?.value || 'Lainnya';
+            const catatan = (document.getElementById('laporCatatanInput')?.value || '').trim();
+            if (!catatan) {
+                Swal.showValidationMessage('Mohon isi detail catatan singkat terlebih dahulu.');
+                return false;
+            }
+            return { jenis, catatan };
+        }
+    });
+
+    if (!formValues) return;
+
+    try {
+        const cuplikan = String(targetQ.soal || '').replace(/\s+/g, ' ').slice(0, 140);
+        await addDoc(collection(db, 'laporan_soal'), {
+            uid_pelapor: window.currentUser.uid,
+            email: window.currentUser.email || '',
+            nama_pelapor: window.currentUser.displayName || '',
+            soalId: targetQ.id || '-',
+            kategori: targetQ.kategori || 'SKD',
+            subKategori: targetQ.subKategori || '',
+            judul: `[Lapor ${targetQ.kategori || 'SKD'} • ${targetQ.id || '-'}] ${formValues.jenis}`,
+            pesan: `${formValues.catatan}${cuplikan ? `\n\nCuplikan Soal: "${cuplikan}..."` : ''}`,
+            status: 'pending',
+            createdAt: Date.now()
+        });
+        Swal.fire({
+            icon: 'success',
+            title: 'Laporan Terkirim!',
+            text: 'Terima kasih, laporanmu sudah masuk ke Command Center Admin untuk ditinjau.',
+            timer: 2000,
+            showConfirmButton: false
+        });
+    } catch (err) {
+        console.error('Gagal mengirim laporan soal:', err);
+        Swal.fire('Gagal Mengirim', err.message, 'error');
+    }
 };

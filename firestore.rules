@@ -126,7 +126,7 @@ service cloud.firestore {
 
     // --- 8. LAPORAN SOAL & PENGADUAN PESERTA ---
     match /laporan_soal/{docId} {
-      allow read, update, delete: if isAnyAdmin();
+      allow read, update, delete: if isAnyAdmin() || isCpnsSuperAdmin();
       allow create: if request.auth != null 
                     && request.resource.data.uid_pelapor == request.auth.uid;
     }
