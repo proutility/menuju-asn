@@ -361,6 +361,13 @@ body {
     font-weight: 800;
 }
 
+.exam-num-btn.wrong {
+    background: #ef4444;
+    color: #ffffff;
+    border-color: #dc2626;
+    font-weight: 800;
+}
+
 .exam-num-btn.current {
     box-shadow: 0 0 0 2.5px #1e3a8a;
 }
@@ -392,6 +399,7 @@ body {
 
 .exam-legend-dot.answered { background: #16a34a; border: 1px solid #15803d; }
 .exam-legend-dot.ragu { background: #facc15; border: 1px solid #eab308; }
+.exam-legend-dot.wrong { background: #ef4444; border: 1px solid #dc2626; }
 .exam-legend-dot.empty { background: #ffffff; border: 1.5px solid #cbd5e1; }
 
 .btn-nav.ragu {

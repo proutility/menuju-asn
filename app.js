@@ -1538,11 +1538,184 @@ window.bukaReviewBrankas = (attemptId, filterMode = 'all') => {
             'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
         );
     }
-    window.selectedBrankasAttemptId = attemptId;
-    window.brankasReviewFilter = filterMode || 'all';
-    window.brankasMode = 'review';
-    window.renderBrankasPembahasan();
+    window.reviewState = {
+        attemptId,
+        filterMode: filterMode || 'all',
+        idx: 0
+    };
+    window.renderBrankasReviewStage();
     window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.setReviewFilterMode = (filterMode) => {
+    if (!window.reviewState) return;
+    window.reviewState.filterMode = filterMode || 'all';
+    window.reviewState.idx = 0;
+    window.renderBrankasReviewStage();
+};
+
+window.lompatKeReviewSoal = (idx) => {
+    if (!window.reviewState) return;
+    window.reviewState.idx = idx;
+    window.renderBrankasReviewStage();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.kembaliDariReviewKeBrankas = () => {
+    window.kembaliKeLobby();
+    window.switchAppView('brankas');
+};
+
+window.renderBrankasReviewStage = () => {
+    const state = window.reviewState;
+    if (!state) return;
+
+    const attempt = getBrankasHistory().find(h => h.id === state.attemptId);
+    if (!attempt) return window.kembaliDariReviewKeBrankas();
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const tier = String(prof.tier || 'free').toLowerCase();
+    const canRemedial = Boolean(prof.isAdmin || tier === 'gold');
+
+    const lobbyEl = document.getElementById('lobbySection');
+    const heroEl = document.getElementById('heroBannerSection');
+    const examStage = document.getElementById('examStage');
+    if (lobbyEl) lobbyEl.style.display = 'none';
+    if (heroEl) heroEl.style.display = 'none';
+    if (!examStage) return;
+
+    examStage.style.display = 'block';
+
+    const activeFilter = state.filterMode || 'all';
+    const filteredItems = (attempt.items || []).filter(it => {
+        if (activeFilter === 'wrong') return !it.isCorrect;
+        if (activeFilter === 'correct') return it.isCorrect;
+        return true;
+    });
+
+    if (state.idx >= filteredItems.length) state.idx = Math.max(0, filteredItems.length - 1);
+    const currentItem = filteredItems[state.idx];
+
+    const gridButtonsHtml = filteredItems.map((it, idx) => {
+        const statusCls = it.isCorrect ? 'answered' : 'wrong';
+        const currentCls = idx === state.idx ? 'current' : '';
+        return `<button type="button" class="exam-num-btn ${statusCls} ${currentCls}" onclick="window.lompatKeReviewSoal(${idx})">${it.no}</button>`;
+    }).join('');
+
+    let leftCardHtml = '';
+    if (!currentItem) {
+        leftCardHtml = `
+            <div class="question-card" style="text-align:center; padding:36px 24px;">
+                <h3 style="margin:0 0 8px; color:#0f172a;">Tidak ada soal pada filter ini</h3>
+                <p style="color:#64748b; margin:0 0 16px;">Silakan pilih filter lain di atas untuk melihat pembahasan soal.</p>
+                <button class="btn-nav primary" onclick="window.setReviewFilterMode('all')">Tampilkan Semua Soal</button>
+            </div>
+        `;
+    } else {
+        const opsiHtml = (currentItem.opsi || []).map(o => {
+            const isUserPick = currentItem.userAns === o.label;
+            const isBest = currentItem.kategori === 'TKP'
+                ? Number(o.poin || 0) >= currentItem.maxPoin
+                : Boolean(o.benar);
+
+            let border = '1.5px solid #e2e8f0';
+            let bg = '#ffffff';
+            let circleStyle = '';
+            if (isBest) {
+                border = '1.5px solid #16a34a';
+                bg = '#f0fdf4';
+                circleStyle = 'background:#16a34a; color:#ffffff; border-color:#16a34a;';
+            } else if (isUserPick && !isBest) {
+                border = '1.5px solid #ef4444';
+                bg = '#fef2f2';
+                circleStyle = 'background:#ef4444; color:#ffffff; border-color:#ef4444;';
+            }
+
+            const poinTag = currentItem.kategori === 'TKP'
+                ? `<span style="font-size:0.75rem; font-weight:700; color:#475569; white-space:nowrap;">Poin ${o.poin || 0}</span>`
+                : (o.benar ? `<span style="font-size:0.75rem; font-weight:800; color:#15803d; white-space:nowrap;">Kunci Benar</span>` : '');
+
+            return `
+                <div class="option-item" style="cursor:default; border:${border}; background:${bg}; align-items:flex-start;">
+                    <div class="option-circle" style="${circleStyle}">${o.label}</div>
+                    <div class="option-label" style="flex:1;">${o.teks}</div>
+                    <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-left:8px;">
+                        ${isUserPick ? `<span style="font-size:0.72rem; font-weight:800; padding:2px 8px; border-radius:999px; background:#dbeafe; color:#1d4ed8;">Jawabanmu</span>` : ''}
+                        ${poinTag}
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        leftCardHtml = `
+            <div class="question-card">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:14px;">
+                    <span class="badge-subtes ${String(currentItem.kategori || 'twk').toLowerCase()}">
+                        SOAL #${currentItem.no} • ${currentItem.kategori}${currentItem.subKategori ? ' • ' + currentItem.subKategori : ''}
+                    </span>
+                    <span style="font-size:0.8rem; font-weight:800; padding:5px 12px; border-radius:999px; ${currentItem.isCorrect ? 'background:#dcfce7; color:#15803d;' : 'background:#fee2e2; color:#b91c1c;'}">
+                        ${currentItem.userAns ? `Jawabanmu: ${currentItem.userAns} (+${currentItem.userPoin} poin)` : 'Tidak Dijawab (0 poin)'}
+                    </span>
+                </div>
+
+                <div class="question-text">${currentItem.soal}</div>
+                <div class="options-list">${opsiHtml}</div>
+
+                <div style="margin-top:18px; background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:8px; font-size:0.88rem; color:#334155; line-height:1.6;">
+                    <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan:</strong><br/>
+                    ${currentItem.pembahasan ? currentItem.pembahasan : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.'}
+                </div>
+
+                <div class="exam-nav">
+                    <button class="btn-nav" ${state.idx === 0 ? 'disabled style="opacity:0.45; cursor:not-allowed;"' : `onclick="window.lompatKeReviewSoal(${state.idx - 1})"`}>
+                        <i class="fas fa-chevron-left"></i> Sebelumnya
+                    </button>
+                    <button class="btn-nav primary" ${state.idx >= filteredItems.length - 1 ? 'disabled style="opacity:0.45; cursor:not-allowed;"' : `onclick="window.lompatKeReviewSoal(${state.idx + 1})"`}>
+                        Berikutnya <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+    }
+
+    examStage.innerHTML = `
+        <div class="exam-header" style="gap:12px;">
+            <div class="exam-meta" style="flex-wrap:wrap;">
+                <button class="btn-nav" onclick="window.kembaliDariReviewKeBrankas()" style="padding:7px 14px;">
+                    <i class="fas fa-arrow-left"></i> Kembali ke Brankas
+                </button>
+                <div>
+                    <div style="font-weight:800; font-size:0.95rem; color:#0f172a;">Review: ${attempt.title}</div>
+                    <div style="font-size:0.76rem; color:#64748b;">Skor: <b>${attempt.totalSkor}/${attempt.maxSkor}</b> • ${attempt.mode}</div>
+                </div>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                <div class="filter-chips" style="margin:0;">
+                    <button class="filter-chip ${activeFilter === 'all' ? 'active' : ''}" onclick="window.setReviewFilterMode('all')">Semua (${attempt.totalQuestions})</button>
+                    <button class="filter-chip ${activeFilter === 'wrong' ? 'active' : ''}" onclick="window.setReviewFilterMode('wrong')">Salah (${attempt.wrongCount})</button>
+                    <button class="filter-chip ${activeFilter === 'correct' ? 'active' : ''}" onclick="window.setReviewFilterMode('correct')">Benar (${attempt.totalQuestions - attempt.wrongCount})</button>
+                </div>
+                <button class="btn-card ${canRemedial ? 'accent' : 'paid-cta'}" style="width:auto; padding:8px 14px; font-size:0.8rem;" onclick="window.mulaiRemedialBrankas('${attempt.id}')">
+                    <i class="fas ${canRemedial ? 'fa-redo-alt' : 'fa-crown'}"></i> Ulangi Salah (${attempt.wrongCount})
+                </button>
+            </div>
+        </div>
+
+        <div class="exam-workspace-grid">
+            ${leftCardHtml}
+            <aside class="exam-nav-panel">
+                <div class="exam-nav-panel-head">
+                    <h4><i class="fas fa-th" style="color:var(--primary);"></i> Navigasi Review</h4>
+                    <span class="exam-nav-count">${filteredItems.length} Soal</span>
+                </div>
+                <div class="exam-number-grid">${gridButtonsHtml}</div>
+                <div class="exam-nav-legend">
+                    <span class="exam-legend-item"><span class="exam-legend-dot answered"></span> Benar / Maks</span>
+                    <span class="exam-legend-item"><span class="exam-legend-dot wrong"></span> Salah / Kurang</span>
+                </div>
+            </aside>
+        </div>
+    `;
 };
 
 window.kembaliKeDaftarBrankas = () => {
