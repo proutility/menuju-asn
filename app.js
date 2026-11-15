@@ -561,7 +561,8 @@ window.renderTwk40PaketCards = () => {
     const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
     const fragment = document.createDocumentFragment();
 
-    for (let i = 1; i <= 40; i++) {
+    for (let i = 1; i <= 90; i++) {
+        const isBatch2 = i > 40;
         const card = document.createElement('div');
         card.className = 'card-mode packet-card paid twk-40-card';
         card.setAttribute('data-tier', 'paid');
@@ -570,22 +571,22 @@ window.renderTwk40PaketCards = () => {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('twk', ${i})"><i class="fas fa-play"></i> Mulai Latihan TWK #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TWK Paket #${i} (1.200 Soal)', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TWK #${i}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TWK Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.200 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TWK #${i}</button>`;
 
         card.innerHTML = `
             <div>
                 <div class="packet-badges">
                     <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
-                    <span class="badge-cat">TWK • PAKET ${i}</span>
+                    <span class="badge-cat">${isBatch2 ? 'TWK 2026 BARU' : 'TWK'} • PAKET ${i}</span>
                 </div>
                 <div class="card-mode-header">
                     <div class="mode-icon blue"><i class="fas fa-landmark"></i></div>
                     <div>
-                        <h3>TWK Paket #${i}</h3>
+                        <h3>TWK Paket #${i}${isBatch2 ? ' <span style="font-size:0.65rem;background:#dbeafe;color:#1d4ed8;padding:2px 6px;border-radius:999px;vertical-align:middle;">2026 BARU</span>' : ''}</h3>
                         <span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">30 Soal • 30 Menit • 5 Pilar TWK</span>
                     </div>
                 </div>
-                <p>Simulasi TWK 30 soal lengkap (Nasionalisme, Integritas, Bela Negara, Pilar Negara, Bahasa Indonesia • Paket ${i} dari 40).</p>
+                <p>Simulasi TWK 30 soal lengkap (Nasionalisme, Integritas, Bela Negara, Pilar Negara, Bahasa Indonesia • Paket ${i} dari 90).</p>
             </div>
             ${ctaHtml}
         `;
@@ -660,7 +661,8 @@ window.renderTkp40PaketCards = () => {
     const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
     const fragment = document.createDocumentFragment();
 
-    for (let i = 1; i <= 40; i++) {
+    for (let i = 1; i <= 90; i++) {
+        const isBatch2 = i > 40;
         const card = document.createElement('div');
         card.className = 'card-mode packet-card paid tkp-40-card';
         card.setAttribute('data-tier', 'paid');
@@ -669,22 +671,22 @@ window.renderTkp40PaketCards = () => {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tkp', ${i})"><i class="fas fa-play"></i> Mulai Latihan TKP #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TKP Paket #${i} (1.800 Soal)', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TKP #${i}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TKP Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.800 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TKP #${i}</button>`;
 
         card.innerHTML = `
             <div>
                 <div class="packet-badges">
                     <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
-                    <span class="badge-cat">TKP • PAKET ${i}</span>
+                    <span class="badge-cat">${isBatch2 ? 'TKP 2026 BARU' : 'TKP'} • PAKET ${i}</span>
                 </div>
                 <div class="card-mode-header">
                     <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
                     <div>
-                        <h3>TKP Paket #${i}</h3>
+                        <h3>TKP Paket #${i}${isBatch2 ? ' <span style="font-size:0.65rem;background:#dcfce7;color:#15803d;padding:2px 6px;border-radius:999px;vertical-align:middle;">2026 BARU</span>' : ''}</h3>
                         <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 45 Menit • 6 Topik Seimbang</span>
                     </div>
                 </div>
-                <p>Simulasi TKP 45 soal seimbang semua aspek (Paket ${i} dari 40 • 1.800 Bank Soal TKP).</p>
+                <p>Simulasi TKP 45 soal seimbang semua aspek (Paket ${i} dari 90 • Bank Soal TKP).</p>
             </div>
             ${ctaHtml}
         `;
@@ -1069,10 +1071,16 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
     if (tipe === 'twk') {
         const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
         if (paketNo) {
-            const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
-            window.currentQuestions = allPaidTwk.slice((no - 1) * 30, no * 30);
+            const no = Math.max(1, Math.min(90, Number(paketNo) || 1));
+            if (no <= 40) {
+                window.currentQuestions = allPaidTwk.slice((no - 1) * 30, no * 30);
+                title = `TWK Paket #${no}`;
+            } else {
+                const batch2Twk = window.DATA_TWK_BATCH2 || [];
+                window.currentQuestions = batch2Twk.slice((no - 41) * 30, (no - 40) * 30);
+                title = `TWK Paket #${no} (2026 Baru)`;
+            }
             window.examTimeRemaining = window.currentQuestions.length * 60; // 30 Menit
-            title = `TWK Paket #${no}`;
             saveId = `twk_${no}`;
         } else {
             window.currentQuestions = allPaidTwk.slice(0, 30);
@@ -1117,11 +1125,17 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
     } else if (tipe === 'tkp') {
         const allTkp = rawData.filter(q => q.kategori === 'TKP');
         if (paketNo) {
-            const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
-            const packages = buildBalancedTkpPackages(allTkp, 40, 45);
-            window.currentQuestions = packages[no - 1] || [];
+            const no = Math.max(1, Math.min(90, Number(paketNo) || 1));
+            if (no <= 40) {
+                const packages = buildBalancedTkpPackages(allTkp, 40, 45);
+                window.currentQuestions = packages[no - 1] || [];
+                title = `TKP Paket #${no}`;
+            } else {
+                const batch2Tkp = window.DATA_TKP_BATCH2 || [];
+                window.currentQuestions = batch2Tkp.slice((no - 41) * 45, (no - 40) * 45);
+                title = `TKP Paket #${no} (2026 Baru)`;
+            }
             window.examTimeRemaining = window.currentQuestions.length * 60; // 45 Menit
-            title = `TKP Paket #${no}`;
             saveId = `tkp_${no}`;
         } else {
             const packages = buildBalancedTkpPackages(allTkp, 40, 45);
@@ -2740,14 +2754,14 @@ function buildArenaPaketOptionsHtml() {
     let html = `
         <option value="full">Simulasi SKD Lengkap (TWK + TIU + TKP)</option>
     `;
-    for (let i = 1; i <= 40; i++) {
-        html += `<option value="twk_${i}">TWK Paket #${i} (30 Soal)</option>`;
+    for (let i = 1; i <= 90; i++) {
+        html += `<option value="twk_${i}">TWK Paket #${i}${i > 40 ? ' [2026 Baru]' : ''} (30 Soal)</option>`;
     }
     for (let i = 1; i <= 90; i++) {
         html += `<option value="tiu_${i}">TIU Paket #${i}${i > 40 ? ' [2026 Baru]' : ''} (35 Soal)</option>`;
     }
-    for (let i = 1; i <= 40; i++) {
-        html += `<option value="tkp_${i}">TKP Paket #${i} (45 Soal)</option>`;
+    for (let i = 1; i <= 90; i++) {
+        html += `<option value="tkp_${i}">TKP Paket #${i}${i > 40 ? ' [2026 Baru]' : ''} (45 Soal)</option>`;
     }
     return html;
 }
@@ -2760,10 +2774,12 @@ function getQuestionsForRoomPaket(paketKey) {
         return { questions: qs, durationSec: qs.length * 60, label: 'TWK Paket #1' };
     }
     if (key.startsWith('twk_')) {
-        const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
         const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
-        const qs = allPaidTwk.slice((no - 1) * 30, no * 30);
-        return { questions: qs, durationSec: qs.length * 60, label: `TWK Paket #${no}` };
+        const qs = no <= 40
+            ? allPaidTwk.slice((no - 1) * 30, no * 30)
+            : (window.DATA_TWK_BATCH2 || []).slice((no - 41) * 30, (no - 40) * 30);
+        return { questions: qs, durationSec: qs.length * 60, label: `TWK Paket #${no}${no > 40 ? ' (2026 Baru)' : ''}` };
     }
     if (key.startsWith('tiu_')) {
         const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
@@ -2773,11 +2789,13 @@ function getQuestionsForRoomPaket(paketKey) {
         return { questions: qs, durationSec: qs.length * 60, label: `TIU Paket #${no}${no > 40 ? ' (2026 Baru)' : ''}` };
     }
     if (key.startsWith('tkp_')) {
-        const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
         const allTkp = rawData.filter(q => q.kategori === 'TKP');
         const packages = buildBalancedTkpPackages(allTkp, 40, 45);
-        const qs = packages[no - 1] || [];
-        return { questions: qs, durationSec: qs.length * 60, label: `TKP Paket #${no}` };
+        const qs = no <= 40
+            ? (packages[no - 1] || [])
+            : (window.DATA_TKP_BATCH2 || []).slice((no - 41) * 45, (no - 40) * 45);
+        return { questions: qs, durationSec: qs.length * 60, label: `TKP Paket #${no}${no > 40 ? ' (2026 Baru)' : ''}` };
     }
     return { questions: [...rawData], durationSec: 100 * 60, label: 'Simulasi SKD Lengkap' };
 }
