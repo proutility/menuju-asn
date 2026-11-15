@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="navyBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <!-- Latar Navy Kontras Tinggi agar tidak menyatu dengan tab/sidebar putih -->
+  <rect x="4" y="4" width="112" height="112" rx="26" fill="url(#navyBg)" stroke="#f59e0b" stroke-width="3"/>
+  <!-- Perisai Emas & Putih diperbesar pas di tengah -->
+  <path d="M60 16 L96 28 V58 C96 82 79 98 60 106 C41 98 24 82 24 58 V28 Z" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M60 23 L89 33 V57 C89 77 75 91 60 98 C45 91 31 77 31 57 V33 Z" fill="none" stroke="#ffffff" stroke-width="2.2" opacity="0.9"/>
+  <!-- Pilar Kembar -->
+  <rect x="39" y="56" width="8" height="26" rx="1.5" fill="url(#goldGrad)"/>
+  <rect x="73" y="56" width="8" height="26" rx="1.5" fill="url(#goldGrad)"/>
+  <path d="M35 53 H51 M69 53 H85" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Panah Menuju Puncak -->
+  <path d="M60 36 L47 52 H56 V90 H64 V52 H73 Z" fill="#ffffff"/>
+  <path d="M60 36 L60 90 H64 V52 H73 Z" fill="url(#goldGrad)"/>
+  <!-- Bintang Puncak -->
+  <polygon points="60,12 63.5,21 73,21 65.5,26.5 68.5,35.5 60,30 51.5,35.5 54.5,26.5 47,21 56.5,21" fill="#fde047" stroke="#b45309" stroke-width="1"/>
+</svg>

@@ -59,34 +59,57 @@ window.addEventListener('DOMContentLoaded', () => {
 
 async function loadUserProfile(user) {
     const email = (user.email || '').toLowerCase().trim();
-    if (ADMIN_EMAILS.map(e => e.toLowerCase()).includes(email)) {
-        window.currentUserProfile = { tier: 'admin', isPaid: true, isAdmin: true };
-        return;
-    }
+    const isAdminEmail = ADMIN_EMAILS.map(e => e.toLowerCase()).includes(email);
+    let localBio = {};
+    try {
+        localBio = JSON.parse(localStorage.getItem(`menuju_asn_user_bio_${user.uid}`) || '{}') || {};
+    } catch (_) {}
+
     try {
         const uSnap = await getDoc(doc(db, COLLECTIONS.USERS, user.uid));
         if (uSnap.exists()) {
             const d = uSnap.data();
             window.currentUserProfile = {
-                tier: d.tier || 'free',
-                isPaid: d.isPaid === true,
-                isAdmin: false
+                tier: isAdminEmail ? 'admin' : (d.tier || 'free'),
+                isPaid: isAdminEmail ? true : (d.isPaid === true),
+                isAdmin: isAdminEmail,
+                nama: d.nama || localBio.nama || user.displayName || 'Pejuang ASN',
+                tanggalLahir: d.tanggalLahir || localBio.tanggalLahir || '',
+                tujuanInstansi: d.tujuanInstansi || localBio.tujuanInstansi || '',
+                tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || ''
             };
         } else {
-            // Inisialisasi profil awal akun free
-            await setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
-                uid: user.uid,
-                email: email,
-                nama: user.displayName || 'Pejuang ASN',
-                tier: 'free',
-                isPaid: false,
-                createdAt: Date.now()
-            }, { merge: true }).catch(() => {});
-            window.currentUserProfile = { tier: 'free', isPaid: false, isAdmin: false };
+            if (!isAdminEmail) {
+                await setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
+                    uid: user.uid,
+                    email: email,
+                    nama: user.displayName || 'Pejuang ASN',
+                    tier: 'free',
+                    isPaid: false,
+                    createdAt: Date.now()
+                }, { merge: true }).catch(() => {});
+            }
+            window.currentUserProfile = {
+                tier: isAdminEmail ? 'admin' : 'free',
+                isPaid: isAdminEmail,
+                isAdmin: isAdminEmail,
+                nama: localBio.nama || user.displayName || 'Pejuang ASN',
+                tanggalLahir: localBio.tanggalLahir || '',
+                tujuanInstansi: localBio.tujuanInstansi || '',
+                tujuanJabatan: localBio.tujuanJabatan || ''
+            };
         }
     } catch (e) {
         console.warn("Gagal load profil user:", e);
-        window.currentUserProfile = { tier: 'free', isPaid: false, isAdmin: false };
+        window.currentUserProfile = {
+            tier: isAdminEmail ? 'admin' : 'free',
+            isPaid: isAdminEmail,
+            isAdmin: isAdminEmail,
+            nama: localBio.nama || user.displayName || 'Pejuang ASN',
+            tanggalLahir: localBio.tanggalLahir || '',
+            tujuanInstansi: localBio.tujuanInstansi || '',
+            tujuanJabatan: localBio.tujuanJabatan || ''
+        };
     }
 }
 
@@ -100,27 +123,42 @@ function updateAuthUI(user) {
     const kpiTierValue = document.getElementById('kpiTierValue');
 
     if (user) {
-        const firstName = user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN';
         const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+        const customName = (prof.nama || user.displayName || 'Pejuang ASN').trim();
+        const firstName = customName.split(' ')[0] || 'Pejuang ASN';
         const tierText = prof.isAdmin ? 'ADMIN' : String(prof.tier || 'free').toUpperCase();
+        const targetText = (prof.tujuanInstansi || prof.tujuanJabatan)
+            ? `🎯 ${[prof.tujuanInstansi, prof.tujuanJabatan].filter(Boolean).join(' • ')}`
+            : '✎ Isi Data Diri & Target Instansi';
 
         if (btnAuth) btnAuth.style.display = 'none';
         if (userProfileEl) {
             const tierBadge = prof.isAdmin
-                ? `<span style="background:#f59e0b; color:#0f172a; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">ADMIN</span>`
+                ? `<span style="background:#f59e0b; color:#0f172a; font-size:0.64rem; font-weight:800; padding:2px 7px; border-radius:999px;">ADMIN</span>`
                 : (prof.isPaid
-                    ? `<span style="background:#10b981; color:white; font-size:0.68rem; font-weight:800; padding:2px 7px; border-radius:10px;">${tierText}</span>`
-                    : `<span style="background:rgba(255,255,255,0.18); color:#cbd5e1; font-size:0.68rem; font-weight:700; padding:2px 7px; border-radius:10px;">FREE</span>`);
+                    ? `<span style="background:#10b981; color:white; font-size:0.64rem; font-weight:800; padding:2px 7px; border-radius:999px;">${tierText}</span>`
+                    : `<span style="background:rgba(255,255,255,0.18); color:#cbd5e1; font-size:0.64rem; font-weight:700; padding:2px 7px; border-radius:999px;">FREE</span>`);
 
             userProfileEl.style.display = 'flex';
             userProfileEl.innerHTML = `
-                <img src="${user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(user.displayName || 'User')}" style="width:30px; height:30px; border-radius:50%; border:1.5px solid #f59e0b;" />
-                <span style="font-weight:700; font-size:0.82rem; color:white;">${firstName}</span>
-                ${tierBadge}
-                <button onclick="window.eksekusiLogout()" style="background:none; border:none; color:#f87171; cursor:pointer; font-size:0.85rem;" title="Keluar"><i class="fas fa-sign-out-alt"></i></button>
+                <button type="button" class="nav-profile-chip" onclick="window.bukaModalProfilPeserta()" title="Klik untuk edit Profil, Tanggal Lahir, Tujuan Instansi & Jabatan">
+                    <img class="nav-profile-avatar" src="${user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(customName)}" alt="Avatar" />
+                    <div class="nav-profile-info">
+                        <div class="nav-profile-top">
+                            <span class="nav-profile-name">${firstName}</span>
+                            ${tierBadge}
+                        </div>
+                        <span class="nav-profile-sub">${targetText}</span>
+                    </div>
+                    <i class="fas fa-user-pen" style="font-size:0.75rem; color:#fde047; margin-left:2px;"></i>
+                </button>
+                <button type="button" class="btn-logout-modern" onclick="window.eksekusiLogout()" title="Keluar dari Akun">
+                    <i class="fas fa-power-off"></i>
+                    <span>Keluar</span>
+                </button>
             `;
         }
-        if (dashUserName) dashUserName.textContent = firstName;
+        if (dashUserName) dashUserName.textContent = customName;
         if (sidebarTierLabel) sidebarTierLabel.textContent = prof.isPaid || prof.isAdmin ? `PAKET ${tierText}` : 'AKUN FREE';
         if (kpiTierValue) kpiTierValue.textContent = tierText;
 
@@ -202,6 +240,76 @@ window.eksekusiLogout = async () => {
         await signOut(auth);
         window.location.reload();
     }
+};
+
+window.bukaModalProfilPeserta = async () => {
+    const user = window.currentUser;
+    if (!user) return;
+    const prof = window.currentUserProfile || {};
+    const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    const { value: formValues } = await Swal.fire({
+        title: '👤 Profil & Target Formasi ASN',
+        html: `
+            <div style="text-align:left; font-size:0.84rem; color:#334155;">
+                <p style="margin:0 0 12px; font-size:0.78rem; color:#64748b;">
+                    Lengkapi data singkat &amp; target formasi impianmu agar progres latihan dan evaluasi MenujuASN-Bot makin relevan.
+                </p>
+                <div style="margin-bottom:10px;">
+                    <label style="display:block; font-weight:700; margin-bottom:4px; color:#0f172a;">Nama Lengkap / Panggilan</label>
+                    <input id="swalProfNama" type="text" value="${esc(prof.nama || user.displayName || '')}" placeholder="Contoh: Budi Santoso" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.85rem; box-sizing:border-box;" />
+                </div>
+                <div style="margin-bottom:10px;">
+                    <label style="display:block; font-weight:700; margin-bottom:4px; color:#0f172a;">Tanggal Lahir</label>
+                    <input id="swalProfTglLahir" type="date" value="${esc(prof.tanggalLahir || '')}" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.85rem; box-sizing:border-box;" />
+                </div>
+                <div style="margin-bottom:10px;">
+                    <label style="display:block; font-weight:700; margin-bottom:4px; color:#0f172a;">Tujuan Instansi yang Dilamar</label>
+                    <input id="swalProfInstansi" type="text" value="${esc(prof.tujuanInstansi || '')}" placeholder="Contoh: Kementerian Keuangan / Kejaksaan RI / Pemprov" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.85rem; box-sizing:border-box;" />
+                </div>
+                <div style="margin-bottom:4px;">
+                    <label style="display:block; font-weight:700; margin-bottom:4px; color:#0f172a;">Jabatan / Formasi yang Dilamar</label>
+                    <input id="swalProfJabatan" type="text" value="${esc(prof.tujuanJabatan || '')}" placeholder="Contoh: Auditor Ahli Pertama / Analis Hukum" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.85rem; box-sizing:border-box;" />
+                </div>
+            </div>
+        `,
+        focusConfirm: false,
+        showCancelButton: true,
+        confirmButtonText: '💾 Simpan Profil',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#1e3a8a',
+        preConfirm: () => ({
+            nama: (document.getElementById('swalProfNama')?.value || '').trim() || user.displayName || 'Pejuang ASN',
+            tanggalLahir: (document.getElementById('swalProfTglLahir')?.value || '').trim(),
+            tujuanInstansi: (document.getElementById('swalProfInstansi')?.value || '').trim(),
+            tujuanJabatan: (document.getElementById('swalProfJabatan')?.value || '').trim()
+        })
+    });
+
+    if (!formValues) return;
+
+    window.currentUserProfile = {
+        ...(window.currentUserProfile || {}),
+        ...formValues
+    };
+    try {
+        localStorage.setItem(`menuju_asn_user_bio_${user.uid}`, JSON.stringify(formValues));
+    } catch (_) {}
+    try {
+        await setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
+            ...formValues,
+            updatedAt: Date.now()
+        }, { merge: true });
+    } catch (_) {}
+
+    updateAuthUI(user);
+    Swal.fire({
+        icon: 'success',
+        title: 'Profil Tersimpan!',
+        text: 'Data diri & target formasi berhasil diperbarui.',
+        timer: 1400,
+        showConfirmButton: false
+    });
 };
 
 window.switchAppView = (viewName) => {
