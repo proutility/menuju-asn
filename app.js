@@ -197,6 +197,8 @@ window.switchAppView = (viewName) => {
         window.loadCommandCenterData();
     } else if (viewName === 'beranda' && typeof window.renderSavedExamsOnBeranda === 'function') {
         window.renderSavedExamsOnBeranda();
+    } else if (viewName === 'brankas' && typeof window.renderBrankasPembahasan === 'function') {
+        window.renderBrankasPembahasan();
     }
 };
 
@@ -798,6 +800,7 @@ window.simpanDanKembaliKeBeranda = async () => {
         questionIds: (window.currentQuestions || []).map(q => q.id),
         userAnswers: { ...(window.userAnswers || {}) },
         userAnswerPoints: { ...(window.userAnswerPoints || {}) },
+        raguAnswers: { ...(window.raguAnswers || {}) },
         currentIdx: window.currentIdx || 0,
         examTimeRemaining: remSec,
         totalDurationSeconds: meta.totalDurationSeconds || totalSoal * 60,
@@ -965,6 +968,7 @@ function startExamSessionUI(restoredState = null) {
         window.currentIdx = Math.min(restoredState.currentIdx || 0, Math.max(0, window.currentQuestions.length - 1));
         window.userAnswers = { ...(restoredState.userAnswers || {}) };
         window.userAnswerPoints = { ...(restoredState.userAnswerPoints || {}) };
+        window.raguAnswers = { ...(restoredState.raguAnswers || {}) };
         window.examTimeRemaining = Math.max(1, restoredState.examTimeRemaining || (window.currentQuestions.length * 60));
         const elapsedSec = Math.max(0, (restoredState.totalDurationSeconds || (window.currentQuestions.length * 60)) - window.examTimeRemaining);
         window.examStartTimeMs = Date.now() - (elapsedSec * 1000);
@@ -972,6 +976,7 @@ function startExamSessionUI(restoredState = null) {
         window.currentIdx = 0;
         window.userAnswers = {};
         window.userAnswerPoints = {};
+        window.raguAnswers = {};
         window.examStartTimeMs = Date.now();
     }
     window.syncedSubtes = { TWK: false, TIU: false, TKP: false };
@@ -1013,20 +1018,38 @@ function buildExamStageMarkup() {
             </div>
         </div>
 
-        <div class="question-card">
-            <div class="question-text" id="questionTextDisplay">
-                Memuat butir pertanyaan...
+        <div class="exam-workspace-grid">
+            <div class="question-card">
+                <div class="question-text" id="questionTextDisplay">
+                    Memuat butir pertanyaan...
+                </div>
+                <div class="options-list" id="optionsListDisplay"></div>
+                
+                <div class="exam-nav">
+                    <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
+                        <i class="fas fa-chevron-left"></i> Sebelumnya
+                    </button>
+                    <button id="btnRaguSoal" class="btn-nav ragu" onclick="window.toggleRaguSoal()">
+                        <i class="fas fa-flag"></i> Ragu-Ragu
+                    </button>
+                    <button id="btnNextSoal" class="btn-nav primary" onclick="window.nextSoal()">
+                        Berikutnya <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
             </div>
-            <div class="options-list" id="optionsListDisplay"></div>
-            
-            <div class="exam-nav">
-                <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
-                    <i class="fas fa-chevron-left"></i> Sebelumnya
-                </button>
-                <button id="btnNextSoal" class="btn-nav primary" onclick="window.nextSoal()">
-                    Berikutnya <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
+
+            <aside class="exam-nav-panel" id="examNavPanel">
+                <div class="exam-nav-panel-head">
+                    <h4><i class="fas fa-th" style="color:var(--primary);"></i> Nomor Soal</h4>
+                    <span class="exam-nav-count" id="examNavAnsweredCount">0/0 Terjawab</span>
+                </div>
+                <div class="exam-number-grid" id="examNumberGrid"></div>
+                <div class="exam-nav-legend">
+                    <span class="exam-legend-item"><span class="exam-legend-dot answered"></span> Dijawab</span>
+                    <span class="exam-legend-item"><span class="exam-legend-dot ragu"></span> Ragu-ragu</span>
+                    <span class="exam-legend-item"><span class="exam-legend-dot empty"></span> Belum diisi</span>
+                </div>
+            </aside>
         </div>
     `;
 }
@@ -1094,8 +1117,16 @@ function renderSoalSekarang() {
     }
 
     const btnPrev = document.getElementById('btnPrevSoal');
+    const btnRagu = document.getElementById('btnRaguSoal');
     const btnNext = document.getElementById('btnNextSoal');
     if (btnPrev) btnPrev.style.visibility = (window.currentIdx > 0) ? 'visible' : 'hidden';
+    if (btnRagu) {
+        const isRagu = Boolean(window.raguAnswers && window.raguAnswers[q.id]);
+        btnRagu.classList.toggle('active', isRagu);
+        btnRagu.innerHTML = isRagu
+            ? `<i class="fas fa-flag"></i> Batal Ragu`
+            : `<i class="fas fa-flag"></i> Ragu-Ragu`;
+    }
     if (btnNext) {
         if (window.currentIdx === window.currentQuestions.length - 1) {
             btnNext.innerHTML = `<i class="fas fa-flag-checkered"></i> Selesai Ujian`;
@@ -1105,7 +1136,60 @@ function renderSoalSekarang() {
             btnNext.onclick = window.nextSoal;
         }
     }
+
+    renderExamNumberGrid();
 }
+
+function renderExamNumberGrid() {
+    const gridEl = document.getElementById('examNumberGrid');
+    if (!gridEl) return;
+
+    const questions = window.currentQuestions || [];
+    const answers = window.userAnswers || {};
+    const ragu = window.raguAnswers || {};
+    let answeredCount = 0;
+
+    gridEl.innerHTML = questions.map((item, idx) => {
+        const isAnswered = Boolean(answers[item.id]);
+        const isRagu = Boolean(ragu[item.id]);
+        if (isAnswered) answeredCount++;
+
+        let statusClass = '';
+        if (isRagu) statusClass = 'ragu';
+        else if (isAnswered) statusClass = 'answered';
+
+        const currentClass = idx === window.currentIdx ? 'current' : '';
+        return `<button type="button" class="exam-num-btn ${statusClass} ${currentClass}" onclick="window.lompatKeSoal(${idx})">${idx + 1}</button>`;
+    }).join('');
+
+    const countEl = document.getElementById('examNavAnsweredCount');
+    if (countEl) {
+        countEl.textContent = `${answeredCount}/${questions.length} Terjawab`;
+    }
+}
+
+window.toggleRaguSoal = () => {
+    const q = (window.currentQuestions || [])[window.currentIdx];
+    if (!q) return;
+    if (!window.raguAnswers) window.raguAnswers = {};
+    window.raguAnswers[q.id] = !window.raguAnswers[q.id];
+    renderSoalSekarang();
+};
+
+window.lompatKeSoal = (idx) => {
+    const questions = window.currentQuestions || [];
+    if (idx < 0 || idx >= questions.length || idx === window.currentIdx) return;
+
+    const prevQ = questions[window.currentIdx];
+    window.currentIdx = idx;
+    const nextQ = questions[window.currentIdx];
+
+    if (window.currentAppMode === 'multiplayer' && prevQ && nextQ && prevQ.kategori !== nextQ.kategori) {
+        syncCheckpointToFirestore(prevQ.kategori, false);
+    }
+
+    renderSoalSekarang();
+};
 
 // HEMAT KUOTA: Klik opsi HANYA simpan di memori lokal (0 write ke Firestore!)
 window.pilihJawaban = (qId, label, poin) => {
@@ -1231,6 +1315,26 @@ async function selesaikanUjian() {
     const menit = Math.floor((totalWaktu || 0) / 60);
     const detik = (totalWaktu || 0) % 60;
     const durasiText = `${menit}m ${detik}d`;
+
+    const savedAttempt = saveAttemptToBrankas({
+        title: window.currentPackageMeta?.title || 'Simulasi SKD CPNS 2026',
+        tipe: window.currentPackageMeta?.tipe || 'full',
+        paketNo: window.currentPackageMeta?.paketNo || null,
+        mode: window.currentAppMode === 'multiplayer' ? 'CBT Mabar' : 'CAT Mandiri',
+        durasiText,
+        totalSkor,
+        maxSkor,
+        statusLolos,
+        skorTWK,
+        skorTIU,
+        skorTKP,
+        questions: qs,
+        userAnswers: { ...(window.userAnswers || {}) }
+    });
+    if (savedAttempt) {
+        window.selectedBrankasAttemptId = savedAttempt.id;
+        window.brankasReviewFilter = 'all';
+    }
 
     const rows = [];
     if (countTWK > 0) rows.push({ label: 'Tes Wawasan Kebangsaan (TWK)', pg: pgTWK, nilai: skorTWK, max: countTWK * 5, lolos: lolosTWK });

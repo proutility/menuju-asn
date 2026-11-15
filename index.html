@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.1.1">
+    <link rel="stylesheet" href="style.css?v=2.1.5">
 </head>
 <body>
 
@@ -802,32 +802,20 @@
 
                 <div class="brankas-summary-grid">
                     <div class="brankas-stat">
-                        <span>Status Review</span>
-                        <strong>Siap Dipelajari</strong>
+                        <span>Riwayat Tersimpan</span>
+                        <strong id="brankasStatTotal">0 Paket</strong>
                     </div>
                     <div class="brankas-stat">
-                        <span>Riwayat Nilai</span>
-                        <strong>TWK • TIU • TKP</strong>
+                        <span>Skor Terakhir</span>
+                        <strong id="brankasStatLast">-</strong>
                     </div>
                     <div class="brankas-stat gold">
-                        <span>Remedial Soal Salah</span>
-                        <strong>Khusus Paket Gold</strong>
+                        <span>Akses Paket Anda</span>
+                        <strong id="brankasStatAccess">FREE</strong>
                     </div>
                 </div>
 
-                <div class="empty-state-card">
-                    <div class="empty-icon"><i class="fas fa-folder-open"></i></div>
-                    <h3>Riwayat Pembahasan &amp; Remedial Soal Salah</h3>
-                    <p>Selesaikan simulasi CAT untuk menyimpan riwayat benar/salah dan nilai di Brankas Pembahasan. Pemilik paket Gold bisa langsung klik <strong>Coba Lagi Soal yang Salah</strong>.</p>
-                    <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-                        <button class="btn-card primary" style="width:auto;" onclick="window.mulaiSingleplayer('full')">
-                            <i class="fas fa-play"></i> Kerjakan Simulasi Sekarang
-                        </button>
-                        <button class="btn-card paid-cta" style="width:auto;" onclick="window.bukaModalUpgrade('Coba Lagi Soal yang Salah', 'Paket Gold (Rp 99.999)')">
-                            <i class="fas fa-crown"></i> Remedial Soal Salah (Gold)
-                        </button>
-                    </div>
-                </div>
+                <div id="brankasContentArea"></div>
             </section>
 
             <!-- VIEW 5: PUSAT STUDI ASN (GOLD) -->
@@ -1194,7 +1182,7 @@
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.1.4')
+                navigator.serviceWorker.register('./sw.js?v=2.1.5')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
