@@ -1168,6 +1168,10 @@ function startExamSessionUI(restoredState = null) {
     examStage.innerHTML = buildExamStageMarkup();
 
     renderSoalSekarang();
+    if (window.currentAppMode === 'multiplayer') {
+        if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
+        if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
+    }
     startExamTimer();
 }
 
@@ -1231,6 +1235,10 @@ function buildExamStageMarkup() {
                     <span class="exam-legend-item"><span class="exam-legend-dot ragu"></span> Ragu-ragu</span>
                     <span class="exam-legend-item"><span class="exam-legend-dot empty"></span> Belum diisi</span>
                 </div>
+                ${window.currentAppMode === 'multiplayer' ? `
+                    <div id="arenaLiveKlasemenSidebar" style="margin-top:14px; border-top:1px solid #e2e8f0; padding-top:12px;"></div>
+                    <div id="arenaChatStickerSidebar" style="margin-top:12px; border-top:1px solid #e2e8f0; padding-top:12px;"></div>
+                ` : ''}
             </aside>
         </div>
     `;
@@ -1350,7 +1358,7 @@ function renderSoalSekarang() {
     const instantBoxEl = document.getElementById('instantPembahasanBox');
     if (opsListEl) {
         const currentAns = window.userAnswers[q.id];
-        const showInstant = Boolean(window.isInstantReviewMode && currentAns);
+        const showInstant = Boolean((window.isInstantReviewMode || window.currentAppMode === 'multiplayer') && currentAns);
         const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
 
         opsListEl.innerHTML = q.opsi.map(opt => {
@@ -1385,7 +1393,7 @@ function renderSoalSekarang() {
                 const gotPoin = q.kategori === 'TKP' ? Number(pickedOpt?.poin || 0) : (pickedOpt?.benar ? 5 : 0);
                 instantBoxEl.style.display = 'block';
                 instantBoxEl.innerHTML = window.buildInteractivePembahasanHtml(q, currentAns, `instant_${q.id}`, {
-                    headerTitle: 'Pembahasan Mentor (1x Klik)',
+                    headerTitle: window.currentAppMode === 'multiplayer' ? 'Pembahasan Mentor (Live CBT Arena)' : 'Pembahasan Mentor (1x Klik)',
                     gotPoin,
                     maxPoin
                 });
@@ -1471,12 +1479,16 @@ window.lompatKeSoal = (idx) => {
     renderSoalSekarang();
 };
 
-// HEMAT KUOTA: Klik opsi simpan lokal + live sync klasemen Arena (throttle 5 detik)
+// HEMAT KUOTA: Klik opsi simpan lokal + kunci jawaban di Live Arena + live sync klasemen Arena
 window.pilihJawaban = (qId, label, poin) => {
+    if (window.currentAppMode === 'multiplayer' && window.userAnswers[qId]) {
+        return; // Kunci jawaban setelah memilih di Live CBT Arena agar adil
+    }
     window.userAnswers[qId] = label;
     window.userAnswerPoints[qId] = poin;
     renderSoalSekarang();
     if (window.currentAppMode === 'multiplayer') {
+        if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
         syncLiveArenaScoreThrottled();
     }
 };
@@ -1656,6 +1668,10 @@ async function selesaikanUjian() {
         `;
     }).join('');
 
+    const podiumHtml = (window.currentAppMode === 'multiplayer' && typeof buildArenaPodiumHtml === 'function')
+        ? buildArenaPodiumHtml()
+        : '';
+
     const examStage = document.getElementById('examStage');
     if (examStage) {
         examStage.style.display = 'block';
@@ -1664,7 +1680,7 @@ async function selesaikanUjian() {
                 <div class="result-top-banner">
                     <div>
                         <span class="result-eyebrow"><i class="fas fa-award"></i> LAPORAN HASIL EVALUASI CAT • MENUJU ASN</span>
-                        <h2>Hasil Simulasi SKD ASN</h2>
+                        <h2>${window.currentAppMode === 'multiplayer' ? 'Podium &amp; Hasil Live CBT Arena' : 'Hasil Simulasi SKD ASN'}</h2>
                         <div class="result-meta-chips">
                             <span><i class="fas fa-list-ol"></i> ${qs.length} Soal</span>
                             <span><i class="fas fa-stopwatch"></i> Waktu: ${durasiText}</span>
@@ -1675,6 +1691,8 @@ async function selesaikanUjian() {
                         <i class="fas fa-arrow-left"></i> Kembali ke Dashboard
                     </button>
                 </div>
+
+                ${podiumHtml}
 
                 <div class="result-grid">
                     <!-- PANEL KIRI: RINCIAN NILAI -->
@@ -1709,9 +1727,15 @@ async function selesaikanUjian() {
                             </div>
                         </div>
                         <div class="score-actions-stack">
-                            <button class="btn-card primary" onclick="window.kembaliKeLobby(); window.switchAppView('brankas');">
-                                <i class="fas fa-vault"></i> Buka Brankas Pembahasan
-                            </button>
+                            ${savedAttempt ? `
+                                <button class="btn-card primary" onclick="window.kembaliKeLobby(); window.switchAppView('brankas'); window.bukaReviewBrankas('${savedAttempt.id}', 'all');">
+                                    <i class="fas fa-book-open"></i> Lihat Pembahasan Lengkap
+                                </button>
+                            ` : `
+                                <button class="btn-card primary" onclick="window.kembaliKeLobby(); window.switchAppView('brankas');">
+                                    <i class="fas fa-vault"></i> Buka Brankas Pembahasan
+                                </button>
+                            `}
                             ${window.currentAppMode === 'multiplayer' ? `
                                 <button class="btn-card accent" onclick="window.bukaModalKlasemenMabar()">
                                     <i class="fas fa-trophy"></i> Klasemen Live CBT Arena
@@ -1812,13 +1836,46 @@ function saveAttemptToBrankas(payload) {
     return record;
 }
 
-window.hapusRiwayatBrankas = (attemptId) => {
-    const filtered = getBrankasHistory().filter(item => item.id !== attemptId);
+window.hapusRiwayatBrankas = async (attemptId) => {
+    const history = getBrankasHistory();
+    const target = history.find(item => item.id === attemptId);
+    const label = target?.title ? `<b>${target.title}</b>` : 'riwayat paket ini';
+
+    const res = await Swal.fire({
+        title: 'Yakin Hapus Riwayat?',
+        html: `Data hasil &amp; pembahasan ${label} akan dihapus permanen (termasuk dari Firebase) dan <b>tidak bisa dikembalikan lagi</b>.`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Ya, Hapus Permanen',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#b91c1c'
+    });
+    if (!res.isConfirmed) return;
+
+    const filtered = history.filter(item => item.id !== attemptId);
     setBrankasHistory(filtered);
     if (window.selectedBrankasAttemptId === attemptId) {
         window.selectedBrankasAttemptId = filtered[0]?.id || null;
     }
+
+    if (window.currentUser && COLLECTIONS.BRANKAS) {
+        try {
+            await deleteDoc(doc(db, COLLECTIONS.BRANKAS, `${window.currentUser.uid}_${attemptId}`));
+        } catch (_) {}
+        try {
+            await deleteDoc(doc(db, COLLECTIONS.BRANKAS, String(attemptId)));
+        } catch (_) {}
+    }
+
     window.renderBrankasPembahasan();
+    Swal.fire({
+        toast: true,
+        position: 'top-end',
+        icon: 'success',
+        title: 'Riwayat Brankas dihapus permanen',
+        showConfirmButton: false,
+        timer: 2000
+    });
 };
 
 window.bukaReviewBrankas = (attemptId, filterMode = 'all') => {
@@ -2854,6 +2911,9 @@ function bukaWaitingRoom(kodeRoom) {
 
         const data = docSnap.data();
         window.latestRoomData = data;
+        if (typeof handleIncomingArenaChatMessages === 'function') {
+            handleIncomingArenaChatMessages(data.chatMessages || []);
+        }
         const players = data.players || {};
         const playerCount = Object.keys(players).length;
         const maxPlayers = data.maxPlayers || 2;
@@ -2882,6 +2942,12 @@ function bukaWaitingRoom(kodeRoom) {
                 totalDurationSeconds: paketInfo.durationSec
             };
             startExamSessionUI();
+            return;
+        }
+
+        if (data.status === 'ujian' && hasStartedExamClient) {
+            if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
+            if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
             return;
         }
 
@@ -2952,8 +3018,12 @@ function bukaWaitingRoom(kodeRoom) {
                     <span style="color:#059669; font-size:0.8rem;"><i class="fas fa-shield-alt"></i> Mode Hemat Kuota Aktif</span>
                 </div>
                 
-                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:24px;">
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:20px;">
                     ${playerTilesHtml}
+                </div>
+
+                <div style="max-width:620px; margin:0 auto 20px; text-align:left;">
+                    ${buildArenaChatWidgetHtml('waiting')}
                 </div>
 
                 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
@@ -3058,6 +3128,240 @@ window.bukaModalKlasemenMabar = () => {
         confirmButtonText: 'Tutup',
         confirmButtonColor: '#1e3a8a'
     });
+};
+
+function buildArenaPodiumHtml() {
+    const data = window.latestRoomData || {};
+    const myUid = window.currentUser?.uid;
+    const rawPlayers = Object.values(data.players || {});
+    const stats = hitungSkorSekarang();
+    const myEntry = {
+        uid: myUid || 'me',
+        nama: window.currentUser?.displayName || 'Kamu',
+        photoURL: window.currentUser?.photoURL || null,
+        skor: stats.totalSkor,
+        skorTWK: stats.skorTWK,
+        skorTIU: stats.skorTIU,
+        skorTKP: stats.skorTKP,
+        totalWaktu: stats.totalWaktu,
+        isFinished: true
+    };
+    const mergedMap = {};
+    rawPlayers.forEach(p => { if (p && p.uid) mergedMap[p.uid] = p; });
+    if (myUid) mergedMap[myUid] = { ...(mergedMap[myUid] || {}), ...myEntry };
+    else mergedMap['me'] = myEntry;
+
+    const sorted = sortArenaPlayersBkn(Object.values(mergedMap));
+    const p1 = sorted[0];
+    const p2 = sorted[1];
+    const p3 = sorted[2];
+
+    const slot = (p, rank, heightPx, bg, border, medal) => {
+        if (!p) return '';
+        return `
+            <div style="flex:1; min-width:110px; max-width:185px; display:flex; flex-direction:column; align-items:center;">
+                <div style="font-size:1.5rem; margin-bottom:4px;">${medal}</div>
+                <div style="font-weight:800; font-size:0.84rem; color:#0f172a; text-align:center; margin-bottom:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:160px;">${p.nama || 'Peserta'}</div>
+                <div style="font-size:0.75rem; font-weight:700; color:#1e3a8a; margin-bottom:6px;">${p.skor || 0} poin</div>
+                <div style="width:100%; height:${heightPx}px; background:${bg}; border:2px solid ${border}; border-radius:12px 12px 0 0; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:1.25rem; color:#0f172a;">
+                    #${rank}
+                </div>
+            </div>
+        `;
+    };
+
+    const fullRows = sorted.map((p, idx) => `
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:8px 12px; border-bottom:1px solid #f1f5f9; font-size:0.82rem; background:${p.uid === myUid ? '#eff6ff' : '#fff'};">
+            <div>
+                <strong style="color:${idx === 0 ? '#d97706' : '#475569'}; margin-right:6px;">#${idx + 1}</strong>
+                <span style="font-weight:700; color:#0f172a;">${p.nama}</span>
+                <span style="font-size:0.72rem; color:#64748b; margin-left:6px;">(TWK:${p.skorTWK || 0} | TIU:${p.skorTIU || 0} | TKP:${p.skorTKP || 0} • ${p.totalWaktu || 0}d)</span>
+            </div>
+            <strong style="color:#1e3a8a;">${p.skor || 0} poin</strong>
+        </div>
+    `).join('');
+
+    return `
+        <div style="background:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:18px; margin-bottom:18px; box-shadow:0 4px 16px rgba(15,23,42,0.04);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:14px;">
+                <h3 style="margin:0; font-size:1.05rem; font-weight:800; color:#1e3a8a;"><i class="fas fa-trophy" style="color:#d97706;"></i> Podium Juara CBT Arena</h3>
+                <span style="font-size:0.75rem; font-weight:700; color:#64748b;">Tie-Breaker Resmi BKN (Skor ➔ TKP ➔ TIU ➔ TWK ➔ Waktu)</span>
+            </div>
+            <div style="display:flex; align-items:flex-end; justify-content:center; gap:10px; padding:8px 4px 0; border-bottom:3px solid #e2e8f0; margin-bottom:12px;">
+                ${slot(p2, 2, 68, '#f1f5f9', '#94a3b8', '🥈')}
+                ${slot(p1, 1, 92, '#fef3c7', '#f59e0b', '🥇')}
+                ${slot(p3, 3, 52, '#ffedd5', '#ea580c', '🥉')}
+            </div>
+            <div style="border:1px solid #e2e8f0; border-radius:10px; overflow:hidden;">${fullRows}</div>
+        </div>
+    `;
+}
+
+window.renderInlineArenaKlasemen = () => {
+    const el = document.getElementById('arenaLiveKlasemenSidebar');
+    if (!el || window.currentAppMode !== 'multiplayer') return;
+
+    const data = window.latestRoomData || {};
+    const myUid = window.currentUser?.uid;
+    const stats = hitungSkorSekarang();
+    const answeredCount = Object.keys(window.userAnswers || {}).length;
+
+    const mergedMap = {};
+    Object.values(data.players || {}).forEach(p => { if (p && p.uid) mergedMap[p.uid] = p; });
+    if (myUid) {
+        mergedMap[myUid] = {
+            ...(mergedMap[myUid] || {}),
+            uid: myUid,
+            nama: window.currentUser?.displayName || 'Kamu',
+            skor: stats.totalSkor,
+            skorTWK: stats.skorTWK,
+            skorTIU: stats.skorTIU,
+            skorTKP: stats.skorTKP,
+            answeredCount,
+            totalWaktu: stats.totalWaktu
+        };
+    }
+
+    const players = sortArenaPlayersBkn(Object.values(mergedMap));
+    const rows = players.map((p, idx) => `
+        <div style="display:flex; justify-content:space-between; align-items:center; padding:6px 8px; border-radius:7px; font-size:0.76rem; margin-bottom:4px; background:${p.uid === myUid ? '#eff6ff' : '#f8fafc'}; border:1px solid ${p.uid === myUid ? '#bfdbfe' : '#e2e8f0'};">
+            <div style="min-width:0; flex:1;">
+                <div style="font-weight:800; color:#0f172a; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                    #${idx + 1} ${p.nama || 'Peserta'} ${p.isFinished ? '✅' : ''}
+                </div>
+                <div style="font-size:0.68rem; color:#64748b;">${p.answeredCount || 0} terjawab • TKP:${p.skorTKP || 0} TIU:${p.skorTIU || 0} TWK:${p.skorTWK || 0}</div>
+            </div>
+            <strong style="color:#1d4ed8; font-size:0.84rem; margin-left:6px;">${p.skor || 0}</strong>
+        </div>
+    `).join('');
+
+    el.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <strong style="font-size:0.82rem; color:#1e3a8a;"><i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen Sementara</strong>
+            <span style="font-size:0.68rem; font-weight:800; background:#dcfce7; color:#15803d; padding:2px 7px; border-radius:999px;">LIVE</span>
+        </div>
+        ${rows || '<div style="font-size:0.76rem; color:#64748b;">Menunggu skor...</div>'}
+    `;
+};
+
+function buildArenaChatWidgetHtml(ctx = 'sidebar') {
+    const stickers = [
+        { icon: '👏', label: 'Mantap!' },
+        { icon: '🔥', label: 'Gaspol!' },
+        { icon: '😎', label: 'Santai' },
+        { icon: '🤯', label: 'Susah!' },
+        { icon: '💪', label: 'Semangat!' },
+        { icon: '🎉', label: 'Juara!' }
+    ];
+    const stickerBtns = stickers.map(s => `
+        <button type="button" onclick="window.kirimArenaStiker('${s.icon} ${s.label}')" style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:999px; padding:3px 8px; font-size:0.72rem; font-weight:700; cursor:pointer;">
+            ${s.icon} ${ctx === 'waiting' ? s.label : ''}
+        </button>
+    `).join('');
+
+    const feedId = `arenaChatFeed_${ctx}`;
+    const inputId = `arenaChatInput_${ctx}`;
+    return `
+        <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:10px; padding:10px;">
+            <div style="font-size:0.8rem; font-weight:800; color:#0f172a; margin-bottom:6px;">
+                <i class="fas fa-comments" style="color:#2563eb;"></i> Live Chat &amp; Stiker (Zoom Mode)
+            </div>
+            <div style="display:flex; gap:5px; flex-wrap:wrap; margin-bottom:8px;">${stickerBtns}</div>
+            <div id="${feedId}" class="arena-chat-feed-list" style="max-height:115px; overflow-y:auto; background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:6px 8px; margin-bottom:7px; font-size:0.74rem; color:#334155;">
+                <span style="color:#94a3b8;">Belum ada pesan atau stiker.</span>
+            </div>
+            <div style="display:flex; gap:6px;">
+                <input id="${inputId}" type="text" maxlength="120" placeholder="Tulis chat singkat..." onkeydown="if(event.key==='Enter'){window.kirimArenaChat('${inputId}');}" style="flex:1; min-width:0; padding:6px 9px; border:1px solid #cbd5e1; border-radius:7px; font-size:0.76rem;" />
+                <button type="button" onclick="window.kirimArenaChat('${inputId}')" style="background:#2563eb; color:#fff; border:none; padding:6px 10px; border-radius:7px; font-size:0.75rem; font-weight:700; cursor:pointer;">
+                    Kirim
+                </button>
+            </div>
+        </div>
+    `;
+}
+
+window.renderArenaChatFeed = () => {
+    const sidebarWrap = document.getElementById('arenaChatStickerSidebar');
+    if (sidebarWrap && !sidebarWrap.innerHTML.trim() && window.currentAppMode === 'multiplayer') {
+        sidebarWrap.innerHTML = buildArenaChatWidgetHtml('sidebar');
+    }
+
+    const msgs = Array.isArray(window.latestRoomData?.chatMessages) ? window.latestRoomData.chatMessages : [];
+    const latest = msgs.slice(-15);
+    const html = latest.length
+        ? latest.map(m => `
+            <div style="margin-bottom:4px; line-height:1.35;">
+                <strong style="color:#1e3a8a;">${escapeHtmlMentor(m.nama || 'Peserta')}:</strong>
+                <span>${escapeHtmlMentor(m.text || '')}</span>
+            </div>
+        `).join('')
+        : '<span style="color:#94a3b8;">Belum ada pesan atau stiker.</span>';
+
+    document.querySelectorAll('.arena-chat-feed-list').forEach(box => {
+        box.innerHTML = html;
+        box.scrollTop = box.scrollHeight;
+    });
+};
+
+function showArenaFloatingReactionToast(senderName, text) {
+    let container = document.getElementById('arenaFloatingReactionBox');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'arenaFloatingReactionBox';
+        container.style.cssText = 'position:fixed; bottom:20px; left:20px; z-index:9999; display:flex; flex-direction:column; gap:6px; pointer-events:none;';
+        document.body.appendChild(container);
+    }
+    const pill = document.createElement('div');
+    pill.style.cssText = 'background:rgba(15,23,42,0.9); color:#fff; padding:8px 14px; border-radius:999px; font-size:0.84rem; font-weight:700; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition:opacity 0.3s;';
+    pill.textContent = `${senderName}: ${text}`;
+    container.appendChild(pill);
+    setTimeout(() => { pill.style.opacity = '0'; }, 2600);
+    setTimeout(() => { pill.remove(); }, 3000);
+}
+
+function handleIncomingArenaChatMessages(msgs) {
+    if (!Array.isArray(msgs) || msgs.length === 0) return;
+    if (!window._seenArenaChatIds) window._seenArenaChatIds = new Set(msgs.map(m => m.id));
+    msgs.forEach(m => {
+        if (m && m.id && !window._seenArenaChatIds.has(m.id)) {
+            window._seenArenaChatIds.add(m.id);
+            showArenaFloatingReactionToast(m.nama || 'Peserta', m.text || '');
+        }
+    });
+}
+
+async function sendArenaChatPayload(text, type = 'text') {
+    if (!window.activeRoomCode || !window.currentUser) return;
+    const clean = String(text || '').trim().slice(0, 120);
+    if (!clean) return;
+    const msgObj = {
+        id: `${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+        uid: window.currentUser.uid,
+        nama: window.currentUser.displayName || 'Peserta',
+        type,
+        text: clean,
+        createdAt: Date.now()
+    };
+    try {
+        await updateDoc(doc(db, COLLECTIONS.ROOMS, String(window.activeRoomCode)), {
+            chatMessages: arrayUnion(msgObj)
+        });
+    } catch (e) {
+        console.warn('Gagal kirim chat Arena:', e);
+    }
+}
+
+window.kirimArenaStiker = (stickerText) => {
+    sendArenaChatPayload(stickerText, 'sticker');
+};
+
+window.kirimArenaChat = (inputId) => {
+    const inp = document.getElementById(inputId);
+    if (!inp) return;
+    const val = inp.value.trim();
+    if (!val) return;
+    inp.value = '';
+    sendArenaChatPayload(val, 'text');
 };
 
 function getMyRoomsStorageKey() {
