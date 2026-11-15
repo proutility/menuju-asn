@@ -220,6 +220,9 @@ window.switchAppView = (viewName) => {
 
     if (viewName === 'command') {
         window.loadCommandCenterData();
+        if (typeof window.loadPusatBerita === 'function') window.loadPusatBerita();
+    } else if (viewName === 'bot') {
+        if (typeof window.refreshBotAndNewsView === 'function') window.refreshBotAndNewsView();
     } else if (viewName === 'beranda') {
         if (typeof window.renderSavedExamsOnBeranda === 'function') window.renderSavedExamsOnBeranda();
         if (typeof window.renderBerandaProgressPanel === 'function') window.renderBerandaProgressPanel();
@@ -4516,6 +4519,17 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
     const cleanSpeechRaw = rawText.replace(/<svg[\s\S]*?<\/svg>/gi, 'gambar pola');
     const speechText = escapeHtmlMentor(`${cleanSpeechRaw}. Trik cepat: ${trik} Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
 
+    window._botSoalContextMap = window._botSoalContextMap || {};
+    window._botSoalContextMap[safeId] = {
+        soalId: String(q.id || safeId),
+        kategori: String(q.kategori || 'SKD'),
+        soal: String(q.soal || '').replace(/<[^>]+>/g, ' ').trim(),
+        opsiText: (q.opsi || []).map(o => `${o.label}. ${String(o.teks || '').replace(/<[^>]+>/g, ' ').trim()}`).join('\n'),
+        kunci: String(kunciLabel || ''),
+        userAns: String(userAns || ''),
+        pembahasan: String(rawText || '').replace(/<[^>]+>/g, ' ').trim()
+    };
+
     return `
         <div id="mentorBox_${safeId}" style="background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:10px; font-size:0.86rem; color:#334155;">
             <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
@@ -4528,6 +4542,9 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
                     ` : ''}
                     <button type="button" data-speech="${speechText}" onclick="window.toggleBacakanPembahasan(this)" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:4px 10px; border-radius:999px; font-size:0.74rem; font-weight:700; cursor:pointer;">
                         <i class="fas fa-volume-up"></i> Dengarkan
+                    </button>
+                    <button type="button" class="bot-inline-btn" onclick="window.bedahSoalDenganBot('${safeId}')">
+                        <i class="fas fa-robot"></i> MenujuASN-BOT
                     </button>
                     <button type="button" onclick="window.bukaModalLaporSoal('${qIdForReport}')" style="background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:4px 10px; border-radius:999px; font-size:0.74rem; font-weight:700; cursor:pointer;">
                         <i class="fas fa-flag"></i> Lapor Soal
@@ -4570,6 +4587,7 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
                     </button>
                 </div>
             ` : ''}
+            <div id="botExplainWrap_${safeId}" style="display:none;" class="bot-inline-result"></div>
         </div>
     `;
 };
@@ -4885,5 +4903,258 @@ window.bukaModalLaporSoal = async (explicitSoalId = null) => {
     } catch (err) {
         console.error('Gagal mengirim laporan soal:', err);
         Swal.fire('Gagal Mengirim', err.message, 'error');
+    }
+};
+
+
+// ==========================================================
+// 12. MENUJUASN-BOT (GEMINI AI + QUOTA) & PUSAT BERITA CPNS
+// ==========================================================
+async function callMenujuAsnBot(payload) {
+    if (!window.currentUser) {
+        throw new Error('Silakan login dengan akun Google terlebih dahulu.');
+    }
+    const idToken = await window.currentUser.getIdToken();
+    const resp = await fetch('/api/menuju-asn-bot', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${idToken}`
+        },
+        body: JSON.stringify(payload)
+    });
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok || !data.ok) {
+        throw new Error(data.error || `Gagal menghubungi MenujuASN-BOT (HTTP ${resp.status})`);
+    }
+    return data;
+}
+
+function formatBotTextHtml(text) {
+    return escapeHtmlMentor(String(text || ''))
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n/g, '<br/>');
+}
+
+window.bedahSoalDenganBot = async (safeId, followUpText = '') => {
+    const ctx = window._botSoalContextMap?.[safeId];
+    const box = document.getElementById(`botExplainWrap_${safeId}`);
+    if (!ctx || !box) return;
+
+    box.style.display = 'block';
+    box.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang membedah soal ini...`;
+
+    try {
+        const res = await callMenujuAsnBot({
+            action: 'explain',
+            soalId: ctx.soalId,
+            kategori: ctx.kategori,
+            soal: ctx.soal,
+            opsiText: ctx.opsiText,
+            kunci: ctx.kunci,
+            userAns: ctx.userAns,
+            pembahasan: ctx.pembahasan,
+            followUp: followUpText
+        });
+        const quotaTxt = res.limit >= 9999 ? 'Unlimited (Admin)' : `${res.used}/${res.limit} hari ini`;
+        const cacheTag = res.cached ? ' • <span style="color:#059669; font-weight:700;">Cache Hemat (0 Kuota)</span>' : '';
+        box.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+                <strong style="color:#0369a1;"><i class="fas fa-robot"></i> MenujuASN-BOT</strong>
+                <span style="font-size:0.72rem; color:#475569;">Kuota: <b>${quotaTxt}</b>${cacheTag}</span>
+            </div>
+            <div>${formatBotTextHtml(res.reply)}</div>
+            <form style="display:flex; gap:6px; margin-top:10px;" onsubmit="event.preventDefault(); const inp=this.querySelector('input'); if(inp.value.trim()) window.bedahSoalDenganBot('${safeId}', inp.value.trim());">
+                <input type="text" placeholder="Tanya lanjutan ke MenujuASN-BOT (misal: kenapa opsi B salah?)..." style="flex:1; padding:6px 10px; border:1px solid #bae6fd; border-radius:8px; font-size:0.78rem;" />
+                <button type="submit" style="background:#0284c7; color:#fff; border:none; padding:6px 12px; border-radius:8px; font-size:0.76rem; font-weight:700; cursor:pointer;">Tanya</button>
+            </form>
+        `;
+    } catch (err) {
+        box.innerHTML = `<span style="color:#b91c1c;"><i class="fas fa-exclamation-circle"></i> ${escapeHtmlMentor(err.message)}</span>`;
+    }
+};
+
+window.refreshBotAndNewsView = async () => {
+    window.loadPusatBerita();
+    const qExp = document.getElementById('qExplainLabel');
+    const qWeak = document.getElementById('qWeaknessLabel');
+    const qNews = document.getElementById('qNewsLabel');
+    if (!window.currentUser) return;
+    try {
+        const res = await callMenujuAsnBot({ action: 'quota' });
+        const fmt = (used, lim) => lim >= 9999 ? 'Unlimited (Admin)' : (lim <= 0 ? 'Terkunci' : `${Math.max(0, lim - used)}/${lim} tersisa`);
+        if (qExp) qExp.textContent = fmt(res.used.explain, res.limits.explain);
+        if (qWeak) qWeak.textContent = fmt(res.used.weakness, res.limits.weakness);
+        if (qNews) qNews.textContent = fmt(res.used.newsSearch, res.limits.newsSearch);
+    } catch (e) {
+        if (qExp) qExp.textContent = 'Belum aktif';
+    }
+};
+
+window.jalankanAnalisisKelemahanAI = async () => {
+    const outBox = document.getElementById('botWeaknessResult');
+    if (!outBox) return;
+    const rawList = JSON.parse(localStorage.getItem('menuju_asn_brankas_v1') || '[]');
+    if (!rawList.length) {
+        outBox.style.display = 'block';
+        outBox.innerHTML = 'Belum ada riwayat simulasi di Brankas Pembahasan. Kerjakan minimal 1 latihan/tryout dulu agar MenujuASN-BOT bisa membaca pola kelemahanmu.';
+        return;
+    }
+
+    const recent = rawList.slice(0, 8);
+    const subKatErrors = {};
+    const summaryLines = recent.map((att, idx) => {
+        (att.items || []).forEach(it => {
+            if (!it.isCorrect) {
+                const k = `${it.kategori || 'SKD'} (${it.subKategori || 'Umum'})`;
+                subKatErrors[k] = (subKatErrors[k] || 0) + 1;
+            }
+        });
+        return `${idx + 1}. ${att.title}: TWK=${att.twkScore || 0}, TIU=${att.tiuScore || 0}, TKP=${att.tkpScore || 0}, Salah=${att.wrongCount || 0}/${att.totalQuestions || 0}`;
+    });
+    const topWeak = Object.entries(subKatErrors)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 6)
+        .map(([k, v]) => `- ${k}: ${v} kali belum maksimal`)
+        .join('\n');
+
+    const statsSummary = `Riwayat ${recent.length} latihan terakhir:\n${summaryLines.join('\n')}\n\nTopik paling sering salah/belum maksimal:\n${topWeak || '- Belum terdeteksi'}`;
+
+    outBox.style.display = 'block';
+    outBox.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang menganalisis kelemahanmu...`;
+    try {
+        const res = await callMenujuAsnBot({ action: 'weakness', statsSummary });
+        outBox.innerHTML = `<div>${formatBotTextHtml(res.reply)}</div>`;
+        window.refreshBotAndNewsView();
+    } catch (err) {
+        outBox.innerHTML = `<span style="color:#b91c1c;"><i class="fas fa-exclamation-circle"></i> ${escapeHtmlMentor(err.message)}</span>`;
+    }
+};
+
+window.tanyaInfoCpnsBot = async (e) => {
+    e.preventDefault();
+    const inp = document.getElementById('botNewsQuestion');
+    const outBox = document.getElementById('botNewsSearchResult');
+    const q = inp ? inp.value.trim() : '';
+    if (!q || !outBox) return;
+
+    outBox.style.display = 'block';
+    outBox.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang mencari informasi terbaru dari Google...`;
+    try {
+        const res = await callMenujuAsnBot({ action: 'newsSearch', question: q });
+        const sourcesHtml = (res.sources || []).length
+            ? `<div class="bot-sources-list">${res.sources.map(s => `<a class="bot-source-chip" href="${escapeHtmlMentor(s.uri)}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> ${escapeHtmlMentor(s.title)}</a>`).join('')}</div>`
+            : '';
+        outBox.innerHTML = `<div>${formatBotTextHtml(res.reply)}</div>${sourcesHtml}`;
+        window.refreshBotAndNewsView();
+    } catch (err) {
+        outBox.innerHTML = `<span style="color:#b91c1c;"><i class="fas fa-exclamation-circle"></i> ${escapeHtmlMentor(err.message)}</span>`;
+    }
+};
+
+window.loadPusatBerita = async () => {
+    const userListEl = document.getElementById('pusatBeritaList');
+    const adminListEl = document.getElementById('ccNewsAdminList');
+    try {
+        const snap = await getDocs(query(collection(db, 'cpns_news'), limit(30)));
+        const items = [];
+        snap.forEach(d => items.push({ id: d.id, ...d.data() }));
+        items.sort((a, b) => (b.createdAtMs || 0) - (a.createdAtMs || 0));
+
+        if (userListEl) {
+            if (!items.length) {
+                userListEl.innerHTML = '<div class="cc-empty">Belum ada berita terbaru dari Admin.</div>';
+            } else {
+                userListEl.innerHTML = items.map(n => `
+                    <div class="news-card">
+                        <div>
+                            <span class="news-tag">${escapeHtmlMentor(n.tag || 'INFO CPNS')}</span>
+                            <h4>${escapeHtmlMentor(n.title || 'Pengumuman CPNS')}</h4>
+                            ${n.desc ? `<p>${escapeHtmlMentor(n.desc)}</p>` : ''}
+                        </div>
+                        <a class="btn-news-open" href="${escapeHtmlMentor(n.url)}" target="_blank" rel="noopener noreferrer">
+                            Buka Berita <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                `).join('');
+            }
+        }
+
+        if (adminListEl) {
+            if (!items.length) {
+                adminListEl.innerHTML = '<div class="cc-empty">Belum ada link berita yang dipublikasikan.</div>';
+            } else {
+                adminListEl.innerHTML = items.map(n => `
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; padding:10px 12px; border:1px solid #e2e8f0; border-radius:10px; margin-bottom:8px; background:#f8fafc;">
+                        <div style="min-width:0;">
+                            <div style="font-weight:700; font-size:0.84rem; color:#0f172a;">[${escapeHtmlMentor(n.tag || 'INFO')}] ${escapeHtmlMentor(n.title)}</div>
+                            <div style="font-size:0.75rem; color:#2563eb; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeHtmlMentor(n.url)}</div>
+                        </div>
+                        <button class="cc-btn danger" onclick="window.adminHapusBerita('${n.id}')">Hapus</button>
+                    </div>
+                `).join('');
+            }
+        }
+    } catch (err) {
+        if (userListEl) userListEl.innerHTML = `<div class="cc-empty">Gagal memuat berita: ${escapeHtmlMentor(err.message)}</div>`;
+    }
+};
+
+window.adminTambahBerita = async () => {
+    if (!window.currentUserProfile?.isAdmin) return;
+    const title = document.getElementById('ccNewsTitle')?.value.trim();
+    const url = document.getElementById('ccNewsUrl')?.value.trim();
+    const tag = document.getElementById('ccNewsTag')?.value.trim() || 'BKN';
+    const desc = document.getElementById('ccNewsDesc')?.value.trim() || '';
+
+    if (!title || !url || !/^https?:\/\//i.test(url)) {
+        return Swal.fire('Data Belum Lengkap', 'Isi Judul Berita dan URL valid yang diawali https:// atau http://', 'warning');
+    }
+
+    try {
+        await addDoc(collection(db, 'cpns_news'), {
+            title,
+            url,
+            tag,
+            desc,
+            createdAtMs: Date.now(),
+            authorEmail: window.currentUser?.email || ''
+        });
+        document.getElementById('ccNewsTitle').value = '';
+        document.getElementById('ccNewsUrl').value = '';
+        document.getElementById('ccNewsDesc').value = '';
+        Swal.fire({ icon: 'success', title: 'Berita Dipublikasikan!', timer: 1500, showConfirmButton: false });
+        window.loadPusatBerita();
+    } catch (err) {
+        Swal.fire('Gagal', err.message, 'error');
+    }
+};
+
+window.adminHapusBerita = async (docId) => {
+    if (!window.currentUserProfile?.isAdmin) return;
+    try {
+        await deleteDoc(doc(db, 'cpns_news', docId));
+        window.loadPusatBerita();
+    } catch (err) {
+        Swal.fire('Gagal Menghapus', err.message, 'error');
+    }
+};
+
+window.adminSimpanBotApiKey = async () => {
+    if (!window.currentUserProfile?.isAdmin) return;
+    const apiKey = document.getElementById('ccBotApiKeyInput')?.value.trim();
+    if (!apiKey || !apiKey.startsWith('AIza')) {
+        return Swal.fire('Format Key Tidak Valid', 'Masukkan Gemini API Key yang diawali AIza...', 'warning');
+    }
+    try {
+        await setDoc(doc(db, 'cpns_settings', 'ai_config'), {
+            apiKey,
+            updatedAtMs: Date.now(),
+            updatedBy: window.currentUser?.email || ''
+        }, { merge: true });
+        document.getElementById('ccBotApiKeyInput').value = '';
+        Swal.fire({ icon: 'success', title: 'API Key MenujuASN-BOT Disimpan!', text: 'Tersimpan aman di server Firestore (tidak terlihat peserta).', timer: 2000, showConfirmButton: false });
+    } catch (err) {
+        Swal.fire('Gagal Menyimpan', err.message, 'error');
     }
 };
