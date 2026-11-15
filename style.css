@@ -1458,24 +1458,25 @@ footer {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    background: rgba(239, 68, 68, 0.14);
-    color: #fecaca;
-    border: 1px solid rgba(248, 113, 113, 0.35);
-    padding: 8px 14px;
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: #ffffff;
+    border: 1px solid #f87171;
+    padding: 8px 15px;
     border-radius: 999px;
     font-family: var(--font-main);
     font-size: 0.78rem;
     font-weight: 700;
     cursor: pointer;
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.35);
     transition: all 0.2s ease;
 }
 
 .btn-logout-modern:hover {
-    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
     color: #ffffff;
-    border-color: #ef4444;
+    border-color: #fca5a5;
     transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(239, 68, 68, 0.35);
+    box-shadow: 0 6px 16px rgba(220, 38, 38, 0.5);
 }
 
 @media (max-width: 640px) {
@@ -4746,5 +4747,510 @@ footer {
     }
     .studi-tip-card {
         padding: 14px 15px;
+    }
+}
+
+/* ===== LOBI PERSIAPAN PAKET LATIHAN / TRYOUT (MODE FOKUS VS DRILL + FLYER MODERN) ===== */
+.persiapan-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+    border: 1px solid #dbeafe;
+    border-radius: 16px;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.persiapan-top-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.persiapan-top-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.persiapan-top-left h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.persiapan-top-left span {
+    font-size: 0.78rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.persiapan-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #1e3a8a;
+    border: 1px solid #bfdbfe;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.18s ease;
+}
+
+.persiapan-back-btn:hover {
+    background: #eff6ff;
+    transform: translateX(-2px);
+}
+
+.persiapan-lobby-card {
+    background: linear-gradient(165deg, #ffffff 0%, #f6faff 100%);
+    border: 1.5px solid #dbeafe;
+    border-radius: 22px;
+    padding: 28px;
+    display: grid;
+    grid-template-columns: 1.35fr 0.95fr;
+    gap: 28px;
+    align-items: start;
+    box-shadow: 0 14px 36px rgba(30, 58, 138, 0.07);
+}
+
+.persiapan-info-col h2 {
+    margin: 0 0 10px;
+    font-size: 1.45rem;
+    font-weight: 900;
+    color: #0f172a;
+    line-height: 1.28;
+    letter-spacing: -0.2px;
+}
+
+.persiapan-lead {
+    margin: 0 0 18px;
+    font-size: 0.88rem;
+    color: #475569;
+    line-height: 1.65;
+}
+
+.persiapan-spec-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.persiapan-spec-box {
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    border-radius: 13px;
+    padding: 11px 13px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+}
+
+.persiapan-spec-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 3px;
+}
+
+.persiapan-spec-val {
+    font-size: 0.96rem;
+    font-weight: 900;
+    color: #1e3a8a;
+}
+
+.persiapan-spec-sub {
+    font-size: 0.71rem;
+    color: #475569;
+    margin-top: 2px;
+}
+
+.persiapan-section-box {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+}
+
+.persiapan-section-title {
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.persiapan-topic-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.persiapan-topic-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #eff6ff;
+    color: #1e40af;
+    border: 1px solid #bfdbfe;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.74rem;
+    font-weight: 700;
+}
+
+.persiapan-facility-list {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 0.82rem;
+    color: #334155;
+    line-height: 1.65;
+}
+
+.persiapan-meta-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 14px 0 18px;
+}
+
+.persiapan-meta-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 0.76rem;
+    font-weight: 700;
+}
+
+.persiapan-mode-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 9px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.persiapan-mode-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.persiapan-mode-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 13px 14px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.18s ease;
+    position: relative;
+}
+
+.persiapan-mode-card:hover {
+    border-color: #93c5fd;
+    background: #f8fbff;
+}
+
+.persiapan-mode-card.active {
+    border-color: #2563eb;
+    background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.14);
+}
+
+.persiapan-mode-card.drill-mode.active {
+    border-color: #d97706;
+    background: linear-gradient(180deg, #fffbeb 0%, #ffffff 100%);
+    box-shadow: 0 6px 18px rgba(217, 119, 6, 0.16);
+}
+
+.persiapan-mode-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.persiapan-mode-head strong {
+    font-size: 0.86rem;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.persiapan-mode-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #cbd5e1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    color: transparent;
+}
+
+.persiapan-mode-card.active .persiapan-mode-check {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+}
+
+.persiapan-mode-card.drill-mode.active .persiapan-mode-check {
+    background: #d97706;
+    border-color: #d97706;
+    color: #ffffff;
+}
+
+.persiapan-mode-card p {
+    margin: 0;
+    font-size: 0.75rem;
+    color: #475569;
+    line-height: 1.45;
+}
+
+/* FLYER MODERN KANAN */
+.persiapan-flyer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: sticky;
+    top: 90px;
+}
+
+.persiapan-flyer-card {
+    border-radius: 20px;
+    padding: 24px 22px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 16px 34px rgba(15, 23, 42, 0.22);
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.persiapan-flyer-card.theme-twk {
+    background: radial-gradient(circle at 85% 20%, rgba(56, 189, 248, 0.35), transparent 48%),
+                linear-gradient(135deg, #0f172a 0%, #1e3a8a 52%, #0284c7 100%);
+}
+
+.persiapan-flyer-card.theme-tiu {
+    background: radial-gradient(circle at 85% 20%, rgba(251, 191, 36, 0.32), transparent 48%),
+                linear-gradient(135deg, #1e1b4b 0%, #312e81 52%, #0f766e 100%);
+}
+
+.persiapan-flyer-card.theme-tkp {
+    background: radial-gradient(circle at 85% 20%, rgba(52, 211, 153, 0.32), transparent 48%),
+                linear-gradient(135deg, #064e3b 0%, #0f766e 55%, #0284c7 100%);
+}
+
+.persiapan-flyer-card.theme-full {
+    background: radial-gradient(circle at 85% 20%, rgba(251, 191, 36, 0.36), transparent 48%),
+                linear-gradient(135deg, #0f172a 0%, #0d9488 55%, #1e3a8a 100%);
+}
+
+.persiapan-flyer-card::before {
+    content: '';
+    position: absolute;
+    right: -36px;
+    bottom: -36px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    pointer-events: none;
+}
+
+.persiapan-flyer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.persiapan-flyer-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 900;
+    font-size: 0.92rem;
+    letter-spacing: 0.4px;
+}
+
+.persiapan-flyer-logo {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.persiapan-flyer-logo img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.persiapan-flyer-badge {
+    background: rgba(251, 191, 36, 0.22);
+    border: 1px solid rgba(251, 191, 36, 0.55);
+    color: #fde68a;
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.persiapan-flyer-body {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px;
+    margin: 18px 0 14px;
+    position: relative;
+    z-index: 1;
+}
+
+.persiapan-flyer-kicker {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #bae6fd;
+    margin-bottom: 2px;
+}
+
+.persiapan-flyer-title {
+    font-size: 1.55rem;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.persiapan-flyer-num-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.persiapan-flyer-num {
+    font-size: 2.65rem;
+    font-weight: 900;
+    color: #fde047;
+    line-height: 1;
+    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.persiapan-flyer-tagline {
+    font-size: 0.76rem;
+    line-height: 1.35;
+    color: #e2e8f0;
+    background: rgba(15, 23, 42, 0.32);
+    border-left: 3px solid #fde047;
+    padding: 5px 10px;
+    border-radius: 0 8px 8px 0;
+}
+
+.persiapan-flyer-art {
+    width: 78px;
+    height: 78px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1rem;
+    color: #fde047;
+    flex-shrink: 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.persiapan-flyer-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    font-size: 0.73rem;
+    color: #e2e8f0;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-persiapan-start {
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    padding: 15px 20px;
+    background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+    color: #ffffff;
+    font-family: var(--font-main);
+    font-size: 0.98rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 10px 24px rgba(234, 88, 12, 0.32);
+    transition: all 0.2s ease;
+}
+
+.btn-persiapan-start:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+    box-shadow: 0 14px 28px rgba(234, 88, 12, 0.42);
+}
+
+@media (max-width: 900px) {
+    .persiapan-lobby-card {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .persiapan-flyer-col {
+        position: static;
+    }
+    .persiapan-spec-grid,
+    .persiapan-mode-grid {
+        grid-template-columns: 1fr;
     }
 }

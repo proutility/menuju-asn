@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.5.6">
+    <link rel="stylesheet" href="style.css?v=2.5.7">
 </head>
 <body>
 
@@ -607,7 +607,7 @@
                 <div class="view-banner navy">
                     <div>
                         <h2><i class="fas fa-laptop-code"></i> Simulasi CAT &amp; Drill Subtes</h2>
-                        <p>Fokus latihan per subtes (TWK, TIU, TKP) serta mode belajar 1x klik pembahasan dan remedial soal salah.</p>
+                        <p>Pilih paket latihan TWK, TIU, atau TKP — tersedia pilihan Mode Fokus CAT maupun Mode Drill (Langsung Pembahasan) di halaman persiapan.</p>
                     </div>
                 </div>
 
@@ -805,49 +805,12 @@
                             <i class="fas fa-play"></i> Mulai Latihan Gratis #3
                         </button>
                     </div>
-
-                    <!-- KARTU BERBAYAR 2: MODE BELAJAR 1x KLIK -->
-                    <div class="card-mode packet-card paid" data-tier="paid" data-cat="subtes" data-subtes="all">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access paid"><i class="fas fa-crown"></i> BRONZE / SILVER / GOLD</span>
-                                <span class="badge-cat">MODE BELAJAR</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon blue"><i class="fas fa-lightbulb"></i></div>
-                                <div>
-                                    <h3>1x Klik Langsung Pembahasan</h3>
-                                    <span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">Instan Cek Kunci &amp; Bobot</span>
-                                </div>
-                            </div>
-                            <p>Klik pilihan jawaban dan langsung lihat kunci benar/salah, bobot TKP 1–5, serta pembahasannya seketika.</p>
-                        </div>
-                        <button id="btnModeBelajar1Klik" class="btn-card paid-cta" onclick="window.mulaiModeBelajar1Klik()">
-                            <i class="fas fa-bolt"></i> Mulai Mode Belajar 1x Klik
-                        </button>
-                    </div>
-
-                    <!-- KARTU BERBAYAR 3: COBA LAGI SOAL SALAH (GOLD) -->
-                    <div class="card-mode packet-card paid gold-border" data-tier="paid" data-cat="subtes" data-subtes="all">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access gold-badge"><i class="fas fa-crown"></i> KHUSUS GOLD</span>
-                                <span class="badge-cat">REMEDIAL</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon gold"><i class="fas fa-redo-alt"></i></div>
-                                <div>
-                                    <h3>Coba Lagi Soal yang Salah</h3>
-                                    <span style="font-size:0.75rem; color:#b45309; font-weight:700;">Latih Ulang Otomatis</span>
-                                </div>
-                            </div>
-                            <p>Kumpulkan otomatis soal-soal yang masih salah dari tryout sebelumnya dan kerjakan ulang sampai tuntas.</p>
-                        </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Fitur Coba Lagi Soal Salah', 'Paket Gold (Rp 99.999)')">
-                            <i class="fas fa-crown"></i> Upgrade ke Gold
-                        </button>
-                    </div>
                 </div>
+            </section>
+
+            <!-- VIEW 2A: LOBI PERSIAPAN PAKET LATIHAN / TRYOUT (MODE FOKUS VS MODE DRILL + FLYER MODERN) -->
+            <section id="view-persiapan" class="app-view">
+                <div id="persiapanPaketContainer"></div>
             </section>
 
             <!-- VIEW 2B: TRYOUT SKD (TERPISAH AGAR FOKUS) -->
@@ -1324,8 +1287,9 @@
 
                 <!-- PANEL CC 1: RADAR PESERTA & KELOLA LANGGANAN -->
                 <div id="ccPanel-users" class="cc-panel active">
+                    <div id="ccInstansiSummaryBox" style="margin-bottom:14px;"></div>
                     <div class="cc-toolbar">
-                        <input type="text" id="ccSearchUser" placeholder="Cari nama atau email peserta..." oninput="window.filterCommandUsers()" />
+                        <input type="text" id="ccSearchUser" placeholder="Cari nama, email, atau target instansi/jabatan peserta..." oninput="window.filterCommandUsers()" />
                         <select id="ccFilterTier" onchange="window.filterCommandUsers()">
                             <option value="all">Semua Paket</option>
                             <option value="free">FREE</option>
@@ -1340,6 +1304,7 @@
                             <thead>
                                 <tr>
                                     <th>Peserta</th>
+                                    <th>Target Instansi &amp; Jabatan</th>
                                     <th>Paket Saat Ini</th>
                                     <th>Status</th>
                                     <th>Ubah Paket</th>
@@ -1347,7 +1312,7 @@
                                 </tr>
                             </thead>
                             <tbody id="ccUsersTableBody">
-                                <tr><td colspan="5" class="cc-empty">Klik Refresh Data atau tunggu pemuatan...</td></tr>
+                                <tr><td colspan="6" class="cc-empty">Klik Refresh Data atau tunggu pemuatan...</td></tr>
                             </tbody>
                         </table>
                     </div>

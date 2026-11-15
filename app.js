@@ -129,7 +129,7 @@ function updateAuthUI(user) {
         const tierText = prof.isAdmin ? 'ADMIN' : String(prof.tier || 'free').toUpperCase();
         const targetText = (prof.tujuanInstansi || prof.tujuanJabatan)
             ? `🎯 ${[prof.tujuanInstansi, prof.tujuanJabatan].filter(Boolean).join(' • ')}`
-            : '✎ Isi Data Diri & Target Instansi';
+            : '';
 
         if (btnAuth) btnAuth.style.display = 'none';
         if (userProfileEl) {
@@ -141,16 +141,15 @@ function updateAuthUI(user) {
 
             userProfileEl.style.display = 'flex';
             userProfileEl.innerHTML = `
-                <button type="button" class="nav-profile-chip" onclick="window.bukaModalProfilPeserta()" title="Klik untuk edit Profil, Tanggal Lahir, Tujuan Instansi & Jabatan">
+                <button type="button" class="nav-profile-chip" onclick="window.bukaModalProfilPeserta()" title="Klik untuk isi/ubah Profil, Tanggal Lahir, Tujuan Instansi & Jabatan">
                     <img class="nav-profile-avatar" src="${user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(customName)}" alt="Avatar" />
                     <div class="nav-profile-info">
                         <div class="nav-profile-top">
                             <span class="nav-profile-name">${firstName}</span>
                             ${tierBadge}
                         </div>
-                        <span class="nav-profile-sub">${targetText}</span>
+                        ${targetText ? `<span class="nav-profile-sub">${targetText}</span>` : ''}
                     </div>
-                    <i class="fas fa-user-pen" style="font-size:0.75rem; color:#fde047; margin-left:2px;"></i>
                 </button>
                 <button type="button" class="btn-logout-modern" onclick="window.eksekusiLogout()" title="Keluar dari Akun">
                     <i class="fas fa-power-off"></i>
@@ -474,27 +473,88 @@ window.filterCommandUsers = () => {
     const qText = (document.getElementById('ccSearchUser')?.value || '').toLowerCase();
     const qTier = document.getElementById('ccFilterTier')?.value || 'all';
 
-    const filtered = (window.ccCachedUsers || []).filter(u => {
-        const matchText = (u.nama || '').toLowerCase().includes(qText) || (u.email || '').toLowerCase().includes(qText);
+    const allUsers = window.ccCachedUsers || [];
+
+    // Sajikan ringkasan sebaran Target Instansi & Jabatan peserta di Command Center
+    const summaryBox = document.getElementById('ccInstansiSummaryBox');
+    if (summaryBox) {
+        const instansiCounts = {};
+        let filledCount = 0;
+        allUsers.forEach(u => {
+            const inst = String(u.tujuanInstansi || '').trim();
+            if (inst) {
+                filledCount++;
+                instansiCounts[inst] = (instansiCounts[inst] || 0) + 1;
+            }
+        });
+        const topInstansi = Object.entries(instansiCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 8);
+
+        const chipsHtml = topInstansi.length
+            ? topInstansi.map(([instName, cnt]) => `
+                <button type="button" onclick="const inp=document.getElementById('ccSearchUser'); if(inp){inp.value='${instName.replace(/'/g, "\\'")}'; window.filterCommandUsers();}"
+                    style="display:inline-flex; align-items:center; gap:6px; background:#eff6ff; color:#1e40af; border:1px solid #bfdbfe; padding:5px 11px; border-radius:999px; font-size:0.76rem; font-weight:700; cursor:pointer;">
+                    <i class="fas fa-building"></i> ${instName}
+                    <span style="background:#1d4ed8; color:#fff; padding:1px 7px; border-radius:999px; font-size:0.68rem;">${cnt}</span>
+                </button>
+            `).join('')
+            : '<span style="font-size:0.78rem; color:#64748b;">Belum ada peserta yang mengisi target instansi (peserta dapat mengisi dengan klik profil di kanan atas).</span>';
+
+        summaryBox.innerHTML = `
+            <div style="background:linear-gradient(165deg, #ffffff 0%, #f4f8ff 100%); border:1px solid #dbeafe; border-radius:14px; padding:14px 16px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+                    <strong style="font-size:0.86rem; color:#1e3a8a;"><i class="fas fa-chart-pie"></i> Data Sebaran Target Instansi &amp; Formasi Peserta</strong>
+                    <span style="font-size:0.75rem; font-weight:700; color:#475569; background:#e0f2fe; padding:3px 10px; border-radius:999px;">
+                        ${filledCount} dari ${allUsers.length} Peserta Sudah Mengisi Target
+                    </span>
+                </div>
+                <div style="display:flex; flex-wrap:wrap; gap:7px;">
+                    ${chipsHtml}
+                </div>
+            </div>
+        `;
+    }
+
+    const filtered = allUsers.filter(u => {
+        const matchText =
+            (u.nama || '').toLowerCase().includes(qText) ||
+            (u.email || '').toLowerCase().includes(qText) ||
+            (u.tujuanInstansi || '').toLowerCase().includes(qText) ||
+            (u.tujuanJabatan || '').toLowerCase().includes(qText);
         const userTier = (u.tier || 'free').toLowerCase();
         const matchTier = qTier === 'all' || userTier === qTier;
         return matchText && matchTier;
     });
 
     if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="5" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="6" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
         return;
     }
+
+    const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
     tbody.innerHTML = filtered.map(u => {
         const tier = (u.tier || 'free').toLowerCase();
         const blocked = !!u.isBlocked;
+        const instansi = (u.tujuanInstansi || '').trim();
+        const jabatan = (u.tujuanJabatan || '').trim();
+        const tglLahir = (u.tanggalLahir || '').trim();
+        const instansiCellHtml = (instansi || jabatan || tglLahir)
+            ? `
+                ${instansi ? `<div style="font-weight:800; color:#1e3a8a; font-size:0.82rem;"><i class="fas fa-landmark" style="color:#2563eb;"></i> ${esc(instansi)}</div>` : ''}
+                ${jabatan ? `<div style="font-size:0.76rem; color:#334155; font-weight:600;">🎯 ${esc(jabatan)}</div>` : ''}
+                ${tglLahir ? `<div style="font-size:0.71rem; color:#64748b;"><i class="far fa-calendar-alt"></i> Lahir: ${esc(tglLahir)}</div>` : ''}
+            `
+            : `<span style="color:#94a3b8; font-size:0.76rem; font-style:italic;">Belum diisi</span>`;
+
         return `
             <tr>
                 <td>
-                    <strong>${u.nama || 'Pejuang ASN'}</strong><br>
-                    <small style="color:#64748b;">${u.email || '-'}</small>
+                    <strong>${esc(u.nama || 'Pejuang ASN')}</strong><br>
+                    <small style="color:#64748b;">${esc(u.email || '-')}</small>
                 </td>
+                <td>${instansiCellHtml}</td>
                 <td><span class="cc-tier-badge ${tier}">${tier.toUpperCase()}</span></td>
                 <td>${blocked ? '<span class="cc-status-pill blocked">DIBLOKIR</span>' : '<span class="cc-status-pill active">AKTIF</span>'}</td>
                 <td>
@@ -668,6 +728,18 @@ window.filterPaketSoal = (filter, btnEl) => {
     });
 };
 
+function hasSubtesPaketAccess(prof, subtes, paketNo) {
+    if (!prof) return false;
+    if (prof.isAdmin) return true;
+    if (!prof.isPaid) return false;
+    const t = String(prof.tier || 'free').toLowerCase();
+    if (t === 'gold' || t === 'admin') return true;
+    if (t === 'silver') return paketNo <= 45;
+    if (t === 'bronze') return paketNo <= (subtes === 'tkp' ? 16 : 17);
+    if (t === 'satuan') return paketNo <= 5;
+    return true;
+}
+
 window.renderTwk40PaketCards = () => {
     const grid = document.getElementById('paketSoalGrid');
     if (!grid) return;
@@ -675,11 +747,11 @@ window.renderTwk40PaketCards = () => {
     grid.querySelectorAll('.twk-40-card').forEach(el => el.remove());
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
     const fragment = document.createDocumentFragment();
 
     for (let i = 1; i <= 90; i++) {
         const isBatch2 = i > 40;
+        const hasAccess = hasSubtesPaketAccess(prof, 'twk', i);
         const card = document.createElement('div');
         card.className = 'card-mode packet-card paid twk-40-card';
         card.setAttribute('data-tier', 'paid');
@@ -726,11 +798,11 @@ window.renderTiu40PaketCards = () => {
     grid.querySelectorAll('.tiu-40-card').forEach(el => el.remove());
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
     const fragment = document.createDocumentFragment();
 
     for (let i = 1; i <= 90; i++) {
         const isBatch2 = i > 40;
+        const hasAccess = hasSubtesPaketAccess(prof, 'tiu', i);
         const card = document.createElement('div');
         card.className = 'card-mode packet-card paid tiu-40-card';
         card.setAttribute('data-tier', 'paid');
@@ -777,11 +849,11 @@ window.renderTkp40PaketCards = () => {
     grid.querySelectorAll('.tkp-40-card').forEach(el => el.remove());
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
     const fragment = document.createDocumentFragment();
 
     for (let i = 1; i <= 90; i++) {
         const isBatch2 = i > 40;
+        const hasAccess = hasSubtesPaketAccess(prof, 'tkp', i);
         const card = document.createElement('div');
         card.className = 'card-mode packet-card paid tkp-40-card';
         card.setAttribute('data-tier', 'paid');
@@ -1724,7 +1796,7 @@ window.renderSavedExamsOnBeranda = () => {
     `;
 };
 
-window.mulaiSingleplayer = (tipe, paketNo = null) => {
+window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
     window.isInstantReviewMode = false;
     let rawData = window.DATA_SKD_CPNS || [];
     let title = 'Latihan Soal SKD';
@@ -1819,11 +1891,276 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
     window.currentPackageMeta = {
         saveId,
         tipe,
-        paketNo: paketNo ? Number(paketNo) : null,
+        paketNo: paketNo ? Number(paketNo) : 1,
         title,
         totalDurationSeconds: window.examTimeRemaining
     };
     window.currentAppMode = 'singleplayer';
+
+    // Jika belum memilih mode dari Lobi Persiapan, arahkan ke halaman Persiapan terlebih dahulu
+    if (!forceMode) {
+        return window.bukaLobbyPersiapanPaket();
+    }
+
+    window.isInstantReviewMode = (forceMode === 'drill');
+    if (forceMode === 'drill' && window.currentPackageMeta) {
+        window.currentPackageMeta.title = `${title} • Mode Drill`;
+    }
+    startExamSessionUI();
+};
+
+window.selectedPersiapanMode = 'fokus'; // 'fokus' | 'drill'
+window.persiapanOriginView = 'cat';
+
+window.bukaLobbyPersiapanPaket = () => {
+    const container = document.getElementById('persiapanPaketContainer');
+    const meta = window.currentPackageMeta || {};
+    const qs = window.currentQuestions || [];
+    if (!container || !qs.length) {
+        return startExamSessionUI();
+    }
+
+    // Catat view asal agar tombol kembali tepat sasaran
+    const activeViewEl = document.querySelector('.app-view.active');
+    if (activeViewEl && activeViewEl.id && activeViewEl.id !== 'view-persiapan') {
+        window.persiapanOriginView = activeViewEl.id.replace(/^view-/, '');
+    }
+    window.selectedPersiapanMode = 'fokus';
+
+    const tipe = String(meta.tipe || 'twk').toLowerCase();
+    const isFree = tipe.includes('gratis');
+    const paketNo = meta.paketNo || 1;
+    const isBatch2 = Number(paketNo) > 40;
+    const totalSoal = qs.length;
+    const durasiMenit = Math.round((meta.totalDurationSeconds || totalSoal * 60) / 60);
+
+    let subtesKey = 'full';
+    if (tipe.startsWith('twk')) subtesKey = 'twk';
+    else if (tipe.startsWith('tiu')) subtesKey = 'tiu';
+    else if (tipe.startsWith('tkp')) subtesKey = 'tkp';
+
+    const SPEC_MAP = {
+        twk: {
+            tag: isFree ? '[GRATIS]' : (isBatch2 ? '[BATCH 2026 BARU]' : '[PAKET BERBAYAR]'),
+            flyerKicker: 'SIMULASI SUBTES CAT BKN',
+            flyerTitle: 'LATIHAN TWK',
+            flyerIcon: 'fa-landmark',
+            themeClass: 'theme-twk',
+            pgValue: 'Minimal 65 Poin',
+            pgSub: 'Ambang Batas Resmi TWK BKN',
+            maxValue: `${totalSoal * 5} Poin`,
+            maxSub: 'Benar +5 • Salah / Kosong 0',
+            desc: `Paket latihan Tes Wawasan Kebangsaan (TWK) berstandar CAT BKN yang dirancang untuk menguji penguasaan nasionalisme, integritas, bela negara, pilar kebangsaan, serta kemampuan berbahasa Indonesia melalui studi kasus penalaran HOTS.`,
+            defaultTopics: ['Nasionalisme', 'Integritas ASN', 'Bela Negara', 'Pilar Negara (Pancasila & UUD 1945)', 'Bahasa Indonesia']
+        },
+        tiu: {
+            tag: isFree ? '[GRATIS]' : (isBatch2 ? '[BATCH 2026 BARU]' : '[PAKET BERBAYAR]'),
+            flyerKicker: 'SIMULASI SUBTES CAT BKN',
+            flyerTitle: 'LATIHAN TIU',
+            flyerIcon: 'fa-brain',
+            themeClass: 'theme-tiu',
+            pgValue: 'Minimal 80 Poin',
+            pgSub: 'Ambang Batas Resmi TIU BKN',
+            maxValue: `${totalSoal * 5} Poin`,
+            maxSub: 'Benar +5 • Salah / Kosong 0',
+            desc: `Paket latihan Tes Inteligensi Umum (TIU) untuk mengukur kecerdasan verbal (analogi, silogisme, analitis), numerik (berhitung cepat, deret, matriks, perbandingan, tabel), serta penalaran figural 9 kotak & ketidaksamaan gambar SVG.`,
+            defaultTopics: ['Verbal Analogi & Silogisme', 'Verbal Analitis', 'Numerik Berhitung & Deret', 'Perbandingan & Soal Cerita', 'Figural SVG & Matriks']
+        },
+        tkp: {
+            tag: isFree ? '[GRATIS]' : (isBatch2 ? '[BATCH 2026 BARU]' : '[PAKET BERBAYAR]'),
+            flyerKicker: 'SIMULASI SUBTES CAT BKN',
+            flyerTitle: 'LATIHAN TKP',
+            flyerIcon: 'fa-user-check',
+            themeClass: 'theme-tkp',
+            pgValue: 'Minimal 166 Poin',
+            pgSub: 'Ambang Batas Resmi TKP BKN',
+            maxValue: `${totalSoal * 5} Poin`,
+            maxSub: 'Bobot Bertingkat 1 s.d. 5 Poin',
+            desc: `Paket latihan Tes Karakteristik Pribadi (TKP) yang mengukur kematangan perilaku ASN pada 6 aspek pelayanan publik, jejaring kerja, sosial budaya, teknologi informasi (TIK), profesionalisme, dan anti-radikalisme.`,
+            defaultTopics: ['Pelayanan Publik', 'Jejaring Kerja', 'Sosial Budaya', 'Teknologi Informasi (TIK)', 'Profesionalisme', 'Anti-Radikalisme']
+        },
+        full: {
+            tag: '[TRY OUT AKBAR SKD]',
+            flyerKicker: 'TRY OUT NASIONAL CAT BKN',
+            flyerTitle: 'TRY OUT SKD',
+            flyerIcon: 'fa-trophy',
+            themeClass: 'theme-full',
+            pgValue: 'TWK 65 • TIU 80 • TKP 166',
+            pgSub: 'Standar Passing Grade KemenPAN-RB',
+            maxValue: '550 Poin',
+            maxSub: 'TWK 150 + TIU 175 + TKP 225',
+            desc: `Tryout SKD CPNS terintegrasi untuk mengukur kesiapan menghadapi seleksi CASN sesungguhnya. Mencakup gabungan soal TWK, TIU, dan TKP dengan evaluasi Passing Grade otomatis dan analisis kelemahan AI.`,
+            defaultTopics: ['TWK (30 Soal • Min 65)', 'TIU (35 Soal • Min 80)', 'TKP (45 Soal • Min 166)']
+        }
+    };
+
+    const spec = SPEC_MAP[subtesKey] || SPEC_MAP.twk;
+
+    // Hitung sebaran sub-kategori nyata dari daftar soal di paket ini
+    const topicMap = {};
+    qs.forEach(q => {
+        const label = (q.subKategori || q.kategori || 'Materi Inti').trim();
+        topicMap[label] = (topicMap[label] || 0) + 1;
+    });
+    const topicEntries = Object.entries(topicMap);
+    const topicsHtml = topicEntries.length > 0
+        ? topicEntries.map(([tName, cnt]) => `<span class="persiapan-topic-pill"><i class="fas fa-check-circle" style="color:#2563eb;"></i> ${tName} (${cnt} soal)</span>`).join('')
+        : spec.defaultTopics.map(tName => `<span class="persiapan-topic-pill"><i class="fas fa-check-circle" style="color:#2563eb;"></i> ${tName}</span>`).join('');
+
+    container.innerHTML = `
+        <div class="persiapan-top-bar">
+            <div class="persiapan-top-left">
+                <div class="persiapan-top-icon"><i class="fas fa-clipboard-list"></i></div>
+                <div>
+                    <h3>Persiapan Latihan &amp; Ujian</h3>
+                    <span>Baca rincian materi, ambang batas, &amp; pilih mode pengerjaan sebelum mulai</span>
+                </div>
+            </div>
+            <button type="button" class="persiapan-back-btn" onclick="window.switchAppView(window.persiapanOriginView || 'cat')">
+                <i class="fas fa-arrow-left"></i> Kembali ke Daftar Paket
+            </button>
+        </div>
+
+        <div class="persiapan-lobby-card">
+            <!-- KOLOM KIRI: RINCIAN MATERI, PASSING GRADE & PILIHAN MODE -->
+            <div class="persiapan-info-col">
+                <h2>${spec.tag} ${String(meta.title || 'PAKET LATIHAN SKD').toUpperCase()}</h2>
+                <p class="persiapan-lead">${spec.desc}</p>
+
+                <!-- 3 KOTAK SPESIFIKASI UTAMA: SOAL & WAKTU, PASSING GRADE, NILAI MAKSIMAL -->
+                <div class="persiapan-spec-grid">
+                    <div class="persiapan-spec-box">
+                        <div class="persiapan-spec-label"><i class="fas fa-clock" style="color:#2563eb;"></i> Jumlah &amp; Durasi</div>
+                        <div class="persiapan-spec-val">${totalSoal} Soal • ${durasiMenit} Menit</div>
+                        <div class="persiapan-spec-sub">Standar Timer CAT BKN</div>
+                    </div>
+                    <div class="persiapan-spec-box">
+                        <div class="persiapan-spec-label"><i class="fas fa-bullseye" style="color:#16a34a;"></i> Passing Grade</div>
+                        <div class="persiapan-spec-val" style="color:#15803d;">${spec.pgValue}</div>
+                        <div class="persiapan-spec-sub">${spec.pgSub}</div>
+                    </div>
+                    <div class="persiapan-spec-box">
+                        <div class="persiapan-spec-label"><i class="fas fa-star" style="color:#d97706;"></i> Nilai Maksimal</div>
+                        <div class="persiapan-spec-val" style="color:#b45309;">${spec.maxValue}</div>
+                        <div class="persiapan-spec-sub">${spec.maxSub}</div>
+                    </div>
+                </div>
+
+                <!-- KOMPOSISI MATERI DI DALAM PAKET -->
+                <div class="persiapan-section-box">
+                    <div class="persiapan-section-title">
+                        <i class="fas fa-layer-group" style="color:#2563eb;"></i> Cakupan Materi &amp; Kisi-Kisi Paket Ini
+                    </div>
+                    <div class="persiapan-topic-tags">
+                        ${topicsHtml}
+                    </div>
+                </div>
+
+                <!-- FASILITAS LATIHAN -->
+                <div class="persiapan-section-box" style="margin-bottom:16px;">
+                    <div class="persiapan-section-title">
+                        <i class="fas fa-thumbtack" style="color:#e11d48;"></i> Fasilitas &amp; Evaluasi
+                    </div>
+                    <ul class="persiapan-facility-list">
+                        <li>Mengakses <strong>Pembahasan Mentor Interaktif</strong> beserta visualisasi konsep &amp; rumus cepat.</li>
+                        <li>Mendapatkan skor akhir, evaluasi kelulusan <strong>Passing Grade BKN</strong>, &amp; grafik tren otomatis di <strong>Brankas Pembahasan</strong>.</li>
+                        <li>Tersedia fitur <strong>Ulangi Soal Salah (Remedial)</strong> di Brankas &amp; bedah soal bersama <strong>MenujuASN-Bot AI</strong>.</li>
+                        <li>Progres dapat disimpan kapan saja melalui tombol <strong>Simpan &amp; Kembali</strong>.</li>
+                    </ul>
+                </div>
+
+                <!-- PILIHAN MODE PENGERJAAN (FOKUS CAT VS DRILL LANGSUNG PEMBAHASAN) -->
+                <div class="persiapan-mode-title">
+                    <i class="fas fa-sliders-h" style="color:#1e3a8a;"></i> Pilih Mode Pengerjaan:
+                </div>
+                <div class="persiapan-mode-grid">
+                    <div id="modeCardFokus" class="persiapan-mode-card active" onclick="window.pilihModePersiapan('fokus')">
+                        <div class="persiapan-mode-head">
+                            <strong><i class="fas fa-stopwatch" style="color:#2563eb;"></i> Mode Fokus CAT</strong>
+                            <span class="persiapan-mode-check"><i class="fas fa-check"></i></span>
+                        </div>
+                        <p>Simulasi fokus sesuai ujian CAT BKN sesungguhnya. Kunci jawaban &amp; pembahasan dibuka setelah selesai.</p>
+                    </div>
+                    <div id="modeCardDrill" class="persiapan-mode-card drill-mode" onclick="window.pilihModePersiapan('drill')">
+                        <div class="persiapan-mode-head">
+                            <strong><i class="fas fa-bolt" style="color:#d97706;"></i> Mode Drill (Pembahasan Langsung)</strong>
+                            <span class="persiapan-mode-check"><i class="fas fa-check"></i></span>
+                        </div>
+                        <p>Begitu klik opsi jawaban A–E, langsung muncul kunci Benar/Salah, bobot TKP 1–5, &amp; pembahasan seketika!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KOLOM KANAN: FLYER GRAFIS MODERN & TOMBOL MULAI -->
+            <div class="persiapan-flyer-col">
+                <div class="persiapan-flyer-card ${spec.themeClass}">
+                    <div class="persiapan-flyer-top">
+                        <div class="persiapan-flyer-brand">
+                            <div class="persiapan-flyer-logo">
+                                <img src="logo%20menuju%20asn.png" alt="Logo Menuju ASN">
+                            </div>
+                            <span>MENUJU ASN</span>
+                        </div>
+                        <span class="persiapan-flyer-badge"><i class="fas fa-shield-alt"></i> CAT BKN 2027</span>
+                    </div>
+
+                    <div class="persiapan-flyer-body">
+                        <div>
+                            <div class="persiapan-flyer-kicker">${spec.flyerKicker}</div>
+                            <div class="persiapan-flyer-title">${spec.flyerTitle}</div>
+                            <div class="persiapan-flyer-num-row">
+                                <span class="persiapan-flyer-num">#${paketNo}</span>
+                                <div class="persiapan-flyer-tagline">
+                                    Satu langkah<br>lebih dekat ke <strong>NIP</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="persiapan-flyer-art">
+                            <i class="fas ${spec.flyerIcon}"></i>
+                        </div>
+                    </div>
+
+                    <div class="persiapan-flyer-foot">
+                        <span><i class="fas fa-list-check"></i> ${totalSoal} Butir Soal</span>
+                        <span><i class="fas fa-hourglass-half"></i> ${durasiMenit} Menit</span>
+                        <span><i class="fas fa-trophy"></i> Max ${spec.maxValue}</span>
+                    </div>
+                </div>
+
+                <button type="button" id="btnMulaiDariLobby" class="btn-persiapan-start" onclick="window.eksekusiMulaiDariLobby()">
+                    <i class="fas fa-play-circle"></i> Mulai Ujian (Mode Fokus CAT)
+                </button>
+            </div>
+        </div>
+    `;
+
+    window.switchAppView('persiapan');
+};
+
+window.pilihModePersiapan = (mode) => {
+    window.selectedPersiapanMode = mode === 'drill' ? 'drill' : 'fokus';
+    const fCard = document.getElementById('modeCardFokus');
+    const dCard = document.getElementById('modeCardDrill');
+    const btn = document.getElementById('btnMulaiDariLobby');
+
+    if (fCard) fCard.classList.toggle('active', window.selectedPersiapanMode === 'fokus');
+    if (dCard) dCard.classList.toggle('active', window.selectedPersiapanMode === 'drill');
+    if (btn) {
+        if (window.selectedPersiapanMode === 'drill') {
+            btn.innerHTML = `<i class="fas fa-bolt"></i> Mulai Mode Drill (Langsung Pembahasan)`;
+        } else {
+            btn.innerHTML = `<i class="fas fa-play-circle"></i> Mulai Ujian (Mode Fokus CAT)`;
+        }
+    }
+};
+
+window.eksekusiMulaiDariLobby = () => {
+    const mode = window.selectedPersiapanMode || 'fokus';
+    window.isInstantReviewMode = (mode === 'drill');
+    if (window.currentPackageMeta) {
+        const baseTitle = String(window.currentPackageMeta.title || 'Latihan SKD').replace(/\s*•\s*Mode Drill$/i, '');
+        window.currentPackageMeta.title = mode === 'drill' ? `${baseTitle} • Mode Drill` : baseTitle;
+    }
     startExamSessionUI();
 };
 
@@ -2684,8 +3021,7 @@ window.renderBrankasReviewStage = () => {
     if (!attempt) return window.kembaliDariReviewKeBrankas();
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const tier = String(prof.tier || 'free').toLowerCase();
-    const canRemedial = Boolean(prof.isAdmin || tier === 'gold');
+    const canRemedial = Boolean(prof.isAdmin || prof.isPaid);
 
     const lobbyEl = document.getElementById('lobbySection');
     const heroEl = document.getElementById('heroBannerSection');
@@ -2845,10 +3181,9 @@ window.setBrankasDateFilter = (val) => {
 
 window.mulaiRemedialBrankas = (attemptId) => {
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const tier = String(prof.tier || 'free').toLowerCase();
-    const canRemedial = Boolean(prof.isAdmin || tier === 'gold');
+    const canRemedial = Boolean(prof.isAdmin || prof.isPaid);
     if (!canRemedial) {
-        return window.bukaModalUpgrade('Coba Lagi Soal yang Salah', 'Paket Gold (Rp 99.999)');
+        return window.bukaModalUpgrade('Ulangi Soal Salah di Brankas', 'Paket Bronze / Silver / Gold');
     }
 
     const attempt = getBrankasHistory().find(a => a.id === attemptId);
@@ -2871,12 +3206,12 @@ window.mulaiRemedialBrankas = (attemptId) => {
     window.currentAppMode = 'singleplayer';
     window.currentPackageMeta = {
         saveId: `remedial_${attempt.id}`,
-        tipe: 'remedial',
-        paketNo: null,
+        tipe: attempt.tipe || 'twk',
+        paketNo: attempt.paketNo || 1,
         title: `Remedial: ${attempt.title}`,
         totalDurationSeconds: window.examTimeRemaining
     };
-    startExamSessionUI();
+    window.bukaLobbyPersiapanPaket();
 };
 
 window.renderBrankasPembahasan = () => {
@@ -2887,7 +3222,7 @@ window.renderBrankasPembahasan = () => {
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
     const tier = String(prof.tier || 'free').toLowerCase();
     const canReview = Boolean(prof.isPaid || prof.isAdmin);
-    const canRemedial = Boolean(prof.isAdmin || tier === 'gold');
+    const canRemedial = Boolean(prof.isPaid || prof.isAdmin);
 
     const statTotal = document.getElementById('brankasStatTotal');
     const statLast = document.getElementById('brankasStatLast');
@@ -2898,8 +3233,7 @@ window.renderBrankasPembahasan = () => {
     if (statLastLabel && history.length === 0) statLastLabel.textContent = 'Skor Rata-Rata';
     if (statAccess) {
         if (prof.isAdmin) statAccess.textContent = 'ADMIN (Full + Remedial)';
-        else if (tier === 'gold') statAccess.textContent = 'GOLD (Full + Remedial)';
-        else if (canReview) statAccess.textContent = `${tier.toUpperCase()} (Review Aktif)`;
+        else if (canReview) statAccess.textContent = `${tier.toUpperCase()} (Review + Ulangi Soal)`;
         else statAccess.textContent = 'FREE (Skor Saja)';
     }
 
