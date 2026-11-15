@@ -131,6 +131,9 @@ function updateAuthUI(user) {
         if (lobbyEl && window.currentAppMode === 'lobby') {
             lobbyEl.style.display = 'flex';
         }
+        if (typeof window.renderTkp40PaketCards === 'function') {
+            window.renderTkp40PaketCards();
+        }
     } else {
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = 'none';
@@ -473,20 +476,78 @@ window.switchLobbyTab = (tab) => {
 };
 
 window.filterPaketSoal = (filter, btnEl) => {
+    window.activePaketSoalFilter = filter || 'all';
     document.querySelectorAll('#view-cat .filter-chip').forEach(btn => btn.classList.remove('active'));
     if (btnEl) btnEl.classList.add('active');
 
     document.querySelectorAll('#paketSoalGrid .packet-card').forEach(card => {
         const tier = card.getAttribute('data-tier');
         const cat = card.getAttribute('data-cat');
+        const subtes = card.getAttribute('data-subtes');
         const show =
             filter === 'all' ||
             (filter === 'free' && tier === 'free') ||
             (filter === 'paid' && tier === 'paid') ||
-            (filter === 'subtes' && cat === 'subtes');
+            (filter === 'subtes' && cat === 'subtes') ||
+            (filter === 'twk' && subtes === 'twk') ||
+            (filter === 'tiu' && subtes === 'tiu') ||
+            (filter === 'tkp' && subtes === 'tkp');
         card.style.display = show ? 'flex' : 'none';
     });
 };
+
+window.renderTkp40PaketCards = () => {
+    const grid = document.getElementById('paketSoalGrid');
+    if (!grid) return;
+
+    grid.querySelectorAll('.tkp-40-card').forEach(el => el.remove());
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
+    const fragment = document.createDocumentFragment();
+
+    for (let i = 1; i <= 40; i++) {
+        const card = document.createElement('div');
+        card.className = 'card-mode packet-card paid tkp-40-card';
+        card.setAttribute('data-tier', 'paid');
+        card.setAttribute('data-cat', 'subtes');
+        card.setAttribute('data-subtes', 'tkp');
+
+        const ctaHtml = hasAccess
+            ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tkp', ${i})"><i class="fas fa-play"></i> Mulai Latihan TKP #${i}</button>`
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TKP Paket #${i} (1.800 Soal)', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TKP #${i}</button>`;
+
+        card.innerHTML = `
+            <div>
+                <div class="packet-badges">
+                    <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
+                    <span class="badge-cat">TKP • PAKET ${i}</span>
+                </div>
+                <div class="card-mode-header">
+                    <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
+                    <div>
+                        <h3>TKP Paket #${i}</h3>
+                        <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • Bobot 1–5</span>
+                    </div>
+                </div>
+                <p>Latihan intensif Tes Karakteristik Pribadi (Paket ${i} dari 40 • 1.800 Bank Soal TKP).</p>
+            </div>
+            ${ctaHtml}
+        `;
+        fragment.appendChild(card);
+    }
+
+    grid.appendChild(fragment);
+
+    if (window.activePaketSoalFilter && window.activePaketSoalFilter !== 'all') {
+        const activeChip = document.querySelector('#view-cat .filter-chip.active');
+        window.filterPaketSoal(window.activePaketSoalFilter, activeChip);
+    }
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    window.renderTkp40PaketCards();
+});
 
 window.filterTryoutPaket = (filter, btnEl) => {
     document.querySelectorAll('#view-tryout .filter-chip').forEach(btn => btn.classList.remove('active'));

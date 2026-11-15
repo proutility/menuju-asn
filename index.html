@@ -445,12 +445,15 @@
                         <button class="filter-chip active" onclick="window.filterPaketSoal('all', this)">Semua</button>
                         <button class="filter-chip" onclick="window.filterPaketSoal('free', this)">Gratis</button>
                         <button class="filter-chip" onclick="window.filterPaketSoal('paid', this)">Berbayar</button>
+                        <button class="filter-chip" onclick="window.filterPaketSoal('twk', this)">TWK</button>
+                        <button class="filter-chip" onclick="window.filterPaketSoal('tiu', this)">TIU</button>
+                        <button class="filter-chip" onclick="window.filterPaketSoal('tkp', this)">TKP</button>
                     </div>
                 </div>
 
                 <div class="grid-modes" id="paketSoalGrid">
                     <!-- 3 KARTU TWK GRATIS (TERKUNCI / BELUM TERSEDIA) -->
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="twk">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -470,7 +473,7 @@
                         </button>
                     </div>
 
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="twk">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -490,7 +493,7 @@
                         </button>
                     </div>
 
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="twk">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -511,7 +514,7 @@
                     </div>
 
                     <!-- 3 KARTU TIU GRATIS (TERKUNCI / BELUM TERSEDIA) -->
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tiu">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -531,7 +534,7 @@
                         </button>
                     </div>
 
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tiu">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -551,7 +554,7 @@
                         </button>
                     </div>
 
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tiu">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -572,7 +575,7 @@
                     </div>
 
                     <!-- 3 KARTU TKP GRATIS (TERKUNCI / BELUM TERSEDIA) -->
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tkp">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -592,7 +595,7 @@
                         </button>
                     </div>
 
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tkp">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -612,7 +615,7 @@
                         </button>
                     </div>
 
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
+                    <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tkp">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -633,7 +636,7 @@
                     </div>
 
                     <!-- KARTU BERBAYAR 2: MODE BELAJAR 1x KLIK -->
-                    <div class="card-mode packet-card paid" data-tier="paid" data-cat="subtes">
+                    <div class="card-mode packet-card paid" data-tier="paid" data-cat="subtes" data-subtes="all">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access paid"><i class="fas fa-crown"></i> BRONZE / SILVER / GOLD</span>
@@ -654,7 +657,7 @@
                     </div>
 
                     <!-- KARTU BERBAYAR 3: COBA LAGI SOAL SALAH (GOLD) -->
-                    <div class="card-mode packet-card paid gold-border" data-tier="paid" data-cat="subtes">
+                    <div class="card-mode packet-card paid gold-border" data-tier="paid" data-cat="subtes" data-subtes="all">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access gold-badge"><i class="fas fa-crown"></i> KHUSUS GOLD</span>
