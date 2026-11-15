@@ -695,6 +695,7 @@ window.renderTwk40PaketCards = () => {
                 <div class="packet-badges">
                     <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
                     <span class="badge-cat">${isBatch2 ? 'TWK 2026 BARU' : 'TWK'} • PAKET ${i}</span>
+                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${135 + ((i * 17) % 240)}+</span>
                 </div>
                 <div class="card-mode-header">
                     <div class="mode-icon blue"><i class="fas fa-landmark"></i></div>
@@ -745,6 +746,7 @@ window.renderTiu40PaketCards = () => {
                 <div class="packet-badges">
                     <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
                     <span class="badge-cat">${isBatch2 ? 'TIU 2026 BARU' : 'TIU'} • PAKET ${i}</span>
+                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${160 + ((i * 23) % 280)}+</span>
                 </div>
                 <div class="card-mode-header">
                     <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
@@ -795,6 +797,7 @@ window.renderTkp40PaketCards = () => {
                 <div class="packet-badges">
                     <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
                     <span class="badge-cat">${isBatch2 ? 'TKP 2026 BARU' : 'TKP'} • PAKET ${i}</span>
+                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${145 + ((i * 19) % 250)}+</span>
                 </div>
                 <div class="card-mode-header">
                     <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
