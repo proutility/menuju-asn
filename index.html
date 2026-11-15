@@ -368,6 +368,9 @@
                     </div>
                 </div>
 
+                <!-- PROGRES TERSIMPAN (MODE SAVE) -->
+                <div id="savedExamsBerandaSection" style="display:none; margin-bottom:20px;"></div>
+
                 <!-- 4 KARTU RINGKASAN CEPAT -->
                 <div class="dash-kpi-grid">
                     <div class="dash-kpi-card" onclick="window.switchAppView('cat')">
@@ -574,64 +577,64 @@
                         </button>
                     </div>
 
-                    <!-- 3 KARTU TKP GRATIS (TERKUNCI / BELUM TERSEDIA) -->
+                    <!-- 3 KARTU TKP GRATIS (AKTIF @45 SOAL TOPIK SEIMBANG) -->
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tkp">
                         <div>
                             <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
                                 <span class="badge-cat">TKP • PAKET 1</span>
                             </div>
                             <div class="card-mode-header">
                                 <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
                                 <div>
                                     <h3>TKP Gratis — Paket 1</h3>
-                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">Pelayanan Publik &amp; Jejaring</span>
+                                    <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 6 Topik Seimbang</span>
                                 </div>
                             </div>
-                            <p>Latihan soal Tes Karakteristik Pribadi skala bobot 1–5 (Passing Grade Min 166).</p>
+                            <p>Simulasi CAT TKP 45 menit (6 aspek lengkap, bobot 1–5, Passing Grade Min 166).</p>
                         </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('TKP Gratis — Paket 1')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
+                        <button class="btn-card free-cta" onclick="window.mulaiSingleplayer('tkp_gratis', 1)">
+                            <i class="fas fa-play"></i> Mulai Latihan Gratis #1
                         </button>
                     </div>
 
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tkp">
                         <div>
                             <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
                                 <span class="badge-cat">TKP • PAKET 2</span>
                             </div>
                             <div class="card-mode-header">
                                 <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
                                 <div>
                                     <h3>TKP Gratis — Paket 2</h3>
-                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">Sosial Budaya &amp; TIK</span>
+                                    <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 6 Topik Seimbang</span>
                                 </div>
                             </div>
-                            <p>Latihan soal Tes Karakteristik Pribadi skala bobot 1–5 (Passing Grade Min 166).</p>
+                            <p>Simulasi CAT TKP 45 menit (6 aspek lengkap, bobot 1–5, Passing Grade Min 166).</p>
                         </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('TKP Gratis — Paket 2')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
+                        <button class="btn-card free-cta" onclick="window.mulaiSingleplayer('tkp_gratis', 2)">
+                            <i class="fas fa-play"></i> Mulai Latihan Gratis #2
                         </button>
                     </div>
 
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes" data-subtes="tkp">
                         <div>
                             <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
+                                <span class="badge-access free"><i class="fas fa-unlock"></i> GRATIS</span>
                                 <span class="badge-cat">TKP • PAKET 3</span>
                             </div>
                             <div class="card-mode-header">
                                 <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
                                 <div>
                                     <h3>TKP Gratis — Paket 3</h3>
-                                    <span style="font-size:0.75rem; color:#64748b; font-weight:700;">Profesionalisme &amp; Anti-Radikalisme</span>
+                                    <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 6 Topik Seimbang</span>
                                 </div>
                             </div>
-                            <p>Latihan soal Tes Karakteristik Pribadi skala bobot 1–5 (Passing Grade Min 166).</p>
+                            <p>Simulasi CAT TKP 45 menit (6 aspek lengkap, bobot 1–5, Passing Grade Min 166).</p>
                         </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('TKP Gratis — Paket 3')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
+                        <button class="btn-card free-cta" onclick="window.mulaiSingleplayer('tkp_gratis', 3)">
+                            <i class="fas fa-play"></i> Mulai Latihan Gratis #3
                         </button>
                     </div>
 
@@ -1183,8 +1186,9 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="data_skd_cpns.js?v=2.1.3"></script>
-    <script type="module" src="app.js?v=2.1.4"></script>
+    <script src="data_skd_cpns.js?v=2.1.5"></script>
+    <script src="data_tkp_gratis.js?v=1.0.0"></script>
+    <script type="module" src="app.js?v=2.1.5"></script>
     
     <script>
         // PWA Service Worker Registration

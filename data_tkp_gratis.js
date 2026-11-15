@@ -1,0 +1,4727 @@
+window.DATA_TKP_GRATIS = [
+  {
+    "id": "tkp_gratis_001",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di loket Pelayanan Terpadu Satu Pintu (PTSP) Pengadilan Negeri. Seorang pemohon lansia datang dari desa jauh untuk mengambil salinan putusan, namun ia salah membawa surat kuasa yang belum ditandatangani pemberi kuasa. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung menyerahkan salinan putusan tanpa surat kuasa sah karena merasa kasihan ia sudah menempuh perjalanan jauh.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menolak berkasnya secara singkat dan memintanya datang lagi minggu depan setelah seluruh dokumen lengkap sempurna.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menjelaskan kekurangan berkas dengan ramah serta memandu solusi perbaikan cepat agar ia tidak bingung mengurusnya.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyarankannya membaca papan alur syarat pengambilan salinan putusan yang terpasang di dinding ruang tunggu loket.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memberikan formulir surat kuasa baru lalu memintanya mencari sendiri jasa pengetikan di sekitar halaman pengadilan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Pelayanan Publik: Memberikan penjelasan empatik dan solusi prosedural tanpa melanggar aturan menjaga kepatuhan hukum sekaligus kepuasan warga lansia. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_002",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas layanan informasi di Kejaksaan Negeri, Anda menerima telepon dari keluarga tersangka yang menanyakan perkembangan jadwal pelimpahan berkas dengan nada cemas dan tergesa-gesa. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyampaikan informasi status perkara yang bersifat terbuka secara tenang sesuai SOP serta menjelaskan alur pantau resmi.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menutup telepon segera karena keluarga tersangka dianggap terlalu mencampuri urusan teknis penyidikan jaksa.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menjanjikan tanggal pasti persidangan agar penelepon tenang meskipun jadwal resmi belum ditetapkan oleh pengadilan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta penelepon datang langsung ke kantor kejaksaan besok pagi untuk menanyakan hal itu di meja informasi.",
+        "poin": 4
+      },
+      {
+        "label": "E",
+        "teks": "Mengarahkan penelepon agar menanyakan langsung kepada pengacara tersangka karena kantor tidak melayani telepon pribadi.",
+        "poin": 3
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Pelayanan Publik: Komunikasi yang tenang, akurat, dan sesuai batas informasi publik membangun kepercayaan masyarakat terhadap layanan kejaksaan. [Bobot: A(5), B(1), C(2), D(4), E(3)]"
+  },
+  {
+    "id": "tkp_gratis_003",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di Kantor Imigrasi pada layanan percepatan paspor sehari jadi. Menjelang siang, sistem antrean mengalami perlambatan jaringan selama dua puluh menit sehingga pemohon mulai mengeluh di ruang tunggu. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan pemohon menunggu tanpa keterangan sambil fokus menatap layar monitor hingga jaringan kembali normal.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Meminta petugas keamanan menenangkan pemohon yang mengeluh agar suasana ruang tunggu tidak semakin gaduh.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menutup loket layanan percepatan sementara dan meminta seluruh pemohon pulang untuk menjadwal ulang besok pagi.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyampaikan permohonan maaf dan informasi kendala secara terbuka, lalu mengawal pemulihan sistem bersama tim IT.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mengalihkan pemohon yang berkasnya sudah siap ke pencatatan manual sementara agar sebagian proses tetap berjalan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Pelayanan Publik: Transparansi informasi saat gangguan teknis meredakan kecemasan pemohon dan menunjukkan tanggung jawab pelayanan prima. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_004",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bekerja di loket layanan kependudukan (Dukcapil) kecamatan. Seorang warga tunarungu datang hendak mengurus pembaruan Kartu Keluarga namun tampak kesulitan menyampaikan keperluannya secara lisan. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memintanya pulang terlebih dahulu untuk mencari anggota keluarga yang bisa berbicara sebagai pendamping di loket.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Melayani dengan sabar menggunakan komunikasi tertulis atau visual yang jelas serta memprioritaskan kenyamanannya.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Berbicara dengan suara lebih keras dan cepat sambil menunjuk papan syarat dengan harapan ia bisa membaca gerak bibir.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Meminta satpam di pintu depan membantu menanyakan maksud kedatangan warga tersebut sebelum masuk ke ruang loket.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyerahkan formulir permohonan kosong terlebih dahulu agar ia mengisi sendiri data yang ingin diperbarui.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Pelayanan Publik: Layanan inklusif yang ramah penyandang disabilitas memastikan kesetaraan akses dan martabat setiap warga negara. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_005",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas pendaftaran kunjungan di Rumah Tahanan Negara (Rutan), Anda mendapati seorang ibu membawa bayi di tengah antrean panjang pengunjung yang berdesakan di bawah terik matahari. Langkah terbaik Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tetap memintanya mengantre di barisan reguler agar seluruh pengunjung merasa diperlakukan sama tanpa pengecualian.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Meminta pengunjung lain di barisan depan memberikan tempat duduk teduh sementara sambil menunggu nomor antrean biasa.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Meloloskan barang bawaan dan izin masuknya tanpa pemeriksaan keamanan supaya bayinya tidak terlalu lama kepanasan.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyarankannya datang kembali di hari lain saat jam besuk lebih sepi agar tidak perlu mengantre bersama bayi.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengarahkan ibu tersebut ke jalur prioritas ruang tunggu teduh sesuai prosedur layanan rentan tanpa mengganggu pemeriksaan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Pelayanan Publik: Pengaturan jalur prioritas kelompok rentan (ibu membawa bayi) yang tetap patuh prosedur keamanan mencerminkan layanan humanis. [Bobot: A(2), B(4), C(1), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_006",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda pegawai Dinas Penanaman Modal dan PTSP. Seorang pelaku usaha mikro mengeluhkan proses pengajuan izin berusaha daring yang gagal terus karena ia kurang mahir mengoperasikan komputer. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyarankannya menyewa jasa biro konsultan perizinan swasta di luar kantor agar pengisian sistem lebih cepat selesai.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memberinya selebaran panduan sistem daring dan memintanya meminta bantuan anaknya saat sudah tiba di rumah nanti.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Memandunya langkah demi langkah di pojok layanan pendampingan kantor hingga permohonan izinnya berhasil terkirim.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyampaikan bahwa sistem perizinan memang dirancang mandiri sehingga setiap pemohon wajib belajar menggunakannya.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Meminta izin mengambil alih akun OSS miliknya sebentar untuk menginputkan data tanpa menjelaskan prosesnya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Pelayanan Publik: Pendampingan edukatif di loket layanan membantu masyarakat melek digital sekaligus memastikan izin usaha terbit sesuai prosedur. [Bobot: A(1), B(3), C(5), D(2), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_007",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Di unit layanan administrasi RSUD, seorang keluarga pasien meluapkan kemarahan karena merasa alur pengurusan surat rujukan berbelit-belit. Saat itu antrean pasien lain cukup ramai. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengajaknya ke ruang konsultasi samping untuk mendengarkan keluhannya dengan tenang dan membantu alur rujukan yang tepat.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Membalas dengan nada tegas agar keluarga pasien tahu bahwa semua aturan alur tersebut dibuat demi ketertiban umum.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkannya marah di depan loket sambil terus memanggil nomor antrean berikutnya supaya pelayanan tidak terhenti.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menyerahkan formulir pengaduan tertulis dan memintanya memasukkan keluhan ke kotak saran agar dibahas manajemen.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta maaf singkat di loket lalu mengarahkannya menemui kepala jaga instalasi untuk penjelasan lebih lanjut.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Pelayanan Publik: Menangani komplain dengan empati di ruang terpisah menjaga ketenangan ruang layanan sekaligus menyelesaikan masalah warga. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_008",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di unit layanan Kanwil Kemenkumham bagian konsultasi kekayaan intelektual. Seorang pengrajin lokal menanyakan cara mendaftarkan merek usahanya tepat lima menit sebelum jam istirahat kantor dimulai. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menutup meja konsultasi saat itu juga dan memintanya menunggu satu jam penuh di luar gedung tanpa penjelasan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menjawab pertanyaannya sambil berkemas merapikan tas agar ia sadar bahwa waktu layanan pagi sudah hampir habis.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Memberikan kartu nama kantor dan memintanya menghubungi nomor layanan daring saja pada jam kerja sore hari.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Melayaninya terlebih dahulu secara tuntas dan ramah untuk penjelasan awal, lalu mengatur jadwal istirahat bergantian.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Memberinya brosur ringkas pendaftaran merek untuk dibaca selama jam istirahat lalu berjanji menemuinya setelahnya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Pelayanan Publik: Mendahulukan kebutuhan warga yang sudah hadir dengan pengaturan sif istirahat mencerminkan komitmen pelayanan prima. [Bobot: A(1), B(2), C(3), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_009",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai analis perkara di Pengadilan Negeri, Anda diminta menyiapkan data rekapitulasi perkara tilang bersama Kejaksaan Negeri dan Satlantas Polres setiap akhir bulan. Sering kali format data ketiga instansi berbeda sehingga menyulitkan pencocokan. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memaksa petugas kejaksaan dan kepolisian mengubah seluruh sistem pencatatan mereka mengikuti format pengadilan.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menginisiasi kesepakatan templat pelaporan bersama lintas instansi agar pertukaran data bulanan berjalan akurat dan cepat.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mencatat data versi pengadilan saja dalam laporan bulanan tanpa mencocokkannya lagi dengan data kedua instansi mitra.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menugaskan staf magang untuk mengetik ulang satu per satu perbedaan format data setiap akhir bulan secara manual.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan daftar ketidaksesuaian format lewat surat resmi sambil menunggu tanggapan dari masing-masing instansi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Jejaring Kerja: Menyepakati standar kerja bersama antar-penegak hukum menghilangkan hambatan administratif dan memperkuat akurasi layanan. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_010",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bertugas di Balai Pemasyarakatan (Bapas) dan mengelola program bimbingan kerja bagi klien pemasyarakatan. Untuk memperluas peluang kerja klien setelah bebas, strategi jejaring yang paling efektif adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengundang satu pengusaha sukses sekali setahun untuk memberikan ceramah motivasi bagi seluruh klien pemasyarakatan.",
+        "poin": 4
+      },
+      {
+        "label": "B",
+        "teks": "Memberikan pelatihan teori keterampilan di ruang kelas Bapas saja tanpa menghubungkan klien dengan pasar kerja luar.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menyerahkan pencarian kerja sepenuhnya kepada masing-masing klien karena Bapas hanya bertugas mengawasi wajib lapor.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Memasang pengumuman lowongan kerja umum di papan mading ruang tunggu kantor Bapas setiap awal bulan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menjalin kemitraan berkelanjutan dengan BLK, dinas tenaga kerja, dan pelaku usaha lokal guna penyaluran kerja.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Jejaring Kerja: Kemitraan strategis dengan lembaga pelatihan dan dunia usaha menciptakan ekosistem reintegrasi sosial yang berkelanjutan. [Bobot: A(4), B(2), C(1), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_011",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Kejaksaan Tinggi yang tergabung dalam tim gabungan penertiban kawasan hutan bersama KLHK, BPN, dan pemerintah daerah. Saat rapat persiapan operasi lapangan, perwakilan instansi lain berbeda pandangan mengenai prioritas lokasi. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memaksakan lokasi pilihan instansi Anda dengan alasan kejaksaan memegang kendali penegakan hukum di daerah tersebut.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunda pelaksanaan operasi gabungan tanpa batas waktu hingga seluruh instansi mitra menyepakati satu lokasi sendiri.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Memfasilitasi pemetaan risiko bersama berbasis data citra dan status hukum lahan guna menyepakati prioritas lokasi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan setiap instansi turun ke lokasi pilihannya masing-masing pada hari yang sama tanpa koordinasi rute.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyerahkan keputusan pemilihan titik lokasi sepenuhnya kepada pemerintah daerah agar tidak terjadi perdebatan rapat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Jejaring Kerja: Pengambilan keputusan berbasis data bersama dalam tim lintas sektor menghasilkan operasi yang terarah dan solid. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_012",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bekerja di Kantor Imigrasi yang tergabung dalam Tim Pora kecamatan. Seorang anggota tim dari instansi lain jarang hadir dalam rapat koordinasi rutin sehingga informasi pengawasan di wilayahnya sering tertinggal. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menghubungi narahubung instansi tersebut secara persuasif untuk menanyakan kendala jadwal serta membuka opsi rapat daring.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menghapus instansi tersebut dari daftar undangan rapat berikutnya karena dianggap tidak berkomitmen pada tugas tim.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Melaporkan ketidakhadirannya langsung kepada pimpinan daerah agar petugas tersebut segera dijatuhi sanksi disiplin.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan saja ketidakhadirannya karena masih ada perwakilan instansi lain yang hadir dalam rapat koordinasi.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan notulen hasil rapat melalui surat resmi setiap bulan tanpa mencari tahu kendala keterlibatannya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Jejaring Kerja: Pendekatan komunikatif dan fleksibel terhadap mitra yang terkendala menjaga keaktifan serta kekompakan tim lintas instansi. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_013",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai pegawai Dinas Pekerjaan Umum, Anda memimpin proyek perbaikan jalan penghubung antar-kecamatan yang bersinggungan dengan jaringan pipa PDAM dan kabel PLN. Agar penggalian tidak merusak utilitas lain, langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tetap memulai penggalian sesuai jadwal kontraktor agar target serapan anggaran triwulan tidak mengalami keterlambatan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyerahkan urusan koordinasi utilitas bawah tanah sepenuhnya kepada mandor proyek lapangan agar lebih praktis.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Mengirimkan surat pemberitahuan jadwal penggalian sehari sebelum pekerjaan dimulai tanpa menunggu konfirmasi balik.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menggelar rapat survei lapangan bersama tim teknis PDAM dan PLN sebelum penggalian untuk memetakan titik aman jaringan.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Meminta peta jaringan lama milik dinas saja sebagai acuan penggalian tanpa melibatkan teknisi PDAM dan PLN.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Jejaring Kerja: Koordinasi teknis pra-pelaksanaan dengan instansi utilitas mitra mencegah kerusakan infrastruktur dan gangguan layanan publik. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_014",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai bagian humas di sebuah kementerian yang berkolaborasi dengan unit layanan pengaduan untuk menjawab keluhan viral di media sosial. Unit layanan pengaduan lambat merespons karena belum mendapat data teknis dari bidang terkait. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menunggu data teknis masuk dengan sendirinya meskipun isu di media sosial terus berkembang tanpa klarifikasi resmi.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menjembatani komunikasi cepat antara unit pengaduan dan bidang teknis agar klarifikasi akurat segera tersampaikan ke publik.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mengunggah pernyataan klarifikasi sendiri di media sosial tanpa verifikasi data dari bidang teknis maupun unit pengaduan.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyampaikan kepada pimpinan bahwa keterlambatan klarifikasi disebabkan oleh lambatnya respons bidang teknis terkait.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Membalas komentar warganet dengan kalimat normatif umum sambil menunggu rapat evaluasi mingguan antar-unit kerja.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Jejaring Kerja: Sinergi lintas unit internal yang responsif dan akurat menjaga reputasi lembaga serta kepercayaan masyarakat. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_015",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda ditugaskan sebagai koordinator program magang mahasiswa dari beberapa universitas di kantor pengadilan. Pembimbing lapangan dari tiap bagian mengeluhkan mahasiswa magang sering kebingungan karena belum ada pembagian alur tugas yang jelas. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengembalikan mahasiswa magang ke kampus asalnya karena dianggap belum siap beradaptasi dengan ritme kerja kantor.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meminta mahasiswa magang berinisiatif sendiri menanyakan pekerjaan kosong kepada pegawai di tiap ruang bagian.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan setiap bagian memberi tugas seadanya seperti menyusun arsip fotokopi agar mahasiswa tetap ada kegiatan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menyusun jadwal rotasi sepihak tanpa berkonsultasi dengan kepala bagian maupun pihak perguruan tinggi mitra.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengajak dosen pembimbing kampus dan koordinator bagian menyusun panduan rotasi tugas serta capaian magang bersama.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Jejaring Kerja: Merancang tata kelola kerja sama secara partisipatif antara unit internal dan mitra kampus memberi manfaat optimal bagi kedua pihak. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_016",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai pegawai Dinas Pemberdayaan Masyarakat Desa, Anda memfasilitasi kerja sama pemasaran produk BUMDes dengan jaringan ritel modern daerah. Pihak ritel menuntut standar kemasan dan jadwal pasok yang belum mampu dipenuhi satu BUMDes saja. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membatalkan rencana kerja sama tersebut dan meminta BUMDes tetap berjualan di pasar mingguan desa saja seperti biasa.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Memaksa pihak ritel modern menerima produk apa adanya sebagai bentuk kewajiban sosial perusahaan terhadap warga desa.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menginisiasi klaster kolaborasi beberapa BUMDes sekitar serta menggandeng dinas koperasi untuk pendampingan mutu kemasan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyerahkan negosiasi syarat pasokan sepenuhnya kepada kepala desa tanpa pendampingan teknis dari dinas terkait.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memilih satu BUMDes yang paling besar modalnya saja untuk maju sementara desa lain diminta menunggu tahun depan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Jejaring Kerja: Mengonsolidasikan kekuatan beberapa mitra lokal dan dukungan dinas teknis menjawab tantangan kapasitas secara kolaboratif. [Bobot: A(2), B(1), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_017",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda baru ditempatkan di Pengadilan Negeri di luar pulau asal Anda. Dalam pergaulan kantor, pegawai lokal sering bercanda menggunakan bahasa daerah setempat saat makan siang bersama sehingga Anda merasa agak terasing. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menunjukkan minat belajar kosakata daerah secara santai sembari mengajak mereka tetap hangat berkomunikasi bersama.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menarik diri dan memilih selalu makan siang sendirian di ruang kerja supaya tidak merasa canggung di tengah mereka.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menegur mereka di meja makan agar selalu menggunakan bahasa Indonesia bahkan di luar jam kerja dan obrolan santai.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Mendiamkan saja obrolan mereka dan hanya ikut tersenyum sopan meskipun tidak memahami isi pembicaraannya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta satu rekan yang paling dekat untuk menerjemahkan sesekali obrolan lucu mereka ketika sedang berkumpul.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Sosial Budaya: Keterbukaan mempelajari budaya dan bahasa daerah tempat tugas mempercepat adaptasi sosial serta mempererat keakraban tim. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_018",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bertugas di Kejaksaan Negeri yang berada di wilayah dengan tradisi musyawarah adat sangat kuat. Saat sosialisasi hukum waris negara, sebagian warga menyatakan lebih nyaman mengikuti pembagian waris adat yang sudah turun-temurun. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyatakan bahwa hukum adat sudah ketinggalan zaman dan seluruh warga desa wajib mengikuti aturan tertulis pengadilan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menghentikan penyuluhan hukum waris nasional karena menganggap masyarakat desa tidak membutuhkan penjelasan hukum negara.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Membagikan buku ringkasan undang-undang waris nasional kepada kepala desa tanpa melakukan dialog langsung dengan warga.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Menghormati kearifan adat setempat sambil menjelaskan titik temu serta perlindungan hukum negara agar adil bagi ahli waris.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mendengarkan pendapat warga hingga selesai lalu menyampaikan bahwa pilihan hukum sepenuhnya menjadi tanggung jawab keluarga.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Sosial Budaya: Menghargai hukum yang hidup di masyarakat (living law) sambil mengedukasi prinsip keadilan hukum negara mencerminkan kepekaan kultural. [Bobot: A(1), B(2), C(3), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_019",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Di Lembaga Pemasyarakatan (Lapas) tempat Anda bertugas, terdapat warga binaan dari berbagai agama. Menjelang hari besar keagamaan salah satu kelompok minoritas, mereka berharap tetap dapat melaksanakan ibadah khidmat dengan fasilitas layak. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak permohonan fasilitas ibadah karena jumlah warga binaan pemeluk agama tersebut sangat sedikit di dalam Lapas.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memfasilitasi ruang ibadah yang aman dan berkoordinasi dengan penyuluh agama terkait sesuai hak pembinaan kepribadian.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mempersilakan mereka beribadah di sudut kamar hunian masing-masing saja tanpa perlu menyediakan ruang kegiatan khusus.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengizinkan ibadah digelar di aula utama dengan syarat seluruh warga binaan hanya duduk diam tanpa perlengkapan ritual.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mencatat permohonan tersebut untuk diajukan pada rapat evaluasi pembinaan bulan depan setelah hari raya terlewati.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Sosial Budaya: Pemenuhan hak beribadah bagi seluruh warga binaan tanpa memandang jumlah pemeluk adalah wujud toleransi dan keadilan konstitusional. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_020",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda pegawai Dinas Kesehatan yang melakukan edukasi gizi ibu hamil di desa pesisir. Sebagian warga memiliki pantangan makan ikan laut jenis tertentu karena mitos turun-temurun, padahal sumber protein lokal paling mudah didapat adalah ikan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menertawakan kepercayaan warga tersebut dan menegaskan bahwa mitos leluhur menjadi penyebab utama anak kurang gizi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Membiarkan pantangan tersebut tanpa memberi alternatif sumber gizi lain agar tidak memicu perdebatan dengan tetua desa.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Membagikan suplemen vitamin kemasan saja sebagai pengganti seluruh kebutuhan protein harian ibu hamil di desa.",
+        "poin": 4
+      },
+      {
+        "label": "D",
+        "teks": "Mewajibkan ibu hamil tetap memakan jenis ikan yang dipantangkan tersebut di posyandu agar gizinya cepat terpenuhi.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menghargai keyakinan warga sambil mengenalkan pilihan jenis ikan atau pangan lokal lain yang tidak termasuk pantangan adat.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Sosial Budaya: Komunikasi kesehatan yang peka budaya mencari solusi gizi berbasis kearifan lokal tanpa merendahkan kepercayaan masyarakat. [Bobot: A(1), B(2), C(4), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_021",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Di lingkungan unit kerja Anda, ada tradisi mengumpulkan dana sosial sukarela ketika ada pegawai atau keluarganya yang tertimpa musibah. Seorang rekan baru tampak ragu ikut berpartisipasi karena merasa gajinya masih pas-pasan untuk keluarga di kampung. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memaksanya menyumbang sesuai nominal rata-rata pegawai lain agar tidak dianggap pelit dan kurang peduli sosial.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyindir namanya di grup percakapan kantor sebagai satu-satunya pegawai yang belum menyetor iuran duka bulan ini.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menjelaskan bahwa sumbangan bersifat ikhlas seikhlasnya dan dukungan moral atau doa juga sangat berarti bagi rekan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Mencoret namanya dari daftar solidaritas sosial kantor sehingga kelak ia tidak perlu menerima bantuan serupa juga.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Membayarkan iurannya secara diam-diam tanpa memberitahunya terlebih dahulu supaya daftar nama terlihat penuh terisi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Sosial Budaya: Solidaritas sosial di tempat kerja harus dilandasi ketulusan dan empati terhadap kondisi ekonomi masing-masing individu. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_022",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bekerja di Kantor Imigrasi dan melayani warga negara asing yang menikah dengan WNI lokal. Saat wawancara perpanjangan izin tinggal, rekan Anda berkomentar sinis soal pernikahan campur antarbangsa di ruang kerja. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengingatkan rekan secara santun bahwa pernikahan campur sah menurut hukum dan petugas wajib melayani secara netral.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Ikut tertawa menanggapi komentar sinis rekan tersebut agar suasana meja pemeriksaan terasa lebih akrab dan santai.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan rekan melontarkan komentar pribadi selama ia tetap mencetak izin tinggal pemohon tepat pada waktunya.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Mempersulit wawancara pasangan tersebut dengan pertanyaan tambahan untuk membuktikan kecurigaan rekan kerja Anda.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Mengajak rekan tersebut keluar ruangan sebentar untuk minum kopi agar perhatiannya teralihkan dari pasangan pemohon.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Sosial Budaya: Sikap profesional aparatur negara menghormati hak pribadi lintas budaya dan menjaga layanan bebas prasangka. [Bobot: A(5), B(1), C(3), D(2), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_023",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Sebagai aparatur sipil negara di tingkat kelurahan, Anda diminta mengoordinasikan kerja bakti pembersihan saluran air jelang musim hujan. Sebagian warga baru di klaster perumahan tampak enggan berbaur dengan warga kampung lama. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mewajibkan warga klaster perumahan membayar denda uang kebersihan saja agar tidak perlu turun bersama warga lama.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menegur warga klaster perumahan di forum kelurahan sebagai warga individualis yang tidak menghargai tradisi gotong royong.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan kedua kelompok warga membersihkan wilayahnya masing-masing secara terpisah karena gaya hidup mereka berbeda.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Mengajak pengurus RT kedua kelompok merancang kerja bakti bersama disertai ramah tamah santai untuk mencairkan sekat.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mengedarkan surat edaran jadwal kerja bakti resmi kelurahan melalui grup pesan tanpa pendekatan ke pengurus klaster.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Sosial Budaya: Membangun ruang interaksi gotong royong yang inklusif menjembatani perbedaan sosial antara warga lama dan pendatang. [Bobot: A(2), B(1), C(3), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_024",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bertugas di unit pelayanan hukum yang sering dikunjungi mahasiswa dan peneliti dari berbagai daerah. Seorang rekan kerja tampak kurang sabar menghadapi gaya bicara peneliti dari daerah tertentu yang terdengar keras dan lugas. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Meminta peneliti tersebut mengecilkan suaranya dengan nada ketus karena dianggap tidak sopan berada di kantor negara.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menjelaskan kepada rekan bahwa intonasi keras adalah karakter budaya tutur daerahnya, bukan niat marah atau kasar.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Menunda pelayanan berkas peneliti tersebut hingga rekan kerja Anda merasa emosinya tenang kembali di ruang belakang.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan rekan kerja membalas dengan nada suara tinggi juga agar terjadi komunikasi yang setara di loket layanan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menggantikan posisi rekan melayani peneliti tersebut tanpa memberi pemahaman lintas budaya setelah layanan selesai.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Sosial Budaya: Pemahaman terhadap keragaman gaya komunikasi daerah di Indonesia mencegah salah paham dan menjaga keramahan layanan publik. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_025",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Di Pengadilan Negeri tempat Anda bekerja, sistem persidangan elektronik (e-Court) baru saja diperbarui fiturnya. Beberapa rekan senior tampak ragu menggunakan fitur baru tersebut dan masih meminta pencatatan manual ganda. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan rekan senior tetap memakai cara manual sepenuhnya agar tidak terjadi perdebatan di ruang kepaniteraan.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mengirimkan tautan video tutorial resmi berdurasi panjang ke grup kantor agar mereka tonton sendiri di rumah.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menyampaikan kepada pimpinan bahwa rekan senior menghambat transformasi digital peradilan karena enggan belajar fitur baru.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Mengambil alih seluruh penginputan berkas rekan senior setiap hari tanpa mengajarkan cara menggunakan fiturnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Membuat panduan ringkas bergambar dan mendampingi rekan senior mempraktikkan fitur baru hingga mereka percaya diri.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek TIK: Adaptasi teknologi dan transfer pengetahuan yang sabar kepada rekan kerja mempercepat efektivitas digitalisasi layanan peradilan. [Bobot: A(2), B(4), C(1), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_026",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda pegawai Kejaksaan Negeri yang mengelola basis data barang bukti digital. Saat hendak mengirimkan ringkasan data kasus untuk rapat koordinasi, seorang rekan meminta file tersebut dikirim melalui aplikasi pesan pribadi tanpa kata sandi agar cepat dibuka. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung mengirimkannya melalui aplikasi pesan pribadi agar rapat koordinasi tidak tertunda dan rekan merasa terbantu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengunggah dokumen tersebut ke penyimpanan awan pribadi dengan tautan akses publik supaya mudah diunduh tim rapat.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menolak pengiriman terbuka dan menyalurkan dokumen melalui kanal resmi instansi atau file terenkripsi dengan kata sandi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menunda pengiriman data sampai besok pagi sambil menunggu rekan tersebut datang mengambil cetakan kertasnya di meja.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan tangkapan layar sebagian data saja lewat pesan pribadi agar tidak seluruh isi berkas tersebar di chat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek TIK: Menjaga keamanan informasi dan kerahasiaan data perkara melalui kanal resmi serta enkripsi adalah kewajiban mutlak ASN di era digital. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_027",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Sebagai admin pengelola aplikasi layanan di Kanwil Kemenkumham, Anda menerima banyak laporan warga bahwa formulir pengajuan daring sulit diisi lewat ponsel karena tampilannya terpotong. Langkah perbaikan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengumpulkan detail kendala perangkat, lalu berkoordinasi dengan tim pengembang untuk mengoptimalkan tampilan responsif ponsel.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Mengimbau masyarakat untuk wajib membuka aplikasi layanan menggunakan laptop atau komputer warnet saja agar rapi.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menghapus fitur pengajuan daring sementara waktu dan mengembalikan seluruh permohonan ke sistem berkas kertas.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Mencatat keluhan tersebut dalam laporan bulanan tanpa menindaklanjuti perbaikan antarmuka aplikasi kepada tim IT.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyarankan pemohon mengaktifkan mode situs desktop pada peramban ponselnya setiap kali ada keluhan masuk.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek TIK: Pemanfaatan umpan balik pengguna untuk perbaikan antarmuka sistem (mobile-friendly) memperluas aksesibilitas layanan publik digital. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_028",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda menemukan tautan mencurigakan di email dinas yang mengatasnamakan pembaruan akun kepegawaian nasional dan meminta pengisian ulang kata sandi segera. Beberapa rekan di grup kantor tampak hampir mengklik tautan tersebut. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mencoba mengklik tautan tersebut menggunakan ponsel pribadi untuk memastikan apakah halaman loginnya asli atau palsu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meneruskan email tersebut ke beberapa grup lain sambil menanyakan apakah ada pegawai yang sudah berhasil mengisi datanya.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menghapus email tersebut dari kotak masuk Anda sendiri tanpa memberi tahu rekan kerja lain yang mungkin menerimanya.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Segera memperingatkan rekan di grup agar tidak mengklik tautan serta melaporkannya ke tim keamanan siber atau IT instansi.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mengabaikan email itu dan menyarankan rekan yang bertanya agar mengganti kata sandi bulan depan saat pembaruan rutin.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek TIK: Kewaspadaan terhadap serangan phishing serta pelaporan cepat ke tim IT melindungi sistem kepegawaian instansi dari peretasan. [Bobot: A(1), B(2), C(3), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_029",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Dalam sebuah rapat perencanaan program pemerintah daerah, pimpinan meminta seluruh data capaian triwulan dari lima bidang digabungkan dalam satu dasbor pemantauan waktu nyata. Selama ini tiap bidang menyimpan data dalam file spreadsheet terpisah. Usulan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mempertahankan pengiriman file spreadsheet lewat email tiap akhir bulan karena tim sudah terbiasa dengan cara tersebut.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Merancang templat data terstandar di platform kolaborasi resmi instansi agar pembaruan otomatis terhubung ke dasbor.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Meminta satu orang staf mengetik ulang seluruh file dari lima bidang setiap hari ke dalam satu dokumen presentasi.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Mengusulkan pembelian perangkat lunak berbayar mahal dari luar tanpa memaksimalkan fitur kolaborasi yang sudah ada.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengumpulkan seluruh file di satu folder bersama sambil tetap meminta kepala bidang membuat ringkasan manual tiap pekan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek TIK: Membangun alur kerja digital terstandar dan kolaboratif meningkatkan efisiensi pelaporan serta ketepatan pengambilan keputusan. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_030",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda pegawai perpustakaan atau arsip daerah yang ditugaskan mendigitalisasi ratusan dokumen sejarah lokal agar mudah diakses peneliti. Namun, hasil pindaian awal sering sulit dicari karena penamaan file tidak seragam. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tetap memindai dokumen dengan nama file angka acak bawaan mesin pemindai supaya target jumlah halaman harian cepat tercapai.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengelompokkan file berdasarkan tahun terbit dokumen saja tanpa mencantumkan kata kunci topik maupun judul arsip.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menyimpan seluruh hasil pindaian dalam satu folder besar dan meminta peneliti membuka file satu per satu saat mencari.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menunda proses digitalisasi sampai tersedia anggaran khusus untuk menyewa tenaga ahli indeks arsip dari luar kota.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyusun standar penamaan file, metadata, serta fitur pencarian teks (OCR) sebelum mengunggahnya ke repositori digital.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek TIK: Penataan metadata dan teknologi OCR dalam digitalisasi arsip menjadikan informasi publik benar-benar mudah ditemukan dan bermanfaat. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_031",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Saat mempresentasikan materi sosialisasi layanan baru melalui konferensi video dengan peserta dari puluhan kecamatan, koneksi internet salah satu narasumber utama tiba-tiba terputus di tengah paparan. Sikap Anda sebagai moderator teknis adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung menutup ruang rapat daring karena menganggap acara tidak mungkin dilanjutkan tanpa kehadiran narasumber utama.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Membiarkan ruang rapat hening selama lima belas menit menunggu narasumber berhasil masuk kembali ke dalam panggilan video.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mengambil alih jalannya sesi dengan tanya jawab sementara, menghubungi narasumber lewat jalur cadangan, dan menyiapkan salinan materi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyalahkan penyedia layanan internet kantor di hadapan seluruh peserta kecamatan agar peserta memaklumi gangguan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta seluruh peserta mematikan kamera masing-masing sambil membacakan ulang jadwal acara secara perlahan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek TIK: Kesiapan skenario cadangan dan ketenangan mengelola gangguan rapat daring menjaga kelancaran komunikasi publik jarak jauh. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_032",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda panitera pengganti di Pengadilan Negeri. Menjelang akhir jam kerja hari Jumat, atasan meminta Anda merapikan berita acara sidang mendesak yang harus diunggah malam ini juga, padahal Anda sudah berjanji menghadiri acara keluarga. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyelesaikan berita acara sidang hingga tuntas dan akurat terlebih dahulu, lalu memberi kabar santun kepada keluarga.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menolak tugas tersebut dengan alasan jam kerja resmi sudah selesai dan menyarankan dikerjakan hari Senin pagi saja.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Mengunggah draf berita acara seadanya tanpa memeriksa ulang detail ketikan supaya bisa langsung pulang tepat waktu.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta pegawai honorer di ruangan untuk menggantikan tugas mengetik berita acara sementara Anda pergi ke acara keluarga.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Membawa pulang berkas perkara fisik untuk diketik di rumah di sela-sela acara keluarga berlangsung malam nanti.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Profesionalisme: Mengutamakan tanggung jawab tugas dinas yang mendesak dengan menjaga ketelitian dan akuntabilitas hasil kerja. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_033",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Sebagai analis penuntutan di Kejaksaan Negeri, Anda menemukan kesalahan kecil pada lampiran tabel perhitungan yang sudah telanjur Anda paraf dan diserahkan ke meja kepala seksi satu jam yang lalu. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mendiamkannya saja dengan harapan kepala seksi tidak teliti memeriksa angka lampiran di halaman belakang berkas.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunggu sampai kepala seksi menanyakan kejanggalan angka tersebut barulah Anda mengaku dan memperbaikinya.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menyalahkan staf pengolah data awal apabila di kemudian hari kesalahan perhitungan tersebut ditemukan oleh pimpinan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Segera melapor kepada kepala seksi secara jujur, menarik berkas sementara, dan menyerahkan perbaikan data yang akurat.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Membuat file revisi di komputer tanpa melapor dulu, sambil berencana menggantinya diam-diam bila berkas kembali.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Profesionalisme: Kejujuran mengakui kekeliruan dan kecepatan melakukan koreksi menjaga akurasi serta integritas produk hukum. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_034",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda petugas di Lembaga Pemasyarakatan (Lapas) bagian pembinaan. Seorang keluarga warga binaan yang kebetulan teman lama Anda menyelipkan amplop berisi uang saat bersalaman seusai mengurus izin kunjungan khusus. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menerimanya secara diam-diam karena ia teman lama dan menganggap uang tersebut sekadar tanda terima kasih pribadi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menolaknya dengan tegas namun santun serta menjelaskan bahwa seluruh layanan pemasyarakatan bebas pungutan biaya.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Memintanya memasukkan amplop tersebut ke kotak sumbangan masjid Lapas saja supaya Anda tidak terlihat menerima langsung.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Menerimanya terlebih dahulu agar teman lama tidak tersinggung lalu membelikannya makanan untuk petugas jaga pos.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Menolak amplop itu sambil bercanda memintanya mengganti dengan traktiran makan siang di luar jam dinas nanti.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Profesionalisme: Menolak segala bentuk gratifikasi secara tegas dan sopan menjaga integritas aparatur pemasyarakatan. [Bobot: A(1), B(5), C(3), D(2), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_035",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda ditugaskan mengikuti bimbingan teknis peraturan pengadaan barang dan jasa terbaru selama tiga hari. Setelah kembali ke kantor, Anda melihat prosedur di unit kerja Anda masih memakai aturan lama yang sudah dicabut. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengikuti kebiasaan lama di kantor saja supaya tidak dianggap sok tahu oleh rekan-rekan yang lebih senior.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menerapkan aturan baru hanya untuk berkas yang Anda kerjakan sendiri tanpa memberi tahu rekan satu tim lainnya.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Mengkritik keras kepala subbagian di depan rapat karena lalai memperbarui pedoman kerja unit selama ini.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyimpan modul bimbingan teknis tersebut di laci meja kerja sebagai arsip pribadi bila sewaktu-waktu ditanya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyusun ringkasan perubahan aturan dan mengusulkan penyesuaian SOP unit kerja kepada atasan serta tim terkait.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Profesionalisme: Mengaplikasikan hasil pelatihan untuk pembaruan tata kelola unit kerja menunjukkan komitmen belajar dan perbaikan berkelanjutan. [Bobot: A(2), B(4), C(1), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_036",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda bekerja di bagian keuangan dinas daerah. Rekan kerja Anda mengajak menunda pencatatan realisasi anggaran kegiatan lapangan hingga bulan depan agar laporan serapan anggaran triwulan ini tampak rapi sesuai target atasannya. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyetujui ajakan tersebut demi menjaga kekompakan tim keuangan dan melindungi penilaian kinerja atasan langsung.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyarankan rekan menunda sebagian kecil kuitansi saja agar penyimpangan tanggal pencatatan tidak terlalu mencolok.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menolak secara tegas dan tetap mencatat seluruh transaksi keuangan sesuai tanggal kejadian sebenarnya serta bukti sah.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Meminta rekan tersebut menandatangani sendiri berkas laporan triwulan sementara Anda mengambil cuti beberapa hari.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengingatkan rekan tentang risiko temuan audit lalu menyerahkan keputusan akhir pencatatan kepada bendahara utama.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Profesionalisme: Akuntabilitas pelaporan keuangan tidak boleh dikompromikan demi pencitraan target jangka pendek. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_037",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Pimpinan memberi Anda dua penugasan penting dengan tenggat waktu hampir bersamaan: menyusun telaah kebijakan baru dan mendampingi tim audit eksternal. Kedua tugas membutuhkan fokus tinggi. Cara Anda mengelolanya adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memetakan prioritas jadwal, menyiapkan dokumen audit terstruktur, dan berkonsultasi dengan atasan bila perlu pembagian dukungan.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Mengerjakan tugas yang lebih disukai terlebih dahulu lalu membiarkan tugas lainnya melewati tenggat waktu yang ditetapkan.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Mengeluh di grup kantor bahwa beban kerja pimpinan tidak manusiawi dan meminta tugas telaah dialihkan ke pegawai lain.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengerjakan keduanya secara tergesa-gesa di malam hari terakhir tanpa memeriksa kelengkapan data pendukung audit.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memfokuskan diri penuh pada pendampingan audit lalu menyalin telaah kebijakan tahun sebelumnya dengan sedikit ubahan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Profesionalisme: Manajemen waktu, pemetaan prioritas, dan komunikasi proaktif dengan atasan memastikan kualitas kedua tugas tetap terjaga. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_038",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Sebagai pegawai Kantor Imigrasi yang bertugas memeriksa keabsahan dokumen pemohon paspor, Anda menemukan kejanggalan tanggal lahir antara KTP dan akta kelahiran pemohon yang mengaku sedang terburu-buru berangkat berobat ke luar negeri. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Meloloskan penerbitan paspornya dengan memilih salah satu tanggal lahir agar pemohon tidak ketinggalan jadwal berobat.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menolak permohonan secara singkat tanpa memberi tahu cara mengurus surat keterangan atau perbaikan data di Dukcapil.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menuduh pemohon sengaja memalsukan identitas di hadapan pengunjung lain dan langsung menahan seluruh berkas aslinya.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menjelaskan dengan empati perlunya verifikasi atau perbaikan data kependudukan sesuai ketentuan demi keamanan dokumennya.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Meminta pemohon menulis surat pernyataan pribadi di atas meterai bahwa data yang benar adalah tanggal di KTP saja.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Profesionalisme: Ketegasan menjaga validitas dokumen negara yang dipadukan dengan empati dan arahan solusi prosedural. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_039",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda pegawai Pengadilan Negeri. Di grup pesan alumni kampus yang berisi beberapa ASN muda, seorang anggota membagikan artikel yang menyebut hukum positif Indonesia tidak sah dan mengajak aparatur negara menolaknya dari dalam sistem. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Ikut membagikan artikel tersebut ke grup kantor untuk memancing diskusi bebas mengenai sistem hukum di Indonesia.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meluruskan secara santun bahwa ASN terikat sumpah setia pada Pancasila serta UUD 1945 dan melaporkan bila ada indikasi terlarang.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Segera keluar dari grup alumni tanpa berkomentar apa pun supaya nama Anda tidak ikut terbawa dalam diskusi tersebut.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Mendiamkan unggahan tersebut karena menganggap setiap alumni memiliki kebebasan penuh berpendapat di ruang grup pribadi.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Menghubungi pengirim artikel secara pribadi untuk menasihatinya agar berhati-hati mengunggah konten sensitif di grup.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Anti Radikalisme: Meneguhkan komitmen konstitusi dan mencegah infiltrasi paham penolakan negara di kalangan ASN secara tegas dan santun. [Bobot: A(1), B(5), C(3), D(2), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_040",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Sebagai jaksa yang bertugas dalam program penyuluhan hukum di sekolah menengah, Anda mendapati seorang siswa bertanya apakah aksi kekerasan dibenarkan jika bertujuan membela keyakinan kelompoknya dari penghinaan. Jawaban terbaik Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyarankan siswa mendiskusikan pertanyaan sensitif tersebut bersama guru agama di sekolah saja setelah acara penyuluhan selesai.",
+        "poin": 4
+      },
+      {
+        "label": "B",
+        "teks": "Membenarkan tindakan kekerasan terbatas apabila pelaku penghinaan tidak segera meminta maaf kepada kelompok tersebut.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Mengalihkan pertanyaan siswa tersebut ke topik bahaya narkotika karena isu kekerasan berbasis keyakinan terlalu sensitif.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menjawab singkat bahwa hal itu bergantung pada situasi di lapangan dan menyerahkan penilaiannya kepada tokoh setempat.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menegaskan bahwa negara hukum melarang keras segala bentuk kekerasan main hakim sendiri dan menyediakan jalur hukum adil.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Anti Radikalisme: Edukasi supremasi hukum dan penolakan terhadap kekerasan atas nama keyakinan membentengi generasi muda dari radikalisme. [Bobot: A(4), B(1), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_041",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda bertugas di Lembaga Pemasyarakatan (Lapas) yang juga membina narapidana kasus terorisme. Seorang rekan petugas baru tampak enggan berkomunikasi dengan warga binaan tersebut karena menganggap mereka tidak mungkin berubah. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyetujui sikap rekan tersebut dan menyarankan agar warga binaan kasus terorisme selalu diisolasi total tanpa pembinaan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meminta rekan petugas baru tersebut bertukar jadwal jaga ke pos luar saja agar tidak berinteraksi dengan warga binaan.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menjelaskan peran program deradikalisasi yang terukur dan mengajak rekan tetap bersikap profesional serta waspada sesuai SOP.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan rekan bersikap acuh tak acuh selama tidak terjadi pelanggaran keamanan fisik di dalam blok hunian.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Menyarankan rekan membaca laporan perkembangan psikologis warga binaan tanpa memberinya arahan teknik pendekatan humanis.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Anti Radikalisme: Pembinaan deradikalisasi yang humanis, terukur, dan waspada merupakan strategi efektif memulihkan kesadaran kebangsaan. [Bobot: A(1), B(3), C(5), D(2), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_042",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Di kantor instansi tempat Anda bekerja, seorang rekan kerja mengajak pegawai lain menghadiri kajian tertutup di luar jam kantor yang ternyata materi utamanya mengajarkan kebencian terhadap kelompok agama berbeda serta meremehkan simbol negara. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak ajakan secara tegas, mengingatkan bahaya ajaran intoleran, serta melaporkan indikasi penyebaran paham itu ke atasan.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Tetap mengikuti kajian tersebut secara rutin demi menjaga hubungan pertemanan baik dengan rekan satu ruangan kerja.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menolak hadir dengan alasan sibuk urusan keluarga namun tidak mengingatkan rekan lain yang ikut diajak menghadirinya.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan kegiatan itu berjalan karena berlangsung di luar jam dinas dan bukan di dalam gedung kantor pemerintah.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Mengajak rekan tersebut berdiskusi empat mata mengenai wawasan kebangsaan tanpa melaporkan temuan materi ke unit pengawas.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Anti Radikalisme: Penolakan tegas terhadap paham intoleran dan anti-NKRI serta pelaporan berjenjang melindungi lingkungan ASN dari paparan radikalisme. [Bobot: A(5), B(1), C(3), D(2), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_043",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda bekerja di Dinas Kominfo daerah dan menemukan akun media sosial anonim yang menyebarkan kabar bohong bahwa pembangunan rumah ibadah minoritas di daerah Anda merupakan upaya penjajahan terselubung. Komentar warga mulai memanas. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengabaikan unggahan tersebut karena akun anonim di media sosial dianggap tidak mewakili suara resmi masyarakat daerah.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menunggu sampai terjadi aksi unjuk rasa di lapangan barulah membuat siaran pers resmi pemerintah daerah.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Membalas komentar di akun tersebut menggunakan akun pribadi dengan kata-kata keras agar penyebar isu merasa takut.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Melakukan verifikasi fakta, melaporkannya ke kanal aduan konten resmi serta tim siber, dan menyiapkan klarifikasi penyejuk.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menyimpan tangkapan layar unggahan tersebut dalam laporan mingguan tanpa berkoordinasi cepat dengan FKUB maupun aparat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Anti Radikalisme: Deteksi dini, pelaporan kanal resmi, dan narasi klarifikasi yang menenangkan mencegah provokasi SARA berubah menjadi konflik sosial. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_044",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Sebagai panitia seleksi pengadaan tenaga pendukung di kantor pemerintah, Anda mendapati salah satu calon pelamar memiliki riwayat aktif mengunggah konten dukungan terhadap organisasi terlarang yang menentang ideologi Pancasila. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tetap meloloskannya apabila nilai tes keterampilannya paling tinggi karena urusan ideologi dianggap ranah pribadi pelamar.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Melakukan verifikasi objektif rekam jejak digital sesuai ketentuan seleksi serta melaporkannya ke tim penilai berwenang.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Langsung menyebarkan tangkapan layar akun media sosial pelamar tersebut ke grup publik untuk memberi efek jera sosial.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan proses seleksi berjalan normal dan berencana mengawasi kinerjanya nanti saja apabila ia sudah diterima.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menghubungi pelamar secara pribadi untuk memintanya menghapus seluruh unggahan lama sebelum rapat penentuan hasil akhir.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Anti Radikalisme: Penelusuran rekam jejak yang objektif dan akuntabel memastikan aparatur serta tenaga pendukung negara setia pada Pancasila. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_045",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda adalah ASN di lingkungan pemerintah kecamatan. Menjelang peringatan HUT Kemerdekaan RI, seorang tokoh kelompok tertentu mengimbau warga RT setempat untuk tidak memasang bendera Merah Putih dengan alasan tidak ada contohnya dalam ajaran mereka. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan imbauan tersebut agar tidak memicu ketegangan dengan tokoh kelompok itu menjelang hari kemerdekaan.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mengirimkan surat edaran pemasangan bendera dari camat melalui ketua RT tanpa melakukan pendekatan dialog langsung.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Memarahi warga RT yang belum memasang bendera di depan umum dan menuduh mereka sebagai pengkhianat bangsa.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Memasang bendera sendiri di jalan utama kecamatan saja tanpa mengedukasi warga di lingkungan RT tersebut.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mendatangi tokoh tersebut bersama perangkat desa dan tokoh agama moderat untuk berdialog persuasif tentang makna kebangsaan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Anti Radikalisme: Pendekatan dialogis bersama tokoh masyarakat dan agama meluruskan pemahaman keliru tentang nasionalisme secara damai dan persuasif. [Bobot: A(2), B(4), C(1), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_046",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di loket informasi Pengadilan Agama. Seorang pemohon gugatan cerai tampak bingung dan berkali-kali salah mengisi formulir karena tingkat literasi membacanya terbatas. Beberapa pengunjung di belakangnya mulai mengeluh antrean lama. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memintanya mundur dari antrean dan menyuruhnya mencari orang lain di luar gedung untuk menuliskan formulirnya.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mengisinya sendiri secara acak tanpa menanyakan detail fakta kepadanya supaya berkas cepat masuk ke nomor antrean.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Mengarahkannya dengan sabar ke meja layanan bantuan pengisian formulir agar tetap terbantu tanpa menahan antrean loket.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyuruhnya pulang terlebih dahulu untuk meminta bantuan kepala desa atau perangkat kelurahan mengisi formulir.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Tetap melayaninya pelan-pelan di loket utama meski antrean di belakang semakin panjang dan tidak terurai.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Pelayanan Publik: Mengarahkan warga dengan keterbatasan literasi ke meja pendampingan menjaga kualitas bantuan sekaligus kelancaran antrean umum. [Bobot: A(2), B(1), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_047",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas pelayanan tilang di Kejaksaan Negeri, Anda menghadapi lonjakan pelanggar lalu lintas yang ingin mengambil SIM atau STNK pada hari yang sama. Beberapa pelanggar mencoba menyelak antrean dengan alasan sedang terburu-buru bekerja. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menegakkan urutan nomor antrean secara adil dengan penjelasan sopan, serta membuka loket tambahan bila petugas tersedia.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Melayani pelanggar yang menyelak lebih dulu supaya mereka cepat pergi dan tidak membuat keributan di depan loket.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Memarahi pelanggar yang menyelak dengan suara keras di depan umum agar menjadi pelajaran bagi pengunjung lainnya.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menutup loket selama sepuluh menit sampai seluruh pengunjung di ruang tunggu mau berbaris rapi dengan sendirinya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta petugas keamanan mengusir pelanggar yang memaksa maju tanpa memberi penjelasan mengenai estimasi waktu tunggu.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Pelayanan Publik: Keadilan antrean yang dijaga secara santun dan solusi percepatan kapasitas loket mencerminkan pelayanan publik berkualitas. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_048",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bekerja di loket layanan paspor Kantor Imigrasi. Seorang pemohon datang dengan jadwal wawancara pagi, namun ternyata ia salah memilih lokasi kantor cabang saat mendaftar di aplikasi M-Paspor. Ia memohon tetap dilayani hari itu karena tiket pesawatnya mendesak. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung memproses permohonannya di sistem kantor Anda tanpa menghiraukan aturan kuota lokasi pendaftaran resmi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menolak mentah-mentah tanpa menjelaskan cara menjadwal ulang atau mengecek syarat layanan percepatan resmi yang ada.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Meminta pemohon menelepon pusat panggilan sendiri di luar ruang layanan untuk menyelesaikan masalah jadwalnya.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Menjelaskan ketentuan kuota lokasi dengan empati lalu membantu mengarahkan opsi resmi pengajuan ulang atau percepatan.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menyuruhnya pergi ke kantor imigrasi cabang yang dipilihnya di aplikasi tanpa mengecek apakah masih sempat terlayani.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Pelayanan Publik: Menjelaskan aturan secara empatik sambil memberi panduan opsi solusi resmi membantu pemohon tanpa melanggar prosedur. [Bobot: A(1), B(2), C(3), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_049",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di bagian pendaftaran layanan rawat jalan Puskesmas. Sistem antrean elektronik tiba-tiba mati akibat pemadaman listrik lokal dan genset sedang dalam perawatan. Puluhan pasien menunggu kepastian giliran pemeriksaan. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menghentikan seluruh pendaftaran pasien hari itu hingga aliran listrik PLN menyala kembali tanpa batas waktu pasti.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Segera beralih ke pencatatan antrean manual berurutan sambil memanggil pasien dengan pengeras suara secara tertib.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mempersilakan pasien masuk ke ruang dokter siapa saja yang paling dekat pintu agar pemeriksaan tetap berjalan cepat.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta seluruh pasien menunggu di halaman luar puskesmas sampai teknisi listrik selesai memperbaiki genset kantor.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Melayani pasien yang sudah memegang kertas antrean tercetak saja sementara pasien baru diminta datang besok pagi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Pelayanan Publik: Kecepatan beradaptasi dengan mekanisme darurat manual menjaga keberlangsungan layanan kesehatan bagi masyarakat. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_050",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas layanan pengaduan di kantor pemerintah daerah, Anda menerima warga yang mengeluhkan jalan berlubang di wilayahnya, padahal kewenangan perbaikan jalan tersebut berada di tingkat provinsi, bukan kabupaten. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengatakan bahwa hal itu bukan urusan kantor Anda dan menyuruh warga mencari sendiri alamat kantor dinas provinsi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memberikan nomor telepon umum kantor dinas provinsi kepada warga tanpa mencatat laporan maupun membantu penerusan.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menjanjikan bahwa dinas kabupaten akan langsung menambal jalan tersebut besok pagi agar warga merasa puas dan pulang.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menyarankan warga menulis keluhannya di media sosial agar cepat viral dan mendapat perhatian pejabat provinsi terkait.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menerima laporannya dengan baik, menjelaskan pembagian kewenangan, serta membantu meneruskannya ke kanal dinas provinsi.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Pelayanan Publik: Tidak melempar tanggung jawab, tetapi memberi penjelasan akurat dan membantu menghubungkan aduan ke instansi berwenang. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_051",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bekerja di Kantor Pertanahan (BPN). Seorang warga mengeluh karena sertifikat tanahnya belum terbit melewati estimasi waktu yang tertera pada papan standar pelayanan akibat adanya koreksi batas bidang. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyalahkan petugas ukur lapangan di hadapan warga tersebut supaya warga tidak memarahi Anda di loket penyerahan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyarankan warga untuk bersabar saja tanpa mengecek status berkas di sistem karena antrean sertifikat memang banyak.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Meminta maaf atas keterlambatan, menjelaskan posisi progres terkini secara jujur, serta mengawal jadwal penyelesaiannya.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menjanjikan sertifikat pasti selesai besok siang padahal Anda belum mengonfirmasi kesiapan penandatanganan pejabat.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta warga meninggalkan nomor ponsel saja agar nanti dihubungi bagian tata usaha bila sertifikat sudah selesai.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Pelayanan Publik: Kejujuran informasi progres, permohonan maaf yang tulus, dan pengawalan tindak lanjut memulihkan kepercayaan warga. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_052",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di layanan konsultasi administrasi badan hukum (AHU) Kanwil Kemenkumham. Seorang pengurus yayasan sosial datang dengan berkas persyaratan yang masih banyak kekurangan. Ia tampak kelelahan dan bingung memahami istilah hukum di formulir. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menandai poin kekurangan secara jelas dengan bahasa sederhana serta memberi daftar periksa terurut agar mudah dilengkapi.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Memintanya menyewa jasa notaris atau konsultan hukum dulu sebelum kembali bertanya di meja konsultasi Kanwil.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menyerahkan bundel peraturan menteri setebal puluhan halaman agar ia membaca sendiri seluruh ketentuan pendirian yayasan.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyebutkan kekurangan berkasnya secara lisan dengan cepat lalu segera memanggil nomor antrean pemohon berikutnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyarankannya melihat contoh format berkas yayasan lain yang sudah disetujui tanpa menjelaskan perbedaannya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Pelayanan Publik: Memberikan panduan tertulis yang mudah dipahami (checklist) memberdayakan pemohon menyelesaikan syarat dengan benar. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_053",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas tata usaha sekolah negeri, Anda melayani orang tua siswa yang mengurus surat keterangan pindah sekolah anaknya. Karena ada tunggakan buku perpustakaan yang belum dikembalikan, prosedur mengharuskan penyelesaian administrasi perpustakaan dulu. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menahan seluruh berkas pindah dengan nada ketus sampai orang tua tersebut mengganti buku dengan uang tunai saat itu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meminta orang tua datang lagi minggu depan setelah mengurus sendiri surat keterangan bebas pustaka ke ruang perpustakaan.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Langsung mengeluarkan surat pindah tanpa mengecek status perpustakaan agar orang tua tersebut cepat meninggalkan ruang TU.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menjelaskan prosedur bebas pustaka secara santun dan langsung menghubungkannya dengan petugas perpustakaan agar cepat tuntas.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menyuruh siswa yang bersangkutan saja mengurus pengembalian buku sementara orang tua menunggu lama di luar ruang TU.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Pelayanan Publik: Menjelaskan ketentuan dengan sopan sambil membantu memfasilitasi koordinasi antar-unit mempercepat urusan warga. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_054",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Pengadilan Negeri yang mengelola layanan terpadu bersama Dinas Kependudukan dan Kemenag untuk penerbitan dokumen pasca putusan perkawinan. Saat hari pelaksanaan, petugas salah satu instansi mitra datang terlambat membawa perangkat cetak. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membatalkan seluruh layanan terpadu hari itu dan mengumumkan kepada warga bahwa kesalahan ada pada instansi mitra.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menjalankan tahapan verifikasi berkas yang sudah siap terlebih dahulu sambil berkoordinasi cepat memastikan perangkat tiba.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan warga menunggu di aula tanpa aktivitas apa pun sampai seluruh petugas mitra lengkap dan siap seratus persen.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menegur petugas instansi mitra di depan warga yang sedang menunggu agar mereka merasa jera dan disiplin di lain waktu.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memproses bagian pengadilan saja lalu meminta warga datang sendiri ke kantor instansi mitra minggu depan untuk cetaknya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Jejaring Kerja: Menjaga kelancaran alur kerja bersama dan menutupi kendala mitra secara profesional menjaga kepercayaan publik. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_055",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai jaksa yang tergabung dalam tim penanganan tindak pidana korupsi lintas instansi bersama BPKP dan penyidik kepolisian, Anda melihat ada perbedaan metode penghitungan awal kerugian negara antara kedua lembaga tersebut. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memilih angka hitungan yang paling besar saja tanpa mengundang kedua tim ahli untuk menyelaraskan metodologinya.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengikuti saja angka hitungan awal penyidik supaya berkas perkara bisa segera dilimpahkan ke pengadilan bulan ini.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Mengembalikan berkas kepada penyidik secara tertulis berulang kali tanpa ikut memfasilitasi pertemuan dengan auditor.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta auditor dan penyidik menyelesaikan sendiri perbedaan hitungannya sebelum menghubungi pihak kejaksaan lagi.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menginisiasi gelar perkara dan ekspos bersama penyidik serta auditor untuk menyepakati dasar pembuktian yang kuat.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Jejaring Kerja: Ekspos bersama antar-penegak hukum dan auditor memastikan kesamaan persepsi pembuktian hukum yang akuntabel. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_056",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bertugas di Kantor Wilayah Kemenkumham yang menyelenggarakan klinik kekayaan intelektual bersama dinas koperasi dan perguruan tinggi. Menjelang acara, jumlah pendaftar UMKM membeludak melebihi kapasitas konsultan yang disiapkan kantor Anda. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak kelebihan pendaftar UMKM di pintu masuk karena kuota konsultan internal kantor sudah penuh seluruhnya.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mempersingkat waktu konsultasi tiap UMKM menjadi dua menit saja meskipun materi pendaftaran belum dipahami peserta.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Berkoordinasi dengan sentra HKI perguruan tinggi mitra dan dinas koperasi untuk menambah tenaga pendamping terlatih.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Membatalkan sesi konsultasi tatap muka dan hanya membagikan tautan formulir pendaftaran daring kepada seluruh peserta.",
+        "poin": 1
+      },
+      {
+        "label": "E",
+        "teks": "Menjanjikan jadwal konsultasi susulan bulan depan bagi peserta yang tidak kebagian giliran pada acara hari ini.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Jejaring Kerja: Mengoptimalkan jaringan mitra akademis dan dinas terkait memperluas kapasitas layanan saat permintaan tinggi. [Bobot: A(2), B(3), C(5), D(1), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_057",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Dinas Lingkungan Hidup yang berkoordinasi dengan perusahaan kawasan industri untuk pemantauan kualitas air sungai. Salah satu manajer perusahaan tampak defensif karena khawatir data uji lab akan langsung dipakai untuk menjatuhkan sanksi. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membangun komunikasi transparan bahwa pemantauan bertujuan pembinaan kepatuhan bersama serta melibatkan tim teknis perusahaan.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Mengancam perusahaan tersebut akan mencabut izin lingkungannya apabila menolak pengambilan sampel air hari itu juga.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Mengambil sampel air secara diam-diam di luar area pabrik tanpa memberitahu manajemen perusahaan sama sekali.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menunda pengambilan sampel di perusahaan tersebut dan hanya memeriksa pabrik lain yang lebih kooperatif saja.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyerahkan surat tugas pengawasan kepada satpam pabrik dan meminta perusahaan mengirimkan sendiri sampel airnya nanti.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Jejaring Kerja: Pendekatan kolaboratif dan transparan dalam pengawasan mendorong kepatuhan sukarela mitra industri terhadap baku mutu. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_058",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai pegawai bagian kepegawaian di sebuah instansi, Anda diminta menyusun modul pelatihan bersama tim diklat dari pusat. Namun, komunikasi sering terhambat karena adanya perbedaan jadwal rapat dan kurangnya pembaruan progres kerja antar-tim. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengerjakan seluruh modul secara sepihak di daerah lalu mengirimkannya langsung saat sudah jadi tanpa diskusi tim pusat.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mengeluhkan lambatnya respons tim pusat kepada atasan langsung di daerah agar atasan yang menegur mereka.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menunggu tim diklat pusat menghubungi Anda terlebih dahulu setiap kali ada bagian modul yang perlu direvisi.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyepakati jadwal check-in mingguan singkat dan papan pemantauan progres bersama agar kedua tim selalu selaras.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan email pengingat setiap dua minggu sekali tanpa menyepakati pembagian tenggat waktu tiap bab modul.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Jejaring Kerja: Menetapkan ritme komunikasi dan pelacakan progres bersama mencegah miskomunikasi dalam tim lintas unit. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_059",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bertugas di Balai Pemasyarakatan (Bapas) yang menangani pendampingan warga binaan lanjut usia tanpa keluarga. Untuk memastikan ia mendapat tempat tinggal dan perawatan layak setelah bebas nanti, langkah jejaring kerja terbaik Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Melepas klien di gerbang Lapas pada hari kebebasannya karena tanggung jawab pembinaan di dalam sudah berakhir.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Berkoordinasi sejak dini dengan Dinas Sosial, panti werdha pemerintah, dan lembaga sosial guna penempatan pasca-bebas.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Meminta klien mencari sendiri panti jompo terdekat setelah ia menerima surat keterangan bebas bersyarat dari kantor.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengumpulkan sumbangan uang pribadi dari sesama pegawai Bapas untuk ongkos pulang klien ke desa asalnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan surat pemberitahuan pembebasan klien kepada ketua RT tempat tinggal lamanya sehari sebelum hari bebas.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Jejaring Kerja: Sinergi lintas lembaga sosial sejak masa persiapan bebas menjamin perlindungan hak kemanusiaan klien rentan. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_060",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Dinas Perdagangan yang menjadi panitia pameran produk unggulan daerah di tingkat provinsi bersama beberapa kabupaten tetangga. Saat persiapan stan, terjadi keterbatasan pasokan listrik sementara dan dua daerah berebut titik sambungan daya. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengambil seluruh titik daya listrik untuk stan kabupaten Anda sendiri karena Anda datang lebih awal ke lokasi pameran.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mematikan lampu hias stan kabupaten lain secara diam-diam saat mereka sedang meninggalkan area pameran.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan petugas stan kabupaten lain berdebat dengan pengelola gedung sementara Anda fokus menata produk sendiri.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Melaporkan panitia penyelenggara provinsi ke pimpinan daerah karena dianggap gagal menyediakan fasilitas pameran.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengajak koordinator stan kabupaten lain dan pengelola gedung mengatur pembagian daya bergilir serta panel tambahan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Jejaring Kerja: Semangat berbagi dan mencari solusi teknis bersama antar-mitra menjaga keharmonisan serta kelancaran acara bersama. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_061",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bekerja di unit pengadaan barang/jasa pemerintah yang sering mengalami keterlambatan penyerahan hasil pekerjaan dari penyedia lokal karena mereka kurang memahami prosedur serah terima elektronik. Langkah konstruktif Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung memutus kontrak setiap penyedia lokal yang terlambat mengunggah dokumen meski pekerjaan fisik sudah selesai.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengerjakan sendiri seluruh unggahan dokumen atas nama penyedia di komputer kantor supaya pencairan tidak terlambat.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mengadakan sosialisasi tata cara administrasi elektronik bersama asosiasi penyedia lokal serta membuka kanal konsultasi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Meminta penyedia lokal belajar sendiri dari video di internet tanpa menyediakan panduan khusus dari unit pengadaan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memilih bekerja sama dengan penyedia dari luar daerah saja pada tahun anggaran berikutnya agar administrasi lebih mudah.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Jejaring Kerja: Pembinaan dan komunikasi aktif dengan mitra penyedia meningkatkan kepatuhan administrasi sekaligus memberdayakan ekonomi lokal. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_062",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda ditugaskan di Pengadilan Negeri yang berada di wilayah dengan mayoritas penduduk beragama berbeda dengan keyakinan Anda. Menjelang hari raya besar warga setempat, kantor mengadakan kegiatan kerja bakti lingkungan bersama warga sekitar pengadilan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Turut serta aktif dalam kerja bakti lingkungan sebagai wujud solidaritas sosial tanpa mencampuradukkan urusan akidah.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Memilih izin tidak hadir dengan alasan tidak merayakan hari raya tersebut sehingga tidak berkewajiban ikut kerja bakti.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Hadir sebentar saja di awal acara untuk mengisi daftar hadir pegawai lalu segera pulang sebelum kegiatan dimulai.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Mengkritik panitia kantor karena mengadakan kerja bakti sosial menjelang perayaan hari besar agama warga sekitar.",
+        "poin": 1
+      },
+      {
+        "label": "E",
+        "teks": "Menyumbangkan air minum kemasan saja untuk peserta kerja bakti tanpa ikut turun berinteraksi dengan warga sekitar.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Sosial Budaya: Partisipasi aktif dalam kegiatan sosial kemasyarakatan lintas iman mempererat kerukunan tanpa mengganggu keyakinan pribadi. [Bobot: A(5), B(2), C(3), D(1), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_063",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Di ruang kerja Kejaksaan Negeri tempat Anda bertugas, terdapat seorang pegawai yang memiliki kebiasaan berbicara sangat pelan dan pemalu karena latar belakang budaya keluarganya. Akibatnya, dalam rapat tim pendapatnya sering terabaikan oleh rekan lain yang lebih vokal. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan saja kondisinya karena dalam dunia kerja siapa yang berani berbicara keras itulah yang idenya didengar.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menertawakan suara pelannya bersama rekan lain secara santai supaya ia terdorong untuk berbicara lebih lantang.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menyarankannya untuk tidak usah ikut berbicara di rapat besar dan cukup menjadi notulis rapat tim saja setiap pekan.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Memberinya kesempatan berbicara saat rapat, mendengarkan dengan saksama, dan mengapresiasi gagasan baik yang disampaikannya.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Memintanya menuliskan seluruh pendapatnya di kertas catatan lalu menyerahkannya kepada Anda untuk dibacakan di rapat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Sosial Budaya: Budaya kerja yang inklusif memberi ruang setara bagi setiap karakter dan latar belakang budaya pegawai untuk berkontribusi. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_064",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bertugas di Kantor Imigrasi dan melayani permohonan paspor dari sebuah rombongan peziarah atau wisatawan lintas generasi yang dipimpin oleh seorang tetua. Tetua tersebut ingin menjawab seluruh pertanyaan wawancara menggantikan anggota keluarganya yang masih muda. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menegur tetua tersebut secara keras agar diam dan tidak ikut campur menjawab pertanyaan wawancara petugas imigrasi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menghormati peran tetua dengan ramah sambil menjelaskan bahwa verifikasi tujuan perjalanan wajib dikonfirmasi ke tiap pemohon.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan tetua menjawab seluruh pertanyaan untuk semua anggota rombongan supaya proses wawancara berlangsung lebih cepat.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta seluruh anggota rombongan menunggu di luar gedung kecuali satu orang yang sedang duduk di depan meja wawancara.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Tetap melontarkan pertanyaan kepada pemohon muda dengan nada datar tanpa menyapa atau menghargai kehadiran tetuanya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Sosial Budaya: Tata krama menghormati orang yang dituakan dipadukan dengan ketegasan prosedur verifikasi individu menjaga layanan tetap santun dan akurat. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_065",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Sebagai petugas di Rumah Tahanan Negara (Rutan), Anda melihat ada gesekan kecil antar-warga binaan yang berbeda asal daerah karena perbedaan kebiasaan menjaga kebersihan ruang kamar bersama. Langkah pembinaan yang tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung memindahkan kelompok warga binaan pendatang ke sel isolasi agar tidak memicu keributan dengan kelompok lama.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memberikan sanksi menyapu halaman kepada seluruh penghuni kamar tersebut tanpa mencari tahu akar persoalan kebiasaannya.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan mereka menyelesaikan perselisihan kebersihan kamar sendiri asalkan tidak terjadi perkelahian fisik.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengelompokkan kamar hunian secara ketat berdasarkan kesamaan suku dan daerah asal saja agar tidak pernah bergesekan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memfasilitasi dialog antar-warga binaan untuk menyepakati jadwal piket kebersihan bersama yang adil dan saling menghargai.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Sosial Budaya: Mengelola keberagaman di ruang komunal melalui kesepakatan aturan bersama mencegah segregasi sosial dan membangun toleransi. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_066",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bekerja di Dinas Kebudayaan dan Pariwisata yang sedang menyusun kalender acara seni tahunan. Seorang budayawan lokal memprotes karena seni tari tradisionalnya tidak mendapat panggung utama seperti tahun-tahun sebelumnya. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak protesnya dengan alasan panitia dinas berhak penuh menentukan jenis hiburan modern yang paling laku ditonton.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengganti seluruh jadwal pengisi acara modern secara mendadak demi meredam protes dari satu sanggar seni tersebut.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mendengarkan aspirasinya dengan hormat dan mengajak berdiskusi guna menata slot panggung yang adil bagi seni tradisi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Meminta budayawan tersebut mengajukan proposal tertulis untuk dipertimbangkan pada penyelenggaraan festival tahun depan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menawarkan lokasi panggung pinggir yang lebih kecil sebagai kompromi cepat tanpa membahas konsep pelestarian seninya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Sosial Budaya: Menghargai aspirasi pelaku seni tradisi melalui dialog terbuka menjaga keberlanjutan warisan budaya daerah. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_067",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Di lingkungan kantor Anda, terdapat seorang pegawai penyandang disabilitas fisik pengguna kursi roda. Saat kantor mengadakan acara gathering atau makan bersama di luar kantor, panitia memilih lokasi restoran berlantai dua tanpa akses lift atau ramp. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengusulkan penggantian lokasi yang ramah aksesibilitas agar seluruh pegawai tanpa terkecuali dapat ikut menikmati kebersamaan.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Tetap mempertahankan lokasi restoran tersebut karena makanannya enak dan harganya paling sesuai dengan anggaran panitia.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menyarankan rekan penyandang disabilitas tersebut tidak usah ikut datang dan cukup dibawakan nasi kotak ke rumah.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengusulkan agar beberapa pegawai pria saja yang mengangkat kursi rodanya naik ke lantai dua saat acara berlangsung.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menanyakan terlebih dahulu apakah rekan tersebut berencana hadir sebelum panitia memutuskan jadi tidaknya pindah lokasi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Sosial Budaya: Kepedulian terhadap aksesibilitas penyandang disabilitas memastikan seluruh anggota tim merasa dihargai dan setara. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_068",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bertugas di pemerintah kecamatan yang memfasilitasi penyaluran bantuan sosial bagi warga terdampak kekeringan. Di sebuah dusun, warga terbiasa mengutamakan pembagian berdasarkan urutan status sosial tokoh dusun terlebih dahulu, bukan tingkat kerentanan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengikuti kemauan tradisi dusun tersebut sepenuhnya supaya penyaluran berjalan lancar tanpa penolakan dari tokoh lokal.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Membagikan seluruh bantuan di kantor kecamatan saja agar tidak terpengaruh oleh tatanan adat pembagian warga dusun.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menegur tokoh dusun di depan warga karena dianggap egois mendahulukan status sosial di atas penderitaan warga miskin.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menghormati tokoh dusun dengan melibatkan mereka mengawal penyaluran berbasis kriteria kerentanan yang adil dan transparan.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menjelaskan kriteria penerima bantuan secara singkat lalu membiarkan perangkat dusun mengatur sendiri urutan panggilnya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Sosial Budaya: Merangkul tokoh adat sambil menjaga prinsip keadilan sosial negara membuat bantuan tepat sasaran dan diterima baik warga. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_069",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda bekerja di kepaniteraan Pengadilan Tata Usaha Negara (PTUN). Pihak pengadilan meluncurkan fitur antrean sidang daring melalui ponsel, namun banyak pengunjung lansia yang datang tanpa mengetahui cara menggunakannya. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mewajibkan seluruh pengunjung mengunduh aplikasi terlebih dahulu di luar gerbang sebelum diizinkan masuk ruang tunggu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyediakan loket bantuan registrasi cepat di lobi sekaligus infografis visual besar yang mudah dibaca pengunjung.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Menghapus penggunaan aplikasi antrean daring karena dianggap belum cocok diterapkan bagi masyarakat umum di daerah.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta satpam mengarahkan pengunjung lansia menanyakan cara pakai aplikasi kepada pengunjung muda di ruang tunggu.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengisi data antrean di aplikasi menggunakan ponsel pribadi Anda untuk membantu satu atau dua pengunjung yang bertanya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek TIK: Transformasi digital layanan publik harus diimbangi pendampingan inklusif agar kelompok yang belum melek teknologi tetap terlayani. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_070",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda pegawai Kejaksaan Negeri yang bertugas mengelola akun media sosial resmi edukasi hukum kantor. Suatu hari, muncul komentar bernada provokatif dan hoaks tentang sebuah perkara yang sedang ditangani di kolom komentar unggahan instansi. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membalas komentar tersebut dengan kata-kata emosional dan menyindir balik pengguna akun agar tidak berani berkomentar lagi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menghapus komentar tersebut diam-diam setiap malam tanpa melaporkan pola serangan informasi itu kepada pimpinan.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Langsung menutup seluruh kolom komentar di semua unggahan media sosial kejaksaan supaya tidak ada yang bisa mengkritik.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan komentar hoaks tersebut menumpuk tanpa klarifikasi apa pun karena menganggap warganet akan lupa sendiri.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menjawab secara tenang dengan informasi resmi berbasis fakta hukum yang terbuka atau melaporkan akun bila melanggar hukum.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek TIK: Etika komunikasi digital instansi publik mengedepankan respons berbasis fakta, tenang, dan sesuai koridor hukum. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_071",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Sebagai petugas di Kantor Imigrasi, Anda melihat rekan satu ruangan sering meninggalkan komputer kerjanya dalam keadaan login akun sistem penerbitan dokumen saat pergi makan siang atau ke luar ruangan. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkannya saja karena seluruh pegawai yang keluar masuk ruangan tersebut adalah rekan kerja yang sudah saling kenal.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menggunakan akunnya yang masih terbuka untuk mencoba membuka menu sistem lain sebagai bahan candaan saat ia kembali.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Mengunci layar komputernya sementara demi keamanan data, lalu mengingatkannya secara ramah soal pentingnya lock screen.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Melaporkannya langsung ke tim pengawas kepatuhan internal tanpa pernah memberi tahu atau mengingatkan rekan itu dulu.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menunggu ia kembali dari makan siang lalu menyindirnya soal kelalaian menjaga keamanan akun sistem keimigrasian.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek TIK: Menjaga keamanan akses sistem informasi negara (clean desk & screen lock) mencegah penyalahgunaan akun oleh pihak tidak berwenang. [Bobot: A(2), B(1), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_072",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda bekerja di Dinas Kependudukan dan Pencatatan Sipil. Pimpinan meminta tim Anda mempercepat layanan cetak dokumen dengan memanfaatkan tanda tangan elektronik (TTE), namun sering terjadi penumpukan berkas karena pejabat penandatangan sedang dinas luar. Usulan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengoptimalkan alur notifikasi TTE seluler terjadwal serta mekanisme pelimpahan wewenang TTE resmi saat pejabat berhalangan.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Meminta pejabat penandatangan menyerahkan PIN serta token TTE miliknya kepada staf operator agar bisa dicetak kapan saja.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Kembali menggunakan tanda tangan stempel basah dan memindai tanda tangan pejabat agar ditempelkan pada dokumen PDF.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menumpuk seluruh berkas di meja operator sampai pejabat penandatangan kembali dari perjalanan dinas luar daerahnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirim pesan pengingat berkala ke nomor pribadi pejabat setiap satu jam sekali tanpa menata sistem antrean prioritas.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek TIK: Pemanfaatan TTE jarak jauh secara aman dan tata kelola delegasi resmi menjaga kecepatan layanan tanpa melanggar keamanan autentikasi. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_073",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda mendapat tugas menyusun materi sosialisasi kebijakan baru untuk masyarakat pedesaan yang sebagian besar hanya mengakses informasi lewat ponsel sederhana dan grup pesan warga. Agar materi efektif, format digital yang Anda siapkan adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengunggah dokumen PDF peraturan lengkap berukuran puluhan megabita agar masyarakat membaca pasal aslinya langsung.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengirimkan tautan presentasi salindia kantor berjumlah lima puluh halaman tanpa ringkasan poin penting untuk warga.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Membuat situs web interaktif berat penuh animasi tiga dimensi meskipun akses sinyal internet di desa masih terbatas.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membuat infografis ringan, video pendek berdurasi singkat, serta pesan teks ringkas yang hemat kuota dan mudah dibaca.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menuliskan pengumuman teks panjang berparagraf-paragraf di grup pesan tanpa gambar ilustrasi pendukung sama sekali.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek TIK: Memilih format konten digital yang adaptif terhadap kondisi perangkat dan konektivitas audiens memaksimalkan jangkauan komunikasi publik. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_074",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Di unit kerja Anda, dokumen surat-menyurat internal sudah beralih ke aplikasi tata naskah dinas elektronik (e-Office). Namun, Anda menemukan beberapa pegawai masih mencetak seluruh lampiran surat tebal ke kertas untuk disimpan di map lemari. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membuang seluruh cetakan kertas milik pegawai tersebut agar mereka terpaksa berhenti memakai arsip fisik di kantor.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengajak tim membiasakan pengarsipan digital terstruktur dengan cadangan awan resmi demi efisiensi kertas dan pencarian cepat.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Ikut mencetak semua surat elektronik karena merasa dokumen fisik di map lemari lebih aman daripada file di komputer.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan kebiasaan boros kertas tersebut berlanjut selama persediaan kertas di gudang bagian umum masih mencukupi.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengingatkan rekan semeja saja untuk mengurangi cetak kertas tanpa mengusulkan penataan folder arsip digital bersama.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek TIK: Mendorong budaya kerja nirkertas (paperless) melalui pengarsipan digital yang aman meningkatkan efisiensi anggaran dan kecepatan kerja. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_075",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda ditugaskan menguji coba fitur baru sistem pelaporan kinerja pegawai sebelum diluncurkan ke seluruh unit kerja. Saat uji coba, Anda menemukan celah kesalahan perhitungan jam kerja lembur pada sistem. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mendiamkan temuan celah tersebut dengan harapan jumlah jam lembur pegawai termasuk Anda terlihat lebih tinggi di sistem.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mencoba menghitung ulang manual di kalkulator pribadi saja untuk data Anda sendiri tanpa memberi masukan perbaikan sistem.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menunggu hingga sistem resmi diluncurkan ke seluruh kantor baru kemudian ikut mengeluh bersama pegawai lain di grup.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengirim pesan singkat tanpa detail teknis yang hanya bertuliskan bahwa aplikasi masih rusak dan tidak bisa dipakai.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mendokumentasikan tangkapan layar serta skenario kesalahannya secara rinci lalu segera melaporkannya ke tim pengembang.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek TIK: Pelaporan bug yang terstruktur, akurat, dan berintegritas saat masa uji coba memastikan keandalan sistem sebelum dipakai luas. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_076",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Saat bekerja dari lokasi dinas luar daerah, Anda perlu mengakses dokumen penting di server internal kantor melalui jaringan Wi-Fi publik hotel. Agar keamanan data instansi tetap terjaga dari penyadapan jaringan, langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung mengunduh seluruh basis data kantor lewat Wi-Fi hotel terbuka supaya pekerjaan cepat selesai malam itu juga.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meminta rekan di kantor mengirimkan semua file rahasia tersebut ke akun email pribadi gratis agar mudah dibuka di hotel.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menggunakan sambungan VPN resmi instansi atau tethering pribadi terenkripsi serta memastikan perangkat terproteksi sandi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menunda seluruh pekerjaan dinas luar hingga kembali ke kantor pekan depan karena tidak berani membuka laptop di luar.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menggunakan Wi-Fi hotel secara langsung namun berjanji menghapus riwayat peramban setelah selesai mengakses server.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek TIK: Praktik keamanan siber saat bekerja jarak jauh (VPN resmi/tethering aman) melindungi aset informasi negara dari risiko kebocoran. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_077",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda pegawai Pengadilan Negeri. Seorang kenalan dekat keluarga menghubungi Anda secara pribadi dan meminta informasi rahasia mengenai arah putusan majelis hakim dalam sebuah perkara perdata yang masih dalam tahap musyawarah. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak secara tegas namun santun dan menjelaskan bahwa proses musyawarah hakim bersifat rahasia hingga diucapkan terbuka.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Mencari tahu bocoran isi musyawarah hakim untuk disampaikan kepadanya demi menjaga hubungan baik keluarga besar.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Memberikan perkiraan pribadi mengenai siapa yang akan menang agar kenalan keluarga tersebut merasa senang dan puas.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Memblokir nomor telepon kenalan tersebut tanpa memberi penjelasan apa pun mengenai kode etik kerahasiaan peradilan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menjawab bahwa Anda tidak tahu-menahu soal perkara itu lalu menyarankannya bertanya langsung kepada panitera sidang.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Profesionalisme: Menjaga kerahasiaan musyawarah majelis hakim dan menolak intervensi kedekatan pribadi adalah wujud integritas aparatur peradilan. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_078",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Sebagai pegawai Kejaksaan Negeri yang bertugas mengelola barang bukti sitaan, Anda mendapati ruangan penyimpanan mulai penuh sehingga berisiko merusak kondisi fisik barang bukti elektronik. Atasan sedang mengikuti rapat di luar kota. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menumpuk barang bukti elektronik di lorong koridor luar gudang agar ruang penyimpanan utama terlihat lebih longgar.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memindahkan sebagian barang bukti ke bagasi mobil dinas sementara waktu tanpa membuat berita acara pemindahan resmi.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan kondisi gudang penuh sesak sampai atasan kembali ke kantor bulan depan meskipun berisiko merusak barang.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menata ulang rak sesuai kategori keamanan, mencatat kondisi inventaris, dan mengajukan usulan penataan ke atasan segera.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menutup gudang lebih awal dan melaporkan penuhnya ruangan secara lisan kepada petugas keamanan kantor saja.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Profesionalisme: Inisiatif menjaga keamanan dan keutuhan barang bukti sesuai prosedur administrasi mencerminkan tanggung jawab kerja tinggi. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_079",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda petugas keamanan di Lembaga Pemasyarakatan (Lapas). Saat melakukan penggeledahan rutin barang titipan pengunjung, Anda menemukan ponsel tersembunyi di dalam lipatan pakaian. Pengunjung tersebut memohon agar temuan itu diloloskan dengan alasan darurat keluarga. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Meloloskan ponsel tersebut karena merasa iba terhadap alasan darurat keluarga yang disampaikan oleh pengunjung.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menahan barang terlarang sesuai SOP, membuat berita acara pemeriksaan objektif, serta melaporkan temuan ke komandan jaga.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mengembalikan ponsel tersebut secara diam-diam kepada pengunjung tanpa mencatat kejadian penyelundupan di buku laporan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Memarahi pengunjung dengan kata-kata kasar di depan pos jaga lalu membuang pakaian titipannya ke luar pagar Lapas.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyita ponsel tersebut untuk disimpan di laci pribadi Anda sampai jadwal kunjungan selesai baru dikembalikan lagi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Profesionalisme: Ketegasan menjalankan SOP keamanan Lapas tanpa kompromi mencegah pelanggaran tata tertib dan potensi gangguan kamtib. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_080",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda dipindahkan tugas (mutasi) dari bidang perencanaan yang sudah Anda kuasai ke bidang pengawasan internal yang aturan teknisnya cukup baru bagi Anda. Di pekan pertama, beban pemeriksaan dokumen sudah cukup padat. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengajukan surat keberatan mutasi kepada pimpinan karena merasa keahlian Anda tidak cocok di bidang pengawasan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunggu jadwal diklat pengawasan dari pusat tahun depan baru mulai aktif menangani berkas pemeriksaan di unit baru.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menunda penyelesaian seluruh berkas pemeriksaan awal dengan alasan masih dalam masa penyesuaian pegawai baru.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mengerjakan pemeriksaan secara asal-asalan mengikuti pola kerja bidang perencanaan lama tanpa mengecek aturan baru.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mempelajari pedoman pengawasan secara intensif, berdiskusi dengan auditor senior, dan menuntaskan tugas awal dengan teliti.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Profesionalisme: Kemauan belajar cepat dan beradaptasi pada penugasan baru menunjukkan ketangguhan dan kompetensi ASN profesional. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_081",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Dalam sebuah tim penyusunan kajian kebijakan, hasil analisis Anda mendapat kritik tajam dari atasan karena data pembandingnya dinilai kurang mutakhir. Di ruang rapat, beberapa rekan tampak memperhatikan reaksi Anda. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membela diri dengan menyalahkan instansi penyedia data yang terlambat merilis angka terbaru tahun ini.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Merasa tersinggung dan memilih diam membisu sepanjang sisa rapat tanpa mencatat arahan perbaikan dari atasan.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menerima masukan dengan lapang dada, mencatat poin perbaikan, dan segera memperbarui data pembanding sesuai arahan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Meminta rekan satu tim saja yang melanjutkan revisi kajian tersebut karena Anda merasa sudah bekerja maksimal.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengangguk setuju di ruang rapat namun tetap mempertahankan data lama saat menyerahkan draf revisi akhir nanti.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Profesionalisme: Keterbukaan terhadap kritik konstruktif dan komitmen memperbaiki kualitas hasil kerja mencerminkan kematangan profesional. [Bobot: A(2), B(1), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_082",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda pegawai yang dipercaya mengelola anggaran perjalanan dinas tim di kantor. Setelah kegiatan selesai, masih terdapat sisa uang harian dan penginapan karena hotel pilihan lebih hemat dari pagu maksimal. Rekan tim mengusulkan sisa uang itu dibagi rata untuk makan bersama. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak pembagian tersebut dan menyusun pertanggungjawaban riil (at cost) serta mengembalikan sisa dana ke kas negara.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menyetujui usulan rekan tim agar kekompakan terjaga dan seluruh pagu anggaran terserap seratus persen di laporan.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menggunakan sisa uang tersebut untuk membeli oleh-oleh kantor tanpa mencatatnya dalam rincian kuitansi resmi.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menyimpan sisa uang di laci meja kerja sebagai dana taktis tim untuk keperluan mendadak kegiatan berikutnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta rekan lain yang menjadi bendahara pengeluaran pembantu untuk memutuskan sendiri nasib sisa uang tersebut.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Profesionalisme: Akuntabilitas keuangan negara menuntut pelaporan sesuai pengeluaran riil dan pengembalian sisa anggaran secara jujur. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_083",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Menjelang akhir tahun anggaran, pekerjaan di unit Anda menumpuk sementara seorang rekan satu tim mengalami musibah keluarga sehingga harus izin cuti mendadak selama lima hari. Atasan meminta tim tetap menjaga target capaian akhir tahun. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak membantu pekerjaan rekan yang cuti karena beban tugas Anda sendiri sudah cukup menyita waktu kerja.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mengerjakan bagian tugas Anda sendiri terlebih dahulu tanpa memedulikan apakah berkas mendesak rekan terbengkalai.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Meminta atasan menunda seluruh target akhir tahun unit kerja hingga rekan tersebut kembali masuk kantor.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyusun pembagian prioritas bersama tim untuk menopang tugas mendesak rekan yang cuti agar target unit tetap tercapai.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menghubungi rekan yang sedang berduka setiap hari untuk menanyakan perkembangan berkas yang belum diselesaikannya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Profesionalisme: Solidaritas dan tanggung jawab kolektif dalam menjaga target organisasi saat rekan terkena musibah adalah sikap ASN tangguh. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_084",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda bekerja di Kantor Imigrasi dan menerima permohonan paspor dari seorang warga yang dalam wawancara terindikasi hendak bergabung dengan kelompok bersenjata di luar negeri melalui jaringan rekrutmen ilegal. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tetap menerbitkan paspornya karena syarat dokumen kependudukan seperti KTP dan kartu keluarganya sudah lengkap.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunda penerbitan sesuai prosedur pengawasan, melakukan pendalaman tim intelijen keimigrasian, dan melapor berjenjang.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Langsung memarahinya di ruang wawancara dan mengunggah foto wajahnya ke media sosial sebagai peringatan publik.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Memintanya datang kembali minggu depan tanpa mencatat indikasi kecurigaan tersebut dalam sistem pengawasan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menolak permohonannya secara lisan di loket tanpa meneruskan informasi indikasi jaringan ilegal ke unit terkait.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Anti Radikalisme: Kewaspadaan dan pelaporan berjenjang sesuai prosedur intelijen keimigrasian mencegah warga terlibat jaringan terorisme global. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_085",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda pegawai Dinas Pendidikan daerah. Seorang kepala sekolah melaporkan adanya buku bacaan sumbangan pihak luar di perpustakaan sekolah yang ternyata berisi narasi mengafirkan kelompok lain dan menolak dasar negara Pancasila. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan buku tersebut tetap dipajang di rak perpustakaan sebagai bagian dari kebebasan sumber bacaan siswa.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunggu sampai ada orang tua siswa yang mengajukan protes keras baru mengambil tindakan penarikan buku.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Langsung membakar seluruh koleksi buku perpustakaan sekolah tersebut di halaman tanpa melakukan verifikasi isi terlebih dulu.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta kepala sekolah menyembunyikan buku itu di gudang tanpa melaporkannya kepada dinas maupun pengawas sekolah.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menginstruksikan penarikan sementara untuk telaah resmi, berkoordinasi dengan tim pengawas, serta memperkuat literasi kebangsaan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Anti Radikalisme: Pengawasan bahan ajar secara prosedural dan penguatan literasi Pancasila melindungi peserta didik dari paparan paham ekstrem. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_086",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Di lingkungan tempat tinggal Anda, muncul sekelompok pendatang baru yang secara eksklusif melarang anak-anak mereka bermain dengan tetangga berbeda agama dan menyebut lingkungan sekitar tidak sesuai ajaran murni mereka. Sikap Anda sebagai ASN adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengajak warga RT mengusir kelompok pendatang tersebut malam itu juga agar lingkungan kembali aman dan seragam.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Membiarkan perilaku eksklusif tersebut berkembang karena menganggap urusan mendidik anak adalah hak mutlak orang tua.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Berkoordinasi dengan pengurus RT, tokoh masyarakat, serta Babinsa/Bhabinkamtibmas untuk pendekatan dialogis dan deteksi dini.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Membalas dengan melarang anak-anak warga lama mendekati rumah keluarga pendatang baru tersebut setiap hari.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan selebaran imbauan kerukunan warga ke kotak surat rumah mereka tanpa menjalin komunikasi langsung.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Anti Radikalisme: Sinergi deteksi dini dan pendekatan dialogis bersama aparat kewilayahan mencegah tumbuhnya eksklusivisme intoleran di masyarakat. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_087",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Sebagai pegawai di lingkungan peradilan, Anda melihat seorang rekan kerja kerap membagikan tautan video ceramah di grup percakapan kantor yang isinya menghina simbol negara dan mengajak tidak menaati undang-undang nasional. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengingatkan dengan tegas soal netralitas serta kesetiaan ASN pada Pancasila dan melaporkan ke atasan bila terus berulang.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menghiraukan saja unggahan tersebut sambil mematikan notifikasi grup kantor agar tidak mengganggu konsentrasi kerja.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Ikut membalas dengan candaan di grup supaya suasana tidak kaku meskipun isi videonya jelas merendahkan negara.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menyindirnya secara anonim di media sosial pribadi agar rekan kerja tersebut merasa malu dan berhenti mengirim video.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menghubunginya secara pribadi untuk memintanya tidak mengirim video serupa di grup resmi karena ada pimpinan di dalamnya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Anti Radikalisme: Aparatur peradilan wajib menjaga ruang kerja tetap bersih dari propaganda anti-Pancasila dan taat pada koridor pengawasan internal. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_088",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda bertugas di Kejaksaan Negeri dan menjadi narasumber dialog kebangsaan bagi organisasi kepemudaan desa. Seorang peserta bertanya mengapa organisasi yang ingin mengganti ideologi Pancasila harus dilarang, padahal mereka mengklaim memperjuangkan keadilan. Jawaban Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menghindari menjawab pertanyaan tersebut dengan alasan topik ideologi negara terlalu berat dibahas di tingkat desa.",
+        "poin": 3
+      },
+      {
+        "label": "B",
+        "teks": "Menjawab singkat bahwa larangan tersebut semata-mata kehendak pemerintah pusat yang tidak boleh dipertanyakan lagi.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Membenarkan pandangan peserta bahwa ideologi negara boleh diganti kapan saja asalkan kelompoknya merasa paling benar.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menjelaskan bahwa Pancasila adalah konsensus final pemersatu bangsa yang menjamin keadilan seluruh warga tanpa diskriminasi.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Meminta peserta membaca sendiri teks pembukaan UUD 1945 di buku tata negara tanpa menjelaskan relevansinya bagi persatuan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Anti Radikalisme: Pemahaman argumentatif tentang Pancasila sebagai dasar negara dan pemersatu bangsa menumbuhkan kesadaran ideologis yang kokoh. [Bobot: A(3), B(2), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_089",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda pegawai Kementerian Agama atau kesbangpol daerah yang mendampingi forum kerukunan umat beragama. Menjelang perayaan hari besar suatu agama, beredar selebaran gelap di media sosial yang memprovokasi warga untuk menolak pelaksanaan ibadah tersebut. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyarankan panitia ibadah membatalkan seluruh acara keagamaannya saja daripada menghadapi risiko gangguan keamanan.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Berkoordinasi cepat dengan FKUB, tokoh lintas agama, dan aparat keamanan untuk klarifikasi serta pengamanan kondusif.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan selebaran gelap itu beredar karena menganggap masyarakat sekarang sudah pintar menilai sendiri kebenarannya.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Membuat pernyataan pribadi di media sosial yang menuduh kelompok tertentu sebagai dalang di balik selebaran gelap itu.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mencatat temuan selebaran gelap tersebut sebagai bahan laporan evaluasi kerukunan triwulan di kantor minggu depan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Anti Radikalisme: Respon cepat lintas tokoh agama dan aparat keamanan melindungi hak konstitusional beribadah dan meredam provokasi. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_090",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda anggota tim pengelola pengadaan konten pelatihan pegawai di sebuah instansi pemerintah. Ketika menyeleksi narasumber eksternal untuk seminar motivasi kerja, Anda menemukan rekam jejak digital salah satu calon narasumber yang pernah menyerukan boikot terhadap pemilu dan simbol negara. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tetap mengundangnya sebagai pembicara selama topik yang dibahas nanti hanya seputar manajemen waktu dan motivasi kerja.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Tetap mengundangnya namun meminta ia menandatangani surat perjanjian tidak menyinggung soal negara saat berbicara nanti.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Membatalkan seluruh acara seminar pegawai tahun ini karena khawatir muncul isu politik yang merepotkan panitia.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan panitia lain memutuskan tanpa menyampaikan temuan rekam jejak digital tersebut dalam rapat persiapan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyampaikan temuan rekam jejak terverifikasi kepada panitia serta mengganti narasumber dengan figur kompeten yang berwawasan NKRI.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Anti Radikalisme: Seleksi narasumber instansi negara wajib memastikan keselarasan dengan nilai kebangsaan dan wawasan NKRI. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_091",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di loket Pelayanan Terpadu Satu Pintu (PTSP) Pengadilan Tata Usaha Negara. Seorang warga datang mengajukan permohonan informasi putusan, namun ia tidak mengetahui nomor perkaranya dan hanya mengingat nama pihak serta tahun sidang. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak melayani karena sesuai aturan pemohon wajib mengetahui sendiri nomor registrasi perkara sebelum datang ke loket.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menyuruhnya pulang terlebih dahulu untuk mencari nomor perkaranya dari pengacara atau pihak lain yang terlibat sidang.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Membantu menelusuri data perkara melalui Sistem Informasi Penelusuran Perkara (SIPP) berdasarkan nama dan tahunnya.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Mengarahkannya membuka situs web pengadilan melalui ponsel pribadinya sendiri di ruang tunggu tanpa pendampingan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memintanya menulis surat permohonan pencarian arsip manual lalu menunggu balasan kantor dalam tujuh hari kerja.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Pelayanan Publik: Memanfaatkan sistem informasi pengadilan secara proaktif memudahkan warga memperoleh hak informasi publik dengan cepat. [Bobot: A(2), B(1), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_092",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas pelayanan publik di Kejaksaan Negeri, Anda menerima pengaduan seorang warga yang merasa dirugikan oleh oknum yang mengatasnamakan jaksa melalui telepon untuk meminta sejumlah uang. Warga tersebut tampak panik dan hampir mentransfer uang. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menenangkan warga, menegaskan modus penipuan tersebut, mencatat kronologi, dan mengarahkan ke kanal pengaduan resmi.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menyuruhnya langsung melapor ke kantor polisi saja karena penipuan telepon bukan merupakan urusan layanan meja informasi.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menertawakan kepolosan warga tersebut karena masih percaya pada penelepon gelap yang mengatasnamakan aparat penegak hukum.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menjawab singkat bahwa kejaksaan tidak pernah menelepon warga lalu kembali melanjutkan penginputan berkas di meja kerja.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta warga memblokir nomor penelepon tersebut saja tanpa mencatat nomor pelaku untuk ditindaklanjuti tim pengawas.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Pelayanan Publik: Respon cepat, empatik, dan edukatif melindungi masyarakat dari penipuan sekaligus menjaga marwah institusi. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_093",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bekerja di Kantor Imigrasi yang melayani pengambilan paspor jadi. Seorang pemohon datang mengambil paspor atas nama anaknya yang sudah dewasa, namun tidak membawa surat kuasa bermeterai dan KTP asli pemohon utama sesuai ketentuan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung menyerahkan paspor tersebut karena yakin seorang ibu tidak mungkin menyalahgunakan dokumen anaknya sendiri.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memintanya menyuruh anaknya datang sendiri kapan pun sempat tanpa memberi tahu opsi pengambilan dengan surat kuasa.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menolak penyerahan dengan nada ketus dan menuduhnya tidak mau membaca aturan pengambilan paspor yang sudah ditempel.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menjelaskan aturan keamanan penyerahan dokumen secara sopan dan memandu solusi cepat melengkapi surat kuasa atau video verifikasi.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menyerahkan formulir surat kuasa kosong lalu menyuruhnya mengurus sendiri tanda tangan anaknya dan kembali di hari lain.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Pelayanan Publik: Menjaga keamanan dokumen negara sambil memberikan penjelasan ramah dan solusi prosedural yang jelas. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_094",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bertugas di loket pajak kendaraan bermotor (Samsat). Menjelang jam tutup layanan, antrean masih tersisa sepuluh wajib pajak yang sudah mengambil nomor antrean sebelum batas waktu penutupan loket. Rekan kerja Anda mengajak segera mematikan komputer. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Ikut mematikan komputer tepat saat jam tutup dan meminta kesepuluh wajib pajak tersebut datang lagi besok pagi.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengajak rekan tetap menyelesaikan pelayanan bagi wajib pajak yang sudah memiliki nomor antrean sah hari itu dengan ramah.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Melayani tiga orang terdepan saja dengan tergesa-gesa lalu menutup jendela kaca loket bagi tujuh wajib pajak sisanya.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta wajib pajak membayar lewat aplikasi perbankan sendiri tanpa membantu mengecek kendala denda pajak mereka.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyimpan berkas kesepuluh wajib pajak tersebut untuk diproses besok pagi sementara mereka diminta pulang tanpa STNK.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Pelayanan Publik: Komitmen menuntaskan pelayanan bagi warga yang sudah terdaftar antrean tepat waktu adalah standar integritas layanan prima. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_095",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Sebagai petugas layanan informasi di rumah sakit daerah, Anda mendapati seorang keluarga pasien tampak bingung mencari ruang laboratorium dan ruang kasir karena papan petunjuk arah di koridor sedang dilepas selama pengecatan gedung. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyebutkan arah belokan secara cepat dengan istilah medis ruangan sambil terus berjalan menuju meja kerja Anda.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menjelaskan letak kedua ruangan tersebut secara lisan di meja informasi tanpa mengecek kebutuhan rambu sementara koridor.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Memintanya bertanya langsung kepada petugas kebersihan atau satpam yang kebetulan melintas di sekitar koridor gedung.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Mengabaikannya karena urusan pemasangan papan petunjuk ruangan merupakan tanggung jawab bagian pemeliharaan sarana.",
+        "poin": 1
+      },
+      {
+        "label": "E",
+        "teks": "Mengantarkan atau memberi petunjuk jelas, serta segera memasang papan petunjuk arah sementara di titik persimpangan koridor.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Pelayanan Publik: Kepekaan mengidentifikasi hambatan navigasi pengguna layanan dan langsung menyediakan solusi sementara mencegah kebingungan publik. [Bobot: A(2), B(4), C(3), D(1), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_096",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda bekerja di Dinas Ketenagakerjaan bagian layanan kartu pencari kerja (AK-1). Seorang lulusan baru SMK datang membawa ijazah asli namun fotokopiannya tertinggal di rumah, padahal jarak rumahnya cukup jauh dan hari sudah siang. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolaknya mentah-mentah dan menyuruhnya pulang mengambil fotokopi terlebih dahulu meskipun kantor hampir tutup.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mencetak kartu pencari kerjanya tanpa memeriksa maupun menyimpan arsip salinan ijazah sebagai bukti kelengkapan berkas.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Membantu memindai atau mengarahkan fasilitas salin berkas terdekat dengan ramah serta memproses kartunya sesuai syarat sah.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyarankannya mendaftar ulang minggu depan saja karena kuota pencetakan kartu hari itu sudah hampir habis.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memintanya memfoto ijazahnya lewat ponsel lalu mengirimkannya ke grup WhatsApp umum tanpa kejelasan privasi data.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Pelayanan Publik: Solusi praktis yang tetap memenuhi kelengkapan administrasi membantu pencari kerja muda tanpa mengabaikan aturan. [Bobot: A(2), B(1), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_097",
+    "kategori": "TKP",
+    "subKategori": "Pelayanan Publik",
+    "soal": "Anda petugas di Balai Pemasyarakatan (Bapas) yang melayani pengurusan izin keluar kota bagi klien wajib lapor karena ada keluarga inti yang sakit keras di provinsi lain. Berkas permohonan diajukan mendadak pada pagi hari. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Segera memverifikasi bukti kondisi darurat serta berkoordinasi dengan pimpinan agar izin resmi diproses cepat dan akuntabel.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menunda pemrosesan berkas selama tujuh hari penuh sesuai standar waktu maksimal tanpa mempertimbangkan kondisi darurat.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mengizinkan klien berangkat secara lisan tanpa surat izin tertulis agar ia bisa langsung menuju bandara atau terminal.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menolak permohonan izin keluar kota tersebut dengan alasan jadwal wajib lapor rutin tidak dapat diganggu gugat.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta klien menunggu kepastian izin sampai sore hari sambil Anda menyelesaikan seluruh pekerjaan rutin lainnya dulu.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Pelayanan Publik: Responsif terhadap situasi kemanusiaan darurat dengan tetap menjaga akuntabilitas verifikasi dan prosedur hukum. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_098",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai panitera di Pengadilan Negeri, Anda diminta mengoordinasikan layanan sidang keliling terpadu bersama pemerintah kecamatan dan organisasi bantuan hukum. Sehari sebelum keberangkatan, balai desa lokasi awal mengalami kebocoran atap akibat hujan deras. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membatalkan seluruh jadwal sidang keliling secara sepihak tanpa memberi kabar kepada warga dan organisasi bantuan hukum.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyerahkan sepenuhnya urusan pencarian lokasi pengganti kepada pihak kecamatan tanpa ikut memastikan kesiapan ruang sidang.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Tetap melaksanakan sidang di balai desa yang bocor tanpa berupaya mencari ruang alternatif bersama perangkat kecamatan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Berkoordinasi cepat dengan camat dan mitra bantuan hukum untuk memindahkan titik lokasi ke aula terdekat serta mengabari warga.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Meminta warga yang sudah terdaftar sidang keliling datang saja langsung ke gedung pengadilan kota keesokan paginya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Jejaring Kerja: Koordinasi tanggap darurat bersama mitra kewilayahan dan bantuan hukum menjaga akses keadilan masyarakat tetap berjalan. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_099",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Kejaksaan Tinggi yang menjadi anggota forum koordinasi pencegahan tindak pidana pemilu atau pemilihan daerah bersama Bawaslu dan Kepolisian. Dalam pembahasan penanganan laporan awal, terjadi perbedaan tafsir kewenangan antar-lembaga. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mempertahankan tafsir lembaga sendiri secara kaku dan menolak menandatangani berita acara rapat sebelum lembaga lain tunduk.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengajak anggota forum merujuk peraturan bersama dan membedah kronologi kasus secara objektif untuk kesepahaman tugas.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan masing-masing lembaga menjalankan tafsirnya sendiri tanpa perlu menyepakati alur koordinasi di forum.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menghentikan pembahasan rapat dan menunggu instruksi tertulis dari pimpinan pusat tanpa mengusulkan opsi penyelesaian.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengikuti pendapat lembaga yang suaranya paling keras di ruangan supaya rapat koordinasi segera berakhir lebih cepat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Jejaring Kerja: Penyelesaian perbedaan tafsir dalam forum penegakan hukum terpadu dilakukan berbasis regulasi dan objektivitas fakta. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_100",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bertugas di Kantor Imigrasi dan menjalin kerja sama sosialisasi aturan keimigrasian bagi mahasiswa asing dengan bagian hubungan internasional sebuah universitas. Pihak kampus mengeluhkan mahasiswa baru sering terlambat melapor perpanjangan izin tinggal. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung menjatuhkan denda keterlambatan maksimal tanpa berupaya memperbaiki alur informasi bersama pihak universitas.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menyarankan pihak kampus mewajibkan seluruh mahasiswa asing datang sendiri ke kantor imigrasi setiap awal bulan.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menyalahkan staf universitas di depan mahasiswa asing karena dianggap lalai mengurus dokumen kependudukan tamunya.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Mengirimkan buku undang-undang keimigrasian berbahasa Indonesia kepada rektorat agar diterjemahkan sendiri oleh kampus.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Merancang kalender pengingat otomatis dan loket konsultasi berkala bersama kantor internasional kampus untuk mahasiswa asing.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Jejaring Kerja: Solusi preventif dan kolaboratif dengan mitra perguruan tinggi meningkatkan kepatuhan administrasi mahasiswa internasional. [Bobot: A(2), B(4), C(1), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_101",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Dinas Pertanian kabupaten yang bekerja sama dengan kelompok tani dan lembaga pembiayaan daerah untuk program perluasan irigasi desa. Namun, proses pencairan dukungan dana kelompok tani tersendat karena kelengkapan proposal administratif belum seragam. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengembalikan seluruh proposal kelompok tani begitu saja dan membatalkan program perluasan irigasi pada tahun anggaran ini.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunggu kelompok tani belajar sendiri memperbaiki proposalnya tanpa arahan teknis dari dinas maupun penyuluh.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menggelar pendampingan penyusunan proposal bersama penyuluh lapangan dan petugas lembaga pembiayaan hingga syarat terpenuhi.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Mengajukan proposal milik dua kelompok tani yang sudah rapi saja dan meninggalkan kelompok desa terpencil lainnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta petugas lembaga pembiayaan melonggarkan seluruh aturan verifikasi tanpa memperbaiki kelengkapan berkas kelompok.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Jejaring Kerja: Menjembatani komunikasi antara petani dan lembaga mitra melalui pendampingan teknis memastikan program berjalan tepat sasaran. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_102",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Sebagai pegawai Kanwil Kemenkumham bagian penyuluhan hukum, Anda berkolaborasi dengan lembaga penyiaran radio daerah untuk program siaran interaktif hukum gratis. Pada siaran perdana, banyak pertanyaan pendengar di luar topik yang ternyata menyangkut layanan instansi lain. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menjawab batas kewenangan hukum dengan santun serta mengusulkan episode lanjutan yang mengundang instansi mitra terkait.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Menutup sesi telepon pendengar saat itu juga dan menghentikan kerja sama siaran radio karena topiknya dianggap melenceng.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menjawab seluruh pertanyaan di luar kewenangan instansi Anda secara spekulatif agar pendengar radio tetap merasa puas.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta penyiar radio menyaring dan memutus sambungan telepon pendengar yang pertanyaannya tidak sesuai naskah awal.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mencatat pertanyaan warga tersebut di buku catatan pribadi tanpa menyalurkannya atau menjalin kolaborasi siaran lanjutan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Jejaring Kerja: Memanfaatkan antusiasme publik sebagai peluang membangun siaran kolaboratif lintas instansi memperluas manfaat edukasi hukum. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_103",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda bertugas di unit pengelola arsip dan perpustakaan pemerintah kota. Untuk meningkatkan minat baca anak-anak di wilayah pinggiran, pimpinan meminta Anda menjalin kerja sama tanpa membebani anggaran besar. Langkah strategis Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menunggu pengadaan gedung cabang perpustakaan baru dari anggaran daerah tahun depan baru mulai melayani wilayah pinggiran.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Mengirimkan beberapa dus buku bekas ke kantor kelurahan pinggiran tanpa jadwal pendampingan atau rotasi koleksi bacaan.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Hanya membuka layanan baca di gedung perpustakaan pusat kota sambil memasang spanduk ajakan membaca di jalan protokol.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menggandeng komunitas taman baca masyarakat, sekolah dasar, dan karang taruna melalui program perpustakaan keliling bergilir.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mengajak satu sekolah favorit di tengah kota mengadakan lomba menulis esai bertema manfaat membaca bagi pelajar.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Jejaring Kerja: Kemitraan dengan komunitas lokal dan sekolah memperluas jangkauan layanan literasi secara efisien dan berkelanjutan. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_104",
+    "kategori": "TKP",
+    "subKategori": "Jejaring Kerja",
+    "soal": "Anda pegawai Dinas Perumahan dan Permukiman yang mengelola program bedah rumah tidak layak huni bersama TNI, pemerintah desa, dan relawan warga. Di tengah pelaksanaan, pasokan material dari toko mitra terlambat dua hari karena kendala armada angkut. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memulangkan seluruh relawan dan tim lapangan hari itu juga tanpa menyusun penyesuaian pekerjaan yang bisa dilakukan dulu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Berkoordinasi dengan toko mitra soal kepastian jadwal sekaligus mengarahkan tim mengerjakan pembersihan dan pondasi awal dulu.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Memarahi pemilik toko material di lokasi proyek dan mengancam membatalkan seluruh pembayaran pekerjaan yang sudah terkirim.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan tim lapangan duduk menunggu kedatangan truk material selama dua hari penuh tanpa pengalihan aktivitas kerja.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta perangkat desa menalangi pembelian material dari toko lain menggunakan dana kas desa tanpa koordinasi administrasi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Jejaring Kerja: Pengelolaan kendala logistik bersama mitra sambil menjaga produktivitas tim di lapangan mencegah proyek terhenti total. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_105",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bertugas di Pengadilan Agama daerah yang sebagian besar masyarakatnya memiliki tradisi tidak langsung berbicara kepada lawan jenis yang bukan mahram dalam ruang tertutup. Saat menerima konsultasi hukum di loket, seorang pemohon perempuan tampak canggung berbicara dengan petugas pria. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memaksa pemohon perempuan tersebut tetap berbicara langsung di meja petugas pria dengan alasan kantor negara bebas aturan adat.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Tetap melayaninya di meja tertutup berdua saja sambil meminta pemohon tidak perlu merasa canggung selama bertanya.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menolak melayani konsultasinya dan memintanya datang kembali bersama wali laki-laki agar petugas pria bisa berbicara nyaman.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menyerahkan formulir tertulis saja tanpa memberikan penjelasan lisan supaya tidak terjadi percakapan canggung di loket.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menghormati kenyamanannya dengan menghadirkan petugas perempuan atau membuka layanan di ruang konsultasi terbuka yang aman.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Sosial Budaya: Kepekaan terhadap norma kesopanan budaya lokal menciptakan rasa aman dan kepercayaan masyarakat saat mengakses keadilan. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_106",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda pegawai Kejaksaan Negeri yang menghadiri undangan musyawarah desa dalam program Jaksa Garda Desa. Saat sesi ramah tamah, warga menyuguhkan hidangan tradisional yang tidak biasa Anda makan dan Anda memiliki alergi terhadap salah satu bahannya. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengatakan di depan warga bahwa makanan daerah tersebut berbau aneh dan tidak higienis sehingga Anda tidak mau menyentuhnya.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Tetap memakan hidangan pemicu alergi tersebut demi menjaga perasaan warga meskipun membahayakan kondisi kesehatan Anda.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mengucapkan terima kasih dengan hangat, menyampaikan kondisi alergi secara sopan, dan menikmati hidangan lain yang aman.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Langsung meninggalkan meja makan tanpa menyentuh apa pun dan tanpa berpamitan secara baik kepada tokoh masyarakat desa.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengambil makanan tersebut ke piring lalu membuangnya diam-diam ke tempat sampah belakang balai desa saat tidak dilihat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Sosial Budaya: Menolak hidangan karena alasan medis secara santun tetap menjaga penghormatan terhadap jamuan budaya tuan rumah. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_107",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Di lingkungan kantor Kanwil Kemenkumham tempat Anda bekerja, terdapat pegawai yang berasal dari daerah dengan tradisi upacara adat kematian yang memakan waktu beberapa hari. Saat keluarganya berduka, sebagian rekan mengeluhkan izin cutinya terlalu lama. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menunjukkan empati atas dukanya, menghormati tradisi adatnya sesuai ketentuan cuti sah, serta membantu menopang tugas tim.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Ikut mengeluhkan tradisi daerah rekan tersebut karena dianggap merepotkan pembagian beban kerja pegawai lain di kantor.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menghubungi rekan yang sedang berduka untuk memaksanya segera kembali bekerja keesokan hari setelah pemakaman selesai.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Memilih diam tidak berkomentar namun menolak membantu tugas mendesak yang ditinggalkan oleh rekan tersebut selama cuti.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengirimkan ucapan belasungkawa singkat di grup kantor tanpa ikut menjelaskan tradisi tersebut kepada rekan yang mengeluh.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Sosial Budaya: Empati terhadap tradisi duka cita budaya Nusantara serta solidaritas tim memperkuat kohesi sosial di lingkungan ASN. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_108",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bekerja di Dinas Koperasi dan UMKM daerah. Saat mendampingi pameran kerajinan rakyat, seorang pengrajin muda merasa malu memamerkan tenun atau ukiran tradisionalnya karena teman sebayanya menganggap produk tradisi terkesan kuno. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyarankannya berhenti memproduksi kerajinan tradisional dan beralih menjual pakaian impor yang sedang tren di media sosial.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memintanya meniru persis produk kerajinan dari daerah lain yang lebih ramai pembeli tanpa mempertahankan ciri khas lokal.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan pengrajin muda tersebut menutup stannya lebih awal jika merasa kurang percaya diri di hadapan pengunjung pameran.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Memberi motivasi bahwa warisan budaya bernilai tinggi dan membantunya berinovasi pada desain fungsional untuk pasar modern.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Membeli satu produknya sebagai bentuk hiburan moral tanpa memberi arahan pengembangan desain maupun pemasaran digital.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Sosial Budaya: Menumbuhkan kebanggaan generasi muda terhadap warisan budaya lokal melalui pendampingan inovasi kreatif menjaga kelestarian bangsa. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_109",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda pegawai baru di kantor pemerintah kabupaten yang masih kental dengan budaya gotong royong mempersiapkan acara kantor secara swadaya, termasuk menata ruangan dan konsumsi bersama. Seorang rekan yang terbiasa bekerja individualistis menolak ikut membantu persiapan fisik. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memarahinya di depan panitia lain dan melaporkannya kepada atasan sebagai pegawai yang sombong serta malas membantu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengajaknya berpartisipasi dengan santun sesuai peran yang nyaman baginya sehingga kebersamaan tim tetap terjaga hangat.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mengucilkannya dari seluruh kegiatan ramah tamah kantor setelah acara selesai sebagai bentuk sanksi sosial tim kerja.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkannya duduk bermain ponsel di ruang kerja sementara rekan-rekan lain sibuk mengangkat kursi hingga kelelahan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyindirnya secara tidak langsung di grup pesan kantor tentang pentingnya jiwa gotong royong sebagai abdi negara.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Sosial Budaya: Pendekatan merangkul dalam budaya gotong royong membantu rekan beradaptasi tanpa menimbulkan keretakan hubungan kerja. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_110",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bertugas di Lembaga Pemasyarakatan (Lapas) dan mengatur jadwal kegiatan olahraga serta seni bagi warga binaan. Sebagian warga binaan mengusulkan pertunjukan musik atau tarian daerah dari berbagai suku saat peringatan hari kemerdekaan di dalam Lapas. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak usulan tersebut dan hanya mengizinkan penampilan dari satu budaya mayoritas daerah setempat saja agar sederhana.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengizinkan penampilan dua suku terbanyak saja supaya durasi acara peringatan kemerdekaan di Lapas tidak terlalu panjang.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menghapus seluruh kegiatan seni warga binaan saat hari kemerdekaan demi menghindari potensi keramaian di lapangan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mempersilakan warga binaan latihan sendiri di blok masing-masing tanpa menyediakan panggung kebersamaan di hari kemerdekaan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mendukung penuh pentas seni lintas budaya Nusantara secara tertib sebagai sarana mempererat persaudaraan dan pembinaan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Sosial Budaya: Mengapresiasi ekspresi seni budaya Nusantara secara setara menumbuhkan semangat Bhinneka Tunggal Ika dalam pembinaan. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_111",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Di kompleks perumahan tempat Anda tinggal, warga sepakat membangun pos ronda baru secara swadaya. Namun, seorang warga yang berprofesi sebagai pekerja lepas menolak menyumbang uang maupun tenaga karena merasa sudah membayar pajak negara. Sikap Anda sebagai ASN di lingkungan RT adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menghasut tetangga lain untuk tidak menyapa warga tersebut dan tidak mengundangnya dalam acara lingkungan apa pun.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Memaksanya membayar iuran ganda di akhir bulan sebagai pengganti ketidakhadirannya dalam kerja bakti pembangunan pos.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mengajak berdialog santun tentang nilai keguyuban warga tanpa memaksa, sambil menghargai haknya tetap aman di lingkungan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Mengkritik profesinya di grup WhatsApp warga sebagai orang yang tidak tahu berterima kasih atas keamanan lingkungan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Membiarkan saja tanpa menyapanya lagi supaya tidak terjadi perdebatan panjang mengenai kewajiban pajak dan iuran warga.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Sosial Budaya: Membangun kesadaran gotong royong warga secara persuasif dan tetap menjaga hak bertetangga mencerminkan kedewasaan sosial. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_112",
+    "kategori": "TKP",
+    "subKategori": "Sosial Budaya",
+    "soal": "Anda bekerja di instansi pemerintah pusat yang menerima tamu studi banding dari pemerintah daerah terpencil. Beberapa rekan kerja Anda di ruang tunggu sempat berbisik menertawakan gaya berpakaian dan cara bicara tamu daerah yang dianggap kurang modern. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menyambut tamu dengan sangat hormat dan mengingatkan rekan secara halus bahwa setiap aparatur daerah layak dihargai setara.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Ikut tersenyum mendengar bisikan rekan tersebut supaya tidak dianggap kaku dalam pergaulan di ruang kerja.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan rekan berbisik asalkan tamu studi banding tidak mendengar langsung ucapan mereka di ruang pertemuan.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menegur rekan-rekan Anda dengan suara keras tepat di hadapan tamu daerah sehingga suasana penyambutan menjadi tegang.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Segera mengajak tamu masuk ke ruang rapat lebih awal supaya mereka tidak berlama-lama berinteraksi dengan rekan Anda.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Sosial Budaya: Menghilangkan sikap merendahkan sesama anak bangsa dari daerah terpencil dan memuliakan tamu adalah etika aparatur negara. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_113",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Di Pengadilan Negeri tempat Anda bertugas, terdapat kebijakan digitalisasi arsip berkas perkara lama yang menumpuk di gudang. Namun, sebagian besar dokumen tersebut masih berupa kertas buram yang rawan robek jika masuk mesin pemindai otomatis. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Memasukkan seluruh kertas buram ke pemindai otomatis berkecepatan tinggi meskipun sebagian halaman menjadi sobek.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menghentikan seluruh program digitalisasi arsip gudang dan membiarkan berkas menumpuk seperti kondisi semula.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Membuang berkas perkara lama yang kertasnya sudah rapuh ke tempat daur ulang supaya tidak merepotkan tim pemindai.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Memilah arsip rapuh untuk pemindaian manual datar (flatbed) atau kamera dokumen beresolusi tinggi dengan indeks rapi.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Hanya memindai sampul depan berkas perkaranya saja tanpa mendigitalisasi isi dokumen putusan di dalamnya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek TIK: Pemilihan metode teknologi pemindaian yang tepat sesuai kondisi fisik arsip menjaga kelestarian dokumen hukum sekaligus kemudahan akses digital. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_114",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda pegawai Kejaksaan Negeri yang mengelola situs web resmi informasi perkara dan layanan publik. Tiba-tiba Anda mendapati tampilan halaman depan situs berubah tidak wajar akibat dugaan peretasan (deface). Tindakan cepat Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan situs tetap online sambil mencari tutorial perbaikan sendiri di internet selama beberapa hari ke depan.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Segera memutus akses publik sementara (maintenance), mengamankan log, serta melapor ke tim IT pusat dan CSIRT instansi.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mengumumkan kejadian peretasan tersebut di media sosial pribadi sambil menuding pihak luar sebagai pelakunya.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menghapus seluruh basis data situs web secara permanen tanpa melakukan pencadangan atau pelaporan insiden siber.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengganti kata sandi panel admin saja tanpa memeriksa celah keamanan atau melaporkan insiden ke tim keamanan siber.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek TIK: Penanganan insiden siber sesuai prosedur (isolasi, pengamanan bukti log, dan eskalasi ke tim keamanan siber) meminimalkan dampak kerusakan. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_115",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Sebagai petugas layanan informasi di Kantor Imigrasi, Anda melihat banyak pemohon lansia kesulitan mendaftar antrean melalui aplikasi ponsel karena tidak memiliki alamat email aktif. Inovasi kecil yang bisa Anda usulkan ke pimpinan adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membuatkan satu alamat email pribadi milik Anda untuk dipakai mendaftarkan ratusan pemohon lansia berbeda.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mencatat nama pemohon lansia di buku tulis tanpa memasukkannya ke sistem antrean sehingga data tidak terpantau pusat.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menolak seluruh pemohon lansia yang tidak memiliki email dan menyuruh mereka belajar membuat akun di warnet dulu.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta satpam pintu depan meminjamkan ponsel pribadinya untuk mendaftarkan setiap pemohon lansia yang datang.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyediakan konter pendampingan pembuatan akun serta mengusulkan opsi verifikasi nomor ponsel atau jalur khusus lansia.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek TIK: Inovasi layanan digital yang inklusif menjembatani keterbatasan akses teknologi warga rentan tanpa melanggar keamanan akun. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_116",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda pegawai Dinas Pendidikan yang mengelola sistem penginputan nilai rapor elektronik guru se-kabupaten. Menjelang batas akhir pengisian, server melambat drastis karena seluruh guru mengaksesnya bersamaan pada jam kerja siang. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mematikan server selama dua hari tanpa pemberitahuan supaya beban akses turun dengan sendirinya.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyalahkan para guru yang menunda penginputan nilai hingga hari-hari terakhir melalui pengumuman resmi dinas.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Berkoordinasi dengan tim infrastruktur untuk optimasi kapasitas serta mengatur penjadwalan akses bergilir per kecamatan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Meminta seluruh sekolah mencetak rapor tulis tangan saja dan membatalkan penggunaan sistem rapor elektronik tahun ini.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menyarankan guru mencoba login terus-menerus pada tengah malam saja tanpa ada koordinasi peningkatan kapasitas server.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek TIK: Kombinasi optimasi teknis server dan manajemen beban akses (penjadwalan bergilir) menjaga stabilitas layanan aplikasi massal. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_117",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Dalam rapat penyusunan laporan kinerja tahunan instansi, Anda mendapati tim masih menggunakan banyak singkatan dan istilah teknis rumit dalam infografis publik sehingga masyarakat awam sulit memahaminya. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengusulkan penyederhanaan visual data dan bahasa komunikatif yang mudah dicerna masyarakat tanpa mengurangi akurasi fakta.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Membiarkan saja infografis tersebut penuh istilah teknis supaya laporan instansi terlihat ilmiah dan berbobot tinggi.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menghapus seluruh data angka dari infografis dan menggantinya dengan foto-foto kegiatan seremonial pimpinan saja.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Menambahkan catatan kaki berisi kamus istilah sepanjang tiga halaman di bagian bawah poster infografis publik.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menerima desain tersebut di rapat namun membuat versi ringkasan teks terpisah untuk dibagikan di akun pribadi Anda.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek TIK: Komunikasi visual data publik yang jelas, sederhana, dan akurat meningkatkan transparansi serta literasi informasi masyarakat. [Bobot: A(5), B(2), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_118",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda mendapat kiriman video pendek melalui grup pesan keluarga yang mengklaim adanya rekrutmen CPNS jalur khusus tanpa tes melalui tautan pendaftaran berbayar. Beberapa kerabat mulai menanyakan kebenarannya kepada Anda sebagai ASN. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Ikut meneruskan tautan tersebut ke grup teman sekantor untuk menanyakan apakah ada yang mengenal panitia jalur khusus itu.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyarankan kerabat mencoba mengisi data KTP di tautan tersebut dulu siapa tahu memang ada program khusus pemerintah.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menjawab singkat tidak tahu lalu meninggalkan obrolan grup keluarga agar tidak repot menjelaskan panjang lebar.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meluruskan bahwa informasi itu hoaks penipuan, membagikan kanal resmi BKN/instansi, dan mengingatkan bahaya tautan ilegal.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Memperingatkan satu kerabat yang paling dekat saja lewat pesan pribadi tanpa meluruskan hoaks di grup keluarga.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek TIK: Literasi digital dan peran aktif ASN meluruskan disinformasi rekrutmen negara melindungi masyarakat dari penipuan siber. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_119",
+    "kategori": "TKP",
+    "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
+    "soal": "Anda bertugas mengelola data penerima bantuan sosial di Dinas Sosial. Saat melakukan pembersihan data menggunakan perangkat lunak pengolah angka, Anda menyadari ada ratusan data ganda akibat perbedaan penulisan spasi dan huruf kapital pada nama warga. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menghapus baris data yang dianggap ganda secara acak tanpa memeriksa kesesuaian Nomor Induk Kependudukan (NIK).",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menggunakan fungsi standardisasi teks dan validasi unik berbasis NIK lalu melakukan verifikasi silang sebelum finalisasi.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Membiarkan saja data ganda tersebut masuk ke daftar pencairan karena mengecek ratusan baris memakan waktu terlalu lama.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Mencetak seluruh tabel ribuan baris ke kertas dan mencoretnya satu per satu dengan pulpen selama beberapa hari kerja.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengembalikan file mentah tersebut ke pemerintah desa dan meminta mereka mengetik ulang seluruh data dari awal lagi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek TIK: Pemanfaatan fitur pengolahan data digital untuk validasi dan pembersihan data menjamin ketepatan sasaran program pemerintah. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_120",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda bertugas di Pengadilan Agama sebagai jurusita pengganti yang harus menyampaikan relaas panggilan sidang ke alamat terpencil di seberang sungai. Saat hari pengiriman, hujan turun deras dan perahu penyeberangan menunda jadwal selama dua jam. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Langsung pulang ke kantor dan menulis laporan bahwa pihak berperkara tidak ditemukan di alamat yang dituju.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menelepon kepala desa untuk membacakan isi surat panggilan saja lalu menganggap panggilan hukum telah dilaksanakan.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menitipkan surat panggilan resmi tersebut kepada pemilik warung di pinggir dermaga tanpa berita acara penyerahan sah.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menunda pengiriman panggilan hingga pekan depan tanpa melapor kepada panitera sehingga jadwal sidang menjadi kacau.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Menjaga dokumen tetap aman dan kering, menunggu cuaca membaik atau mencari jalur aman sah agar panggilan tetap tersampaikan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Profesionalisme: Ketangguhan di lapangan dan kepatuhan pada hukum acara penyampaian panggilan menjaga keabsahan proses persidangan. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_121",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Sebagai pegawai Kejaksaan Negeri yang menangani administrasi perkara, Anda ditawari oleh seorang pengacara kenalan lama untuk makan malam mewah di luar jam kerja sambil membahas perkembangan berkas perkara kliennya yang sedang Anda tangani. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menerima ajakan makan malam tersebut asalkan pembicaraan mengenai perkara kliennya dilakukan dengan suara pelan.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Meminta pengacara tersebut mengganti ajakan makan malam dengan pengiriman parsel makanan ke rumah Anda saja.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Menolak secara tegas dan santun ajakan tersebut demi menjaga independensi serta menghindari benturan kepentingan perkara.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menerima makan malamnya saja tetapi berjanji tidak akan membocorkan informasi berkas perkara sedikit pun saat bertemu.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengajak dua rekan sekantor lainnya ikut makan malam bersama supaya pertemuan dengan pengacara tidak terlihat berdua.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Profesionalisme: Menjaga jarak profesional dari pihak berperkara dan menolak potensi konflik kepentingan adalah pilar integritas penegak hukum. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_122",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda pegawai Balai Pemasyarakatan (Bapas) yang harus menyusun laporan Penelitian Kemasyarakatan (Litmas) untuk sidang anak. Karena keterbatasan waktu, seorang rekan menyarankan Anda menyalin saja sebagian besar isi laporan Litmas kasus lain yang mirip. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak cara instan tersebut dan tetap melakukan penggalian fakta riil serta menyusun analisis objektif sesuai kondisi anak.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Mengikuti saran rekan tersebut supaya laporan cepat selesai dan Anda tidak perlu repot mewawancarai keluarga anak.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menyalin seluruh isi laporan lama lalu hanya mengganti nama dan alamat anak di halaman sampul depan berkas.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menelepon anak tersebut selama dua menit saja lalu menggunakan sebagian besar paragraf analisis dari laporan sebelumnya.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta perpanjangan waktu sidang kepada hakim tanpa berupaya mengatur ulang jadwal kunjungan lapangan Anda lebih efisien.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Profesionalisme: Akurasi dan orisinalitas asesmen lapangan sangat menentukan keadilan nasib anak di persidangan, sehingga tidak boleh dipalsukan. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_123",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda ditugaskan menjadi panitia pengadaan perlengkapan kantor dengan nilai anggaran cukup besar. Salah satu vendor peserta tender menghubungi Anda dan menawarkan komisi pribadi apabila perusahaannya dimenangkan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mempertimbangkan tawaran tersebut sepanjang kualitas barang yang dikirim vendor nantinya masih cukup layak dipakai kantor.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Diam saja dan tetap memasukkan perusahaan tersebut dalam penilaian normal tanpa melaporkan percobaan suap ke atasan.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Menolak komisi untuk pribadi namun meminta vendor menyumbangkannya ke acara rekreasi akhir tahun pegawai kantor.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menolak tegas tawaran suap tersebut, menjaga objektivitas evaluasi lelang, dan melaporkan upaya penyuapan ke unit pengawas.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Mengganti nomor ponsel sementara waktu sampai proses pengumuman pemenang tender pengadaan perlengkapan selesai.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Profesionalisme: Penolakan mutlak terhadap suap dan pelaporan ke unit kepatuhan menjaga pengadaan barang/jasa negara tetap bersih. [Bobot: A(1), B(3), C(2), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_124",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Setelah beberapa bulan bekerja, Anda menyadari adanya alur pencatatan surat masuk di subbagian Anda yang memakan waktu lama karena harus ditulis ulang di tiga buku agenda berbeda sebelum didisposisikan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengikuti saja prosedur berulang yang melelahkan itu karena sudah menjadi kebiasaan kantor sejak puluhan tahun lalu.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menganalisis alur kerja dan mengusulkan penyederhanaan pencatatan terpadu kepada atasan agar layanan surat lebih cepat.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Mengeluh setiap hari kepada rekan kerja lain bahwa sistem kerja di subbagian ini sangat kuno dan tidak masuk akal.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Langsung menghentikan pencatatan di dua buku agenda tanpa izin atasan sehingga menimbulkan kebingungan saat pelacakan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta staf baru atau peserta magang saja yang mengerjakan penulisan ulang di tiga buku agenda tersebut setiap pagi.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Profesionalisme: Inisiatif perbaikan proses kerja (continuous improvement) yang disampaikan secara konstruktif meningkatkan efisiensi organisasi. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_125",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda pegawai Dinas Lingkungan Hidup yang bertugas memeriksa kelayakan dokumen analisis dampak lingkungan sebuah proyek pembangunan. Atasan langsung Anda menyarankan agar proses verifikasi dipercepat dengan melewatkan beberapa tahap uji lapangan karena pemilik proyek adalah kerabat pejabat daerah. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengikuti perintah atasan sepenuhnya dengan melewatkan uji lapangan agar karier Anda di dinas tetap aman dan lancar.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menunda penyelesaian berkas proyek tersebut selama berbulan-bulan tanpa menjelaskan alasan teknisnya kepada atasan.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Meminta atasan menandatangani sendiri seluruh berita acara verifikasi sementara Anda menolak mencantumkan nama di tim.",
+        "poin": 3
+      },
+      {
+        "label": "D",
+        "teks": "Mengisi formulir hasil uji lapangan secara fiktif di meja kantor seolah-olah tim sudah turun memeriksa lokasi proyek.",
+        "poin": 2
+      },
+      {
+        "label": "E",
+        "teks": "Menyampaikan dengan santun namun tegas pentingnya kelengkapan uji lapangan sesuai regulasi demi mencegah dampak lingkungan.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Profesionalisme: Berani menjaga kepatuhan hukum dan standar teknis secara santun terhadap arahan yang berisiko melanggar aturan. [Bobot: A(1), B(4), C(3), D(2), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_126",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Anda bekerja di bagian kehumasan instansi pemerintah. Pada hari libur nasional, terjadi insiden layanan publik di kantor cabang yang videonya mulai ramai dibicarakan di media sosial. Atasan meminta tim humas segera menyiapkan bahan klarifikasi awal. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mematikan ponsel sepanjang hari libur karena merasa hari libur nasional adalah hak mutlak bebas dari urusan kantor.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menjawab permintaan atasan bahwa bahan klarifikasi baru bisa disiapkan hari Senin pagi saat jam kerja reguler dimulai.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Sigap berkoordinasi dengan unit cabang memverifikasi fakta kejadian serta menyusun draf klarifikasi akurat bagi pimpinan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Menyusun draf klarifikasi berisi bantahan keras tanpa mengecek terlebih dahulu kebenaran video kejadian di cabang.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Meminta rekan humas yang rumahnya paling dekat dengan kantor cabang saja yang menangani krisis komunikasi tersebut.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Profesionalisme: Kesiapsiagaan menangani krisis komunikasi publik berbasis verifikasi fakta menunjukkan dedikasi tinggi ASN. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_127",
+    "kategori": "TKP",
+    "subKategori": "Profesionalisme",
+    "soal": "Sebagai analis kepegawaian, Anda diminta menilai kinerja seorang rekan kerja dekat yang kebetulan satu tim dalam sebuah proyek. Selama proyek berjalan, kinerja rekan tersebut di bawah standar dan sering terlambat menyerahkan bagian tugasnya. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menilai secara objektif berdasarkan capaian nyata disertai umpan balik konstruktif agar ia dapat memperbaiki kinerjanya.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Memberikan nilai sempurna kepadanya demi menjaga persahabatan dan menghindari rasa tidak enak saat bertemu di kantor.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Memberikan nilai paling buruk tanpa menjelaskan indikator penilaian maupun memberi masukan perbaikan sama sekali.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Meminta atasan saja yang mengisi seluruh kolom penilaian kinerja rekan tersebut supaya Anda tidak serba salah.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memberinya nilai tinggi namun menulis catatan keluhan tentang keterlambatannya di balik lembar terpisah untuk atasan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Profesionalisme: Objektivitas penilaian kinerja berbasis fakta dan pembinaan yang membangun menjaga keadilan sistem merit ASN. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_128",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda pegawai Pengadilan Negeri. Seorang saksi yang hadir di ruang tunggu pengadilan tiba-tiba membagikan selebaran berisi ajakan menolak hukum negara dan menyebut lembaga peradilan sebagai sistem yang harus diruntuhkan. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan saksi tersebut membagikan selebaran hingga habis supaya tidak menimbulkan keributan di ruang tunggu.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Langsung mengusir saksi keluar gerbang pengadilan sehingga ia batal memberikan kesaksian penting dalam persidangan.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Membaca selebaran tersebut lalu ikut mendiskusikan isinya secara terbuka dengan para pengunjung sidang di ruang tunggu.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Mengamankan situasi dengan tenang bersama petugas keamanan, menghentikan penyebaran, dan melapor berjenjang sesuai SOP.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Memungut selebaran yang terjatuh di lantai saja setelah saksi masuk ke ruang sidang tanpa melaporkan kejadian ke pimpinan.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Anti Radikalisme: Ketegasan menjaga ketertiban institusi hukum dari propaganda anti-negara dilakukan secara terukur dan sesuai prosedur. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_129",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Sebagai pegawai di Kejaksaan Tinggi, Anda ditugaskan memantau kegiatan penyuluhan hukum di kampus daerah. Dalam sesi tanya jawab, sebuah kelompok mahasiswa menyebarkan narasi bahwa demokrasi dan Pancasila gagal sehingga perlu diganti dengan sistem kekuasaan kelompok tertentu. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengakhiri acara penyuluhan lebih cepat dengan alasan mahasiswa sekarang sudah sulit diajak berdiskusi soal kebangsaan.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Menanggapi dengan argumen konstitusional yang jernih, sejuk, dan berbasis sejarah bangsa agar mahasiswa berpikir kritis.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Menyetujui sebagian pendapat mereka bahwa Pancasila memang sudah tidak relevan lagi di era globalisasi modern.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Meminta petugas keamanan kampus langsung membubarkan mahasiswa yang bertanya tanpa memberikan jawaban edukatif.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengalihkan pembicaraan ke masalah prosedural pendaftaran CPNS kejaksaan agar suasana diskusi tidak memanas.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Anti Radikalisme: Dialog intelektual yang kokoh dan menyejukkan mampu menangkal ideologi transnasional di lingkungan generasi muda. [Bobot: A(2), B(5), C(1), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_130",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda bertugas di Lembaga Pemasyarakatan (Lapas) dan menemukan buku catatan berisi gambar simbol kelompok radikal terlarang serta catatan ajakan kekerasan saat memeriksa kamar hunian warga binaan umum. Langkah Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengembalikan buku catatan itu ke bawah bantal karena menganggap gambar simbol tersebut hanya coretan iseng belaka.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyimpan buku catatan tersebut di loker pribadi Anda sambil menunggu jadwal razia gabungan bulan depan.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Membuang buku catatan ke tempat sampah tanpa melakukan pemeriksaan lanjutan tentang dari mana ajaran itu berasal.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menanyakan langsung kepada warga binaan sambil memarahinya di depan penghuni kamar lain tanpa melapor ke atasan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengamankan barang temuan sesuai prosedur, mendokumentasikan, serta melaporkannya ke tim keamanan dan pembinaan deradikalisasi.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Anti Radikalisme: Deteksi dini penyebaran paham radikal di dalam Lapas serta pelaporan berjenjang mencegah terbentuknya sel ekstremisme. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  },
+  {
+    "id": "tkp_gratis_131",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Di kantor Anda, pimpinan mewajibkan seluruh pegawai mengikuti upacara bendera dan menyanyikan lagu kebangsaan Indonesia Raya pada hari besar nasional. Seorang pegawai baru terlihat sengaja tidak mau hormat bendera dan tetap duduk di pojok ruangan. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mengabaikannya karena menghormati bendera negara dianggap sekadar pilihan ekspresi pribadi masing-masing pegawai.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Menyorakinya beramai-ramai di lapangan upacara agar ia merasa malu di hadapan seluruh peserta upacara instansi.",
+        "poin": 2
+      },
+      {
+        "label": "C",
+        "teks": "Mendekatinya secara santun usai acara untuk memahami alasannya, mengingatkan kewajiban ASN, serta berkoordinasi dengan atasan.",
+        "poin": 5
+      },
+      {
+        "label": "D",
+        "teks": "Merekam sikapnya secara diam-diam lalu menyebarkan videonya ke media sosial agar segera viral dan dipecat publik.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Membiarkannya dulu kali ini sambil melihat apakah ia akan mengulangi sikap serupa pada upacara bulan berikutnya.",
+        "poin": 4
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Aspek Anti Radikalisme: Pembinaan disiplin ideologis dan kewajiban kesetiaan ASN terhadap simbol negara dilakukan secara persuasif, terukur, dan berjenjang. [Bobot: A(1), B(2), C(5), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_132",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda bekerja di dinas daerah dan ditunjuk mengelola dana hibah organisasi kemasyarakatan. Saat verifikasi proposal salah satu kelompok penerima, Anda menemukan AD/ART kelompok tersebut tidak mencantumkan Pancasila dan memiliki agenda intoleran terhadap warga lain. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menolak pencairan sesuai aturan verifikasi, menyusun berita acara objektif, serta melaporkan temuan ke tim pengawas dan Kesbangpol.",
+        "poin": 5
+      },
+      {
+        "label": "B",
+        "teks": "Tetap mencairkan dana hibah karena kelompok tersebut memiliki massa besar di daerah dan dekat dengan beberapa tokoh lokal.",
+        "poin": 1
+      },
+      {
+        "label": "C",
+        "teks": "Menyarankan pengurus kelompok mengubah AD/ART secara formalitas di atas kertas saja supaya dana hibah tetap cair.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Membiarkan berkas proposal mengendap di meja tanpa kepastian penolakan resmi maupun laporan kepada tim pengawas.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Mengurangi nominal dana hibah yang diajukan menjadi setengahnya saja supaya risikonya dianggap tidak terlalu besar.",
+        "poin": 4
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Aspek Anti Radikalisme: Ketegasan menjaga anggaran negara agar tidak mendanai kelompok intoleran atau anti-Pancasila adalah benteng pertahanan negara. [Bobot: A(5), B(1), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_133",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Seorang tetangga yang juga aktif di karang taruna mengajak Anda berdiskusi tentang konten media sosial yang menuduh seluruh aparatur pemerintah sebagai musuh rakyat dan mengajak melakukan aksi perusakan fasilitas umum saat demonstrasi. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mendiamkan saja pembicaraan tersebut karena menganggap pemuda memang wajar bersikap emosional dalam berpendapat.",
+        "poin": 2
+      },
+      {
+        "label": "B",
+        "teks": "Langsung memutus hubungan pertemanan dengan tetangga tersebut tanpa berupaya memberi pemahaman hukum yang benar.",
+        "poin": 3
+      },
+      {
+        "label": "C",
+        "teks": "Ikut mendukung ajakan aksi anarkis tersebut supaya dianggap sebagai aparatur yang paling membela kepentingan rakyat kecil.",
+        "poin": 1
+      },
+      {
+        "label": "D",
+        "teks": "Meluruskan secara tenang bahwa penyampaian aspirasi sah dijamin hukum namun perusakan fasilitas umum adalah tindak pidana.",
+        "poin": 5
+      },
+      {
+        "label": "E",
+        "teks": "Menyarankannya tidak usah ikut berorganisasi di karang taruna lagi kalau hanya membuat masalah di lingkungan RT.",
+        "poin": 4
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Aspek Anti Radikalisme: Mengedukasi warga tentang batas demokrasi yang damai dan menolak tindakan anarkis menjaga ketertiban sosial. [Bobot: A(2), B(3), C(1), D(5), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_134",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda pegawai Kanwil Kemenkumham bagian kepegawaian. Saat melakukan pengecekan rutin media sosial resmi dan interaksi pegawai, Anda mendapati seorang ASN membagikan penggalangan dana daring yang tautannya terhubung ke jaringan kelompok terorisme terlarang. Tindakan Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Menghiraukannya karena penggalangan dana tersebut memakai label kemanusiaan sehingga niatnya pasti baik.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mengamankan bukti digitalnya dan segera melaporkan ke pimpinan serta unit berwenang (PPATK/Densus/BNPT) melalui jalur resmi.",
+        "poin": 5
+      },
+      {
+        "label": "C",
+        "teks": "Ikut menyumbang sedikit dana melalui tautan itu agar tidak dicurigai oleh rekan kerja yang membagikannya.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menegur pegawai tersebut di grup umum kantor dengan menuduhnya sebagai pendana teroris di hadapan seluruh pegawai.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Memintanya menghapus unggahan tersebut diam-diam agar nama baik instansi tidak tercoreng di hadapan masyarakat.",
+        "poin": 4
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Aspek Anti Radikalisme: Kewaspadaan terhadap pendanaan terorisme berkedok amal dan pelaporan berjenjang ke otoritas berwenang sangat krusial. [Bobot: A(1), B(5), C(2), D(3), E(4)]"
+  },
+  {
+    "id": "tkp_gratis_135",
+    "kategori": "TKP",
+    "subKategori": "Anti Radikalisme",
+    "soal": "Anda adalah ASN yang ditunjuk menjadi pembina kegiatan ekstrakurikuler kepemudaan di daerah. Seorang pembina tamu sempat menyampaikan materi yang merendahkan keberagaman suku dan menyebut hanya kelompok tertentu yang berhak memimpin Indonesia. Sikap Anda adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Membiarkan materi diskriminatif tersebut berlalu tanpa pelurusan supaya tamu pembicara tidak merasa tersinggung.",
+        "poin": 1
+      },
+      {
+        "label": "B",
+        "teks": "Mencatat ucapan pembina tamu tersebut dalam notulen tanpa pernah mengklarifikasi kekeliruannya di hadapan peserta.",
+        "poin": 4
+      },
+      {
+        "label": "C",
+        "teks": "Menghentikan seluruh kegiatan ekstrakurikuler kepemudaan di sekolah hingga akhir semester tanpa penjelasan kepada siswa.",
+        "poin": 2
+      },
+      {
+        "label": "D",
+        "teks": "Menyampaikan ketidaksetujuan Anda hanya kepada dua orang siswa setelah acara selesai di luar ruang pertemuan.",
+        "poin": 3
+      },
+      {
+        "label": "E",
+        "teks": "Segera meluruskan di forum secara santun berbasis nilai kebangsaan dan mengevaluasi daftar pemateri bersama panitia.",
+        "poin": 5
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Aspek Anti Radikalisme: Meluruskan narasi sektarian secara cepat dan santun menjaga semangat persatuan serta kesetaraan hak warga negara. [Bobot: A(1), B(4), C(2), D(3), E(5)]"
+  }
+];

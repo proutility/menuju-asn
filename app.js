@@ -195,6 +195,8 @@ window.switchAppView = (viewName) => {
 
     if (viewName === 'command') {
         window.loadCommandCenterData();
+    } else if (viewName === 'beranda' && typeof window.renderSavedExamsOnBeranda === 'function') {
+        window.renderSavedExamsOnBeranda();
     }
 };
 
@@ -530,10 +532,10 @@ window.renderTkp40PaketCards = () => {
                     <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
                     <div>
                         <h3>TKP Paket #${i}</h3>
-                        <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • Bobot 1–5</span>
+                        <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 45 Menit • 6 Topik Seimbang</span>
                     </div>
                 </div>
-                <p>Latihan intensif Tes Karakteristik Pribadi (Paket ${i} dari 40 • 1.800 Bank Soal TKP).</p>
+                <p>Simulasi TKP 45 soal seimbang semua aspek (Paket ${i} dari 40 • 1.800 Bank Soal TKP).</p>
             </div>
             ${ctaHtml}
         `;
@@ -550,6 +552,9 @@ window.renderTkp40PaketCards = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     window.renderTkp40PaketCards();
+    if (typeof window.renderSavedExamsOnBeranda === 'function') {
+        window.renderSavedExamsOnBeranda();
+    }
 });
 
 window.filterTryoutPaket = (filter, btnEl) => {
@@ -599,7 +604,10 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
                 if (res.isConfirmed) window.mulaiSingleplayer(sub);
             });
         }
-        if (f.includes('TKP')) return window.mulaiSingleplayer('tkp');
+        if (f.includes('TKP')) {
+            const matchNo = f.match(/#(\d+)/);
+            return window.mulaiSingleplayer('tkp', matchNo ? Number(matchNo[1]) : 1);
+        }
         return window.mulaiSingleplayer('full');
     }
 
@@ -636,37 +644,336 @@ window.infoPaketBelumTersedia = (namaPaket) => {
 };
 
 // ==========================================================
-// 2. MODE SINGLEPLAYER & ENGINE SOAL (TANPA WRITE PER KLIK)
+// 2. MODE SINGLEPLAYER, PEMBAGI PAKET SEIMBANG & MODE SAVE
 // ==========================================================
-window.mulaiSingleplayer = (tipe) => {
+function buildBalancedTkpPackages(tkpQuestions, totalPackages = 40, perPackage = 45) {
+    if (window._cachedBalancedTkpPackages && window._cachedBalancedTkpLen === tkpQuestions.length) {
+        return window._cachedBalancedTkpPackages;
+    }
+
+    const groups = {};
+    tkpQuestions.forEach(q => {
+        const key = q.subKategori || 'Umum';
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(q);
+    });
+
+    const subKeys = Object.keys(groups).sort();
+    subKeys.forEach(k => groups[k].sort((a, b) => String(a.id).localeCompare(String(b.id))));
+
+    const packages = Array.from({ length: totalPackages }, () => []);
+    const cursors = {};
+    subKeys.forEach(k => { cursors[k] = 0; });
+
+    // Hitung jatah proporsional tiap topik per paket agar seimbang 45 soal x 40 paket
+    const totalCount = tkpQuestions.length;
+    const baseAlloc = {};
+    let baseSum = 0;
+    subKeys.forEach(k => {
+        baseAlloc[k] = Math.floor((groups[k].length * perPackage) / totalCount);
+        baseSum += baseAlloc[k];
+    });
+
+    // Sebar sisa jatah ke paket secara round-robin
+    const extraNeed = {};
+    subKeys.forEach(k => {
+        extraNeed[k] = groups[k].length - baseAlloc[k] * totalPackages;
+    });
+
+    let extraCursor = 0;
+    for (let p = 0; p < totalPackages; p++) {
+        subKeys.forEach(k => {
+            const takeBase = Math.min(baseAlloc[k], groups[k].length - cursors[k]);
+            for (let c = 0; c < takeBase; c++) {
+                packages[p].push(groups[k][cursors[k]++]);
+            }
+        });
+        while (packages[p].length < perPackage) {
+            let added = false;
+            for (let attempt = 0; attempt < subKeys.length; attempt++) {
+                const k = subKeys[(extraCursor + attempt) % subKeys.length];
+                if (extraNeed[k] > 0 && cursors[k] < groups[k].length) {
+                    packages[p].push(groups[k][cursors[k]++]);
+                    extraNeed[k]--;
+                    extraCursor = (extraCursor + attempt + 1) % subKeys.length;
+                    added = true;
+                    break;
+                }
+            }
+            if (!added) break;
+        }
+    }
+
+    window._cachedBalancedTkpPackages = packages;
+    window._cachedBalancedTkpLen = tkpQuestions.length;
+    return packages;
+}
+
+function getSavedExamsStorageKey() {
+    const uid = window.currentUser?.uid || 'guest';
+    return `menuju_asn_saved_exams_v1_${uid}`;
+}
+
+function getSavedExamsMap() {
+    try {
+        const raw = localStorage.getItem(getSavedExamsStorageKey());
+        const parsed = raw ? JSON.parse(raw) : {};
+        return (parsed && typeof parsed === 'object') ? parsed : {};
+    } catch (_) {
+        return {};
+    }
+}
+
+function setSavedExamsMap(mapObj) {
+    try {
+        localStorage.setItem(getSavedExamsStorageKey(), JSON.stringify(mapObj || {}));
+    } catch (err) {
+        console.warn('Gagal menyimpan progres ke localStorage:', err);
+    }
+}
+
+window.removeSavedExamById = (saveId) => {
+    if (!saveId) return;
+    const map = getSavedExamsMap();
+    if (map[saveId]) {
+        delete map[saveId];
+        setSavedExamsMap(map);
+        if (typeof window.renderSavedExamsOnBeranda === 'function') {
+            window.renderSavedExamsOnBeranda();
+        }
+    }
+};
+
+window.hapusUjianTersimpan = async (saveId) => {
+    const res = await Swal.fire({
+        title: 'Hapus Progres Tersimpan?',
+        text: 'Progres pengerjaan paket ini akan dihapus dari Beranda.',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Ya, Hapus',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#dc2626'
+    });
+    if (res.isConfirmed) {
+        window.removeSavedExamById(saveId);
+    }
+};
+
+window.simpanDanKembaliKeBeranda = async () => {
+    if (window.currentAppMode !== 'singleplayer') {
+        return window.kembaliKeLobby();
+    }
+
+    const totalSoal = (window.currentQuestions || []).length;
+    const totalJawab = Object.keys(window.userAnswers || {}).length;
+    const remSec = Math.max(0, window.examTimeRemaining || 0);
+    const remM = String(Math.floor(remSec / 60)).padStart(2, '0');
+    const remS = String(remSec % 60).padStart(2, '0');
+
+    const res = await Swal.fire({
+        title: 'Simpan Progres & Kembali?',
+        html: `Progres <b>${totalJawab}/${totalSoal}</b> soal (sisa waktu <b>${remM}:${remS}</b>) akan disimpan dan muncul di <b>Beranda</b> agar bisa dilanjutkan nanti.`,
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: '💾 Simpan & ke Beranda',
+        cancelButtonText: 'Lanjut Mengerjakan',
+        confirmButtonColor: '#1e3a8a'
+    });
+
+    if (!res.isConfirmed) return;
+
+    const meta = window.currentPackageMeta || {
+        saveId: `single_${Date.now()}`,
+        tipe: 'tkp',
+        paketNo: 1,
+        title: 'Latihan Soal SKD'
+    };
+
+    const map = getSavedExamsMap();
+    map[meta.saveId] = {
+        saveId: meta.saveId,
+        title: meta.title,
+        tipe: meta.tipe,
+        paketNo: meta.paketNo,
+        questionIds: (window.currentQuestions || []).map(q => q.id),
+        userAnswers: { ...(window.userAnswers || {}) },
+        userAnswerPoints: { ...(window.userAnswerPoints || {}) },
+        currentIdx: window.currentIdx || 0,
+        examTimeRemaining: remSec,
+        totalDurationSeconds: meta.totalDurationSeconds || totalSoal * 60,
+        totalQuestions: totalSoal,
+        answeredCount: totalJawab,
+        savedAt: Date.now()
+    };
+    setSavedExamsMap(map);
+
+    window.kembaliKeLobby();
+    window.switchAppView('beranda');
+    window.renderSavedExamsOnBeranda();
+
+    Swal.fire({
+        icon: 'success',
+        title: 'Progres Tersimpan',
+        text: `${meta.title} siap dilanjutkan kapan saja dari Beranda.`,
+        timer: 1700,
+        showConfirmButton: false
+    });
+};
+
+window.lanjutkanUjianTersimpan = (saveId) => {
+    const map = getSavedExamsMap();
+    const saved = map[saveId];
+    if (!saved) {
+        return Swal.fire('Info', 'Data progres tidak ditemukan.', 'info');
+    }
+
+    const pool = [...(window.DATA_SKD_CPNS || []), ...(window.DATA_TKP_GRATIS || [])];
+    const byId = new Map(pool.map(q => [q.id, q]));
+    const restoredQuestions = (saved.questionIds || []).map(id => byId.get(id)).filter(Boolean);
+
+    if (restoredQuestions.length === 0) {
+        return Swal.fire('Info', 'Bank soal untuk progres ini tidak ditemukan.', 'warning');
+    }
+
+    window.currentQuestions = restoredQuestions;
+    window.currentAppMode = 'singleplayer';
+    window.currentPackageMeta = {
+        saveId: saved.saveId,
+        tipe: saved.tipe,
+        paketNo: saved.paketNo,
+        title: saved.title,
+        totalDurationSeconds: saved.totalDurationSeconds || restoredQuestions.length * 60
+    };
+
+    window.switchAppView('cat');
+    startExamSessionUI(saved);
+};
+
+window.renderSavedExamsOnBeranda = () => {
+    const container = document.getElementById('savedExamsBerandaSection');
+    if (!container) return;
+
+    const items = Object.values(getSavedExamsMap()).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+    if (items.length === 0) {
+        container.style.display = 'none';
+        container.innerHTML = '';
+        return;
+    }
+
+    container.style.display = 'block';
+    const cardsHtml = items.map(item => {
+        const rem = Math.max(0, item.examTimeRemaining || 0);
+        const mm = String(Math.floor(rem / 60)).padStart(2, '0');
+        const ss = String(rem % 60).padStart(2, '0');
+        const pct = item.totalQuestions > 0 ? Math.round(((item.answeredCount || 0) / item.totalQuestions) * 100) : 0;
+        const tgl = new Date(item.savedAt || Date.now()).toLocaleString('id-ID', {
+            day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
+        });
+        return `
+            <div class="card-mode packet-card" style="border:1.5px solid #fdba74; background:#fffaf5; padding:16px;">
+                <div>
+                    <div class="packet-badges" style="margin-bottom:8px;">
+                        <span class="badge-access" style="background:#ffedd5; color:#c2410c;"><i class="fas fa-bookmark"></i> TERSIMPAN</span>
+                        <span class="badge-cat">${item.answeredCount || 0}/${item.totalQuestions} Soal (${pct}%)</span>
+                    </div>
+                    <h4 style="margin:0 0 6px; font-size:0.98rem; color:#0f172a;">${item.title}</h4>
+                    <div style="font-size:0.8rem; color:#475569; margin-bottom:12px;">
+                        <span><i class="fas fa-stopwatch" style="color:#c2410c;"></i> Sisa Waktu: <b>${mm}:${ss}</b></span>
+                        <span style="margin-left:10px; color:#94a3b8;">• ${tgl}</span>
+                    </div>
+                </div>
+                <div style="display:flex; gap:8px;">
+                    <button class="btn-card primary" style="flex:1;" onclick="window.lanjutkanUjianTersimpan('${item.saveId}')">
+                        <i class="fas fa-play"></i> Lanjutkan
+                    </button>
+                    <button class="btn-card" style="width:auto; padding:0 12px; background:#fee2e2; color:#b91c1c;" title="Hapus Progres" onclick="window.hapusUjianTersimpan('${item.saveId}')">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    container.innerHTML = `
+        <div class="dash-section-head" style="margin-bottom:12px;">
+            <h3><i class="fas fa-bookmark" style="color:#ea580c;"></i> Lanjutkan Latihan Tersimpan</h3>
+            <span>${items.length} paket belum selesai</span>
+        </div>
+        <div class="dash-quick-grid">${cardsHtml}</div>
+    `;
+};
+
+window.mulaiSingleplayer = (tipe, paketNo = null) => {
     let rawData = window.DATA_SKD_CPNS || [];
+    let title = 'Latihan Soal SKD';
+    let saveId = tipe;
+
     if (tipe === 'twk') {
         window.currentQuestions = rawData.filter(q => q.kategori === 'TWK');
         window.examTimeRemaining = window.currentQuestions.length * 60;
+        title = 'Paket Soal TWK';
     } else if (tipe === 'tiu') {
         window.currentQuestions = rawData.filter(q => q.kategori === 'TIU');
         window.examTimeRemaining = window.currentQuestions.length * 60;
+        title = 'Paket Soal TIU';
+    } else if (tipe === 'tkp_gratis') {
+        const no = Math.max(1, Math.min(3, Number(paketNo) || 1));
+        const gratisPool = window.DATA_TKP_GRATIS || [];
+        window.currentQuestions = gratisPool.slice((no - 1) * 45, no * 45);
+        window.examTimeRemaining = window.currentQuestions.length * 60; // 45 Menit
+        title = `TKP Gratis — Paket ${no}`;
+        saveId = `tkp_gratis_${no}`;
     } else if (tipe === 'tkp') {
-        window.currentQuestions = rawData.filter(q => q.kategori === 'TKP');
-        window.examTimeRemaining = window.currentQuestions.length * 60;
+        const allTkp = rawData.filter(q => q.kategori === 'TKP');
+        if (paketNo) {
+            const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
+            const packages = buildBalancedTkpPackages(allTkp, 40, 45);
+            window.currentQuestions = packages[no - 1] || [];
+            window.examTimeRemaining = window.currentQuestions.length * 60; // 45 Menit
+            title = `TKP Paket #${no}`;
+            saveId = `tkp_${no}`;
+        } else {
+            const packages = buildBalancedTkpPackages(allTkp, 40, 45);
+            window.currentQuestions = packages[0] || allTkp.slice(0, 45);
+            window.examTimeRemaining = window.currentQuestions.length * 60;
+            title = 'TKP Paket #1';
+            saveId = 'tkp_1';
+        }
     } else {
         window.currentQuestions = [...rawData];
         window.examTimeRemaining = 100 * 60; // 100 Menit standar BKN
+        title = 'Simulasi SKD Lengkap';
     }
 
     if (window.currentQuestions.length === 0) {
         return Swal.fire('Informasi', 'Paket soal sedang dipersiapkan.', 'info');
     }
 
+    window.currentPackageMeta = {
+        saveId,
+        tipe,
+        paketNo: paketNo ? Number(paketNo) : null,
+        title,
+        totalDurationSeconds: window.examTimeRemaining
+    };
     window.currentAppMode = 'singleplayer';
     startExamSessionUI();
 };
 
-function startExamSessionUI() {
-    window.currentIdx = 0;
-    window.userAnswers = {};
-    window.userAnswerPoints = {};
-    window.examStartTimeMs = Date.now();
+function startExamSessionUI(restoredState = null) {
+    if (restoredState) {
+        window.currentIdx = Math.min(restoredState.currentIdx || 0, Math.max(0, window.currentQuestions.length - 1));
+        window.userAnswers = { ...(restoredState.userAnswers || {}) };
+        window.userAnswerPoints = { ...(restoredState.userAnswerPoints || {}) };
+        window.examTimeRemaining = Math.max(1, restoredState.examTimeRemaining || (window.currentQuestions.length * 60));
+        const elapsedSec = Math.max(0, (restoredState.totalDurationSeconds || (window.currentQuestions.length * 60)) - window.examTimeRemaining);
+        window.examStartTimeMs = Date.now() - (elapsedSec * 1000);
+    } else {
+        window.currentIdx = 0;
+        window.userAnswers = {};
+        window.userAnswerPoints = {};
+        window.examStartTimeMs = Date.now();
+    }
     window.syncedSubtes = { TWK: false, TIU: false, TKP: false };
 
     document.getElementById('lobbySection').style.display = 'none';
@@ -682,20 +989,26 @@ function startExamSessionUI() {
 }
 
 function buildExamStageMarkup() {
+    const pkgTitle = window.currentPackageMeta?.title ? ` • ${window.currentPackageMeta.title}` : '';
     return `
         <div class="exam-header">
             <div class="exam-meta">
                 <span id="badgeSubtes" class="badge-subtes twk">TWK</span>
-                <span id="noSoalDisplay" style="font-weight:700; font-size:0.85rem; color:#334155;">Soal 1</span>
+                <span id="noSoalDisplay" style="font-weight:700; font-size:0.85rem; color:#334155;">Soal 1${pkgTitle}</span>
             </div>
-            <div style="display:flex; align-items:center; gap:8px;">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                ${window.currentAppMode === 'singleplayer' ? `
+                    <button onclick="window.simpanDanKembaliKeBeranda()" style="background:#fff7ed; color:#c2410c; border:1px solid #fed7aa; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
+                        <i class="fas fa-bookmark"></i> Simpan &amp; Kembali
+                    </button>
+                ` : ''}
                 ${window.currentAppMode === 'multiplayer' ? `
                     <button onclick="window.bukaModalKlasemenMabar()" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
                         <i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen
                     </button>
                 ` : ''}
                 <div class="exam-timer" id="examTimerDisplay">
-                    <i class="fas fa-stopwatch"></i> 100:00
+                    <i class="fas fa-stopwatch"></i> 45:00
                 </div>
             </div>
         </div>
@@ -890,6 +1203,10 @@ window.konfirmasiSelesaiUjian = async () => {
 
 async function selesaikanUjian() {
     clearInterval(window.examTimerInterval);
+
+    if (window.currentPackageMeta?.saveId && typeof window.removeSavedExamById === 'function') {
+        window.removeSavedExamById(window.currentPackageMeta.saveId);
+    }
 
     if (window.currentAppMode === 'multiplayer') {
         await syncCheckpointToFirestore(null, true);
