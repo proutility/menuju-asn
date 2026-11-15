@@ -1,5 +1,5 @@
-// Service Worker untuk PWA MENUJU ASN (CBT SKD CPNS 2026) v2.1.1
-const CACHE_NAME = 'menuju-asn-v2.1.1';
+// Service Worker untuk PWA MENUJU ASN (CBT SKD CPNS 2026) v2.1.2
+const CACHE_NAME = 'menuju-asn-v2.1.2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

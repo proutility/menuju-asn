@@ -24,7 +24,7 @@ export const firebaseConfig = {
 };
 
 // 👑 ADMIN & EDITOR RESMI MENUJU ASN
-export const ADMIN_EMAILS = ["ilhamnp22@gmail.com", "inurprtma22@gmail.com"]; 
+export const ADMIN_EMAILS = ["tamaverseapp@gmail.com"]; 
 export const EDITOR_EMAILS = [];
 
 // 🔒 PREFIX NAMESPACING FIRESTORE (ANTI-BENTROK DENGAN PRO-TAMA)

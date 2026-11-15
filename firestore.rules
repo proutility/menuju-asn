@@ -4,9 +4,16 @@ service cloud.firestore {
 
     // --- HELPER FUNCTIONS ---
     
-    // 1. Cek apakah Super Admin (Akses Mutlak)
+    // 1. Cek apakah Super Admin (Akses Mutlak PRO-TAMA)
     function isSuperAdmin() {
       return request.auth != null && request.auth.token.email in ["ilhamnp22@gmail.com", "inurprtma22@gmail.com"];
+    }
+
+    // 1B. Cek apakah Super Admin khusus MENUJU ASN (CPNS 2026)
+    function isCpnsSuperAdmin() {
+      return request.auth != null &&
+        request.auth.token.email != null &&
+        request.auth.token.email.lower() == "tamaverseapp@gmail.com";
     }
 
     // 2. Cek apakah Asisten Admin / Editor (Bisa Kelola Soal & Laporan)
@@ -239,12 +246,12 @@ service cloud.firestore {
         request.resource.data.hostUid == request.auth.uid &&
         request.resource.data.maxPlayers is int &&
         (
-          (isSuperAdmin() && request.resource.data.maxPlayers > 0) ||
+          (isCpnsSuperAdmin() && request.resource.data.maxPlayers > 0) ||
           (isPaidCpnsUser() && isValidMaxPlayersForTier(request.resource.data.maxPlayers))
         );
 
       allow update: if request.auth != null && (
-        isSuperAdmin() ||
+        isCpnsSuperAdmin() ||
         (
           (isPaidCpnsUser() || isGuestWhitelisted()) &&
           request.resource.data.maxPlayers == resource.data.maxPlayers &&
@@ -256,20 +263,20 @@ service cloud.firestore {
 
       allow delete: if request.auth != null && (
         resource.data.hostUid == request.auth.uid ||
-        isSuperAdmin()
+        isCpnsSuperAdmin()
       );
     }
     match /cpns_users/{userId} {
-      allow read: if request.auth != null && (request.auth.uid == userId || isSuperAdmin());
+      allow read: if request.auth != null && (request.auth.uid == userId || isCpnsSuperAdmin());
       allow create: if request.auth != null && (
-        isSuperAdmin() ||
+        isCpnsSuperAdmin() ||
         (
           request.auth.uid == userId &&
           request.resource.data.get('isPaid', false) == false &&
           request.resource.data.get('tier', 'free') == 'free'
         )
       );
-      allow update, delete: if isSuperAdmin();
+      allow update, delete: if isCpnsSuperAdmin();
     }
     match /cpns_tryout_sessions/{document=**} {
       allow read: if true;
@@ -277,11 +284,11 @@ service cloud.firestore {
     }
     match /cpns_settings/{document=**} {
       allow read: if true;
-      allow write: if isSuperAdmin();
+      allow write: if isCpnsSuperAdmin();
     }
     match /cpns_packages/{document=**} {
       allow read: if true;
-      allow write: if isSuperAdmin();
+      allow write: if isCpnsSuperAdmin();
     }
 
     // --- 20. ATURAN MODUL SOAL CBT & KUNCI JAWABAN ---
