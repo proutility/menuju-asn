@@ -1685,6 +1685,162 @@ footer {
 .mob-nav-btn i { font-size: 1.05rem; }
 .mob-nav-btn.active { color: var(--primary); font-weight: 800; }
 
+/* ==========================================================
+   LANDING FREE TRIAL 3 PAKET SOAL (TWK, TIU, TKP)
+   ========================================================== */
+.landing-free-trial {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 18px 20px 44px;
+}
+
+.trial-eyebrow {
+    background: #dcfce7;
+    color: #166534;
+    padding: 4px 12px;
+    border-radius: 999px;
+}
+
+.free-trial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.trial-card {
+    background: white;
+    border: 1.5px solid var(--border-color);
+    border-radius: 18px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.trial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.09);
+}
+
+.trial-card.twk { border-top: 4px solid #2563eb; }
+.trial-card.tiu { border-top: 4px solid #d97706; }
+.trial-card.tkp { border-top: 4px solid #059669; }
+
+.trial-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.trial-badge {
+    background: #ecfdf5;
+    color: #047857;
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.trial-pg {
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: #475569;
+    background: #f1f5f9;
+    padding: 4px 9px;
+    border-radius: 6px;
+}
+
+.trial-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.trial-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
+
+.trial-icon.blue { background: #eff6ff; color: #2563eb; }
+.trial-icon.gold { background: #fffbeb; color: #d97706; }
+.trial-icon.green { background: #ecfdf5; color: #059669; }
+
+.trial-header h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--text-main);
+    line-height: 1.2;
+}
+
+.trial-header span {
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.trial-card p {
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 14px;
+    flex: 1;
+}
+
+.trial-chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.trial-chips span {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #334155;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 4px 9px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-trial {
+    width: 100%;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 10px;
+    font-family: var(--font-main);
+    font-weight: 800;
+    font-size: 0.86rem;
+    cursor: pointer;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: opacity 0.18s ease;
+}
+
+.btn-trial:hover { opacity: 0.92; }
+.btn-trial.blue { background: #2563eb; }
+.btn-trial.gold { background: #d97706; }
+.btn-trial.green { background: #059669; }
+
 /* RESPONSIVE */
 @media (max-width: 960px) {
     .app-sidebar { display: none; }
@@ -1694,6 +1850,7 @@ footer {
     .dash-kpi-grid { grid-template-columns: repeat(2, 1fr); }
     .dash-quick-grid,
     .brankas-summary-grid,
+    .free-trial-grid,
     .features-grid,
     .pricing-grid {
         grid-template-columns: 1fr;
