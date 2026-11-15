@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.5.0">
+    <link rel="stylesheet" href="style.css?v=2.5.1">
 </head>
 <body>
 
@@ -1001,8 +1001,8 @@
                 <div class="view-banner navy">
                     <div class="command-banner-row" style="width:100%;">
                         <div>
-                            <h2><i class="fas fa-robot"></i> MenujuASN-BOT &amp; Pusat Berita CPNS</h2>
-                            <p>Asisten AI pintar untuk crosscheck kelemahan belajar, cek info CPNS live via Google, dan kumpulan link berita resmi terkurasi.</p>
+                            <h2><i class="fas fa-robot"></i> MenujuASN-BOT &amp; Pusat Berita CASN</h2>
+                            <p>Asisten AI pintar untuk crosscheck kelemahan belajar, cek info CASN live via Google, dan kumpulan link berita resmi terkurasi.</p>
                         </div>
                         <button class="btn-dash-gold" onclick="window.refreshBotAndNewsView()">
                             <i class="fas fa-sync-alt"></i> Muat Ulang
@@ -1032,17 +1032,17 @@
                         <div id="botWeaknessResult" class="bot-result-box" style="display:none;"></div>
                     </div>
 
-                    <!-- KARTU 2: TANYA INFO CPNS LIVE (GOOGLE SEARCH) -->
+                    <!-- KARTU 2: TANYA INFO CASN LIVE (GOOGLE SEARCH) -->
                     <div class="bot-panel-card">
                         <div class="bot-panel-head">
                             <div class="mode-icon gold"><i class="fas fa-search"></i></div>
                             <div>
-                                <h3>Tanya Info CPNS Terbaru (Live Google)</h3>
+                                <h3>Tanya Info CASN Terbaru (Live Google)</h3>
                                 <span>Tanyakan jadwal BKN, formasi, atau regulasi KemenPAN-RB terbaru langsung ke MenujuASN-BOT.</span>
                             </div>
                         </div>
                         <form class="bot-search-form" onsubmit="window.tanyaInfoCpnsBot(event)">
-                            <input type="text" id="botNewsQuestion" placeholder="Contoh: Jadwal pendaftaran CPNS 2026 terbaru BKN..." required />
+                            <input type="text" id="botNewsQuestion" placeholder="Contoh: Jadwal pendaftaran CASN 2026 terbaru BKN..." required />
                             <button type="submit" class="btn-card primary" style="width:auto; white-space:nowrap;">
                                 <i class="fas fa-paper-plane"></i> Tanya BOT
                             </button>
@@ -1056,7 +1056,7 @@
                     <div class="bot-panel-head">
                         <div class="mode-icon green"><i class="fas fa-newspaper"></i></div>
                         <div>
-                            <h3>Pusat Berita &amp; Pengumuman Resmi CPNS</h3>
+                            <h3>Pusat Berita &amp; Pengumuman Resmi CASN</h3>
                             <span>Kumpulan tautan berita &amp; edaran resmi pilihan Admin MENUJU ASN — klik untuk membaca langsung.</span>
                         </div>
                     </div>
@@ -1290,7 +1290,7 @@
                         <p>Salin link berita resmi (BKN / KemenPAN-RB / Media) di sini, otomatis tampil di tab MenujuASN-BOT &amp; Berita.</p>
                         <div class="cc-form-group">
                             <label for="ccNewsTitle">Judul Berita / Pengumuman</label>
-                            <input type="text" id="ccNewsTitle" placeholder="Contoh: Jadwal Resmi Pendaftaran CPNS 2026 dari BKN" />
+                            <input type="text" id="ccNewsTitle" placeholder="Contoh: Jadwal Resmi Pendaftaran CASN 2026 dari BKN" />
                         </div>
                         <div style="display:grid; grid-template-columns:1fr 180px; gap:10px;">
                             <div class="cc-form-group">
@@ -1388,13 +1388,13 @@
     <script src="data_twk_gratis.js?v=1.0.0"></script>
     <script src="data_tiu_gratis.js?v=1.0.0"></script>
     <script src="data_tkp_gratis.js?v=1.0.0"></script>
-    <script type="module" src="app.js?v=2.5.0"></script>
+    <script type="module" src="app.js?v=2.5.1"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.5.0')
+                navigator.serviceWorker.register('./sw.js?v=2.5.1')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });

@@ -4967,7 +4967,7 @@ window.bukaModalLaporSoal = async (explicitSoalId = null) => {
 
 
 // ==========================================================
-// 12. MENUJUASN-BOT (GEMINI AI + QUOTA) & PUSAT BERITA CPNS
+// 12. MENUJUASN-BOT (GEMINI AI + QUOTA) & PUSAT BERITA CASN
 // ==========================================================
 async function callMenujuAsnBot(payload) {
     if (!window.currentUser) {
@@ -5127,8 +5127,8 @@ window.loadPusatBerita = async () => {
                 userListEl.innerHTML = items.map(n => `
                     <div class="news-card">
                         <div>
-                            <span class="news-tag">${escapeHtmlMentor(n.tag || 'INFO CPNS')}</span>
-                            <h4>${escapeHtmlMentor(n.title || 'Pengumuman CPNS')}</h4>
+                            <span class="news-tag">${escapeHtmlMentor(n.tag || 'INFO CASN')}</span>
+                            <h4>${escapeHtmlMentor(n.title || 'Pengumuman CASN')}</h4>
                             ${n.desc ? `<p>${escapeHtmlMentor(n.desc)}</p>` : ''}
                         </div>
                         <a class="btn-news-open" href="${escapeHtmlMentor(n.url)}" target="_blank" rel="noopener noreferrer">

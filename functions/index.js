@@ -246,8 +246,8 @@ exports.menujuAsnBot = onRequest(
         }
 
         const systemInstruction =
-          "Kamu adalah MenujuASN-BOT, mentor ahli SKD CPNS Indonesia standar BKN 2026 (TWK, TIU, TKP). " +
-          "Jawab dalam bahasa Indonesia yang jelas, terstruktur, ringkas, dan mudah dipahami pejuang CPNS. " +
+          "Kamu adalah MenujuASN-BOT, mentor ahli SKD CASN Indonesia standar BKN 2026 (TWK, TIU, TKP). " +
+          "Jawab dalam bahasa Indonesia yang jelas, terstruktur, ringkas, dan mudah dipahami pejuang CASN. " +
           "Gunakan poin-poin rapi: (1) Inti Konsep/Trik Cepat, (2) Kenapa Jawaban Benar/Skor 5 Tepat, (3) Kenapa Opsi Lain Kurang Tepat.";
 
         const prompt =
@@ -289,7 +289,7 @@ exports.menujuAsnBot = onRequest(
         }
 
         const systemInstruction =
-          "Kamu adalah MenujuASN-BOT, coach persiapan CPNS 2026. Tugasmu mendiagnosis kelemahan peserta berdasarkan statistik riwayat tryout mereka " +
+          "Kamu adalah MenujuASN-BOT, coach persiapan CASN 2026. Tugasmu mendiagnosis kelemahan peserta berdasarkan statistik riwayat tryout mereka " +
           "terhadap Passing Grade resmi BKN (TWK min 65, TIU min 80, TKP min 166). " +
           "Berikan: (1) 3 Titik Kelemahan Utama, (2) Prioritas Perbaikan agar Lolos PG, (3) Target Drill Harian yang realistis. Maksimal 250 kata, padat & memotivasi.";
 
@@ -309,7 +309,7 @@ exports.menujuAsnBot = onRequest(
       if (action === "newsSearch") {
         const question = String(body.question || "").trim();
         if (!question || question.length < 4) {
-          return res.status(400).json({ error: "Tuliskan pertanyaan informasi CPNS minimal 4 karakter." });
+          return res.status(400).json({ error: "Tuliskan pertanyaan informasi CASN minimal 4 karakter." });
         }
 
         const newsKey = makeHashId(`news_${question.toLowerCase().replace(/\s+/g, " ")}`);
@@ -332,14 +332,14 @@ exports.menujuAsnBot = onRequest(
         }
 
         const systemInstruction =
-          "Kamu adalah MenujuASN-BOT, asisten informasi resmi seleksi CPNS/ASN Indonesia. " +
+          "Kamu adalah MenujuASN-BOT, asisten informasi resmi seleksi CASN Indonesia. " +
           "Gunakan Google Search untuk mencari informasi terbaru dari sumber resmi (BKN, KemenPAN-RB, SSCASN, atau media nasional tepercaya). " +
           "Jika informasi belum resmi diumumkan, katakan jujur apa adanya dan hindari spekulasi. Jawaban ringkas, jelas, dalam Bahasa Indonesia.";
 
         const result = await callGemini({
           apiKey,
           systemInstruction,
-          prompt: `Pertanyaan peserta CPNS: ${question}`,
+          prompt: `Pertanyaan peserta CASN: ${question}`,
           useGoogleSearch: true
         });
 
