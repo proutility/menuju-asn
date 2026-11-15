@@ -3035,6 +3035,112 @@ function formatMentorTextHtml(str) {
         .replace(/(^|[\s(:;])"([^"\n]{1,120})"(?=[\s.,;:!?)]|$)/g, '$1<strong>$2</strong>');
 }
 
+function formatMentorTextWithSvg(str) {
+    const raw = String(str || '');
+    const parts = raw.split(/(<svg[\s\S]*?<\/svg>)/gi);
+    return parts.map(part => {
+        if (/^<svg[\s\S]*<\/svg>$/i.test(part) && !/<script/i.test(part) && !/\son\w+\s*=/i.test(part)) {
+            return `<span style="display:inline-flex; vertical-align:middle; margin:2px 4px;">${part}</span>`;
+        }
+        return formatMentorTextHtml(part);
+    }).join('');
+}
+
+function buildNumerikDasarHtml(q) {
+    const text = `${q?.soal || ''} ${q?.pembahasan || ''}`;
+    const tips = [];
+
+    const pctMatches = [...new Set((text.match(/\b\d+(?:[.,]\d+)?%/g) || []).slice(0, 3))];
+    pctMatches.forEach(pctStr => {
+        const num = parseFloat(pctStr.replace('%', '').replace(',', '.'));
+        if (Number.isNaN(num)) return;
+        const dec = Number((num / 100).toFixed(4)).toString().replace('.', ',');
+        if (num === 12.5) {
+            tips.push(`<b>${pctStr}</b> artinya <code>12,5/100</code> = <code>125/1000</code> (bagi 125 atas-bawah) = <b>1/8</b>`);
+        } else if (num === 25) {
+            tips.push(`<b>25%</b> = <code>25/100</code> (bagi 25) = <b>1/4</b> atau <b>0,25</b>`);
+        } else if (num === 50) {
+            tips.push(`<b>50%</b> = <code>50/100</code> = <b>1/2</b> (setengahnya)`);
+        } else if (num === 75) {
+            tips.push(`<b>75%</b> = <code>75/100</code> (bagi 25) = <b>3/4</b>`);
+        } else if (num === 37.5) {
+            tips.push(`<b>37,5%</b> = <code>375/1000</code> = <b>3/8</b>`);
+        } else if (num === 62.5) {
+            tips.push(`<b>62,5%</b> = <code>625/1000</code> = <b>5/8</b>`);
+        } else {
+            tips.push(`<b>${pctStr}</b> artinya perseratus = <code>${pctStr.replace('%', '')}/100</code> = <b>${dec}</b> (geser koma 2 angka ke kiri)`);
+        }
+    });
+
+    const decMatches = [...new Set((text.match(/\b0[.,]\d{1,3}\b/g) || []).slice(0, 3))];
+    const specialDec = {
+        '0,5': '1/2 (5/10 disederhanakan bagi 5)',
+        '0,25': '1/4 (25/100 disederhanakan bagi 25)',
+        '0,75': '3/4 (75/100 disederhanakan bagi 25)',
+        '0,2': '1/5 (2/10 disederhanakan bagi 2)',
+        '0,4': '2/5 (4/10 disederhanakan bagi 2)',
+        '0,6': '3/5 (6/10 disederhanakan bagi 2)',
+        '0,8': '4/5 (8/10 disederhanakan bagi 2)',
+        '0,125': '1/8 (125/1000 disederhanakan bagi 125)',
+        '0,375': '3/8 (375/1000 disederhanakan bagi 125)',
+        '0,625': '5/8 (625/1000 disederhanakan bagi 125)',
+        '0,875': '7/8 (875/1000 disederhanakan bagi 125)'
+    };
+    decMatches.forEach(dRaw => {
+        const dNorm = dRaw.replace('.', ',');
+        if (specialDec[dNorm]) {
+            tips.push(`<b>${dNorm}</b> = <b>${specialDec[dNorm]}</b>`);
+        } else {
+            const digits = dNorm.split(',')[1] || '';
+            const denom = Math.pow(10, digits.length);
+            tips.push(`<b>${dNorm}</b> ada ${digits.length} angka di belakang koma = <code>${Number(digits)}/${denom}</code>`);
+        }
+    });
+
+    const fracMulMatch = text.match(/\(?\b(\d+)\/(\d+)\)?\s*(?:dari|×|\*)\s*(\d+)\b/i);
+    if (fracMulMatch) {
+        const a = Number(fracMulMatch[1]);
+        const b = Number(fracMulMatch[2]);
+        const n = Number(fracMulMatch[3]);
+        if (b > 0 && n % b === 0) {
+            const qVal = n / b;
+            tips.push(`Cara mudah <b>(${a}/${b}) × ${n}</b>: bagi bawah dulu (<code>${n} ÷ ${b} = ${qVal}</code>), lalu kali atas (<code>${qVal} × ${a} = ${qVal * a}</code>)`);
+        }
+    }
+
+    const pctMulMatch = text.match(/\b(\d+)%\s*(?:dari|×|\*)\s*(\d+)\b/i);
+    if (pctMulMatch) {
+        const p = Number(pctMulMatch[1]);
+        const n = Number(pctMulMatch[2]);
+        if (p === 15 && n % 10 === 0) {
+            const p10 = n / 10;
+            const p5 = p10 / 2;
+            tips.push(`Trik tanpa kalkulator <b>15% × ${n}</b>: cari 10%-nya (<code>${n} ÷ 10 = ${p10}</code>) + 5%-nya (setengah dari ${p10} = <code>${p5}</code>) = <b>${p10 + p5}</b>`);
+        } else {
+            tips.push(`Cara hitung <b>${p}% × ${n}</b>: kalikan <code>(${p} × ${n}) ÷ 100</code> = <code>${p * n} ÷ 100</code> = <b>${(p * n) / 100}</b>`);
+        }
+    }
+
+    if (!tips.length) return '';
+
+    return `
+        <div style="background:#ffffff; border:1px solid #bae6fd; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
+            <div style="font-size:0.74rem; font-weight:800; color:#0369a1; margin-bottom:6px;">
+                <i class="fas fa-calculator"></i> Panduan Dasar Hitung &amp; Konversi (Dari Nol)
+            </div>
+            <ul style="margin:0 0 8px 16px; padding:0; font-size:0.77rem; color:#1e293b; line-height:1.5;">
+                ${tips.map(t => `<li style="margin-bottom:3px;">${t}</li>`).join('')}
+            </ul>
+            <div style="background:#f0f9ff; border:1px dashed #7dd3fc; border-radius:6px; padding:6px 9px; font-size:0.71rem; color:#0c4a6e; line-height:1.45;">
+                <strong>📌 Hafalan Pecahan Istimewa:</strong>
+                <code>1/2 = 0,5 = 50%</code> • <code>1/4 = 0,25 = 25%</code> • <code>3/4 = 0,75 = 75%</code> •
+                <code>1/5 = 0,2 = 20%</code> • <code>2/5 = 0,4 = 40%</code> •
+                <code>1/8 = 0,125 = 12,5%</code> • <code>3/8 = 0,375 = 37,5%</code> • <code>5/8 = 0,625 = 62,5%</code> • <code>1/3 ≈ 0,333 = 33,3%</code>
+            </div>
+        </div>
+    `;
+}
+
 function buildMentorVisualHtml(q) {
     if (!q) return '';
     const sub = String(q.subKategori || '').toLowerCase();
@@ -3270,6 +3376,13 @@ function buildMentorVisualHtml(q) {
             </div>
         `;
     }
+
+    // 5. Panduan Dasar Hitung & Konversi (Persen / Desimal / Pecahan) untuk Numerik
+    if (sub.includes('numerik') || sub.includes('hitung') || sub.includes('perbandingan') || sub.includes('cerita')) {
+        const numerikDasar = buildNumerikDasarHtml(q);
+        if (numerikDasar) return numerikDasar;
+    }
+
     return '';
 }
 
@@ -3356,7 +3469,7 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
     const stepsHtml = parts.map((stepTxt, idx) => `
         <div class="mentor-step-item" data-step-idx="${idx}" style="${idx === 0 ? '' : 'display:none;'} background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
             <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 8px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1} • ${getStepTitle(idx, parts.length)}</span>
-            ${formatMentorTextHtml(stepTxt)}
+            ${formatMentorTextWithSvg(stepTxt)}
         </div>
     `).join('');
 
@@ -3370,7 +3483,8 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
 
     const isTiu = String(q.kategori || '').toUpperCase() === 'TIU';
     const subKatAttr = escapeHtmlMentor(q.subKategori || 'TIU');
-    const speechText = escapeHtmlMentor(`${rawText}. Trik cepat: ${trik} Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
+    const cleanSpeechRaw = rawText.replace(/<svg[\s\S]*?<\/svg>/gi, 'gambar pola');
+    const speechText = escapeHtmlMentor(`${cleanSpeechRaw}. Trik cepat: ${trik} Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
 
     return `
         <div id="mentorBox_${safeId}" style="background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:10px; font-size:0.86rem; color:#334155;">
@@ -3552,7 +3666,7 @@ window.ujiPolaSerupaTiu = (soalId, subKategori) => {
         <button type="button" class="uji-serupa-opt" data-label="${escapeHtmlMentor(o.label)}" data-benar="${o.benar ? '1' : '0'}"
             style="width:100%; text-align:left; padding:9px 12px; border:1px solid #cbd5e1; border-radius:8px; background:#fff; font-size:0.84rem; cursor:pointer; display:flex; gap:8px; align-items:center;">
             <strong style="min-width:22px; color:#1d4ed8;">${escapeHtmlMentor(o.label)}.</strong>
-            <span>${escapeHtmlMentor(o.teks)}</span>
+            <span style="display:inline-flex; align-items:center; flex-wrap:wrap; gap:6px;">${formatMentorTextWithSvg(o.teks)}</span>
         </button>
     `).join('');
 
@@ -3564,7 +3678,7 @@ window.ujiPolaSerupaTiu = (soalId, subKategori) => {
                 <span style="display:inline-block; font-size:0.72rem; font-weight:800; background:#eef2ff; color:#3730a3; padding:3px 9px; border-radius:999px; margin-bottom:8px;">
                     ${escapeHtmlMentor(q.subKategori || 'Latihan Pola TIU')}
                 </span>
-                <div style="font-size:0.9rem; color:#0f172a; line-height:1.55; white-space:pre-line; margin-bottom:12px; background:#f8fafc; padding:10px 12px; border-radius:8px; border:1px solid #e2e8f0;">${escapeHtmlMentor(q.soal)}</div>
+                <div style="font-size:0.9rem; color:#0f172a; line-height:1.55; white-space:pre-line; margin-bottom:12px; background:#f8fafc; padding:10px 12px; border-radius:8px; border:1px solid #e2e8f0;">${formatMentorTextWithSvg(q.soal)}</div>
                 <div id="ujiSerupaOpsiWrap" style="display:flex; flex-direction:column; gap:7px;">${btnsHtml}</div>
                 <div id="ujiSerupaFeedback" style="display:none; margin-top:12px; padding:10px 12px; border-radius:8px; font-size:0.82rem; line-height:1.5;"></div>
             </div>
@@ -3596,7 +3710,7 @@ window.ujiPolaSerupaTiu = (soalId, subKategori) => {
                     fb.style.background = isBenar ? '#f0fdf4' : '#fffbeb';
                     fb.style.border = `1px solid ${isBenar ? '#bbf7d0' : '#fde68a'}`;
                     fb.style.color = isBenar ? '#166534' : '#92400e';
-                    fb.innerHTML = `<strong>${isBenar ? '✅ Mantap! Jawabanmu Benar!' : `❌ Kurang Tepat (Kunci: ${escapeHtmlMentor(q.kunci)})`}</strong><br>${escapeHtmlMentor(q.pembahasan)}`;
+                    fb.innerHTML = `<strong>${isBenar ? '✅ Mantap! Jawabanmu Benar!' : `❌ Kurang Tepat (Kunci: ${escapeHtmlMentor(q.kunci)})`}</strong><br>${formatMentorTextWithSvg(q.pembahasan)}`;
                 });
             });
         }
