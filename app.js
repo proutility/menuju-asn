@@ -99,7 +99,8 @@ function updateAuthUI(user) {
     const kpiTierValue = document.getElementById('kpiTierValue');
 
     if (user) {
-        const firstName = user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN';
+        let firstName = user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN';
+        if (firstName.toUpperCase().includes('PRO-TAMA')) firstName = 'MENUJU ASN';
         const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
         const tierText = prof.isAdmin ? 'ADMIN' : String(prof.tier || 'free').toUpperCase();
 
