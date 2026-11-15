@@ -131,6 +131,9 @@ function updateAuthUI(user) {
         if (lobbyEl && window.currentAppMode === 'lobby') {
             lobbyEl.style.display = 'flex';
         }
+        if (typeof window.renderTwk40PaketCards === 'function') {
+            window.renderTwk40PaketCards();
+        }
         if (typeof window.renderTiu40PaketCards === 'function') {
             window.renderTiu40PaketCards();
         }
@@ -536,6 +539,55 @@ window.filterPaketSoal = (filter, btnEl) => {
     });
 };
 
+window.renderTwk40PaketCards = () => {
+    const grid = document.getElementById('paketSoalGrid');
+    if (!grid) return;
+
+    grid.querySelectorAll('.twk-40-card').forEach(el => el.remove());
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
+    const fragment = document.createDocumentFragment();
+
+    for (let i = 1; i <= 40; i++) {
+        const card = document.createElement('div');
+        card.className = 'card-mode packet-card paid twk-40-card';
+        card.setAttribute('data-tier', 'paid');
+        card.setAttribute('data-cat', 'subtes');
+        card.setAttribute('data-subtes', 'twk');
+
+        const ctaHtml = hasAccess
+            ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('twk', ${i})"><i class="fas fa-play"></i> Mulai Latihan TWK #${i}</button>`
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TWK Paket #${i} (1.200 Soal)', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TWK #${i}</button>`;
+
+        card.innerHTML = `
+            <div>
+                <div class="packet-badges">
+                    <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
+                    <span class="badge-cat">TWK • PAKET ${i}</span>
+                </div>
+                <div class="card-mode-header">
+                    <div class="mode-icon blue"><i class="fas fa-landmark"></i></div>
+                    <div>
+                        <h3>TWK Paket #${i}</h3>
+                        <span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">30 Soal • 30 Menit • 5 Pilar TWK</span>
+                    </div>
+                </div>
+                <p>Simulasi TWK 30 soal lengkap (Nasionalisme, Integritas, Bela Negara, Pilar Negara, Bahasa Indonesia • Paket ${i} dari 40).</p>
+            </div>
+            ${ctaHtml}
+        `;
+        fragment.appendChild(card);
+    }
+
+    grid.appendChild(fragment);
+
+    if (window.activePaketSoalFilter && window.activePaketSoalFilter !== 'all') {
+        const activeChip = document.querySelector('#view-cat .filter-chip.active');
+        window.filterPaketSoal(window.activePaketSoalFilter, activeChip);
+    }
+};
+
 window.renderTiu40PaketCards = () => {
     const grid = document.getElementById('paketSoalGrid');
     if (!grid) return;
@@ -635,6 +687,7 @@ window.renderTkp40PaketCards = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    window.renderTwk40PaketCards();
     window.renderTiu40PaketCards();
     window.renderTkp40PaketCards();
     if (typeof window.renderSavedExamsOnBeranda === 'function') {
@@ -915,6 +968,7 @@ window.lanjutkanUjianTersimpan = (saveId) => {
 
     const pool = [
         ...(window.DATA_SKD_CPNS || []),
+        ...(window.DATA_TWK_GRATIS || []),
         ...(window.DATA_TIU_GRATIS || []),
         ...(window.DATA_TKP_GRATIS || [])
     ];
@@ -1000,9 +1054,26 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
     let saveId = tipe;
 
     if (tipe === 'twk') {
-        window.currentQuestions = rawData.filter(q => q.kategori === 'TWK');
-        window.examTimeRemaining = window.currentQuestions.length * 60;
-        title = 'Paket Soal TWK';
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK');
+        if (paketNo) {
+            const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
+            window.currentQuestions = allPaidTwk.slice((no - 1) * 30, no * 30);
+            window.examTimeRemaining = window.currentQuestions.length * 60; // 30 Menit
+            title = `TWK Paket #${no}`;
+            saveId = `twk_${no}`;
+        } else {
+            window.currentQuestions = allPaidTwk.slice(0, 30);
+            window.examTimeRemaining = window.currentQuestions.length * 60;
+            title = 'TWK Paket #1';
+            saveId = 'twk_1';
+        }
+    } else if (tipe === 'twk_gratis') {
+        const no = Math.max(1, Math.min(3, Number(paketNo) || 1));
+        const gratisPool = window.DATA_TWK_GRATIS || [];
+        window.currentQuestions = gratisPool.slice((no - 1) * 30, no * 30);
+        window.examTimeRemaining = window.currentQuestions.length * 60; // 30 Menit
+        title = `TWK Gratis — Paket ${no}`;
+        saveId = `twk_gratis_${no}`;
     } else if (tipe === 'tiu') {
         const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
         const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
@@ -2348,8 +2419,10 @@ function isAllowedArenaUser(prof) {
 function buildArenaPaketOptionsHtml() {
     let html = `
         <option value="full">Simulasi SKD Lengkap (TWK + TIU + TKP)</option>
-        <option value="twk">TWK (Tes Wawasan Kebangsaan)</option>
     `;
+    for (let i = 1; i <= 40; i++) {
+        html += `<option value="twk_${i}">TWK Paket #${i} (30 Soal)</option>`;
+    }
     for (let i = 1; i <= 40; i++) {
         html += `<option value="tiu_${i}">TIU Paket #${i} (35 Soal)</option>`;
     }
@@ -2363,8 +2436,14 @@ function getQuestionsForRoomPaket(paketKey) {
     const rawData = window.DATA_SKD_CPNS || [];
     const key = String(paketKey || 'full');
     if (key === 'twk') {
-        const qs = rawData.filter(q => q.kategori === 'TWK');
-        return { questions: qs, durationSec: qs.length * 60, label: 'TWK (Tes Wawasan Kebangsaan)' };
+        const qs = rawData.filter(q => q.kategori === 'TWK').slice(0, 30);
+        return { questions: qs, durationSec: qs.length * 60, label: 'TWK Paket #1' };
+    }
+    if (key.startsWith('twk_')) {
+        const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK');
+        const qs = allPaidTwk.slice((no - 1) * 30, no * 30);
+        return { questions: qs, durationSec: qs.length * 60, label: `TWK Paket #${no}` };
     }
     if (key.startsWith('tiu_')) {
         const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));

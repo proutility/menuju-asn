@@ -1,12 +1,13 @@
-// Service Worker untuk PWA MENUJU ASN (CBT SKD CPNS 2026) v2.3.4
-const CACHE_NAME = 'menuju-asn-v2.3.4';
+// Service Worker untuk PWA MENUJU ASN (CBT SKD CPNS 2026) v2.3.5
+const CACHE_NAME = 'menuju-asn-v2.3.5';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './style.css?v=2.1.5',
-  './app.js?v=2.3.4',
+  './app.js?v=2.3.5',
   './firebase-config.js',
   './data_skd_cpns.js?v=2.2.0',
+  './data_twk_gratis.js?v=1.0.0',
   './data_tiu_gratis.js?v=1.0.0',
   './data_tkp_gratis.js?v=1.0.0',
   './manifest.json',
