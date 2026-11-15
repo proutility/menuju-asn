@@ -143265,7 +143265,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0311",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #1) Anda bertugas sebagai ASN petugas meja informasi di Mal Pelayanan Publik (MPP). Saat jam layanan berlangsung, seorang warga lanjut usia tampak kebingungan di area lobi, sementara seluruh petugas loket lain sedang sibuk. Sikap Anda seharusnya adalah...",
+    "soal": "Anda bertugas sebagai ASN petugas meja informasi di Mal Pelayanan Publik (MPP). Saat jam layanan berlangsung, seorang warga lanjut usia tampak kebingungan di area lobi, sementara seluruh petugas loket lain sedang sibuk. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143300,7 +143300,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0312",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #2) Andini adalah ASN tenaga kesehatan di Puskesmas yang bertugas mengambil sampel pemeriksaan laboratorium. Seorang pasien anak tampak sangat ketakutan karena baru pertama kali menjalani prosedur tersebut. Sikap Andini sebaiknya adalah...",
+    "soal": "Andini adalah ASN tenaga kesehatan di Puskesmas yang bertugas mengambil sampel pemeriksaan laboratorium. Seorang pasien anak tampak sangat ketakutan karena baru pertama kali menjalani prosedur tersebut. Sikap Andini sebaiknya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143335,7 +143335,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0313",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #3) Anda adalah ASN pelaksana di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil). Saat antrean warga sedang padat, seorang ibu yang mengaku kerabat pejabat daerah mendatangi meja Anda secara diam-diam meminta pengurusan KTP-nya didahulukan. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN pelaksana di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil). Saat antrean warga sedang padat, seorang ibu yang mengaku kerabat pejabat daerah mendatangi meja Anda secara diam-diam meminta pengurusan KTP-nya didahulukan. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143370,7 +143370,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0314",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #4) Anda adalah ASN pengelola akun media sosial resmi instansi pemerintah yang memiliki puluhan ribu pengikut masyarakat. Konten yang semestinya Anda publikasikan melalui kanal resmi tersebut adalah...",
+    "soal": "Anda adalah ASN pengelola akun media sosial resmi instansi pemerintah yang memiliki puluhan ribu pengikut masyarakat. Konten yang semestinya Anda publikasikan melalui kanal resmi tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143405,7 +143405,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0315",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #5) Pemberitaan mengenai lembaga perlindungan sosial pemerintah yang memberikan pendampingan psikologis kepada anak seorang tersangka kasus pidana berat menuai pro-kontra publik, karena di saat bersamaan ada anak keluarga miskin yang membutuhkan bantuan. Pandangan Anda terhadap layanan lembaga tersebut adalah...",
+    "soal": "Pemberitaan mengenai lembaga perlindungan sosial pemerintah yang memberikan pendampingan psikologis kepada anak seorang tersangka kasus pidana berat menuai pro-kontra publik, karena di saat bersamaan ada anak keluarga miskin yang membutuhkan bantuan. Pandangan Anda terhadap layanan lembaga tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143440,7 +143440,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0316",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #6) Sebagai ASN analis komunikasi publik di instansi penyiaran pemerintah, Anda diminta mengevaluasi kualitas layanan informasi televisi nasional saat ini yang kerap dikritik kurang edukatif. Komentar konstruktif Anda yang mendukung pengembangan layanan penyiaran adalah...",
+    "soal": "Sebagai ASN analis komunikasi publik di instansi penyiaran pemerintah, Anda diminta mengevaluasi kualitas layanan informasi televisi nasional saat ini yang kerap dikritik kurang edukatif. Komentar konstruktif Anda yang mendukung pengembangan layanan penyiaran adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143475,7 +143475,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0317",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #7) Dalam perjalanan dinas menggunakan sepeda motor pribadi, Anda melihat seorang petugas lapangan berseragam melakukan penindakan pelanggaran lalu lintas sendirian tanpa membawa surat perintah tugas resmi. Sikap Anda yang memahami aturan hukum adalah...",
+    "soal": "Dalam perjalanan dinas menggunakan sepeda motor pribadi, Anda melihat seorang petugas lapangan berseragam melakukan penindakan pelanggaran lalu lintas sendirian tanpa membawa surat perintah tugas resmi. Sikap Anda yang memahami aturan hukum adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143510,7 +143510,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0318",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #8) Rafi adalah ASN berprestasi yang dikenal berintegritas tinggi di kantornya. Dalam sebuah tim proyek strategis instansi, Rafi dipasangkan dengan beberapa pegawai lintas bidang yang kinerjanya tergolong biasa saja. Sikap Rafi seharusnya adalah...",
+    "soal": "Rafi adalah ASN berprestasi yang dikenal berintegritas tinggi di kantornya. Dalam sebuah tim proyek strategis instansi, Rafi dipasangkan dengan beberapa pegawai lintas bidang yang kinerjanya tergolong biasa saja. Sikap Rafi seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143545,7 +143545,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0319",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #9) Terjadi perselisihan pendapat yang cukup tajam antara dua rekan ASN di organisasi profesi atau tim kerja Anda sehingga suasana kerja menjadi kurang harmonis. Sikap Anda sebagai rekan kerja adalah...",
+    "soal": "Terjadi perselisihan pendapat yang cukup tajam antara dua rekan ASN di organisasi profesi atau tim kerja Anda sehingga suasana kerja menjadi kurang harmonis. Sikap Anda sebagai rekan kerja adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143580,7 +143580,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0320",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #10) Sebagai CPNS yang baru menerima SK penempatan, Anda ditugaskan pada bidang kerja yang tidak sesuai dengan minat awal maupun latar belakang keahlian yang Anda harapkan. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai CPNS yang baru menerima SK penempatan, Anda ditugaskan pada bidang kerja yang tidak sesuai dengan minat awal maupun latar belakang keahlian yang Anda harapkan. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143615,7 +143615,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0321",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #11) Anda bertugas di Subbagian Umum, dan untuk merampungkan laporan lintas unit Anda harus berkoordinasi dengan pegawai di Subbagian Keuangan yang secara pribadi kurang Anda sukai. Sikap Anda seharusnya adalah...",
+    "soal": "Anda bertugas di Subbagian Umum, dan untuk merampungkan laporan lintas unit Anda harus berkoordinasi dengan pegawai di Subbagian Keuangan yang secara pribadi kurang Anda sukai. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143650,7 +143650,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0322",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #12) Pada hari yang sama, Anda memiliki jadwal acara keluarga penting, namun organisasi korps pegawai di instansi Anda menugaskan Anda bersama rekan lain melaksanakan kegiatan bakti sosial masyarakat. Sikap Anda seharusnya adalah...",
+    "soal": "Pada hari yang sama, Anda memiliki jadwal acara keluarga penting, namun organisasi korps pegawai di instansi Anda menugaskan Anda bersama rekan lain melaksanakan kegiatan bakti sosial masyarakat. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143685,7 +143685,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0323",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #13) Anita adalah ASN yang sedang menempuh tugas belajar dan akan menghadapi ujian akhir semester dalam beberapa hari, sementara agenda rapat organisasi pegawai di bulan yang sama juga cukup padat. Sikap Anita untuk mencapai hasil maksimal adalah...",
+    "soal": "Anita adalah ASN yang sedang menempuh tugas belajar dan akan menghadapi ujian akhir semester dalam beberapa hari, sementara agenda rapat organisasi pegawai di bulan yang sama juga cukup padat. Sikap Anita untuk mencapai hasil maksimal adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143720,7 +143720,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0324",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #14) Irfan sedang menghadapi kendala teknis dengan rekan satu bidangnya. Tiba-tiba seorang pegawai dari bidang lain datang memberikan saran solusi yang sebenarnya tidak sesuai atau kurang dibutuhkan Irfan. Sikap Irfan seharusnya adalah...",
+    "soal": "Irfan sedang menghadapi kendala teknis dengan rekan satu bidangnya. Tiba-tiba seorang pegawai dari bidang lain datang memberikan saran solusi yang sebenarnya tidak sesuai atau kurang dibutuhkan Irfan. Sikap Irfan seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143755,7 +143755,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0325",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #15) Rita adalah ASN pranata humas yang diutus instansi mengikuti lomba penulisan karya tulis inovasi tingkat nasional. Ia mengetahui banyak peserta lain merupakan penulis senior yang sering menjuarai kompetisi serupa. Sikap Rita seharusnya adalah...",
+    "soal": "Rita adalah ASN pranata humas yang diutus instansi mengikuti lomba penulisan karya tulis inovasi tingkat nasional. Ia mengetahui banyak peserta lain merupakan penulis senior yang sering menjuarai kompetisi serupa. Sikap Rita seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143790,7 +143790,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0326",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #16) Sebagai ASN yang memiliki cita-cita pengabdian dan target pengembangan karier yang jelas di instansi pemerintahan, langkah nyata yang akan Anda lakukan adalah...",
+    "soal": "Sebagai ASN yang memiliki cita-cita pengabdian dan target pengembangan karier yang jelas di instansi pemerintahan, langkah nyata yang akan Anda lakukan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143825,7 +143825,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0327",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #17) Saat perjalanan pulang dari kantor dinas, Anda melihat seorang ibu menangis di pinggir jalan karena baru saja menjadi korban penjambretan oleh sekelompok pemuda. Sikap Anda seharusnya adalah...",
+    "soal": "Saat perjalanan pulang dari kantor dinas, Anda melihat seorang ibu menangis di pinggir jalan karena baru saja menjadi korban penjambretan oleh sekelompok pemuda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143860,7 +143860,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0328",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #18) Anda menjabat sebagai kepala bidang. Seorang staf melaporkan adanya dugaan penyimpangan anggaran di salah satu seksi dan mengaku sempat diancam agar tidak melapor. Sikap pertama Anda sebagai pimpinan adalah...",
+    "soal": "Anda menjabat sebagai kepala bidang. Seorang staf melaporkan adanya dugaan penyimpangan anggaran di salah satu seksi dan mengaku sempat diancam agar tidak melapor. Sikap pertama Anda sebagai pimpinan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143895,7 +143895,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0329",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #19) Anda memiliki adik yang masih remaja dan sering menonton tayangan media sosial hingga mulai terbiasa mengucapkan kata-kata kasar di rumah. Sikap Anda sebagai kakak sekaligus ASN teladan keluarga adalah...",
+    "soal": "Anda memiliki adik yang masih remaja dan sering menonton tayangan media sosial hingga mulai terbiasa mengucapkan kata-kata kasar di rumah. Sikap Anda sebagai kakak sekaligus ASN teladan keluarga adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143930,7 +143930,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0330",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #20) Anda ditugaskan dinas ke suatu daerah terpencil yang masyarakatnya memiliki tradisi ritual adat tertentu yang bertentangan dengan nilai keyakinan agama Anda. Sikap Anda selama bertugas di daerah tersebut adalah...",
+    "soal": "Anda ditugaskan dinas ke suatu daerah terpencil yang masyarakatnya memiliki tradisi ritual adat tertentu yang bertentangan dengan nilai keyakinan agama Anda. Sikap Anda selama bertugas di daerah tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -143965,7 +143965,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0331",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #21) Setelah lulus menjadi ASN dan memiliki penghasilan tetap yang mapan, wujud sikap berbudi pekerti luhur Anda kepada kedua orang tua adalah...",
+    "soal": "Setelah lulus menjadi ASN dan memiliki penghasilan tetap yang mapan, wujud sikap berbudi pekerti luhur Anda kepada kedua orang tua adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144000,7 +144000,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0332",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #22) Anda adalah ketua tim kerja di instansi pemerintah saat terjadi pembatasan kegiatan tatap muka karena wabah penyakit menular, sementara program kerja pelayanan harus tetap berjalan. Langkah yang harus Anda ambil adalah...",
+    "soal": "Anda adalah ketua tim kerja di instansi pemerintah saat terjadi pembatasan kegiatan tatap muka karena wabah penyakit menular, sementara program kerja pelayanan harus tetap berjalan. Langkah yang harus Anda ambil adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144035,7 +144035,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0333",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #23) Atasan senior Anda mewajibkan pencarian data referensi regulasi hanya melalui arsip fisik di ruang perpustakaan kantor, padahal seluruh dokumen resmi terbaru tersebut sudah tersedia pada portal digital instansi. Sikap Anda adalah...",
+    "soal": "Atasan senior Anda mewajibkan pencarian data referensi regulasi hanya melalui arsip fisik di ruang perpustakaan kantor, padahal seluruh dokumen resmi terbaru tersebut sudah tersedia pada portal digital instansi. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144070,7 +144070,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0334",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #24) Sebagai ASN muda yang sedang menempuh pendidikan lanjutan dengan biaya mandiri dan mengalami kendala dana, Anda teringat memiliki perangkat laptop serta ponsel yang memadai. Sikap produktif Anda dalam memanfaatkan teknologi tersebut adalah...",
+    "soal": "Sebagai ASN muda yang sedang menempuh pendidikan lanjutan dengan biaya mandiri dan mengalami kendala dana, Anda teringat memiliki perangkat laptop serta ponsel yang memadai. Sikap produktif Anda dalam memanfaatkan teknologi tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144105,7 +144105,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0335",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #25) Setelah seharian penuh menyelesaikan beban kerja pelayanan publik di kantor, Anda beristirahat di rumah dan membuka platform video digital di ponsel. Jenis konten yang paling tepat Anda pilih adalah...",
+    "soal": "Setelah seharian penuh menyelesaikan beban kerja pelayanan publik di kantor, Anda beristirahat di rumah dan membuka platform video digital di ponsel. Jenis konten yang paling tepat Anda pilih adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144140,7 +144140,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0336",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #26) Sebagai ASN yang melek literasi digital, tujuan utama Anda dalam menggunakan akun media sosial pribadi di luar jam kerja adalah untuk...",
+    "soal": "Sebagai ASN yang melek literasi digital, tujuan utama Anda dalam menggunakan akun media sosial pribadi di luar jam kerja adalah untuk...",
     "opsi": [
       {
         "label": "A",
@@ -144175,7 +144175,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0337",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #27) Suatu hari pimpinan meminta Anda menyajikan laporan realisasi anggaran dalam bentuk grafik visualisasi interaktif, padahal Anda belum menguasai aplikasi pengolah data tersebut. Sikap Anda seharusnya adalah...",
+    "soal": "Suatu hari pimpinan meminta Anda menyajikan laporan realisasi anggaran dalam bentuk grafik visualisasi interaktif, padahal Anda belum menguasai aplikasi pengolah data tersebut. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144210,7 +144210,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0338",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #28) Anda adalah ASN tenaga kesehatan di RSUD yang kebetulan melihat rekan kerja dari unit lain mengalami kendala teknis saat memulihkan akses surel kedinasan yang terkunci. Sikap Anda adalah...",
+    "soal": "Anda adalah ASN tenaga kesehatan di RSUD yang kebetulan melihat rekan kerja dari unit lain mengalami kendala teknis saat memulihkan akses surel kedinasan yang terkunci. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144245,7 +144245,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0339",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #29) Dalam penyusunan laporan kinerja instansi, Anda ditugaskan bekerja dalam tim lintas seksi, padahal karakter pribadi Anda cenderung individualis dan terbiasa bekerja mandiri. Sikap Anda seharusnya adalah...",
+    "soal": "Dalam penyusunan laporan kinerja instansi, Anda ditugaskan bekerja dalam tim lintas seksi, padahal karakter pribadi Anda cenderung individualis dan terbiasa bekerja mandiri. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144280,7 +144280,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0340",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #30) Sebagai CPNS yang sedang menjalankan tugas piket layanan akhir pekan, rekan lama mengajak Anda pergi berekreasi bersama tepat di jam keberangkatan dinas Anda. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai CPNS yang sedang menjalankan tugas piket layanan akhir pekan, rekan lama mengajak Anda pergi berekreasi bersama tepat di jam keberangkatan dinas Anda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144315,7 +144315,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0341",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #31) Terjadi kesalahpahaman pribadi antara Anda dan seorang rekan ASN sehingga hubungan kalian sempat merenggang, namun hari ini jadwal piket layanan mengharuskan kalian bekerja dalam satu loket yang sama. Sikap Anda seharusnya adalah...",
+    "soal": "Terjadi kesalahpahaman pribadi antara Anda dan seorang rekan ASN sehingga hubungan kalian sempat merenggang, namun hari ini jadwal piket layanan mengharuskan kalian bekerja dalam satu loket yang sama. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144350,7 +144350,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0342",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #32) Yuni adalah ASN dosen di perguruan tinggi negeri. Pada jam yang sama, jadwal mengajarnya di kelas bentrok dengan agenda rapat koordinasi internal yang sifatnya tidak mendesak. Sikap Yuni seharusnya adalah...",
+    "soal": "Yuni adalah ASN dosen di perguruan tinggi negeri. Pada jam yang sama, jadwal mengajarnya di kelas bentrok dengan agenda rapat koordinasi internal yang sifatnya tidak mendesak. Sikap Yuni seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144385,7 +144385,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0343",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #33) Menjelang jam pulang kantor, atasan memberikan tugas tambahan mendadak yang berkaitan dengan penyusunan bahan paparan rapat esok hari. Sikap Anda sebagai ASN profesional adalah...",
+    "soal": "Menjelang jam pulang kantor, atasan memberikan tugas tambahan mendadak yang berkaitan dengan penyusunan bahan paparan rapat esok hari. Sikap Anda sebagai ASN profesional adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144420,7 +144420,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0344",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #34) Saat atasan langsung sedang izin sakit tidak masuk kantor, beberapa rekan kerja mengajak Anda keluar gedung untuk berbelanja camilan di jam kerja aktif yang jelas melanggar disiplin ASN. Sikap Anda adalah...",
+    "soal": "Saat atasan langsung sedang izin sakit tidak masuk kantor, beberapa rekan kerja mengajak Anda keluar gedung untuk berbelanja camilan di jam kerja aktif yang jelas melanggar disiplin ASN. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144455,7 +144455,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0345",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #35) Andi adalah CPNS baru di sebuah RSUD milik pemerintah daerah. Pada hari pertama masuk kerja, ia mendengar cerita dari pegawai senior bahwa ritme kerja di bagian itu santai dan longgar. Sikap Andi seharusnya adalah...",
+    "soal": "Andi adalah CPNS baru di sebuah RSUD milik pemerintah daerah. Pada hari pertama masuk kerja, ia mendengar cerita dari pegawai senior bahwa ritme kerja di bagian itu santai dan longgar. Sikap Andi seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144490,7 +144490,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0346",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #36) Saat mengikuti kegiatan pembekalan orientasi CPNS baru, Anda melihat beberapa senior bersikap intimidatif dan memaksa seorang peserta baru yang berbeda keyakinan agama untuk mengikuti keinginan mereka, namun korban tetap menolak. Sikap Anda seharusnya adalah...",
+    "soal": "Saat mengikuti kegiatan pembekalan orientasi CPNS baru, Anda melihat beberapa senior bersikap intimidatif dan memaksa seorang peserta baru yang berbeda keyakinan agama untuk mengikuti keinginan mereka, namun korban tetap menolak. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144525,7 +144525,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0347",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #37) Dalam rapat koordinasi tim kerja instansi, seorang rekan menyampaikan gagasan solusi yang sangat bertolak belakang dengan gagasan yang telah Anda siapkan untuk permasalahan yang sama. Sikap Anda dalam forum rapat adalah...",
+    "soal": "Dalam rapat koordinasi tim kerja instansi, seorang rekan menyampaikan gagasan solusi yang sangat bertolak belakang dengan gagasan yang telah Anda siapkan untuk permasalahan yang sama. Sikap Anda dalam forum rapat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144560,7 +144560,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0348",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #38) Anton adalah seorang kepala unit kerja yang akan merumuskan kebijakan tata tertib internal baru di kantornya. Langkah pertama yang harus Anton ambil agar kebijakan tersebut demokratis dan tidak otoriter adalah...",
+    "soal": "Anton adalah seorang kepala unit kerja yang akan merumuskan kebijakan tata tertib internal baru di kantornya. Langkah pertama yang harus Anton ambil agar kebijakan tersebut demokratis dan tidak otoriter adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144595,7 +144595,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0349",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #39) Dinul memimpin tim penyusunan naskah kebijakan instansi bersama Wina. Ketika Wina memberi masukan perbaikan struktur naskah, Dinul bersikap kaku dan hanya memaksakan kehendaknya sendiri sebagai ketua tim. Sikap Wina seharusnya adalah...",
+    "soal": "Dinul memimpin tim penyusunan naskah kebijakan instansi bersama Wina. Ketika Wina memberi masukan perbaikan struktur naskah, Dinul bersikap kaku dan hanya memaksakan kehendaknya sendiri sebagai ketua tim. Sikap Wina seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144630,7 +144630,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0350",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #40) Lingkungan permukiman tempat tinggal Anda mulai rawan aksi perundungan dan tindakan kekerasan antarkelompok pemuda. Menghadapi kondisi sosial tersebut, sikap Anda sebagai ASN sekaligus warga adalah...",
+    "soal": "Lingkungan permukiman tempat tinggal Anda mulai rawan aksi perundungan dan tindakan kekerasan antarkelompok pemuda. Menghadapi kondisi sosial tersebut, sikap Anda sebagai ASN sekaligus warga adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144665,7 +144665,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0351",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #41) Unit kerja tempat Anda mengabdi memiliki pegawai dengan latar belakang suku, agama, dan budaya yang sangat beragam. Sikap Anda dalam membangun pergaulan di lingkungan kerja adalah...",
+    "soal": "Unit kerja tempat Anda mengabdi memiliki pegawai dengan latar belakang suku, agama, dan budaya yang sangat beragam. Sikap Anda dalam membangun pergaulan di lingkungan kerja adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144700,7 +144700,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0352",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #42) Anda memiliki calon pasangan hidup yang berbeda keyakinan agama dan berencana melangkah ke jenjang pernikahan, namun keluarga besar Anda menentang keras perbedaan tersebut. Sikap Anda seharusnya adalah...",
+    "soal": "Anda memiliki calon pasangan hidup yang berbeda keyakinan agama dan berencana melangkah ke jenjang pernikahan, namun keluarga besar Anda menentang keras perbedaan tersebut. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144735,7 +144735,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0353",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #43) Ruangan kerja Anda di kantor tampak berantakan dan kotor sehingga mengganggu kenyamanan bekerja. Dari kejauhan terlihat petugas kebersihan yang usianya jauh lebih tua dari Anda dan sudah akrab. Sikap Anda seharusnya adalah...",
+    "soal": "Ruangan kerja Anda di kantor tampak berantakan dan kotor sehingga mengganggu kenyamanan bekerja. Dari kejauhan terlihat petugas kebersihan yang usianya jauh lebih tua dari Anda dan sudah akrab. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144770,7 +144770,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0354",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #44) Anda adalah ASN perawat di RSUD yang tiba di ruang pendaftaran lebih awal sebelum jam loket pelayanan dibuka. Tiba-tiba seorang pasien datang dan mendesak agar segera dilayani saat itu juga. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN perawat di RSUD yang tiba di ruang pendaftaran lebih awal sebelum jam loket pelayanan dibuka. Tiba-tiba seorang pasien datang dan mendesak agar segera dilayani saat itu juga. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144805,7 +144805,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0355",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #45) Sebagai ASN kreator konten edukasi publik yang rutin mengampanyekan nilai toleransi dan saling menghargai di media sosial, beberapa pengikut berkomentar kontra terhadap unggahan Anda. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai ASN kreator konten edukasi publik yang rutin mengampanyekan nilai toleransi dan saling menghargai di media sosial, beberapa pengikut berkomentar kontra terhadap unggahan Anda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144840,7 +144840,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0356",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #1) Sebagai CPNS baru di unit pelayanan publik, Anda satu ruangan dengan empat pegawai senior yang sering datang terlambat dengan alasan jarak rumah jauh sehingga layanan warga terhambat. Sikap Anda kelak saat menjadi senior adalah...",
+    "soal": "Sebagai CPNS baru di unit pelayanan publik, Anda satu ruangan dengan empat pegawai senior yang sering datang terlambat dengan alasan jarak rumah jauh sehingga layanan warga terhambat. Sikap Anda kelak saat menjadi senior adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144875,7 +144875,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0357",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #2) Seorang tetangga datang ke rumah meminta bantuan Anda menyusun proposal kegiatan sosial lingkungan, padahal saat itu Anda juga sedang mengejar tenggat penyelesaian proposal kajian dinas di kantor. Sikap Anda seharusnya adalah...",
+    "soal": "Seorang tetangga datang ke rumah meminta bantuan Anda menyusun proposal kegiatan sosial lingkungan, padahal saat itu Anda juga sedang mengejar tenggat penyelesaian proposal kajian dinas di kantor. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144910,7 +144910,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0358",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #3) Anda adalah ASN tenaga kesehatan di RSUD pemerintah daerah. Saat memberikan pelayanan medis kepada masyarakat yang datang berobat, dasar utama pelayanan yang Anda terapkan adalah...",
+    "soal": "Anda adalah ASN tenaga kesehatan di RSUD pemerintah daerah. Saat memberikan pelayanan medis kepada masyarakat yang datang berobat, dasar utama pelayanan yang Anda terapkan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144945,7 +144945,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0359",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #4) Anda bertugas sebagai ASN apoteker di instalasi farmasi Puskesmas. Seorang pasien datang menanyakan alasan dan tujuan pemeriksaan sampel darahnya, dan Anda kebetulan mengetahui prosedurnya karena akrab dengan petugas laboratorium. Sikap Anda seharusnya adalah...",
+    "soal": "Anda bertugas sebagai ASN apoteker di instalasi farmasi Puskesmas. Seorang pasien datang menanyakan alasan dan tujuan pemeriksaan sampel darahnya, dan Anda kebetulan mengetahui prosedurnya karena akrab dengan petugas laboratorium. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -144980,7 +144980,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0360",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #5) Komunitas alumni diklat prajabatan ASN Anda menggelar bakti sosial membantu warga terdampak banjir di wilayah sekitar, namun pada hari yang sama terdapat acara kumpul keluarga besar di rumah. Sikap Anda seharusnya adalah...",
+    "soal": "Komunitas alumni diklat prajabatan ASN Anda menggelar bakti sosial membantu warga terdampak banjir di wilayah sekitar, namun pada hari yang sama terdapat acara kumpul keluarga besar di rumah. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145015,7 +145015,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0361",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #6) Menjelang pelaksanaan pemilihan umum daerah, adik Anda yang baru genap berusia 18 tahun dan terdaftar sebagai pemilih pemula menolak menggunakan hak pilihnya karena merasa tidak ada calon pemimpin yang bisa dipercaya. Sikap Anda adalah...",
+    "soal": "Menjelang pelaksanaan pemilihan umum daerah, adik Anda yang baru genap berusia 18 tahun dan terdaftar sebagai pemilih pemula menolak menggunakan hak pilihnya karena merasa tidak ada calon pemimpin yang bisa dipercaya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145050,7 +145050,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0362",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #7) Andini adalah ASN perawat yang bertugas di Instalasi Gawat Darurat (IGD) RSUD. Pada suatu shift jaga, mendadak banyak pasien kecelakaan dan darurat berdatangan secara bersamaan. Sikap Andini seharusnya adalah...",
+    "soal": "Andini adalah ASN perawat yang bertugas di Instalasi Gawat Darurat (IGD) RSUD. Pada suatu shift jaga, mendadak banyak pasien kecelakaan dan darurat berdatangan secara bersamaan. Sikap Andini seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145085,7 +145085,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0363",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #8) Saat bertugas di loket pendaftaran RSUD, Anda melihat rekan sesama ASN mendahulukan kerabat pribadinya untuk mendapat nomor antrean berobat tanpa mengikuti alur resmi. Sikap Anda yang memahami SOP pelayanan adalah...",
+    "soal": "Saat bertugas di loket pendaftaran RSUD, Anda melihat rekan sesama ASN mendahulukan kerabat pribadinya untuk mendapat nomor antrean berobat tanpa mengikuti alur resmi. Sikap Anda yang memahami SOP pelayanan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145120,7 +145120,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0364",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #9) Anda ditunjuk menjadi ketua tim kerja penyusunan program dinas. Dalam rapat, seorang rekan yang kerap berbeda pendapat dengan Anda mengajukan usulan solusi yang setelah dianalisis ternyata sangat brilian dan solutif. Sikap Anda seharusnya adalah...",
+    "soal": "Anda ditunjuk menjadi ketua tim kerja penyusunan program dinas. Dalam rapat, seorang rekan yang kerap berbeda pendapat dengan Anda mengajukan usulan solusi yang setelah dianalisis ternyata sangat brilian dan solutif. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145155,7 +145155,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0365",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #10) Anda menjabat sebagai kepala bidang di sebuah instansi pemerintah. Ketika harus mengambil keputusan strategis untuk menyelesaikan kendala kinerja yang dihadapi unit kerja, langkah yang Anda lakukan adalah...",
+    "soal": "Anda menjabat sebagai kepala bidang di sebuah instansi pemerintah. Ketika harus mengambil keputusan strategis untuk menyelesaikan kendala kinerja yang dihadapi unit kerja, langkah yang Anda lakukan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145190,7 +145190,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0366",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #11) Dalam satu tim kerja di instansi, Anda memiliki rekan sejawat yang usianya jauh lebih tua dan sudah lama mengabdi sebagai ASN senior. Sikap yang tepat dalam berinteraksi dengannya adalah...",
+    "soal": "Dalam satu tim kerja di instansi, Anda memiliki rekan sejawat yang usianya jauh lebih tua dan sudah lama mengabdi sebagai ASN senior. Sikap yang tepat dalam berinteraksi dengannya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145225,7 +145225,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0367",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #12) Secara tidak sengaja Anda mengetahui adanya isu perpecahan internal yang berpotensi mengancam soliditas dan keutuhan organisasi profesi ASN di instansi Anda. Sikap Anda seharusnya adalah...",
+    "soal": "Secara tidak sengaja Anda mengetahui adanya isu perpecahan internal yang berpotensi mengancam soliditas dan keutuhan organisasi profesi ASN di instansi Anda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145260,7 +145260,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0368",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #13) Anda menjabat sebagai ketua panitia kegiatan tahunan instansi. Salah satu koordinator seksi mengajukan pengunduran diri dari kepanitiaan karena kondisi kesehatannya sedang menurun. Sikap Anda sebagai ketua adalah...",
+    "soal": "Anda menjabat sebagai ketua panitia kegiatan tahunan instansi. Salah satu koordinator seksi mengajukan pengunduran diri dari kepanitiaan karena kondisi kesehatannya sedang menurun. Sikap Anda sebagai ketua adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145295,7 +145295,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0369",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #14) Subbagian Anda baru saja menerima penempatan CPNS baru, namun dalam beberapa hari terakhir ia berulang kali menanyakan hal teknis yang sama dalam mengerjakan tugasnya. Sikap Anda seharusnya adalah...",
+    "soal": "Subbagian Anda baru saja menerima penempatan CPNS baru, namun dalam beberapa hari terakhir ia berulang kali menanyakan hal teknis yang sama dalam mengerjakan tugasnya. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145330,7 +145330,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0370",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #15) Dalam rapat koordinasi tim, seorang rekan kerja menyampaikan usulan yang menurut pengamatan Anda kurang efektif untuk diterapkan pada kondisi anggaran kantor saat ini. Sikap Anda adalah...",
+    "soal": "Dalam rapat koordinasi tim, seorang rekan kerja menyampaikan usulan yang menurut pengamatan Anda kurang efektif untuk diterapkan pada kondisi anggaran kantor saat ini. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145365,7 +145365,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0371",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #16) Anda adalah ASN muda yang berasal dari keluarga sederhana namun memiliki kemampuan intelektual tinggi. Sikap Anda untuk mengangkat derajat dan kesejahteraan keluarga melalui pengabdian adalah...",
+    "soal": "Anda adalah ASN muda yang berasal dari keluarga sederhana namun memiliki kemampuan intelektual tinggi. Sikap Anda untuk mengangkat derajat dan kesejahteraan keluarga melalui pengabdian adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145400,7 +145400,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0372",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #17) Menjelang pemeriksaan audit akhir tahun, Anda ditugaskan menyelesaikan tumpukan laporan pertanggungjawaban hingga sering terpaksa bekerja lembur sampai larut malam. Sikap Anda menjaga keseimbangan kerja adalah...",
+    "soal": "Menjelang pemeriksaan audit akhir tahun, Anda ditugaskan menyelesaikan tumpukan laporan pertanggungjawaban hingga sering terpaksa bekerja lembur sampai larut malam. Sikap Anda menjaga keseimbangan kerja adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145435,7 +145435,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0373",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #18) Saat mengikuti kelas pelatihan teknis (diklat) ASN, ketika widyaiswara sedang memaparkan materi di depan kelas, beberapa peserta di sekitar Anda justru sibuk mengobrol sendiri. Sikap Anda seharusnya adalah...",
+    "soal": "Saat mengikuti kelas pelatihan teknis (diklat) ASN, ketika widyaiswara sedang memaparkan materi di depan kelas, beberapa peserta di sekitar Anda justru sibuk mengobrol sendiri. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145470,7 +145470,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0374",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #19) Saat berpapasan di koridor kantor pelayanan terpadu dengan seorang tamu atau pegawai dari unit lain yang belum Anda kenal, ia tersenyum ramah ke arah Anda. Tindakan Anda seharusnya adalah...",
+    "soal": "Saat berpapasan di koridor kantor pelayanan terpadu dengan seorang tamu atau pegawai dari unit lain yang belum Anda kenal, ia tersenyum ramah ke arah Anda. Tindakan Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145505,7 +145505,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0375",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #20) Anda baru saja diterima sebagai CPNS dan ditempatkan di kantor dinas yang baru. Pada hari pertama masuk kerja, hal pertama yang semestinya Anda lakukan untuk beradaptasi adalah...",
+    "soal": "Anda baru saja diterima sebagai CPNS dan ditempatkan di kantor dinas yang baru. Pada hari pertama masuk kerja, hal pertama yang semestinya Anda lakukan untuk beradaptasi adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145540,7 +145540,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0376",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #21) Ketika Anda mengikuti wawancara seleksi pengisian jabatan atau beasiswa kedinasan, hal pertama yang tepat Anda lakukan saat dipersilakan memasuki ruangan oleh tim penguji adalah...",
+    "soal": "Ketika Anda mengikuti wawancara seleksi pengisian jabatan atau beasiswa kedinasan, hal pertama yang tepat Anda lakukan saat dipersilakan memasuki ruangan oleh tim penguji adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145575,7 +145575,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0377",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #22) Pada masa orientasi pegawai baru di asrama diklat, beberapa oknum senior bersikap kasar, menahan peserta hingga petang, dan memaksa peserta berbohong kepada panitia bahwa kegiatan berlangsung aman. Sikap Anda adalah...",
+    "soal": "Pada masa orientasi pegawai baru di asrama diklat, beberapa oknum senior bersikap kasar, menahan peserta hingga petang, dan memaksa peserta berbohong kepada panitia bahwa kegiatan berlangsung aman. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145610,7 +145610,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0378",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #23) Anda sedang mengikuti pelatihan jarak jauh (PJJ) ASN melalui sistem e-learning saat bertugas di daerah asal, namun sinyal jaringan seluler di rumah tidak stabil. Sikap Anda seharusnya adalah...",
+    "soal": "Anda sedang mengikuti pelatihan jarak jauh (PJJ) ASN melalui sistem e-learning saat bertugas di daerah asal, namun sinyal jaringan seluler di rumah tidak stabil. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145645,7 +145645,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0379",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #24) Anda melihat rekan kerja di kantor memesan perlengkapan kerja dan kebutuhan harian melalui aplikasi lokapasar digital di ponsel, padahal Anda belum pernah berbelanja secara daring sebelumnya. Sikap Anda adalah...",
+    "soal": "Anda melihat rekan kerja di kantor memesan perlengkapan kerja dan kebutuhan harian melalui aplikasi lokapasar digital di ponsel, padahal Anda belum pernah berbelanja secara daring sebelumnya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145680,7 +145680,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0380",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #25) Sebagai ASN muda berlatar belakang teknis yang juga berminat merintis usaha halal di luar jam kerja, namun terhambat padatnya tugas kantor, sikap bijak Anda memanfaatkan teknologi adalah...",
+    "soal": "Sebagai ASN muda berlatar belakang teknis yang juga berminat merintis usaha halal di luar jam kerja, namun terhambat padatnya tugas kantor, sikap bijak Anda memanfaatkan teknologi adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145715,7 +145715,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0381",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #26) Sebagai ASN sekaligus orang tua dari anak remaja, saat berdiskusi di rumah mengenai isu kebijakan pemerintah, Anda menyadari informasi yang diceritakan anak Anda bersumber dari berita hoaks. Sikap Anda adalah...",
+    "soal": "Sebagai ASN sekaligus orang tua dari anak remaja, saat berdiskusi di rumah mengenai isu kebijakan pemerintah, Anda menyadari informasi yang diceritakan anak Anda bersumber dari berita hoaks. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145750,7 +145750,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0382",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #27) Anda adalah ASN guru di sekolah negeri. Saat melaksanakan razia ketertiban rutin, Anda menemukan konten pornografi tersimpan di dalam ponsel salah satu siswa Anda. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN guru di sekolah negeri. Saat melaksanakan razia ketertiban rutin, Anda menemukan konten pornografi tersimpan di dalam ponsel salah satu siswa Anda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145785,7 +145785,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0383",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #28) Anda mengikuti seminar transformasi digital pemerintahan yang memaparkan bahwa banyak pekerjaan administratif rutin akan segera digantikan oleh sistem kecerdasan buatan dan otomasi. Sikap Anda adalah...",
+    "soal": "Anda mengikuti seminar transformasi digital pemerintahan yang memaparkan bahwa banyak pekerjaan administratif rutin akan segera digantikan oleh sistem kecerdasan buatan dan otomasi. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145820,7 +145820,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0384",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #29) Seorang rekan kerja di bagian humas terlihat kesulitan mendesain pamflet sosialisasi layanan secara manual di komputer, padahal tersedia platform desain daring yang jauh lebih cepat dan praktis. Sikap Anda adalah...",
+    "soal": "Seorang rekan kerja di bagian humas terlihat kesulitan mendesain pamflet sosialisasi layanan secara manual di komputer, padahal tersedia platform desain daring yang jauh lebih cepat dan praktis. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145855,7 +145855,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0385",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #30) Afnan dikenal sebagai ASN berdedikasi tinggi. Suatu ketika pimpinan memberinya tugas tambahan mendadak di luar uraian jabatannya tanpa disertai tambahan tunjangan kinerja apa pun. Sikap Afnan seharusnya adalah...",
+    "soal": "Afnan dikenal sebagai ASN berdedikasi tinggi. Suatu ketika pimpinan memberinya tugas tambahan mendadak di luar uraian jabatannya tanpa disertai tambahan tunjangan kinerja apa pun. Sikap Afnan seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145890,7 +145890,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0386",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #31) Anda diprotes rekan satu tim karena dianggap keliru menjalankan prosedur kerja sesuai arahan atasan, padahal setelah Anda periksa ulang seluruh langkah kerja Anda sudah tepat. Sikap Anda adalah...",
+    "soal": "Anda diprotes rekan satu tim karena dianggap keliru menjalankan prosedur kerja sesuai arahan atasan, padahal setelah Anda periksa ulang seluruh langkah kerja Anda sudah tepat. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145925,7 +145925,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0387",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #32) Dalam membangun lingkaran pertemanan kerja yang sehat dan produktif di lingkungan instansi pemerintahan, kriteria utama rekan kerja yang Anda pilih untuk berkolaborasi adalah yang memiliki...",
+    "soal": "Dalam membangun lingkaran pertemanan kerja yang sehat dan produktif di lingkungan instansi pemerintahan, kriteria utama rekan kerja yang Anda pilih untuk berkolaborasi adalah yang memiliki...",
     "opsi": [
       {
         "label": "A",
@@ -145960,7 +145960,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0388",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #33) Sebagai CPNS baru di sebuah dinas, Anda mendengar paparan pegawai senior mengenai berbagai masalah kinerja yang dihadapi kantor dalam beberapa bulan terakhir dan langsung memahami situasinya. Respons Anda adalah...",
+    "soal": "Sebagai CPNS baru di sebuah dinas, Anda mendengar paparan pegawai senior mengenai berbagai masalah kinerja yang dihadapi kantor dalam beberapa bulan terakhir dan langsung memahami situasinya. Respons Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -145995,7 +145995,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0389",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #34) Ismi baru dilantik sebagai ketua tim inovasi pelayanan di instansi. Ia mengetahui tim sebelumnya banyak menuai keluhan dan minim umpan balik positif dari masyarakat pengguna layanan. Sikap Ismi adalah...",
+    "soal": "Ismi baru dilantik sebagai ketua tim inovasi pelayanan di instansi. Ia mengetahui tim sebelumnya banyak menuai keluhan dan minim umpan balik positif dari masyarakat pengguna layanan. Sikap Ismi adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146030,7 +146030,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0390",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #35) Anda memiliki keahlian dalam desain grafis. Suatu hari rekan panitia kegiatan sosial kantor menanyakan apakah Anda mampu membuat desain media publikasi untuk acara tersebut. Sikap Anda seharusnya adalah...",
+    "soal": "Anda memiliki keahlian dalam desain grafis. Suatu hari rekan panitia kegiatan sosial kantor menanyakan apakah Anda mampu membuat desain media publikasi untuk acara tersebut. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146065,7 +146065,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0391",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #36) Anda menjabat sebagai kepala seksi dan menerima laporan bahwa salah satu staf bawahan Anda melakukan kesalahan fatal dalam pengolahan berkas pelayanan publik. Sikap bijak Anda sebagai atasan adalah...",
+    "soal": "Anda menjabat sebagai kepala seksi dan menerima laporan bahwa salah satu staf bawahan Anda melakukan kesalahan fatal dalam pengolahan berkas pelayanan publik. Sikap bijak Anda sebagai atasan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146100,7 +146100,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0392",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #37) Anda adalah ASN dosen di perguruan tinggi negeri. Saat sedang mengajar di kelas, azan berkumandang dan seorang mahasiswa meminta izin keluar sebentar untuk menunaikan salat. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN dosen di perguruan tinggi negeri. Saat sedang mengajar di kelas, azan berkumandang dan seorang mahasiswa meminta izin keluar sebentar untuk menunaikan salat. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146135,7 +146135,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0393",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #38) Anda mengenal rekan baru melalui media sosial yang tampak taat beragama. Saat bertemu, ia mengajak Anda bergabung ke dalam suatu kelompok kajian yang ajarannya jelas menyimpang dari nilai agama dan ideologi negara. Sikap Anda adalah...",
+    "soal": "Anda mengenal rekan baru melalui media sosial yang tampak taat beragama. Saat bertemu, ia mengajak Anda bergabung ke dalam suatu kelompok kajian yang ajarannya jelas menyimpang dari nilai agama dan ideologi negara. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146170,7 +146170,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0394",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #39) Seorang pegawai honorer di kantor menyebarkan kabar tidak benar bahwa formasi rekrutmen ASN tidak akan dibuka tahun ini sehingga membuat rekan honorer lain yang sudah belajar keras merasa putus asa. Sikap Anda adalah...",
+    "soal": "Seorang pegawai honorer di kantor menyebarkan kabar tidak benar bahwa formasi rekrutmen ASN tidak akan dibuka tahun ini sehingga membuat rekan honorer lain yang sudah belajar keras merasa putus asa. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146205,7 +146205,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0395",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #40) Anda berencana mengikuti seleksi tugas belajar ke perguruan tinggi tujuan pilihan pribadi karena reputasinya baik, namun orang tua tiba-tiba menyarankan Anda memilih kampus lain pilihan mereka. Sikap Anda seharusnya adalah...",
+    "soal": "Anda berencana mengikuti seleksi tugas belajar ke perguruan tinggi tujuan pilihan pribadi karena reputasinya baik, namun orang tua tiba-tiba menyarankan Anda memilih kampus lain pilihan mereka. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146240,7 +146240,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0396",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #41) Anda berada dalam satu tim kerja dengan rekan ASN yang bersikap kaku, merasa paling benar, dan selalu menolak mendengarkan masukan orang lain saat mengambil keputusan. Sikap Anda seharusnya adalah...",
+    "soal": "Anda berada dalam satu tim kerja dengan rekan ASN yang bersikap kaku, merasa paling benar, dan selalu menolak mendengarkan masukan orang lain saat mengambil keputusan. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146275,7 +146275,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0397",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #42) Sebagai ASN yang gemar menonton film luar negeri di waktu luang, Anda menyadari beberapa konten film membawa nilai budaya asing yang dapat memengaruhi cara pandang keagamaan. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai ASN yang gemar menonton film luar negeri di waktu luang, Anda menyadari beberapa konten film membawa nilai budaya asing yang dapat memengaruhi cara pandang keagamaan. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146310,7 +146310,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0398",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #43) Beredar rumor bahwa pimpinan tertinggi instansi Anda terseret kasus korupsi. Secara tidak sengaja Anda mendengar dua sahabat sekantor sedang asyik memperbincangkan isu tersebut. Sikap Anda seharusnya adalah...",
+    "soal": "Beredar rumor bahwa pimpinan tertinggi instansi Anda terseret kasus korupsi. Secara tidak sengaja Anda mendengar dua sahabat sekantor sedang asyik memperbincangkan isu tersebut. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146345,7 +146345,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0399",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #44) Anda menjabat sebagai pimpinan unit kerja di instansi pemerintah. Dalam memperlakukan dan membina seluruh pegawai bawahan sehari-hari, prinsip utama yang Anda pegang adalah berdasarkan...",
+    "soal": "Anda menjabat sebagai pimpinan unit kerja di instansi pemerintah. Dalam memperlakukan dan membina seluruh pegawai bawahan sehari-hari, prinsip utama yang Anda pegang adalah berdasarkan...",
     "opsi": [
       {
         "label": "A",
@@ -146380,7 +146380,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0400",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #45) Anda berhalangan hadir bertugas pada jadwal shift pelayanan siang karena keperluan mendesak, sementara SOP instansi memperbolehkan mekanisme tukar jadwal antarpetugas. Sikap Anda seharusnya adalah...",
+    "soal": "Anda berhalangan hadir bertugas pada jadwal shift pelayanan siang karena keperluan mendesak, sementara SOP instansi memperbolehkan mekanisme tukar jadwal antarpetugas. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146415,7 +146415,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0401",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #1) Anda adalah ASN tenaga kesehatan di sebuah Puskesmas daerah dengan jumlah kunjungan pasien harian yang tidak terlalu padat, sehingga Anda menerima pekerjaan lepas daring di luar kantor. Terkadang Anda bingung membagi fokus penyelesaian tugas keduanya. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN tenaga kesehatan di sebuah Puskesmas daerah dengan jumlah kunjungan pasien harian yang tidak terlalu padat, sehingga Anda menerima pekerjaan lepas daring di luar kantor. Terkadang Anda bingung membagi fokus penyelesaian tugas keduanya. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146450,7 +146450,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0402",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #2) Pada jadwal dinas jaga shift pagi di RSUD, Anda datang terlambat sehingga rekan perawat jaga shift malam yang seharusnya lepas dinas ikut tertunda jam pulangnya. Sikap Anda seharusnya adalah...",
+    "soal": "Pada jadwal dinas jaga shift pagi di RSUD, Anda datang terlambat sehingga rekan perawat jaga shift malam yang seharusnya lepas dinas ikut tertunda jam pulangnya. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146485,7 +146485,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0403",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #3) Anda adalah ASN analis laboratorium medis di RSUD yang menangani pemeriksaan sampel penyakit menular seorang pasien, dan hasil uji laboratorium menunjukkan status positif. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN analis laboratorium medis di RSUD yang menangani pemeriksaan sampel penyakit menular seorang pasien, dan hasil uji laboratorium menunjukkan status positif. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146520,7 +146520,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0404",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #4) Sebagai ASN penyuluh lapangan yang sedang berada di lingkungan permukiman warga, Anda melihat tim pengabdian masyarakat dari sebuah perguruan tinggi menggelar penyuluhan gratis mengenai bahaya bahan tambahan pangan berlebih. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai ASN penyuluh lapangan yang sedang berada di lingkungan permukiman warga, Anda melihat tim pengabdian masyarakat dari sebuah perguruan tinggi menggelar penyuluhan gratis mengenai bahaya bahan tambahan pangan berlebih. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146555,7 +146555,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0405",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #5) Saat mengurus administrasi perbankan untuk keperluan dinas di sebuah bank pemerintah, Anda mendapatkan pelayanan yang kurang ramah dari petugas layanan pelanggan di loket. Sikap Anda adalah...",
+    "soal": "Saat mengurus administrasi perbankan untuk keperluan dinas di sebuah bank pemerintah, Anda mendapatkan pelayanan yang kurang ramah dari petugas layanan pelanggan di loket. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146590,7 +146590,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0406",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #6) Mika adalah ASN pranata komputer di sebuah Puskesmas. Suatu hari seorang rekan tenaga kesehatan datang ke ruangannya memprotes karena sistem aplikasi pendaftaran pasien mendadak bermasalah. Sikap Mika seharusnya adalah...",
+    "soal": "Mika adalah ASN pranata komputer di sebuah Puskesmas. Suatu hari seorang rekan tenaga kesehatan datang ke ruangannya memprotes karena sistem aplikasi pendaftaran pasien mendadak bermasalah. Sikap Mika seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146625,7 +146625,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0407",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #7) Anda menjabat sebagai kepala subbagian dan harus mendelegasikan tugas mendesak kepada seorang staf yang dikenal berkarakter lamban serta kerap menunda penyelesaian pekerjaan. Sikap Anda seharusnya adalah...",
+    "soal": "Anda menjabat sebagai kepala subbagian dan harus mendelegasikan tugas mendesak kepada seorang staf yang dikenal berkarakter lamban serta kerap menunda penyelesaian pekerjaan. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146660,7 +146660,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0408",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #8) Sebagai ketua tim kerja di instansi, Anda mengetahui salah satu anggota tim tidak mampu berkembang secepat rekan lainnya dalam penguasaan tugas teknis. Sikap Anda sebagai ketua adalah...",
+    "soal": "Sebagai ketua tim kerja di instansi, Anda mengetahui salah satu anggota tim tidak mampu berkembang secepat rekan lainnya dalam penguasaan tugas teknis. Sikap Anda sebagai ketua adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146695,7 +146695,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0409",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #9) Salah satu rekan satu bidang sedang mengalami musibah duka cita keluarga, padahal di hari yang sama unit kerja Anda sedang menghadapi jadwal penilaian akreditasi instansi. Sikap Anda sebagai rekan kerja adalah...",
+    "soal": "Salah satu rekan satu bidang sedang mengalami musibah duka cita keluarga, padahal di hari yang sama unit kerja Anda sedang menghadapi jadwal penilaian akreditasi instansi. Sikap Anda sebagai rekan kerja adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146730,7 +146730,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0410",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #10) Anda menjabat sebagai pimpinan unit kerja di instansi pemerintah. Ketika berpapasan atau berinteraksi dengan para pegawai bawahan di lingkungan kantor sehari-hari, sikap Anda adalah...",
+    "soal": "Anda menjabat sebagai pimpinan unit kerja di instansi pemerintah. Ketika berpapasan atau berinteraksi dengan para pegawai bawahan di lingkungan kantor sehari-hari, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146765,7 +146765,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0411",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #11) Anda baru saja dimutasi bergabung ke dalam tim kerja di bidang baru yang alur sistem kerjanya masih terasa sangat asing bagi Anda. Sikap Anda seharusnya adalah...",
+    "soal": "Anda baru saja dimutasi bergabung ke dalam tim kerja di bidang baru yang alur sistem kerjanya masih terasa sangat asing bagi Anda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146800,7 +146800,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0412",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #12) Saat menerima penugasan baru dengan beban kerja teknis yang belum Anda pahami cara pengerjaannya dari pimpinan, sikap profesional Anda seharusnya adalah...",
+    "soal": "Saat menerima penugasan baru dengan beban kerja teknis yang belum Anda pahami cara pengerjaannya dari pimpinan, sikap profesional Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146835,7 +146835,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0413",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #13) Anda mengetahui salah satu rekan sejawat di subbagian Anda memiliki kelemahan penguasaan pada salah satu bidang tugas administrasi yang penting. Sikap Anda seharusnya adalah...",
+    "soal": "Anda mengetahui salah satu rekan sejawat di subbagian Anda memiliki kelemahan penguasaan pada salah satu bidang tugas administrasi yang penting. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146870,7 +146870,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0414",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #14) Anda berangkat dan pulang kerja menggunakan sepeda motor pribadi. Di perjalanan pulang kantor, Anda melihat seorang rekan kerja berjalan kaki seorang diri di tepi jalan. Sikap Anda adalah...",
+    "soal": "Anda berangkat dan pulang kerja menggunakan sepeda motor pribadi. Di perjalanan pulang kantor, Anda melihat seorang rekan kerja berjalan kaki seorang diri di tepi jalan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146905,7 +146905,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0415",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #15) Untuk menciptakan budaya kerja yang kondusif, harmonis, dan saling mendukung di lingkungan unit kerja ASN, sikap mendasar yang harus dimulai dari diri sendiri adalah...",
+    "soal": "Untuk menciptakan budaya kerja yang kondusif, harmonis, dan saling mendukung di lingkungan unit kerja ASN, sikap mendasar yang harus dimulai dari diri sendiri adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146940,7 +146940,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0416",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #16) Nenek Anda yang sudah lanjut usia tidak bisa membaca huruf latin. Saat Anda sedang belajar mempersiapkan materi uji kompetensi ASN di rumah, beliau memanggil meminta dibacakan berita di surat kabar. Sikap Anda adalah...",
+    "soal": "Nenek Anda yang sudah lanjut usia tidak bisa membaca huruf latin. Saat Anda sedang belajar mempersiapkan materi uji kompetensi ASN di rumah, beliau memanggil meminta dibacakan berita di surat kabar. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -146975,7 +146975,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0417",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #17) Sebagai CPNS baru berkarakter pendiam dan pemalu di sebuah instansi, rekan-rekan satu ruangan mengajak Anda makan siang bersama di kantin kantor pada hari pertama kerja. Sikap Anda adalah...",
+    "soal": "Sebagai CPNS baru berkarakter pendiam dan pemalu di sebuah instansi, rekan-rekan satu ruangan mengajak Anda makan siang bersama di kantin kantor pada hari pertama kerja. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147010,7 +147010,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0418",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #18) Anda dimutasi ke unit kerja baru yang terkenal memiliki budaya kerja keras, disiplin ketat, dan sering menuntut waktu kerja ekstra, yang bertolak belakang dengan karakter santai Anda. Sikap Anda adalah...",
+    "soal": "Anda dimutasi ke unit kerja baru yang terkenal memiliki budaya kerja keras, disiplin ketat, dan sering menuntut waktu kerja ekstra, yang bertolak belakang dengan karakter santai Anda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147045,7 +147045,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0419",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #19) Dalam rapat koordinasi lintas bidang, Anda menyampaikan usulan solusi untuk masalah mendesak yang harus segera dituntaskan, namun usulan Anda tampak kurang dihiraukan peserta rapat. Sikap Anda seharusnya adalah...",
+    "soal": "Dalam rapat koordinasi lintas bidang, Anda menyampaikan usulan solusi untuk masalah mendesak yang harus segera dituntaskan, namun usulan Anda tampak kurang dihiraukan peserta rapat. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147080,7 +147080,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0420",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #20) Anda menjabat sebagai kepala kantor di sebuah instansi pelayanan. Belakangan banyak pegawai mengeluhkan jadwal jam kerja operasional yang kerap berbenturan langsung dengan waktu pelaksanaan ibadah salat. Sikap Anda adalah...",
+    "soal": "Anda menjabat sebagai kepala kantor di sebuah instansi pelayanan. Belakangan banyak pegawai mengeluhkan jadwal jam kerja operasional yang kerap berbenturan langsung dengan waktu pelaksanaan ibadah salat. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147115,7 +147115,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0421",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #21) Anda melihat rekan sesama ASN senior melakukan tindakan perploncoan atau senioritas berlebihan terhadap CPNS baru, padahal pimpinan instansi sudah mengimbau agar tradisi tersebut dihentikan. Sikap Anda adalah...",
+    "soal": "Anda melihat rekan sesama ASN senior melakukan tindakan perploncoan atau senioritas berlebihan terhadap CPNS baru, padahal pimpinan instansi sudah mengimbau agar tradisi tersebut dihentikan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147150,7 +147150,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0422",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #22) Rafi adalah CPNS baru di RSUD yang dikenal agak pelupa. Saat pegawai senior mengajarinya mengoperasikan aplikasi sistem input data rekam medis elektronik, ia kesulitan mengingat langkahnya. Sikap Rafi seharusnya adalah...",
+    "soal": "Rafi adalah CPNS baru di RSUD yang dikenal agak pelupa. Saat pegawai senior mengajarinya mengoperasikan aplikasi sistem input data rekam medis elektronik, ia kesulitan mengingat langkahnya. Sikap Rafi seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147185,7 +147185,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0423",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #23) Andina adalah ASN muda berpenghasilan sederhana yang melihat rekan-rekannya bergaya hidup mewah memakai ponsel keluaran terbaru hasil berutang melalui aplikasi pinjaman daring. Sikap Andina seharusnya adalah...",
+    "soal": "Andina adalah ASN muda berpenghasilan sederhana yang melihat rekan-rekannya bergaya hidup mewah memakai ponsel keluaran terbaru hasil berutang melalui aplikasi pinjaman daring. Sikap Andina seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147220,7 +147220,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0424",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #24) Di era transformasi sistem pemerintahan berbasis elektronik (SPBE) saat ini, rekan-rekan kerja di lingkungan instansi mengenal diri Anda sebagai pengguna teknologi informasi yang...",
+    "soal": "Di era transformasi sistem pemerintahan berbasis elektronik (SPBE) saat ini, rekan-rekan kerja di lingkungan instansi mengenal diri Anda sebagai pengguna teknologi informasi yang...",
     "opsi": [
       {
         "label": "A",
@@ -147255,7 +147255,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0425",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #25) Sebagai ASN yang memiliki keahlian mengajar bahasa Inggris namun terikat jam kerja penuh di kantor sehingga terbatas waktu dan ruang untuk mengajar langsung, sikap kreatif Anda adalah...",
+    "soal": "Sebagai ASN yang memiliki keahlian mengajar bahasa Inggris namun terikat jam kerja penuh di kantor sehingga terbatas waktu dan ruang untuk mengajar langsung, sikap kreatif Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147290,7 +147290,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0426",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #26) Instansi Anda mengalihkan tugas layanan pengaduan masyarakat yang semula tatap muka di loket menjadi layanan pusat kontak daring karena situasi pandemi, padahal Anda belum pernah mengoperasikannya. Sikap Anda adalah...",
+    "soal": "Instansi Anda mengalihkan tugas layanan pengaduan masyarakat yang semula tatap muka di loket menjadi layanan pusat kontak daring karena situasi pandemi, padahal Anda belum pernah mengoperasikannya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147325,7 +147325,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0427",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #27) Sebagai ASN pranata komputer yang terbiasa menangani sistem keamanan siber, Anda menerima pesan pribadi berisi tawaran imbalan uang besar untuk meretas akun media sosial seorang tokoh publik. Sikap Anda adalah...",
+    "soal": "Sebagai ASN pranata komputer yang terbiasa menangani sistem keamanan siber, Anda menerima pesan pribadi berisi tawaran imbalan uang besar untuk meretas akun media sosial seorang tokoh publik. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147360,7 +147360,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0428",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #28) Sebagai CPNS magang baru di dinas, Anda mendapati aplikasi sistem kerja mengalami error, sementara pegawai ahli IT yang biasa membantu Anda sedang tidak masuk kerja hari itu. Sikap Anda adalah...",
+    "soal": "Sebagai CPNS magang baru di dinas, Anda mendapati aplikasi sistem kerja mengalami error, sementara pegawai ahli IT yang biasa membantu Anda sedang tidak masuk kerja hari itu. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147395,7 +147395,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0429",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #29) Anda mengetahui salah satu rekan muda sekantor mulai kecanduan bermain gim daring di ponsel hingga kerap melalaikan penyelesaian tugas pelaporan hariannya. Sikap Anda seharusnya adalah...",
+    "soal": "Anda mengetahui salah satu rekan muda sekantor mulai kecanduan bermain gim daring di ponsel hingga kerap melalaikan penyelesaian tugas pelaporan hariannya. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147430,7 +147430,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0430",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #30) Anda menjabat sebagai kepala laboratorium dinas. Menjelang libur hari raya, sesuai SOP perizinan, pegawai yang sudah lama mengabdi diprioritaskan mendapat giliran cuti terlebih dahulu, namun nama kerabat Anda yang baru bekerja sebulan ikut terdaftar. Sikap Anda adalah...",
+    "soal": "Anda menjabat sebagai kepala laboratorium dinas. Menjelang libur hari raya, sesuai SOP perizinan, pegawai yang sudah lama mengabdi diprioritaskan mendapat giliran cuti terlebih dahulu, namun nama kerabat Anda yang baru bekerja sebulan ikut terdaftar. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147465,7 +147465,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0431",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #31) Anda adalah staf administrasi di Puskesmas yang gajinya dirasa cukup untuk kebutuhan pokok saja. Rekan mengabari ada lowongan pekerjaan swasta bergaji jauh lebih besar, namun Anda teringat ikrar komitmen loyalitas saat diangkat menjadi pegawai. Sikap Anda adalah...",
+    "soal": "Anda adalah staf administrasi di Puskesmas yang gajinya dirasa cukup untuk kebutuhan pokok saja. Rekan mengabari ada lowongan pekerjaan swasta bergaji jauh lebih besar, namun Anda teringat ikrar komitmen loyalitas saat diangkat menjadi pegawai. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147500,7 +147500,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0432",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #32) Ketika secara tidak sengaja Anda melakukan kesalahan prosedur dalam menyusun dokumen laporan dinas di kantor, sikap profesional yang akan Anda ambil adalah...",
+    "soal": "Ketika secara tidak sengaja Anda melakukan kesalahan prosedur dalam menyusun dokumen laporan dinas di kantor, sikap profesional yang akan Anda ambil adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147535,7 +147535,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0433",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #33) Anda menjabat sebagai rektor perguruan tinggi negeri. Suatu hari kerabat lama menelepon menitipkan anaknya agar dapat diterima kuliah tanpa melalui jalur tes seleksi resmi yang diwajibkan SOP kampus. Sikap Anda seharusnya adalah...",
+    "soal": "Anda menjabat sebagai rektor perguruan tinggi negeri. Suatu hari kerabat lama menelepon menitipkan anaknya agar dapat diterima kuliah tanpa melalui jalur tes seleksi resmi yang diwajibkan SOP kampus. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147570,7 +147570,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0434",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #34) Anda adalah ASN guru di sekolah negeri. Salah satu siswa dinyatakan tidak naik kelas sesuai kriteria nilai objektif, lalu orang tua siswa datang menemui Anda sambil menyodorkan amplop uang agar anaknya diluluskan. Sikap Anda adalah...",
+    "soal": "Anda adalah ASN guru di sekolah negeri. Salah satu siswa dinyatakan tidak naik kelas sesuai kriteria nilai objektif, lalu orang tua siswa datang menemui Anda sambil menyodorkan amplop uang agar anaknya diluluskan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147605,7 +147605,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0435",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #35) Pegawai senior di unit kerja mendelegasikan tugas teknis yang sebenarnya belum Anda kuasai cara penyelesaiannya, namun ia menganggap Anda sebagai pegawai baru yang serba bisa. Sikap Anda seharusnya adalah...",
+    "soal": "Pegawai senior di unit kerja mendelegasikan tugas teknis yang sebenarnya belum Anda kuasai cara penyelesaiannya, namun ia menganggap Anda sebagai pegawai baru yang serba bisa. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147640,7 +147640,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0436",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #36) Jarak antara rumah tempat tinggal dan kantor dinas Anda sangat jauh sehingga berisiko tinggi membuat Anda datang terlambat apel pagi. Sikap profesional Anda seharusnya adalah...",
+    "soal": "Jarak antara rumah tempat tinggal dan kantor dinas Anda sangat jauh sehingga berisiko tinggi membuat Anda datang terlambat apel pagi. Sikap profesional Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147675,7 +147675,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0437",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #37) Menjelang akhir pekan, pimpinan memberitahukan bahwa Anda mendapat limpahan tugas tambahan mendesak dan harus bekerja lembur menyelesaikan laporan instansi. Sikap Anda seharusnya adalah...",
+    "soal": "Menjelang akhir pekan, pimpinan memberitahukan bahwa Anda mendapat limpahan tugas tambahan mendesak dan harus bekerja lembur menyelesaikan laporan instansi. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147710,7 +147710,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0438",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #38) Seorang rekan kerja memberikan kritik dan masukan konstruktif terkait penurunan capaian kinerja Anda dalam beberapa bulan terakhir. Sikap terbuka Anda seharusnya adalah...",
+    "soal": "Seorang rekan kerja memberikan kritik dan masukan konstruktif terkait penurunan capaian kinerja Anda dalam beberapa bulan terakhir. Sikap terbuka Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147745,7 +147745,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0439",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #39) Secara tidak sengaja di tempat umum Anda mendengar percakapan dua orang yang merencanakan aksi perusakan fasilitas publik secara besar-besaran di pusat kota keesokan harinya. Sikap Anda adalah...",
+    "soal": "Secara tidak sengaja di tempat umum Anda mendengar percakapan dua orang yang merencanakan aksi perusakan fasilitas publik secara besar-besaran di pusat kota keesokan harinya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147780,7 +147780,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0440",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #40) Saat berselancar di media sosial di luar jam kerja, Anda menemukan unggahan berita isu skandal salah satu lembaga pemerintah yang memicu amarah serta caci maki warganet. Sikap bijak Anda adalah...",
+    "soal": "Saat berselancar di media sosial di luar jam kerja, Anda menemukan unggahan berita isu skandal salah satu lembaga pemerintah yang memicu amarah serta caci maki warganet. Sikap bijak Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147815,7 +147815,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0441",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #41) Sebagai ASN muda yang aktif menggunakan media sosial, di tengah maraknya pemberitaan ancaman aksi terorisme di tanah air, kontribusi positif yang tepat Anda lakukan adalah...",
+    "soal": "Sebagai ASN muda yang aktif menggunakan media sosial, di tengah maraknya pemberitaan ancaman aksi terorisme di tanah air, kontribusi positif yang tepat Anda lakukan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147850,7 +147850,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0442",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #42) Anda menjabat sebagai kepala bagian kepegawaian instansi. Sesuai aturan acara bakti sosial tahunan ke desa terpencil, seluruh pegawai wajib berangkat, namun seorang staf mengundurkan diri mendadak karena sedang sakit. Sikap Anda adalah...",
+    "soal": "Anda menjabat sebagai kepala bagian kepegawaian instansi. Sesuai aturan acara bakti sosial tahunan ke desa terpencil, seluruh pegawai wajib berangkat, namun seorang staf mengundurkan diri mendadak karena sedang sakit. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147885,7 +147885,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0443",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #43) Sebagai CPNS tenaga kesehatan baru di RSUD, pimpinan menugaskan Anda mengisi jadwal jaga shift malam di ruang perawatan, padahal Anda sebenarnya memiliki sifat penakut. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai CPNS tenaga kesehatan baru di RSUD, pimpinan menugaskan Anda mengisi jadwal jaga shift malam di ruang perawatan, padahal Anda sebenarnya memiliki sifat penakut. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147920,7 +147920,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0444",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #44) Shifa adalah ASN berdedikasi tinggi. Saat jam pulang kantor, atasan memberinya tugas tambahan karena pekerjaan rekan setimnya belum beres, padahal Shifa sudah berjanji bertemu sahabatnya sepulang kerja. Sikap Shifa adalah...",
+    "soal": "Shifa adalah ASN berdedikasi tinggi. Saat jam pulang kantor, atasan memberinya tugas tambahan karena pekerjaan rekan setimnya belum beres, padahal Shifa sudah berjanji bertemu sahabatnya sepulang kerja. Sikap Shifa adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147955,7 +147955,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0445",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #45) Ilmi adalah CPNS baru di sebuah dinas daerah. Tepat saat jam kerja berakhir, seorang pegawai senior menghampiri dan meminta tolong Ilmi menyusun berkas mendesak untuk segera diserahkan kepada pimpinan. Sikap Ilmi adalah...",
+    "soal": "Ilmi adalah CPNS baru di sebuah dinas daerah. Tepat saat jam kerja berakhir, seorang pegawai senior menghampiri dan meminta tolong Ilmi menyusun berkas mendesak untuk segera diserahkan kepada pimpinan. Sikap Ilmi adalah...",
     "opsi": [
       {
         "label": "A",
@@ -147990,7 +147990,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0446",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #66) Katon adalah ASN petugas penginput data pendaftaran pasien di Puskesmas saat masa pembatasan kuota layanan harian. Seorang ibu memarahi Katon karena ia beberapa kali salah mengetik nomor KTP dan nama anaknya sehingga dituding lamban serta tidak profesional. Sikap Katon seharusnya adalah...",
+    "soal": "Katon adalah ASN petugas penginput data pendaftaran pasien di Puskesmas saat masa pembatasan kuota layanan harian. Seorang ibu memarahi Katon karena ia beberapa kali salah mengetik nomor KTP dan nama anaknya sehingga dituding lamban serta tidak profesional. Sikap Katon seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148025,7 +148025,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0447",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #67) Sebagai ASN dokter jaga di Puskesmas, suatu hari ambulans mengantarkan korban kecelakaan lalu lintas dalam kondisi gawat darurat ke UGD. Pada saat bersamaan, Kepala Puskesmas memanggil Anda menghadap karena ada tugas mendesak. Sikap Anda adalah...",
+    "soal": "Sebagai ASN dokter jaga di Puskesmas, suatu hari ambulans mengantarkan korban kecelakaan lalu lintas dalam kondisi gawat darurat ke UGD. Pada saat bersamaan, Kepala Puskesmas memanggil Anda menghadap karena ada tugas mendesak. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148060,7 +148060,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0448",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #68) Anda bertugas sebagai ASN pelayanan informasi di instansi pengelola data kependudukan/perbankan daerah. Seorang warga datang memohon diberikan data pribadi serta alamat lengkap seseorang yang diduga menipunya lewat transaksi transfer modal usaha, dan Anda yakin ia berkata jujur. Sikap Anda adalah...",
+    "soal": "Anda bertugas sebagai ASN pelayanan informasi di instansi pengelola data kependudukan/perbankan daerah. Seorang warga datang memohon diberikan data pribadi serta alamat lengkap seseorang yang diduga menipunya lewat transaksi transfer modal usaha, dan Anda yakin ia berkata jujur. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148095,7 +148095,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0449",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #69) Bagas adalah ASN pendamping UMKM di Dinas Perindustrian dan Perdagangan yang bertugas hingga pukul 16.00. Tepat pukul 16.05 saat ia bersiap pulang beristirahat bersama keluarga, datang seorang pelaku usaha memohon pendampingan sertifikasi halal. Sikap Bagas seharusnya adalah...",
+    "soal": "Bagas adalah ASN pendamping UMKM di Dinas Perindustrian dan Perdagangan yang bertugas hingga pukul 16.00. Tepat pukul 16.05 saat ia bersiap pulang beristirahat bersama keluarga, datang seorang pelaku usaha memohon pendampingan sertifikasi halal. Sikap Bagas seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148130,7 +148130,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0450",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #70) Anda bertugas sebagai ASN petugas loket pelayanan publik di Mal Pelayanan Publik (MPP). Instansi menerapkan protokol kesehatan ketat yang mewajibkan setiap pengunjung mengenakan masker di dalam gedung, namun seorang warga datang tanpa masker. Sikap Anda adalah...",
+    "soal": "Anda bertugas sebagai ASN petugas loket pelayanan publik di Mal Pelayanan Publik (MPP). Instansi menerapkan protokol kesehatan ketat yang mewajibkan setiap pengunjung mengenakan masker di dalam gedung, namun seorang warga datang tanpa masker. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148165,7 +148165,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0451",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #71) Antrean warga di loket perekaman KTP elektronik Disdukcapil sedang sangat padat. Di tengah hari, rekan satu loket mendadak pusing dan lemas, sehingga atasan melimpahkan tugasnya kepada Anda meski Anda juga lelah dan ingin istirahat. Sikap Anda adalah...",
+    "soal": "Antrean warga di loket perekaman KTP elektronik Disdukcapil sedang sangat padat. Di tengah hari, rekan satu loket mendadak pusing dan lemas, sehingga atasan melimpahkan tugasnya kepada Anda meski Anda juga lelah dan ingin istirahat. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148200,7 +148200,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0452",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #72) Wisnu adalah CPNS baru lulusan Teknik Informatika yang ditempatkan sebagai petugas meja informasi layanan aplikasi digital instansi untuk membantu warga yang kebingungan. Meski merasa kurang nyaman bertemu banyak orang dan tidak sesuai minatnya, sikap Wisnu seharusnya adalah...",
+    "soal": "Wisnu adalah CPNS baru lulusan Teknik Informatika yang ditempatkan sebagai petugas meja informasi layanan aplikasi digital instansi untuk membantu warga yang kebingungan. Meski merasa kurang nyaman bertemu banyak orang dan tidak sesuai minatnya, sikap Wisnu seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148235,7 +148235,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0453",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #73) Berkat kerja keras dan kinerja unggul, Anda dipromosikan menjadi kepala bidang termuda di instansi. Belakangan Anda mendengar banyak pegawai senior merasa iri, kurang percaya, dan enggan menghargai kepemimpinan Anda. Sikap Anda adalah...",
+    "soal": "Berkat kerja keras dan kinerja unggul, Anda dipromosikan menjadi kepala bidang termuda di instansi. Belakangan Anda mendengar banyak pegawai senior merasa iri, kurang percaya, dan enggan menghargai kepemimpinan Anda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148270,7 +148270,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0454",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #74) Sekretaris Daerah menunjuk Anda sebagai Ketua Panitia acara pentas seni budaya daerah. Seluruh anggota panitia lintas OPD telah ditetapkan melalui SK, namun Anda belum mengenal baik hampir semua anggota tim tersebut. Langkah Anda adalah...",
+    "soal": "Sekretaris Daerah menunjuk Anda sebagai Ketua Panitia acara pentas seni budaya daerah. Seluruh anggota panitia lintas OPD telah ditetapkan melalui SK, namun Anda belum mengenal baik hampir semua anggota tim tersebut. Langkah Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148305,7 +148305,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0455",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #75) Seluruh pekerjaan harian Anda di kantor telah tuntas sehingga tinggal menunggu jam pulang berkumpul bersama keluarga. Namun Anda melihat rekan satu subbagian tampak stres karena tenggat tugasnya sudah mepet dan belum selesai. Sikap Anda adalah...",
+    "soal": "Seluruh pekerjaan harian Anda di kantor telah tuntas sehingga tinggal menunggu jam pulang berkumpul bersama keluarga. Namun Anda melihat rekan satu subbagian tampak stres karena tenggat tugasnya sudah mepet dan belum selesai. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148340,7 +148340,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0456",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #76) Setelah hasil tes laboratorium menyatakan Yanti positif terinfeksi virus menular dan kini ia telah dinyatakan sembuh serta negatif untuk kembali masuk kerja, seluruh rekan kantor justru menjauhinya sehingga koordinasi tugas terhambat. Sebagai Kepala Bidang, sikap Anda adalah...",
+    "soal": "Setelah hasil tes laboratorium menyatakan Yanti positif terinfeksi virus menular dan kini ia telah dinyatakan sembuh serta negatif untuk kembali masuk kerja, seluruh rekan kantor justru menjauhinya sehingga koordinasi tugas terhambat. Sebagai Kepala Bidang, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148375,7 +148375,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0457",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #77) Dalam rapat persiapan hari besar instansi, rekan Anda mengajukan ide yang disetujui mayoritas peserta, namun Anda menemukan kejanggalan esensi dan menyampaikan koreksi hingga pimpinan rapat membatalkan ide rekan Anda. Rekan tersebut tersinggung karena merasa dijatuhkan di forum. Sikap Anda adalah...",
+    "soal": "Dalam rapat persiapan hari besar instansi, rekan Anda mengajukan ide yang disetujui mayoritas peserta, namun Anda menemukan kejanggalan esensi dan menyampaikan koreksi hingga pimpinan rapat membatalkan ide rekan Anda. Rekan tersebut tersinggung karena merasa dijatuhkan di forum. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148410,7 +148410,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0458",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #78) Anda lulus seleksi CPNS dan ditempatkan di daerah terpencil yang memiliki bahasa serta budaya sangat berbeda dari daerah asal Anda. Akibat mengalami gegar budaya (culture shock), Anda sulit membaur sehingga koordinasi kerja terhambat. Sikap Anda adalah...",
+    "soal": "Anda lulus seleksi CPNS dan ditempatkan di daerah terpencil yang memiliki bahasa serta budaya sangat berbeda dari daerah asal Anda. Akibat mengalami gegar budaya (culture shock), Anda sulit membaur sehingga koordinasi kerja terhambat. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148445,7 +148445,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0459",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #79) Sebagai Pejabat Pembuat Komitmen (PPK) proyek pembangunan gedung dinas, tim pengawas mengusulkan perubahan desain untuk efisiensi jangka panjang. Namun perubahan di tengah proyek berjalan akan membongkar struktur terpasang dan menambah anggaran biaya. Sikap Anda adalah...",
+    "soal": "Sebagai Pejabat Pembuat Komitmen (PPK) proyek pembangunan gedung dinas, tim pengawas mengusulkan perubahan desain untuk efisiensi jangka panjang. Namun perubahan di tengah proyek berjalan akan membongkar struktur terpasang dan menambah anggaran biaya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148480,7 +148480,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0460",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #80) Anda gemar menyaksikan tayangan hiburan televisi nasional yang berkualitas, namun belakangan sebuah stasiun televisi swasta menayangkan drama asing dengan banyak adegan yang bertentangan dengan norma dan budaya kesantunan masyarakat Indonesia. Sikap Anda adalah...",
+    "soal": "Anda gemar menyaksikan tayangan hiburan televisi nasional yang berkualitas, namun belakangan sebuah stasiun televisi swasta menayangkan drama asing dengan banyak adegan yang bertentangan dengan norma dan budaya kesantunan masyarakat Indonesia. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148515,7 +148515,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0461",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #81) Anda adalah ASN yang ditugaskan dalam tim kerja kolaborasi internasional bersama tenaga ahli dari berbagai negara. Di lingkungan tersebut, Anda kerap mendapat ejekan rasial dari beberapa rekan asing yang meremehkan etos kerja bangsa Anda. Sikap Anda adalah...",
+    "soal": "Anda adalah ASN yang ditugaskan dalam tim kerja kolaborasi internasional bersama tenaga ahli dari berbagai negara. Di lingkungan tersebut, Anda kerap mendapat ejekan rasial dari beberapa rekan asing yang meremehkan etos kerja bangsa Anda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148550,7 +148550,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0462",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #82) Pahala dan Yogi adalah rekan ASN satu bidang di pemerintah kota. Yogi mendadak berseteru dan menuduh Pahala menyalahgunakan dana program kerja untuk kepentingan pribadi karena menganggap Pahala sejak dulu tidak menyukainya. Jika Anda sebagai Pahala, sikap Anda adalah...",
+    "soal": "Pahala dan Yogi adalah rekan ASN satu bidang di pemerintah kota. Yogi mendadak berseteru dan menuduh Pahala menyalahgunakan dana program kerja untuk kepentingan pribadi karena menganggap Pahala sejak dulu tidak menyukainya. Jika Anda sebagai Pahala, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148585,7 +148585,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0463",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #83) Setiap pagi Anda rutin membaca berita internasional dan menemukan laporan meningkatnya gelombang pengungsi serta pencari suaka akibat konflik perang di berbagai negara. Menyikapi tragedi kemanusiaan tersebut, sikap Anda sebagai ASN adalah...",
+    "soal": "Setiap pagi Anda rutin membaca berita internasional dan menemukan laporan meningkatnya gelombang pengungsi serta pencari suaka akibat konflik perang di berbagai negara. Menyikapi tragedi kemanusiaan tersebut, sikap Anda sebagai ASN adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148620,7 +148620,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0464",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #84) Di lingkungan kantor Anda terdapat seorang pegawai pria secara administratif kependudukan yang memiliki pembawaan perilaku menyerupai perempuan, dan ia meminta rekan-rekan kerja memperlakukannya demikian dalam pergaulan sehari-hari. Sikap profesional Anda dalam lingkungan kerja majemuk adalah...",
+    "soal": "Di lingkungan kantor Anda terdapat seorang pegawai pria secara administratif kependudukan yang memiliki pembawaan perilaku menyerupai perempuan, dan ia meminta rekan-rekan kerja memperlakukannya demikian dalam pergaulan sehari-hari. Sikap profesional Anda dalam lingkungan kerja majemuk adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148655,7 +148655,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0465",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #85) Pada hari Minggu, warga desa tempat tinggal Anda menggelar kerja bakti gotong royong memperbaiki rumah warga kurang mampu. Namun rekan-rekan muda di lingkungan Anda menganggap tradisi gotong royong sudah ketinggalan zaman seperti budaya luar negeri. Sikap Anda adalah...",
+    "soal": "Pada hari Minggu, warga desa tempat tinggal Anda menggelar kerja bakti gotong royong memperbaiki rumah warga kurang mampu. Namun rekan-rekan muda di lingkungan Anda menganggap tradisi gotong royong sudah ketinggalan zaman seperti budaya luar negeri. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148690,7 +148690,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0466",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #86) Saat sedang bertugas dinas luar kota dan berjalan di malam hari bersama keluarga, Anda melihat banyak anak-anak masih bermain di jalanan hingga larut malam karena orang tua mereka berdagang di pasar malam sekitar situ. Sikap Anda adalah...",
+    "soal": "Saat sedang bertugas dinas luar kota dan berjalan di malam hari bersama keluarga, Anda melihat banyak anak-anak masih bermain di jalanan hingga larut malam karena orang tua mereka berdagang di pasar malam sekitar situ. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148725,7 +148725,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0467",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #87) Mulai bulan depan, instansi tempat Anda bekerja menerapkan pelaporan capaian kinerja harian pegawai secara daring melalui aplikasi terpadu. Anda masih merasa kesulitan mengisi laporan di aplikasi tersebut sehingga ritme kerja sedikit melambat. Sikap Anda adalah...",
+    "soal": "Mulai bulan depan, instansi tempat Anda bekerja menerapkan pelaporan capaian kinerja harian pegawai secara daring melalui aplikasi terpadu. Anda masih merasa kesulitan mengisi laporan di aplikasi tersebut sehingga ritme kerja sedikit melambat. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148760,7 +148760,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0468",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #88) Anda adalah pimpinan instansi pelayanan publik saat diberlakukan kebijakan bekerja dari rumah (WFH) 50%. Seorang staf mengusulkan penggunaan aplikasi manajemen tugas daring berbayar agar kinerja seluruh pegawai tetap terpantau terpadu. Tanggapan Anda adalah...",
+    "soal": "Anda adalah pimpinan instansi pelayanan publik saat diberlakukan kebijakan bekerja dari rumah (WFH) 50%. Seorang staf mengusulkan penggunaan aplikasi manajemen tugas daring berbayar agar kinerja seluruh pegawai tetap terpantau terpadu. Tanggapan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148795,7 +148795,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0469",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #89) Di era seleksi serba digital saat ini, seorang calon pelamar kerja atau peserta seleksi ASN yang selama ini kurang mengikuti perkembangan teknologi informasi ingin mempersiapkan diri menghadapi persaingan karier modern. Sikap terbaiknya adalah...",
+    "soal": "Di era seleksi serba digital saat ini, seorang calon pelamar kerja atau peserta seleksi ASN yang selama ini kurang mengikuti perkembangan teknologi informasi ingin mempersiapkan diri menghadapi persaingan karier modern. Sikap terbaiknya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148830,7 +148830,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0470",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #90) Ponsel pintar milik Anda sering diejek rekan kerja sebagai ponsel jadul karena modelnya lawas dan sedikit lambat, padahal perangkat tersebut masih kompatibel menjalankan seluruh aplikasi kedinasan dan aktivitas harian Anda. Sikap Anda adalah...",
+    "soal": "Ponsel pintar milik Anda sering diejek rekan kerja sebagai ponsel jadul karena modelnya lawas dan sedikit lambat, padahal perangkat tersebut masih kompatibel menjalankan seluruh aplikasi kedinasan dan aktivitas harian Anda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148865,7 +148865,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0471",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #91) Heppy ditugaskan pimpinan menyelenggarakan rapat koordinasi virtual antar-OPD dua hari lagi, namun akun konferensi video pribadinya versi gratis sehingga waktu dan jumlah peserta terbatas. Rekan kerja menawarkan memakai akun pribadi berbayar miliknya. Keputusan Heppy adalah...",
+    "soal": "Heppy ditugaskan pimpinan menyelenggarakan rapat koordinasi virtual antar-OPD dua hari lagi, namun akun konferensi video pribadinya versi gratis sehingga waktu dan jumlah peserta terbatas. Rekan kerja menawarkan memakai akun pribadi berbayar miliknya. Keputusan Heppy adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148900,7 +148900,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0472",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #92) Lingkungan permukiman tempat tinggal Anda belakangan marak terjadi pencurian kendaraan bermotor. Sebagai ASN yang melek perkembangan teknologi keamanan, usulan konkret yang tepat Anda sampaikan dalam rapat warga RW adalah...",
+    "soal": "Lingkungan permukiman tempat tinggal Anda belakangan marak terjadi pencurian kendaraan bermotor. Sebagai ASN yang melek perkembangan teknologi keamanan, usulan konkret yang tepat Anda sampaikan dalam rapat warga RW adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148935,7 +148935,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0473",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #93) Di tengah tren investasi digital yang ramai diperbincangkan, seorang rekan kantor mengajak Anda berinvestasi saham daring yang menjanjikan keuntungan besar secara cepat namun berisiko tinggi pula. Sikap bijak Anda adalah...",
+    "soal": "Di tengah tren investasi digital yang ramai diperbincangkan, seorang rekan kantor mengajak Anda berinvestasi saham daring yang menjanjikan keuntungan besar secara cepat namun berisiko tinggi pula. Sikap bijak Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -148970,7 +148970,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0474",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #94) Sebagai ASN desainer grafis di dinas pariwisata daerah, Anda mendapati sedikit kesalahan teknis pada detail desain media promosi yang dipesan mitra, padahal dengan keahlian Anda kesalahan itu bisa disamarkan agar tidak terlihat. Keputusan Anda adalah...",
+    "soal": "Sebagai ASN desainer grafis di dinas pariwisata daerah, Anda mendapati sedikit kesalahan teknis pada detail desain media promosi yang dipesan mitra, padahal dengan keahlian Anda kesalahan itu bisa disamarkan agar tidak terlihat. Keputusan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149005,7 +149005,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0475",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #95) Anda adalah ASN yang tekun bekerja di kantor. Menjelang jam pulang saat Anda sudah berjanji makan malam bersama keluarga di rumah, pimpinan memberikan tugas mendadak yang mengharuskan Anda lembur menyelesaikannya. Sikap Anda adalah...",
+    "soal": "Anda adalah ASN yang tekun bekerja di kantor. Menjelang jam pulang saat Anda sudah berjanji makan malam bersama keluarga di rumah, pimpinan memberikan tugas mendadak yang mengharuskan Anda lembur menyelesaikannya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149040,7 +149040,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0476",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #96) Sebagai ketua tim kerja, proyek yang Anda pimpin selalu mencapai target sangat baik, namun rekan dekat mengabari banyak anggota menggosipkan sikap Anda yang terlalu keras kepala dan senioritas. Menyadari kekurangan diri tersebut, sikap Anda adalah...",
+    "soal": "Sebagai ketua tim kerja, proyek yang Anda pimpin selalu mencapai target sangat baik, namun rekan dekat mengabari banyak anggota menggosipkan sikap Anda yang terlalu keras kepala dan senioritas. Menyadari kekurangan diri tersebut, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149075,7 +149075,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0477",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #97) Selama sepuluh tahun mengabdi sebagai ASN, unit kerja Anda sudah lima kali berganti pimpinan dengan gaya kepemimpinan dan kebijakan berbeda tiap dua tahun, sehingga banyak rekan merasa tertekan. Sikap Anda seharusnya adalah...",
+    "soal": "Selama sepuluh tahun mengabdi sebagai ASN, unit kerja Anda sudah lima kali berganti pimpinan dengan gaya kepemimpinan dan kebijakan berbeda tiap dua tahun, sehingga banyak rekan merasa tertekan. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149110,7 +149110,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0478",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #98) Anda baru dilantik menjadi kepala bidang membawahi lima PNS dan lima pegawai non-ASN. Di hari pertama kerja, Anda melihat para PNS bersantai sementara pekerjaan pokok justru dilimpahkan kepada pegawai non-ASN. Sikap Anda adalah...",
+    "soal": "Anda baru dilantik menjadi kepala bidang membawahi lima PNS dan lima pegawai non-ASN. Di hari pertama kerja, Anda melihat para PNS bersantai sementara pekerjaan pokok justru dilimpahkan kepada pegawai non-ASN. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149145,7 +149145,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0479",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #99) Sebagai ASN yang juga dipercaya warga menjabat ketua RW di lingkungan tempat tinggal, Anda menghadapi perselisihan dua warga yang saling bersikeras merasa paling benar akibat salah paham. Sikap Anda seharusnya adalah...",
+    "soal": "Sebagai ASN yang juga dipercaya warga menjabat ketua RW di lingkungan tempat tinggal, Anda menghadapi perselisihan dua warga yang saling bersikeras merasa paling benar akibat salah paham. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149180,7 +149180,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0480",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #100) Semasa kuliah dahulu Anda sering membolos pada hari terjepit di antara dua hari libur nasional. Kini setelah resmi berstatus ASN dengan hak cuti tahunan terbatas, sikap Anda saat menghadapi hari kerja terjepit adalah...",
+    "soal": "Semasa kuliah dahulu Anda sering membolos pada hari terjepit di antara dua hari libur nasional. Kini setelah resmi berstatus ASN dengan hak cuti tahunan terbatas, sikap Anda saat menghadapi hari kerja terjepit adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149215,7 +149215,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0481",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #101) Anda ditugaskan memberikan sambutan resmi pada acara lintas instansi dengan hadirin yang sangat majemuk dari berbagai agama, padahal Anda terbiasa membuka sambutan menggunakan salam satu agama saja. Sikap Anda seharusnya adalah...",
+    "soal": "Anda ditugaskan memberikan sambutan resmi pada acara lintas instansi dengan hadirin yang sangat majemuk dari berbagai agama, padahal Anda terbiasa membuka sambutan menggunakan salam satu agama saja. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149250,7 +149250,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0482",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #102) Kelompok separatis bersenjata kian gencar melakukan aksi kekerasan dan memaksa masyarakat melepaskan diri dari NKRI hingga mengancam kedaulatan negara serta keselamatan warga sipil. Pandangan dan sikap Anda sebagai ASN adalah...",
+    "soal": "Kelompok separatis bersenjata kian gencar melakukan aksi kekerasan dan memaksa masyarakat melepaskan diri dari NKRI hingga mengancam kedaulatan negara serta keselamatan warga sipil. Pandangan dan sikap Anda sebagai ASN adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149285,7 +149285,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0483",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #103) Lingkungan tempat tinggal Anda dihuni warga dari berbagai suku dan agama. Hari ini merupakan hari raya keagamaan besar milik Subagyo, tetangga sebelah rumah yang berbeda keyakinan agama dengan Anda. Sikap Anda adalah...",
+    "soal": "Lingkungan tempat tinggal Anda dihuni warga dari berbagai suku dan agama. Hari ini merupakan hari raya keagamaan besar milik Subagyo, tetangga sebelah rumah yang berbeda keyakinan agama dengan Anda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149320,7 +149320,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0484",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #104) Dalam tim proyek kerja sama internasional di instansi, Anda melihat dua rekan ASN dalam negeri direndahkan secara verbal oleh tenaga ahli asing karena isu ras, sementara Anda tidak dihina karena berpenampilan fisik berbeda. Sikap Anda adalah...",
+    "soal": "Dalam tim proyek kerja sama internasional di instansi, Anda melihat dua rekan ASN dalam negeri direndahkan secara verbal oleh tenaga ahli asing karena isu ras, sementara Anda tidak dihina karena berpenampilan fisik berbeda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149355,7 +149355,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0485",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #105) Konten bermuatan paham radikalisme kini mudah diakses secara bebas melalui internet sehingga Anda khawatir hal tersebut memengaruhi pola pikir anggota keluarga terdekat di rumah. Langkah pencegahan Anda adalah...",
+    "soal": "Konten bermuatan paham radikalisme kini mudah diakses secara bebas melalui internet sehingga Anda khawatir hal tersebut memengaruhi pola pikir anggota keluarga terdekat di rumah. Langkah pencegahan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149390,7 +149390,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0486",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #106) Anda bekerja sebagai PNS di sebuah perguruan tinggi negeri. Pimpinan rektorat menginstruksikan seluruh sivitas akademika aktif menangkal masuknya paham radikalisme ke lingkungan kampus, dan Anda memiliki keahlian menulis opini. Sikap Anda adalah...",
+    "soal": "Anda bekerja sebagai PNS di sebuah perguruan tinggi negeri. Pimpinan rektorat menginstruksikan seluruh sivitas akademika aktif menangkal masuknya paham radikalisme ke lingkungan kampus, dan Anda memiliki keahlian menulis opini. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149425,7 +149425,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0487",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #107) Sahabat karib Anda mulai berubah sejak mengikuti suatu kelompok kajian ekstrem. Ia membujuk Anda bergabung dan mengklaim bahwa orang-orang di luar kelompoknya tersesat serta pasti celaka. Sikap Anda seharusnya adalah...",
+    "soal": "Sahabat karib Anda mulai berubah sejak mengikuti suatu kelompok kajian ekstrem. Ia membujuk Anda bergabung dan mengklaim bahwa orang-orang di luar kelompoknya tersesat serta pasti celaka. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149460,7 +149460,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0488",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #108) Dalam grup percakapan alumni, seorang teman membagikan berita hoaks dari sumber tidak kredibel yang menuduh penangkapan terduga teroris oleh aparat negara hanyalah rekayasa dan fitnah belaka. Sikap Anda adalah...",
+    "soal": "Dalam grup percakapan alumni, seorang teman membagikan berita hoaks dari sumber tidak kredibel yang menuduh penangkapan terduga teroris oleh aparat negara hanyalah rekayasa dan fitnah belaka. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149495,7 +149495,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0489",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #109) Dalam acara syukuran ulang tahun rekan kerja yang dihadiri seluruh pegawai kantor dari beragam latar belakang agama, tuan rumah meminta Anda memimpin pembacaan doa bersama. Sikap toleran Anda adalah...",
+    "soal": "Dalam acara syukuran ulang tahun rekan kerja yang dihadiri seluruh pegawai kantor dari beragam latar belakang agama, tuan rumah meminta Anda memimpin pembacaan doa bersama. Sikap toleran Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149530,7 +149530,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0490",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #110) Lingkungan tempat tinggal Anda akan kedatangan warga baru yang merupakan mantan narapidana kasus terorisme. Banyak warga menolak kehadirannya karena khawatir paham radikalnya masih melekat. Sebagai ketua RW sekaligus ASN, sikap Anda adalah...",
+    "soal": "Lingkungan tempat tinggal Anda akan kedatangan warga baru yang merupakan mantan narapidana kasus terorisme. Banyak warga menolak kehadirannya karena khawatir paham radikalnya masih melekat. Sebagai ketua RW sekaligus ASN, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149565,7 +149565,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0491",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #66) Atasan Anda di dinas terkenal sangat disiplin dan teliti. Suatu minggu beliau mendapat tugas dinas luar kota selama lima hari kerja sehingga tidak berada di kantor, lalu rekan sekantor mengajak Anda bekerja santai saja. Sikap Anda adalah...",
+    "soal": "Atasan Anda di dinas terkenal sangat disiplin dan teliti. Suatu minggu beliau mendapat tugas dinas luar kota selama lima hari kerja sehingga tidak berada di kantor, lalu rekan sekantor mengajak Anda bekerja santai saja. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149600,7 +149600,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0492",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #67) Pagi ini Anda memiliki jadwal rapat koordinasi penting bersama pimpinan lintas instansi. Di tengah perjalanan menuju kantor, Anda melihat kecelakaan lalu lintas yang sudah dikerumuni banyak warga untuk menolong korban. Sikap Anda adalah...",
+    "soal": "Pagi ini Anda memiliki jadwal rapat koordinasi penting bersama pimpinan lintas instansi. Di tengah perjalanan menuju kantor, Anda melihat kecelakaan lalu lintas yang sudah dikerumuni banyak warga untuk menolong korban. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149635,7 +149635,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0493",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #68) Saat pelaksanaan kegiatan bakti sosial lapangan instansi, salah seorang koordinator seksi berhalangan hadir karena mengalami musibah kecelakaan di jalan sehingga tugas seksinya terbengkalai. Sikap Anda sebagai anggota tim pelaksana adalah...",
+    "soal": "Saat pelaksanaan kegiatan bakti sosial lapangan instansi, salah seorang koordinator seksi berhalangan hadir karena mengalami musibah kecelakaan di jalan sehingga tugas seksinya terbengkalai. Sikap Anda sebagai anggota tim pelaksana adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149670,7 +149670,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0494",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #69) Yoni sedang serius menyiapkan bahan paparan rapat pimpinan dua minggu lagi. Mendadak atasan memintanya mengambil alih tugas mendesak milik Siska yang mengundurkan diri dan harus selesai dalam dua hari. Sikap Yoni seharusnya adalah...",
+    "soal": "Yoni sedang serius menyiapkan bahan paparan rapat pimpinan dua minggu lagi. Mendadak atasan memintanya mengambil alih tugas mendesak milik Siska yang mengundurkan diri dan harus selesai dalam dua hari. Sikap Yoni seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149705,7 +149705,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0495",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #70) Untuk meningkatkan kualitas pelayanan publik berstandar internasional di unit layanan terpadu, Kepala Dinas menginstruksikan seluruh staf pelayanan menguasai bahasa Inggris aktif. Sikap Anda sebagai kepala subbagian kepegawaian/SDM adalah...",
+    "soal": "Untuk meningkatkan kualitas pelayanan publik berstandar internasional di unit layanan terpadu, Kepala Dinas menginstruksikan seluruh staf pelayanan menguasai bahasa Inggris aktif. Sikap Anda sebagai kepala subbagian kepegawaian/SDM adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149740,7 +149740,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0496",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #71) Sebagai ketua panitia kegiatan peresmian program daerah yang masih harus menyelesaikan banyak persiapan akhir, Anda mendadak ditelepon ibu meminta dijemput dari pasar karena sedang turun hujan deras. Sikap Anda adalah...",
+    "soal": "Sebagai ketua panitia kegiatan peresmian program daerah yang masih harus menyelesaikan banyak persiapan akhir, Anda mendadak ditelepon ibu meminta dijemput dari pasar karena sedang turun hujan deras. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149775,7 +149775,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0497",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #72) Pada jam istirahat siang, Anda sudah berjanji makan siang bersama rekan-rekan sekantor di luar gedung. Tiba-tiba pimpinan menelepon meminta Anda menemui dan mendampingi tamu penting mitra daerah yang datang saat jam istirahat. Sikap Anda adalah...",
+    "soal": "Pada jam istirahat siang, Anda sudah berjanji makan siang bersama rekan-rekan sekantor di luar gedung. Tiba-tiba pimpinan menelepon meminta Anda menemui dan mendampingi tamu penting mitra daerah yang datang saat jam istirahat. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149810,7 +149810,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0498",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #73) Joko adalah ketua tim pelaksana agenda kegiatan tahunan instansi. Karena padatnya jadwal, ia kerap lupa dan melewatkan rapat penting sehingga rekan menyarankannya memakai aplikasi pengingat jadwal di ponsel. Sikap Joko seharusnya adalah...",
+    "soal": "Joko adalah ketua tim pelaksana agenda kegiatan tahunan instansi. Karena padatnya jadwal, ia kerap lupa dan melewatkan rapat penting sehingga rekan menyarankannya memakai aplikasi pengingat jadwal di ponsel. Sikap Joko seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149845,7 +149845,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0499",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #74) Penggunaan media sosial kini menjadi bagian tak terpisahkan dari keseharian ASN maupun masyarakat luas. Untuk meminimalkan serta menangkal dampak negatif penggunaan media sosial, langkah bijak yang Anda lakukan adalah...",
+    "soal": "Penggunaan media sosial kini menjadi bagian tak terpisahkan dari keseharian ASN maupun masyarakat luas. Untuk meminimalkan serta menangkal dampak negatif penggunaan media sosial, langkah bijak yang Anda lakukan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149880,7 +149880,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0500",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #75) Instansi tempat Anda bekerja mewajibkan seluruh pegawai mengirim laporan kinerja harian secara daring setiap hari. Sebagai petugas lapangan yang sering bertugas di wilayah pelosok dengan sinyal seluler lemah, sikap Anda adalah...",
+    "soal": "Instansi tempat Anda bekerja mewajibkan seluruh pegawai mengirim laporan kinerja harian secara daring setiap hari. Sebagai petugas lapangan yang sering bertugas di wilayah pelosok dengan sinyal seluler lemah, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149915,7 +149915,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0501",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #76) Instansi tempat Anda bekerja baru saja mengganti sistem aplikasi pelayanan administrasi lama dengan sistem IT baru yang lebih modern untuk mempercepat kinerja pegawai. Sikap adaptif Anda adalah...",
+    "soal": "Instansi tempat Anda bekerja baru saja mengganti sistem aplikasi pelayanan administrasi lama dengan sistem IT baru yang lebih modern untuk mempercepat kinerja pegawai. Sikap adaptif Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149950,7 +149950,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0502",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #77) Sistem administrasi di kantor Anda kini beralih sepenuhnya berbasis daring, sementara Anda belum mahir karena baru mempelajarinya. Suatu hari Anda tidak sengaja melakukan kesalahan input data fatal di sistem. Sikap Anda adalah...",
+    "soal": "Sistem administrasi di kantor Anda kini beralih sepenuhnya berbasis daring, sementara Anda belum mahir karena baru mempelajarinya. Suatu hari Anda tidak sengaja melakukan kesalahan input data fatal di sistem. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -149985,7 +149985,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0503",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #78) Pada apel pagi, pimpinan mengumumkan seluruh penyusunan laporan kegiatan instansi mulai minggu depan wajib diunggah secara daring. Anda belum terbiasa menggunakan aplikasi daring karena selama ini selalu mencetak laporan fisik. Sikap Anda adalah...",
+    "soal": "Pada apel pagi, pimpinan mengumumkan seluruh penyusunan laporan kegiatan instansi mulai minggu depan wajib diunggah secara daring. Anda belum terbiasa menggunakan aplikasi daring karena selama ini selalu mencetak laporan fisik. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150020,7 +150020,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0504",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #79) Dalam menjalin komunikasi kerja sama yang efektif melalui berbagai kanal komunikasi antarpegawai maupun pimpinan agar seluruh tugas terselesaikan dengan baik, pola komunikasi yang paling Anda senangi adalah menggunakan pola...",
+    "soal": "Dalam menjalin komunikasi kerja sama yang efektif melalui berbagai kanal komunikasi antarpegawai maupun pimpinan agar seluruh tugas terselesaikan dengan baik, pola komunikasi yang paling Anda senangi adalah menggunakan pola...",
     "opsi": [
       {
         "label": "A",
@@ -150055,7 +150055,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0505",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #80) Anda melihat beberapa rekan petugas loket di kantor pelayanan publik meminta uang tanda terima kasih dari warga setelah pengurusan surat keterangan penting selesai, padahal aturan instansi melarang keras pungutan liar. Sikap Anda adalah...",
+    "soal": "Anda melihat beberapa rekan petugas loket di kantor pelayanan publik meminta uang tanda terima kasih dari warga setelah pengurusan surat keterangan penting selesai, padahal aturan instansi melarang keras pungutan liar. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150090,7 +150090,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0506",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #81) Anda terjebak kemacetan parah sehingga nyaris terlambat melakukan presensi elektronik yang berisiko dianggap tidak hadir. Saat bergegas menuju mesin presensi, Anda melihat seorang nenek berdiri kebingungan mencari ruang pelayanan. Tindakan Anda adalah...",
+    "soal": "Anda terjebak kemacetan parah sehingga nyaris terlambat melakukan presensi elektronik yang berisiko dianggap tidak hadir. Saat bergegas menuju mesin presensi, Anda melihat seorang nenek berdiri kebingungan mencari ruang pelayanan. Tindakan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150125,7 +150125,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0507",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #82) Anda adalah petugas layanan publik di bank daerah/loket layanan digital instansi. Seorang nenek datang mengurus aktivasi layanan perbankan/aplikasi digital, namun meski sudah dijelaskan perlahan dengan bahasa sederhana, ia tetap belum mengerti prosedurnya. Sikap Anda adalah...",
+    "soal": "Anda adalah petugas layanan publik di bank daerah/loket layanan digital instansi. Seorang nenek datang mengurus aktivasi layanan perbankan/aplikasi digital, namun meski sudah dijelaskan perlahan dengan bahasa sederhana, ia tetap belum mengerti prosedurnya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150160,7 +150160,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0508",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #83) Bulan ini instansi Anda meluncurkan inovasi aplikasi layanan publik baru di berbagai kecamatan, namun tidak lama setelah diluncurkan banyak keluhan datang dari masyarakat pengguna terkait kendala penggunaannya. Sikap Anda adalah...",
+    "soal": "Bulan ini instansi Anda meluncurkan inovasi aplikasi layanan publik baru di berbagai kecamatan, namun tidak lama setelah diluncurkan banyak keluhan datang dari masyarakat pengguna terkait kendala penggunaannya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150195,7 +150195,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0509",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #84) Dalam pengurusan dokumen kependudukan seperti KTP, masyarakat kerap mengeluhkan alur birokrasi berjenjang dari RT, kelurahan, hingga kecamatan yang lama serta terkadang terkendala habisnya stok blangko cetak. Sikap Anda sebagai ASN pelayanan adalah...",
+    "soal": "Dalam pengurusan dokumen kependudukan seperti KTP, masyarakat kerap mengeluhkan alur birokrasi berjenjang dari RT, kelurahan, hingga kecamatan yang lama serta terkadang terkendala habisnya stok blangko cetak. Sikap Anda sebagai ASN pelayanan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150230,7 +150230,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0510",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #85) Pada kegiatan vaksinasi massal di balai desa, antrean warga sangat panjang karena tingginya antusiasme masyarakat. Seorang kakek berusia 70 tahun yang ikut mengantre memohon agar dapat dilayani lebih dahulu. Sikap Anda adalah...",
+    "soal": "Pada kegiatan vaksinasi massal di balai desa, antrean warga sangat panjang karena tingginya antusiasme masyarakat. Seorang kakek berusia 70 tahun yang ikut mengantre memohon agar dapat dilayani lebih dahulu. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150265,7 +150265,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0511",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #86) Saat sedang mengambil berkas di meja layanan pengaduan, tiba-tiba datang seorang warga yang marah besar atas lambannya pelayanan sebelumnya hingga melontarkan kata-kata kasar kepada Anda. Sikap Anda seharusnya adalah...",
+    "soal": "Saat sedang mengambil berkas di meja layanan pengaduan, tiba-tiba datang seorang warga yang marah besar atas lambannya pelayanan sebelumnya hingga melontarkan kata-kata kasar kepada Anda. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150300,7 +150300,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0512",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #87) Anda adalah ASN berdedikasi tinggi. Suatu hari Anda dihadapkan pada tumpukan pekerjaan mendesak dari beberapa bidang dengan tenggat waktu penyelesaian yang bersamaan pada hari itu juga. Sikap Anda seharusnya adalah...",
+    "soal": "Anda adalah ASN berdedikasi tinggi. Suatu hari Anda dihadapkan pada tumpukan pekerjaan mendesak dari beberapa bidang dengan tenggat waktu penyelesaian yang bersamaan pada hari itu juga. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150335,7 +150335,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0513",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #88) Unit layanan inovasi yang Anda rintis di dinas daerah dinilai sukses besar dan mendapat tawaran kerja sama replikasi program dari pemerintah daerah kabupaten lain. Sikap Anda terhadap peluang kemitraan tersebut adalah...",
+    "soal": "Unit layanan inovasi yang Anda rintis di dinas daerah dinilai sukses besar dan mendapat tawaran kerja sama replikasi program dari pemerintah daerah kabupaten lain. Sikap Anda terhadap peluang kemitraan tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150370,7 +150370,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0514",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #89) Anda bertugas sebagai ASN asisten tenaga farmasi di loket apotek Puskesmas. Seorang pasien datang menebus resep obat racikan, namun apoteker penanggung jawab belum tiba meski Anda sebenarnya mengetahui komposisinya. Sikap Anda adalah...",
+    "soal": "Anda bertugas sebagai ASN asisten tenaga farmasi di loket apotek Puskesmas. Seorang pasien datang menebus resep obat racikan, namun apoteker penanggung jawab belum tiba meski Anda sebenarnya mengetahui komposisinya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150405,7 +150405,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0515",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #90) Dalam menjalankan kerja sama tim kerja lintas seksi di instansi pemerintahan agar seluruh target program tercapai secara efektif dan harmonis, kunci utama keberhasilan sebuah tim menurut Anda adalah...",
+    "soal": "Dalam menjalankan kerja sama tim kerja lintas seksi di instansi pemerintahan agar seluruh target program tercapai secara efektif dan harmonis, kunci utama keberhasilan sebuah tim menurut Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150440,7 +150440,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0516",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #91) Anda mendapati banyak rekan kerja di subbagian Anda sering pulang satu jam lebih awal sebelum jam kerja resmi instansi berakhir. Sikap bijak Anda dalam menjaga integritas serta keharmonisan tim adalah...",
+    "soal": "Anda mendapati banyak rekan kerja di subbagian Anda sering pulang satu jam lebih awal sebelum jam kerja resmi instansi berakhir. Sikap bijak Anda dalam menjaga integritas serta keharmonisan tim adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150475,7 +150475,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0517",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #92) Seseorang yang mengaku memiliki koneksi pejabat kepegawaian menawarkan bantuan promosi kenaikan jabatan struktural kepada Anda dengan syarat menyetorkan sejumlah uang imbalan. Sikap berintegritas Anda seharusnya adalah...",
+    "soal": "Seseorang yang mengaku memiliki koneksi pejabat kepegawaian menawarkan bantuan promosi kenaikan jabatan struktural kepada Anda dengan syarat menyetorkan sejumlah uang imbalan. Sikap berintegritas Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150510,7 +150510,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0518",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #93) Dalam rapat umum pegawai instansi, disepakati kegiatan bakti sosial dengan membagi seluruh ASN ke dalam beberapa tim kerja. Agar target kerja yang dibebankan kepada tim Anda terpenuhi optimal, Anda akan...",
+    "soal": "Dalam rapat umum pegawai instansi, disepakati kegiatan bakti sosial dengan membagi seluruh ASN ke dalam beberapa tim kerja. Agar target kerja yang dibebankan kepada tim Anda terpenuhi optimal, Anda akan...",
     "opsi": [
       {
         "label": "A",
@@ -150545,7 +150545,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0519",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #94) Pemerintah mengimbau seluruh masyarakat khususnya ASN agar turut berkontribusi mengurangi pemanasan global dan emisi gas rumah kaca dalam aktivitas harian berangkat bekerja. Kontribusi nyata yang paling tepat Anda lakukan adalah...",
+    "soal": "Pemerintah mengimbau seluruh masyarakat khususnya ASN agar turut berkontribusi mengurangi pemanasan global dan emisi gas rumah kaca dalam aktivitas harian berangkat bekerja. Kontribusi nyata yang paling tepat Anda lakukan adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150580,7 +150580,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0520",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #95) Anda dan rekan satu dinas diutus mengikuti diklat nasional di luar kota. Di penginapan, masih tersisa satu tempat tidur kosong di kamar Anda, lalu rekan Anda mengusulkan diisi peserta dari kabupaten asal yang sama agar mudah berkoordinasi. Tanggapan Anda adalah...",
+    "soal": "Anda dan rekan satu dinas diutus mengikuti diklat nasional di luar kota. Di penginapan, masih tersisa satu tempat tidur kosong di kamar Anda, lalu rekan Anda mengusulkan diisi peserta dari kabupaten asal yang sama agar mudah berkoordinasi. Tanggapan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150615,7 +150615,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0521",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #96) Dalam rapat kepanitiaan acara perpisahan pegawai purnabakti, disepakati besaran iuran merata. Roni, pegawai golongan rendah, hanya sanggup membayar separuhnya sehingga beberapa rekan lain keberatan karena khawatir diikuti pegawai lain. Sebagai ketua panitia, sikap Anda adalah...",
+    "soal": "Dalam rapat kepanitiaan acara perpisahan pegawai purnabakti, disepakati besaran iuran merata. Roni, pegawai golongan rendah, hanya sanggup membayar separuhnya sehingga beberapa rekan lain keberatan karena khawatir diikuti pegawai lain. Sebagai ketua panitia, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150650,7 +150650,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0522",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #97) Anda telah lama bersahabat akrab dengan Kiki, sesama rekan ASN. Suatu hari Anda mendengar kabar bahwa Kiki sering menjelek-jelekkan nama baik Anda di belakang di hadapan pegawai lain. Sikap Anda adalah...",
+    "soal": "Anda telah lama bersahabat akrab dengan Kiki, sesama rekan ASN. Suatu hari Anda mendengar kabar bahwa Kiki sering menjelek-jelekkan nama baik Anda di belakang di hadapan pegawai lain. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150685,7 +150685,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0523",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #98) Nino, kerabat Anda, mencalonkan diri dalam pemilihan kepala desa di suatu daerah sebagai pendatang melawan calon petahana warga asli setempat sehingga banyak kerabat pesimistis Nino akan menang. Jika Anda menjadi kerabat Nino, sikap Anda adalah...",
+    "soal": "Nino, kerabat Anda, mencalonkan diri dalam pemilihan kepala desa di suatu daerah sebagai pendatang melawan calon petahana warga asli setempat sehingga banyak kerabat pesimistis Nino akan menang. Jika Anda menjadi kerabat Nino, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150720,7 +150720,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0524",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #99) Budi adalah ASN pembina organisasi olahraga catur di instansi. Saat seorang penyandang disabilitas mendaftar ikut bergabung, pengurus lain menolak karena khawatir ia membebani tim dibanding calon lain yang lebih kompeten. Sikap Budi seharusnya adalah...",
+    "soal": "Budi adalah ASN pembina organisasi olahraga catur di instansi. Saat seorang penyandang disabilitas mendaftar ikut bergabung, pengurus lain menolak karena khawatir ia membebani tim dibanding calon lain yang lebih kompeten. Sikap Budi seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150755,7 +150755,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0525",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #100) Anda menerima surat keputusan mutasi penempatan kerja ke kota baru yang belum pernah Anda kunjungi sebelumnya dengan penuh semangat pengabdian. Ketika pertama kali tiba di kantor baru tersebut, langkah pertama Anda adalah...",
+    "soal": "Anda menerima surat keputusan mutasi penempatan kerja ke kota baru yang belum pernah Anda kunjungi sebelumnya dengan penuh semangat pengabdian. Ketika pertama kali tiba di kantor baru tersebut, langkah pertama Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150790,7 +150790,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0526",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #101) Belakangan marak isu kekhawatiran ekspansi ideologi transnasional radikal yang dapat mengancam keutuhan bangsa. Sebagai calon ASN yang berperan menjaga ideologi negara, cara tepat menyikapi fenomena tersebut adalah...",
+    "soal": "Belakangan marak isu kekhawatiran ekspansi ideologi transnasional radikal yang dapat mengancam keutuhan bangsa. Sebagai calon ASN yang berperan menjaga ideologi negara, cara tepat menyikapi fenomena tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150825,7 +150825,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0527",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #102) Anda baru pindah ke lingkungan perumahan baru dan akrab dengan tetangga sebelah yang sangat ramah. Suatu hari ia bercerita jujur pernah terlibat organisasi terlarang yang ingin merongrong Pancasila, namun kini sudah sadar dan keluar. Sikap Anda adalah...",
+    "soal": "Anda baru pindah ke lingkungan perumahan baru dan akrab dengan tetangga sebelah yang sangat ramah. Suatu hari ia bercerita jujur pernah terlibat organisasi terlarang yang ingin merongrong Pancasila, namun kini sudah sadar dan keluar. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150860,7 +150860,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0528",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #103) Sebagai ASN sekaligus orang tua dari anak-anak yang masih berusia belia di era arus informasi digital tanpa batas, cara paling efektif untuk membentengi anak sejak dini dari paparan paham radikalisme adalah...",
+    "soal": "Sebagai ASN sekaligus orang tua dari anak-anak yang masih berusia belia di era arus informasi digital tanpa batas, cara paling efektif untuk membentengi anak sejak dini dari paparan paham radikalisme adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150895,7 +150895,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0529",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #104) Anda dan rekan ASN ditugaskan melayani pendataan vaksinasi warga pada tiga loket berurutan. Anda melihat rekan di loket dua melayani seorang warga dengan jutek dan malas-malasan hanya karena perbedaan paham aliran keagamaan. Sikap Anda adalah...",
+    "soal": "Anda dan rekan ASN ditugaskan melayani pendataan vaksinasi warga pada tiga loket berurutan. Anda melihat rekan di loket dua melayani seorang warga dengan jutek dan malas-malasan hanya karena perbedaan paham aliran keagamaan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150930,7 +150930,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0530",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #105) Anda tinggal di rumah kontrakan dekat kantor dan diundang mengikuti rapat warga. Kepala desa mengusulkan pelaksanaan kegiatan kenduri kebersamaan rutin tiap malam Minggu guna mempererat silaturahmi serta menangkal paham radikalisme. Sikap Anda adalah...",
+    "soal": "Anda tinggal di rumah kontrakan dekat kantor dan diundang mengikuti rapat warga. Kepala desa mengusulkan pelaksanaan kegiatan kenduri kebersamaan rutin tiap malam Minggu guna mempererat silaturahmi serta menangkal paham radikalisme. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -150965,7 +150965,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0531",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #106) Dalam upacara peringatan Hari Kemerdekaan 17 Agustus di halaman kantor instansi, Anda melihat rekan kerja yang juga sahabat dekat Anda sengaja tidak melakukan sikap hormat saat pengibaran Bendera Merah Putih. Sikap Anda adalah...",
+    "soal": "Dalam upacara peringatan Hari Kemerdekaan 17 Agustus di halaman kantor instansi, Anda melihat rekan kerja yang juga sahabat dekat Anda sengaja tidak melakukan sikap hormat saat pengibaran Bendera Merah Putih. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151000,7 +151000,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0532",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #107) Beredar isu menghebohkan di kantor bahwa salah satu pegawai terpapar paham radikal. Pimpinan langsung menjadwalkan rapat internal keesokan harinya dan meminta seluruh staf memberikan usulan langkah penanganan isu tersebut. Sikap Anda adalah...",
+    "soal": "Beredar isu menghebohkan di kantor bahwa salah satu pegawai terpapar paham radikal. Pimpinan langsung menjadwalkan rapat internal keesokan harinya dan meminta seluruh staf memberikan usulan langkah penanganan isu tersebut. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151035,7 +151035,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0533",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #108) Anda memiliki sahabat baik di unit kerja yang dikenal ramah. Suatu hari petugas Badan Nasional Penanggulangan Terorisme (BNPT) mendatangi kantor menanyakan keberadaan sahabat Anda yang ternyata masuk daftar pencarian orang kasus terorisme, dan Anda tahu posisinya. Sikap Anda adalah...",
+    "soal": "Anda memiliki sahabat baik di unit kerja yang dikenal ramah. Suatu hari petugas Badan Nasional Penanggulangan Terorisme (BNPT) mendatangi kantor menanyakan keberadaan sahabat Anda yang ternyata masuk daftar pencarian orang kasus terorisme, dan Anda tahu posisinya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151070,7 +151070,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0534",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #109) Di kompleks perumahan tempat tinggal Anda, para tetangga bergunjing bahwa salah satu rumah dihuni sekelompok orang yang rutin menggelar kegiatan mencurigakan bertentangan dengan nilai-nilai Pancasila. Sikap bijak Anda adalah...",
+    "soal": "Di kompleks perumahan tempat tinggal Anda, para tetangga bergunjing bahwa salah satu rumah dihuni sekelompok orang yang rutin menggelar kegiatan mencurigakan bertentangan dengan nilai-nilai Pancasila. Sikap bijak Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151105,7 +151105,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0535",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #110) Anda diundang menghadiri pertemuan suatu organisasi kemasyarakatan yang ternyata di tengah acara membahas agenda terlarang oleh pemerintah serta mengandung unsur tindak pidana terorisme. Sikap Anda seharusnya adalah...",
+    "soal": "Anda diundang menghadiri pertemuan suatu organisasi kemasyarakatan yang ternyata di tengah acara membahas agenda terlarang oleh pemerintah serta mengandung unsur tindak pidana terorisme. Sikap Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151140,7 +151140,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0536",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #1) Anda telah mengabdi selama lima tahun sebagai ASN di sebuah instansi dengan fasilitas kerja yang memadai. Suatu hari seorang warga pengunjung datang melayangkan protes keras dengan nada emosi di ruang pelayanan. Sikap Anda adalah...",
+    "soal": "Anda telah mengabdi selama lima tahun sebagai ASN di sebuah instansi dengan fasilitas kerja yang memadai. Suatu hari seorang warga pengunjung datang melayangkan protes keras dengan nada emosi di ruang pelayanan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151175,7 +151175,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0537",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #2) Anda bertugas sebagai PNS di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil). Saat beban pekerjaan menumpuk di meja, seorang warga datang ke kantor dan menanyakan letak ruangan sekretaris dinas. Tindakan Anda adalah...",
+    "soal": "Anda bertugas sebagai PNS di Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil). Saat beban pekerjaan menumpuk di meja, seorang warga datang ke kantor dan menanyakan letak ruangan sekretaris dinas. Tindakan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151210,7 +151210,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0538",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #3) Anda telah bekerja sepuluh tahun di dinas pelayanan publik. Suatu hari seorang nenek menanyakan prosedur pembaruan Kartu Keluarga akibat kesalahan data, namun meski sudah dijelaskan berulang kali beliau tetap belum mengerti. Sikap Anda adalah...",
+    "soal": "Anda telah bekerja sepuluh tahun di dinas pelayanan publik. Suatu hari seorang nenek menanyakan prosedur pembaruan Kartu Keluarga akibat kesalahan data, namun meski sudah dijelaskan berulang kali beliau tetap belum mengerti. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151245,7 +151245,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0539",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #4) Sebagai ASN andalan di unit kerja, Anda sedang mengejar tenggat penyelesaian beberapa pekerjaan sulit yang jatuh tempo bersamaan, sementara seorang warga terus-menerus menanyakan detail prosedur layanan kepada Anda. Sikap Anda adalah...",
+    "soal": "Sebagai ASN andalan di unit kerja, Anda sedang mengejar tenggat penyelesaian beberapa pekerjaan sulit yang jatuh tempo bersamaan, sementara seorang warga terus-menerus menanyakan detail prosedur layanan kepada Anda. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151280,7 +151280,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0540",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #5) Anda bertugas sebagai ASN petugas meja penerima tamu di kantor kecamatan saat rekan satu loket berhalangan masuk karena adiknya dirawat di rumah sakit, sementara antrean warga membeludak panjang dan tidak teratur. Sikap Anda adalah...",
+    "soal": "Anda bertugas sebagai ASN petugas meja penerima tamu di kantor kecamatan saat rekan satu loket berhalangan masuk karena adiknya dirawat di rumah sakit, sementara antrean warga membeludak panjang dan tidak teratur. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151315,7 +151315,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0541",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #6) Anda bekerja di instansi pelayanan masyarakat yang memasang slogan tegas larangan menerima gratifikasi dan uang tip. Suatu hari Anda melihat rekan sekantor diam-diam meminta uang tip kepada seorang warga. Sikap Anda adalah...",
+    "soal": "Anda bekerja di instansi pelayanan masyarakat yang memasang slogan tegas larangan menerima gratifikasi dan uang tip. Suatu hari Anda melihat rekan sekantor diam-diam meminta uang tip kepada seorang warga. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151350,7 +151350,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0542",
     "kategori": "TKP",
     "subKategori": "Pelayanan Publik",
-    "soal": "(Sumber #7) Anda adalah personel/ASN pelayanan surat keterangan catatan kepolisian (SKCK) di Polres yang sedang sibuk merampungkan laporan mendesak. Seorang warga datang menanyakan alur pembuatan SKCK, padahal papan petunjuknya sudah terpasang jelas di pintu masuk. Sikap Anda adalah...",
+    "soal": "Anda adalah personel/ASN pelayanan surat keterangan catatan kepolisian (SKCK) di Polres yang sedang sibuk merampungkan laporan mendesak. Seorang warga datang menanyakan alur pembuatan SKCK, padahal papan petunjuknya sudah terpasang jelas di pintu masuk. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151385,7 +151385,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0543",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #8) Instansi tempat Anda mengabdi membuka seleksi terbuka promosi kenaikan jabatan bagi seluruh pegawai berprestasi dengan tantangan utama bahwa siapa pun yang memiliki kinerja terbaik berhak menduduki jabatan tersebut. Sikap Anda adalah...",
+    "soal": "Instansi tempat Anda mengabdi membuka seleksi terbuka promosi kenaikan jabatan bagi seluruh pegawai berprestasi dengan tantangan utama bahwa siapa pun yang memiliki kinerja terbaik berhak menduduki jabatan tersebut. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151420,7 +151420,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0544",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #9) Dalam rapat tim kerja yang dipimpin atasan, usulan gagasan Anda ditolak karena dianggap terlalu berisiko, sementara gagasan pegawai baru yang menurut Anda kurang matang justru disetujui forum. Sikap Anda adalah...",
+    "soal": "Dalam rapat tim kerja yang dipimpin atasan, usulan gagasan Anda ditolak karena dianggap terlalu berisiko, sementara gagasan pegawai baru yang menurut Anda kurang matang justru disetujui forum. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151455,7 +151455,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0545",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #10) Anda sedang terlibat perselisihan pribadi dengan seorang rekan kerja hingga enggan saling menyapa, namun pimpinan justru menempatkan kalian berdua dalam satu tim proyek strategis yang sama. Sikap Anda adalah...",
+    "soal": "Anda sedang terlibat perselisihan pribadi dengan seorang rekan kerja hingga enggan saling menyapa, namun pimpinan justru menempatkan kalian berdua dalam satu tim proyek strategis yang sama. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151490,7 +151490,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0546",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #11) Anda adalah ketua tim kerja terbaik di instansi yang selalu mendapat apresiasi pimpinan puncak. Suatu hari Anda melihat anggota tim tampak sangat gelisah menghadapi beban target baru. Langkah Anda adalah...",
+    "soal": "Anda adalah ketua tim kerja terbaik di instansi yang selalu mendapat apresiasi pimpinan puncak. Suatu hari Anda melihat anggota tim tampak sangat gelisah menghadapi beban target baru. Langkah Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151525,7 +151525,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0547",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #12) Anda tergabung dalam tim kerja yang terkenal selalu menyelesaikan tugas dengan hasil nyaris sempurna. Suatu hari masuk seorang pegawai baru di tim Anda yang kerap melakukan kesalahan kerja. Sikap Anda adalah...",
+    "soal": "Anda tergabung dalam tim kerja yang terkenal selalu menyelesaikan tugas dengan hasil nyaris sempurna. Suatu hari masuk seorang pegawai baru di tim Anda yang kerap melakukan kesalahan kerja. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151560,7 +151560,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0548",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #13) Dalam tim pelaksana kegiatan dinas, Anda ditugaskan menyusun dokumentasi foto progres lapangan sekaligus laporan arus kas pengeluaran anggaran kegiatan. Langkah tepat Anda dalam menyusun laporan pertanggungjawaban tersebut adalah...",
+    "soal": "Dalam tim pelaksana kegiatan dinas, Anda ditugaskan menyusun dokumentasi foto progres lapangan sekaligus laporan arus kas pengeluaran anggaran kegiatan. Langkah tepat Anda dalam menyusun laporan pertanggungjawaban tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151595,7 +151595,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0549",
     "kategori": "TKP",
     "subKategori": "Jejaring Kerja",
-    "soal": "(Sumber #14) Anda adalah CPNS baru yang sudah tiga bulan ditempatkan di unit kerja dan selama ini selalu diberi tugas administratif ringan. Suatu hari pimpinan memberi tugas teknis yang jauh lebih sulit dari biasanya. Sikap Anda adalah...",
+    "soal": "Anda adalah CPNS baru yang sudah tiga bulan ditempatkan di unit kerja dan selama ini selalu diberi tugas administratif ringan. Suatu hari pimpinan memberi tugas teknis yang jauh lebih sulit dari biasanya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151630,7 +151630,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0550",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #15) Di unit kerja baru, terdapat tradisi budaya kerja internal yang sedikit bertentangan dengan keyakinan agama yang Anda anut. Atasan tidak mengetahui latar belakang Anda dan memerintahkan Anda ikut melaksanakannya. Sikap Anda adalah...",
+    "soal": "Di unit kerja baru, terdapat tradisi budaya kerja internal yang sedikit bertentangan dengan keyakinan agama yang Anda anut. Atasan tidak mengetahui latar belakang Anda dan memerintahkan Anda ikut melaksanakannya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151665,7 +151665,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0551",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #16) Di lingkungan kampung tempat tinggal Anda, kondisi saluran drainase air sangat kotor, penuh tumpukan sampah, serta alirannya tersumbat hingga berbau. Sebagai ASN yang peduli kebersihan lingkungan, tindakan Anda adalah...",
+    "soal": "Di lingkungan kampung tempat tinggal Anda, kondisi saluran drainase air sangat kotor, penuh tumpukan sampah, serta alirannya tersumbat hingga berbau. Sebagai ASN yang peduli kebersihan lingkungan, tindakan Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151700,7 +151700,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0552",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #17) Anda ditugaskan melakukan survei lapangan di suatu desa adat terpencil selama dua minggu. Pemuka adat setempat yang tidak mengetahui latar belakang Anda mengundang Anda mengikuti ritual tradisi desa yang berbeda budaya. Sikap Anda adalah...",
+    "soal": "Anda ditugaskan melakukan survei lapangan di suatu desa adat terpencil selama dua minggu. Pemuka adat setempat yang tidak mengetahui latar belakang Anda mengundang Anda mengikuti ritual tradisi desa yang berbeda budaya. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151735,7 +151735,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0553",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #18) Anda adalah pejabat pengawas di instansi pemerintah yang sehari-hari berangkat bekerja mengendarai sepeda motor pribadi. Suatu pagi di perjalanan menuju kantor, Anda mendapati seseorang tergeletak pingsan di tengah jalan. Sikap Anda adalah...",
+    "soal": "Anda adalah pejabat pengawas di instansi pemerintah yang sehari-hari berangkat bekerja mengendarai sepeda motor pribadi. Suatu pagi di perjalanan menuju kantor, Anda mendapati seseorang tergeletak pingsan di tengah jalan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151770,7 +151770,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0554",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #19) Orang tua merupakan pendidik pertama yang menanamkan nilai moral sejak kecil. Namun apabila suatu ketika orang tua sendiri menyuruh Anda melakukan perbuatan tercela seperti mengambil hak orang lain atau mencuri, sikap Anda adalah...",
+    "soal": "Orang tua merupakan pendidik pertama yang menanamkan nilai moral sejak kecil. Namun apabila suatu ketika orang tua sendiri menyuruh Anda melakukan perbuatan tercela seperti mengambil hak orang lain atau mencuri, sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151805,7 +151805,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0555",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #20) Anda sedang dalam perjalanan menuju lokasi ujian Seleksi Kompetensi Dasar (SKD) CPNS yang akan dimulai 15 menit lagi, lalu melihat seorang pengendara terluka akibat tertabrak di jalan. Sikap Anda agar tetap dapat mengikuti ujian SKD adalah...",
+    "soal": "Anda sedang dalam perjalanan menuju lokasi ujian Seleksi Kompetensi Dasar (SKD) CPNS yang akan dimulai 15 menit lagi, lalu melihat seorang pengendara terluka akibat tertabrak di jalan. Sikap Anda agar tetap dapat mengikuti ujian SKD adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151840,7 +151840,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0556",
     "kategori": "TKP",
     "subKategori": "Sosial Budaya",
-    "soal": "(Sumber #21) Sebagai ASN yang menjunjung tinggi keharmonisan nilai keluarga setelah ketakwaan kepada Tuhan Yang Maha Esa, wujud sikap berbudi pekerti yang tepat terhadap saudara kandung yang lebih tua maupun lebih muda adalah...",
+    "soal": "Sebagai ASN yang menjunjung tinggi keharmonisan nilai keluarga setelah ketakwaan kepada Tuhan Yang Maha Esa, wujud sikap berbudi pekerti yang tepat terhadap saudara kandung yang lebih tua maupun lebih muda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151875,7 +151875,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0557",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #22) Saat hendak menyusun laporan dinas dan membuka surel masuk di komputer kantor, Anda tidak sengaja mengeklik tautan berbahaya yang ternyata berisi virus perusak yang dapat menghapus seluruh data instansi. Sikap Anda adalah...",
+    "soal": "Saat hendak menyusun laporan dinas dan membuka surel masuk di komputer kantor, Anda tidak sengaja mengeklik tautan berbahaya yang ternyata berisi virus perusak yang dapat menghapus seluruh data instansi. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151910,7 +151910,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0558",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #23) Instansi tempat Anda bekerja baru saja meluncurkan aplikasi sistem kerja versi terbaru yang fitur-fiturnya jauh lebih kompleks dibanding versi lama sehingga Anda membutuhkan waktu cukup lama untuk beradaptasi. Sikap Anda adalah...",
+    "soal": "Instansi tempat Anda bekerja baru saja meluncurkan aplikasi sistem kerja versi terbaru yang fitur-fiturnya jauh lebih kompleks dibanding versi lama sehingga Anda membutuhkan waktu cukup lama untuk beradaptasi. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151945,7 +151945,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0559",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #24) Untuk mendukung kelancaran pelaporan cepat berbasis aplikasi pesan dan sistem mobile instansi, seluruh pegawai diwajibkan memakai ponsel pintar dengan sistem operasi minimal versi terbaru, sedangkan ponsel Anda masih versi lama. Sikap Anda adalah...",
+    "soal": "Untuk mendukung kelancaran pelaporan cepat berbasis aplikasi pesan dan sistem mobile instansi, seluruh pegawai diwajibkan memakai ponsel pintar dengan sistem operasi minimal versi terbaru, sedangkan ponsel Anda masih versi lama. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -151980,7 +151980,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0560",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #25) Guna mencegah kecurangan manipulasi presensi manual tanda tangan, instansi tempat Anda bekerja kini resmi beralih menggunakan sistem presensi biometrik sidik jari elektronik. Sikap Anda terhadap perubahan teknologi presensi tersebut adalah...",
+    "soal": "Guna mencegah kecurangan manipulasi presensi manual tanda tangan, instansi tempat Anda bekerja kini resmi beralih menggunakan sistem presensi biometrik sidik jari elektronik. Sikap Anda terhadap perubahan teknologi presensi tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152015,7 +152015,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0561",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #26) Demi meningkatkan keamanan privasi data dokumen negara, pimpinan menginstruksikan pengalihan pengiriman laporan dinas dari aplikasi pesan lama ke aplikasi perpesanan terenkripsi baru yang belum pernah Anda pasang maupun pelajari. Sikap Anda adalah...",
+    "soal": "Demi meningkatkan keamanan privasi data dokumen negara, pimpinan menginstruksikan pengalihan pengiriman laporan dinas dari aplikasi pesan lama ke aplikasi perpesanan terenkripsi baru yang belum pernah Anda pasang maupun pelajari. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152050,7 +152050,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0562",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #27) Data penting instansi berisi arsip transaksi anggaran dan daftar mitra pelayanan publik dibobol peretas yang menyandera data serta meminta uang tebusan. Langkah pencegahan terbaik Anda agar kejadian serupa tidak terulang adalah...",
+    "soal": "Data penting instansi berisi arsip transaksi anggaran dan daftar mitra pelayanan publik dibobol peretas yang menyandera data serta meminta uang tebusan. Langkah pencegahan terbaik Anda agar kejadian serupa tidak terulang adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152085,7 +152085,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0563",
     "kategori": "TKP",
     "subKategori": "Teknologi Informasi & Komunikasi (TIK)",
-    "soal": "(Sumber #28) Perkembangan teknologi otomasi dan mesin pintar kian pesat hingga menggantikan banyak pekerjaan administratif rutin manusia karena dinilai lebih cepat dan efisien. Pandangan positif Anda terhadap pesatnya perkembangan teknologi tersebut adalah...",
+    "soal": "Perkembangan teknologi otomasi dan mesin pintar kian pesat hingga menggantikan banyak pekerjaan administratif rutin manusia karena dinilai lebih cepat dan efisien. Pandangan positif Anda terhadap pesatnya perkembangan teknologi tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152120,7 +152120,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0564",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #29) Anda adalah ASN guru SMP negeri yang ditempatkan di sekolah daerah pelosok cukup jauh dari rumah dengan akses jalan tanah berlumpur saat hujan. Sikap mental yang Anda tanamkan saat berangkat mengajar adalah...",
+    "soal": "Anda adalah ASN guru SMP negeri yang ditempatkan di sekolah daerah pelosok cukup jauh dari rumah dengan akses jalan tanah berlumpur saat hujan. Sikap mental yang Anda tanamkan saat berangkat mengajar adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152155,7 +152155,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0565",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #30) Anda adalah ASN dosen di sebuah perguruan tinggi negeri. Suatu hari Anda terpaksa tidak bisa masuk mengajar di kelas karena ada penugasan dinas mendesak ke luar kota. Tindakan bertanggung jawab Anda adalah...",
+    "soal": "Anda adalah ASN dosen di sebuah perguruan tinggi negeri. Suatu hari Anda terpaksa tidak bisa masuk mengajar di kelas karena ada penugasan dinas mendesak ke luar kota. Tindakan bertanggung jawab Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152190,7 +152190,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0566",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #31) Sebagai ASN dokter spesialis bedah di RSUD, Anda menghadapi pasien kondisi sekarat darurat yang membutuhkan tindakan operasi segera demi menyelamatkan nyawanya, di mana penundaan beberapa detik saja berisiko kematian. Sikap Anda adalah...",
+    "soal": "Sebagai ASN dokter spesialis bedah di RSUD, Anda menghadapi pasien kondisi sekarat darurat yang membutuhkan tindakan operasi segera demi menyelamatkan nyawanya, di mana penundaan beberapa detik saja berisiko kematian. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152225,7 +152225,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0567",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #32) Sebagai ASN arsitek perencana di Dinas Pekerjaan Umum, pihak penerima manfaat/klien menginginkan penggunaan material tertentu yang tampak indah namun berdampak kurang kokoh untuk struktur jangka panjang bangunan. Sikap Anda adalah...",
+    "soal": "Sebagai ASN arsitek perencana di Dinas Pekerjaan Umum, pihak penerima manfaat/klien menginginkan penggunaan material tertentu yang tampak indah namun berdampak kurang kokoh untuk struktur jangka panjang bangunan. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152260,7 +152260,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0568",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #33) Saat Anda bertugas melayani antrean warga yang sedang sangat ramai di loket pelayanan dinas, adik Anda menelepon mendadak meminta diantar ke sekolahnya. Sikap profesional Anda seharusnya adalah...",
+    "soal": "Saat Anda bertugas melayani antrean warga yang sedang sangat ramai di loket pelayanan dinas, adik Anda menelepon mendadak meminta diantar ke sekolahnya. Sikap profesional Anda seharusnya adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152295,7 +152295,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0569",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #34) Berkat predikat pegawai berprestasi terbaik di instansi, Anda memenangkan beasiswa pelatihan kerja ke luar negeri, namun Anda sama sekali belum menguasai bahasa resmi negara tujuan tersebut. Sikap Anda adalah...",
+    "soal": "Berkat predikat pegawai berprestasi terbaik di instansi, Anda memenangkan beasiswa pelatihan kerja ke luar negeri, namun Anda sama sekali belum menguasai bahasa resmi negara tujuan tersebut. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152330,7 +152330,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0570",
     "kategori": "TKP",
     "subKategori": "Profesionalisme",
-    "soal": "(Sumber #35) Anda memiliki rekan kerja akrab yang setiap hari berangkat bersama ke kantor. Suatu hari rekan yang menjabat sebagai bendahara pengeluaran tersebut tertangkap basah melakukan tindak pidana korupsi dana anggaran. Sikap Anda adalah...",
+    "soal": "Anda memiliki rekan kerja akrab yang setiap hari berangkat bersama ke kantor. Suatu hari rekan yang menjabat sebagai bendahara pengeluaran tersebut tertangkap basah melakukan tindak pidana korupsi dana anggaran. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152365,7 +152365,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0571",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #36) Saat membaca artikel berita melalui portal daring untuk mencari referensi informasi, Anda menemukan sebuah situs yang memuat tulisan provokatif berisi paham yang jelas bertentangan dengan nilai-nilai Pancasila. Sikap Anda adalah...",
+    "soal": "Saat membaca artikel berita melalui portal daring untuk mencari referensi informasi, Anda menemukan sebuah situs yang memuat tulisan provokatif berisi paham yang jelas bertentangan dengan nilai-nilai Pancasila. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152400,7 +152400,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0572",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #37) Saat menghadiri kegiatan ceramah keagamaan di lingkungan masyarakat, Anda mendengar sang penceramah menyelipkan materi yang menyimpang dari ajaran agama moderat serta mengandung unsur provokasi radikal. Sikap Anda adalah...",
+    "soal": "Saat menghadiri kegiatan ceramah keagamaan di lingkungan masyarakat, Anda mendengar sang penceramah menyelipkan materi yang menyimpang dari ajaran agama moderat serta mengandung unsur provokasi radikal. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152435,7 +152435,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0573",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #38) Saat berjalan pulang ke rumah, Anda melihat kerumunan warga yang ternyata sedang dibagikan uang tunai dengan syarat wajib menerima brosur dan mengikuti ajaran paham komunisme terlarang. Sikap Anda adalah...",
+    "soal": "Saat berjalan pulang ke rumah, Anda melihat kerumunan warga yang ternyata sedang dibagikan uang tunai dengan syarat wajib menerima brosur dan mengikuti ajaran paham komunisme terlarang. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152470,7 +152470,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0574",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #39) Radikalisme berupaya mengganti ideologi Pancasila dengan ideologi lain yang dianggap lebih unggul oleh penganutnya. Sebagai ASN perekat persatuan bangsa, langkah pencegahan mendasar mulai dari diri sendiri adalah...",
+    "soal": "Radikalisme berupaya mengganti ideologi Pancasila dengan ideologi lain yang dianggap lebih unggul oleh penganutnya. Sebagai ASN perekat persatuan bangsa, langkah pencegahan mendasar mulai dari diri sendiri adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152505,7 +152505,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0575",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #40) Saat bertugas dinas pendampingan program desa terpelosok selama dua minggu, suasana awalnya tampak rukun, namun suatu hari Anda melihat gambar lambang Garuda Pancasila dicoret-coret oleh pihak tak dikenal. Sikap Anda adalah...",
+    "soal": "Saat bertugas dinas pendampingan program desa terpelosok selama dua minggu, suasana awalnya tampak rukun, namun suatu hari Anda melihat gambar lambang Garuda Pancasila dicoret-coret oleh pihak tak dikenal. Sikap Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152540,7 +152540,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0576",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #41) Dalam setiap upacara bendera peringatan hari besar di sekolah maupun instansi pemerintah, pembacaan teks Pancasila selalu dilaksanakan secara khidmat. Salah satu tujuan utama pembacaan Pancasila tersebut adalah...",
+    "soal": "Dalam setiap upacara bendera peringatan hari besar di sekolah maupun instansi pemerintah, pembacaan teks Pancasila selalu dilaksanakan secara khidmat. Salah satu tujuan utama pembacaan Pancasila tersebut adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152575,7 +152575,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0577",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #42) Paham radikalisme dapat menyusup ke berbagai ruang kehidupan, termasuk secara langsung di lingkungan masyarakat tempat tinggal. Cara paling tepat untuk mencegah penyebaran paham radikalisme di lingkungan masyarakat adalah...",
+    "soal": "Paham radikalisme dapat menyusup ke berbagai ruang kehidupan, termasuk secara langsung di lingkungan masyarakat tempat tinggal. Cara paling tepat untuk mencegah penyebaran paham radikalisme di lingkungan masyarakat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152610,7 +152610,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0578",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #43) Pada upacara peringatan HUT Kemerdekaan RI di kantor, Anda melihat rekan akrab sejak angkatan seleksi CPNS dahulu sengaja diam tidak mengikuti pengucapan teks Pancasila oleh pembina upacara. Sikap awal Anda adalah...",
+    "soal": "Pada upacara peringatan HUT Kemerdekaan RI di kantor, Anda melihat rekan akrab sejak angkatan seleksi CPNS dahulu sengaja diam tidak mengikuti pengucapan teks Pancasila oleh pembina upacara. Sikap awal Anda adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152645,7 +152645,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0579",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #44) Persatuan dan kesatuan bangsa merupakan pengamalan sila ketiga Pancasila yang menjaga keutuhan Indonesia. Apabila mengetahui adanya rencana kegiatan yang berpotensi memicu perpecahan bangsa di masyarakat, tindakan kita adalah...",
+    "soal": "Persatuan dan kesatuan bangsa merupakan pengamalan sila ketiga Pancasila yang menjaga keutuhan Indonesia. Apabila mengetahui adanya rencana kegiatan yang berpotensi memicu perpecahan bangsa di masyarakat, tindakan kita adalah...",
     "opsi": [
       {
         "label": "A",
@@ -152680,7 +152680,7 @@ window.DATA_SKD_CPNS = [
     "id": "tkp_0580",
     "kategori": "TKP",
     "subKategori": "Anti Radikalisme",
-    "soal": "(Sumber #45) Saat pulang kerja, Anda melintasi kerumunan massa yang mendengarkan pidato provokatif berisi ajakan menghapus sila pertama Pancasila. Karena kondisi kerumunan sangat padat berdesakan sehingga sulit melapor langsung, tindakan Anda adalah...",
+    "soal": "Saat pulang kerja, Anda melintasi kerumunan massa yang mendengarkan pidato provokatif berisi ajakan menghapus sila pertama Pancasila. Karena kondisi kerumunan sangat padat berdesakan sehingga sulit melapor langsung, tindakan Anda adalah...",
     "opsi": [
       {
         "label": "A",

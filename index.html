@@ -1303,8 +1303,12 @@
                             </div>
                         </div>
                         <div class="cc-form-group">
-                            <label for="ccNewsDesc">Ringkasan Singkat (Opsional)</label>
-                            <input type="text" id="ccNewsDesc" placeholder="Ringkasan 1 kalimat agar peserta langsung paham isinya..." />
+                            <label for="ccNewsImage">URL Foto Berita (Opsional, https://...)</label>
+                            <input type="url" id="ccNewsImage" placeholder="https://.../foto-berita.jpg (kosongkan untuk gambar default)" />
+                        </div>
+                        <div class="cc-form-group">
+                            <label for="ccNewsDesc">Ringkasan / Inti Berita</label>
+                            <input type="text" id="ccNewsDesc" placeholder="Ringkasan 1-2 kalimat agar peserta langsung paham isinya..." />
                         </div>
                         <button class="btn-dash-gold" onclick="window.adminTambahBerita()">
                             <i class="fas fa-plus-circle"></i> Publikasikan Link Berita
@@ -1384,19 +1388,20 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="data_skd_cpns.js?v=2.4.3"></script>
+    <script src="data_skd_cpns.js?v=2.5.6"></script>
     <script src="data_twk_gratis.js?v=1.0.0"></script>
     <script src="data_twk_batch2.js?v=2.5.4"></script>
     <script src="data_tiu_gratis.js?v=1.0.0"></script>
-    <script src="data_tiu_batch2.js?v=2.5.3"></script>
+    <script src="data_tiu_batch2.js?v=2.5.6"></script>
     <script src="data_tkp_gratis.js?v=1.0.0"></script>
-    <script type="module" src="app.js?v=2.5.4"></script>
+    <script src="data_tkp_batch2.js?v=2.5.5"></script>
+    <script type="module" src="app.js?v=2.5.6"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.5.4')
+                navigator.serviceWorker.register('./sw.js?v=2.5.6')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
