@@ -5,7 +5,7 @@
 import { 
     auth, provider, db, ADMIN_EMAILS, COLLECTIONS,
     signInWithPopup, signOut, onAuthStateChanged,
-    collection, getDocs, deleteDoc, query, where, limit,
+    collection, addDoc, getDocs, deleteDoc, query, where, limit,
     doc, getDoc, setDoc, updateDoc, onSnapshot, arrayUnion
 } from "./firebase-config.js";
 
@@ -1309,17 +1309,28 @@ function startExamTimer() {
 }
 
 function formatQuestionTextHtml(rawText) {
-    const safe = String(rawText || '')
+    const svgBlocks = [];
+    const withPlaceholders = String(rawText || '').replace(/<svg\b[\s\S]*?<\/svg>/gi, (match) => {
+        const idx = svgBlocks.length;
+        svgBlocks.push(match.replace(/\r?\n/g, ' '));
+        return `\n__SOAL_SVG_BLOCK_${idx}__\n`;
+    });
+
+    const safe = withPlaceholders
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;');
     const lines = safe.split(/\r?\n/);
     const rowRegex = /^(?:Baris\s*(\d+)\s*:\s*)?\[([^\]]+)\]$/i;
+    const pipeRowRegex = /^\|(.+)\|$/;
+    const pipeSepRegex = /^\|[\s:|-]+\|$/;
 
     const out = [];
     let tableRows = [];
+    let pipeRows = [];
 
     const flushTable = () => {
+        if (tableRows.length === 0) return;
         if (tableRows.length < 2) {
             tableRows.forEach(r => out.push(r.raw));
             tableRows = [];
@@ -1332,8 +1343,9 @@ function formatQuestionTextHtml(rawText) {
 
         const bodyRows = tableRows.map(r => {
             const cellsHtml = r.cells.map(c => {
-                const isQ = c === '?';
-                return `<td class="${isQ ? 'qmark-cell' : ''}">${c}</td>`;
+                const displayVal = c === '' ? '?' : c;
+                const isQ = displayVal === '?';
+                return `<td class="${isQ ? 'qmark-cell' : ''}">${displayVal}</td>`;
             }).join('');
             return `<tr>${hasLabel ? `<td style="background:#f8fafc; color:#475569; font-size:0.82rem;">${r.label}</td>` : ''}${cellsHtml}</tr>`;
         }).join('');
@@ -1342,24 +1354,69 @@ function formatQuestionTextHtml(rawText) {
         tableRows = [];
     };
 
+    const flushPipeTable = () => {
+        if (pipeRows.length === 0) return;
+        const dataRows = pipeRows.filter(r => !r.isSep);
+        if (dataRows.length < 2) {
+            pipeRows.forEach(r => out.push(r.raw));
+            pipeRows = [];
+            return;
+        }
+        const [headRow, ...restRows] = dataRows;
+        const headerCells = headRow.cells.map(c => `<th>${c || '&nbsp;'}</th>`).join('');
+        const bodyRows = restRows.map(r => {
+            const cellsHtml = r.cells.map(c => {
+                const displayVal = c === '' ? '?' : c;
+                const isQ = displayVal === '?';
+                return `<td class="${isQ ? 'qmark-cell' : ''}">${displayVal}</td>`;
+            }).join('');
+            return `<tr>${cellsHtml}</tr>`;
+        }).join('');
+
+        out.push(`<div class="soal-data-table-wrap"><table class="soal-data-table"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table></div>`);
+        pipeRows = [];
+    };
+
     lines.forEach(line => {
         const trimmed = line.trim();
         const m = trimmed.match(rowRegex);
         if (m) {
-            const cells = m[2].split(',').map(s => s.trim());
+            flushPipeTable();
+            const sep = m[2].includes('|') ? '|' : ',';
+            const cells = m[2].split(sep).map(s => s.trim());
             tableRows.push({
                 raw: line,
                 label: m[1] ? `Baris ${m[1]}` : '',
                 cells
             });
-        } else {
+            return;
+        }
+        const pm = trimmed.match(pipeRowRegex);
+        if (pm) {
             flushTable();
+            const isSep = pipeSepRegex.test(trimmed);
+            const cells = pm[1].split('|').map(s => s.trim());
+            pipeRows.push({ raw: line, isSep, cells });
+            return;
+        }
+
+        flushTable();
+        flushPipeTable();
+        if (trimmed || out.length > 0) {
             out.push(line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'));
         }
     });
     flushTable();
+    flushPipeTable();
 
-    return out.join('\n');
+    let result = out.join('\n').replace(/^\n+|\n+$/g, '');
+    svgBlocks.forEach((svg, idx) => {
+        result = result.replace(
+            `__SOAL_SVG_BLOCK_${idx}__`,
+            `<div class="soal-svg-wrap" style="margin:10px 0; padding:10px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto; max-width:100%;">${svg}</div>`
+        );
+    });
+    return result;
 }
 
 function renderSoalSekarang() {
@@ -5158,51 +5215,144 @@ window.tanyaInfoCpnsBot = async (e) => {
     }
 };
 
+const DEFAULT_CURATED_NEWS = [
+    {
+        id: 'curated-menpan-pppk-cpns-2026',
+        tag: 'KEMENPAN-RB',
+        dateLabel: '06 Nov 2026',
+        title: 'Pemerintah dan DPR Sepakati Pengangkatan PPPK Paruh Waktu Menjadi Penuh Waktu, Rekrutmen CPNS Dibuka 2026',
+        desc: 'Pemerintah dan Komisi II DPR RI menyepakati peningkatan status seluruh PPPK Paruh Waktu lintas profesi menjadi Penuh Waktu secara bertahap, serta pembukaan rekrutmen CPNS 2026.',
+        url: 'https://menpan.go.id/posts/pemerintah-dan-dpr-sepakati-pengangkatan-pppk-paruh-waktu-menjadi-penuh-waktu-rekrutmen-cpns-dibuka-tahun-2026',
+        imageUrl: 'https://menpan.go.id/media/2026/11/07/20261106-rapat-koordinasi-tindak-lanjut-pembahasan-status-pppk-dan-pppk-paruh-waktu-lintas-profesi.webp',
+        fallbackImage: 'assets/news/news-menpan.svg',
+        createdAtMs: 1794000000000
+    },
+    {
+        id: 'curated-cnbc-sscasn-2026',
+        tag: 'CNBC INDONESIA',
+        dateLabel: '14 Nov 2026',
+        title: 'Pengumuman! Pembuatan Akun Dibuka, Daftar CPNS Mulai 23 November 2026',
+        desc: 'BKN membuka portal registrasi akun SSCASN lebih awal menjelang pendaftaran formasi CPNS yang direncanakan mulai pekan keempat November 2026 dengan kuota hingga 158.000 formasi.',
+        url: 'https://www.cnbcindonesia.com/news/20261114122411-4-785216/pengumuman-pembuatan-akun-dibuka-daftar-cpns-mulai-23-november-2026',
+        imageUrl: 'assets/news/news-sscasn.svg',
+        fallbackImage: 'assets/news/news-sscasn.svg',
+        createdAtMs: 1794650000000
+    },
+    {
+        id: 'curated-kompas-akun-sscasn-2026',
+        tag: 'KOMPAS.COM',
+        dateLabel: '15 Nov 2026',
+        title: 'Akun SSCASN CPNS 2026 Mulai Dibuka, Ini Link dan Cara Daftarnya',
+        desc: 'Portal resmi sscasn.bkn.go.id sudah dapat diakses untuk membuat akun CASN/CPNS 2026. Siapkan NIK KTP, Kartu Keluarga, swafoto, serta ijazah sebelum pendaftaran formasi dibuka.',
+        url: 'https://www.kompas.com/tren/read/2026/11/15/113000865/akun-sscasn-cpns-2026-mulai-dibuka-ini-link-dan-cara-daftarnya',
+        imageUrl: 'assets/news/news-akun-cpns.svg',
+        fallbackImage: 'assets/news/news-akun-cpns.svg',
+        createdAtMs: 1794730000000
+    },
+    {
+        id: 'curated-antara-pppk-2027',
+        tag: 'ANTARA NEWS',
+        dateLabel: '06 Nov 2026',
+        title: 'Pemerintah Angkat PPPK Paruh Waktu Jadi Penuh Waktu per 1 Januari 2027',
+        desc: 'Perubahan status PPPK Paruh Waktu menjadi Penuh Waktu mulai berlaku efektif 1 Januari 2027 secara bertahap sesuai regulasi turunan, validasi data BKN, dan kesiapan anggaran.',
+        url: 'https://www.antaranews.com/berita/5836295/pemerintah-angkat-pppk-paruh-waktu-jadi-penuh-waktu-per-1-januari-2027',
+        imageUrl: 'assets/news/news-pppk.svg',
+        fallbackImage: 'assets/news/news-pppk.svg',
+        createdAtMs: 1793950000000
+    },
+    {
+        id: 'curated-detik-pppk-cpns-2027',
+        tag: 'DETIKCOM',
+        dateLabel: '07 Nov 2026',
+        title: 'Pemerintah Perbolehkan PPPK Ikut Seleksi CPNS 2027',
+        desc: 'PPPK Penuh Waktu resmi diizinkan mengikuti seleksi CPNS 2027 secara kompetitif. Jika belum lolos, status kepegawaian PPPK tetap aman dan tidak gugur.',
+        url: 'https://www.detik.com/sumut/berita/d-8741601/pemerintah-perbolehkan-pppk-ikut-seleksi-cpns-2027',
+        imageUrl: 'assets/news/news-pppk-cpns.svg',
+        fallbackImage: 'assets/news/news-pppk-cpns.svg',
+        createdAtMs: 1794050000000
+    },
+    {
+        id: 'curated-bisnis-syarat-pppk-2027',
+        tag: 'BISNIS.COM',
+        dateLabel: '07 Nov 2026',
+        title: 'PPPK Bisa Daftar CPNS 2027, Pemerintah Kaji Syarat Khusus Tiap Profesi',
+        desc: 'KemenPAN-RB bersama BKN tengah mengkaji syarat afirmasi bagi PPPK yang mendaftar CPNS 2027, termasuk relaksasi batas usia di atas 35 tahun dan konversi masa kerja.',
+        url: 'https://kabar24.bisnis.com/read/20261107/15/2019246/pppk-bisa-daftar-cpns-2027-pemerintah-kaji-syarat-khusus-tiap-profesi',
+        imageUrl: 'assets/news/news-afirmasi.svg',
+        fallbackImage: 'assets/news/news-afirmasi.svg',
+        createdAtMs: 1794040000000
+    }
+];
+
+function renderNewsCardHtml(n) {
+    const fallbackImg = escapeHtmlMentor(n.fallbackImage || 'assets/news/news-menpan.svg');
+    const imgSrc = escapeHtmlMentor(n.imageUrl || fallbackImg);
+    const dateText = n.dateLabel
+        ? escapeHtmlMentor(n.dateLabel)
+        : (n.createdAtMs ? new Date(n.createdAtMs).toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' }) : 'Info Terbaru');
+
+    return `
+        <article class="news-card">
+            <div class="news-thumb-wrap">
+                <img class="news-thumb" src="${imgSrc}" alt="${escapeHtmlMentor(n.title || 'Berita CASN')}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImg}';" />
+            </div>
+            <div class="news-body">
+                <div>
+                    <div class="news-meta-row">
+                        <span class="news-tag">${escapeHtmlMentor(n.tag || 'INFO CASN')}</span>
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> ${dateText}</span>
+                    </div>
+                    <h4>${escapeHtmlMentor(n.title || 'Pengumuman CASN')}</h4>
+                    ${n.desc ? `<p>${escapeHtmlMentor(n.desc)}</p>` : ''}
+                </div>
+                <a class="btn-news-open" href="${escapeHtmlMentor(n.url)}" target="_blank" rel="noopener noreferrer">
+                    Selengkapnya <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </article>
+    `;
+}
+
 window.loadPusatBerita = async () => {
     const userListEl = document.getElementById('pusatBeritaList');
     const adminListEl = document.getElementById('ccNewsAdminList');
+    let adminItems = [];
     try {
         const snap = await getDocs(query(collection(db, 'cpns_news'), limit(30)));
-        const items = [];
-        snap.forEach(d => items.push({ id: d.id, ...d.data() }));
-        items.sort((a, b) => (b.createdAtMs || 0) - (a.createdAtMs || 0));
-
-        if (userListEl) {
-            if (!items.length) {
-                userListEl.innerHTML = '<div class="cc-empty">Belum ada berita terbaru dari Admin.</div>';
-            } else {
-                userListEl.innerHTML = items.map(n => `
-                    <div class="news-card">
-                        <div>
-                            <span class="news-tag">${escapeHtmlMentor(n.tag || 'INFO CASN')}</span>
-                            <h4>${escapeHtmlMentor(n.title || 'Pengumuman CASN')}</h4>
-                            ${n.desc ? `<p>${escapeHtmlMentor(n.desc)}</p>` : ''}
-                        </div>
-                        <a class="btn-news-open" href="${escapeHtmlMentor(n.url)}" target="_blank" rel="noopener noreferrer">
-                            Buka Berita <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                `).join('');
-            }
-        }
-
-        if (adminListEl) {
-            if (!items.length) {
-                adminListEl.innerHTML = '<div class="cc-empty">Belum ada link berita yang dipublikasikan.</div>';
-            } else {
-                adminListEl.innerHTML = items.map(n => `
-                    <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; padding:10px 12px; border:1px solid #e2e8f0; border-radius:10px; margin-bottom:8px; background:#f8fafc;">
-                        <div style="min-width:0;">
-                            <div style="font-weight:700; font-size:0.84rem; color:#0f172a;">[${escapeHtmlMentor(n.tag || 'INFO')}] ${escapeHtmlMentor(n.title)}</div>
-                            <div style="font-size:0.75rem; color:#2563eb; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeHtmlMentor(n.url)}</div>
-                        </div>
-                        <button class="cc-btn danger" onclick="window.adminHapusBerita('${n.id}')">Hapus</button>
-                    </div>
-                `).join('');
-            }
-        }
+        snap.forEach(d => adminItems.push({ id: d.id, ...d.data() }));
+        adminItems.sort((a, b) => (b.createdAtMs || 0) - (a.createdAtMs || 0));
     } catch (err) {
-        if (userListEl) userListEl.innerHTML = `<div class="cc-empty">Gagal memuat berita: ${escapeHtmlMentor(err.message)}</div>`;
+        console.warn('Gagal mengambil berita Firestore, menampilkan berita kurasi default:', err?.message);
+    }
+
+    const adminUrls = new Set(adminItems.map(item => (item.url || '').trim()));
+    const mergedItems = [
+        ...adminItems,
+        ...DEFAULT_CURATED_NEWS.filter(item => !adminUrls.has(item.url))
+    ].sort((a, b) => (b.createdAtMs || 0) - (a.createdAtMs || 0));
+
+    if (userListEl) {
+        if (!mergedItems.length) {
+            userListEl.innerHTML = '<div class="cc-empty">Belum ada berita terbaru dari Admin.</div>';
+        } else {
+            userListEl.innerHTML = mergedItems.map(renderNewsCardHtml).join('');
+        }
+    }
+
+    if (adminListEl) {
+        if (!adminItems.length) {
+            adminListEl.innerHTML = '<div class="cc-empty">Belum ada link berita tambahan dari Admin (6 berita kurasi terbaru otomatis aktif untuk peserta).</div>';
+        } else {
+            adminListEl.innerHTML = adminItems.map(n => `
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; padding:10px 12px; border:1px solid #e2e8f0; border-radius:10px; margin-bottom:8px; background:#f8fafc;">
+                    <div style="min-width:0;">
+                        <div style="font-weight:700; font-size:0.84rem; color:#0f172a;">[${escapeHtmlMentor(n.tag || 'INFO')}] ${escapeHtmlMentor(n.title)}</div>
+                        <div style="font-size:0.75rem; color:#2563eb; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeHtmlMentor(n.url)}</div>
+                    </div>
+                    <button class="cc-btn danger" onclick="window.adminHapusBerita('${n.id}')">Hapus</button>
+                </div>
+            `).join('');
+        }
     }
 };
 
@@ -5211,10 +5361,14 @@ window.adminTambahBerita = async () => {
     const title = document.getElementById('ccNewsTitle')?.value.trim();
     const url = document.getElementById('ccNewsUrl')?.value.trim();
     const tag = document.getElementById('ccNewsTag')?.value.trim() || 'BKN';
+    const imageUrl = document.getElementById('ccNewsImage')?.value.trim() || '';
     const desc = document.getElementById('ccNewsDesc')?.value.trim() || '';
 
     if (!title || !url || !/^https?:\/\//i.test(url)) {
         return Swal.fire('Data Belum Lengkap', 'Isi Judul Berita dan URL valid yang diawali https:// atau http://', 'warning');
+    }
+    if (imageUrl && !/^https?:\/\//i.test(imageUrl)) {
+        return Swal.fire('URL Foto Tidak Valid', 'URL Foto Berita harus diawali https:// atau http:// (atau kosongkan).', 'warning');
     }
 
     try {
@@ -5222,12 +5376,14 @@ window.adminTambahBerita = async () => {
             title,
             url,
             tag,
+            imageUrl,
             desc,
             createdAtMs: Date.now(),
             authorEmail: window.currentUser?.email || ''
         });
         document.getElementById('ccNewsTitle').value = '';
         document.getElementById('ccNewsUrl').value = '';
+        if (document.getElementById('ccNewsImage')) document.getElementById('ccNewsImage').value = '';
         document.getElementById('ccNewsDesc').value = '';
         Swal.fire({ icon: 'success', title: 'Berita Dipublikasikan!', timer: 1500, showConfirmButton: false });
         window.loadPusatBerita();
