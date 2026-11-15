@@ -67,7 +67,7 @@ async function getGeminiApiKey() {
   return "";
 }
 
-async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch = false }) {
+async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch = false, responseMimeType = "" }) {
   const errors = [];
   for (const model of GEMINI_MODELS) {
     let resp;
@@ -77,14 +77,18 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
       const thinkingConfig = model === "gemini-3.8-flash"
         ? { thinkingLevel: "LOW" }
         : { thinkingBudget: 0 };
+      const generationConfig = {
+        temperature: 0.3,
+        maxOutputTokens: 900,
+        thinkingConfig
+      };
+      if (responseMimeType) {
+        generationConfig.responseMimeType = responseMimeType;
+      }
       const body = {
         systemInstruction: { parts: [{ text: systemInstruction }] },
         contents: [{ role: "user", parts: [{ text: prompt }] }],
-        generationConfig: {
-          temperature: 0.3,
-          maxOutputTokens: 900,
-          thinkingConfig
-        }
+        generationConfig
       };
       if (useGoogleSearch) {
         body.tools = [{ google_search: {} }];
@@ -199,7 +203,7 @@ exports.menujuAsnBot = onRequest(
 
       const body = req.body || {};
       const action = String(body.action || "").trim();
-      if (!["quota", "explain", "weakness", "newsSearch"].includes(action)) {
+      if (!["quota", "explain", "weakness", "newsSearch", "homogenize"].includes(action)) {
         return res.status(400).json({ error: "Action tidak valid." });
       }
 
@@ -346,6 +350,87 @@ exports.menujuAsnBot = onRequest(
           totalUsed: newTotalUsed,
           totalLimit,
           remaining: Math.max(0, totalLimit - newTotalUsed)
+        });
+      }
+
+      if (action === "homogenize") {
+        if (!userCtx.isAdmin) {
+          return res.status(403).json({ error: "Fitur homogenisasi opsi khusus Super Admin." });
+        }
+        const kategori = String(body.kategori || "TWK").toUpperCase();
+        const subKategori = String(body.subKategori || "").trim();
+        const soal = String(body.soal || "").trim();
+        const opsi = Array.isArray(body.opsi) ? body.opsi : [];
+        if (!soal || opsi.length < 2) {
+          return res.status(400).json({ error: "Teks soal dan daftar opsi A-E wajib diisi." });
+        }
+
+        let locked = [];
+        let targets = [];
+        if (kategori === "TKP") {
+          const maxPoin = opsi.reduce((mx, o) => Math.max(mx, Number(o.poin || 0)), 0);
+          locked = opsi.filter((o) => Number(o.poin || 0) >= maxPoin);
+          targets = opsi.filter((o) => Number(o.poin || 0) < maxPoin);
+        } else {
+          locked = opsi.filter((o) => Boolean(o.benar));
+          targets = opsi.filter((o) => !o.benar);
+        }
+
+        if (!locked.length || !targets.length) {
+          return res.status(400).json({ error: "Kunci jawaban benar (atau opsi poin tertinggi) harus ditandai agar opsi salah bisa dihomogenkan." });
+        }
+
+        const lockedSummary = locked
+          .map((o) => `${o.label}. ${o.teks}${kategori === "TKP" ? ` (Poin ${o.poin})` : " (KUNCI BENAR - TERKUNCI)"}`)
+          .join("\n");
+        const targetSummary = targets
+          .map((o) => `${o.label}. ${o.teks}${kategori === "TKP" ? ` (Poin ${o.poin})` : " (SALAH - WAJIB DIHOMOGENKAN)"}`)
+          .join("\n");
+
+        const systemInstruction =
+          "Kamu adalah editor ahli penyusun soal CAT SKD CASN standar BKN. " +
+          "Tugasmu melakukan HOMOGENISASI HANYA PADA OPSI YANG SALAH (pengecoh/distractor) agar secara psikometrik setara dengan kunci jawaban. " +
+          "Aturan WAJIB: " +
+          "(1) JANGAN PERNAH mengubah atau menyentuh opsi KUNCI BENAR / Poin Tertinggi; " +
+          "(2) Tulis ulang HANYA opsi salah yang diminta agar panjang kata, pola kalimat (misal sama-sama diawali kata benda/imbuhan pe-N/me-N), nada birokrasi/akademis formal BKN, dan tingkat kemasukakalannya HOMOGEN dengan opsi kunci; " +
+          "(3) Pastikan setiap opsi yang ditulis ulang TETAP SALAH secara substansi (atau tetap di bobot poinnya untuk TKP) dan TIDAK menjadi jawaban benar kedua; " +
+          "(4) Kembalikan JSON murni dengan format: {\"opsi\": {\"LABEL\": \"teks baru\"}} hanya untuk label opsi salah.";
+
+        const prompt =
+          `Kategori: ${kategori}${subKategori ? ` (${subKategori})` : ""}\n` +
+          `Soal:\n${soal}\n\n` +
+          `Opsi Terkunci (ACUAN GAYA & PANJANG, JANGAN DIUBAH):\n${lockedSummary}\n\n` +
+          `Opsi Salah yang HARUS Dihomogenkan:\n${targetSummary}\n\n` +
+          `Kembalikan JSON berisi key "opsi" hanya untuk label [${targets.map((t) => t.label).join(", ")}].`;
+
+        const result = await callGemini({
+          apiKey,
+          systemInstruction,
+          prompt,
+          responseMimeType: "application/json"
+        });
+
+        let parsedJson = null;
+        try {
+          const clean = result.text.replace(/^```json\s*/i, "").replace(/```$/i, "").trim();
+          parsedJson = JSON.parse(clean);
+        } catch (e) {
+          throw new Error("Format JSON hasil homogenisasi AI tidak valid. Silakan coba klik ulang.");
+        }
+
+        const outMap = {};
+        const rawMap = parsedJson?.opsi || parsedJson || {};
+        targets.forEach((t) => {
+          if (typeof rawMap[t.label] === "string" && rawMap[t.label].trim()) {
+            outMap[t.label] = rawMap[t.label].trim();
+          }
+        });
+
+        return res.json({
+          ok: true,
+          homogenized: outMap,
+          lockedLabels: locked.map((l) => l.label),
+          model: result.model
         });
       }
 

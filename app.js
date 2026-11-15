@@ -1097,7 +1097,12 @@ window.renderAdminBankSoalWorkspace = () => {
                     <textarea id="ccEditGambar" rows="2" placeholder="Kosongkan jika tidak ada gambar terpisah..." style="width:100%; padding:8px 10px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.8rem; font-family:monospace;">${escapeTextarea(q.gambar || '')}</textarea>
                 </div>
                 <div class="cc-form-group">
-                    <label>Opsi Jawaban A–E &amp; ${q.kategori === 'TKP' ? 'Bobot Poin (1–5)' : 'Kunci Jawaban Benar'}</label>
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:6px;">
+                        <label style="margin:0;">Opsi Jawaban A–E &amp; ${q.kategori === 'TKP' ? 'Bobot Poin (1–5)' : 'Kunci Jawaban Benar'}</label>
+                        <button type="button" id="btnHomogenizeAi" class="bot-inline-btn" onclick="window.homogenisasiOpsiSalahAI('${q.id}')" title="Menulis ulang HANYA opsi yang salah agar panjang &amp; gaya bahasanya setara dengan kunci benar">
+                            <i class="fas fa-wand-magic-sparkles"></i> Homogenkan Opsi Salah (AI)
+                        </button>
+                    </div>
                     ${editOptionsInputsHtml}
                 </div>
                 <div class="cc-form-group">
@@ -1117,6 +1122,67 @@ window.renderAdminBankSoalWorkspace = () => {
             </div>
         </div>
     `;
+};
+
+window.homogenisasiOpsiSalahAI = async (qId) => {
+    const q = findQuestionByIdAcrossPools(qId);
+    if (!q) return;
+
+    const btn = document.getElementById('btnHomogenizeAi');
+    const subKategori = (document.getElementById('ccEditSubKat')?.value || q.subKategori || '').trim();
+    const soal = (document.getElementById('ccEditSoalText')?.value || q.soal || '').trim();
+    const selectedRadio = document.querySelector('input[name="ccEditKunciRadio"]:checked')?.value || 'A';
+
+    const currentOpsi = (q.opsi || []).map((opt, oIdx) => {
+        const teks = (document.getElementById(`ccEditOptTeks_${oIdx}`)?.value ?? opt.teks ?? '').trim();
+        if (q.kategori === 'TKP') {
+            const poin = Math.max(1, Math.min(5, Number(document.getElementById(`ccEditOptPoin_${oIdx}`)?.value || opt.poin || 1)));
+            return { label: opt.label, teks, poin };
+        }
+        const benar = opt.label === selectedRadio;
+        return { label: opt.label, teks, benar, poin: benar ? 5 : 0 };
+    });
+
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = `<i class="fas fa-spinner fa-spin"></i> Menghomogenkan Opsi Salah...`;
+    }
+
+    try {
+        const res = await callMenujuAsnBot({
+            action: 'homogenize',
+            kategori: q.kategori,
+            subKategori,
+            soal,
+            opsi: currentOpsi
+        });
+        const map = res.homogenized || {};
+        let updatedCount = 0;
+        (q.opsi || []).forEach((opt, oIdx) => {
+            if (map[opt.label]) {
+                const ta = document.getElementById(`ccEditOptTeks_${oIdx}`);
+                if (ta) {
+                    ta.value = map[opt.label];
+                    ta.style.borderColor = '#0284c7';
+                    ta.style.background = '#f0f9ff';
+                    updatedCount++;
+                }
+            }
+        });
+        Swal.fire({
+            icon: 'success',
+            title: `${updatedCount} Opsi Salah Dihomogenkan!`,
+            html: `Opsi kunci (<b>${escapeHtmlMentor((res.lockedLabels || []).join(', '))}</b>) tetap dikunci dan tidak diubah.<br><br><span style="font-size:0.82rem; color:#475569;">Silakan cek hasilnya di form, lalu klik <b>Simpan &amp; Terapkan Live</b> jika sudah cocok.</span>`,
+            confirmButtonColor: '#1e3a8a'
+        });
+    } catch (err) {
+        Swal.fire('Gagal Homogenisasi AI', err.message, 'error');
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = `<i class="fas fa-wand-magic-sparkles"></i> Homogenkan Opsi Salah (AI)`;
+        }
+    }
 };
 
 window.simpanEditSoalAdmin = async (qId) => {
