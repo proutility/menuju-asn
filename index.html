@@ -431,12 +431,12 @@
                 </div>
             </section>
 
-            <!-- VIEW 2: SIMULASI CAT (PAKET SOAL FREE & BERBAYAR) -->
+            <!-- VIEW 2: SIMULASI CAT (DRILL SUBTES & MODE BELAJAR) -->
             <section id="view-cat" class="app-view">
                 <div class="view-banner navy">
                     <div>
-                        <h2><i class="fas fa-laptop-code"></i> Simulasi CAT &amp; Paket Soal SKD</h2>
-                        <p>Pilih paket gratis untuk pemanasan atau buka paket berbayar untuk akses bank soal lengkap &amp; pembahasan 1x klik.</p>
+                        <h2><i class="fas fa-laptop-code"></i> Simulasi CAT &amp; Drill Subtes</h2>
+                        <p>Fokus latihan per subtes (TWK, TIU, TKP) serta mode belajar 1x klik pembahasan dan remedial soal salah.</p>
                     </div>
                 </div>
 
@@ -445,32 +445,10 @@
                         <button class="filter-chip active" onclick="window.filterPaketSoal('all', this)">Semua</button>
                         <button class="filter-chip" onclick="window.filterPaketSoal('free', this)">Gratis</button>
                         <button class="filter-chip" onclick="window.filterPaketSoal('paid', this)">Berbayar</button>
-                        <button class="filter-chip" onclick="window.filterPaketSoal('subtes', this)">Drill Subtes</button>
                     </div>
                 </div>
 
                 <div class="grid-modes" id="paketSoalGrid">
-                    <!-- KARTU FREE 1: SIMULASI SKD -->
-                    <div class="card-mode packet-card free" data-tier="free" data-cat="full">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
-                                <span class="badge-cat">TRYOUT FULL</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon blue"><i class="fas fa-laptop-code"></i></div>
-                                <div>
-                                    <h3>Simulasi Akbar SKD</h3>
-                                    <span style="font-size:0.75rem; color:#2563eb; font-weight:700;">110 Soal Pilihan • 100 Menit</span>
-                                </div>
-                            </div>
-                            <p>110 soal terbaik pilihan dari kurasi 330 soal gratis TWK, TIU, &amp; TKP dengan evaluasi Passing Grade otomatis.</p>
-                        </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('Simulasi Akbar SKD (110 Soal Pilihan)')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
-                        </button>
-                    </div>
-
                     <!-- 3 KARTU TWK GRATIS (TERKUNCI / BELUM TERSEDIA) -->
                     <div class="card-mode packet-card free" data-tier="free" data-cat="subtes">
                         <div>
@@ -654,27 +632,6 @@
                         </button>
                     </div>
 
-                    <!-- KARTU BERBAYAR 1: TRYOUT HOTS / SATUAN -->
-                    <div class="card-mode packet-card paid" data-tier="paid" data-cat="full">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>
-                                <span class="badge-cat">SATUAN Rp 5rb / PRO</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon gold"><i class="fas fa-fire"></i></div>
-                                <div>
-                                    <h3>Tryout SKD HOTS 2026 #1</h3>
-                                    <span style="font-size:0.75rem; color:#b45309; font-weight:700;">110 Soal • 100 Menit • HOTS</span>
-                                </div>
-                            </div>
-                            <p>Paket soal HOTS prediksi CPNS 2026 lengkap dengan pembahasan detail &amp; pembobotan TKP 1–5.</p>
-                        </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Tryout SKD HOTS 2026 #1', 'Mulai Rp 5.000 / Paket')">
-                            <i class="fas fa-lock"></i> Buka Akses Paket
-                        </button>
-                    </div>
-
                     <!-- KARTU BERBAYAR 2: MODE BELAJAR 1x KLIK -->
                     <div class="card-mode packet-card paid" data-tier="paid" data-cat="subtes">
                         <div>
@@ -728,9 +685,17 @@
                     </div>
                 </div>
 
-                <div class="grid-modes">
+                <div class="lobby-filter-bar">
+                    <div class="filter-chips" id="tryoutFilterChips">
+                        <button class="filter-chip active" onclick="window.filterTryoutPaket('all', this)">Semua</button>
+                        <button class="filter-chip" onclick="window.filterTryoutPaket('free', this)">Gratis</button>
+                        <button class="filter-chip" onclick="window.filterTryoutPaket('paid', this)">Berbayar</button>
+                    </div>
+                </div>
+
+                <div class="grid-modes" id="tryoutSoalGrid">
                     <!-- TRYOUT FREE (TERKUNCI SEMENTARA) -->
-                    <div class="card-mode packet-card free">
+                    <div class="card-mode packet-card free" data-tier="free">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
@@ -751,7 +716,7 @@
                     </div>
 
                     <!-- TRYOUT BERBAYAR #1 -->
-                    <div class="card-mode packet-card paid">
+                    <div class="card-mode packet-card paid" data-tier="paid">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>
@@ -772,7 +737,7 @@
                     </div>
 
                     <!-- TRYOUT BERBAYAR #2 -->
-                    <div class="card-mode packet-card paid">
+                    <div class="card-mode packet-card paid" data-tier="paid">
                         <div>
                             <div class="packet-badges">
                                 <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>

@@ -473,10 +473,10 @@ window.switchLobbyTab = (tab) => {
 };
 
 window.filterPaketSoal = (filter, btnEl) => {
-    document.querySelectorAll('.filter-chip').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('#view-cat .filter-chip').forEach(btn => btn.classList.remove('active'));
     if (btnEl) btnEl.classList.add('active');
 
-    document.querySelectorAll('.packet-card').forEach(card => {
+    document.querySelectorAll('#paketSoalGrid .packet-card').forEach(card => {
         const tier = card.getAttribute('data-tier');
         const cat = card.getAttribute('data-cat');
         const show =
@@ -484,6 +484,20 @@ window.filterPaketSoal = (filter, btnEl) => {
             (filter === 'free' && tier === 'free') ||
             (filter === 'paid' && tier === 'paid') ||
             (filter === 'subtes' && cat === 'subtes');
+        card.style.display = show ? 'flex' : 'none';
+    });
+};
+
+window.filterTryoutPaket = (filter, btnEl) => {
+    document.querySelectorAll('#view-tryout .filter-chip').forEach(btn => btn.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+
+    document.querySelectorAll('#tryoutSoalGrid .packet-card').forEach(card => {
+        const tier = card.getAttribute('data-tier');
+        const show =
+            filter === 'all' ||
+            (filter === 'free' && tier === 'free') ||
+            (filter === 'paid' && tier === 'paid');
         card.style.display = show ? 'flex' : 'none';
     });
 };
