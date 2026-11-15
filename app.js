@@ -149,6 +149,12 @@ function updateAuthUI(user) {
         if (typeof window.renderBerandaProgressPanel === 'function') {
             window.renderBerandaProgressPanel();
         }
+        if (typeof window.renderArenaSavedRooms === 'function') {
+            window.renderArenaSavedRooms();
+        }
+        if (typeof window.renderArenaLeaderboardHistory === 'function') {
+            window.renderArenaLeaderboardHistory();
+        }
         if (typeof startInvitePopupListener === 'function') {
             startInvitePopupListener(user);
         }
@@ -219,6 +225,9 @@ window.switchAppView = (viewName) => {
         if (typeof window.renderBerandaProgressPanel === 'function') window.renderBerandaProgressPanel();
     } else if (viewName === 'brankas' && typeof window.renderBrankasPembahasan === 'function') {
         window.renderBrankasPembahasan();
+    } else if (viewName === 'cbt') {
+        if (typeof window.renderArenaSavedRooms === 'function') window.renderArenaSavedRooms();
+        if (typeof window.renderArenaLeaderboardHistory === 'function') window.renderArenaLeaderboardHistory();
     }
 };
 
@@ -1462,11 +1471,14 @@ window.lompatKeSoal = (idx) => {
     renderSoalSekarang();
 };
 
-// HEMAT KUOTA: Klik opsi HANYA simpan di memori lokal (0 write ke Firestore!)
+// HEMAT KUOTA: Klik opsi simpan lokal + live sync klasemen Arena (throttle 5 detik)
 window.pilihJawaban = (qId, label, poin) => {
     window.userAnswers[qId] = label;
     window.userAnswerPoints[qId] = poin;
     renderSoalSekarang();
+    if (window.currentAppMode === 'multiplayer') {
+        syncLiveArenaScoreThrottled();
+    }
 };
 
 window.prevSoal = () => {
@@ -1511,13 +1523,22 @@ function hitungSkorSekarang() {
     };
 }
 
-// Sync Checkpoint (Hanya dipanggil saat pindah subtes atau selesai ujian)
-async function syncCheckpointToFirestore(subtesName, isFinal = false) {
+function syncLiveArenaScoreThrottled() {
     if (!window.activeRoomCode || !window.currentUser) return;
-    if (!isFinal && subtesName && window.syncedSubtes[subtesName]) return; // Cegah tulis ulang subtes yang sama
+    const now = Date.now();
+    if (window._lastArenaLiveSyncMs && now - window._lastArenaLiveSyncMs < 5000) return;
+    window._lastArenaLiveSyncMs = now;
+    syncCheckpointToFirestore(null, false, true);
+}
+
+// Sync Checkpoint (Saat pindah subtes, update klasemen sementara, atau selesai ujian)
+async function syncCheckpointToFirestore(subtesName, isFinal = false, forceLive = false) {
+    if (!window.activeRoomCode || !window.currentUser) return;
+    if (!isFinal && !forceLive && subtesName && window.syncedSubtes[subtesName]) return;
 
     if (subtesName) window.syncedSubtes[subtesName] = true;
     const stats = hitungSkorSekarang();
+    const answeredCount = Object.keys(window.userAnswers || {}).length;
     const uid = window.currentUser.uid;
 
     try {
@@ -1527,11 +1548,11 @@ async function syncCheckpointToFirestore(subtesName, isFinal = false) {
             [`players.${uid}.skorTWK`]: stats.skorTWK,
             [`players.${uid}.skorTIU`]: stats.skorTIU,
             [`players.${uid}.skorTKP`]: stats.skorTKP,
+            [`players.${uid}.answeredCount`]: answeredCount,
             [`players.${uid}.totalWaktu`]: stats.totalWaktu,
             [`players.${uid}.isFinished`]: isFinal,
             [`players.${uid}.lastSeen`]: Date.now()
         });
-        console.log(`📡 [HEMAT KUOTA] Sync checkpoint (${isFinal ? 'FINAL' : subtesName}) berhasil -> Skor: ${stats.totalSkor}`);
     } catch (e) {
         console.warn("Gagal sync checkpoint:", e);
     }
@@ -1565,6 +1586,9 @@ async function selesaikanUjian() {
 
     if (window.currentAppMode === 'multiplayer') {
         await syncCheckpointToFirestore(null, true);
+        if (typeof window.saveArenaResultToHistory === 'function') {
+            await window.saveArenaResultToHistory();
+        }
     }
 
     const { skorTWK, skorTIU, skorTKP, totalSkor, totalWaktu } = hitungSkorSekarang();
@@ -1591,7 +1615,7 @@ async function selesaikanUjian() {
         title: window.currentPackageMeta?.title || 'Simulasi SKD ASN',
         tipe: window.currentPackageMeta?.tipe || 'full',
         paketNo: window.currentPackageMeta?.paketNo || null,
-        mode: window.currentAppMode === 'multiplayer' ? 'CBT Mabar' : 'CAT Mandiri',
+        mode: window.currentAppMode === 'multiplayer' ? 'CBT Arena' : 'CAT Mandiri',
         durasiText,
         totalSkor,
         maxSkor,
@@ -1644,7 +1668,7 @@ async function selesaikanUjian() {
                         <div class="result-meta-chips">
                             <span><i class="fas fa-list-ol"></i> ${qs.length} Soal</span>
                             <span><i class="fas fa-stopwatch"></i> Waktu: ${durasiText}</span>
-                            <span><i class="fas fa-gamepad"></i> ${window.currentAppMode === 'multiplayer' ? 'CBT Mabar' : 'CAT Mandiri'}</span>
+                            <span><i class="fas fa-gamepad"></i> ${window.currentAppMode === 'multiplayer' ? 'CBT Arena' : 'CAT Mandiri'}</span>
                         </div>
                     </div>
                     <button class="btn-dash-ghost" onclick="window.kembaliKeLobby()">
@@ -1690,7 +1714,7 @@ async function selesaikanUjian() {
                             </button>
                             ${window.currentAppMode === 'multiplayer' ? `
                                 <button class="btn-card accent" onclick="window.bukaModalKlasemenMabar()">
-                                    <i class="fas fa-trophy"></i> Klasemen Live Mabar
+                                    <i class="fas fa-trophy"></i> Klasemen Live CBT Arena
                                 </button>
                             ` : ''}
                             <button class="btn-card outline" onclick="window.kembaliKeLobby()">
@@ -2404,6 +2428,8 @@ window.kembaliKeLobby = () => {
     const heroEl = document.getElementById('heroBannerSection');
     if (heroEl) heroEl.style.display = 'flex';
     window.currentAppMode = 'lobby';
+    if (typeof window.renderArenaSavedRooms === 'function') window.renderArenaSavedRooms();
+    if (typeof window.renderArenaLeaderboardHistory === 'function') window.renderArenaLeaderboardHistory();
 };
 
 // ==========================================================
@@ -2591,6 +2617,7 @@ async function eksekusiBikinRoom(namaRoom, tierSel, paketKey, paketLabel) {
         });
 
         Swal.close();
+        saveRoomToMyHistory(kodeRoom);
         window.activeRoomCode = kodeRoom;
         bukaWaitingRoom(kodeRoom);
     } catch (err) {
@@ -2674,7 +2701,10 @@ window.gabungRoom = async (kodeRoom) => {
         const myEmail = (u.email || '').toLowerCase().trim();
         const existingPlayers = dataRoom.players || {};
         const alreadyJoined = Boolean(existingPlayers[u.uid]);
-        const maxPlayers = dataRoom.maxPlayers || 2;
+        const roomTierKey = String(dataRoom.tier || 'bronze').toLowerCase();
+        const maxPlayers = roomTierKey === 'admin'
+            ? (dataRoom.maxPlayers || 100)
+            : (TIER_CAPACITY[roomTierKey] || dataRoom.maxPlayers || 2);
 
         if (!alreadyJoined && dataRoom.status !== 'waiting') {
             return Swal.fire('Room Sudah Dimulai / Ditutup', 'Ujian di room ini sudah berjalan sehingga peserta baru tidak dapat masuk.', 'warning');
@@ -2682,7 +2712,7 @@ window.gabungRoom = async (kodeRoom) => {
 
         // Validasi Batas Kapasitas Room (Terkunci otomatis saat penuh untuk siapapun)
         if (!alreadyJoined && Object.keys(existingPlayers).length >= maxPlayers) {
-            return Swal.fire('Room Penuh & Terkunci!', `Kapasitas maksimal paket ${(dataRoom.tier || 'bronze').toUpperCase()} (${maxPlayers} peserta) sudah penuh.`, 'warning');
+            return Swal.fire('Room Penuh & Terkunci!', `Kapasitas maksimal paket ${roomTierKey.toUpperCase()} (${maxPlayers} peserta) sudah penuh.`, 'warning');
         }
 
         if (!alreadyJoined) {
@@ -2705,6 +2735,7 @@ window.gabungRoom = async (kodeRoom) => {
         }
 
         Swal.close();
+        saveRoomToMyHistory(kodeRoom);
         window.activeRoomCode = kodeRoom;
         bukaWaitingRoom(kodeRoom);
     } catch (err) {
@@ -2831,6 +2862,13 @@ function bukaWaitingRoom(kodeRoom) {
 
         // Jika Host sudah klik MULAI ARENA, otomatis masuk ke ujian dengan paket soal yang dipilih
         if (data.status === 'ujian' && !hasStartedExamClient) {
+            const myPlayer = players[window.currentUser?.uid];
+            if (myPlayer && myPlayer.isFinished) {
+                window.kembaliKeLobby();
+                window.switchAppView('cbt');
+                window.bukaModalKlasemenMabar();
+                return;
+            }
             hasStartedExamClient = true;
             window.currentAppMode = 'multiplayer';
             const paketInfo = getQuestionsForRoomPaket(data.paketKey || 'full');
@@ -2899,11 +2937,13 @@ function bukaWaitingRoom(kodeRoom) {
                 <div style="font-size:2rem; font-weight:900; letter-spacing:4px; color:#d97706; margin:8px 0; font-family:monospace;">
                     ${kodeRoom}
                 </div>
-                <div style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:16px;">
-                    <button onclick="navigator.clipboard.writeText('${linkInvite}'); Swal.fire('Link Disalin!', 'Kirim link ini ke teman untuk bergabung ke CBT Arena.', 'success');" style="background:#2563eb; color:white; border:none; padding:8px 16px; border-radius:20px; font-weight:700; font-size:0.8rem; cursor:pointer;">
-                        <i class="fas fa-link"></i> Salin Link Room
-                    </button>
-                </div>
+                ${isHost && !isFull ? `
+                    <div style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:16px;">
+                        <button onclick="navigator.clipboard.writeText('${linkInvite}'); Swal.fire('Link Disalin!', 'Kirim link ini ke teman untuk bergabung ke CBT Arena.', 'success');" style="background:#2563eb; color:white; border:none; padding:8px 16px; border-radius:20px; font-weight:700; font-size:0.8rem; cursor:pointer;">
+                            <i class="fas fa-link"></i> Salin Link Room
+                        </button>
+                    </div>
+                ` : '<div style="margin-bottom:14px;"></div>'}
 
                 ${inviteBoxHtml}
                 
@@ -2922,7 +2962,7 @@ function bukaWaitingRoom(kodeRoom) {
                     </button>
                     ${isHost ? `
                         <button onclick="window.mulaiUjianMultiplayer('${kodeRoom}')" style="background:#d97706; color:white; border:none; padding:10px 24px; border-radius:8px; font-weight:800; font-size:0.95rem; cursor:pointer; box-shadow:0 4px 12px rgba(217, 119, 6, 0.3);">
-                            <i class="fas fa-rocket"></i> MULAI MABAR
+                            <i class="fas fa-rocket"></i> MULAI ARENA
                         </button>
                     ` : `
                         <div style="padding:10px 20px; background:#fffbeb; color:#b45309; border-radius:8px; font-weight:700; font-size:0.85rem;">
@@ -2977,26 +3017,28 @@ window.mulaiUjianMultiplayer = async (kodeRoom) => {
     }
 };
 
-// Klasemen Live Mabar (Tie-Breaker Resmi BKN: Total -> TKP -> TIU -> TWK -> Waktu)
-window.bukaModalKlasemenMabar = () => {
-    const data = window.latestRoomData || {};
-    const players = Object.values(data.players || {});
-    
-    players.sort((a, b) => {
+// Klasemen Live CBT Arena (Tie-Breaker Resmi BKN: Total -> TKP -> TIU -> TWK -> Waktu)
+function sortArenaPlayersBkn(playersList) {
+    return [...playersList].sort((a, b) => {
         if ((b.skor || 0) !== (a.skor || 0)) return (b.skor || 0) - (a.skor || 0);
         if ((b.skorTKP || 0) !== (a.skorTKP || 0)) return (b.skorTKP || 0) - (a.skorTKP || 0);
         if ((b.skorTIU || 0) !== (a.skorTIU || 0)) return (b.skorTIU || 0) - (a.skorTIU || 0);
         if ((b.skorTWK || 0) !== (a.skorTWK || 0)) return (b.skorTWK || 0) - (a.skorTWK || 0);
         return (a.totalWaktu || 999999) - (b.totalWaktu || 999999);
     });
+}
+
+window.bukaModalKlasemenMabar = () => {
+    const data = window.latestRoomData || {};
+    const players = sortArenaPlayersBkn(Object.values(data.players || {}));
 
     const rows = players.map((p, idx) => `
         <div style="display:flex; align-items:center; justify-content:space-between; padding:10px; border-bottom:1px solid #e2e8f0; background:${p.uid === window.currentUser?.uid ? '#eff6ff' : 'white'};">
             <div style="display:flex; align-items:center; gap:10px;">
                 <span style="font-weight:900; color:${idx === 0 ? '#d97706' : '#64748b'}; width:22px;">#${idx + 1}</span>
                 <div style="text-align:left;">
-                    <div style="font-weight:700; font-size:0.86rem; color:#1e293b;">${p.nama} ${p.isFinished ? '✅' : '⏳'}</div>
-                    <div style="font-size:0.72rem; color:#64748b;">TWK:${p.skorTWK || 0} | TIU:${p.skorTIU || 0} | TKP:${p.skorTKP || 0}</div>
+                    <div style="font-weight:700; font-size:0.86rem; color:#1e293b;">${p.nama} ${p.isFinished ? '✅ Selesai' : `⏳ ${p.answeredCount || 0} soal`}</div>
+                    <div style="font-size:0.72rem; color:#64748b;">TWK:${p.skorTWK || 0} | TIU:${p.skorTIU || 0} | TKP:${p.skorTKP || 0} • ${p.totalWaktu || 0}d</div>
                 </div>
             </div>
             <div style="font-weight:800; font-size:1rem; color:#1e3a8a;">${p.skor || 0}</div>
@@ -3004,7 +3046,7 @@ window.bukaModalKlasemenMabar = () => {
     `).join('');
 
     Swal.fire({
-        title: '🏆 Klasemen Live Mabar',
+        title: '🏆 Klasemen Live CBT Arena',
         html: `
             <div style="font-size:0.75rem; color:#64748b; margin-bottom:10px;">
                 Urutan tie-breaker BKN: Total Skor ➔ TKP ➔ TIU ➔ TWK ➔ Waktu.
@@ -3016,6 +3058,233 @@ window.bukaModalKlasemenMabar = () => {
         confirmButtonText: 'Tutup',
         confirmButtonColor: '#1e3a8a'
     });
+};
+
+function getMyRoomsStorageKey() {
+    const uid = window.currentUser?.uid || 'guest';
+    return `menuju_asn_my_rooms_v1_${uid}`;
+}
+
+function saveRoomToMyHistory(kodeRoom) {
+    if (!kodeRoom || !window.currentUser) return;
+    try {
+        const key = getMyRoomsStorageKey();
+        const cur = JSON.parse(localStorage.getItem(key) || '[]');
+        const next = [String(kodeRoom), ...cur.filter(k => k !== String(kodeRoom))].slice(0, 20);
+        localStorage.setItem(key, JSON.stringify(next));
+    } catch (_) {}
+}
+
+window.hapusRoomArena = async (kodeRoom) => {
+    const res = await Swal.fire({
+        title: 'Hapus Room Arena?',
+        text: `Room #${kodeRoom} akan dihapus permanen dan peserta tidak bisa masuk lagi.`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Ya, Hapus Room',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#b91c1c'
+    });
+    if (!res.isConfirmed) return;
+
+    try {
+        await deleteDoc(doc(db, COLLECTIONS.ROOMS, String(kodeRoom)));
+        const key = getMyRoomsStorageKey();
+        const cur = JSON.parse(localStorage.getItem(key) || '[]');
+        localStorage.setItem(key, JSON.stringify(cur.filter(k => k !== String(kodeRoom))));
+        Swal.fire({ toast: true, position: 'top-end', icon: 'success', title: `Room #${kodeRoom} dihapus`, showConfirmButton: false, timer: 2000 });
+        window.renderArenaSavedRooms();
+    } catch (err) {
+        Swal.fire('Gagal Menghapus', err.message, 'error');
+    }
+};
+
+window.renderArenaSavedRooms = async () => {
+    const el = document.getElementById('arenaMyRoomsArea');
+    if (!el) return;
+    if (!window.currentUser) {
+        el.innerHTML = '';
+        return;
+    }
+
+    const uid = window.currentUser.uid;
+    const savedCodes = new Set(JSON.parse(localStorage.getItem(getMyRoomsStorageKey()) || '[]'));
+
+    try {
+        const hostSnap = await getDocs(query(collection(db, COLLECTIONS.ROOMS), where('hostUid', '==', uid), limit(15)));
+        hostSnap.forEach(d => savedCodes.add(String(d.id)));
+    } catch (_) {}
+
+    const rooms = [];
+    const stillValidCodes = [];
+    for (const kode of Array.from(savedCodes)) {
+        try {
+            const snap = await getDoc(doc(db, COLLECTIONS.ROOMS, String(kode)));
+            if (snap.exists()) {
+                const d = snap.data();
+                if (d.hostUid === uid || (d.players && d.players[uid])) {
+                    rooms.push({ kode: String(kode), ...d });
+                    stillValidCodes.push(String(kode));
+                }
+            }
+        } catch (_) {}
+    }
+    try { localStorage.setItem(getMyRoomsStorageKey(), JSON.stringify(stillValidCodes)); } catch (_) {}
+
+    if (rooms.length === 0) {
+        el.innerHTML = '';
+        return;
+    }
+
+    rooms.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
+    const cardsHtml = rooms.map(r => {
+        const players = r.players || {};
+        const pCount = Object.keys(players).length;
+        const maxP = r.maxPlayers || 2;
+        const isHost = r.hostUid === uid;
+        const isFull = pCount >= maxP;
+        const statusBadge = r.status === 'ujian'
+            ? '<span style="background:#fef3c7; color:#b45309; padding:2px 8px; border-radius:999px; font-size:0.72rem; font-weight:800;">Ujian Berlangsung</span>'
+            : (isFull
+                ? '<span style="background:#fee2e2; color:#b91c1c; padding:2px 8px; border-radius:999px; font-size:0.72rem; font-weight:800;">🔒 Penuh &amp; Terkunci</span>'
+                : '<span style="background:#dcfce7; color:#15803d; padding:2px 8px; border-radius:999px; font-size:0.72rem; font-weight:800;">Waiting Room</span>');
+
+        return `
+            <div style="background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:14px 16px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+                <div>
+                    <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:4px;">
+                        <strong style="color:#0f172a; font-size:0.94rem;">${r.nama || 'Room Arena'}</strong>
+                        <span style="font-family:monospace; font-weight:800; color:#d97706; background:#fffbeb; padding:2px 8px; border-radius:6px; font-size:0.8rem;">#${r.kode}</span>
+                        ${statusBadge}
+                    </div>
+                    <div style="font-size:0.78rem; color:#64748b;">
+                        Paket: <b>${r.paketLabel || 'Simulasi SKD'}</b> • Peserta: <b>${pCount}/${maxP}</b> (${String(r.tier || 'bronze').toUpperCase()})
+                    </div>
+                </div>
+                <div style="display:flex; gap:8px; flex-wrap:wrap;">
+                    <button onclick="window.gabungRoom('${r.kode}')" style="background:#1e3a8a; color:#fff; border:none; padding:8px 14px; border-radius:8px; font-size:0.8rem; font-weight:700; cursor:pointer;">
+                        <i class="fas fa-sign-in-alt"></i> Masuk Room
+                    </button>
+                    ${isHost ? `
+                        <button onclick="window.hapusRoomArena('${r.kode}')" style="background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:8px 12px; border-radius:8px; font-size:0.8rem; font-weight:700; cursor:pointer;">
+                            <i class="fas fa-trash"></i> Hapus
+                        </button>
+                    ` : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    el.innerHTML = `
+        <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:14px; padding:16px;">
+            <h4 style="margin:0 0 10px; font-size:0.95rem; font-weight:800; color:#1e3a8a;">
+                <i class="fas fa-door-open"></i> Room Arena Tersimpan (Aktif)
+            </h4>
+            <div style="display:flex; flex-direction:column; gap:10px;">${cardsHtml}</div>
+        </div>
+    `;
+};
+
+function getArenaHistoryStorageKey() {
+    const uid = window.currentUser?.uid || 'guest';
+    return `menuju_asn_arena_history_v1_${uid}`;
+}
+
+window.saveArenaResultToHistory = async () => {
+    if (!window.activeRoomCode || !window.currentUser) return;
+    try {
+        const kode = String(window.activeRoomCode);
+        const snap = await getDoc(doc(db, COLLECTIONS.ROOMS, kode));
+        if (!snap.exists()) return;
+        const room = snap.data();
+        window.latestRoomData = room;
+        const sorted = sortArenaPlayersBkn(Object.values(room.players || {}));
+        const myRank = sorted.findIndex(p => p.uid === window.currentUser.uid) + 1;
+
+        const entry = {
+            kode,
+            nama: room.nama || `Room #${kode}`,
+            paketLabel: room.paketLabel || 'Simulasi SKD',
+            finishedAt: Date.now(),
+            myRank: myRank || 1,
+            totalPlayers: sorted.length,
+            players: sorted.map(p => ({
+                uid: p.uid,
+                nama: p.nama,
+                skor: p.skor || 0,
+                skorTWK: p.skorTWK || 0,
+                skorTIU: p.skorTIU || 0,
+                skorTKP: p.skorTKP || 0,
+                totalWaktu: p.totalWaktu || 0,
+                isFinished: Boolean(p.isFinished)
+            }))
+        };
+
+        const key = getArenaHistoryStorageKey();
+        const cur = JSON.parse(localStorage.getItem(key) || '[]');
+        const next = [entry, ...cur.filter(x => x.kode !== kode)].slice(0, 15);
+        localStorage.setItem(key, JSON.stringify(next));
+        window.renderArenaLeaderboardHistory();
+    } catch (e) {
+        console.warn('Gagal menyimpan riwayat klasemen Arena:', e);
+    }
+};
+
+window.renderArenaLeaderboardHistory = () => {
+    const el = document.getElementById('arenaLeaderboardArea');
+    if (!el) return;
+    if (!window.currentUser) {
+        el.innerHTML = '';
+        return;
+    }
+
+    const list = JSON.parse(localStorage.getItem(getArenaHistoryStorageKey()) || '[]');
+    if (!list.length) {
+        el.innerHTML = '';
+        return;
+    }
+
+    const itemsHtml = list.map(item => {
+        const rows = (item.players || []).map((p, idx) => `
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:6px 10px; border-bottom:1px solid #f1f5f9; font-size:0.8rem; background:${p.uid === window.currentUser?.uid ? '#eff6ff' : '#fff'};">
+                <div>
+                    <strong style="color:${idx === 0 ? '#d97706' : '#475569'}; margin-right:6px;">#${idx + 1}</strong>
+                    <span style="font-weight:700; color:#0f172a;">${p.nama}</span>
+                    <span style="color:#64748b; font-size:0.72rem; margin-left:6px;">(TWK:${p.skorTWK} | TIU:${p.skorTIU} | TKP:${p.skorTKP})</span>
+                </div>
+                <strong style="color:#1e3a8a;">${p.skor}</strong>
+            </div>
+        `).join('');
+
+        return `
+            <div style="background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:14px 16px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+                    <div>
+                        <strong style="color:#0f172a; font-size:0.92rem;">${item.nama}</strong>
+                        <span style="font-size:0.75rem; color:#64748b; margin-left:6px;">• ${item.paketLabel}</span>
+                    </div>
+                    <span style="background:#fef3c7; color:#b45309; padding:3px 10px; border-radius:999px; font-size:0.74rem; font-weight:800;">
+                        🏆 Peringkat #${item.myRank} dari ${item.totalPlayers}
+                    </span>
+                </div>
+                <div style="border:1px solid #e2e8f0; border-radius:8px; overflow:hidden;">${rows}</div>
+            </div>
+        `;
+    }).join('');
+
+    el.innerHTML = `
+        <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:14px; padding:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px;">
+                <h4 style="margin:0; font-size:0.95rem; font-weight:800; color:#1e3a8a;">
+                    <i class="fas fa-trophy" style="color:#d97706;"></i> Riwayat Peringkat &amp; Klasemen CBT Arena
+                </h4>
+                <button onclick="window.switchAppView('brankas')" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:5px 11px; border-radius:8px; font-size:0.75rem; font-weight:700; cursor:pointer;">
+                    <i class="fas fa-vault"></i> Lihat Pembahasan di Brankas
+                </button>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:10px;">${itemsHtml}</div>
+        </div>
+    `;
 };
 
 // ==========================================================
@@ -3049,8 +3318,11 @@ function formatMentorTextWithSvg(str) {
 function buildNumerikDasarHtml(q) {
     const text = `${q?.soal || ''} ${q?.pembahasan || ''}`;
     const tips = [];
+    let showSpecialFractions = false;
+    let showSquaresTable = false;
 
     const pctMatches = [...new Set((text.match(/\b\d+(?:[.,]\d+)?%/g) || []).slice(0, 3))];
+    if (pctMatches.length) showSpecialFractions = true;
     pctMatches.forEach(pctStr => {
         const num = parseFloat(pctStr.replace('%', '').replace(',', '.'));
         if (Number.isNaN(num)) return;
@@ -3073,6 +3345,7 @@ function buildNumerikDasarHtml(q) {
     });
 
     const decMatches = [...new Set((text.match(/\b0[.,]\d{1,3}\b/g) || []).slice(0, 3))];
+    if (decMatches.length) showSpecialFractions = true;
     const specialDec = {
         '0,5': '1/2 (5/10 disederhanakan bagi 5)',
         '0,25': '1/4 (25/100 disederhanakan bagi 25)',
@@ -3099,6 +3372,7 @@ function buildNumerikDasarHtml(q) {
 
     const fracMulMatch = text.match(/\(?\b(\d+)\/(\d+)\)?\s*(?:dari|×|\*)\s*(\d+)\b/i);
     if (fracMulMatch) {
+        showSpecialFractions = true;
         const a = Number(fracMulMatch[1]);
         const b = Number(fracMulMatch[2]);
         const n = Number(fracMulMatch[3]);
@@ -3121,6 +3395,42 @@ function buildNumerikDasarHtml(q) {
         }
     }
 
+    // Akar kuadrat (√N)
+    const sqrtMatches = [...new Set((text.match(/√\s*\d+/g) || []).map(s => Number(s.replace(/[^0-9]/g, ''))).filter(n => n > 0))].slice(0, 4);
+    if (sqrtMatches.length) {
+        showSquaresTable = true;
+        tips.push(`<b>Arti Akar Kuadrat (√N)</b>: mencari bilangan yang jika <b>dikalikan dirinya sendiri</b> hasilnya = N.`);
+        sqrtMatches.forEach(n => {
+            const r = Math.round(Math.sqrt(n));
+            if (r * r === n) {
+                const tail = n % 10;
+                const extra = n >= 100
+                    ? ` (cek ekor <b>${tail}</b>: ${r}×${r} ekornya ${tail}, dan ${Math.floor(r / 10) * 10}²=${Math.pow(Math.floor(r / 10) * 10, 2)} &lt; ${n})`
+                    : '';
+                tips.push(`<b>√${n} = ${r}</b> karena <code>${r} × ${r} = ${n}</code>${extra}`);
+            }
+        });
+    }
+
+    // Pangkat & selisih kuadrat (a² - b²)
+    if (/[²³]|\^[23]/.test(text)) {
+        showSquaresTable = true;
+        tips.push(`<b>Arti Pangkat</b>: <code>a² = a × a</code>, sedangkan <code>a³ = a × a × a</code>. Jika ada bentuk <code>a² − b²</code>, pakai jalan pintas <b>(a + b) × (a − b)</b> agar tidak perlu menghitung kuadrat besar.`);
+    }
+
+    // Operasi pecahan biasa (+, -, :)
+    if (/\b\d+\/\d+\s*[+\-:]\s*\d+\/\d+/.test(text)) {
+        tips.push(`<b>Operasi Pecahan</b>: untuk <code>+</code> atau <code>−</code>, samakan dulu penyebut (angka bawah) pakai KPK. Untuk pembagian (<code>÷</code>), ubah jadi kali lalu balik pecahan kedua (<code>a/b ÷ c/d = a/b × d/c</code>).`);
+    }
+
+    // Perbandingan berbalik nilai / senilai / kecepatan
+    const lowerText = text.toLowerCase();
+    if (lowerText.includes('pekerja') && lowerText.includes('hari')) {
+        tips.push(`<b>Perbandingan Berbalik Nilai</b> (makin banyak pekerja, hari makin cepat): kalikan sejajar ➔ <code>Pekerja₁ × Hari₁ = Pekerja₂ × Hari₂</code>.`);
+    } else if (lowerText.includes('kecepatan') || lowerText.includes('km/jam')) {
+        tips.push(`<b>Rumus Jarak-Kecepatan-Waktu (JKW)</b>: <code>Jarak = Kecepatan × Waktu</code> | <code>Waktu = Jarak ÷ Kecepatan</code> | <code>Kecepatan = Jarak ÷ Waktu</code>.`);
+    }
+
     if (!tips.length) return '';
 
     return `
@@ -3131,12 +3441,21 @@ function buildNumerikDasarHtml(q) {
             <ul style="margin:0 0 8px 16px; padding:0; font-size:0.77rem; color:#1e293b; line-height:1.5;">
                 ${tips.map(t => `<li style="margin-bottom:3px;">${t}</li>`).join('')}
             </ul>
-            <div style="background:#f0f9ff; border:1px dashed #7dd3fc; border-radius:6px; padding:6px 9px; font-size:0.71rem; color:#0c4a6e; line-height:1.45;">
-                <strong>📌 Hafalan Pecahan Istimewa:</strong>
-                <code>1/2 = 0,5 = 50%</code> • <code>1/4 = 0,25 = 25%</code> • <code>3/4 = 0,75 = 75%</code> •
-                <code>1/5 = 0,2 = 20%</code> • <code>2/5 = 0,4 = 40%</code> •
-                <code>1/8 = 0,125 = 12,5%</code> • <code>3/8 = 0,375 = 37,5%</code> • <code>5/8 = 0,625 = 62,5%</code> • <code>1/3 ≈ 0,333 = 33,3%</code>
-            </div>
+            ${showSpecialFractions ? `
+                <div style="background:#f0f9ff; border:1px dashed #7dd3fc; border-radius:6px; padding:6px 9px; font-size:0.71rem; color:#0c4a6e; line-height:1.45; margin-bottom:${showSquaresTable ? '6px' : '0'};">
+                    <strong>📌 Hafalan Pecahan Istimewa:</strong>
+                    <code>1/2 = 0,5 = 50%</code> • <code>1/4 = 0,25 = 25%</code> • <code>3/4 = 0,75 = 75%</code> •
+                    <code>1/5 = 0,2 = 20%</code> • <code>2/5 = 0,4 = 40%</code> •
+                    <code>1/8 = 0,125 = 12,5%</code> • <code>3/8 = 0,375 = 37,5%</code> • <code>5/8 = 0,625 = 62,5%</code> • <code>1/3 ≈ 0,333 = 33,3%</code>
+                </div>
+            ` : ''}
+            ${showSquaresTable ? `
+                <div style="background:#f0f9ff; border:1px dashed #7dd3fc; border-radius:6px; padding:6px 9px; font-size:0.71rem; color:#0c4a6e; line-height:1.45;">
+                    <strong>📌 Hafalan Kuadrat Dasar (√):</strong>
+                    <code>1²=1</code> • <code>2²=4</code> • <code>3²=9</code> • <code>4²=16</code> • <code>5²=25</code> • <code>6²=36</code> • <code>7²=49</code> • <code>8²=64</code> • <code>9²=81</code> • <code>10²=100</code> •
+                    <code>11²=121</code> • <code>12²=144</code> • <code>13²=169</code> • <code>14²=196</code> • <code>15²=225</code> • <code>16²=256</code> • <code>17²=289</code> • <code>18²=324</code> • <code>19²=361</code> • <code>20²=400</code>
+                </div>
+            ` : ''}
         </div>
     `;
 }
