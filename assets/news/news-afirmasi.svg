@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="530" cy="275" r="105" fill="#f59e0b" opacity="0.16"/>
+  <rect x="44" y="44" width="140" height="32" rx="16" fill="#f59e0b"/>
+  <text x="114" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0f172a">BISNIS.COM</text>
+  <text x="44" y="145" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#ffffff">Kajian Syarat Khusus</text>
+  <text x="44" y="190" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#fbbf24">PPPK ke CPNS 2027</text>
+  <text x="44" y="242" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1">Telaah Batas Usia &amp; Konversi Masa Kerja Tiap Profesi</text>
+  <rect x="44" y="286" width="120" height="6" rx="3" fill="#f59e0b"/>
+</svg>
