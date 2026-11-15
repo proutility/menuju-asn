@@ -6,7 +6,7 @@ service cloud.firestore {
     
     // 1. Cek apakah Super Admin (Akses Mutlak PRO-TAMA)
     function isSuperAdmin() {
-      return request.auth != null && request.auth.token.email in ["ilhamnp22@gmail.com", "inurprtma22@gmail.com"];
+      return request.auth != null && request.auth.token.email in ["tamaverseapp@gmail.com"];
     }
 
     // 1B. Cek apakah Super Admin khusus MENUJU ASN (CPNS 2026)

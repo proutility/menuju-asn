@@ -5,6 +5,7 @@
 import { 
     auth, provider, db, ADMIN_EMAILS, COLLECTIONS,
     signInWithPopup, signOut, onAuthStateChanged,
+    collection, getDocs, deleteDoc, query, limit,
     doc, getDoc, setDoc, updateDoc, onSnapshot
 } from "./firebase-config.js";
 
@@ -123,11 +124,16 @@ function updateAuthUI(user) {
         if (sidebarTierLabel) sidebarTierLabel.textContent = prof.isPaid || prof.isAdmin ? `PAKET ${tierText}` : 'AKUN FREE';
         if (kpiTierValue) kpiTierValue.textContent = tierText;
 
+        const navCmdBtn = document.getElementById('navCommandCenterBtn');
+        if (navCmdBtn) navCmdBtn.style.display = prof.isAdmin ? 'flex' : 'none';
+
         if (preLoginEl) preLoginEl.style.display = 'none';
         if (lobbyEl && window.currentAppMode === 'lobby') {
             lobbyEl.style.display = 'flex';
         }
     } else {
+        const navCmdBtn = document.getElementById('navCommandCenterBtn');
+        if (navCmdBtn) navCmdBtn.style.display = 'none';
         if (btnAuth) btnAuth.style.display = 'inline-flex';
         if (userProfileEl) userProfileEl.style.display = 'none';
         if (preLoginEl) preLoginEl.style.display = 'block';
@@ -168,6 +174,10 @@ window.eksekusiLogout = async () => {
 };
 
 window.switchAppView = (viewName) => {
+    if (viewName === 'command' && !window.currentUserProfile?.isAdmin) {
+        return Swal.fire('Akses Ditolak', 'Halaman ini khusus Super Admin.', 'error');
+    }
+
     document.querySelectorAll('.app-view').forEach(v => v.classList.remove('active'));
     const targetView = document.getElementById(`view-${viewName}`);
     if (targetView) targetView.classList.add('active');
@@ -176,6 +186,229 @@ window.switchAppView = (viewName) => {
         btn.classList.toggle('active', btn.getAttribute('data-view') === viewName);
     });
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    if (viewName === 'command') {
+        window.loadCommandCenterData();
+    }
+};
+
+// ==========================================================
+// SUPER ADMIN COMMAND CENTER (tamaverseapp@gmail.com)
+// ==========================================================
+window.ccCachedUsers = [];
+
+window.switchCommandTab = (tabName) => {
+    document.querySelectorAll('.cc-tab').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-cctab') === tabName);
+    });
+    document.querySelectorAll('.cc-panel').forEach(panel => {
+        panel.classList.toggle('active', panel.id === `ccPanel-${tabName}`);
+    });
+};
+
+window.loadCommandCenterData = async () => {
+    if (!window.currentUserProfile?.isAdmin) return;
+
+    try {
+        // 1. Load Users (Radar Peserta & Langganan)
+        const usersSnap = await getDocs(query(collection(db, COLLECTIONS.USERS), limit(100)));
+        window.ccCachedUsers = [];
+        let paidCount = 0;
+        usersSnap.forEach(d => {
+            const u = { id: d.id, ...d.data() };
+            window.ccCachedUsers.push(u);
+            if (u.isPaid && u.tier && u.tier !== 'free') paidCount++;
+        });
+        const statUsers = document.getElementById('ccStatUsers');
+        const statPaid = document.getElementById('ccStatPaid');
+        if (statUsers) statUsers.textContent = window.ccCachedUsers.length;
+        if (statPaid) statPaid.textContent = paidCount;
+        window.filterCommandUsers();
+
+        // 2. Load Rooms (Monitor Room Mabar)
+        const roomsSnap = await getDocs(query(collection(db, COLLECTIONS.ROOMS), limit(50)));
+        const roomsBody = document.getElementById('ccRoomsTableBody');
+        const statRooms = document.getElementById('ccStatRooms');
+        if (statRooms) statRooms.textContent = roomsSnap.size;
+        if (roomsBody) {
+            if (roomsSnap.empty) {
+                roomsBody.innerHTML = '<tr><td colspan="5" class="cc-empty">Belum ada room mabar aktif saat ini.</td></tr>';
+            } else {
+                let html = '';
+                roomsSnap.forEach(d => {
+                    const r = d.data();
+                    const pCount = r.players ? Object.keys(r.players).length : 0;
+                    const maxP = r.maxPlayers || 1;
+                    html += `
+                        <tr>
+                            <td><strong>#${d.id}</strong></td>
+                            <td>${r.hostName || '-'}</td>
+                            <td><span class="cc-tier-badge">${String(r.tier || 'bronze').toUpperCase()}</span> (${pCount}/${maxP})</td>
+                            <td>${r.status || 'waiting'}</td>
+                            <td>
+                                <button class="cc-btn danger" onclick="window.adminTutupRoom('${d.id}')">Tutup</button>
+                            </td>
+                        </tr>
+                    `;
+                });
+                roomsBody.innerHTML = html;
+            }
+        }
+
+        // 3. Load Reports (Laporan Masuk)
+        const reportsSnap = await getDocs(query(collection(db, 'laporan_soal'), limit(50)));
+        const reportsList = document.getElementById('ccReportsList');
+        const statReports = document.getElementById('ccStatReports');
+        if (statReports) statReports.textContent = reportsSnap.size;
+        if (reportsList) {
+            if (reportsSnap.empty) {
+                reportsList.innerHTML = '<div class="cc-empty">Belum ada laporan masuk dari peserta.</div>';
+            } else {
+                let rHtml = '';
+                reportsSnap.forEach(d => {
+                    const rep = d.data();
+                    const status = rep.status || 'pending';
+                    rHtml += `
+                        <div class="cc-report-card">
+                            <div>
+                                <div class="cc-report-head">
+                                    <strong>${rep.judul || 'Laporan Peserta'}</strong>
+                                    <span class="cc-status-pill ${status}">${status.toUpperCase()}</span>
+                                </div>
+                                <p>${rep.pesan || rep.keterangan || '-'}</p>
+                                <small>Pelapor: ${rep.email || rep.uid_pelapor || '-'}</small>
+                            </div>
+                            ${status !== 'selesai' ? `<button class="cc-btn success" onclick="window.adminSelesaiLaporan('${d.id}')">Tandai Selesai</button>` : ''}
+                        </div>
+                    `;
+                });
+                reportsList.innerHTML = rHtml;
+            }
+        }
+
+        // 4. Load Global Settings
+        const settingsSnap = await getDoc(doc(db, COLLECTIONS.SETTINGS, 'global'));
+        if (settingsSnap.exists()) {
+            const s = settingsSnap.data();
+            const tAkbar = document.getElementById('ccToggleAkbar');
+            const tSub = document.getElementById('ccToggleFreeSubtes');
+            const ann = document.getElementById('ccAnnouncementInput');
+            if (tAkbar) tAkbar.checked = !!s.unlockAkbar;
+            if (tSub) tSub.checked = !!s.unlockFreeSubtes;
+            if (ann) ann.value = s.announcement || '';
+        }
+    } catch (err) {
+        console.error('Gagal memuat Command Center:', err);
+        Swal.fire('Gagal Memuat', err.message, 'error');
+    }
+};
+
+window.filterCommandUsers = () => {
+    const tbody = document.getElementById('ccUsersTableBody');
+    if (!tbody) return;
+    const qText = (document.getElementById('ccSearchUser')?.value || '').toLowerCase();
+    const qTier = document.getElementById('ccFilterTier')?.value || 'all';
+
+    const filtered = (window.ccCachedUsers || []).filter(u => {
+        const matchText = (u.nama || '').toLowerCase().includes(qText) || (u.email || '').toLowerCase().includes(qText);
+        const userTier = (u.tier || 'free').toLowerCase();
+        const matchTier = qTier === 'all' || userTier === qTier;
+        return matchText && matchTier;
+    });
+
+    if (filtered.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = filtered.map(u => {
+        const tier = (u.tier || 'free').toLowerCase();
+        const blocked = !!u.isBlocked;
+        return `
+            <tr>
+                <td>
+                    <strong>${u.nama || 'Pejuang ASN'}</strong><br>
+                    <small style="color:#64748b;">${u.email || '-'}</small>
+                </td>
+                <td><span class="cc-tier-badge ${tier}">${tier.toUpperCase()}</span></td>
+                <td>${blocked ? '<span class="cc-status-pill blocked">DIBLOKIR</span>' : '<span class="cc-status-pill active">AKTIF</span>'}</td>
+                <td>
+                    <select id="tierSelect-${u.id}" class="cc-select-mini">
+                        <option value="free" ${tier === 'free' ? 'selected' : ''}>FREE</option>
+                        <option value="satuan" ${tier === 'satuan' ? 'selected' : ''}>SATUAN</option>
+                        <option value="bronze" ${tier === 'bronze' ? 'selected' : ''}>BRONZE</option>
+                        <option value="silver" ${tier === 'silver' ? 'selected' : ''}>SILVER</option>
+                        <option value="gold" ${tier === 'gold' ? 'selected' : ''}>GOLD</option>
+                    </select>
+                </td>
+                <td class="cc-actions-cell">
+                    <button class="cc-btn primary" onclick="window.adminUbahTierUser('${u.id}')">Simpan</button>
+                    <button class="cc-btn ${blocked ? 'success' : 'danger'}" onclick="window.adminToggleBlokirUser('${u.id}', ${blocked})">
+                        ${blocked ? 'Buka' : 'Blokir'}
+                    </button>
+                </td>
+            </tr>
+        `;
+    }).join('');
+};
+
+window.adminUbahTierUser = async (uid) => {
+    const sel = document.getElementById(`tierSelect-${uid}`);
+    if (!sel) return;
+    const newTier = sel.value;
+    const isPaid = newTier !== 'free';
+    try {
+        await updateDoc(doc(db, COLLECTIONS.USERS, uid), { tier: newTier, isPaid });
+        Swal.fire({ icon: 'success', title: 'Paket Diperbarui', text: `User diubah ke paket ${newTier.toUpperCase()}.`, timer: 1400, showConfirmButton: false });
+        window.loadCommandCenterData();
+    } catch (err) {
+        Swal.fire('Gagal Update', err.message, 'error');
+    }
+};
+
+window.adminToggleBlokirUser = async (uid, currentBlocked) => {
+    try {
+        await updateDoc(doc(db, COLLECTIONS.USERS, uid), { isBlocked: !currentBlocked });
+        window.loadCommandCenterData();
+    } catch (err) {
+        Swal.fire('Gagal', err.message, 'error');
+    }
+};
+
+window.adminTutupRoom = async (roomCode) => {
+    try {
+        await deleteDoc(doc(db, COLLECTIONS.ROOMS, roomCode));
+        Swal.fire({ icon: 'success', title: 'Room Ditutup', timer: 1200, showConfirmButton: false });
+        window.loadCommandCenterData();
+    } catch (err) {
+        Swal.fire('Gagal Tutup Room', err.message, 'error');
+    }
+};
+
+window.adminSelesaiLaporan = async (docId) => {
+    try {
+        await updateDoc(doc(db, 'laporan_soal', docId), { status: 'selesai' });
+        window.loadCommandCenterData();
+    } catch (err) {
+        Swal.fire('Gagal', err.message, 'error');
+    }
+};
+
+window.adminSimpanPengaturan = async () => {
+    const unlockAkbar = !!document.getElementById('ccToggleAkbar')?.checked;
+    const unlockFreeSubtes = !!document.getElementById('ccToggleFreeSubtes')?.checked;
+    const announcement = (document.getElementById('ccAnnouncementInput')?.value || '').trim();
+    try {
+        await setDoc(doc(db, COLLECTIONS.SETTINGS, 'global'), {
+            unlockAkbar,
+            unlockFreeSubtes,
+            announcement,
+            updatedAt: Date.now()
+        }, { merge: true });
+        Swal.fire({ icon: 'success', title: 'Pengaturan Disimpan', timer: 1400, showConfirmButton: false });
+    } catch (err) {
+        Swal.fire('Gagal Simpan', err.message, 'error');
+    }
 };
 
 window.kirimPesanDiskusi = (e) => {

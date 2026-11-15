@@ -319,6 +319,10 @@
                 <button class="sidebar-item" data-view="diskusi" onclick="window.switchAppView('diskusi')">
                     <i class="fas fa-comments"></i><span>Diskusi &amp; Chat</span>
                 </button>
+                <button class="sidebar-item admin-nav-item" id="navCommandCenterBtn" data-view="command" style="display:none;" onclick="window.switchAppView('command')">
+                    <i class="fas fa-terminal"></i><span>Command Center</span>
+                    <span class="sidebar-badge admin">ADMIN</span>
+                </button>
             </nav>
 
             <div class="sidebar-upgrade-box">
@@ -921,6 +925,156 @@
                             <li><i class="fas fa-check-circle"></i><span>Room Multiplayer hingga <strong>3 Orang</strong></span></li>
                         </ul>
                         <button class="btn-pricing gold-btn" onclick="window.bukaModalUpgrade('Paket Gold', 'Rp 99.999')">Pilih Gold</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 8: SUPER ADMIN COMMAND CENTER (tamaverseapp@gmail.com) -->
+            <section id="view-command" class="app-view">
+                <div class="view-banner command-banner">
+                    <div class="command-banner-row">
+                        <div>
+                            <h2><i class="fas fa-terminal"></i> Super Admin Command Center</h2>
+                            <p>Pusat kendali eksekutif MENUJU ASN • Radar Peserta, Kelola Langganan, Room Mabar, Laporan Masuk &amp; Saklar Paket.</p>
+                        </div>
+                        <button class="btn-dash-gold" onclick="window.loadCommandCenterData()">
+                            <i class="fas fa-sync-alt"></i> Refresh Data
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 4 KPI EKSEKUTIF -->
+                <div class="dash-kpi-grid">
+                    <div class="dash-kpi-card">
+                        <div class="kpi-icon blue"><i class="fas fa-users"></i></div>
+                        <div>
+                            <div class="kpi-label">Total Peserta</div>
+                            <div class="kpi-value" id="ccStatUsers">0</div>
+                            <div class="kpi-sub">Terdaftar di Firestore</div>
+                        </div>
+                    </div>
+                    <div class="dash-kpi-card">
+                        <div class="kpi-icon gold"><i class="fas fa-crown"></i></div>
+                        <div>
+                            <div class="kpi-label">Member Berbayar</div>
+                            <div class="kpi-value" id="ccStatPaid">0</div>
+                            <div class="kpi-sub">Bronze • Silver • Gold</div>
+                        </div>
+                    </div>
+                    <div class="dash-kpi-card">
+                        <div class="kpi-icon green"><i class="fas fa-satellite-dish"></i></div>
+                        <div>
+                            <div class="kpi-label">Room Mabar</div>
+                            <div class="kpi-value" id="ccStatRooms">0</div>
+                            <div class="kpi-sub">Aktif / Menunggu</div>
+                        </div>
+                    </div>
+                    <div class="dash-kpi-card">
+                        <div class="kpi-icon purple"><i class="fas fa-inbox"></i></div>
+                        <div>
+                            <div class="kpi-label">Laporan Masuk</div>
+                            <div class="kpi-value" id="ccStatReports">0</div>
+                            <div class="kpi-sub">Pengaduan &amp; Koreksi</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUB-TAB COMMAND CENTER -->
+                <div class="cc-tabs">
+                    <button class="cc-tab active" data-cctab="users" onclick="window.switchCommandTab('users')">
+                        <i class="fas fa-radar"></i> Radar Peserta &amp; Langganan
+                    </button>
+                    <button class="cc-tab" data-cctab="rooms" onclick="window.switchCommandTab('rooms')">
+                        <i class="fas fa-door-open"></i> Monitor Room Mabar
+                    </button>
+                    <button class="cc-tab" data-cctab="reports" onclick="window.switchCommandTab('reports')">
+                        <i class="fas fa-flag"></i> Laporan Masuk
+                    </button>
+                    <button class="cc-tab" data-cctab="settings" onclick="window.switchCommandTab('settings')">
+                        <i class="fas fa-sliders-h"></i> Saklar Paket &amp; Pengumuman
+                    </button>
+                </div>
+
+                <!-- PANEL CC 1: RADAR PESERTA & KELOLA LANGGANAN -->
+                <div id="ccPanel-users" class="cc-panel active">
+                    <div class="cc-toolbar">
+                        <input type="text" id="ccSearchUser" placeholder="Cari nama atau email peserta..." oninput="window.filterCommandUsers()" />
+                        <select id="ccFilterTier" onchange="window.filterCommandUsers()">
+                            <option value="all">Semua Paket</option>
+                            <option value="free">FREE</option>
+                            <option value="satuan">SATUAN</option>
+                            <option value="bronze">BRONZE</option>
+                            <option value="silver">SILVER</option>
+                            <option value="gold">GOLD</option>
+                        </select>
+                    </div>
+                    <div class="cc-table-wrap">
+                        <table class="cc-table">
+                            <thead>
+                                <tr>
+                                    <th>Peserta</th>
+                                    <th>Paket Saat Ini</th>
+                                    <th>Status</th>
+                                    <th>Ubah Paket</th>
+                                    <th>Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ccUsersTableBody">
+                                <tr><td colspan="5" class="cc-empty">Klik Refresh Data atau tunggu pemuatan...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- PANEL CC 2: MONITOR ROOM MABAR -->
+                <div id="ccPanel-rooms" class="cc-panel">
+                    <div class="cc-table-wrap">
+                        <table class="cc-table">
+                            <thead>
+                                <tr>
+                                    <th>Kode Room</th>
+                                    <th>Host</th>
+                                    <th>Paket &amp; Kapasitas</th>
+                                    <th>Status</th>
+                                    <th>Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ccRoomsTableBody">
+                                <tr><td colspan="5" class="cc-empty">Memuat daftar room...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- PANEL CC 3: LAPORAN MASUK -->
+                <div id="ccPanel-reports" class="cc-panel">
+                    <div id="ccReportsList" class="cc-reports-list">
+                        <div class="cc-empty">Memuat laporan masuk...</div>
+                    </div>
+                </div>
+
+                <!-- PANEL CC 4: SAKLAR PAKET & PENGUMUMAN -->
+                <div id="ccPanel-settings" class="cc-panel">
+                    <div class="cc-settings-card">
+                        <h3>Kontrol Akses Paket Gratis &amp; Pengumuman Global</h3>
+                        <p>Atur buka/kunci paket gratis dan pesan banner darurat tanpa perlu edit kode.</p>
+                        <div class="cc-switch-list">
+                            <label class="cc-switch-row">
+                                <span><strong>Buka Simulasi Akbar SKD (110 Soal)</strong><br><small>Aktifkan jika kurasi 110 soal terbaik dari 330 soal sudah siap.</small></span>
+                                <input type="checkbox" id="ccToggleAkbar" />
+                            </label>
+                            <label class="cc-switch-row">
+                                <span><strong>Buka 9 Paket Gratis (3 TWK, 3 TIU, 3 TKP)</strong><br><small>Aktifkan akses paket latihan gratis subtes.</small></span>
+                                <input type="checkbox" id="ccToggleFreeSubtes" />
+                            </label>
+                        </div>
+                        <div class="cc-form-group">
+                            <label for="ccAnnouncementInput">Banner Pengumuman Global (Opsional)</label>
+                            <input type="text" id="ccAnnouncementInput" placeholder="Contoh: Maintenance server malam ini pukul 23.00 WIB..." />
+                        </div>
+                        <button class="btn-dash-gold" onclick="window.adminSimpanPengaturan()">
+                            <i class="fas fa-save"></i> Simpan Pengaturan
+                        </button>
                     </div>
                 </div>
             </section>
