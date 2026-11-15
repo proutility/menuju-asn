@@ -1054,7 +1054,7 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
     let saveId = tipe;
 
     if (tipe === 'twk') {
-        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK');
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
         if (paketNo) {
             const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
             window.currentQuestions = allPaidTwk.slice((no - 1) * 30, no * 30);
@@ -2436,12 +2436,12 @@ function getQuestionsForRoomPaket(paketKey) {
     const rawData = window.DATA_SKD_CPNS || [];
     const key = String(paketKey || 'full');
     if (key === 'twk') {
-        const qs = rawData.filter(q => q.kategori === 'TWK').slice(0, 30);
+        const qs = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id)).slice(0, 30);
         return { questions: qs, durationSec: qs.length * 60, label: 'TWK Paket #1' };
     }
     if (key.startsWith('twk_')) {
         const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
-        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK');
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
         const qs = allPaidTwk.slice((no - 1) * 30, no * 30);
         return { questions: qs, durationSec: qs.length * 60, label: `TWK Paket #${no}` };
     }
