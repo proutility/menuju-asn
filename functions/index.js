@@ -1,12 +1,26 @@
 const { onRequest } = require("firebase-functions/v2/https");
-const admin = require("firebase-admin");
 const crypto = require("crypto");
 
-if (!admin.apps.length) {
-  admin.initializeApp();
+let _admin = null;
+let _db = null;
+
+function getAdmin() {
+  if (!_admin) {
+    _admin = require("firebase-admin");
+    if (!_admin.apps.length) {
+      _admin.initializeApp();
+    }
+  }
+  return _admin;
 }
 
-const db = admin.firestore();
+function getDb() {
+  if (!_db) {
+    _db = getAdmin().firestore();
+  }
+  return _db;
+}
+
 const SUPER_ADMIN_EMAIL = "tamaverseapp@gmail.com";
 const GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-2.5-flash"];
 
@@ -32,6 +46,7 @@ async function getGeminiApiKey() {
   if (process.env.GEMINI_API_KEY) {
     return process.env.GEMINI_API_KEY.trim();
   }
+  const db = getDb();
   const cpnsCfg = await db.collection("cpns_settings").doc("ai_config").get();
   if (cpnsCfg.exists && cpnsCfg.data()?.apiKey) {
     return String(cpnsCfg.data().apiKey).trim();
@@ -101,7 +116,7 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
 
 async function getUserTierAndQuota(uid, email) {
   const isAdmin = String(email || "").toLowerCase() === SUPER_ADMIN_EMAIL;
-  const userRef = db.collection("cpns_users").doc(uid);
+  const userRef = getDb().collection("cpns_users").doc(uid);
   const snap = await userRef.get();
   const data = snap.exists ? snap.data() : {};
   let tier = "free";
@@ -146,6 +161,8 @@ exports.menujuAsnBot = onRequest(
     }
 
     try {
+      const admin = getAdmin();
+      const db = getDb();
       const authHeader = req.headers.authorization || "";
       if (!authHeader.startsWith("Bearer ")) {
         return res.status(401).json({ error: "Silakan login terlebih dahulu." });
