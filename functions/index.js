@@ -22,7 +22,9 @@ function getDb() {
 }
 
 const SUPER_ADMIN_EMAIL = "tamaverseapp@gmail.com";
-const GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3-flash-preview", "gemini-3.6-flash"];
+const GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.6-flash"];
+let _cachedApiKey = "";
+let _cachedApiKeyAt = 0;
 
 const DAILY_LIMITS = {
   free: { explain: 0, weakness: 0, newsSearch: 0 },
@@ -46,14 +48,21 @@ async function getGeminiApiKey() {
   if (process.env.GEMINI_API_KEY) {
     return process.env.GEMINI_API_KEY.trim();
   }
+  if (_cachedApiKey && Date.now() - _cachedApiKeyAt < 180000) {
+    return _cachedApiKey;
+  }
   const db = getDb();
   const cpnsCfg = await db.collection("cpns_settings").doc("ai_config").get();
   if (cpnsCfg.exists && cpnsCfg.data()?.apiKey) {
-    return String(cpnsCfg.data().apiKey).trim();
+    _cachedApiKey = String(cpnsCfg.data().apiKey).trim();
+    _cachedApiKeyAt = Date.now();
+    return _cachedApiKey;
   }
   const protamaCfg = await db.collection("settings").doc("ai_config").get();
   if (protamaCfg.exists && protamaCfg.data()?.apiKey) {
-    return String(protamaCfg.data().apiKey).trim();
+    _cachedApiKey = String(protamaCfg.data().apiKey).trim();
+    _cachedApiKeyAt = Date.now();
+    return _cachedApiKey;
   }
   return "";
 }
@@ -65,12 +74,16 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
     let json;
     try {
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
+      const thinkingConfig = model === "gemini-3.8-flash"
+        ? { thinkingLevel: "LOW" }
+        : { thinkingBudget: 0 };
       const body = {
         systemInstruction: { parts: [{ text: systemInstruction }] },
         contents: [{ role: "user", parts: [{ text: prompt }] }],
         generationConfig: {
-          temperature: 0.4,
-          maxOutputTokens: 1200
+          temperature: 0.3,
+          maxOutputTokens: 900,
+          thinkingConfig
         }
       };
       if (useGoogleSearch) {
@@ -80,7 +93,8 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
       resp = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body)
+        body: JSON.stringify(body),
+        signal: AbortSignal.timeout(12000)
       });
       json = await resp.json();
     } catch (err) {
@@ -91,14 +105,14 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
     if (!resp.ok) {
       const msg = json?.error?.message || `HTTP ${resp.status}`;
       errors.push(`[${model} HTTP ${resp.status}] ${msg}`);
-      if (resp.status === 404 || resp.status === 503 || resp.status === 429) {
+      if (resp.status === 404 || resp.status === 503 || resp.status === 429 || resp.status === 400) {
         continue;
       }
       throw new Error(errors.join(" | "));
     }
 
     const cand = json?.candidates?.[0];
-    const parts = cand?.content?.parts || [];
+    const parts = (cand?.content?.parts || []).filter((p) => !p.thought);
     const text = parts.map((p) => p.text || "").join("\n").trim();
     if (!text) {
       errors.push(`[${model}] Respon AI kosong.`);
@@ -162,7 +176,7 @@ async function incrementQuota(userRef, today, counts, actionKey) {
 }
 
 exports.menujuAsnBot = onRequest(
-  { region: "asia-southeast2", cors: true, maxInstances: 20 },
+  { region: "asia-southeast2", cors: true, maxInstances: 20, memory: "512MiB", timeoutSeconds: 60 },
   async (req, res) => {
     if (req.method === "OPTIONS") {
       return res.status(204).send("");
