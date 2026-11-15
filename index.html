@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.5.1">
+    <link rel="stylesheet" href="style.css?v=2.5.2">
 </head>
 <body>
 
@@ -1387,14 +1387,15 @@
     <script src="data_skd_cpns.js?v=2.4.3"></script>
     <script src="data_twk_gratis.js?v=1.0.0"></script>
     <script src="data_tiu_gratis.js?v=1.0.0"></script>
+    <script src="data_tiu_batch2.js?v=2.5.2"></script>
     <script src="data_tkp_gratis.js?v=1.0.0"></script>
-    <script type="module" src="app.js?v=2.5.1"></script>
+    <script type="module" src="app.js?v=2.5.2"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.5.1')
+                navigator.serviceWorker.register('./sw.js?v=2.5.2')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });

@@ -610,7 +610,8 @@ window.renderTiu40PaketCards = () => {
     const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
     const fragment = document.createDocumentFragment();
 
-    for (let i = 1; i <= 40; i++) {
+    for (let i = 1; i <= 90; i++) {
+        const isBatch2 = i > 40;
         const card = document.createElement('div');
         card.className = 'card-mode packet-card paid tiu-40-card';
         card.setAttribute('data-tier', 'paid');
@@ -619,22 +620,22 @@ window.renderTiu40PaketCards = () => {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tiu', ${i})"><i class="fas fa-play"></i> Mulai Latihan TIU #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TIU Paket #${i} (1.400 Soal + 350 Cadangan)', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TIU #${i}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TIU Paket #${i} (Batch ${isBatch2 ? '2 • 2026 Baru' : '1'})', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TIU #${i}</button>`;
 
         card.innerHTML = `
             <div>
                 <div class="packet-badges">
                     <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
-                    <span class="badge-cat">TIU • PAKET ${i}</span>
+                    <span class="badge-cat">${isBatch2 ? 'TIU 2026 BARU' : 'TIU'} • PAKET ${i}</span>
                 </div>
                 <div class="card-mode-header">
                     <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
                     <div>
-                        <h3>TIU Paket #${i}</h3>
-                        <span style="font-size:0.75rem; color:#b45309; font-weight:700;">35 Soal • 35 Menit • Mode Lama &amp; Baru</span>
+                        <h3>TIU Paket #${i}${isBatch2 ? ' <span style="font-size:0.65rem;background:#dbeafe;color:#1d4ed8;padding:2px 6px;border-radius:999px;vertical-align:middle;">2026 BARU</span>' : ''}</h3>
+                        <span style="font-size:0.75rem; color:#b45309; font-weight:700;">35 Soal • 35 Menit • ${isBatch2 ? 'Kecukupan Data &amp; Matriks' : 'Mode Lama &amp; Baru'}</span>
                     </div>
                 </div>
-                <p>Simulasi TIU 35 soal seimbang (12 Verbal, 16 Numerik, 7 Figural SVG • Paket ${i} dari 40).</p>
+                <p>${isBatch2 ? `Format TIU SKD Baru 2026: Kecukupan Data, Matriks Deret, Tabel Kombinasi, Argumen &amp; Figural 9 Kotak (Paket ${i} dari 90).` : `Simulasi TIU 35 soal seimbang (12 Verbal, 16 Numerik, 7 Figural SVG • Paket ${i} dari 90).`}</p>
             </div>
             ${ctaHtml}
         `;
@@ -1087,11 +1088,17 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
         title = `TWK Gratis — Paket ${no}`;
         saveId = `twk_gratis_${no}`;
     } else if (tipe === 'tiu') {
-        const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
-        const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
-        window.currentQuestions = allPaidTiu.slice((no - 1) * 35, no * 35);
+        const no = Math.max(1, Math.min(90, Number(paketNo) || 1));
+        if (no <= 40) {
+            const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
+            window.currentQuestions = allPaidTiu.slice((no - 1) * 35, no * 35);
+            title = `TIU Paket #${no}`;
+        } else {
+            const batch2Tiu = window.DATA_TIU_BATCH2 || [];
+            window.currentQuestions = batch2Tiu.slice((no - 41) * 35, (no - 40) * 35);
+            title = `TIU Paket #${no} (2026 Baru)`;
+        }
         window.examTimeRemaining = window.currentQuestions.length * 60; // 35 Menit
-        title = `TIU Paket #${no}`;
         saveId = `tiu_${no}`;
     } else if (tipe === 'tiu_gratis') {
         const no = Math.max(1, Math.min(3, Number(paketNo) || 1));
@@ -2736,8 +2743,8 @@ function buildArenaPaketOptionsHtml() {
     for (let i = 1; i <= 40; i++) {
         html += `<option value="twk_${i}">TWK Paket #${i} (30 Soal)</option>`;
     }
-    for (let i = 1; i <= 40; i++) {
-        html += `<option value="tiu_${i}">TIU Paket #${i} (35 Soal)</option>`;
+    for (let i = 1; i <= 90; i++) {
+        html += `<option value="tiu_${i}">TIU Paket #${i}${i > 40 ? ' [2026 Baru]' : ''} (35 Soal)</option>`;
     }
     for (let i = 1; i <= 40; i++) {
         html += `<option value="tkp_${i}">TKP Paket #${i} (45 Soal)</option>`;
@@ -2759,10 +2766,11 @@ function getQuestionsForRoomPaket(paketKey) {
         return { questions: qs, durationSec: qs.length * 60, label: `TWK Paket #${no}` };
     }
     if (key.startsWith('tiu_')) {
-        const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
-        const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
-        const qs = allPaidTiu.slice((no - 1) * 35, no * 35);
-        return { questions: qs, durationSec: qs.length * 60, label: `TIU Paket #${no}` };
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        const qs = no <= 40
+            ? rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id)).slice((no - 1) * 35, no * 35)
+            : (window.DATA_TIU_BATCH2 || []).slice((no - 41) * 35, (no - 40) * 35);
+        return { questions: qs, durationSec: qs.length * 60, label: `TIU Paket #${no}${no > 40 ? ' (2026 Baru)' : ''}` };
     }
     if (key.startsWith('tkp_')) {
         const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
@@ -5053,7 +5061,7 @@ window.refreshBotAndNewsView = async () => {
 window.jalankanAnalisisKelemahanAI = async () => {
     const outBox = document.getElementById('botWeaknessResult');
     if (!outBox) return;
-    const rawList = JSON.parse(localStorage.getItem('menuju_asn_brankas_v1') || '[]');
+    const rawList = getBrankasHistory();
     if (!rawList.length) {
         outBox.style.display = 'block';
         outBox.innerHTML = 'Belum ada riwayat simulasi di Brankas Pembahasan. Kerjakan minimal 1 latihan/tryout dulu agar MenujuASN-BOT bisa membaca pola kelemahanmu.';

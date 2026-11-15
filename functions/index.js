@@ -22,7 +22,7 @@ function getDb() {
 }
 
 const SUPER_ADMIN_EMAIL = "tamaverseapp@gmail.com";
-const GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-2.5-flash"];
+const GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3-flash-preview", "gemini-3.6-flash"];
 
 const DAILY_LIMITS = {
   free: { explain: 0, weakness: 0, newsSearch: 0 },
@@ -59,8 +59,10 @@ async function getGeminiApiKey() {
 }
 
 async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch = false }) {
-  let lastError = null;
+  const errors = [];
   for (const model of GEMINI_MODELS) {
+    let resp;
+    let json;
     try {
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
       const body = {
@@ -75,43 +77,44 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
         body.tools = [{ google_search: {} }];
       }
 
-      const resp = await fetch(url, {
+      resp = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
       });
+      json = await resp.json();
+    } catch (err) {
+      errors.push(`[${model}] ${err.message}`);
+      continue;
+    }
 
-      const json = await resp.json();
-      if (!resp.ok) {
-        const msg = json?.error?.message || `HTTP ${resp.status}`;
-        lastError = new Error(`[${model}] ${msg}`);
-        if (resp.status === 404 || resp.status === 503 || resp.status === 429) {
-          continue;
-        }
-        throw lastError;
-      }
-
-      const cand = json?.candidates?.[0];
-      const parts = cand?.content?.parts || [];
-      const text = parts.map((p) => p.text || "").join("\n").trim();
-      if (!text) {
-        lastError = new Error(`[${model}] Respon AI kosong.`);
+    if (!resp.ok) {
+      const msg = json?.error?.message || `HTTP ${resp.status}`;
+      errors.push(`[${model} HTTP ${resp.status}] ${msg}`);
+      if (resp.status === 404 || resp.status === 503 || resp.status === 429) {
         continue;
       }
-
-      const rawChunks = cand?.groundingMetadata?.groundingChunks || [];
-      const sources = rawChunks
-        .map((c) => c.web)
-        .filter((w) => w && w.uri)
-        .slice(0, 5)
-        .map((w) => ({ title: w.title || w.uri, uri: w.uri }));
-
-      return { text, model, sources };
-    } catch (err) {
-      lastError = err;
+      throw new Error(errors.join(" | "));
     }
+
+    const cand = json?.candidates?.[0];
+    const parts = cand?.content?.parts || [];
+    const text = parts.map((p) => p.text || "").join("\n").trim();
+    if (!text) {
+      errors.push(`[${model}] Respon AI kosong.`);
+      continue;
+    }
+
+    const rawChunks = cand?.groundingMetadata?.groundingChunks || [];
+    const sources = rawChunks
+      .map((c) => c.web)
+      .filter((w) => w && w.uri)
+      .slice(0, 5)
+      .map((w) => ({ title: w.title || w.uri, uri: w.uri }));
+
+    return { text, model, sources };
   }
-  throw lastError || new Error("Gagal menghubungi server Gemini.");
+  throw new Error(errors.join(" | ") || "Gagal menghubungi server Gemini.");
 }
 
 async function getUserTierAndQuota(uid, email) {
