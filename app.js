@@ -714,6 +714,9 @@ document.addEventListener('DOMContentLoaded', () => {
     window.renderTwk40PaketCards();
     window.renderTiu40PaketCards();
     window.renderTkp40PaketCards();
+    if (typeof window.initSidebarCollapse === 'function') {
+        window.initSidebarCollapse();
+    }
     if (typeof window.loadQuestionOverridesFromCloud === 'function') {
         window.loadQuestionOverridesFromCloud();
     }
@@ -721,6 +724,40 @@ document.addEventListener('DOMContentLoaded', () => {
         window.renderSavedExamsOnBeranda();
     }
 });
+
+// ==========================================================
+// SIDEBAR MENU UTAMA: MINIMIZE / EXPAND (TERSIMPAN DI BROWSER)
+// ==========================================================
+window.applySidebarCollapse = (collapsed) => {
+    const shell = document.getElementById('lobbySection');
+    const btn = document.getElementById('sidebarCollapseBtn');
+    if (!shell) return;
+    shell.classList.toggle('sidebar-collapsed', Boolean(collapsed));
+    if (btn) {
+        const label = collapsed ? 'Perlebar Menu' : 'Minimize Menu';
+        btn.title = label;
+        btn.setAttribute('aria-label', label);
+    }
+};
+
+window.toggleSidebarCollapse = () => {
+    const shell = document.getElementById('lobbySection');
+    if (!shell) return;
+    const willCollapse = !shell.classList.contains('sidebar-collapsed');
+    window.applySidebarCollapse(willCollapse);
+    try { localStorage.setItem('menuju_asn_sidebar_collapsed', willCollapse ? '1' : '0'); } catch (_) {}
+};
+
+window.initSidebarCollapse = () => {
+    // Tooltip nama menu saat mode minimize (hover ikon)
+    document.querySelectorAll('#appSidebar .sidebar-item').forEach(item => {
+        const labelEl = item.querySelector('span:not(.sidebar-badge)');
+        if (labelEl && !item.title) item.title = labelEl.textContent.trim();
+    });
+    let saved = false;
+    try { saved = localStorage.getItem('menuju_asn_sidebar_collapsed') === '1'; } catch (_) {}
+    window.applySidebarCollapse(saved);
+};
 
 // ==========================================================
 // ADMIN COMMAND CENTER: QUALITY CONTROL REVIEW & EDIT SOAL

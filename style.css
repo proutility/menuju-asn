@@ -1279,6 +1279,99 @@ footer {
     padding: 4px 10px 8px;
 }
 
+/* ===== SIDEBAR MINIMIZE / COLLAPSE ===== */
+.app-shell,
+.app-sidebar {
+    transition: max-width 0.25s ease, width 0.25s ease, padding 0.25s ease;
+}
+
+.sidebar-head-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-bottom: 2px;
+}
+
+.sidebar-head-row .sidebar-group-label {
+    padding-bottom: 4px;
+}
+
+.sidebar-collapse-btn {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+    background: #f8fafc;
+    color: #475569;
+    border-radius: 9px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.16s ease;
+}
+
+.sidebar-collapse-btn:hover {
+    background: #1e3a8a;
+    border-color: #1e3a8a;
+    color: #fbbf24;
+}
+
+.app-shell.sidebar-collapsed {
+    max-width: 1480px;
+}
+
+.app-shell.sidebar-collapsed .app-sidebar {
+    width: 72px;
+    padding: 12px 8px;
+}
+
+.app-shell.sidebar-collapsed .sidebar-head-row {
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.app-shell.sidebar-collapsed .sidebar-group-label,
+.app-shell.sidebar-collapsed .sidebar-item > span,
+.app-shell.sidebar-collapsed .sidebar-upgrade-box {
+    display: none !important;
+}
+
+.app-shell.sidebar-collapsed .sidebar-item {
+    justify-content: center;
+    padding: 12px 0;
+    gap: 0;
+    position: relative;
+}
+
+.app-shell.sidebar-collapsed .sidebar-item i {
+    font-size: 1.05rem;
+    width: auto;
+}
+
+.app-shell.sidebar-collapsed .sidebar-item.admin-nav-item::after,
+.app-shell.sidebar-collapsed .sidebar-item[data-view="studi"]::after,
+.app-shell.sidebar-collapsed .sidebar-item[data-view="bot"]::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #f59e0b;
+}
+
+.app-shell.sidebar-collapsed .sidebar-item[data-view="bot"]::after {
+    background: #0ea5e9;
+}
+
+.app-shell.sidebar-collapsed .sidebar-collapse-btn i {
+    transform: rotate(180deg);
+}
+
 .sidebar-nav {
     display: flex;
     flex-direction: column;

@@ -382,8 +382,13 @@
     <!-- POST-LOGIN APP SHELL (LOBBY DASHBOARD MENUJU ASN) -->
     <div id="lobbySection" class="app-shell" style="display:none;">
         <!-- SIDEBAR NAVIGASI (DESKTOP) -->
-        <aside class="app-sidebar">
-            <div class="sidebar-group-label">MENU UTAMA</div>
+        <aside class="app-sidebar" id="appSidebar">
+            <div class="sidebar-head-row">
+                <div class="sidebar-group-label">MENU UTAMA</div>
+                <button type="button" class="sidebar-collapse-btn" id="sidebarCollapseBtn" onclick="window.toggleSidebarCollapse()" title="Minimize Menu" aria-label="Minimize Menu">
+                    <i class="fas fa-angles-left"></i>
+                </button>
+            </div>
             <nav class="sidebar-nav">
                 <button class="sidebar-item active" data-view="beranda" onclick="window.switchAppView('beranda')">
                     <i class="fas fa-home"></i><span>Beranda</span>
