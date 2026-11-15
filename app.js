@@ -272,6 +272,16 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
     });
 };
 
+window.infoPaketBelumTersedia = (namaPaket) => {
+    Swal.fire({
+        title: '🔒 Paket Soal Belum Tersedia',
+        html: `<p style="font-size:0.9rem; color:#475569;"><b>${namaPaket}</b> masih terkunci dan sedang dalam proses penyusunan bank soal oleh tim <b>MENUJU ASN</b>.</p>`,
+        icon: 'info',
+        confirmButtonText: 'Mengerti',
+        confirmButtonColor: '#1e3a8a'
+    });
+};
+
 // ==========================================================
 // 2. MODE SINGLEPLAYER & ENGINE SOAL (TANPA WRITE PER KLIK)
 // ==========================================================

@@ -1010,6 +1010,17 @@ footer {
     background: #fef3c7;
 }
 
+.btn-card.locked-free {
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1.5px dashed #cbd5e1;
+}
+
+.btn-card.locked-free:hover {
+    background: #e2e8f0;
+    color: #475569;
+}
+
 .mabar-lobby-card {
     background: white;
     border: 1px solid var(--border-color);
