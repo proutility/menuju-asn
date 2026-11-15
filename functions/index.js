@@ -114,6 +114,14 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
 
     return { text, model, sources };
   }
+  const all429 = errors.length > 0 && errors.every((e) => e.includes("HTTP 429"));
+  if (all429 && useGoogleSearch) {
+    throw new Error(
+      "Kuota Google Search Grounding (Tanya Info Live) pada API Key server saat ini sedang limit/habis (HTTP 429). " +
+      "Biasanya ini terjadi jika key masih memakai kuota Free Tier untuk Search Grounding. " +
+      "Fitur Bedah Soal & Analisis Kelemahan tetap berjalan normal; Admin dapat memasang API Key Tier 1 ber-billing di Command Center → Pusat Berita & BOT."
+    );
+  }
   throw new Error(errors.join(" | ") || "Gagal menghubungi server Gemini.");
 }
 

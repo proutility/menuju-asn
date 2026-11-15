@@ -5017,7 +5017,11 @@ async function callMenujuAsnBot(payload) {
 
 function formatBotTextHtml(text) {
     return escapeHtmlMentor(String(text || ''))
+        .replace(/^###\s+(.+)$/gm, '<div style="font-weight:800; color:#0f172a; margin:10px 0 4px;">$1</div>')
+        .replace(/^##\s+(.+)$/gm, '<div style="font-weight:800; font-size:0.95rem; color:#0f172a; margin:10px 0 4px;">$1</div>')
+        .replace(/^\*\s+/gm, '• ')
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>')
         .replace(/\n/g, '<br/>');
 }
 
@@ -5088,22 +5092,39 @@ window.jalankanAnalisisKelemahanAI = async () => {
 
     const recent = rawList.slice(0, 8);
     const subKatErrors = {};
+    const katTotals = { TWK: { got: 0, max: 0 }, TIU: { got: 0, max: 0 }, TKP: { got: 0, max: 0 } };
     const summaryLines = recent.map((att, idx) => {
         (att.items || []).forEach(it => {
+            const kat = String(it.kategori || '').toUpperCase();
+            if (katTotals[kat]) {
+                katTotals[kat].got += Number(it.userPoin || 0);
+                katTotals[kat].max += Number(it.maxPoin || 5);
+            }
             if (!it.isCorrect) {
                 const k = `${it.kategori || 'SKD'} (${it.subKategori || 'Umum'})`;
                 subKatErrors[k] = (subKatErrors[k] || 0) + 1;
             }
         });
-        return `${idx + 1}. ${att.title}: TWK=${att.twkScore || 0}, TIU=${att.tiuScore || 0}, TKP=${att.tkpScore || 0}, Salah=${att.wrongCount || 0}/${att.totalQuestions || 0}`;
+        const twk = Number(att.skorTWK ?? att.twkScore ?? 0);
+        const tiu = Number(att.skorTIU ?? att.tiuScore ?? 0);
+        const tkp = Number(att.skorTKP ?? att.tkpScore ?? 0);
+        const tot = Number(att.totalSkor ?? (twk + tiu + tkp));
+        const maxS = Number(att.maxSkor ?? ((att.totalQuestions || 0) * 5));
+        const ans = Number(att.answeredCount ?? 0);
+        const totQ = Number(att.totalQuestions || 0);
+        return `${idx + 1}. ${att.title}: Skor=${tot}/${maxS} (TWK=${twk}, TIU=${tiu}, TKP=${tkp}), Dijawab=${ans}/${totQ}, Belum Maksimal=${att.wrongCount || 0}/${totQ}`;
     });
+    const akurasiKat = Object.entries(katTotals)
+        .filter(([, v]) => v.max > 0)
+        .map(([k, v]) => `- ${k}: ${v.got}/${v.max} poin (${Math.round((v.got / v.max) * 100)}%)`)
+        .join('\n');
     const topWeak = Object.entries(subKatErrors)
         .sort((a, b) => b[1] - a[1])
         .slice(0, 6)
-        .map(([k, v]) => `- ${k}: ${v} kali belum maksimal`)
+        .map(([k, v]) => `- ${k}: ${v} soal belum maksimal`)
         .join('\n');
 
-    const statsSummary = `Riwayat ${recent.length} latihan terakhir:\n${summaryLines.join('\n')}\n\nTopik paling sering salah/belum maksimal:\n${topWeak || '- Belum terdeteksi'}`;
+    const statsSummary = `Riwayat ${recent.length} latihan terakhir:\n${summaryLines.join('\n')}\n\nCapaian poin per kategori dari soal yang dikerjakan:\n${akurasiKat || '- Belum ada'}\n\nTopik paling sering salah/belum maksimal:\n${topWeak || '- Belum terdeteksi'}`;
 
     outBox.style.display = 'block';
     outBox.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang menganalisis kelemahanmu...`;
