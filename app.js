@@ -1861,7 +1861,9 @@ window.renderBrankasReviewStage = () => {
 
                 <div style="margin-top:18px;">
                     ${window.buildInteractivePembahasanHtml(currentItem, currentItem.userAns, `rev_${currentItem.no}`, {
-                        headerTitle: 'Pembahasan Mentor'
+                        headerTitle: 'Pembahasan Mentor',
+                        gotPoin: currentItem.userPoin,
+                        maxPoin: currentItem.maxPoin
                     })}
                 </div>
 
@@ -2949,7 +2951,9 @@ function escapeHtmlMentor(str) {
 
 function buildMentorVisualHtml(q) {
     if (!q) return '';
-    // 1. Visualisasi Bar Poin TKP (1-5)
+    const sub = String(q.subKategori || '').toLowerCase();
+
+    // 1. Visualisasi Bar Poin TKP (5 -> 1)
     if (q.kategori === 'TKP' && Array.isArray(q.opsi) && q.opsi.length) {
         const sorted = [...q.opsi].sort((a, b) => Number(b.poin || 0) - Number(a.poin || 0));
         const bars = sorted.map(o => {
@@ -2974,45 +2978,182 @@ function buildMentorVisualHtml(q) {
         `;
     }
 
-    // 2. Visualisasi Diagram Lompatan Deret Angka
-    if ((q.subKategori || '').includes('Deret') && q.soal) {
+    // 2. Visualisasi SVG Lengkungan Panah Lompat Deret Angka
+    if (sub.includes('deret') && q.soal) {
         const match = q.soal.match(/(-?\d+(?:\s*,\s*-?\d+){3,})/);
         if (match) {
-            const nums = match[1].split(',').map(s => Number(s.trim())).filter(n => !Number.isNaN(n));
+            const nums = match[1].split(',').map(s => Number(s.trim())).filter(n => !Number.isNaN(n)).slice(0, 7);
             if (nums.length >= 4) {
-                const chips = nums.map((n, idx) => {
-                    const diff = idx < nums.length - 1 ? nums[idx + 1] - n : null;
-                    const diffTag = diff !== null
-                        ? `<span style="font-size:0.68rem; font-weight:800; color:#1d4ed8; background:#dbeafe; padding:2px 6px; border-radius:999px;">${diff >= 0 ? '+' + diff : diff}</span>`
-                        : '';
-                    return `<span style="font-weight:800; color:#0f172a; background:#ffffff; border:1px solid #cbd5e1; padding:3px 8px; border-radius:6px; font-size:0.78rem;">${n}</span>${diffTag}`;
+                const isSelang = sub.includes('selang');
+                const stepW = 66;
+                const startX = 34;
+                const totalW = Math.max(320, startX * 2 + nums.length * stepW);
+                const cy = 54;
+                const nodes = [...nums.map(String), '?'];
+
+                const formatOp = (a, b) => {
+                    if (a !== 0 && b % a === 0 && Math.abs(b / a) >= 2 && Math.abs(b - a) > 3) {
+                        return `×${b / a}`;
+                    }
+                    const d = b - a;
+                    return d >= 0 ? `+${d}` : `${d}`;
+                };
+
+                let arcsSvg = '';
+                if (isSelang && nums.length >= 4) {
+                    for (let i = 0; i < nums.length - 2; i++) {
+                        const x1 = startX + i * stepW;
+                        const x2 = startX + (i + 2) * stepW;
+                        const mx = (x1 + x2) / 2;
+                        const isEven = i % 2 === 0;
+                        const color = isEven ? '#2563eb' : '#d97706';
+                        const ctrlY = isEven ? 8 : 100;
+                        const labelY = isEven ? 20 : 97;
+                        const op = formatOp(nums[i], nums[i + 2]);
+                        arcsSvg += `
+                            <path d="M ${x1} ${isEven ? cy - 16 : cy + 16} Q ${mx} ${ctrlY} ${x2} ${isEven ? cy - 16 : cy + 16}" fill="none" stroke="${color}" stroke-width="1.8" stroke-dasharray="3,2"/>
+                            <rect x="${mx - 15}" y="${labelY - 10}" width="30" height="14" rx="7" fill="${isEven ? '#dbeafe' : '#fef3c7'}"/>
+                            <text x="${mx}" y="${labelY}" text-anchor="middle" font-size="9.5" font-weight="800" fill="${color}">${op}</text>
+                        `;
+                    }
+                } else {
+                    for (let i = 0; i < nums.length - 1; i++) {
+                        const x1 = startX + i * stepW;
+                        const x2 = startX + (i + 1) * stepW;
+                        const mx = (x1 + x2) / 2;
+                        const op = formatOp(nums[i], nums[i + 1]);
+                        arcsSvg += `
+                            <path d="M ${x1 + 10} ${cy - 16} Q ${mx} 14 ${x2 - 10} ${cy - 16}" fill="none" stroke="#2563eb" stroke-width="1.8"/>
+                            <polygon points="${x2 - 12},${cy - 19} ${x2 - 7},${cy - 14} ${x2 - 14},${cy - 12}" fill="#2563eb"/>
+                            <rect x="${mx - 15}" y="12" width="30" height="15" rx="7" fill="#dbeafe"/>
+                            <text x="${mx}" y="22.5" text-anchor="middle" font-size="9.5" font-weight="800" fill="#1d4ed8">${op}</text>
+                        `;
+                    }
+                }
+
+                const nodesSvg = nodes.map((val, idx) => {
+                    const x = startX + idx * stepW;
+                    const isQ = val === '?';
+                    const fill = isQ ? '#dcfce7' : '#ffffff';
+                    const stroke = isQ ? '#16a34a' : '#cbd5e1';
+                    const textFill = isQ ? '#15803d' : '#0f172a';
+                    return `
+                        <rect x="${x - 19}" y="${cy - 14}" width="38" height="28" rx="7" fill="${fill}" stroke="${stroke}" stroke-width="1.6" ${isQ ? 'stroke-dasharray="3,2"' : ''}/>
+                        <text x="${x}" y="${cy + 4}" text-anchor="middle" font-size="11.5" font-weight="800" fill="${textFill}">${escapeHtmlMentor(val)}</text>
+                    `;
                 }).join('');
+
                 return `
-                    <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
-                        <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:6px;"><i class="fas fa-project-diagram"></i> Visualisasi Lompatan Selisih Deret</div>
-                        <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">${chips}<span style="font-weight:800; color:#16a34a; background:#dcfce7; border:1px dashed #16a34a; padding:3px 9px; border-radius:6px; font-size:0.78rem;">?</span></div>
+                    <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:8px; padding:10px 12px; margin-bottom:10px; overflow-x:auto;">
+                        <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:4px;">
+                            <i class="fas fa-project-diagram"></i> Visualisasi SVG Pola Lompatan ${isSelang ? '(Selang-Seling 2 Warna)' : 'Deret Angka'}
+                        </div>
+                        <svg viewBox="0 0 ${totalW} 108" style="width:100%; min-width:300px; max-height:110px; display:block;">
+                            ${arcsSvg}
+                            ${nodesSvg}
+                        </svg>
                     </div>
                 `;
             }
         }
     }
 
-    // 3. Visualisasi Alur Logika Silogisme
-    if ((q.subKategori || '').includes('Silogisme')) {
+    // 3. Visualisasi Diagram Venn Mini SVG & Alur Logika Silogisme
+    if (sub.includes('silogisme') || sub.includes('logis')) {
+        const lowerSoal = String(q.soal || '').toLowerCase();
+        const isSebagian = lowerSoal.includes('sebagian') || lowerSoal.includes('beberapa');
+        const vennSvg = isSebagian
+            ? `
+                <svg viewBox="0 0 210 78" style="width:185px; height:68px; flex-shrink:0;">
+                    <circle cx="78" cy="39" r="28" fill="rgba(37,99,235,0.14)" stroke="#2563eb" stroke-width="1.8"/>
+                    <circle cx="122" cy="39" r="28" fill="rgba(22,163,74,0.14)" stroke="#16a34a" stroke-width="1.8"/>
+                    <text x="64" y="42" text-anchor="middle" font-size="10" font-weight="800" fill="#1e40af">A</text>
+                    <text x="100" y="42" text-anchor="middle" font-size="9.5" font-weight="800" fill="#0f172a">A∩B</text>
+                    <text x="136" y="42" text-anchor="middle" font-size="10" font-weight="800" fill="#166534">B</text>
+                </svg>`
+            : `
+                <svg viewBox="0 0 210 78" style="width:185px; height:68px; flex-shrink:0;">
+                    <circle cx="105" cy="39" r="33" fill="rgba(22,163,74,0.12)" stroke="#16a34a" stroke-width="1.8"/>
+                    <circle cx="105" cy="43" r="21" fill="rgba(37,99,235,0.16)" stroke="#2563eb" stroke-width="1.8"/>
+                    <text x="105" y="19" text-anchor="middle" font-size="9.5" font-weight="800" fill="#166534">Semua B (Himpunan Besar)</text>
+                    <text x="105" y="47" text-anchor="middle" font-size="10" font-weight="800" fill="#1e40af">Semua A</text>
+                </svg>`;
         return `
             <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
-                <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:6px;"><i class="fas fa-sitemap"></i> Alur Logika Penarikan Kesimpulan</div>
-                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:0.76rem; font-weight:700;">
-                    <span style="background:#eff6ff; color:#1e40af; padding:4px 9px; border-radius:6px;">Premis Diketahui</span>
-                    <span style="color:#64748b;">➔</span>
-                    <span style="background:#fef3c7; color:#92400e; padding:4px 9px; border-radius:6px;">Cek Kuantor / Negasi</span>
-                    <span style="color:#64748b;">➔</span>
-                    <span style="background:#dcfce7; color:#166534; padding:4px 9px; border-radius:6px;">Simpulan Pasti</span>
+                <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:6px;"><i class="fas fa-sitemap"></i> Diagram Venn & Alur Logika Silogisme</div>
+                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+                    ${vennSvg}
+                    <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap; font-size:0.75rem; font-weight:700; flex:1; min-width:200px;">
+                        <span style="background:#eff6ff; color:#1e40af; padding:4px 8px; border-radius:6px;">Premis 1</span>
+                        <span style="color:#64748b;">➔</span>
+                        <span style="background:#fef3c7; color:#92400e; padding:4px 8px; border-radius:6px;">Premis 2 (${isSebagian ? 'Irisan' : 'Sub-himpunan'})</span>
+                        <span style="color:#64748b;">➔</span>
+                        <span style="background:#dcfce7; color:#166534; padding:4px 8px; border-radius:6px;">Simpulan Pasti</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // 4. Visualisasi Panduan Transformasi Figural (Rotasi / Cermin / Elemen)
+    if (sub.includes('figural')) {
+        const isKetidaksamaan = sub.includes('ketidaksamaan');
+        return `
+            <div style="background:#ffffff; border:1px solid #e0e7ff; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
+                <div style="font-size:0.74rem; font-weight:800; color:#4338ca; margin-bottom:6px;"><i class="fas fa-shapes"></i> Panduan Visual Pola Figural</div>
+                <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap; font-size:0.74rem; font-weight:700;">
+                    <span style="background:#eef2ff; color:#3730a3; padding:4px 9px; border-radius:6px;">↻ Rotasi (90° / 180°)</span>
+                    <span style="background:#ecfeff; color:#0e7490; padding:4px 9px; border-radius:6px;">↔ Cermin / Refleksi</span>
+                    <span style="background:#fef3c7; color:#92400e; padding:4px 9px; border-radius:6px;">${isKetidaksamaan ? '≠ Cari 1 Fitur Berbeda' : '+ / − Jumlah Sisi & Titik'}</span>
                 </div>
             </div>
         `;
     }
     return '';
+}
+
+function buildMentorTrikAndJebakan(q, userAns, kunciLabel, gotPoin, maxPoin) {
+    const sub = String(q?.subKategori || '').toLowerCase();
+    const kat = String(q?.kategori || '').toUpperCase();
+
+    let trik = 'Baca kalimat tanya paling akhir terlebih dahulu agar fokus menangkap kata kunci sebelum menghitung atau memilih opsi.';
+    let jebakan = 'Terburu-buru memilih opsi yang sekilas mirip padahal melenceng dari inti pertanyaan.';
+
+    if (kat === 'TKP') {
+        trik = 'Cari opsi yang menunjukkan sikap paling proaktif, solutif, taat SOP, dan berorientasi pelayanan publik tanpa merugikan pihak lain.';
+        jebakan = 'Opsi bernilai 3–4 biasanya terlihat sopan, tetapi masih pasif (hanya menunggu atasan atau menunda solusi).';
+    } else if (sub.includes('deret')) {
+        trik = sub.includes('selang')
+            ? 'Langsung cek lompat 1 posisi (posisi ganjil dengan ganjil, genap dengan genap) jika angka terlihat naik-turun.'
+            : 'Hitung selisih 3 pasangan awal sekaligus; jika belum konstan, cek rasio (×) atau selisih tingkat kedua.';
+        jebakan = 'Mengira deret 1 pola padahal selang-seling, atau tertukar tanda (+ / −) di langkah terakhir.';
+    } else if (sub.includes('silogisme') || sub.includes('logis')) {
+        trik = 'Aturan 10 detik: Semua + Sebagian = Sebagian; coret term tengah yang sama, jangan menambah asumsi di luar premis.';
+        jebakan = 'Membalik pernyataan "Semua A adalah B" menjadi "Semua B adalah A", padahal konversnya hanya "Sebagian B adalah A".';
+    } else if (sub.includes('figural')) {
+        trik = 'Lacak 1 elemen kecil dulu (arah panah/titik/arsiran), lalu cek apakah berputar ↻ 90° atau dicerminkan ↔.';
+        jebakan = 'Tertipu bentuk luar yang sama, padahal posisi cermin atau jumlah sudutnya berbeda 1.';
+    } else if (sub.includes('hitung') || sub.includes('numerik') || sub.includes('perbandingan')) {
+        trik = 'Gunakan pembulatan cerdas atau cek digit satuan/persentase pecahan istimewa (12,5% = 1/8; 33,3% = 1/3) untuk hemat waktu.';
+        jebakan = 'Salah konversi satuan (persen vs desimal) atau lupa urutan operasi perkalian/pembagian sebelum penjumlahan.';
+    } else if (sub.includes('sinonim') || sub.includes('antonim') || sub.includes('analogi') || kat === 'TIU') {
+        trik = 'Untuk analogi, buat 1 kalimat penghubung baku antara kata kiri dan kanan, lalu terapkan kalimat persis sama ke opsi.';
+        jebakan = 'Terbalik arah hubungan (sebab-akibat tertukar akibat-sebab) atau memilih kata yang sebidang makna tapi beda kelas kata.';
+    } else if (kat === 'TWK') {
+        trik = 'Kaitkan inti kasus dengan nilai dasar Pancasila, UUD 1945, integritas ASN, atau kepentingan keutuhan NKRI.';
+        jebakan = 'Memilih jawaban yang benar secara teori umum, tetapi kurang spesifik dengan konteks sila/pasal yang ditanyakan.';
+    }
+
+    const pickedOpt = userAns ? (q.opsi || []).find(o => o.label === userAns) : null;
+    const isWrong = Boolean(userAns && gotPoin < maxPoin);
+    const jebakanTitle = isWrong ? `⚠️ Kenapa Jawabanmu (${escapeHtmlMentor(userAns)}) Salah?` : '⚠️ Jebakan Umum Soal Ini';
+    const jebakanBody = isWrong
+        ? (kat === 'TKP'
+            ? `Opsi <b>${escapeHtmlMentor(userAns)}</b>${pickedOpt ? ` ("${escapeHtmlMentor(pickedOpt.teks.slice(0, 65))}${pickedOpt.teks.length > 65 ? '...' : ''}")` : ''} hanya bernilai <b>+${gotPoin} poin</b>, masih kalah optimal dari opsi <b>${escapeHtmlMentor(kunciLabel)}</b> (+${maxPoin} poin). ${jebakan}`
+            : `Opsi <b>${escapeHtmlMentor(userAns)}</b> bukan jawaban tepat karena termasuk pengecoh. ${jebakan}`)
+        : jebakan;
+
+    return { trik, jebakanTitle, jebakanBody };
 }
 
 window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {}) => {
@@ -3021,7 +3162,7 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
         : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.';
     const safeId = String(uidSuffix).replace(/[^a-zA-Z0-9_-]/g, '_');
 
-    // Pecah pembahasan menjadi langkah-langkah logis (max 4 langkah)
+    // Pecah pembahasan menjadi langkah-langkah logis (max 3-4 langkah ala Papan Tulis)
     let parts = rawText
         .split(/(?:\n+|(?<=[.!?])\s+(?=[A-Z0-9(]))/)
         .map(s => s.trim())
@@ -3035,9 +3176,16 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
         (q.opsi || []).reduce((best, cur) => (Number(cur.poin || 0) > Number(best?.poin || -1) ? cur : best), null);
     const kunciLabel = q.kunci || bestOpt?.label || '-';
 
+    const getStepTitle = (idx, total) => {
+        if (total === 1) return 'Inti Pembahasan & Kunci';
+        if (idx === 0) return 'Tangkap Kata Kunci / Diketahui';
+        if (idx === total - 1) return 'Kesimpulan & Kunci Jawaban';
+        return 'Proses / Rumus / Logika';
+    };
+
     const stepsHtml = parts.map((stepTxt, idx) => `
         <div class="mentor-step-item" data-step-idx="${idx}" style="${idx === 0 ? '' : 'display:none;'} background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
-            <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 7px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1}</span>
+            <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 8px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1} • ${getStepTitle(idx, parts.length)}</span>
             ${escapeHtmlMentor(stepTxt)}
         </div>
     `).join('');
@@ -3046,11 +3194,13 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
     const visualHtml = buildMentorVisualHtml(q);
     const gotPoin = meta.gotPoin !== undefined ? Number(meta.gotPoin) : 0;
     const maxPoin = meta.maxPoin !== undefined ? Number(meta.maxPoin) : 5;
-    const needCorrection = Boolean(userAns && gotPoin < maxPoin);
     const headerTitle = meta.headerTitle || 'Pembahasan Mentor';
     const qIdForReport = escapeHtmlMentor(q.id || safeId);
+    const { trik, jebakanTitle, jebakanBody } = buildMentorTrikAndJebakan(q, userAns, kunciLabel, gotPoin, maxPoin);
 
-    const speechText = escapeHtmlMentor(`${rawText}. Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
+    const isTiu = String(q.kategori || '').toUpperCase() === 'TIU';
+    const subKatAttr = escapeHtmlMentor(q.subKategori || 'TIU');
+    const speechText = escapeHtmlMentor(`${rawText}. Trik cepat: ${trik} Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
 
     return `
         <div id="mentorBox_${safeId}" style="background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:10px; font-size:0.86rem; color:#334155;">
@@ -3088,18 +3238,203 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
                 </div>
             ` : ''}
 
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:8px; margin-top:8px;">
-                <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:8px 11px; font-size:0.78rem; color:#166534;">
-                    <strong><i class="fas fa-bolt"></i> Kunci / Target Skor:</strong> Opsi <b>${kunciLabel}</b> (${q.kategori === 'TKP' ? `Poin ${maxPoin}` : 'Benar +5'})
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:8px; margin-top:8px;">
+                <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:9px 11px; font-size:0.78rem; color:#166534; line-height:1.45;">
+                    <div style="font-weight:800; margin-bottom:3px;">⚡ Trik 10 Detik • Kunci: Opsi ${escapeHtmlMentor(kunciLabel)} (${q.kategori === 'TKP' ? `Poin ${maxPoin}` : 'Benar +5'})</div>
+                    <div>${escapeHtmlMentor(trik)}</div>
                 </div>
-                ${needCorrection ? `
-                    <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:8px; padding:8px 11px; font-size:0.78rem; color:#92400e;">
-                        <strong><i class="fas fa-exclamation-triangle"></i> Koreksi Pilihanmu:</strong> Opsi <b>${userAns}</b> belum maksimal — perhatikan kata kunci pada langkah di atas.
-                    </div>
-                ` : ''}
+                <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:8px; padding:9px 11px; font-size:0.78rem; color:#92400e; line-height:1.45;">
+                    <div style="font-weight:800; margin-bottom:3px;">${jebakanTitle}</div>
+                    <div>${jebakanBody}</div>
+                </div>
             </div>
+
+            ${isTiu ? `
+                <div style="margin-top:10px; display:flex; justify-content:flex-end;">
+                    <button type="button" data-subkat="${subKatAttr}" data-qid="${qIdForReport}" onclick="window.ujiPolaSerupaTiu(this.dataset.qid, this.dataset.subkat)" style="background:#eef2ff; color:#3730a3; border:1px solid #c7d2fe; padding:6px 13px; border-radius:8px; font-size:0.77rem; font-weight:800; cursor:pointer;">
+                        🔁 Uji Pola Serupa (Latihan 1 Soal)
+                    </button>
+                </div>
+            ` : ''}
         </div>
     `;
+};
+
+function generateSimilarTiuQuestion(subKategori, excludeId) {
+    const sub = String(subKategori || '').toLowerCase();
+    const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+    const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
+
+    const buildNumericOptions = (ans) => {
+        const distractors = new Set([ans]);
+        const offsets = [-6, -4, -3, -2, -1, 1, 2, 3, 4, 6, 8];
+        for (const off of shuffle(offsets)) {
+            if (distractors.size >= 5) break;
+            if (ans + off >= 0) distractors.add(ans + off);
+        }
+        while (distractors.size < 5) distractors.add(ans + distractors.size * 5);
+        const vals = shuffle([...distractors]);
+        const labels = ['A', 'B', 'C', 'D', 'E'];
+        const opsi = vals.map((v, i) => ({ label: labels[i], teks: String(v), benar: v === ans }));
+        const kunci = opsi.find(o => o.benar).label;
+        return { opsi, kunci };
+    };
+
+    if (sub.includes('selang')) {
+        const a0 = rand(3, 12);
+        const da = rand(3, 7);
+        const b0 = rand(20, 40);
+        const db = -rand(2, 5);
+        const seq = [a0, b0, a0 + da, b0 + db, a0 + da * 2, b0 + db * 2];
+        const ans = a0 + da * 3;
+        const { opsi, kunci } = buildNumericOptions(ans);
+        return {
+            kategori: 'TIU',
+            subKategori: subKategori || 'Numerik - Deret Selang',
+            soal: `Lanjutkan pola deret selang-seling berikut:\n${seq.join(', ')}, ...`,
+            opsi,
+            kunci,
+            pembahasan: `Pola ganjil (posisi 1, 3, 5, 7) selalu bertambah +${da} (${a0} → ${a0 + da} → ${a0 + da * 2} → ${ans}). Pola genap selalu berkurang ${db}. Jadi angka berikutnya adalah ${ans}.`
+        };
+    }
+
+    if (sub.includes('deret')) {
+        const start = rand(2, 10);
+        const d1 = rand(2, 5);
+        const inc = rand(2, 4);
+        const seq = [start];
+        for (let i = 0; i < 4; i++) seq.push(seq[seq.length - 1] + d1 + i * inc);
+        const ans = seq[seq.length - 1] + d1 + 4 * inc;
+        const { opsi, kunci } = buildNumericOptions(ans);
+        return {
+            kategori: 'TIU',
+            subKategori: subKategori || 'Numerik - Deret Bertingkat',
+            soal: `Tentukan angka selanjutnya pada deret berikut:\n${seq.join(', ')}, ...`,
+            opsi,
+            kunci,
+            pembahasan: `Selisih antar suku naik konstan +${inc} tiap langkah (+${d1}, +${d1 + inc}, +${d1 + 2 * inc}, +${d1 + 3 * inc}, lalu +${d1 + 4 * inc}). Maka ${seq[seq.length - 1]} + ${d1 + 4 * inc} = ${ans}.`
+        };
+    }
+
+    if (sub.includes('silogisme') || sub.includes('logis')) {
+        const scenarios = [
+            {
+                soal: 'Semua peserta bimbel ASN rajin berlatih tryout.\nSebagian mahasiswa tingkat akhir adalah peserta bimbel ASN.\nSimpulan yang paling tepat adalah...',
+                opsi: [
+                    { label: 'A', teks: 'Semua mahasiswa tingkat akhir rajin berlatih tryout.', benar: false },
+                    { label: 'B', teks: 'Sebagian mahasiswa tingkat akhir rajin berlatih tryout.', benar: true },
+                    { label: 'C', teks: 'Semua yang rajin berlatih tryout adalah mahasiswa.', benar: false },
+                    { label: 'D', teks: 'Tidak ada mahasiswa tingkat akhir yang ikut bimbel ASN.', benar: false },
+                    { label: 'E', teks: 'Sebagian peserta bimbel ASN tidak rajin berlatih.', benar: false }
+                ],
+                kunci: 'B',
+                pembahasan: 'Premis 1 (Semua) + Premis 2 (Sebagian) selalu menghasilkan simpulan Sebagian. Karena sebagian mahasiswa adalah peserta bimbel ASN, maka sebagian mahasiswa tingkat akhir rajin berlatih tryout.'
+            },
+            {
+                soal: 'Semua pegawai yang berintegritas hadir tepat waktu.\nSebagian pegawai di divisi pelayanan tidak hadir tepat waktu.\nSimpulan yang paling tepat adalah...',
+                opsi: [
+                    { label: 'A', teks: 'Semua pegawai divisi pelayanan berintegritas.', benar: false },
+                    { label: 'B', teks: 'Tidak ada pegawai divisi pelayanan yang hadir tepat waktu.', benar: false },
+                    { label: 'C', teks: 'Sebagian pegawai divisi pelayanan bukan pegawai yang berintegritas.', benar: true },
+                    { label: 'D', teks: 'Semua yang hadir tepat waktu adalah pegawai divisi pelayanan.', benar: false },
+                    { label: 'E', teks: 'Pegawai berintegritas boleh datang terlambat.', benar: false }
+                ],
+                kunci: 'C',
+                pembahasan: 'Dengan modus tollens: jika tidak hadir tepat waktu, maka bukan pegawai berintegritas. Karena hanya sebagian yang terlambat, simpulannya sebagian pegawai divisi pelayanan bukan pegawai yang berintegritas.'
+            }
+        ];
+        return { kategori: 'TIU', subKategori: subKategori || 'Verbal - Silogisme', ...scenarios[rand(0, scenarios.length - 1)] };
+    }
+
+    if (sub.includes('hitung') || sub.includes('numerik') || sub.includes('perbandingan')) {
+        const pctList = [20, 25, 40, 50];
+        const pct = pctList[rand(0, pctList.length - 1)];
+        const base = rand(4, 15) * 20;
+        const extra = rand(5, 25);
+        const ans = Math.round((pct / 100) * base) + extra;
+        const { opsi, kunci } = buildNumericOptions(ans);
+        return {
+            kategori: 'TIU',
+            subKategori: subKategori || 'Numerik - Hitung Cepat',
+            soal: `Nilai dari ${pct}% × ${base} + ${extra} adalah...`,
+            opsi,
+            kunci,
+            pembahasan: `${pct}% × ${base} = ${(pct / 100) * base}. Lalu ${(pct / 100) * base} + ${extra} = ${ans}.`
+        };
+    }
+
+    const pool = [...(window.DATA_TIU_GRATIS || []), ...(window.DATA_SKD_CPNS || [])]
+        .filter(item => item && String(item.kategori || '').toUpperCase() === 'TIU' && String(item.id || '') !== String(excludeId || ''));
+    const sameSub = pool.filter(item => String(item.subKategori || '').toLowerCase() === sub);
+    const candidates = sameSub.length ? sameSub : pool;
+    if (candidates.length) {
+        return candidates[rand(0, candidates.length - 1)];
+    }
+    return null;
+}
+
+window.ujiPolaSerupaTiu = (soalId, subKategori) => {
+    const q = generateSimilarTiuQuestion(subKategori, soalId);
+    if (!q) {
+        return Swal.fire('Info', 'Belum ada variasi soal serupa untuk tipe ini.', 'info');
+    }
+    const btnsHtml = (q.opsi || []).map(o => `
+        <button type="button" class="uji-serupa-opt" data-label="${escapeHtmlMentor(o.label)}" data-benar="${o.benar ? '1' : '0'}"
+            style="width:100%; text-align:left; padding:9px 12px; border:1px solid #cbd5e1; border-radius:8px; background:#fff; font-size:0.84rem; cursor:pointer; display:flex; gap:8px; align-items:center;">
+            <strong style="min-width:22px; color:#1d4ed8;">${escapeHtmlMentor(o.label)}.</strong>
+            <span>${escapeHtmlMentor(o.teks)}</span>
+        </button>
+    `).join('');
+
+    Swal.fire({
+        title: '🔁 Uji Pola Serupa (TIU)',
+        width: 600,
+        html: `
+            <div style="text-align:left;">
+                <span style="display:inline-block; font-size:0.72rem; font-weight:800; background:#eef2ff; color:#3730a3; padding:3px 9px; border-radius:999px; margin-bottom:8px;">
+                    ${escapeHtmlMentor(q.subKategori || 'Latihan Pola TIU')}
+                </span>
+                <div style="font-size:0.9rem; color:#0f172a; line-height:1.55; white-space:pre-line; margin-bottom:12px; background:#f8fafc; padding:10px 12px; border-radius:8px; border:1px solid #e2e8f0;">${escapeHtmlMentor(q.soal)}</div>
+                <div id="ujiSerupaOpsiWrap" style="display:flex; flex-direction:column; gap:7px;">${btnsHtml}</div>
+                <div id="ujiSerupaFeedback" style="display:none; margin-top:12px; padding:10px 12px; border-radius:8px; font-size:0.82rem; line-height:1.5;"></div>
+            </div>
+        `,
+        showDenyButton: true,
+        denyButtonText: '🔁 Soal Serupa Lagi',
+        denyButtonColor: '#4f46e5',
+        confirmButtonText: 'Tutup',
+        confirmButtonColor: '#334155',
+        didOpen: () => {
+            const wrap = document.getElementById('ujiSerupaOpsiWrap');
+            const fb = document.getElementById('ujiSerupaFeedback');
+            if (!wrap || !fb) return;
+            wrap.querySelectorAll('.uji-serupa-opt').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const isBenar = btn.dataset.benar === '1';
+                    wrap.querySelectorAll('.uji-serupa-opt').forEach(b => {
+                        b.disabled = true;
+                        if (b.dataset.benar === '1') {
+                            b.style.background = '#dcfce7';
+                            b.style.borderColor = '#16a34a';
+                        }
+                    });
+                    if (!isBenar) {
+                        btn.style.background = '#fee2e2';
+                        btn.style.borderColor = '#dc2626';
+                    }
+                    fb.style.display = 'block';
+                    fb.style.background = isBenar ? '#f0fdf4' : '#fffbeb';
+                    fb.style.border = `1px solid ${isBenar ? '#bbf7d0' : '#fde68a'}`;
+                    fb.style.color = isBenar ? '#166534' : '#92400e';
+                    fb.innerHTML = `<strong>${isBenar ? '✅ Mantap! Jawabanmu Benar!' : `❌ Kurang Tepat (Kunci: ${escapeHtmlMentor(q.kunci)})`}</strong><br>${escapeHtmlMentor(q.pembahasan)}`;
+                });
+            });
+        }
+    }).then(res => {
+        if (res.isDenied) {
+            window.ujiPolaSerupaTiu(soalId, subKategori);
+        }
+    });
 };
 
 window.nextPembahasanStep = (safeId) => {
