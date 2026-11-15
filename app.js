@@ -134,6 +134,9 @@ function updateAuthUI(user) {
         if (typeof window.renderTkp40PaketCards === 'function') {
             window.renderTkp40PaketCards();
         }
+        if (typeof window.applyAdminBypassUI === 'function') {
+            window.applyAdminBypassUI();
+        }
     } else {
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = 'none';
@@ -563,7 +566,43 @@ window.filterTryoutPaket = (filter, btnEl) => {
     });
 };
 
+window.applyAdminBypassUI = () => {
+    if (!window.currentUserProfile?.isAdmin) return;
+    document.querySelectorAll('.app-view:not(#view-upgrade) .btn-card.paid-cta, .app-view:not(#view-upgrade) .btn-card.locked-free').forEach(btn => {
+        const oc = btn.getAttribute('onclick') || '';
+        if (oc.includes('mulaiSingleplayer')) return;
+        let label = 'Admin Bypass: Buka Akses';
+        if (oc.includes('Mode Belajar')) label = 'Admin Bypass: Mode Belajar';
+        else if (oc.includes('Coba Lagi') || oc.includes('Remedial')) label = 'Admin Bypass: Remedial Soal';
+        else if (oc.includes('Tryout SKD')) label = 'Admin Bypass: Buka Tryout';
+        else if (oc.includes('Pusat Studi')) label = 'Admin Bypass: Buka Materi';
+        else if (oc.includes('infoPaketBelumTersedia')) label = 'Admin Bypass: Cek Paket';
+        btn.classList.remove('locked-free');
+        btn.innerHTML = `<i class="fas fa-unlock-alt"></i> ${label}`;
+    });
+};
+
 window.bukaModalUpgrade = (namaFitur, infoHarga) => {
+    if (window.currentUserProfile?.isAdmin) {
+        const f = String(namaFitur || '');
+        if (f.includes('Pusat Studi ASN')) {
+            const sub = f.includes('TWK') ? 'twk' : f.includes('TIU') ? 'tiu' : 'tkp';
+            return Swal.fire({
+                title: `🔓 Admin Crosscheck: ${f}`,
+                html: `<p style="font-size:0.9rem; color:#475569;">Akses Super Admin aktif. Anda dapat langsung meninjau simulasi soal subtes <b>${sub.toUpperCase()}</b> atau kembali ke Command Center.</p>`,
+                icon: 'success',
+                showCancelButton: true,
+                confirmButtonText: `🚀 Uji Soal ${sub.toUpperCase()}`,
+                cancelButtonText: 'Tutup',
+                confirmButtonColor: '#1e3a8a'
+            }).then(res => {
+                if (res.isConfirmed) window.mulaiSingleplayer(sub);
+            });
+        }
+        if (f.includes('TKP')) return window.mulaiSingleplayer('tkp');
+        return window.mulaiSingleplayer('full');
+    }
+
     Swal.fire({
         title: `🔒 ${namaFitur}`,
         html: `
@@ -581,6 +620,12 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
 };
 
 window.infoPaketBelumTersedia = (namaPaket) => {
+    if (window.currentUserProfile?.isAdmin) {
+        const p = String(namaPaket || '').toUpperCase();
+        const sub = p.includes('TWK') ? 'twk' : p.includes('TIU') ? 'tiu' : p.includes('TKP') ? 'tkp' : 'full';
+        return window.mulaiSingleplayer(sub);
+    }
+
     Swal.fire({
         title: '🔒 Paket Soal Belum Tersedia',
         html: `<p style="font-size:0.9rem; color:#475569;"><b>${namaPaket}</b> masih terkunci dan sedang dalam proses penyusunan bank soal oleh tim <b>MENUJU ASN</b>.</p>`,
