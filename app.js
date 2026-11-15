@@ -1856,11 +1856,13 @@ window.renderBrankasReviewStage = () => {
                 </div>
 
                 <div class="question-text">${formatQuestionTextHtml(currentItem.soal)}</div>
+                ${currentItem.gambar ? `<div style="margin:10px 0 14px; text-align:center;">${currentItem.gambar}</div>` : ''}
                 <div class="options-list">${opsiHtml}</div>
 
-                <div style="margin-top:18px; background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:8px; font-size:0.88rem; color:#334155; line-height:1.6;">
-                    <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan:</strong><br/>
-                    ${currentItem.pembahasan ? currentItem.pembahasan : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.'}
+                <div style="margin-top:18px;">
+                    ${window.buildInteractivePembahasanHtml(currentItem, currentItem.userAns, `rev_${currentItem.no}`, {
+                        headerTitle: 'Pembahasan Mentor'
+                    })}
                 </div>
 
                 <div class="exam-nav">
