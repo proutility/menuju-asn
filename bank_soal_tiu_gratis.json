@@ -1,0 +1,3692 @@
+[
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Kosakata & Sinonim",
+    "soal": "Sinonim yang paling tepat untuk kata **PROMINEN** adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Terpencil",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Terkemuka",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Terbatas",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Terselubung",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Terstruktur",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Menurut KBBI, 'prominen' berarti terkemuka, menonjol, atau penting.",
+    "id": "tiu_gratis_001"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Kosakata & Sinonim",
+    "soal": "Sinonim yang paling tepat untuk kata **RESTRIKSI** adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Perluasan",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pengawasan",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Pengembalian",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pemulihan",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pembatasan",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Menurut KBBI, 'restriksi' berarti pembatasan atau pengekangan.",
+    "id": "tiu_gratis_002"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analogi",
+    "soal": "CEROBOH : CELAKA = ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Rajin : Pintar",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Cepat : Lambat",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Malas : Gagal",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Hati-hati : Rugi",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Lelah : Istirahat",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Relasi sebab-akibat negatif: sikap 'ceroboh' berakibat 'celaka', sebagaimana sikap 'malas' berakibat 'gagal'.",
+    "id": "tiu_gratis_003"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analogi",
+    "soal": "ARSIP : LEMARI = BUKU : ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Perpustakaan",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Penerbit",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Kertas",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pembaca",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Penulis",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Relasi objek dan tempat penyimpanannya: 'arsip' disimpan di dalam 'lemari', sedangkan 'buku' disimpan di 'perpustakaan'.",
+    "id": "tiu_gratis_004"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Klasik",
+    "soal": "Semua peserta seleksi CPNS wajib membawa kartu ujian. Sebagian pelamar di ruang tunggu tidak membawa kartu ujian. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Semua pelamar di ruang tunggu bukan peserta seleksi CPNS.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Sebagian peserta seleksi CPNS tidak membawa kartu ujian.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Semua peserta seleksi CPNS berada di ruang tunggu.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian pelamar di ruang tunggu bukan peserta seleksi CPNS.",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Tidak ada pelamar di ruang tunggu yang merupakan peserta seleksi CPNS.",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Karena semua peserta seleksi CPNS wajib membawa kartu ujian, maka pelamar di ruang tunggu yang tidak membawa kartu ujian pasti bukan peserta seleksi CPNS.",
+    "id": "tiu_gratis_005"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Klasik",
+    "soal": "Jika rapat pimpinan selesai sebelum pukul 15.00, maka tim penyusun anggaran langsung bekerja. Tim penyusun anggaran tidak langsung bekerja. Kesimpulan yang sah adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Rapat pimpinan selesai tepat pukul 15.00.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rapat pimpinan tidak selesai sebelum pukul 15.00.",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Rapat pimpinan dibatalkan oleh sekretariat.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian tim penyusun anggaran izin pulang lebih awal.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Rapat pimpinan selesai sebelum pukul 15.00 namun ditunda.",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Modus Tollens: p → q, ~q, maka ~p. Jadi rapat pimpinan tidak selesai sebelum pukul 15.00.",
+    "id": "tiu_gratis_006"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme 3 Premis (Prediksi Baru)",
+    "soal": "Semua dokumen yang lolos verifikasi arsip disimpan di rak utama. Setiap dokumen di rak utama diberi label barcode hijau. Sebagian berkas pegawai baru sudah disimpan di rak utama. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Semua berkas pegawai baru pasti lolos verifikasi arsip.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Tidak ada berkas pegawai baru yang berada di rak utama.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Semua dokumen berlabel barcode hijau adalah berkas pegawai baru.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian dokumen yang lolos verifikasi arsip tidak berlabel hijau.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Sebagian berkas pegawai baru diberi label barcode hijau.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Sebagian berkas pegawai baru berada di rak utama, dan setiap dokumen di rak utama diberi label barcode hijau. Jadi, sebagian berkas pegawai baru diberi label barcode hijau.",
+    "id": "tiu_gratis_007"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Narasi (Prediksi Baru)",
+    "soal": "Setiap pegawai yang bertugas di loket pelayanan wajib menguasai aplikasi antrean digital. Pegawai yang menguasai aplikasi antrean digital berhak mengikuti pelatihan layanan prima tingkat lanjut. Rina bertugas di loket pelayanan, sedangkan Dodi bertugas di gudang arsip. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Dodi pasti tidak menguasai aplikasi antrean digital.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Dodi berhak mengikuti pelatihan layanan prima tingkat lanjut.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Rina berhak mengikuti pelatihan layanan prima tingkat lanjut.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Semua pegawai yang mengikuti pelatihan layanan prima bertugas di loket.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Rina dan Dodi sama-sama wajib menguasai aplikasi antrean digital.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Rina bertugas di loket → wajib menguasai aplikasi antrean digital → berhak mengikuti pelatihan layanan prima tingkat lanjut. Status Dodi tidak bisa disimpulkan.",
+    "id": "tiu_gratis_008"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme 3 Premis (Prediksi Baru)",
+    "soal": "Jika tingkat kepuasan masyarakat di atas 85%, maka unit pelayanan memperoleh predikat sangat baik. Unit pelayanan tidak memperoleh predikat sangat baik atau pimpinan memberi penghargaan kinerja. Pimpinan tidak memberi penghargaan kinerja. Kesimpulan yang sah adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Tingkat kepuasan masyarakat tidak di atas 85%.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Tingkat kepuasan masyarakat di atas 85%.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Unit pelayanan tetap memperoleh predikat sangat baik.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pimpinan menunda penilaian kepuasan masyarakat.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Sebagian layanan publik belum dievaluasi tahun ini.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Dari (~q ∨ r) dan ~r diperoleh ~q (unit pelayanan tidak memperoleh predikat sangat baik). Dengan (p → q) dan ~q diperoleh ~p: tingkat kepuasan masyarakat tidak di atas 85%.",
+    "id": "tiu_gratis_009"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analitis Urutan",
+    "soal": "Lima peserta wawancara CPNS—Andi, Bima, Citra, Dewi, dan Eka—mendapat giliran berurutan nomor 1 sampai 5. Citra masuk tepat setelah Andi. Dewi berada di urutan terakhir. Bima masuk sebelum Eka, namun setelah Citra. Siapakah yang mendapat urutan ke-3?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Andi",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Citra",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Eka",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Bima",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Dewi",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Urutan: Dewi ke-5; Citra tepat setelah Andi (Andi–Citra); Bima setelah Citra dan sebelum Eka. Maka urutan lengkap: 1. Andi, 2. Citra, 3. Bima, 4. Eka, 5. Dewi.",
+    "id": "tiu_gratis_010"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Penalaran Kritis (Prediksi Baru)",
+    "soal": "Pemerintah kota berencana menambah jalur khusus sepeda terproteksi di jalan protokol guna mengurangi kemacetan kendaraan pribadi pada jam kerja. Pernyataan manakah yang paling **MEMPERKUAT** argumen kebijakan tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Harga sepeda lipat di toko olahraga lokal mengalami kenaikan selama dua bulan terakhir.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Survei menunjukkan 62% pekerja jarak dekat bersedia beralih bersepeda bila tersedia jalur terproteksi yang aman.",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Sebagian besar jalan protokol di kota tersebut memiliki trotoar lebar untuk pejalan kaki.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Jumlah kendaraan roda dua di kota tetangga meningkat lebih cepat daripada kota tersebut.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pembangunan jalur sepeda membutuhkan pengecatan marka jalan baru di beberapa persimpangan.",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Data survei bahwa 62% pekerja jarak dekat bersedia beralih bersepeda jika ada jalur aman langsung mendukung tujuan kebijakan mengurangi kendaraan pribadi/kemacetan.",
+    "id": "tiu_gratis_011"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Penalaran Kritis (Prediksi Baru)",
+    "soal": "Setelah sekolah mewajibkan program membaca 15 menit sebelum pelajaran dimulai selama satu semester, nilai rata-rata Bahasa Indonesia siswa meningkat 12 poin. Kepala sekolah menyimpulkan bahwa program membaca 15 menit adalah penyebab utama kenaikan nilai tersebut. Pernyataan manakah yang paling **MEMPERLEMAH** kesimpulan tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Perpustakaan sekolah menambah 200 judul buku fiksi populer pada awal semester.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Sekolah lain di kabupaten yang sama berencana meniru program membaca 15 menit.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Sebagian besar siswa menyukai kegiatan membaca cerita rakyat pada pagi hari.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Guru Bahasa Indonesia rutin mencatat daftar buku yang dibaca oleh setiap siswa.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pada semester yang sama, sekolah juga mengganti standar soal ujian menjadi jauh lebih mudah dan menambah jam bimbingan intensif.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Adanya faktor perancu kuat (soal ujian lebih mudah dan tambahan jam bimbingan intensif di semester yang sama) melemahkan klaim kausalitas tunggal program membaca 15 menit.",
+    "id": "tiu_gratis_012"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Hitung Cepat",
+    "soal": "Hasil dari 37,5% × 480 + 1/4 × 240 adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "210",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "220",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "240",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "260",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "280",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "37,5% = 3/8. Maka (3/8 × 480) + (1/4 × 240) = (3 × 60) + 60 = 180 + 60 = 240.",
+    "id": "tiu_gratis_013"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Hitung Cepat",
+    "soal": "Nilai dari (24² − 16²) / (24 − 16) adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "40",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "36",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "32",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "44",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "48",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Gunakan identitas selisih kuadrat (a² − b²)/(a − b) = a + b. Maka 24 + 16 = 40.",
+    "id": "tiu_gratis_014"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Perbandingan Kuantitatif",
+    "soal": "Diketahui P = (3/5) + 0,45 dan Q = 1,1 − (1/20). Hubungan yang benar antara P dan Q adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "P > Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "P < Q",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "P = 2Q",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "P = Q",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Hubungan P dan Q tidak dapat ditentukan",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "P = 0,60 + 0,45 = 1,05. Q = 1,10 − 0,05 = 1,05. Jadi P = Q.",
+    "id": "tiu_gratis_015"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Perbandingan Kuantitatif",
+    "soal": "Jika 2x + 6 = 18 dan y = 3x − 10, manakah hubungan yang tepat antara P = x² dan Q = 4y + 4?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "P > Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "P = Q",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "P < Q",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "P = Q + 2",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Hubungan P dan Q tidak dapat ditentukan",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "2x = 12 → x = 6. y = 3(6) − 10 = 8. P = 6² = 36, Q = 4(8) + 4 = 36. Jadi P = Q.",
+    "id": "tiu_gratis_016"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Sebuah proyek pengarsipan dapat diselesaikan oleh 12 pegawai dalam waktu 15 hari. Jika atasan ingin pekerjaan selesai dalam 10 hari, berapa banyak tambahan pegawai dengan kecepatan kerja sama yang dibutuhkan?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "4 orang",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "18 orang",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "8 orang",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "12 orang",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "6 orang",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Perbandingan berbalik nilai: 12 × 15 = n × 10 → n = 180 / 10 = 18 orang. Tambahan pegawai = 18 − 12 = 6 orang.",
+    "id": "tiu_gratis_017"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Harga sebuah printer kantor setelah mendapat diskon 20% adalah Rp2.400.000. Berapakah harga printer sebelum diskon?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Rp2.800.000",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rp2.880.000",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Rp3.000.000",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Rp3.200.000",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Rp3.400.000",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "80% × Harga Awal = 2.400.000 → Harga Awal = 2.400.000 / 0,8 = Rp3.000.000.",
+    "id": "tiu_gratis_018"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Sebuah kendaraan dinas menempuh jarak 180 km dari kota A ke kota B dengan kecepatan rata-rata 60 km/jam. Jika berangkat pukul 07.15 dan beristirahat 15 menit di tengah perjalanan, pukul berapa kendaraan tersebut tiba di kota B?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "10.30",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "10.15",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "10.00",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "10.45",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "11.00",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Waktu tempuh = 180 / 60 = 3 jam. Total waktu termasuk istirahat = 3 jam 15 menit. Tiba = 07.15 + 03.15 = 10.30.",
+    "id": "tiu_gratis_019"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Rata-rata nilai tes 8 peserta diklat adalah 75. Setelah 2 peserta susulan ikut tes, rata-rata keseluruhan menjadi 77. Berapakah rata-rata nilai kedua peserta susulan tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "81",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "83",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "87",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "85",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "89",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Total awal = 8 × 75 = 600. Total akhir = 10 × 77 = 770. Jumlah nilai 2 peserta = 770 − 600 = 170. Rata-rata = 170 / 2 = 85.",
+    "id": "tiu_gratis_020"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah jumlah total pegawai laki-laki dan perempuan di suatu unit kerja? Putuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan.\n(1) Perbandingan pegawai laki-laki dan perempuan adalah 3 : 2.\n(2) Jumlah pegawai laki-laki 6 orang lebih banyak daripada pegawai perempuan.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Dari (1) saja L:P = 3:2 (jumlah total belum pasti). Dari (2) saja L − P = 6 (banyak solusi). Bersama-sama: 3k − 2k = 6 → k = 6, sehingga total = 5k = 30 orang. Jadi keduanya bersama-sama cukup.",
+    "id": "tiu_gratis_021"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Apakah nilai bilangan bulat x lebih besar dari 0?\n(1) x² = 9\n(2) x > −2",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Dari (1) x = 3 atau x = −3 (belum pasti > 0). Dari (2) x bisa −1, 0, 1, dst (belum pasti > 0). Bersama-sama (1) & (2): dari {3, −3} yang memenuhi x > −2 hanya x = 3 (> 0). Jadi bersama-sama cukup.",
+    "id": "tiu_gratis_022"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah luas sebuah segitiga siku-siku ABC (siku-siku di B)?\n(1) Panjang sisi miring AC = 10 cm.\n(2) Panjang sisi alas AB = 6 cm.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Satu sisi saja tidak cukup menentukan luas segitiga siku-siku. Dengan AC = 10 dan AB = 6, maka BC = √(10² − 6²) = 8 cm, sehingga Luas = 1/2 × 6 × 8 = 24 cm². Keduanya bersama-sama cukup.",
+    "id": "tiu_gratis_023"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah harga 1 buku tulis di koperasi?\n(1) Harga 2 buku tulis dan 1 pulpen adalah Rp13.000.\n(2) Harga 4 buku tulis dan 2 pulpen adalah Rp26.000.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Persamaan (2) 4b + 2p = 26.000 adalah kelipatan tepat 2× dari persamaan (1) 2b + p = 13.000. Karena kedua persamaan identik, nilai b tidak dapat ditentukan secara unik.",
+    "id": "tiu_gratis_024"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Bertingkat (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 3, 5, 9, 15, 23, 33, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "43",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "49",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "47",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "45",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "51",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Selisih tingkat 1: +2, +4, +6, +8, +10, maka selisih berikutnya +12 (pola tingkat 2 konstan +2). 33 + 12 = 45.",
+    "id": "tiu_gratis_025"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Selang (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 4, 20, 7, 17, 10, 14, 13, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "10",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "11",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "12",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "15",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "16",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Deret selang-seling: suku ganjil (4, 7, 10, 13) bertambah +3; suku genap (20, 17, 14, ...) berkurang −3. Maka 14 − 3 = 11.",
+    "id": "tiu_gratis_026"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Bertingkat (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 2, 4, 9, 18, 32, 52, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "76",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "78",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "84",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "81",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "79",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Selisih tingkat 1: +2, +5, +9, +14, +20. Selisih tingkat 2: +3, +4, +5, +6, maka berikutnya +7. Jadi selisih tingkat 1 berikutnya = 20 + 7 = 27. Suku berikutnya = 52 + 27 = 79.",
+    "id": "tiu_gratis_027"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Tabel (Prediksi Baru)",
+    "soal": "Perhatikan pola bilangan dalam baris tabel berikut:\nBaris 1: [4, 7, 25]\nBaris 2: [5, 8, 37]\nBaris 3: [6, 9, ?]\nNilai yang tepat menggantikan tanda tanya (?) adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "48",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "54",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "51",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "57",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "60",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Pola tiap baris [A, B, C]: C = (A × B) − 3. Cek Baris 1: (4×7)−3 = 25; Baris 2: (5×8)−3 = 37. Maka Baris 3: (6×9)−3 = 54 − 3 = 51.",
+    "id": "tiu_gratis_028"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Ketidaksamaan",
+    "soal": "Perhatikan kelima gambar berikut. Pilihlah SATU gambar yang tidak memiliki kesamaan pola rotasi dengan keempat gambar lainnya!",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(90) scale(-1,1) translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(90)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(180)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(270)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(0)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Keempat gambar lainnya merupakan hasil rotasi murni (0°, 90°, 180°, 270°) dari bentuk huruf-L yang sama, sedangkan satu gambar mengalami pencerminan (mirror).",
+    "id": "tiu_gratis_029",
+    "kunci": "A"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Ketidaksamaan",
+    "soal": "Pilihlah SATU gambar yang berbeda pola hubungannya antara bentuk bangun datar dan titik di dalamnya!",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,54.0 15.8,54.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"51.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"29.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"50.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"46.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"33.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"29.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,54.0 15.8,54.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"50.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"46.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"33.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"29.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": true,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Pada empat gambar lainnya, jumlah titik di dalam bangun sama dengan jumlah sisi poligonnya. Pada gambar yang berbeda, jumlah titik tidak sama dengan jumlah sisinya.",
+    "id": "tiu_gratis_030",
+    "kunci": "D"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Analogi Gambar",
+    "soal": "Perhatikan hubungan pola gambar pertama dan kedua, lalu tentukan gambar keempat yang tepat:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(0) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">:</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;margin:0 4px;\">=</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">:</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(0) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Transformasi dari gambar pertama ke kedua adalah rotasi 90° searah jarum jam disertai pembalikan warna isian panah (solid ↔ kosong), dengan mempertahankan lingkaran luar jika ada.",
+    "id": "tiu_gratis_031",
+    "kunci": "B"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Analogi Gambar",
+    "soal": "Tentukan gambar yang tepat untuk melengkapi analogi pola berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,54.0 15.8,54.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"40.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;\">:</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;margin:0 4px;\">=</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;\">:</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"51.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"29.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": true,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Dari kiri ke kanan, jumlah sisi poligon bertambah 1 dan jumlah titik di dalam bertambah 1, dengan mempertahankan warna arsiran latar poligon.",
+    "id": "tiu_gratis_032",
+    "kunci": "E"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar kelima yang tepat untuk melanjutkan deret pola berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(0) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(45) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(135) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(135) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(225) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Panah berputar 45° searah jarum jam pada setiap langkah dan warna isiannya bergantian (solid → kosong → solid → kosong → solid).",
+    "id": "tiu_gratis_033",
+    "kunci": "C"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar berikutnya yang melanjutkan pola pergeseran elemen berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"22\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": true,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <rect x=\"15\" y=\"15\" width=\"14\" height=\"14\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Lingkaran hitam berpindah satu kuadran searah jarum jam tiap langkah, sedangkan garis diagonal muncul bergantian (tidak ada → ada → tidak ada → ada → tidak ada).",
+    "id": "tiu_gratis_034",
+    "kunci": "A"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar kelima yang melanjutkan pola pertambahan elemen berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"58\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"58\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"58\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": true,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Jumlah batang bertambah 1 pada tiap langkah (1, 2, 3, 4, 5), dengan orientasi (vertikal/horizontal) dan warna isian (hitam/putih) yang bergantian setiap langkah.",
+    "id": "tiu_gratis_035",
+    "kunci": "D"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Kosakata & Sinonim",
+    "soal": "Sinonim yang paling tepat untuk kata **RESIDU** adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Larutan",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Endapan",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Saringan",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Campuran",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Uapan",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Menurut KBBI, 'residu' berarti ampas, endapan, atau sisa.",
+    "id": "tiu_gratis_036"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Kosakata & Sinonim",
+    "soal": "Sinonim yang paling tepat untuk kata **RIGID** adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Lentur",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Dinamis",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Rapuh",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Halus",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Kaku",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Menurut KBBI, 'rigid' berarti kaku atau tidak mudah berubah/fleksibel.",
+    "id": "tiu_gratis_037"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analogi",
+    "soal": "HAKIM : PALU = DOKTER : ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pasien",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rumah Sakit",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Stetoskop",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Resep",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Kesehatan",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Relasi profesi dan alat kerja khasnya: 'hakim' identik dengan 'palu', sebagaimana 'dokter' identik dengan 'stetoskop'.",
+    "id": "tiu_gratis_038"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analogi",
+    "soal": "KERING : LEMBAP = GELAP : ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Terang",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Malam",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Hitam",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Lampu",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Redup",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Relasi antonim (lawan kondisi): 'kering' berlawanan dengan 'lembap', sebagaimana 'gelap' berlawanan dengan 'terang'.",
+    "id": "tiu_gratis_039"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Klasik",
+    "soal": "Semua aparatur negara yang berintegritas menolak gratifikasi. Sebagian pegawai di bagian pengadaan bukan aparatur negara yang berintegritas. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Semua pegawai di bagian pengadaan menerima gratifikasi.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Sebagian pegawai di bagian pengadaan tidak wajib menolak gratifikasi.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Tidak ada pegawai di bagian pengadaan yang berintegritas.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian pegawai di bagian pengadaan belum tentu menolak gratifikasi.",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Semua yang menolak gratifikasi bekerja di bagian pengadaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Dari premis 'Semua A adalah B' dan 'Sebagian C bukan A', tidak dapat disimpulkan 'Sebagian C bukan B' secara mutlak; yang pasti hanyalah sebagian C belum tentu memiliki sifat B.",
+    "id": "tiu_gratis_040"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Klasik",
+    "soal": "Jika berkas perkara lengkap, maka jaksa segera melimpahkannya ke pengadilan. Berkas perkara sudah lengkap atau penyidik masih memeriksa saksi ahli. Penyidik tidak lagi memeriksa saksi ahli. Kesimpulan yang sah adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Jaksa menunda pelimpahan berkas perkara.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Jaksa segera melimpahkan berkas perkara ke pengadilan.",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Berkas perkara dikembalikan kepada penyidik.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pengadilan menolak menerima berkas perkara tersebut.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Penyidik mencari saksi ahli pengganti.",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Dari (p ∨ q) dan ~q diperoleh p (berkas perkara sudah lengkap). Dengan (p → r), maka r: jaksa segera melimpahkan berkas perkara ke pengadilan.",
+    "id": "tiu_gratis_041"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme 3 Premis (Prediksi Baru)",
+    "soal": "Semua peserta yang lolos passing grade TWK, TIU, dan TKP masuk tahap pemeringkatan. Semua peserta di tahap pemeringkatan memiliki skor SKD di atas 311. Budi tidak memiliki skor SKD di atas 311. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Budi hanya gagal pada subtes TKP saja.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Sebagian peserta di tahap pemeringkatan memiliki skor di bawah 311.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Budi tetap masuk tahap pemeringkatan cadangan.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Budi lolos passing grade TWK namun gagal di TIU.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Budi tidak lolos passing grade seluruh subtes SKD.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Skor > 311 adalah syarat mutlak tahap pemeringkatan, dan tahap pemeringkatan adalah konsekuensi lolos passing grade ketiga subtes. Karena Budi tidak > 311, maka ia tidak masuk pemeringkatan dan tidak lolos ketiga passing grade.",
+    "id": "tiu_gratis_042"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Narasi (Prediksi Baru)",
+    "soal": "Di sebuah kantor imigrasi, setiap pemohon paspor percepatan wajib melampirkan tiket keberangkatan atau surat tugas dinas. Pemohon yang menggunakan layanan reguler menunggu 3 hari kerja tanpa biaya tambahan. Sari datang mengurus paspor tanpa melampirkan tiket maupun surat tugas dinas. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Sari pasti menggunakan layanan paspor reguler.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Sari akan menunggu paspornya selesai dalam 2 hari kerja.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Sari tidak memenuhi syarat layanan paspor percepatan.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Sari dikenakan biaya tambahan layanan percepatan.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Permohonan paspor Sari ditolak permanen oleh sistem.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Karena syarat layanan percepatan adalah melampirkan tiket atau surat tugas dinas dan Sari tidak melampirkan keduanya, kesimpulan paling pasti adalah Sari tidak memenuhi syarat layanan paspor percepatan.",
+    "id": "tiu_gratis_043"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme 3 Premis (Prediksi Baru)",
+    "soal": "Semua arsip digital tahun 2025 telah dicadangkan di server pusat. Beberapa arsip keuangan unit daerah adalah arsip digital tahun 2025. Semua berkas yang dicadangkan di server pusat dapat diakses melalui VPN resmi. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Beberapa arsip keuangan unit daerah dapat diakses melalui VPN resmi.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Semua arsip keuangan unit daerah dapat diakses melalui VPN resmi.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Semua berkas yang diakses lewat VPN resmi adalah arsip keuangan.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Tidak ada arsip digital tahun 2025 yang tersimpan di server pusat.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Sebagian arsip digital tahun 2025 tidak dapat diakses melalui VPN resmi.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Beberapa arsip keuangan = arsip digital 2025 → dicadangkan di server pusat → dapat diakses melalui VPN resmi. Jadi beberapa arsip keuangan unit daerah dapat diakses melalui VPN resmi.",
+    "id": "tiu_gratis_044"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analitis Jadwal",
+    "soal": "Empat ruangan rapat (Mawar, Melati, Anggrek, Kenanga) dijadwalkan untuk rapat Senin sampai Kamis, satu ruangan per hari. Ruang Anggrek dipakai sebelum Ruang Mawar. Ruang Kenanga dipakai pada hari Rabu. Ruang Melati dipakai tepat setelah Ruang Kenanga. Ruangan manakah yang dipakai pada hari Senin?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Mawar",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Melati",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Kenanga",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Anggrek",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Anggrek atau Mawar",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Rabu = Kenanga; Kamis = Melati (tepat setelah Kenanga). Tersisa Senin dan Selasa untuk Anggrek dan Mawar. Karena Anggrek sebelum Mawar, maka Senin = Anggrek dan Selasa = Mawar.",
+    "id": "tiu_gratis_045"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Penalaran Kritis (Prediksi Baru)",
+    "soal": "Sebuah dinas kesehatan menerapkan aplikasi pendaftaran puskesmas daring agar waktu tunggu pasien di ruang loket berkurang. Setelah 3 bulan, waktu tunggu rata-rata turun dari 45 menit menjadi 18 menit. Pernyataan manakah yang paling **MEMPERKUAT** bahwa aplikasi tersebut efektif?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Warna tampilan antarmuka aplikasi pendaftaran puskesmas menggunakan warna hijau dan biru muda.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Jumlah dokter umum yang bertugas di puskesmas selama 3 bulan tersebut tetap sama dan jumlah pasien harian justru meningkat 15%.",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Puskesmas menyediakan dua buah televisi baru di ruang tunggu pasien rawat jalan.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian pasien memilih datang ke puskesmas menggunakan angkutan umum daerah.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Dinas kesehatan berencana memperpanjang masa kontrak server aplikasi hingga akhir tahun.",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Waktu tunggu turun drastis meskipun jumlah dokter tetap dan jumlah pasien justru naik 15% menyingkirkan faktor penurunan pasien sebagai penyebab, sehingga memperkuat efektivitas aplikasi.",
+    "id": "tiu_gratis_046"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Penalaran Kritis (Prediksi Baru)",
+    "soal": "Banyak perusahaan beralih ke rapat daring penuh karena mengklaim rapat daring selalu menghemat waktu kerja karyawan hingga 40% dibanding rapat tatap muka. Pernyataan manakah yang paling **MEMPERLEMAH** klaim tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Aplikasi rapat daring kini dilengkapi fitur rekaman otomatis dan transkrip teks.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rapat tatap muka sebelumnya sering menyediakan konsumsi ringan bagi peserta.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Biaya langganan paket internet kantor mengalami penyesuaian tarif tahunan.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian karyawan menggunakan latar belakang virtual saat menyalakan kamera rapat.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Riset internal menunjukkan frekuensi rapat daring melonjak tiga kali lipat sehingga total durasi rapat mingguan karyawan justru bertambah.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Jika frekuensi rapat daring melonjak 3× lipat hingga total durasi rapat mingguan bertambah, maka klaim bahwa rapat daring selalu menghemat waktu kerja menjadi lemah.",
+    "id": "tiu_gratis_047"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Hitung Cepat",
+    "soal": "Hasil dari 0,625 × 64 + 12,5% × 160 adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "50",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "64",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "60",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "72",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "80",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "0,625 = 5/8 dan 12,5% = 1/8. Maka (5/8 × 64) + (1/8 × 160) = 40 + 20 = 60.",
+    "id": "tiu_gratis_048"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Hitung Cepat",
+    "soal": "Nilai dari √196 + √225 − √81 adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "20",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "18",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "22",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "24",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "26",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "√196 = 14, √225 = 15, √81 = 9. Maka 14 + 15 − 9 = 20.",
+    "id": "tiu_gratis_049"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Perbandingan Kuantitatif",
+    "soal": "Diketahui P = 15% dari 240 dan Q = 2/5 dari 95. Hubungan antara P dan Q adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "P > Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "P = 2Q",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "P = Q",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "P < Q",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Hubungan P dan Q tidak dapat ditentukan",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "P = 0,15 × 240 = 36. Q = (2/5) × 95 = 2 × 19 = 38. Jadi P < Q.",
+    "id": "tiu_gratis_050"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Perbandingan Kuantitatif",
+    "soal": "Diketahui a > 2 dan b < −3. Jika P = a − b dan Q = b − a, maka hubungan yang benar adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "P < Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "P > Q",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "P = Q",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "P + Q = 2",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Hubungan P dan Q tidak dapat ditentukan",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Karena a > 2 dan b < −3, maka a − b > 5 (bernilai positif), sedangkan b − a < −5 (bernilai negatif). Pasti P > Q.",
+    "id": "tiu_gratis_051"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Perbandingan uang tabungan Dini dan Fajar adalah 3 : 5. Jika selisih tabungan mereka adalah Rp400.000, berapakah jumlah total tabungan Dini dan Fajar?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Rp1.200.000",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rp1.400.000",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Rp2.000.000",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Rp1.800.000",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Rp1.600.000",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Selisih rasio = 5 − 3 = 2 bagian = Rp400.000 → 1 bagian = Rp200.000. Total = (3 + 5) × Rp200.000 = 8 × Rp200.000 = Rp1.600.000.",
+    "id": "tiu_gratis_052"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Sebuah kotak berisi 4 bola merah dan 6 bola biru. Jika diambil 1 bola secara acak, berapakah peluang terambilnya bola merah?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "1/5",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "3/5",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "2/5",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "2/3",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "3/4",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Total bola = 4 + 6 = 10. Peluang bola merah = 4/10 = 2/5.",
+    "id": "tiu_gratis_053"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Umur ayah sekarang 3 kali umur anaknya. Jika jumlah umur mereka 5 tahun yang akan datang adalah 58 tahun, berapakah umur anak sekarang?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "12 tahun",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "10 tahun",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "14 tahun",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "15 tahun",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "16 tahun",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Misal umur anak sekarang = x, ayah = 3x. Lima tahun lagi: (x + 5) + (3x + 5) = 58 → 4x + 10 = 58 → 4x = 48 → x = 12 tahun.",
+    "id": "tiu_gratis_054"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Koperasi membeli 1 lusin map arsip seharga Rp120.000, lalu menjualnya kembali seharga Rp12.500 per buah. Berapakah persentase keuntungan koperasi tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "15%",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "20%",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "30%",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "25%",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "35%",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Harga beli per buah = 120.000 / 12 = Rp10.000. Untung per buah = 12.500 − 10.000 = Rp2.500. Persentase untung = (2.500 / 10.000) × 100% = 25%.",
+    "id": "tiu_gratis_055"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah keliling sebuah persegi panjang?\n(1) Luas persegi panjang tersebut adalah 48 cm².\n(2) Panjangnya 2 cm lebih panjang daripada lebarnya.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Dari (1) p × l = 48 (banyak pasangan). Dari (2) p = l + 2 (banyak pasangan). Bersama-sama: (l + 2)l = 48 → l = 6 cm, p = 8 cm (positif unik), sehingga keliling = 2(8 + 6) = 28 cm. Keduanya bersama-sama cukup.",
+    "id": "tiu_gratis_056"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Apakah bilangan bulat positif n merupakan bilangan ganjil?\n(1) n + 3 adalah bilangan genap.\n(2) 2n adalah bilangan genap.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Dari (1): n + 3 genap, karena 3 ganjil maka n pasti ganjil (CUKUP). Dari (2): 2n selalu genap untuk n bulat apa pun, ganjil maupun genap (TIDAK CUKUP).",
+    "id": "tiu_gratis_057"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah rata-rata nilai ujian Matematika dari 5 siswa di kelas A?\n(1) Jumlah seluruh nilai 5 siswa tersebut adalah 410.\n(2) Nilai tertinggi siswa di kelas tersebut adalah 95.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Rata-rata = Jumlah nilai / Banyak siswa = 410 / 5 = 82. Jadi pernyataan (1) saja sudah cukup, sedangkan (2) tidak cukup.",
+    "id": "tiu_gratis_058"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah waktu yang dibutuhkan mobil P untuk menempuh jarak 120 km?\n(1) Kecepatan rata-rata mobil P adalah 60 km/jam.\n(2) Mobil P menempuh jarak 30 km setiap 30 menit dengan kecepatan konstan.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Dari (1): t = 120 / 60 = 2 jam (cukup). Dari (2): 30 km / 0,5 jam = 60 km/jam → t = 2 jam (juga cukup). Masing-masing pernyataan saja cukup.",
+    "id": "tiu_gratis_059"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Bertingkat (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 5, 8, 14, 23, 35, 50, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "65",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "72",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "70",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "68",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "74",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Selisih tingkat 1: +3, +6, +9, +12, +15 (kelipatan 3), maka berikutnya +18. 50 + 18 = 68.",
+    "id": "tiu_gratis_060"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Selang (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 100, 5, 90, 10, 80, 20, 70, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "30",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "40",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "35",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "45",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "60",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Deret selang: suku ganjil (100, 90, 80, 70) berkurang 10; suku genap (5, 10, 20, ...) dikali 2. Maka 20 × 2 = 40.",
+    "id": "tiu_gratis_061"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Bertingkat (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 1, 2, 6, 15, 31, 56, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "88",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "90",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "96",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "94",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "92",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Selisih tingkat 1 adalah bilangan kuadrat: +1 (1²), +4 (2²), +9 (3²), +16 (4²), +25 (5²), maka berikutnya +36 (6²). 56 + 36 = 92.",
+    "id": "tiu_gratis_062"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Tabel (Prediksi Baru)",
+    "soal": "Perhatikan pola bilangan dalam baris tabel berikut:\nBaris 1: [3, 5, 17]\nBaris 2: [4, 6, 26]\nBaris 3: [7, 4, ?]\nNilai yang tepat menggantikan tanda tanya (?) adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "28",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "32",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "30",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "34",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "36",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Pola tiap baris [A, B, C]: C = (A × B) + 2. Cek Baris 1: (3×5)+2 = 17; Baris 2: (4×6)+2 = 26. Maka Baris 3: (7×4)+2 = 28 + 2 = 30.",
+    "id": "tiu_gratis_063"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Ketidaksamaan",
+    "soal": "Perhatikan kelima gambar berikut. Pilihlah SATU gambar yang tidak memiliki kesamaan pola rotasi dengan keempat gambar lainnya!",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(135) scale(-1,1) translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(135)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(225)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(315)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(45)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Keempat gambar lainnya merupakan hasil rotasi murni (0°, 90°, 180°, 270°) dari bentuk huruf-L yang sama, sedangkan satu gambar mengalami pencerminan (mirror).",
+    "id": "tiu_gratis_064",
+    "kunci": "A"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Ketidaksamaan",
+    "soal": "Pilihlah SATU gambar yang berbeda pola hubungannya antara bentuk bangun datar dan titik di dalamnya!",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,54.0 15.8,54.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"51.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"29.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"50.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"46.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"33.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"29.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": true,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Pada empat gambar lainnya, jumlah titik di dalam bangun sama dengan jumlah sisi poligonnya. Pada gambar yang berbeda, jumlah titik tidak sama dengan jumlah sisinya.",
+    "id": "tiu_gratis_065",
+    "kunci": "D"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Analogi Gambar",
+    "soal": "Perhatikan hubungan pola gambar pertama dan kedua, lalu tentukan gambar keempat yang tepat:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">:</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;margin:0 4px;\">=</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">:</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(360) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(360) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Transformasi dari gambar pertama ke kedua adalah rotasi 90° searah jarum jam disertai pembalikan warna isian panah (solid ↔ kosong), dengan mempertahankan lingkaran luar jika ada.",
+    "id": "tiu_gratis_066",
+    "kunci": "B"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Analogi Gambar",
+    "soal": "Tentukan gambar yang tepat untuk melengkapi analogi pola berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"40.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;\">:</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;margin:0 4px;\">=</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;\">:</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 61.9,22.5 67.3,46.2 52.1,65.2 27.9,65.2 12.7,46.2 18.1,22.5\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"51.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"29.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": true,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Dari kiri ke kanan, jumlah sisi poligon bertambah 1 dan jumlah titik di dalam bertambah 1, dengan mempertahankan warna arsiran latar poligon.",
+    "id": "tiu_gratis_067",
+    "kunci": "E"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar kelima yang tepat untuk melanjutkan deret pola berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(45) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(135) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(225) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(225) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(225) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Panah berputar 45° searah jarum jam pada setiap langkah dan warna isiannya bergantian (solid → kosong → solid → kosong → solid).",
+    "id": "tiu_gratis_068",
+    "kunci": "C"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar berikutnya yang melanjutkan pola pergeseran elemen berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"58\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": true,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <rect x=\"51\" y=\"15\" width=\"14\" height=\"14\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Lingkaran hitam berpindah satu kuadran searah jarum jam tiap langkah, sedangkan garis diagonal muncul bergantian (tidak ada → ada → tidak ada → ada → tidak ada).",
+    "id": "tiu_gratis_069",
+    "kunci": "A"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar kelima yang melanjutkan pola pertambahan elemen berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"58\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"58\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"58\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": true,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Jumlah batang bertambah 1 pada tiap langkah (1, 2, 3, 4, 5), dengan orientasi (vertikal/horizontal) dan warna isian (hitam/putih) yang bergantian setiap langkah.",
+    "id": "tiu_gratis_070",
+    "kunci": "D"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Kosakata & Sinonim",
+    "soal": "Sinonim yang paling tepat untuk kata **REMISI** adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Penambahan masa tahanan",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pengurangan masa hukuman",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Pembebasan tanpa syarat",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pemindahan lokasi tahanan",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Penundaan sidang perkara",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Menurut KBBI, 'remisi' adalah pengampunan atau pengurangan hukuman yang diberikan kepada narapidana.",
+    "id": "tiu_gratis_071"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Kosakata & Sinonim",
+    "soal": "Sinonim yang paling tepat untuk kata **RESISTAN** adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Rentan",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rapuh",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Peka",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Loyo",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Kebal",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Menurut KBBI, 'resistan' berarti tahan terhadap sesuatu atau kebal.",
+    "id": "tiu_gratis_072"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analogi",
+    "soal": "BENANG : KAIN = KATA : ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Huruf",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Kamera",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Kalimat",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Pena",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Kertas",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Relasi bagian pembentuk: kumpulan 'benang' ditenun menjadi 'kain', sebagaimana kumpulan 'kata' dirangkai menjadi 'kalimat'.",
+    "id": "tiu_gratis_073"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analogi",
+    "soal": "VAKSIN : PENYAKIT = PAYUNG : ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Hujan",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Awan",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Angin",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Basah",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Musim",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Relasi fungsi pelindung: 'vaksin' digunakan untuk melindungi dari 'penyakit', sebagaimana 'payung' melindungi dari 'hujan'.",
+    "id": "tiu_gratis_074"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Klasik",
+    "soal": "Semua hakim agung memiliki integritas tinggi. Sebagian pejabat pengadilan adalah hakim agung. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Semua pejabat pengadilan memiliki integritas tinggi.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Tidak ada pejabat pengadilan yang merupakan hakim agung.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Semua yang memiliki integritas tinggi adalah hakim agung.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian pejabat pengadilan memiliki integritas tinggi.",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Sebagian hakim agung bukan pejabat pengadilan.",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Karena sebagian pejabat pengadilan adalah hakim agung, dan semua hakim agung berintegritas tinggi, maka sebagian pejabat pengadilan pasti memiliki integritas tinggi.",
+    "id": "tiu_gratis_075"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Klasik",
+    "soal": "Jika koneksi internet server stabil, maka ujian CAT berjalan lancar. Hari ini ujian CAT tidak berjalan lancar. Kesimpulan yang sah adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Peserta ujian CAT terlambat datang ke lokasi.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Koneksi internet server hari ini tidak stabil.",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Koneksi internet server stabil namun listrik padam.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Panitia membatalkan ujian CAT secara permanen.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Sebagian komputer peserta mengalami kerusakan.",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Modus Tollens: p → q, ~q, maka ~p. Jadi koneksi internet server hari ini tidak stabil.",
+    "id": "tiu_gratis_076"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme 3 Premis (Prediksi Baru)",
+    "soal": "Setiap layanan publik yang meraih zona integritas wajib bebas dari pungutan liar. Semua kantor imigrasi percontohan telah meraih zona integritas. Kantor Imigrasi X merupakan salah satu kantor imigrasi percontohan. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Semua layanan publik di Indonesia adalah kantor imigrasi percontohan.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Sebagian kantor imigrasi percontohan belum meraih zona integritas.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Hanya Kantor Imigrasi X yang bebas dari pungutan liar.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Kantor imigrasi yang bukan percontohan boleh menarik pungutan liar.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Kantor Imigrasi X wajib bebas dari pungutan liar.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Kantor Imigrasi X → kantor imigrasi percontohan → meraih zona integritas → wajib bebas dari pungutan liar.",
+    "id": "tiu_gratis_077"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme Narasi (Prediksi Baru)",
+    "soal": "Dalam sebuah seleksi pengadaan barang, setiap penyedia yang mengajukan penawaran wajib melampirkan surat izin usaha aktif. Penyedia yang lolos evaluasi administrasi akan diundang pada tahap pembuktian kualifikasi. PT Maju Jaya tidak melampirkan surat izin usaha aktif. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "PT Maju Jaya dinyatakan sebagai pemenang cadangan.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "PT Maju Jaya tetap diundang pada tahap pembuktian kualifikasi.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "PT Maju Jaya tidak memenuhi syarat pengajuan penawaran.",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "Semua penyedia yang melampirkan izin usaha pasti menang tender.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Panitia membatalkan seluruh proses seleksi pengadaan barang.",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Melampirkan surat izin usaha aktif adalah syarat wajib pengajuan penawaran. Karena PT Maju Jaya tidak melampirkannya, maka PT Maju Jaya tidak memenuhi syarat pengajuan penawaran.",
+    "id": "tiu_gratis_078"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Silogisme 3 Premis (Prediksi Baru)",
+    "soal": "Semua pegawai yang mengikuti diklat kepemimpinan mendapatkan sertifikat kompetensi. Sebagian analis hukum adalah pegawai yang mengikuti diklat kepemimpinan. Tidak ada peserta diklat kepemimpinan yang absen lebih dari dua kali. Kesimpulan yang paling tepat adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Sebagian analis hukum mendapatkan sertifikat kompetensi dan tidak absen lebih dari dua kali.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Semua analis hukum mendapatkan sertifikat kompetensi.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Semua analis hukum tidak pernah absen mengikuti diklat.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian peserta diklat kepemimpinan absen lebih dari dua kali.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Tidak ada analis hukum yang mendapatkan sertifikat kompetensi.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Sebagian analis hukum mengikuti diklat kepemimpinan, dan semua peserta diklat mendapat sertifikat serta tidak absen > 2 kali.",
+    "id": "tiu_gratis_079"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Analitis Posisi",
+    "soal": "Enam orang pegawai (P, Q, R, S, T, U) duduk berbaris di kursi nomor 1 sampai 6 dari kiri ke kanan. P duduk di kursi nomor 1, sedangkan U duduk di kursi nomor 6. R duduk tepat di sebelah kanan P. S duduk tepat di antara R dan T. Q duduk tepat di antara T dan U. Siapakah yang duduk di kursi nomor 4?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "R",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "S",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "T",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Q atau S",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Urutan kursi 1–6: 1=P, 2=R (sebelah kanan P), 3=S (antara R dan T), 4=T, 5=Q (antara T dan U), 6=U. Jadi yang duduk di kursi nomor 4 adalah T.",
+    "id": "tiu_gratis_080"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Penalaran Kritis (Prediksi Baru)",
+    "soal": "Sebuah daerah mewajibkan seluruh minimarket tidak menyediakan kantong plastik sekali pakai secara gratis untuk mengurangi sampah plastik rumah tangga. Pernyataan manakah yang paling **MEMPERKUAT** efektivitas kebijakan tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Beberapa minimarket mulai menjual tas belanja kain bermotif batik daerah di dekat meja kasir.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Data bank sampah daerah mencatat volume sampah kantong plastik sekali pakai turun 55% dalam enam bulan sejak kebijakan diterapkan.",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "Jumlah gerai minimarket baru di jalan protokol bertambah dua unit pada awal tahun ini.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Masyarakat tetap berbelanja kebutuhan harian di minimarket pada akhir pekan seperti biasa.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Harga bahan baku plastik industri di pasar internasional mengalami fluktuasi sepanjang tahun.",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Penurunan nyata volume sampah kantong plastik sebesar 55% setelah kebijakan berlaku langsung memperkuat bukti efektivitas kebijakan tersebut.",
+    "id": "tiu_gratis_081"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Verbal - Penalaran Kritis (Prediksi Baru)",
+    "soal": "Seorang analis menyimpulkan bahwa tingginya jumlah pelamar CPNS pada instansi X semata-mata disebabkan oleh besarnya tunjangan kinerja instansi tersebut. Pernyataan manakah yang paling **MEMPERLEMAH** kesimpulan analis tersebut?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Instansi X memiliki kantor perwakilan di seluruh ibu kota provinsi di Indonesia.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Informasi besaran tunjangan kinerja instansi X dapat diakses secara terbuka di situs resmi kementerian.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Proses pendaftaran seleksi CPNS pada instansi X dilakukan secara daring melalui portal SSCASN.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Sebagian pelamar pada instansi X berasal dari lulusan perguruan tinggi negeri dan swasta terakreditasi.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Instansi X membuka jumlah formasi terbanyak secara nasional dan menerima hampir seluruh jurusan pendidikan tanpa syarat pengalaman kerja.",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Adanya alasan kuat lain (jumlah formasi terbanyak nasional dan terbuka bagi hampir semua jurusan tanpa syarat pengalaman) melemahkan klaim bahwa pelamar ramai 'semata-mata' karena tunjangan kinerja.",
+    "id": "tiu_gratis_082"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Hitung Cepat",
+    "soal": "Hasil dari (45 × 18 + 45 × 22) / 90 adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "18",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "22",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "20",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "24",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "40",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Gunakan sifat distributif: 45 × (18 + 22) / 90 = (45 × 40) / 90 = 40 / 2 = 20.",
+    "id": "tiu_gratis_083"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Hitung Cepat",
+    "soal": "Hasil dari 3/4 + 0,45 − 20% adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "1,00",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "0,95",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "0,90",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "1,05",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "1,20",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "3/4 = 0,75 dan 20% = 0,20. Maka 0,75 + 0,45 − 0,20 = 1,20 − 0,20 = 1,00.",
+    "id": "tiu_gratis_084"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Perbandingan Kuantitatif",
+    "soal": "Diketahui P = 3⁵ − 3⁴ dan Q = 2 × 3⁴. Hubungan yang benar antara P dan Q adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "P > Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "P < Q",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "P = 3Q",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "P = Q",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Hubungan P dan Q tidak dapat ditentukan",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "P = 3⁴(3 − 1) = 3⁴ × 2 = 2 × 3⁴ = Q. Jadi P = Q.",
+    "id": "tiu_gratis_085"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Perbandingan Kuantitatif",
+    "soal": "Jika 0 < x < 1, manakah hubungan yang tepat antara P = x² dan Q = x³?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "P < Q",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "P > Q",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "P = Q",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "P = 2Q",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Hubungan P dan Q tidak dapat ditentukan",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Untuk bilangan pecahan positif 0 < x < 1 (misal x = 1/2), semakin tinggi pangkatnya nilainya semakin kecil: (1/2)² = 1/4 > (1/2)³ = 1/8. Jadi P > Q.",
+    "id": "tiu_gratis_086"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Sebuah bak air berkapasitas 1.200 liter diisi menggunakan keran dengan debit 25 liter/menit. Jika pengisian dimulai pukul 08.10, pada pukul berapakah bak tersebut terisi penuh?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "08.48",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "08.54",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "09.08",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "09.02",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "08.58",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Waktu = 1.200 / 25 = 48 menit. Selesai = 08.10 + 48 menit = 08.58.",
+    "id": "tiu_gratis_087"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Dari 40 pegawai di suatu kantor, 24 orang gemar minum kopi, 18 orang gemar minum teh, dan 6 orang tidak gemar keduanya. Berapa orang yang gemar minum kopi sekaligus teh?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "6 orang",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "10 orang",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "8 orang",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "12 orang",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "14 orang",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Total = Kopi + Teh − Keduanya + Tidak Keduanya → 40 = 24 + 18 − x + 6 → 40 = 48 − x → x = 8 orang.",
+    "id": "tiu_gratis_088"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Sebuah ruang arsip berbentuk persegi panjang memiliki ukuran panjang 12 meter dan lebar 8 meter. Jika lantai ruangan akan dipasang keramik berukuran 40 cm × 40 cm, berapa banyak keping keramik minimal yang dibutuhkan?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "600 keping",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "500 keping",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "400 keping",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "750 keping",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "800 keping",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Luas lantai = 1.200 cm × 800 cm = 960.000 cm². Luas 1 keramik = 40 × 40 = 1.600 cm². Jumlah = 960.000 / 1.600 = 600 keping.",
+    "id": "tiu_gratis_089"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Soal Cerita",
+    "soal": "Ali menabung di bank sebesar Rp5.000.000 dengan bunga tunggal 6% per tahun. Berapakah total tabungan Ali setelah 8 bulan?",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Rp5.150.000",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Rp5.300.000",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "Rp5.240.000",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Rp5.200.000",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Rp5.360.000",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Bunga 8 bulan = (8/12) × 6% × 5.000.000 = 4% × 5.000.000 = Rp200.000. Total tabungan = Rp5.200.000.",
+    "id": "tiu_gratis_090"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah nilai dari x + y?\n(1) 3x + 3y = 45\n(2) x − y = 5",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Dari (1): 3(x + y) = 45 → x + y = 15 (langsung terjawab dengan (1) saja!). Dari (2): x − y = 5 tidak menentukan nilai x + y.",
+    "id": "tiu_gratis_091"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Apakah sudut P pada segitiga PQR lebih besar dari 90°?\n(1) Sudut Q = 40° dan sudut R = 35°.\n(2) Segitiga PQR adalah segitiga sama kaki.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Dari (1): ∠P = 180° − 40° − 35° = 105° (> 90°, CUKUP). Dari (2): segitiga sama kaki bisa lancip (mis. 70°-70°-40°) atau tumpul (120°-30°-30°), jadi tidak cukup.",
+    "id": "tiu_gratis_092"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah sisa pembagian bilangan bulat positif k oleh 5?\n(1) k habis dibagi 10.\n(2) k + 1 adalah bilangan ganjil.",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": true
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "A",
+    "pembahasan": "Dari (1): setiap bilangan yang habis dibagi 10 pasti juga habis dibagi 5, sehingga sisanya selalu 0 (CUKUP). Dari (2): k bilangan genap (bisa 2, 4, 6, 8, 10) dengan sisa bagi 5 yang berbeda-beda.",
+    "id": "tiu_gratis_093"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Kecukupan Data (Prediksi Baru)",
+    "soal": "Berapakah panjang jari-jari sebuah lingkaran?\n(1) Luas lingkaran tersebut adalah 154 cm² (gunakan π = 22/7).\n(2) Keliling lingkaran tersebut adalah 44 cm (gunakan π = 22/7).",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "Pernyataan (1) SAJA cukup, tetapi pernyataan (2) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "Pernyataan (2) SAJA cukup, tetapi pernyataan (1) SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "DUA pernyataan BERSAMA-SAMA cukup, tetapi SATU pernyataan SAJA tidak cukup.",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "Pernyataan (1) SAJA cukup dan pernyataan (2) SAJA cukup.",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "Pernyataan (1) dan (2) tidak cukup untuk menjawab pertanyaan.",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Dari (1): πr² = 154 → r² = 49 → r = 7 cm (cukup). Dari (2): 2πr = 44 → r = 7 cm (juga cukup). Masing-masing pernyataan saja cukup.",
+    "id": "tiu_gratis_094"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Bertingkat (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 7, 10, 16, 25, 37, 52, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "67",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "75",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "73",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "70",
+        "benar": true
+      },
+      {
+        "label": "E",
+        "teks": "78",
+        "benar": false
+      }
+    ],
+    "kunci": "D",
+    "pembahasan": "Selisih tingkat 1: +3, +6, +9, +12, +15, maka berikutnya +18. 52 + 18 = 70.",
+    "id": "tiu_gratis_095"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Selang (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 3, 6, 8, 12, 13, 24, 18, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "36",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "48",
+        "benar": true
+      },
+      {
+        "label": "C",
+        "teks": "42",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "52",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "60",
+        "benar": false
+      }
+    ],
+    "kunci": "B",
+    "pembahasan": "Suku ganjil (3, 8, 13, 18) bertambah +5; suku genap (6, 12, 24, ...) dikali 2. Maka 24 × 2 = 48.",
+    "id": "tiu_gratis_096"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Bertingkat (Prediksi Baru)",
+    "soal": "Angka yang tepat untuk melengkapi deret berikut: 4, 5, 8, 15, 28, 49, ...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "76",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "78",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "84",
+        "benar": false
+      },
+      {
+        "label": "D",
+        "teks": "82",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "80",
+        "benar": true
+      }
+    ],
+    "kunci": "E",
+    "pembahasan": "Selisih tingkat 1: +1, +3, +7, +13, +21. Selisih tingkat 2: +2, +4, +6, +8, maka berikutnya +10. Selisih tingkat 1 berikutnya = 21 + 10 = 31. Jadi 49 + 31 = 80.",
+    "id": "tiu_gratis_097"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Numerik - Deret Tabel (Prediksi Baru)",
+    "soal": "Perhatikan pola bilangan dalam baris tabel berikut:\nBaris 1: [2, 5, 19]\nBaris 2: [3, 6, 33]\nBaris 3: [4, 7, ?]\nNilai yang tepat menggantikan tanda tanya (?) adalah...",
+    "opsi": [
+      {
+        "label": "A",
+        "teks": "47",
+        "benar": false
+      },
+      {
+        "label": "B",
+        "teks": "55",
+        "benar": false
+      },
+      {
+        "label": "C",
+        "teks": "51",
+        "benar": true
+      },
+      {
+        "label": "D",
+        "teks": "59",
+        "benar": false
+      },
+      {
+        "label": "E",
+        "teks": "63",
+        "benar": false
+      }
+    ],
+    "kunci": "C",
+    "pembahasan": "Pola tiap baris [A, B, C]: C = A² + (A + 1) × B. Cek Baris 1: 2² + (3 × 5) = 4 + 15 = 19; Baris 2: 3² + (4 × 6) = 9 + 24 = 33. Maka Baris 3: 4² + (5 × 7) = 16 + 35 = 51.",
+    "id": "tiu_gratis_098"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Ketidaksamaan",
+    "soal": "Perhatikan kelima gambar berikut. Pilihlah SATU gambar yang tidak memiliki kesamaan pola rotasi dengan keempat gambar lainnya!",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(180) scale(-1,1) translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(180)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(270)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(360)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <g transform=\"translate(40,40) rotate(90)  translate(-40,-40)\">\n      <path d=\"M24,18 L24,58 L54,58 L54,48 L34,48 L34,18 Z\" fill=\"#1e293b\"/>\n      <circle cx=\"48\" cy=\"28\" r=\"6\" fill=\"#1e3a8a\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Keempat gambar lainnya merupakan hasil rotasi murni (0°, 90°, 180°, 270°) dari bentuk huruf-L yang sama, sedangkan satu gambar mengalami pencerminan (mirror).",
+    "id": "tiu_gratis_099",
+    "kunci": "A"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Ketidaksamaan",
+    "soal": "Pilihlah SATU gambar yang berbeda pola hubungannya antara bentuk bangun datar dan titik di dalamnya!",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,54.0 15.8,54.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 68.0,40.0 40.0,68.0 12.0,40.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"51.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"29.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"50.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"46.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"31.1\" cy=\"33.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"43.4\" cy=\"29.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"46.9\" cy=\"48.6\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"37.6\" cy=\"50.7\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"30.1\" cy=\"44.8\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"30.1\" cy=\"35.2\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"37.6\" cy=\"29.3\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"46.9\" cy=\"31.4\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": true,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"45.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Pada empat gambar lainnya, jumlah titik di dalam bangun sama dengan jumlah sisi poligonnya. Pada gambar yang berbeda, jumlah titik tidak sama dengan jumlah sisinya.",
+    "id": "tiu_gratis_100",
+    "kunci": "D"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Analogi Gambar",
+    "soal": "Perhatikan hubungan pola gambar pertama dan kedua, lalu tentukan gambar keempat yang tepat:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">:</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;margin:0 4px;\">=</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(360) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">:</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(450) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(450) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(360) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Transformasi dari gambar pertama ke kedua adalah rotasi 90° searah jarum jam disertai pembalikan warna isian panah (solid ↔ kosong), dengan mempertahankan lingkaran luar jika ada.",
+    "id": "tiu_gratis_101",
+    "kunci": "B"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Analogi Gambar",
+    "soal": "Tentukan gambar yang tepat untuk melengkapi analogi pola berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 66.6,31.3 56.5,62.7 23.5,62.7 13.4,31.3\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"40.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;\">:</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;margin:0 4px;\">=</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg><span style=\"font-weight:800;\">:</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 59.8,20.2 68.0,40.0 59.8,59.8 40.0,68.0 20.2,59.8 12.0,40.0 20.2,20.2\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"51.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"40.0\" cy=\"29.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 61.9,22.5 67.3,46.2 52.1,65.2 27.9,65.2 12.7,46.2 18.1,22.5\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"29.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 64.2,26.0 64.2,54.0 40.0,68.0 15.8,54.0 15.8,26.0\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 61.9,22.5 67.3,46.2 52.1,65.2 27.9,65.2 12.7,46.2 18.1,22.5\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><polygon points=\"40.0,12.0 61.9,22.5 67.3,46.2 52.1,65.2 27.9,65.2 12.7,46.2 18.1,22.5\" fill=\"#e2e8f0\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><circle cx=\"51.0\" cy=\"40.0\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"49.5\" r=\"3.2\" fill=\"#0f172a\"/><circle cx=\"34.5\" cy=\"30.5\" r=\"3.2\" fill=\"#0f172a\"/></svg>",
+        "benar": true,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Dari kiri ke kanan, jumlah sisi poligon bertambah 1 dan jumlah titik di dalam bertambah 1, dengan mempertahankan warna arsiran latar poligon.",
+    "id": "tiu_gratis_102",
+    "kunci": "E"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar kelima yang tepat untuk melanjutkan deret pola berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(90) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(135) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(180) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(225) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(225) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#ffffff\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": true,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    \n    <g transform=\"translate(40,40) rotate(315) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <circle cx=\"40\" cy=\"40\" r=\"30\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"4,3\"/>\n    <g transform=\"translate(40,40) rotate(270) translate(-40,-40)\">\n      <polygon points=\"40,14 54,34 45,34 45,62 35,62 35,34 26,34\" fill=\"#1e3a8a\" stroke=\"#1e3a8a\" stroke-width=\"2.2\"/>\n    </g>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Panah berputar 45° searah jarum jam pada setiap langkah dan warna isiannya bergantian (solid → kosong → solid → kosong → solid).",
+    "id": "tiu_gratis_103",
+    "kunci": "C"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar berikutnya yang melanjutkan pola pergeseran elemen berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"22\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": true,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"10\" stroke=\"#1e3a8a\" stroke-width=\"2.5\"/>\n    <circle cx=\"58\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"22\" cy=\"58\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <circle cx=\"58\" cy=\"22\" r=\"8\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\">\n    <line x1=\"40\" y1=\"8\" x2=\"40\" y2=\"72\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    <line x1=\"8\" y1=\"40\" x2=\"72\" y2=\"40\" stroke=\"#cbd5e1\" stroke-width=\"1.5\"/>\n    \n    <rect x=\"51\" y=\"51\" width=\"14\" height=\"14\" fill=\"#0f172a\"/>\n  </svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Lingkaran hitam berpindah satu kuadran searah jarum jam tiap langkah, sedangkan garis diagonal muncul bergantian (tidak ada → ada → tidak ada → ada → tidak ada).",
+    "id": "tiu_gratis_104",
+    "kunci": "A"
+  },
+  {
+    "kategori": "TIU",
+    "subKategori": "Figural - Serial Pola",
+    "soal": "Tentukan gambar kelima yang melanjutkan pola pertambahan elemen berikut:",
+    "gambar": "<div style=\"display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg><span style=\"font-weight:800;\">→</span><span style=\"display:inline-flex;width:76px;height:76px;align-items:center;justify-content:center;border:2px dashed #1e3a8a;border-radius:8px;font-weight:800;color:#1e3a8a;\">?</span></div>",
+    "opsi": [
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "A"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"47\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"58\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "B"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"58\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "C"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"14\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"25\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"36\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"47\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"58\" y=\"16\" width=\"7\" height=\"48\" rx=\"2\" fill=\"#1e293b\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": true,
+        "label": "D"
+      },
+      {
+        "teks": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 80\" width=\"76\" height=\"76\" style=\"display:inline-block;vertical-align:middle;background:#fff;border:1.5px solid #cbd5e1;border-radius:8px;\"><rect x=\"16\" y=\"14\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"25\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/><rect x=\"16\" y=\"36\" width=\"48\" height=\"7\" rx=\"2\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"1.8\"/></svg>",
+        "benar": false,
+        "label": "E"
+      }
+    ],
+    "pembahasan": "Jumlah batang bertambah 1 pada tiap langkah (1, 2, 3, 4, 5), dengan orientasi (vertikal/horizontal) dan warna isian (hitam/putih) yang bergantian setiap langkah.",
+    "id": "tiu_gratis_105",
+    "kunci": "D"
+  }
+]

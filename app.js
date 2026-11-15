@@ -131,6 +131,9 @@ function updateAuthUI(user) {
         if (lobbyEl && window.currentAppMode === 'lobby') {
             lobbyEl.style.display = 'flex';
         }
+        if (typeof window.renderTiu40PaketCards === 'function') {
+            window.renderTiu40PaketCards();
+        }
         if (typeof window.renderTkp40PaketCards === 'function') {
             window.renderTkp40PaketCards();
         }
@@ -510,6 +513,55 @@ window.filterPaketSoal = (filter, btnEl) => {
     });
 };
 
+window.renderTiu40PaketCards = () => {
+    const grid = document.getElementById('paketSoalGrid');
+    if (!grid) return;
+
+    grid.querySelectorAll('.tiu-40-card').forEach(el => el.remove());
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const hasAccess = Boolean(prof.isPaid || prof.isAdmin);
+    const fragment = document.createDocumentFragment();
+
+    for (let i = 1; i <= 40; i++) {
+        const card = document.createElement('div');
+        card.className = 'card-mode packet-card paid tiu-40-card';
+        card.setAttribute('data-tier', 'paid');
+        card.setAttribute('data-cat', 'subtes');
+        card.setAttribute('data-subtes', 'tiu');
+
+        const ctaHtml = hasAccess
+            ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tiu', ${i})"><i class="fas fa-play"></i> Mulai Latihan TIU #${i}</button>`
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TIU Paket #${i} (1.400 Soal + 350 Cadangan)', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TIU #${i}</button>`;
+
+        card.innerHTML = `
+            <div>
+                <div class="packet-badges">
+                    <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
+                    <span class="badge-cat">TIU • PAKET ${i}</span>
+                </div>
+                <div class="card-mode-header">
+                    <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
+                    <div>
+                        <h3>TIU Paket #${i}</h3>
+                        <span style="font-size:0.75rem; color:#b45309; font-weight:700;">35 Soal • 35 Menit • Mode Lama &amp; Baru</span>
+                    </div>
+                </div>
+                <p>Simulasi TIU 35 soal seimbang (12 Verbal, 16 Numerik, 7 Figural SVG • Paket ${i} dari 40).</p>
+            </div>
+            ${ctaHtml}
+        `;
+        fragment.appendChild(card);
+    }
+
+    grid.appendChild(fragment);
+
+    if (window.activePaketSoalFilter && window.activePaketSoalFilter !== 'all') {
+        const activeChip = document.querySelector('#view-cat .filter-chip.active');
+        window.filterPaketSoal(window.activePaketSoalFilter, activeChip);
+    }
+};
+
 window.renderTkp40PaketCards = () => {
     const grid = document.getElementById('paketSoalGrid');
     if (!grid) return;
@@ -560,6 +612,7 @@ window.renderTkp40PaketCards = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    window.renderTiu40PaketCards();
     window.renderTkp40PaketCards();
     if (typeof window.renderSavedExamsOnBeranda === 'function') {
         window.renderSavedExamsOnBeranda();
@@ -928,9 +981,12 @@ window.mulaiSingleplayer = (tipe, paketNo = null) => {
         window.examTimeRemaining = window.currentQuestions.length * 60;
         title = 'Paket Soal TWK';
     } else if (tipe === 'tiu') {
-        window.currentQuestions = rawData.filter(q => q.kategori === 'TIU');
-        window.examTimeRemaining = window.currentQuestions.length * 60;
-        title = 'Paket Soal TIU';
+        const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
+        const no = Math.max(1, Math.min(40, Number(paketNo) || 1));
+        window.currentQuestions = allPaidTiu.slice((no - 1) * 35, no * 35);
+        window.examTimeRemaining = window.currentQuestions.length * 60; // 35 Menit
+        title = `TIU Paket #${no}`;
+        saveId = `tiu_${no}`;
     } else if (tipe === 'tiu_gratis') {
         const no = Math.max(1, Math.min(3, Number(paketNo) || 1));
         const gratisPool = window.DATA_TIU_GRATIS || [];
@@ -1126,9 +1182,12 @@ function renderSoalSekarang() {
         const formatted = escaped
             .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
             .replace(/\n/g, '<br>');
+        const modeBadge = q.mode === 'baru'
+            ? `<div style="margin-bottom:10px;"><span style="display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;background:linear-gradient(135deg,#eff6ff,#dbeafe);border:1px solid #93c5fd;color:#1d4ed8;font-size:0.75rem;font-weight:800;letter-spacing:0.3px;"><i class="fas fa-bolt"></i> TIPE SOAL TERBARU 2026</span></div>`
+            : '';
         qTextEl.innerHTML = q.gambar
-            ? `${formatted}<div style="margin-top:14px; padding:12px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${q.gambar}</div>`
-            : formatted;
+            ? `${modeBadge}${formatted}<div style="margin-top:14px; padding:12px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${q.gambar}</div>`
+            : `${modeBadge}${formatted}`;
     }
 
     const opsListEl = document.getElementById('optionsListDisplay');
@@ -1388,7 +1447,7 @@ async function selesaikanUjian() {
     const durasiText = `${menit}m ${detik}d`;
 
     const savedAttempt = saveAttemptToBrankas({
-        title: window.currentPackageMeta?.title || 'Simulasi SKD CPNS 2026',
+        title: window.currentPackageMeta?.title || 'Simulasi SKD ASN',
         tipe: window.currentPackageMeta?.tipe || 'full',
         paketNo: window.currentPackageMeta?.paketNo || null,
         mode: window.currentAppMode === 'multiplayer' ? 'CBT Mabar' : 'CAT Mandiri',
@@ -1440,7 +1499,7 @@ async function selesaikanUjian() {
                 <div class="result-top-banner">
                     <div>
                         <span class="result-eyebrow"><i class="fas fa-award"></i> LAPORAN HASIL EVALUASI CAT • MENUJU ASN</span>
-                        <h2>Hasil Simulasi SKD CPNS 2026</h2>
+                        <h2>Hasil Simulasi SKD ASN</h2>
                         <div class="result-meta-chips">
                             <span><i class="fas fa-list-ol"></i> ${qs.length} Soal</span>
                             <span><i class="fas fa-stopwatch"></i> Waktu: ${durasiText}</span>
@@ -1564,7 +1623,7 @@ function saveAttemptToBrankas(payload) {
 
     const record = {
         id: `brk_${Date.now()}`,
-        title: payload.title || 'Simulasi SKD CPNS 2026',
+        title: payload.title || 'Simulasi SKD ASN',
         tipe: payload.tipe || 'full',
         paketNo: payload.paketNo || null,
         mode: payload.mode || 'CAT Mandiri',
@@ -2238,14 +2297,14 @@ window.bukaModalBikinRoom = () => {
         : `<option value="${defaultTier}" selected>${defaultTier.toUpperCase()} (Maks ${TIER_CAPACITY[defaultTier] || 1} Peserta)</option>`;
 
     Swal.fire({
-        title: '🏛️ Buka Room Mabar CPNS',
+        title: '🏛️ Buka Room Mabar ASN',
         html: `
             <div style="text-align:left; font-size:0.82rem; color:#475569; margin-bottom:10px; background:#eff6ff; padding:8px 10px; border-radius:8px; border:1px solid #bfdbfe;">
                 <i class="fas fa-bolt" style="color:#2563eb;"></i> <b>Mode Hemat Database:</b> Skor peserta disinkronkan tiap pergantian subtes & selesai ujian.
             </div>
             <div style="text-align:left; margin-bottom:10px;">
                 <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Nama Room:</label>
-                <input id="swalInputNamaRoom" class="swal2-input" style="width:100%; margin:4px 0 10px; font-size:0.85rem;" value="Mabar SKD CPNS #${Math.floor(100+Math.random()*900)}">
+                <input id="swalInputNamaRoom" class="swal2-input" style="width:100%; margin:4px 0 10px; font-size:0.85rem;" value="Mabar SKD ASN #${Math.floor(100+Math.random()*900)}">
             </div>
             <div style="text-align:left; margin-bottom:10px;">
                 <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Kapasitas Paket Room:</label>
@@ -2264,7 +2323,7 @@ window.bukaModalBikinRoom = () => {
         cancelButtonText: 'Batal',
         confirmButtonColor: '#1e3a8a',
         preConfirm: () => {
-            const nama = document.getElementById('swalInputNamaRoom')?.value.trim() || 'Room Mabar CPNS';
+            const nama = document.getElementById('swalInputNamaRoom')?.value.trim() || 'Room Mabar ASN';
             const tier = document.getElementById('swalSelectTierRoom')?.value || defaultTier;
             const rawEmails = document.getElementById('swalInputGuestEmails')?.value.trim() || '';
             const emailList = Array.from(new Set(
