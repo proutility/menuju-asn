@@ -1209,14 +1209,6 @@ function buildExamStageMarkup() {
                 <span id="noSoalDisplay" style="font-weight:700; font-size:0.85rem; color:#334155;">Soal 1${pkgTitle}</span>
             </div>
             <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-                ${window.currentAppMode === 'singleplayer' ? `
-                    <button onclick="window.simpanDanKembaliKeBeranda()" style="background:#fff7ed; color:#c2410c; border:1px solid #fed7aa; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
-                        <i class="fas fa-bookmark"></i> Simpan &amp; Kembali
-                    </button>
-                ` : ''}
-                <button onclick="window.bukaModalLaporSoal()" title="Laporkan kesalahan soal/kunci" style="background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; padding:6px 11px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
-                    <i class="fas fa-flag"></i> Lapor
-                </button>
                 ${window.currentAppMode === 'multiplayer' ? `
                     <button onclick="window.bukaModalKlasemenMabar()" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
                         <i class="fas fa-trophy" style="color:#d97706;"></i> Klasemen
@@ -1225,6 +1217,11 @@ function buildExamStageMarkup() {
                 <div class="exam-timer" id="examTimerDisplay">
                     <i class="fas fa-stopwatch"></i> 45:00
                 </div>
+                ${window.currentAppMode === 'singleplayer' ? `
+                    <button onclick="window.simpanDanKembaliKeBeranda()" style="background:#fff7ed; color:#c2410c; border:1px solid #fed7aa; padding:6px 12px; border-radius:20px; font-weight:700; font-size:0.78rem; cursor:pointer;">
+                        <i class="fas fa-bookmark"></i> Simpan &amp; Kembali
+                    </button>
+                ` : ''}
             </div>
         </div>
 
