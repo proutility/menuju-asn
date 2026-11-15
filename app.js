@@ -137,6 +137,9 @@ function updateAuthUI(user) {
         if (typeof window.applyAdminBypassUI === 'function') {
             window.applyAdminBypassUI();
         }
+        if (typeof window.renderBrankasPembahasan === 'function') {
+            window.renderBrankasPembahasan();
+        }
     } else {
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = 'none';
@@ -1432,6 +1435,320 @@ async function selesaikanUjian() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
+
+function getBrankasStorageKey() {
+    const uid = window.currentUser?.uid || 'guest';
+    return `menuju_asn_brankas_v1_${uid}`;
+}
+
+function getBrankasHistory() {
+    try {
+        const raw = localStorage.getItem(getBrankasStorageKey());
+        const parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed : [];
+    } catch (e) {
+        return [];
+    }
+}
+
+function setBrankasHistory(list) {
+    try {
+        localStorage.setItem(getBrankasStorageKey(), JSON.stringify((list || []).slice(0, 30)));
+    } catch (e) {
+        console.warn('Gagal menyimpan riwayat Brankas:', e);
+    }
+}
+
+function saveAttemptToBrankas(payload) {
+    const questions = payload.questions || [];
+    const answers = payload.userAnswers || {};
+
+    const items = questions.map((q, idx) => {
+        const userAns = answers[q.id] || null;
+        const selectedOpt = userAns ? (q.opsi || []).find(o => o.label === userAns) : null;
+        const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
+        let userPoin = 0;
+        let isCorrect = false;
+
+        if (q.kategori === 'TKP') {
+            userPoin = Number(selectedOpt?.poin || 0);
+            isCorrect = userPoin >= maxPoin && userPoin > 0;
+        } else {
+            isCorrect = Boolean(selectedOpt?.benar);
+            userPoin = isCorrect ? 5 : 0;
+        }
+
+        return {
+            no: idx + 1,
+            id: q.id,
+            kategori: q.kategori,
+            subKategori: q.subKategori || '',
+            soal: q.soal || '',
+            opsi: q.opsi || [],
+            pembahasan: q.pembahasan || '',
+            userAns,
+            userPoin,
+            maxPoin,
+            isCorrect
+        };
+    });
+
+    const record = {
+        id: `brk_${Date.now()}`,
+        title: payload.title || 'Simulasi SKD CPNS 2026',
+        tipe: payload.tipe || 'full',
+        paketNo: payload.paketNo || null,
+        mode: payload.mode || 'CAT Mandiri',
+        durasiText: payload.durasiText || '0m 0d',
+        totalSkor: payload.totalSkor || 0,
+        maxSkor: payload.maxSkor || (questions.length * 5),
+        statusLolos: Boolean(payload.statusLolos),
+        skorTWK: payload.skorTWK || 0,
+        skorTIU: payload.skorTIU || 0,
+        skorTKP: payload.skorTKP || 0,
+        totalQuestions: questions.length,
+        answeredCount: items.filter(it => it.userAns).length,
+        wrongCount: items.filter(it => !it.isCorrect).length,
+        finishedAt: Date.now(),
+        items
+    };
+
+    const history = getBrankasHistory();
+    history.unshift(record);
+    setBrankasHistory(history);
+    return record;
+}
+
+window.hapusRiwayatBrankas = (attemptId) => {
+    const filtered = getBrankasHistory().filter(item => item.id !== attemptId);
+    setBrankasHistory(filtered);
+    if (window.selectedBrankasAttemptId === attemptId) {
+        window.selectedBrankasAttemptId = filtered[0]?.id || null;
+    }
+    window.renderBrankasPembahasan();
+};
+
+window.bukaReviewBrankas = (attemptId, filterMode = null) => {
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const canReview = Boolean(prof.isPaid || prof.isAdmin);
+    if (!canReview) {
+        return window.bukaModalUpgrade(
+            'Review Brankas Pembahasan',
+            'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
+        );
+    }
+    window.selectedBrankasAttemptId = attemptId;
+    if (filterMode) window.brankasReviewFilter = filterMode;
+    window.renderBrankasPembahasan();
+    const reviewEl = document.getElementById('brankasReviewDetailPanel');
+    if (reviewEl) reviewEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+window.mulaiRemedialBrankas = (attemptId) => {
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const tier = String(prof.tier || 'free').toLowerCase();
+    const canRemedial = Boolean(prof.isAdmin || tier === 'gold');
+    if (!canRemedial) {
+        return window.bukaModalUpgrade('Coba Lagi Soal yang Salah', 'Paket Gold (Rp 99.999)');
+    }
+
+    const attempt = getBrankasHistory().find(a => a.id === attemptId);
+    if (!attempt) return;
+
+    const wrongItems = (attempt.items || []).filter(it => !it.isCorrect);
+    if (wrongItems.length === 0) {
+        return Swal.fire('Mantap!', 'Semua soal pada paket ini sudah terjawab dengan poin maksimal.', 'success');
+    }
+
+    window.currentQuestions = wrongItems.map(it => ({
+        id: it.id,
+        kategori: it.kategori,
+        subKategori: it.subKategori,
+        soal: it.soal,
+        opsi: it.opsi,
+        pembahasan: it.pembahasan
+    }));
+    window.examTimeRemaining = window.currentQuestions.length * 60;
+    window.currentAppMode = 'singleplayer';
+    window.currentPackageMeta = {
+        saveId: `remedial_${attempt.id}`,
+        tipe: 'remedial',
+        paketNo: null,
+        title: `Remedial: ${attempt.title}`,
+        totalDurationSeconds: window.examTimeRemaining
+    };
+    startExamSessionUI();
+};
+
+window.renderBrankasPembahasan = () => {
+    const area = document.getElementById('brankasContentArea');
+    if (!area) return;
+
+    const history = getBrankasHistory();
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const tier = String(prof.tier || 'free').toLowerCase();
+    const canReview = Boolean(prof.isPaid || prof.isAdmin);
+    const canRemedial = Boolean(prof.isAdmin || tier === 'gold');
+
+    const statTotal = document.getElementById('brankasStatTotal');
+    const statLast = document.getElementById('brankasStatLast');
+    const statAccess = document.getElementById('brankasStatAccess');
+    if (statTotal) statTotal.textContent = `${history.length} Paket`;
+    if (statLast) statLast.textContent = history[0] ? `${history[0].totalSkor} / ${history[0].maxSkor}` : '-';
+    if (statAccess) {
+        if (prof.isAdmin) statAccess.textContent = 'ADMIN (Full + Remedial)';
+        else if (tier === 'gold') statAccess.textContent = 'GOLD (Full + Remedial)';
+        else if (canReview) statAccess.textContent = `${tier.toUpperCase()} (Review Aktif)`;
+        else statAccess.textContent = 'FREE (Skor Saja)';
+    }
+
+    if (history.length === 0) {
+        area.innerHTML = `
+            <div class="empty-state-card">
+                <div class="empty-icon"><i class="fas fa-folder-open"></i></div>
+                <h3>Belum Ada Riwayat Simulasi Tersimpan</h3>
+                <p>Selesaikan simulasi CAT atau Tryout untuk menyimpan riwayat nilai, kunci jawaban, dan pembahasan otomatis di Brankas Pembahasan.</p>
+                <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+                    <button class="btn-card primary" style="width:auto;" onclick="window.switchAppView('cat')">
+                        <i class="fas fa-play"></i> Pilih Paket Simulasi CAT
+                    </button>
+                </div>
+            </div>
+        `;
+        return;
+    }
+
+    const activeId = window.selectedBrankasAttemptId && history.some(h => h.id === window.selectedBrankasAttemptId)
+        ? window.selectedBrankasAttemptId
+        : history[0].id;
+    window.selectedBrankasAttemptId = activeId;
+    const activeFilter = window.brankasReviewFilter || 'all';
+
+    const listHtml = history.map(item => {
+        const tgl = new Date(item.finishedAt || Date.now()).toLocaleString('id-ID', {
+            day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+        const isSelected = item.id === activeId;
+        return `
+            <div class="card-mode packet-card" style="padding:18px; border:${isSelected && canReview ? '2px solid var(--primary)' : '1px solid var(--border-color)'};">
+                <div>
+                    <div class="packet-badges">
+                        <span class="badge-access ${item.statusLolos ? 'free' : 'paid'}" style="${item.statusLolos ? 'background:#dcfce7; color:#15803d;' : 'background:#fee2e2; color:#b91c1c;'}">
+                            ${item.statusLolos ? 'LULUS PG' : 'BELUM PG'}
+                        </span>
+                        <span class="badge-cat">${item.mode} • ${item.durasiText}</span>
+                    </div>
+                    <h3 style="margin:6px 0 4px; font-size:1.02rem;">${item.title}</h3>
+                    <div style="font-size:0.8rem; color:#64748b; margin-bottom:10px;">
+                        ${tgl} • Terjawab ${item.answeredCount}/${item.totalQuestions} • Perlu Review: <b>${item.wrongCount}</b>
+                    </div>
+                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px; display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                        <span style="font-size:0.82rem; color:#475569; font-weight:600;">Total Skor</span>
+                        <strong style="font-size:1.1rem; color:var(--primary);">${item.totalSkor} <small style="color:#94a3b8; font-weight:600;">/ ${item.maxSkor}</small></strong>
+                    </div>
+                </div>
+                <div style="display:flex; gap:8px; flex-wrap:wrap;">
+                    <button class="btn-card primary" style="flex:1; min-width:140px;" onclick="window.bukaReviewBrankas('${item.id}')">
+                        <i class="fas ${canReview ? 'fa-book-open' : 'fa-lock'}"></i> ${canReview ? 'Review Pembahasan' : 'Buka Review (Berbayar)'}
+                    </button>
+                    <button class="btn-card ${canRemedial ? 'accent' : 'paid-cta'}" style="flex:1; min-width:130px;" onclick="window.mulaiRemedialBrankas('${item.id}')">
+                        <i class="fas ${canRemedial ? 'fa-redo-alt' : 'fa-crown'}"></i> Remedial (${item.wrongCount})
+                    </button>
+                    <button class="btn-card" style="width:auto; padding:0 12px; background:#fee2e2; color:#b91c1c;" title="Hapus Riwayat" onclick="window.hapusRiwayatBrankas('${item.id}')">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    let reviewHtml = '';
+    const activeAttempt = history.find(h => h.id === activeId);
+    if (activeAttempt) {
+        if (!canReview) {
+            reviewHtml = `
+                <div id="brankasReviewDetailPanel" class="empty-state-card" style="margin-top:20px;">
+                    <div class="empty-icon"><i class="fas fa-lock"></i></div>
+                    <h3>Review Pembahasan Terkunci (${tier.toUpperCase()})</h3>
+                    <p>Skor paket <strong>${activeAttempt.title}</strong> sudah tersimpan. Upgrade ke Paket Satuan, Bronze, Silver, atau Gold untuk membuka kunci jawaban, bobot nilai 1–5, dan pembahasan lengkap.</p>
+                    <button class="btn-card paid-cta" style="width:auto;" onclick="window.bukaModalUpgrade('Review Brankas Pembahasan', 'Mulai Rp 5.000 (Satuan) / Bronze / Silver / Gold')">
+                        <i class="fas fa-crown"></i> Buka Akses Pembahasan
+                    </button>
+                </div>
+            `;
+        } else {
+            const filteredItems = (activeAttempt.items || []).filter(it => {
+                if (activeFilter === 'wrong') return !it.isCorrect;
+                if (activeFilter === 'correct') return it.isCorrect;
+                return true;
+            });
+
+            const itemsMarkup = filteredItems.map(it => {
+                const opsiHtml = (it.opsi || []).map(o => {
+                    const isUserPick = it.userAns === o.label;
+                    const isBest = it.kategori === 'TKP' ? Number(o.poin || 0) >= it.maxPoin : Boolean(o.benar);
+                    let border = '1px solid #e2e8f0';
+                    let bg = '#ffffff';
+                    if (isBest) {
+                        border = '1.5px solid #16a34a';
+                        bg = '#f0fdf4';
+                    } else if (isUserPick && !isBest) {
+                        border = '1.5px solid #dc2626';
+                        bg = '#fef2f2';
+                    }
+                    const poinTag = it.kategori === 'TKP'
+                        ? `<span style="font-size:0.74rem; font-weight:700; color:#475569; margin-left:auto;">Poin ${o.poin || 0}</span>`
+                        : (o.benar ? `<span style="font-size:0.74rem; font-weight:700; color:#15803d; margin-left:auto;">Kunci</span>` : '');
+
+                    return `
+                        <div style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; border:${border}; background:${bg}; font-size:0.86rem;">
+                            <strong style="min-width:20px;">${o.label}.</strong>
+                            <span style="flex:1; color:#1e293b;">${o.teks}</span>
+                            ${isUserPick ? `<span style="font-size:0.72rem; font-weight:800; padding:2px 7px; border-radius:999px; background:#dbeafe; color:#1d4ed8;">Jawabanmu</span>` : ''}
+                            ${poinTag}
+                        </div>
+                    `;
+                }).join('');
+
+                return `
+                    <div style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:18px; margin-bottom:14px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:10px;">
+                            <span class="badge-cat">SOAL #${it.no} • ${it.kategori}${it.subKategori ? ' • ' + it.subKategori : ''}</span>
+                            <span style="font-size:0.78rem; font-weight:800; padding:4px 10px; border-radius:999px; ${it.isCorrect ? 'background:#dcfce7; color:#15803d;' : 'background:#fef3c7; color:#b45309;'}">
+                                ${it.userAns ? `Jawaban: ${it.userAns} (+${it.userPoin} poin)` : 'Tidak Dijawab (0 poin)'}
+                            </span>
+                        </div>
+                        <p style="font-size:0.93rem; color:#0f172a; line-height:1.6; margin:0 0 12px; white-space:pre-line;">${it.soal}</p>
+                        <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:12px;">${opsiHtml}</div>
+                        <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:10px 14px; border-radius:6px; font-size:0.84rem; color:#334155; line-height:1.55;">
+                            <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan:</strong><br/>
+                            ${it.pembahasan ? it.pembahasan : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            reviewHtml = `
+                <div id="brankasReviewDetailPanel" style="margin-top:24px;">
+                    <div class="dash-section-head" style="margin-bottom:12px;">
+                        <h3><i class="fas fa-book-open" style="color:var(--primary);"></i> Review: ${activeAttempt.title}</h3>
+                        <div class="filter-chips">
+                            <button class="filter-chip ${activeFilter === 'all' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'all')">Semua (${activeAttempt.totalQuestions})</button>
+                            <button class="filter-chip ${activeFilter === 'wrong' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'wrong')">Belum Maksimal (${activeAttempt.wrongCount})</button>
+                            <button class="filter-chip ${activeFilter === 'correct' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'correct')">Benar/Maks (${activeAttempt.totalQuestions - activeAttempt.wrongCount})</button>
+                        </div>
+                    </div>
+                    ${itemsMarkup || '<div class="empty-state-card"><p>Tidak ada soal pada filter ini.</p></div>'}
+                </div>
+            `;
+        }
+    }
+
+    area.innerHTML = `
+        <div class="grid-modes">${listHtml}</div>
+        ${reviewHtml}
+    `;
+};
 
 window.kembaliKeLobby = () => {
     clearInterval(window.examTimerInterval);
