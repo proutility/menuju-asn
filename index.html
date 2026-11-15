@@ -1187,6 +1187,9 @@
                     <button class="cc-tab" data-cctab="reports" onclick="window.switchCommandTab('reports')">
                         <i class="fas fa-flag"></i> Laporan Masuk
                     </button>
+                    <button class="cc-tab" data-cctab="banksoal" onclick="window.switchCommandTab('banksoal')">
+                        <i class="fas fa-book-reader"></i> Review &amp; Edit Soal
+                    </button>
                     <button class="cc-tab" data-cctab="settings" onclick="window.switchCommandTab('settings')">
                         <i class="fas fa-sliders-h"></i> Saklar Paket &amp; Pengumuman
                     </button>
@@ -1251,6 +1254,45 @@
                     <div id="ccReportsList" class="cc-reports-list">
                         <div class="cc-empty">Memuat laporan masuk...</div>
                     </div>
+                </div>
+
+                <!-- PANEL CC 3B: REVIEW & EDIT SOAL (QUALITY CONTROL) -->
+                <div id="ccPanel-banksoal" class="cc-panel">
+                    <div class="cc-settings-card" style="margin-bottom:16px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+                            <div>
+                                <h3 style="margin:0;"><i class="fas fa-book-reader" style="color:#2563eb;"></i> Quality Control: Review &amp; Edit Bank Soal</h3>
+                                <p style="margin:4px 0 0;">Pilih paket &amp; nomor soal dari dropdown untuk mengecek tampilan tabel/figural, kunci jawaban, dan pembahasan, atau langsung mengeditnya secara live.</p>
+                            </div>
+                            <span id="ccBankOverrideBadge" style="background:#eff6ff; color:#1d4ed8; font-size:0.76rem; font-weight:800; padding:5px 12px; border-radius:999px; border:1px solid #bfdbfe;">0 Soal Diedit Live</span>
+                        </div>
+                        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px; align-items:end; margin-bottom:12px;">
+                            <div class="cc-form-group" style="margin:0;">
+                                <label for="ccBankPaketSelect">1. Pilih Paket Soal</label>
+                                <select id="ccBankPaketSelect" onchange="window.onChangeAdminBankPaket(this.value)" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-weight:700; font-size:0.84rem;"></select>
+                            </div>
+                            <div class="cc-form-group" style="margin:0;">
+                                <label for="ccBankSoalSelect">2. Pilih Nomor / Butir Soal</label>
+                                <select id="ccBankSoalSelect" onchange="window.onChangeAdminBankSoal(this.value)" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-weight:600; font-size:0.84rem;"></select>
+                            </div>
+                            <div class="cc-form-group" style="margin:0;">
+                                <label for="ccBankSearchInput">Cari Cepat ID / Kata Kunci Soal</label>
+                                <div style="display:flex; gap:6px;">
+                                    <input type="text" id="ccBankSearchInput" placeholder="Misal: tiu_0018 atau matriks..." onkeydown="if(event.key==='Enter'){window.cariAdminBankSoal();}" style="flex:1; padding:8px 10px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.83rem;" />
+                                    <button type="button" class="cc-btn primary" onclick="window.cariAdminBankSoal()" style="padding:8px 12px; white-space:nowrap;"><i class="fas fa-search"></i> Cari</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; padding-top:8px; border-top:1px dashed #e2e8f0;">
+                            <div style="display:flex; gap:8px; align-items:center;">
+                                <button type="button" class="btn-nav" onclick="window.navAdminBankSoal(-1)" style="padding:6px 12px; font-size:0.8rem;"><i class="fas fa-chevron-left"></i> Soal Sebelumnya</button>
+                                <button type="button" class="btn-nav" onclick="window.navAdminBankSoal(1)" style="padding:6px 12px; font-size:0.8rem;">Soal Berikutnya <i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <span id="ccBankPosInfo" style="font-size:0.8rem; font-weight:800; color:#475569;">Soal 1</span>
+                        </div>
+                    </div>
+
+                    <div id="ccBankWorkspace"></div>
                 </div>
 
                 <!-- PANEL CC 4: SAKLAR PAKET & PENGUMUMAN -->

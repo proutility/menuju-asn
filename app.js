@@ -246,6 +246,9 @@ window.switchCommandTab = (tabName) => {
     document.querySelectorAll('.cc-panel').forEach(panel => {
         panel.classList.toggle('active', panel.id === `ccPanel-${tabName}`);
     });
+    if (tabName === 'banksoal' && typeof window.initAdminBankSoal === 'function') {
+        window.initAdminBankSoal();
+    }
 };
 
 window.loadCommandCenterData = async () => {
@@ -324,6 +327,7 @@ window.loadCommandCenterData = async () => {
                                 <small>Pelapor: ${rep.nama_pelapor ? rep.nama_pelapor + ' • ' : ''}${rep.email || rep.uid_pelapor || '-'} • ${tgl}</small>
                             </div>
                             <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+                                ${rep.soalId ? `<button class="cc-btn primary" onclick="window.bukaSoalDiAdminEditor('${rep.soalId}')"><i class="fas fa-edit"></i> Review &amp; Edit (${rep.soalId})</button>` : ''}
                                 ${status !== 'selesai' ? `<button class="cc-btn success" onclick="window.adminSelesaiLaporan('${rep.id}')">Tandai Selesai</button>` : ''}
                                 <button class="cc-btn danger" onclick="window.adminHapusLaporan('${rep.id}')">Hapus</button>
                             </div>
@@ -344,6 +348,9 @@ window.loadCommandCenterData = async () => {
             if (tAkbar) tAkbar.checked = !!s.unlockAkbar;
             if (tSub) tSub.checked = !!s.unlockFreeSubtes;
             if (ann) ann.value = s.announcement || '';
+        }
+        if (typeof window.initAdminBankSoal === 'function') {
+            window.initAdminBankSoal();
         }
     } catch (err) {
         console.error('Gagal memuat Command Center:', err);
@@ -705,10 +712,449 @@ document.addEventListener('DOMContentLoaded', () => {
     window.renderTwk40PaketCards();
     window.renderTiu40PaketCards();
     window.renderTkp40PaketCards();
+    if (typeof window.loadQuestionOverridesFromCloud === 'function') {
+        window.loadQuestionOverridesFromCloud();
+    }
     if (typeof window.renderSavedExamsOnBeranda === 'function') {
         window.renderSavedExamsOnBeranda();
     }
 });
+
+// ==========================================================
+// ADMIN COMMAND CENTER: QUALITY CONTROL REVIEW & EDIT SOAL
+// ==========================================================
+window.adminQuestionOverrides = {};
+window.adminQuestionOriginals = {};
+window.ccCurrentPaketKey = 'twk_1';
+window.ccCurrentPaketQuestions = [];
+window.ccCurrentSoalIdx = 0;
+
+function getAllQuestionPoolsList() {
+    return [
+        window.DATA_SKD_CPNS || [],
+        window.DATA_TIU_BATCH2 || [],
+        window.DATA_TWK_GRATIS || [],
+        window.DATA_TIU_GRATIS || [],
+        window.DATA_TKP_GRATIS || []
+    ];
+}
+
+function findQuestionByIdAcrossPools(qId) {
+    const target = String(qId || '').trim();
+    if (!target) return null;
+    for (const pool of getAllQuestionPoolsList()) {
+        const found = pool.find(q => q && q.id === target);
+        if (found) return found;
+    }
+    return null;
+}
+
+function applyQuestionOverrideInMemory(qId, overrideData) {
+    if (!qId || !overrideData) return;
+    for (const pool of getAllQuestionPoolsList()) {
+        const q = pool.find(item => item && item.id === qId);
+        if (q) {
+            if (!window.adminQuestionOriginals[qId]) {
+                window.adminQuestionOriginals[qId] = JSON.parse(JSON.stringify(q));
+            }
+            if (typeof overrideData.subKategori === 'string') q.subKategori = overrideData.subKategori;
+            if (typeof overrideData.soal === 'string') q.soal = overrideData.soal;
+            if (typeof overrideData.gambar === 'string') q.gambar = overrideData.gambar;
+            if (typeof overrideData.pembahasan === 'string') q.pembahasan = overrideData.pembahasan;
+            if (Array.isArray(overrideData.opsi) && overrideData.opsi.length > 0) {
+                q.opsi = overrideData.opsi.map(o => ({ ...o }));
+            }
+            q._isOverridden = true;
+        }
+    }
+}
+
+window.loadQuestionOverridesFromCloud = async () => {
+    try {
+        const cached = localStorage.getItem('menuju_asn_q_overrides_v1');
+        if (cached) {
+            const parsed = JSON.parse(cached);
+            Object.entries(parsed).forEach(([qId, data]) => {
+                window.adminQuestionOverrides[qId] = data;
+                applyQuestionOverrideInMemory(qId, data);
+            });
+        }
+    } catch (_) {}
+
+    try {
+        const snap = await getDocs(collection(db, COLLECTIONS.PACKAGES));
+        snap.forEach(d => {
+            if (d.id.startsWith('q_override_')) {
+                const data = d.data();
+                const qId = data.soalId || d.id.replace(/^q_override_/, '');
+                window.adminQuestionOverrides[qId] = data;
+                applyQuestionOverrideInMemory(qId, data);
+            }
+        });
+        try {
+            localStorage.setItem('menuju_asn_q_overrides_v1', JSON.stringify(window.adminQuestionOverrides));
+        } catch (_) {}
+        const badge = document.getElementById('ccBankOverrideBadge');
+        if (badge) {
+            badge.textContent = `${Object.keys(window.adminQuestionOverrides).length} Soal Diedit Live`;
+        }
+    } catch (e) {
+        console.warn('Gagal memuat override soal:', e);
+    }
+};
+
+function getQuestionsForAdminPaketKey(paketKey) {
+    const rawData = window.DATA_SKD_CPNS || [];
+    const key = String(paketKey || 'twk_1');
+
+    if (key === 'overridden') {
+        const ids = Object.keys(window.adminQuestionOverrides || {});
+        return ids.map(id => findQuestionByIdAcrossPools(id)).filter(Boolean);
+    }
+    if (key.startsWith('twk_gratis_')) {
+        const no = Math.max(1, Math.min(3, Number(key.split('_')[2]) || 1));
+        return (window.DATA_TWK_GRATIS || []).slice((no - 1) * 30, no * 30);
+    }
+    if (key.startsWith('tiu_gratis_')) {
+        const no = Math.max(1, Math.min(3, Number(key.split('_')[2]) || 1));
+        return (window.DATA_TIU_GRATIS || []).slice((no - 1) * 35, no * 35);
+    }
+    if (key.startsWith('tkp_gratis_')) {
+        const no = Math.max(1, Math.min(3, Number(key.split('_')[2]) || 1));
+        return (window.DATA_TKP_GRATIS || []).slice((no - 1) * 45, no * 45);
+    }
+    if (key.startsWith('twk_')) {
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
+        return no <= 40
+            ? allPaidTwk.slice((no - 1) * 30, no * 30)
+            : (window.DATA_TWK_BATCH2 || []).slice((no - 41) * 30, (no - 40) * 30);
+    }
+    if (key.startsWith('tiu_')) {
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        return no <= 40
+            ? rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id)).slice((no - 1) * 35, no * 35)
+            : (window.DATA_TIU_BATCH2 || []).slice((no - 41) * 35, (no - 40) * 35);
+    }
+    if (key.startsWith('tkp_')) {
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        const allTkp = rawData.filter(q => q.kategori === 'TKP');
+        const packages = buildBalancedTkpPackages(allTkp, 40, 45);
+        return no <= 40
+            ? (packages[no - 1] || [])
+            : (window.DATA_TKP_BATCH2 || []).slice((no - 41) * 45, (no - 40) * 45);
+    }
+    return [];
+}
+
+window.initAdminBankSoal = () => {
+    const paketSel = document.getElementById('ccBankPaketSelect');
+    if (!paketSel) return;
+
+    const badge = document.getElementById('ccBankOverrideBadge');
+    const overrideCount = Object.keys(window.adminQuestionOverrides || {}).length;
+    if (badge) badge.textContent = `${overrideCount} Soal Diedit Live`;
+
+    if (!paketSel.options.length) {
+        let html = `<optgroup label="Daftar Khusus">`;
+        html += `<option value="overridden">✨ Soal yang Pernah Diedit Live</option>`;
+        html += `</optgroup><optgroup label="Paket Gratis (9 Paket)">`;
+        for (let i = 1; i <= 3; i++) html += `<option value="twk_gratis_${i}">TWK Gratis — Paket ${i} (30 Soal)</option>`;
+        for (let i = 1; i <= 3; i++) html += `<option value="tiu_gratis_${i}">TIU Gratis — Paket ${i} (35 Soal)</option>`;
+        for (let i = 1; i <= 3; i++) html += `<option value="tkp_gratis_${i}">TKP Gratis — Paket ${i} (45 Soal)</option>`;
+        html += `</optgroup><optgroup label="TWK Berbayar (Paket 1 - 90)">`;
+        for (let i = 1; i <= 90; i++) html += `<option value="twk_${i}">TWK Paket #${i}${i > 40 ? ' (2026 Baru)' : ''} (30 Soal)</option>`;
+        html += `</optgroup><optgroup label="TIU Berbayar (Paket 1 - 90)">`;
+        for (let i = 1; i <= 90; i++) html += `<option value="tiu_${i}">TIU Paket #${i}${i > 40 ? ' (2026 Baru)' : ''} (35 Soal)</option>`;
+        html += `</optgroup><optgroup label="TKP Berbayar (Paket 1 - 90)">`;
+        for (let i = 1; i <= 90; i++) html += `<option value="tkp_${i}">TKP Paket #${i}${i > 40 ? ' (2026 Baru)' : ''} (45 Soal)</option>`;
+        html += `</optgroup>`;
+        paketSel.innerHTML = html;
+        paketSel.value = window.ccCurrentPaketKey || 'twk_1';
+    }
+
+    window.onChangeAdminBankPaket(paketSel.value, window.ccCurrentSoalIdx || 0);
+};
+
+window.onChangeAdminBankPaket = (paketKey, targetIdx = 0) => {
+    window.ccCurrentPaketKey = paketKey || 'twk_1';
+    const qs = getQuestionsForAdminPaketKey(window.ccCurrentPaketKey);
+    window.ccCurrentPaketQuestions = qs;
+    window.ccCurrentSoalIdx = Math.max(0, Math.min(qs.length - 1, Number(targetIdx) || 0));
+
+    const soalSel = document.getElementById('ccBankSoalSelect');
+    if (soalSel) {
+        if (qs.length === 0) {
+            soalSel.innerHTML = `<option value="0">-- Tidak ada soal di paket ini --</option>`;
+        } else {
+            soalSel.innerHTML = qs.map((q, idx) => {
+                const snippet = String(q.soal || '').replace(/<svg[\s\S]*?<\/svg>/gi, '[SVG]').replace(/\s+/g, ' ').slice(0, 52);
+                const editedMark = window.adminQuestionOverrides?.[q.id] ? '✏️ ' : '';
+                return `<option value="${idx}" ${idx === window.ccCurrentSoalIdx ? 'selected' : ''}>#${idx + 1} • ${editedMark}[${q.id}] ${q.subKategori || q.kategori} — ${snippet}...</option>`;
+            }).join('');
+        }
+    }
+    window.renderAdminBankSoalWorkspace();
+};
+
+window.onChangeAdminBankSoal = (idxVal) => {
+    const qs = window.ccCurrentPaketQuestions || [];
+    window.ccCurrentSoalIdx = Math.max(0, Math.min(qs.length - 1, Number(idxVal) || 0));
+    window.renderAdminBankSoalWorkspace();
+};
+
+window.navAdminBankSoal = (delta) => {
+    const qs = window.ccCurrentPaketQuestions || [];
+    if (!qs.length) return;
+    const next = Math.max(0, Math.min(qs.length - 1, (window.ccCurrentSoalIdx || 0) + Number(delta || 0)));
+    window.ccCurrentSoalIdx = next;
+    const soalSel = document.getElementById('ccBankSoalSelect');
+    if (soalSel) soalSel.value = String(next);
+    window.renderAdminBankSoalWorkspace();
+};
+
+window.cariAdminBankSoal = () => {
+    const rawQuery = (document.getElementById('ccBankSearchInput')?.value || '').trim().toLowerCase();
+    if (!rawQuery) return;
+
+    const allKeys = [
+        ...Array.from({ length: 3 }, (_, i) => `twk_gratis_${i + 1}`),
+        ...Array.from({ length: 3 }, (_, i) => `tiu_gratis_${i + 1}`),
+        ...Array.from({ length: 3 }, (_, i) => `tkp_gratis_${i + 1}`),
+        ...Array.from({ length: 90 }, (_, i) => `twk_${i + 1}`),
+        ...Array.from({ length: 90 }, (_, i) => `tiu_${i + 1}`),
+        ...Array.from({ length: 90 }, (_, i) => `tkp_${i + 1}`)
+    ];
+
+    for (const pk of allKeys) {
+        const list = getQuestionsForAdminPaketKey(pk);
+        const foundIdx = list.findIndex(q =>
+            String(q.id || '').toLowerCase() === rawQuery ||
+            String(q.id || '').toLowerCase().includes(rawQuery) ||
+            String(q.soal || '').toLowerCase().includes(rawQuery) ||
+            String(q.subKategori || '').toLowerCase().includes(rawQuery)
+        );
+        if (foundIdx !== -1) {
+            const paketSel = document.getElementById('ccBankPaketSelect');
+            if (paketSel) paketSel.value = pk;
+            window.onChangeAdminBankPaket(pk, foundIdx);
+            return;
+        }
+    }
+    Swal.fire('Tidak Ditemukan', `Tidak ada soal dengan ID atau kata kunci "${rawQuery}".`, 'info');
+};
+
+window.bukaSoalDiAdminEditor = (soalId) => {
+    window.switchCommandTab('banksoal');
+    const inp = document.getElementById('ccBankSearchInput');
+    if (inp) inp.value = soalId;
+    window.cariAdminBankSoal();
+};
+
+window.renderAdminBankSoalWorkspace = () => {
+    const box = document.getElementById('ccBankWorkspace');
+    const posEl = document.getElementById('ccBankPosInfo');
+    if (!box) return;
+
+    const qs = window.ccCurrentPaketQuestions || [];
+    if (!qs.length) {
+        if (posEl) posEl.textContent = '0 Soal';
+        box.innerHTML = `<div class="cc-settings-card" style="text-align:center; color:#64748b;">Tidak ada soal pada paket ini (atau sedang dipersiapkan).</div>`;
+        return;
+    }
+
+    const idx = window.ccCurrentSoalIdx || 0;
+    const q = qs[idx];
+    if (!q) return;
+
+    const isEdited = Boolean(window.adminQuestionOverrides?.[q.id]);
+    if (posEl) {
+        posEl.innerHTML = `Soal <b>${idx + 1}</b> dari <b>${qs.length}</b> • ID: <code>${q.id}</code> ${isEdited ? '<span style="background:#dcfce7;color:#15803d;padding:2px 8px;border-radius:999px;margin-left:6px;">Sudah Diedit Live</span>' : ''}`;
+    }
+
+    const escapeAttr = (str) => String(str || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const escapeTextarea = (str) => String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    const formattedQuestion = formatQuestionTextHtml(q.soal).replace(/\n/g, '<br>');
+    const gambarPreview = q.gambar
+        ? `<div style="margin-top:12px; padding:10px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${q.gambar}</div>`
+        : '';
+
+    const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
+    const bestOpt = (q.opsi || []).find(o => q.kategori === 'TKP' ? Number(o.poin || 0) >= maxPoin : Boolean(o.benar)) || (q.opsi || [])[0];
+
+    const previewOptionsHtml = (q.opsi || []).map(opt => {
+        const isBest = q.kategori === 'TKP' ? Number(opt.poin || 0) >= maxPoin : Boolean(opt.benar);
+        const badge = q.kategori === 'TKP'
+            ? `<span style="margin-left:auto; font-size:0.75rem; font-weight:800; color:${isBest ? '#15803d' : '#475569'};">Poin ${opt.poin || 0}</span>`
+            : (opt.benar ? `<span style="margin-left:auto; font-size:0.75rem; font-weight:800; color:#15803d;">✓ Kunci Benar</span>` : '');
+        return `
+            <div class="option-item" style="${isBest ? 'border-color:#16a34a; background:#f0fdf4;' : ''} cursor:default;">
+                <div class="option-circle" style="${isBest ? 'background:#16a34a; color:#fff; border-color:#16a34a;' : ''}">${opt.label}</div>
+                <div class="option-label">${opt.teks}</div>
+                ${badge}
+            </div>
+        `;
+    }).join('');
+
+    const previewPembahasanHtml = typeof window.buildInteractivePembahasanHtml === 'function'
+        ? window.buildInteractivePembahasanHtml(q, bestOpt?.label || 'A', `admin_qc_${q.id}`, {
+            headerTitle: 'Preview Pembahasan Mentor',
+            gotPoin: maxPoin,
+            maxPoin
+        })
+        : `<div style="padding:12px; background:#f8fafc; border-radius:10px;">${q.pembahasan || '-'}</div>`;
+
+    const editOptionsInputsHtml = (q.opsi || []).map((opt, oIdx) => {
+        const rightControl = q.kategori === 'TKP'
+            ? `<label style="display:flex; align-items:center; gap:5px; font-size:0.76rem; font-weight:800; color:#0f172a; white-space:nowrap;">
+                Poin:
+                <input type="number" id="ccEditOptPoin_${oIdx}" min="1" max="5" value="${Number(opt.poin || 1)}" style="width:54px; padding:5px 7px; border:1px solid #cbd5e1; border-radius:6px; font-weight:800;" />
+               </label>`
+            : `<label style="display:flex; align-items:center; gap:5px; font-size:0.76rem; font-weight:800; color:#15803d; cursor:pointer; white-space:nowrap;">
+                <input type="radio" name="ccEditKunciRadio" value="${opt.label}" ${opt.benar ? 'checked' : ''} />
+                Kunci
+               </label>`;
+        return `
+            <div style="display:flex; gap:8px; align-items:flex-start; margin-bottom:8px; background:#f8fafc; padding:8px 10px; border-radius:8px; border:1px solid #e2e8f0;">
+                <span style="font-weight:900; font-size:0.84rem; color:#1e3a8a; padding-top:6px; min-width:20px;">${opt.label}.</span>
+                <textarea id="ccEditOptTeks_${oIdx}" rows="2" style="flex:1; padding:6px 9px; border:1px solid #cbd5e1; border-radius:7px; font-size:0.82rem; font-family:inherit;">${escapeTextarea(opt.teks)}</textarea>
+                ${rightControl}
+            </div>
+        `;
+    }).join('');
+
+    box.innerHTML = `
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)); gap:16px; align-items:start;">
+            <!-- KOLOM KIRI: LIVE PREVIEW PESERTA -->
+            <div class="cc-settings-card" style="margin:0;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <span class="badge-subtes ${(q.kategori || 'twk').toLowerCase()}">${q.kategori} • ${q.subKategori || '-'}</span>
+                    <span style="font-size:0.75rem; font-weight:800; color:#64748b;"><i class="fas fa-eye"></i> Tampilan Live Peserta</span>
+                </div>
+                <div class="question-text" style="font-size:0.95rem; margin-bottom:14px;">
+                    ${formattedQuestion}
+                    ${gambarPreview}
+                </div>
+                <div class="options-list" style="margin-bottom:14px;">
+                    ${previewOptionsHtml}
+                </div>
+                ${previewPembahasanHtml}
+            </div>
+
+            <!-- KOLOM KANAN: FORM EDIT SOAL & KUNCI -->
+            <div class="cc-settings-card" style="margin:0;">
+                <h3 style="margin:0 0 10px; font-size:0.98rem; color:#1e3a8a;"><i class="fas fa-pen-to-square"></i> Edit Butir Soal (${q.id})</h3>
+                <div class="cc-form-group">
+                    <label for="ccEditSubKat">Sub-Kategori / Topik</label>
+                    <input type="text" id="ccEditSubKat" value="${escapeAttr(q.subKategori || '')}" />
+                </div>
+                <div class="cc-form-group">
+                    <label for="ccEditSoalText">Teks Soal (Mendukung **Bold**, Tabel Baris/Pipe, dan &lt;svg&gt;)</label>
+                    <textarea id="ccEditSoalText" rows="6" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.84rem; font-family:inherit; line-height:1.5;">${escapeTextarea(q.soal)}</textarea>
+                </div>
+                <div class="cc-form-group">
+                    <label for="ccEditGambar">Kode SVG / Gambar Tambahan (Opsional, di luar teks soal)</label>
+                    <textarea id="ccEditGambar" rows="2" placeholder="Kosongkan jika tidak ada gambar terpisah..." style="width:100%; padding:8px 10px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.8rem; font-family:monospace;">${escapeTextarea(q.gambar || '')}</textarea>
+                </div>
+                <div class="cc-form-group">
+                    <label>Opsi Jawaban A–E &amp; ${q.kategori === 'TKP' ? 'Bobot Poin (1–5)' : 'Kunci Jawaban Benar'}</label>
+                    ${editOptionsInputsHtml}
+                </div>
+                <div class="cc-form-group">
+                    <label for="ccEditPembahasan">Teks Pembahasan Mentor</label>
+                    <textarea id="ccEditPembahasan" rows="4" style="width:100%; padding:9px 11px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.84rem; font-family:inherit; line-height:1.5;">${escapeTextarea(q.pembahasan || '')}</textarea>
+                </div>
+                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+                    <button type="button" class="btn-dash-gold" onclick="window.simpanEditSoalAdmin('${q.id}')">
+                        <i class="fas fa-save"></i> Simpan &amp; Terapkan Live
+                    </button>
+                    ${isEdited ? `
+                        <button type="button" class="cc-btn danger" onclick="window.resetOverrideSoalAdmin('${q.id}')" style="padding:9px 14px;">
+                            <i class="fas fa-undo"></i> Reset ke Soal Asli
+                        </button>
+                    ` : ''}
+                </div>
+            </div>
+        </div>
+    `;
+};
+
+window.simpanEditSoalAdmin = async (qId) => {
+    const q = findQuestionByIdAcrossPools(qId);
+    if (!q) return;
+
+    const subKategori = (document.getElementById('ccEditSubKat')?.value || '').trim();
+    const soal = document.getElementById('ccEditSoalText')?.value || '';
+    const gambar = (document.getElementById('ccEditGambar')?.value || '').trim();
+    const pembahasan = document.getElementById('ccEditPembahasan')?.value || '';
+    const selectedRadio = document.querySelector('input[name="ccEditKunciRadio"]:checked')?.value || 'A';
+
+    const newOpsi = (q.opsi || []).map((opt, oIdx) => {
+        const teks = document.getElementById(`ccEditOptTeks_${oIdx}`)?.value ?? opt.teks;
+        if (q.kategori === 'TKP') {
+            const poin = Math.max(1, Math.min(5, Number(document.getElementById(`ccEditOptPoin_${oIdx}`)?.value || opt.poin || 1)));
+            return { label: opt.label, teks, poin };
+        }
+        const benar = opt.label === selectedRadio;
+        return { label: opt.label, teks, benar, poin: benar ? 5 : 0 };
+    });
+
+    const overridePayload = {
+        soalId: qId,
+        kategori: q.kategori,
+        subKategori,
+        soal,
+        gambar,
+        opsi: newOpsi,
+        pembahasan,
+        updatedAt: Date.now(),
+        updatedBy: window.currentUser?.email || 'admin'
+    };
+
+    try {
+        await setDoc(doc(db, COLLECTIONS.PACKAGES, `q_override_${qId}`), overridePayload);
+        window.adminQuestionOverrides[qId] = overridePayload;
+        applyQuestionOverrideInMemory(qId, overridePayload);
+        try {
+            localStorage.setItem('menuju_asn_q_overrides_v1', JSON.stringify(window.adminQuestionOverrides));
+        } catch (_) {}
+
+        const badge = document.getElementById('ccBankOverrideBadge');
+        if (badge) badge.textContent = `${Object.keys(window.adminQuestionOverrides).length} Soal Diedit Live`;
+
+        window.onChangeAdminBankPaket(window.ccCurrentPaketKey, window.ccCurrentSoalIdx);
+        Swal.fire({
+            icon: 'success',
+            title: 'Soal Diperbarui Live!',
+            text: `Perubahan pada soal ${qId} sudah tersimpan di Cloud dan langsung tampil di seluruh akun peserta.`,
+            timer: 1800,
+            showConfirmButton: false
+        });
+    } catch (e) {
+        Swal.fire('Gagal Menyimpan', e.message, 'error');
+    }
+};
+
+window.resetOverrideSoalAdmin = async (qId) => {
+    const orig = window.adminQuestionOriginals?.[qId];
+    try {
+        await deleteDoc(doc(db, COLLECTIONS.PACKAGES, `q_override_${qId}`));
+        delete window.adminQuestionOverrides[qId];
+        if (orig) {
+            applyQuestionOverrideInMemory(qId, orig);
+        }
+        try {
+            localStorage.setItem('menuju_asn_q_overrides_v1', JSON.stringify(window.adminQuestionOverrides));
+        } catch (_) {}
+        const badge = document.getElementById('ccBankOverrideBadge');
+        if (badge) badge.textContent = `${Object.keys(window.adminQuestionOverrides).length} Soal Diedit Live`;
+        window.onChangeAdminBankPaket(window.ccCurrentPaketKey, window.ccCurrentSoalIdx);
+        Swal.fire({ icon: 'success', title: 'Direset ke Soal Asli', timer: 1300, showConfirmButton: false });
+    } catch (e) {
+        Swal.fire('Gagal Reset', e.message, 'error');
+    }
+};
 
 window.filterTryoutPaket = (filter, btnEl) => {
     document.querySelectorAll('#view-tryout .filter-chip').forEach(btn => btn.classList.remove('active'));
