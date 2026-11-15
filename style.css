@@ -2818,3 +2818,44 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* TABEL POLA BILANGAN DALAM SOAL */
+.soal-data-table-wrap {
+    margin: 12px 0 14px;
+    overflow-x: auto;
+}
+
+.soal-data-table {
+    border-collapse: collapse;
+    min-width: 260px;
+    background: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.soal-data-table th {
+    background: #eff6ff;
+    color: #1e3a8a;
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 8px 16px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+}
+
+.soal-data-table td {
+    padding: 10px 18px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #0f172a;
+}
+
+.soal-data-table td.qmark-cell {
+    background: #fef3c7;
+    color: #b45309;
+    font-weight: 900;
+}

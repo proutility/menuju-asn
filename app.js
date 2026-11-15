@@ -1158,6 +1158,60 @@ function startExamTimer() {
     window.examTimerInterval = setInterval(updateDisplay, 1000);
 }
 
+function formatQuestionTextHtml(rawText) {
+    const safe = String(rawText || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    const lines = safe.split(/\r?\n/);
+    const rowRegex = /^(?:Baris\s*(\d+)\s*:\s*)?\[([^\]]+)\]$/i;
+
+    const out = [];
+    let tableRows = [];
+
+    const flushTable = () => {
+        if (tableRows.length < 2) {
+            tableRows.forEach(r => out.push(r.raw));
+            tableRows = [];
+            return;
+        }
+        const colCount = tableRows.reduce((mx, r) => Math.max(mx, r.cells.length), 0);
+        const hasLabel = tableRows.some(r => r.label);
+        const headerCells = (hasLabel ? '<th>Baris</th>' : '') +
+            Array.from({ length: colCount }, (_, idx) => `<th>Kolom ${idx + 1}</th>`).join('');
+
+        const bodyRows = tableRows.map(r => {
+            const cellsHtml = r.cells.map(c => {
+                const isQ = c === '?';
+                return `<td class="${isQ ? 'qmark-cell' : ''}">${c}</td>`;
+            }).join('');
+            return `<tr>${hasLabel ? `<td style="background:#f8fafc; color:#475569; font-size:0.82rem;">${r.label}</td>` : ''}${cellsHtml}</tr>`;
+        }).join('');
+
+        out.push(`<div class="soal-data-table-wrap"><table class="soal-data-table"><thead><tr>${headerCells}</tr></thead><tbody>${bodyRows}</tbody></table></div>`);
+        tableRows = [];
+    };
+
+    lines.forEach(line => {
+        const trimmed = line.trim();
+        const m = trimmed.match(rowRegex);
+        if (m) {
+            const cells = m[2].split(',').map(s => s.trim());
+            tableRows.push({
+                raw: line,
+                label: m[1] ? `Baris ${m[1]}` : '',
+                cells
+            });
+        } else {
+            flushTable();
+            out.push(line);
+        }
+    });
+    flushTable();
+
+    return out.join('\n');
+}
+
 function renderSoalSekarang() {
     const q = window.currentQuestions[window.currentIdx];
     if (!q) return;
@@ -1175,11 +1229,7 @@ function renderSoalSekarang() {
 
     const qTextEl = document.getElementById('questionTextDisplay');
     if (qTextEl) {
-        const escaped = String(q.soal || '')
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;');
-        const formatted = escaped
+        const formatted = formatQuestionTextHtml(q.soal)
             .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
             .replace(/\n/g, '<br>');
         const modeBadge = q.mode === 'baru'
@@ -1785,7 +1835,7 @@ window.renderBrankasReviewStage = () => {
                     </span>
                 </div>
 
-                <div class="question-text">${currentItem.soal}</div>
+                <div class="question-text">${formatQuestionTextHtml(currentItem.soal)}</div>
                 <div class="options-list">${opsiHtml}</div>
 
                 <div style="margin-top:18px; background:#f8fafc; border-left:4px solid var(--primary); padding:14px 16px; border-radius:8px; font-size:0.88rem; color:#334155; line-height:1.6;">
