@@ -1337,6 +1337,7 @@ async function selesaikanUjian() {
     if (savedAttempt) {
         window.selectedBrankasAttemptId = savedAttempt.id;
         window.brankasReviewFilter = 'all';
+        window.brankasMode = 'list';
     }
 
     const rows = [];
@@ -1528,7 +1529,7 @@ window.hapusRiwayatBrankas = (attemptId) => {
     window.renderBrankasPembahasan();
 };
 
-window.bukaReviewBrankas = (attemptId, filterMode = null) => {
+window.bukaReviewBrankas = (attemptId, filterMode = 'all') => {
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
     const canReview = Boolean(prof.isPaid || prof.isAdmin);
     if (!canReview) {
@@ -1538,10 +1539,21 @@ window.bukaReviewBrankas = (attemptId, filterMode = null) => {
         );
     }
     window.selectedBrankasAttemptId = attemptId;
-    if (filterMode) window.brankasReviewFilter = filterMode;
+    window.brankasReviewFilter = filterMode || 'all';
+    window.brankasMode = 'review';
     window.renderBrankasPembahasan();
-    const reviewEl = document.getElementById('brankasReviewDetailPanel');
-    if (reviewEl) reviewEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.kembaliKeDaftarBrankas = () => {
+    window.brankasMode = 'list';
+    window.renderBrankasPembahasan();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+window.setBrankasDateFilter = (val) => {
+    window.brankasDateFilter = val || 'all';
+    window.renderBrankasPembahasan();
 };
 
 window.mulaiRemedialBrankas = (attemptId) => {
@@ -1603,6 +1615,7 @@ window.renderBrankasPembahasan = () => {
     }
 
     if (history.length === 0) {
+        window.brankasMode = 'list';
         area.innerHTML = `
             <div class="empty-state-card">
                 <div class="empty-icon"><i class="fas fa-folder-open"></i></div>
@@ -1618,19 +1631,131 @@ window.renderBrankasPembahasan = () => {
         return;
     }
 
-    const activeId = window.selectedBrankasAttemptId && history.some(h => h.id === window.selectedBrankasAttemptId)
-        ? window.selectedBrankasAttemptId
-        : history[0].id;
-    window.selectedBrankasAttemptId = activeId;
-    const activeFilter = window.brankasReviewFilter || 'all';
+    // HALAMAN KHUSUS REVIEW PEMBAHASAN / REVIEW SALAH
+    if (window.brankasMode === 'review' && canReview) {
+        const activeAttempt = history.find(h => h.id === window.selectedBrankasAttemptId) || history[0];
+        if (!activeAttempt) {
+            window.brankasMode = 'list';
+            return window.renderBrankasPembahasan();
+        }
+        const activeFilter = window.brankasReviewFilter || 'all';
+        const filteredItems = (activeAttempt.items || []).filter(it => {
+            if (activeFilter === 'wrong') return !it.isCorrect;
+            if (activeFilter === 'correct') return it.isCorrect;
+            return true;
+        });
 
-    const listHtml = history.map(item => {
+        const itemsMarkup = filteredItems.map(it => {
+            const opsiHtml = (it.opsi || []).map(o => {
+                const isUserPick = it.userAns === o.label;
+                const isBest = it.kategori === 'TKP' ? Number(o.poin || 0) >= it.maxPoin : Boolean(o.benar);
+                let border = '1px solid #e2e8f0';
+                let bg = '#ffffff';
+                if (isBest) {
+                    border = '1.5px solid #16a34a';
+                    bg = '#f0fdf4';
+                } else if (isUserPick && !isBest) {
+                    border = '1.5px solid #dc2626';
+                    bg = '#fef2f2';
+                }
+                const poinTag = it.kategori === 'TKP'
+                    ? `<span style="font-size:0.74rem; font-weight:700; color:#475569; margin-left:auto;">Poin ${o.poin || 0}</span>`
+                    : (o.benar ? `<span style="font-size:0.74rem; font-weight:700; color:#15803d; margin-left:auto;">Kunci</span>` : '');
+
+                return `
+                    <div style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; border:${border}; background:${bg}; font-size:0.86rem;">
+                        <strong style="min-width:20px;">${o.label}.</strong>
+                        <span style="flex:1; color:#1e293b;">${o.teks}</span>
+                        ${isUserPick ? `<span style="font-size:0.72rem; font-weight:800; padding:2px 7px; border-radius:999px; background:#dbeafe; color:#1d4ed8;">Jawabanmu</span>` : ''}
+                        ${poinTag}
+                    </div>
+                `;
+            }).join('');
+
+            return `
+                <div style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:18px; margin-bottom:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:10px;">
+                        <span class="badge-cat">SOAL #${it.no} • ${it.kategori}${it.subKategori ? ' • ' + it.subKategori : ''}</span>
+                        <span style="font-size:0.78rem; font-weight:800; padding:4px 10px; border-radius:999px; ${it.isCorrect ? 'background:#dcfce7; color:#15803d;' : 'background:#fef3c7; color:#b45309;'}">
+                            ${it.userAns ? `Jawaban: ${it.userAns} (+${it.userPoin} poin)` : 'Tidak Dijawab (0 poin)'}
+                        </span>
+                    </div>
+                    <p style="font-size:0.93rem; color:#0f172a; line-height:1.6; margin:0 0 12px; white-space:pre-line;">${it.soal}</p>
+                    <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:12px;">${opsiHtml}</div>
+                    <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:10px 14px; border-radius:6px; font-size:0.84rem; color:#334155; line-height:1.55;">
+                        <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan:</strong><br/>
+                        ${it.pembahasan ? it.pembahasan : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.'}
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        area.innerHTML = `
+            <div style="background:white; border:1px solid #e2e8f0; border-radius:14px; padding:16px 18px; margin-bottom:16px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+                    <button class="btn-nav" onclick="window.kembaliKeDaftarBrankas()">
+                        <i class="fas fa-arrow-left"></i> Kembali ke Brankas
+                    </button>
+                    <div>
+                        <h3 style="margin:0; font-size:1.05rem; color:#0f172a;">${activeAttempt.title}</h3>
+                        <span style="font-size:0.78rem; color:#64748b;">Skor: <b>${activeAttempt.totalSkor}/${activeAttempt.maxSkor}</b> • ${activeAttempt.mode}</span>
+                    </div>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                    <div class="filter-chips" style="margin:0;">
+                        <button class="filter-chip ${activeFilter === 'all' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'all')">Semua (${activeAttempt.totalQuestions})</button>
+                        <button class="filter-chip ${activeFilter === 'wrong' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'wrong')">Salah / Belum Maks (${activeAttempt.wrongCount})</button>
+                        <button class="filter-chip ${activeFilter === 'correct' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'correct')">Benar (${activeAttempt.totalQuestions - activeAttempt.wrongCount})</button>
+                    </div>
+                    <button class="btn-card ${canRemedial ? 'accent' : 'paid-cta'}" style="width:auto; padding:8px 14px;" onclick="window.mulaiRemedialBrankas('${activeAttempt.id}')">
+                        <i class="fas ${canRemedial ? 'fa-redo-alt' : 'fa-crown'}"></i> Ulangi Soal Salah (${activeAttempt.wrongCount})
+                    </button>
+                </div>
+            </div>
+            ${itemsMarkup || '<div class="empty-state-card"><p>Tidak ada soal pada filter ini.</p></div>'}
+        `;
+        return;
+    }
+
+    // HALAMAN UTAMA BRANKAS: FILTER PER HARI + KARTU RINGKAS
+    const toDayKey = (ts) => {
+        const d = new Date(ts || Date.now());
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    };
+    const todayKey = toDayKey(Date.now());
+    const dateFilter = window.brankasDateFilter || 'all';
+
+    const uniqueDays = [];
+    const seenDays = new Set();
+    history.forEach(item => {
+        const key = toDayKey(item.finishedAt);
+        if (!seenDays.has(key)) {
+            seenDays.add(key);
+            const label = new Date(item.finishedAt || Date.now()).toLocaleDateString('id-ID', {
+                weekday: 'short', day: '2-digit', month: 'short', year: 'numeric'
+            });
+            uniqueDays.push({ key, label });
+        }
+    });
+
+    const filteredHistory = history.filter(item => {
+        const key = toDayKey(item.finishedAt);
+        if (dateFilter === 'today') return key === todayKey;
+        if (dateFilter === '7d') return (Date.now() - (item.finishedAt || 0)) <= (7 * 24 * 60 * 60 * 1000);
+        if (dateFilter !== 'all') return key === dateFilter;
+        return true;
+    });
+
+    const dayOptionsHtml = uniqueDays.map(d =>
+        `<option value="${d.key}" ${dateFilter === d.key ? 'selected' : ''}>${d.label}${d.key === todayKey ? ' (Hari Ini)' : ''}</option>`
+    ).join('');
+
+    const listHtml = filteredHistory.map(item => {
         const tgl = new Date(item.finishedAt || Date.now()).toLocaleString('id-ID', {
             day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
         });
-        const isSelected = item.id === activeId;
         return `
-            <div class="card-mode packet-card" style="padding:18px; border:${isSelected && canReview ? '2px solid var(--primary)' : '1px solid var(--border-color)'};">
+            <div class="card-mode packet-card" style="padding:18px;">
                 <div>
                     <div class="packet-badges">
                         <span class="badge-access ${item.statusLolos ? 'free' : 'paid'}" style="${item.statusLolos ? 'background:#dcfce7; color:#15803d;' : 'background:#fee2e2; color:#b91c1c;'}">
@@ -1638,115 +1763,52 @@ window.renderBrankasPembahasan = () => {
                         </span>
                         <span class="badge-cat">${item.mode} • ${item.durasiText}</span>
                     </div>
-                    <h3 style="margin:6px 0 4px; font-size:1.02rem;">${item.title}</h3>
-                    <div style="font-size:0.8rem; color:#64748b; margin-bottom:10px;">
-                        ${tgl} • Terjawab ${item.answeredCount}/${item.totalQuestions} • Perlu Review: <b>${item.wrongCount}</b>
+                    <h3 style="margin:6px 0 4px; font-size:1rem;">${item.title}</h3>
+                    <div style="font-size:0.78rem; color:#64748b; margin-bottom:10px;">
+                        ${tgl} • Dijawab ${item.answeredCount}/${item.totalQuestions} • Salah/Kurang: <b>${item.wrongCount}</b>
                     </div>
                     <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px; display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
                         <span style="font-size:0.82rem; color:#475569; font-weight:600;">Total Skor</span>
                         <strong style="font-size:1.1rem; color:var(--primary);">${item.totalSkor} <small style="color:#94a3b8; font-weight:600;">/ ${item.maxSkor}</small></strong>
                     </div>
                 </div>
-                <div style="display:flex; gap:8px; flex-wrap:wrap;">
-                    <button class="btn-card primary" style="flex:1; min-width:140px;" onclick="window.bukaReviewBrankas('${item.id}')">
-                        <i class="fas ${canReview ? 'fa-book-open' : 'fa-lock'}"></i> ${canReview ? 'Review Pembahasan' : 'Buka Review (Berbayar)'}
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+                    <button class="btn-card primary" style="padding:9px 10px; font-size:0.8rem;" onclick="window.bukaReviewBrankas('${item.id}', 'all')">
+                        <i class="fas ${canReview ? 'fa-book-open' : 'fa-lock'}"></i> Review
                     </button>
-                    <button class="btn-card ${canRemedial ? 'accent' : 'paid-cta'}" style="flex:1; min-width:130px;" onclick="window.mulaiRemedialBrankas('${item.id}')">
-                        <i class="fas ${canRemedial ? 'fa-redo-alt' : 'fa-crown'}"></i> Remedial (${item.wrongCount})
+                    <button class="btn-card outline" style="padding:9px 10px; font-size:0.8rem;" onclick="window.bukaReviewBrankas('${item.id}', 'wrong')">
+                        <i class="fas ${canReview ? 'fa-times-circle' : 'fa-lock'}"></i> Review Salah (${item.wrongCount})
                     </button>
-                    <button class="btn-card" style="width:auto; padding:0 12px; background:#fee2e2; color:#b91c1c;" title="Hapus Riwayat" onclick="window.hapusRiwayatBrankas('${item.id}')">
-                        <i class="fas fa-trash"></i>
+                    <button class="btn-card ${canRemedial ? 'accent' : 'paid-cta'}" style="padding:9px 10px; font-size:0.8rem;" onclick="window.mulaiRemedialBrankas('${item.id}')">
+                        <i class="fas ${canRemedial ? 'fa-redo-alt' : 'fa-crown'}"></i> Ulangi Salah
+                    </button>
+                    <button class="btn-card" style="padding:9px 10px; font-size:0.8rem; background:#fee2e2; color:#b91c1c;" onclick="window.hapusRiwayatBrankas('${item.id}')">
+                        <i class="fas fa-trash"></i> Hapus
                     </button>
                 </div>
             </div>
         `;
     }).join('');
 
-    let reviewHtml = '';
-    const activeAttempt = history.find(h => h.id === activeId);
-    if (activeAttempt) {
-        if (!canReview) {
-            reviewHtml = `
-                <div id="brankasReviewDetailPanel" class="empty-state-card" style="margin-top:20px;">
-                    <div class="empty-icon"><i class="fas fa-lock"></i></div>
-                    <h3>Review Pembahasan Terkunci (${tier.toUpperCase()})</h3>
-                    <p>Skor paket <strong>${activeAttempt.title}</strong> sudah tersimpan. Upgrade ke Paket Satuan, Bronze, Silver, atau Gold untuk membuka kunci jawaban, bobot nilai 1–5, dan pembahasan lengkap.</p>
-                    <button class="btn-card paid-cta" style="width:auto;" onclick="window.bukaModalUpgrade('Review Brankas Pembahasan', 'Mulai Rp 5.000 (Satuan) / Bronze / Silver / Gold')">
-                        <i class="fas fa-crown"></i> Buka Akses Pembahasan
-                    </button>
-                </div>
-            `;
-        } else {
-            const filteredItems = (activeAttempt.items || []).filter(it => {
-                if (activeFilter === 'wrong') return !it.isCorrect;
-                if (activeFilter === 'correct') return it.isCorrect;
-                return true;
-            });
-
-            const itemsMarkup = filteredItems.map(it => {
-                const opsiHtml = (it.opsi || []).map(o => {
-                    const isUserPick = it.userAns === o.label;
-                    const isBest = it.kategori === 'TKP' ? Number(o.poin || 0) >= it.maxPoin : Boolean(o.benar);
-                    let border = '1px solid #e2e8f0';
-                    let bg = '#ffffff';
-                    if (isBest) {
-                        border = '1.5px solid #16a34a';
-                        bg = '#f0fdf4';
-                    } else if (isUserPick && !isBest) {
-                        border = '1.5px solid #dc2626';
-                        bg = '#fef2f2';
-                    }
-                    const poinTag = it.kategori === 'TKP'
-                        ? `<span style="font-size:0.74rem; font-weight:700; color:#475569; margin-left:auto;">Poin ${o.poin || 0}</span>`
-                        : (o.benar ? `<span style="font-size:0.74rem; font-weight:700; color:#15803d; margin-left:auto;">Kunci</span>` : '');
-
-                    return `
-                        <div style="display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border-radius:8px; border:${border}; background:${bg}; font-size:0.86rem;">
-                            <strong style="min-width:20px;">${o.label}.</strong>
-                            <span style="flex:1; color:#1e293b;">${o.teks}</span>
-                            ${isUserPick ? `<span style="font-size:0.72rem; font-weight:800; padding:2px 7px; border-radius:999px; background:#dbeafe; color:#1d4ed8;">Jawabanmu</span>` : ''}
-                            ${poinTag}
-                        </div>
-                    `;
-                }).join('');
-
-                return `
-                    <div style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:18px; margin-bottom:14px;">
-                        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:10px;">
-                            <span class="badge-cat">SOAL #${it.no} • ${it.kategori}${it.subKategori ? ' • ' + it.subKategori : ''}</span>
-                            <span style="font-size:0.78rem; font-weight:800; padding:4px 10px; border-radius:999px; ${it.isCorrect ? 'background:#dcfce7; color:#15803d;' : 'background:#fef3c7; color:#b45309;'}">
-                                ${it.userAns ? `Jawaban: ${it.userAns} (+${it.userPoin} poin)` : 'Tidak Dijawab (0 poin)'}
-                            </span>
-                        </div>
-                        <p style="font-size:0.93rem; color:#0f172a; line-height:1.6; margin:0 0 12px; white-space:pre-line;">${it.soal}</p>
-                        <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:12px;">${opsiHtml}</div>
-                        <div style="background:#f8fafc; border-left:4px solid var(--primary); padding:10px 14px; border-radius:6px; font-size:0.84rem; color:#334155; line-height:1.55;">
-                            <strong style="color:var(--primary);"><i class="fas fa-lightbulb"></i> Pembahasan:</strong><br/>
-                            ${it.pembahasan ? it.pembahasan : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.'}
-                        </div>
-                    </div>
-                `;
-            }).join('');
-
-            reviewHtml = `
-                <div id="brankasReviewDetailPanel" style="margin-top:24px;">
-                    <div class="dash-section-head" style="margin-bottom:12px;">
-                        <h3><i class="fas fa-book-open" style="color:var(--primary);"></i> Review: ${activeAttempt.title}</h3>
-                        <div class="filter-chips">
-                            <button class="filter-chip ${activeFilter === 'all' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'all')">Semua (${activeAttempt.totalQuestions})</button>
-                            <button class="filter-chip ${activeFilter === 'wrong' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'wrong')">Belum Maksimal (${activeAttempt.wrongCount})</button>
-                            <button class="filter-chip ${activeFilter === 'correct' ? 'active' : ''}" onclick="window.bukaReviewBrankas('${activeAttempt.id}', 'correct')">Benar/Maks (${activeAttempt.totalQuestions - activeAttempt.wrongCount})</button>
-                        </div>
-                    </div>
-                    ${itemsMarkup || '<div class="empty-state-card"><p>Tidak ada soal pada filter ini.</p></div>'}
-                </div>
-            `;
-        }
-    }
-
     area.innerHTML = `
-        <div class="grid-modes">${listHtml}</div>
-        ${reviewHtml}
+        <div class="lobby-filter-bar" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:16px;">
+            <div class="filter-chips" style="margin:0;">
+                <button class="filter-chip ${dateFilter === 'all' ? 'active' : ''}" onclick="window.setBrankasDateFilter('all')">Semua Hari (${history.length})</button>
+                <button class="filter-chip ${dateFilter === 'today' ? 'active' : ''}" onclick="window.setBrankasDateFilter('today')">Hari Ini</button>
+                <button class="filter-chip ${dateFilter === '7d' ? 'active' : ''}" onclick="window.setBrankasDateFilter('7d')">7 Hari Terakhir</button>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <label for="brankasDaySelect" style="font-size:0.8rem; font-weight:700; color:#475569;"><i class="fas fa-calendar-alt"></i> Pilih Tanggal:</label>
+                <select id="brankasDaySelect" onchange="window.setBrankasDateFilter(this.value)" style="padding:7px 12px; border-radius:10px; border:1px solid #cbd5e1; background:white; font-size:0.82rem; font-weight:600; color:#1e293b;">
+                    <option value="all" ${dateFilter === 'all' ? 'selected' : ''}>Semua Tanggal</option>
+                    ${dayOptionsHtml}
+                </select>
+            </div>
+        </div>
+        ${filteredHistory.length > 0
+            ? `<div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(310px, 1fr)); gap:16px;">${listHtml}</div>`
+            : `<div class="empty-state-card"><p>Tidak ada riwayat simulasi pada tanggal/rentang hari ini.</p></div>`
+        }
     `;
 };
 
