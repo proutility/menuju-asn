@@ -148,17 +148,25 @@
                     </div>
                     <p class="preview-q-text">Anda bertugas di loket Pelayanan Terpadu. Seorang lansia datang dari desa jauh membawa berkas yang kurang lengkap menjelang jam tutup layanan. Langkah terbaik Anda adalah...</p>
                     <div class="preview-options" id="landingPreviewOptions">
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 2, 'Kurang optimal — langsung menolak membuat pemohon yang sudah jauh-jauh datang kecewa tanpa solusi.')">
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 2, 'Kurang optimal — menolak langsung tanpa membantu memeriksa kekurangan membuat pemohon lansia kesulitan.')">
                             <span class="preview-opt-label">A</span>
-                            <span>Menolak berkas dengan tegas karena jam layanan sudah hampir tutup.</span>
+                            <span>Menolak berkas secara sopan dan memintanya kembali besok pagi saat loket baru dibuka.</span>
                         </button>
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 5, 'Tepat (Poin 5)! Memberikan solusi ramah, memeriksa kekurangan berkas, dan memandu langkah tercepat tetap menjaga integritas & pelayanan prima.')">
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 4, 'Baik (Poin 4) — sudah membantu mengecek berkas, namun akan lebih maksimal jika sekaligus memberi opsi prioritas lanjutan.')">
                             <span class="preview-opt-label">B</span>
-                            <span>Melayani dengan ramah, mengecek kekurangan berkasnya, lalu memandu solusi tercepat atau menjadwalkan prioritas esok hari.</span>
+                            <span>Menerima dan mencatat kekurangan berkasnya agar ia tahu syarat apa saja yang perlu dilengkapi.</span>
                         </button>
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 1, 'Berisiko melanggar SOP karena meloloskan berkas yang belum memenuhi syarat.')">
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 1, 'Berisiko melanggar SOP karena tetap memproses permohonan yang syaratnya belum terpenuhi.')">
                             <span class="preview-opt-label">C</span>
-                            <span>Tetap memproses permohonan meski berkas belum lengkap agar cepat selesai.</span>
+                            <span>Tetap memproses permohonan tersebut agar pemohon tidak kecewa meski berkasnya belum lengkap.</span>
+                        </button>
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 5, 'Tepat (Poin 5)! Ramah, solutif memeriksa kekurangan berkas, dan memandu jalur prioritas sesuai prosedur layanan.')">
+                            <span class="preview-opt-label">D</span>
+                            <span>Melayani dengan ramah, mengecek kekurangan berkasnya, lalu memandu solusi prioritas sesuai SOP.</span>
+                        </button>
+                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 3, 'Cukup baik (Poin 3) — membantu menjelaskan syarat, tetapi belum memberikan pendampingan solusi yang tuntas.')">
+                            <span class="preview-opt-label">E</span>
+                            <span>Menjelaskan daftar syarat resmi di papan informasi dan mengarahkannya ke bagian pengaduan umum.</span>
                         </button>
                     </div>
                     <div id="landingPreviewFeedback" class="preview-feedback-box" style="display:none;"></div>

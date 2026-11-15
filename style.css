@@ -626,17 +626,31 @@ footer {
    PRE-LOGIN LANDING PAGE & PRICING SECTION
    ========================================================== */
 .landing-hero {
-    background: linear-gradient(155deg, #0f172a 0%, #1e3a8a 60%, #1d4ed8 100%);
+    background: linear-gradient(155deg, #0f172a 0%, #1e3a8a 58%, #1d4ed8 100%);
     color: white;
-    padding: 48px 20px 44px;
+    padding: 52px 20px 108px;
     text-align: center;
     position: relative;
     overflow: hidden;
 }
 
+.landing-hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 115px;
+    background: linear-gradient(180deg, rgba(248, 250, 252, 0) 0%, rgba(248, 250, 252, 0.55) 58%, #f8fafc 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
 .landing-hero-inner {
     max-width: 880px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .landing-hero-badge {
