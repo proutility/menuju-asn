@@ -3,8 +3,8 @@ const CACHE_NAME = 'menuju-asn-v2.5.6';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  './style.css?v=2.5.3',
-  './app.js?v=2.5.3',
+  './style.css?v=2.5.4',
+  './app.js?v=2.5.4',
   './firebase-config.js',
   './data_skd_cpns.js?v=2.2.0',
   './data_twk_gratis.js?v=1.0.0',

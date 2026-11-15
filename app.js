@@ -5122,18 +5122,139 @@ window.bedahSoalDenganBot = async (safeId, followUpText = '') => {
 
 window.refreshBotAndNewsView = async () => {
     window.loadPusatBerita();
+    window.renderBotDrillPanel(Boolean(window._botAiAnalyzed));
     const qExp = document.getElementById('qExplainLabel');
     const qWeak = document.getElementById('qWeaknessLabel');
-    const qNews = document.getElementById('qNewsLabel');
     if (!window.currentUser) return;
     try {
         const res = await callMenujuAsnBot({ action: 'quota' });
         const fmt = (used, lim) => lim >= 9999 ? 'Unlimited (Admin)' : (lim <= 0 ? 'Terkunci' : `${Math.max(0, lim - used)}/${lim} tersisa`);
         if (qExp) qExp.textContent = fmt(res.used.explain, res.limits.explain);
         if (qWeak) qWeak.textContent = fmt(res.used.weakness, res.limits.weakness);
-        if (qNews) qNews.textContent = fmt(res.used.newsSearch, res.limits.newsSearch);
     } catch (e) {
         if (qExp) qExp.textContent = 'Belum aktif';
+    }
+};
+
+function collectWeakQuestionsFromBrankas() {
+    const history = getBrankasHistory().slice(0, 10);
+    const seenIds = new Set();
+    const weakList = [];
+    history.forEach(att => {
+        (att.items || []).forEach(it => {
+            if (!it || !it.id || seenIds.has(it.id)) return;
+            if (it.userAns && !it.isCorrect) {
+                seenIds.add(it.id);
+                weakList.push({
+                    id: it.id,
+                    kategori: it.kategori || 'SKD',
+                    subKategori: it.subKategori || 'Umum',
+                    soal: it.soal || '',
+                    opsi: it.opsi || [],
+                    pembahasan: it.pembahasan || '',
+                    gambar: it.gambar || ''
+                });
+            }
+        });
+    });
+    return weakList;
+}
+
+window._botDrillFilterCat = 'ALL';
+window.setBotDrillFilter = (cat) => {
+    window._botDrillFilterCat = cat;
+    window.renderBotDrillPanel(Boolean(window._botAiAnalyzed));
+};
+
+window.renderBotDrillPanel = (aiReady = false) => {
+    const box = document.getElementById('botDrillRecommendBox');
+    if (!box) return;
+    const allWeak = collectWeakQuestionsFromBrankas();
+    if (!allWeak.length) {
+        box.innerHTML = `<div class="bot-drill-summary">Belum ada soal yang salah/belum maksimal dari soal yang sudah kamu jawab di Brankas. Kerjakan simulasi dulu atau pertahankan akurasimu!</div>`;
+        return;
+    }
+
+    const counts = { ALL: allWeak.length, TWK: 0, TIU: 0, TKP: 0 };
+    const topicCounts = {};
+    allWeak.forEach(q => {
+        const kat = String(q.kategori || '').toUpperCase();
+        if (counts[kat] !== undefined) counts[kat] += 1;
+        const tk = `${kat} • ${q.subKategori || 'Umum'}`;
+        topicCounts[tk] = (topicCounts[tk] || 0) + 1;
+    });
+
+    const activeCat = (window._botDrillFilterCat && (window._botDrillFilterCat === 'ALL' || counts[window._botDrillFilterCat] > 0))
+        ? window._botDrillFilterCat
+        : 'ALL';
+    window._botDrillFilterCat = activeCat;
+
+    const filteredCount = activeCat === 'ALL' ? allWeak.length : (counts[activeCat] || 0);
+    const topTopics = Object.entries(topicCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 4)
+        .map(([k, v]) => `<b>${escapeHtmlMentor(k)}</b> (${v})`)
+        .join(', ');
+
+    const cats = ['ALL', 'TWK', 'TIU', 'TKP'].filter(c => c === 'ALL' || counts[c] > 0);
+    const chipsHtml = cats.map(c => {
+        const label = c === 'ALL' ? `Semua (${counts.ALL})` : `${c} (${counts[c]})`;
+        return `<button type="button" class="bot-drill-chip ${activeCat === c ? 'active' : ''}" onclick="window.setBotDrillFilter('${c}')">${label}</button>`;
+    }).join('');
+
+    box.innerHTML = `
+        ${aiReady ? `<div class="bot-drill-badge"><i class="fas fa-bolt"></i> Paket Ulang Rekomendasi AI Siap!</div>` : ''}
+        <div class="bot-drill-summary">
+            Ditemukan <b>${allWeak.length} soal</b> dari Brankas yang jawabannya masih salah / belum poin maksimal.<br/>
+            <span style="font-size:0.78rem; color:#475569;">Fokus topik: ${topTopics}</span>
+        </div>
+        <div class="bot-drill-chips">${chipsHtml}</div>
+        <div class="bot-drill-actions">
+            <button type="button" class="btn-card primary" onclick="window.mulaiLatihanUlangBot('cat')">
+                <i class="fas fa-stopwatch"></i> Mode CAT (${filteredCount} Soal)
+            </button>
+            <button type="button" class="btn-card paid-cta" onclick="window.mulaiLatihanUlangBot('drill')">
+                <i class="fas fa-bolt"></i> Mode Drill (Langsung Jawaban)
+            </button>
+        </div>
+    `;
+};
+
+window.mulaiLatihanUlangBot = (mode = 'drill') => {
+    const allWeak = collectWeakQuestionsFromBrankas();
+    const cat = window._botDrillFilterCat || 'ALL';
+    const selected = cat === 'ALL'
+        ? allWeak
+        : allWeak.filter(q => String(q.kategori || '').toUpperCase() === cat);
+
+    if (!selected.length) {
+        return Swal.fire('Belum Ada Soal', 'Tidak ada soal lemah pada kategori yang dipilih.', 'info');
+    }
+
+    window.currentQuestions = selected.map(q => ({
+        id: q.id,
+        kategori: q.kategori,
+        subKategori: q.subKategori,
+        soal: q.soal,
+        opsi: q.opsi,
+        pembahasan: q.pembahasan,
+        gambar: q.gambar || ''
+    }));
+    window.examTimeRemaining = window.currentQuestions.length * 60;
+    window.currentAppMode = 'singleplayer';
+    window.currentPackageMeta = {
+        saveId: `bot_ulang_${cat}_${Date.now()}`,
+        tipe: 'remedial',
+        paketNo: null,
+        title: mode === 'drill'
+            ? `Drill Rekomendasi BOT (${cat})`
+            : `CAT Ulang Rekomendasi BOT (${cat})`,
+        totalDurationSeconds: window.examTimeRemaining
+    };
+    startExamSessionUI();
+    window.isInstantReviewMode = (mode === 'drill');
+    if (mode === 'drill') {
+        renderSoalSekarang();
     }
 };
 
@@ -5152,6 +5273,7 @@ window.jalankanAnalisisKelemahanAI = async () => {
     const katTotals = { TWK: { got: 0, max: 0 }, TIU: { got: 0, max: 0 }, TKP: { got: 0, max: 0 } };
     const summaryLines = recent.map((att, idx) => {
         (att.items || []).forEach(it => {
+            if (!it.userAns) return;
             const kat = String(it.kategori || '').toUpperCase();
             if (katTotals[kat]) {
                 katTotals[kat].got += Number(it.userPoin || 0);
@@ -5169,7 +5291,8 @@ window.jalankanAnalisisKelemahanAI = async () => {
         const maxS = Number(att.maxSkor ?? ((att.totalQuestions || 0) * 5));
         const ans = Number(att.answeredCount ?? 0);
         const totQ = Number(att.totalQuestions || 0);
-        return `${idx + 1}. ${att.title}: Skor=${tot}/${maxS} (TWK=${twk}, TIU=${tiu}, TKP=${tkp}), Dijawab=${ans}/${totQ}, Belum Maksimal=${att.wrongCount || 0}/${totQ}`;
+        const ansWrong = (att.items || []).filter(it => it.userAns && !it.isCorrect).length;
+        return `${idx + 1}. ${att.title}: Skor=${tot}/${maxS} (TWK=${twk}, TIU=${tiu}, TKP=${tkp}), Dijawab=${ans}/${totQ}, Belum Maksimal=${ansWrong}/${ans || totQ}`;
     });
     const akurasiKat = Object.entries(katTotals)
         .filter(([, v]) => v.max > 0)
@@ -5187,28 +5310,8 @@ window.jalankanAnalisisKelemahanAI = async () => {
     outBox.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang menganalisis kelemahanmu...`;
     try {
         const res = await callMenujuAsnBot({ action: 'weakness', statsSummary });
+        window._botAiAnalyzed = true;
         outBox.innerHTML = `<div>${formatBotTextHtml(res.reply)}</div>`;
-        window.refreshBotAndNewsView();
-    } catch (err) {
-        outBox.innerHTML = `<span style="color:#b91c1c;"><i class="fas fa-exclamation-circle"></i> ${escapeHtmlMentor(err.message)}</span>`;
-    }
-};
-
-window.tanyaInfoCpnsBot = async (e) => {
-    e.preventDefault();
-    const inp = document.getElementById('botNewsQuestion');
-    const outBox = document.getElementById('botNewsSearchResult');
-    const q = inp ? inp.value.trim() : '';
-    if (!q || !outBox) return;
-
-    outBox.style.display = 'block';
-    outBox.innerHTML = `<i class="fas fa-spinner fa-spin"></i> <strong>MenujuASN-BOT</strong> sedang mencari informasi terbaru dari Google...`;
-    try {
-        const res = await callMenujuAsnBot({ action: 'newsSearch', question: q });
-        const sourcesHtml = (res.sources || []).length
-            ? `<div class="bot-sources-list">${res.sources.map(s => `<a class="bot-source-chip" href="${escapeHtmlMentor(s.uri)}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> ${escapeHtmlMentor(s.title)}</a>`).join('')}</div>`
-            : '';
-        outBox.innerHTML = `<div>${formatBotTextHtml(res.reply)}</div>${sourcesHtml}`;
         window.refreshBotAndNewsView();
     } catch (err) {
         outBox.innerHTML = `<span style="color:#b91c1c;"><i class="fas fa-exclamation-circle"></i> ${escapeHtmlMentor(err.message)}</span>`;

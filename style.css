@@ -3108,3 +3108,59 @@ footer {
     color: #0f172a;
     line-height: 1.6;
 }
+
+
+.bot-drill-summary {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    font-size: 0.84rem;
+    color: #334155;
+}
+.bot-drill-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+    border-radius: 999px;
+    padding: 3px 10px;
+    font-size: 0.74rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.bot-drill-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0 12px;
+}
+.bot-drill-chip {
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    color: #334155;
+    border-radius: 999px;
+    padding: 5px 11px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.bot-drill-chip.active {
+    background: #1e3a8a;
+    color: #fff;
+    border-color: #1e3a8a;
+}
+.bot-drill-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+@media (max-width: 560px) {
+    .bot-drill-actions {
+        grid-template-columns: 1fr;
+    }
+}

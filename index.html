@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.5.3">
+    <link rel="stylesheet" href="style.css?v=2.5.4">
 </head>
 <body>
 
@@ -1002,7 +1002,7 @@
                     <div class="command-banner-row" style="width:100%;">
                         <div>
                             <h2><i class="fas fa-robot"></i> MenujuASN-BOT &amp; Pusat Berita CASN</h2>
-                            <p>Asisten AI pintar untuk crosscheck kelemahan belajar, cek info CASN live via Google, dan kumpulan link berita resmi terkurasi.</p>
+                            <p>Asisten AI untuk analisis kelemahan strategis, latihan ulang soal (CAT / Drill), dan kumpulan link berita resmi CASN.</p>
                         </div>
                         <button class="btn-dash-gold" onclick="window.refreshBotAndNewsView()">
                             <i class="fas fa-sync-alt"></i> Muat Ulang
@@ -1013,17 +1013,16 @@
                 <div class="bot-quota-bar" id="botQuotaBar">
                     <span class="bot-quota-pill"><i class="fas fa-brain"></i> Bedah Soal AI: <strong id="qExplainLabel">-</strong></span>
                     <span class="bot-quota-pill"><i class="fas fa-chart-line"></i> Analisis Kelemahan: <strong id="qWeaknessLabel">-</strong></span>
-                    <span class="bot-quota-pill"><i class="fas fa-globe"></i> Tanya Info Live: <strong id="qNewsLabel">-</strong></span>
                 </div>
 
                 <div class="bot-two-col">
-                    <!-- KARTU 1: ANALISIS KELEMAHAN PESERTA -->
+                    <!-- KARTU 1: ANALISIS KELEMAHAN & STRATEGI AI -->
                     <div class="bot-panel-card">
                         <div class="bot-panel-head">
                             <div class="mode-icon blue"><i class="fas fa-stethoscope"></i></div>
                             <div>
-                                <h3>Crosscheck Kelemahan Belajar</h3>
-                                <span>MenujuASN-BOT menganalisis riwayat Brankas Pembahasanmu terhadap Passing Grade BKN.</span>
+                                <h3>Crosscheck Kelemahan Strategis</h3>
+                                <span>MenujuASN-BOT langsung membedah titik lemahmu &amp; merekomendasikan soal yang wajib diulang.</span>
                             </div>
                         </div>
                         <button class="btn-card primary" id="btnAnalisisKelemahan" onclick="window.jalankanAnalisisKelemahanAI()">
@@ -1032,22 +1031,18 @@
                         <div id="botWeaknessResult" class="bot-result-box" style="display:none;"></div>
                     </div>
 
-                    <!-- KARTU 2: TANYA INFO CASN LIVE (GOOGLE SEARCH) -->
+                    <!-- KARTU 2: LATIHAN ULANG SOAL REKOMENDASI (CAT / DRILL) -->
                     <div class="bot-panel-card">
                         <div class="bot-panel-head">
-                            <div class="mode-icon gold"><i class="fas fa-search"></i></div>
+                            <div class="mode-icon gold"><i class="fas fa-redo-alt"></i></div>
                             <div>
-                                <h3>Tanya Info CASN Terbaru (Live Google)</h3>
-                                <span>Tanyakan jadwal BKN, formasi, atau regulasi KemenPAN-RB terbaru langsung ke MenujuASN-BOT.</span>
+                                <h3>Latihan Ulang Soal Rekomendasi</h3>
+                                <span>Langsung muncul dari Brankas &amp; analisis AI — pilih mode CAT (Timer) atau Drill (1x Klik Jawaban).</span>
                             </div>
                         </div>
-                        <form class="bot-search-form" onsubmit="window.tanyaInfoCpnsBot(event)">
-                            <input type="text" id="botNewsQuestion" placeholder="Contoh: Jadwal pendaftaran CASN 2026 terbaru BKN..." required />
-                            <button type="submit" class="btn-card primary" style="width:auto; white-space:nowrap;">
-                                <i class="fas fa-paper-plane"></i> Tanya BOT
-                            </button>
-                        </form>
-                        <div id="botNewsSearchResult" class="bot-result-box" style="display:none;"></div>
+                        <div id="botDrillRecommendBox">
+                            <div class="cc-empty">Memuat daftar soal yang perlu diulang...</div>
+                        </div>
                     </div>
                 </div>
 

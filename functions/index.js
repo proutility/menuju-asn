@@ -300,9 +300,11 @@ exports.menujuAsnBot = onRequest(
         }
 
         const systemInstruction =
-          "Kamu adalah MenujuASN-BOT, coach persiapan CASN 2026. Tugasmu mendiagnosis kelemahan peserta berdasarkan statistik riwayat tryout mereka " +
-          "terhadap Passing Grade resmi BKN (TWK min 65, TIU min 80, TKP min 166). " +
-          "Berikan: (1) 3 Titik Kelemahan Utama, (2) Prioritas Perbaikan agar Lolos PG, (3) Target Drill Harian yang realistis. Maksimal 250 kata, padat & memotivasi.";
+          "Kamu adalah MenujuASN-BOT, mentor strategis persiapan CASN 2026 standar BKN (TWK min 65, TIU min 80, TKP min 166). " +
+          "Jawab SANGAT TO THE POINT, taktis, dan langsung ke aksi (maksimal 170 kata): " +
+          "(1) **Prioritas Terlemah**: sebutkan 1-2 subtes/topik dengan akurasi terendah beserta angkanya; " +
+          "(2) **Strategi Cepat**: cara taktis mendongkrak skor di topik itu; " +
+          "(3) **Aksi Ulang Soal**: arahkan peserta langsung klik tombol **Mode Drill** (untuk pahami pola jawaban) atau **Mode CAT** (untuk latih kecepatan) di panel sebelah kanan.";
 
         const prompt = `Data Riwayat Latihan Peserta:\n${statsSummary}\n\nBerikan diagnosis kelemahan dan strategi belajar yang paling efektif.`;
         const result = await callGemini({ apiKey, systemInstruction, prompt });
