@@ -204,25 +204,20 @@ window.kirimPesanDiskusi = (e) => {
     input.value = '';
 };
 
+window.pilihPaketLanding = (namaPaket, harga) => {
+    if (window.currentUser) {
+        return window.switchAppView('upgrade');
+    }
+    window.pendingSelectedPackage = { namaPaket, harga };
+    return window.eksekusiLoginGoogle();
+};
+
 window.mulaiUjiCobaGratis = (subtes) => {
-    const labelMap = { twk: 'TWK', tiu: 'TIU', tkp: 'TKP' };
-    const label = labelMap[subtes] || 'SKD';
     if (window.currentUser) {
         return window.mulaiSingleplayer(subtes);
     }
-    Swal.fire({
-        title: `Uji Coba Gratis Paket ${label}`,
-        html: `Masuk dengan akun Google dalam 1 klik untuk langsung mencoba paket soal gratis <b>${label}</b> berstandar CAT BKN.`,
-        icon: 'question',
-        showCancelButton: true,
-        confirmButtonText: '<i class="fab fa-google"></i> Masuk &amp; Mulai Gratis',
-        cancelButtonText: 'Nanti Saja',
-        confirmButtonColor: '#059669'
-    }).then((res) => {
-        if (res.isConfirmed) {
-            window.eksekusiLoginGoogle();
-        }
-    });
+    window.pendingTrialSubtes = subtes;
+    return window.eksekusiLoginGoogle();
 };
 
 window.switchLobbyTab = (tab) => {
