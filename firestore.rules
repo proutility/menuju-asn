@@ -225,9 +225,9 @@ service cloud.firestore {
 
       function isValidMaxPlayersForTier(maxPlayers) {
         let tier = getCpnsUserData().get('tier', '');
-        return (tier == 'bronze' && maxPlayers == 1) ||
-               (tier == 'silver' && maxPlayers == 2) ||
-               (tier == 'gold' && maxPlayers == 3);
+        return (tier == 'bronze' && maxPlayers == 2) ||
+               (tier == 'silver' && maxPlayers == 3) ||
+               (tier == 'gold' && maxPlayers == 4);
       }
 
       function isGuestWhitelisted() {

@@ -5,8 +5,8 @@
 import { 
     auth, provider, db, ADMIN_EMAILS, COLLECTIONS,
     signInWithPopup, signOut, onAuthStateChanged,
-    collection, getDocs, deleteDoc, query, limit,
-    doc, getDoc, setDoc, updateDoc, onSnapshot
+    collection, getDocs, deleteDoc, query, where, limit,
+    doc, getDoc, setDoc, updateDoc, onSnapshot, arrayUnion
 } from "./firebase-config.js";
 
 // Global App State
@@ -25,11 +25,11 @@ window.activeRoomCode = null;
 window.roomUnsubscribe = null;
 window.latestRoomData = null;
 
-// Batas Kapasitas Paket Mabar (Hybrid Hemat Database)
+// Batas Kapasitas Paket CBT Arena (Hybrid Hemat Database)
 const TIER_CAPACITY = {
-    bronze: 1,
-    silver: 2,
-    gold: 3,
+    bronze: 2,
+    silver: 3,
+    gold: 4,
     admin: 100
 };
 
@@ -146,7 +146,14 @@ function updateAuthUI(user) {
         if (typeof window.renderBerandaProgressPanel === 'function') {
             window.renderBerandaProgressPanel();
         }
+        if (typeof startInvitePopupListener === 'function') {
+            startInvitePopupListener(user);
+        }
     } else {
+        if (window.invitePopupUnsubscribe) {
+            window.invitePopupUnsubscribe();
+            window.invitePopupUnsubscribe = null;
+        }
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = 'none';
         if (btnAuth) btnAuth.style.display = 'inline-flex';
@@ -2325,13 +2332,57 @@ window.kembaliKeLobby = () => {
 };
 
 // ==========================================================
-// 3. MODE MULTIPLAYER (HYBRID HEMAT DB & KAPASITAS TIER)
+// 3. MODE MULTIPLAYER CBT ARENA (HYBRID HEMAT DB & KAPASITAS TIER)
 // ==========================================================
+function isAllowedArenaUser(prof) {
+    if (!prof) return false;
+    if (prof.isAdmin) return true;
+    const t = String(prof.tier || 'free').toLowerCase();
+    return Boolean(prof.isPaid && ['bronze', 'silver', 'gold'].includes(t));
+}
+
+function buildArenaPaketOptionsHtml() {
+    let html = `
+        <option value="full">Simulasi SKD Lengkap (TWK + TIU + TKP)</option>
+        <option value="twk">TWK (Tes Wawasan Kebangsaan)</option>
+    `;
+    for (let i = 1; i <= 40; i++) {
+        html += `<option value="tiu_${i}">TIU Paket #${i} (35 Soal)</option>`;
+    }
+    for (let i = 1; i <= 40; i++) {
+        html += `<option value="tkp_${i}">TKP Paket #${i} (45 Soal)</option>`;
+    }
+    return html;
+}
+
+function getQuestionsForRoomPaket(paketKey) {
+    const rawData = window.DATA_SKD_CPNS || [];
+    const key = String(paketKey || 'full');
+    if (key === 'twk') {
+        const qs = rawData.filter(q => q.kategori === 'TWK');
+        return { questions: qs, durationSec: qs.length * 60, label: 'TWK (Tes Wawasan Kebangsaan)' };
+    }
+    if (key.startsWith('tiu_')) {
+        const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
+        const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
+        const qs = allPaidTiu.slice((no - 1) * 35, no * 35);
+        return { questions: qs, durationSec: qs.length * 60, label: `TIU Paket #${no}` };
+    }
+    if (key.startsWith('tkp_')) {
+        const no = Math.max(1, Math.min(40, Number(key.split('_')[1]) || 1));
+        const allTkp = rawData.filter(q => q.kategori === 'TKP');
+        const packages = buildBalancedTkpPackages(allTkp, 40, 45);
+        const qs = packages[no - 1] || [];
+        return { questions: qs, durationSec: qs.length * 60, label: `TKP Paket #${no}` };
+    }
+    return { questions: [...rawData], durationSec: 100 * 60, label: 'Simulasi SKD Lengkap' };
+}
+
 window.bukaModalBikinRoom = () => {
     if (!window.currentUser) {
         return Swal.fire({
             title: 'Login Diperlukan',
-            text: 'Silakan masuk dengan akun Google untuk membuka Room Mabar.',
+            text: 'Silakan masuk dengan akun Google untuk membuka Room CBT Arena.',
             icon: 'info',
             confirmButtonText: 'Login Sekarang',
             confirmButtonColor: '#1e3a8a'
@@ -2341,91 +2392,102 @@ window.bukaModalBikinRoom = () => {
     }
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    if (!prof.isAdmin && !prof.isPaid) {
-        return Swal.fire({
-            title: 'Fitur Khusus Paket Aktif',
-            html: `Pembuatan Room Mabar hanya tersedia untuk pemilik paket <b>Bronze (1 org)</b>, <b>Silver (2 org)</b>, atau <b>Gold (3 org)</b>.<br><br><small style="color:#64748b;">Akun Free tetap bisa ikut mabar jika didaftarkan oleh Host melalui Whitelist Email Tamu.</small>`,
-            icon: 'warning',
-            confirmButtonText: 'Mengerti',
-            confirmButtonColor: '#1e3a8a'
-        });
+    if (!isAllowedArenaUser(prof)) {
+        return window.bukaModalUpgrade(
+            'Buat Room CBT Arena',
+            'Khusus Paket Bronze (2 Peserta), Silver (3 Peserta), atau Gold (4 Peserta). Akun Free terkunci.'
+        );
     }
 
-    const defaultTier = prof.isAdmin ? 'gold' : prof.tier;
+    const defaultTier = prof.isAdmin ? 'gold' : String(prof.tier || 'bronze').toLowerCase();
     const tierOptionsHtml = prof.isAdmin
         ? `
-            <option value="bronze">Bronze (Maks 1 Peserta)</option>
-            <option value="silver">Silver (Maks 2 Peserta)</option>
-            <option value="gold" selected>Gold (Maks 3 Peserta)</option>
+            <option value="bronze">Bronze (Maks 2 Peserta)</option>
+            <option value="silver">Silver (Maks 3 Peserta)</option>
+            <option value="gold" selected>Gold (Maks 4 Peserta)</option>
+            <option value="custom_10">Admin Bebas (Maks 10 Peserta)</option>
+            <option value="custom_25">Admin Bebas (Maks 25 Peserta)</option>
             <option value="admin">Akbar Nasional (Maks 100 Peserta)</option>
           `
-        : `<option value="${defaultTier}" selected>${defaultTier.toUpperCase()} (Maks ${TIER_CAPACITY[defaultTier] || 1} Peserta)</option>`;
+        : `<option value="${defaultTier}" selected>${defaultTier.toUpperCase()} (Terkunci: Maks ${TIER_CAPACITY[defaultTier] || 2} Peserta)</option>`;
 
     Swal.fire({
-        title: '🏛️ Buka Room Mabar ASN',
+        title: '🏛️ Buat Room CBT Arena',
         html: `
             <div style="text-align:left; font-size:0.82rem; color:#475569; margin-bottom:10px; background:#eff6ff; padding:8px 10px; border-radius:8px; border:1px solid #bfdbfe;">
-                <i class="fas fa-bolt" style="color:#2563eb;"></i> <b>Mode Hemat Database:</b> Skor peserta disinkronkan tiap pergantian subtes & selesai ujian.
+                <i class="fas fa-user-check" style="color:#2563eb;"></i> Undangan teman via email dilakukan <b>di dalam Waiting Room</b> setelah room dibuat.
             </div>
             <div style="text-align:left; margin-bottom:10px;">
                 <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Nama Room:</label>
-                <input id="swalInputNamaRoom" class="swal2-input" style="width:100%; margin:4px 0 10px; font-size:0.85rem;" value="Mabar SKD ASN #${Math.floor(100+Math.random()*900)}">
+                <input id="swalInputNamaRoom" class="swal2-input" style="width:100%; margin:4px 0 10px; font-size:0.85rem;" value="Arena SKD ASN #${Math.floor(100+Math.random()*900)}">
             </div>
             <div style="text-align:left; margin-bottom:10px;">
-                <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Kapasitas Paket Room:</label>
-                <select id="swalSelectTierRoom" class="swal2-select" style="width:100%; margin:4px 0 10px; font-size:0.85rem; padding:8px; border-radius:6px; border:1px solid #cbd5e1;">
-                    ${tierOptionsHtml}
+                <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Pilih Paket Soal Multiplayer:</label>
+                <select id="swalSelectPaketRoom" class="swal2-select" style="width:100%; margin:4px 0 10px; font-size:0.85rem; padding:8px; border-radius:6px; border:1px solid #cbd5e1;">
+                    ${buildArenaPaketOptionsHtml()}
                 </select>
             </div>
-            <div style="text-align:left; margin-bottom:10px;">
-                <label style="font-weight:700; font-size:0.8rem; color:#15803d;">Whitelist Email Tamu (Bypass Akun Free):</label>
-                <textarea id="swalInputGuestEmails" class="swal2-textarea" style="width:100%; height:65px; margin:4px 0; font-size:0.82rem; font-family:inherit;" placeholder="teman1@gmail.com, teman2@gmail.com"></textarea>
+            <div style="text-align:left; margin-bottom:6px;">
+                <label style="font-weight:700; font-size:0.8rem; color:#1e293b;">Kapasitas Room ${prof.isAdmin ? '(Admin Bebas)' : '(Terkunci Sesuai Paket)'}:</label>
+                <select id="swalSelectTierRoom" class="swal2-select" ${prof.isAdmin ? '' : 'disabled'} style="width:100%; margin:4px 0 6px; font-size:0.85rem; padding:8px; border-radius:6px; border:1px solid #cbd5e1; ${prof.isAdmin ? '' : 'background:#f1f5f9; color:#475569; cursor:not-allowed;'}">
+                    ${tierOptionsHtml}
+                </select>
             </div>
         `,
         focusConfirm: false,
         showCancelButton: true,
-        confirmButtonText: '🚀 Buka Room Sekarang',
+        confirmButtonText: '🚀 Buat Room Sekarang',
         cancelButtonText: 'Batal',
         confirmButtonColor: '#1e3a8a',
         preConfirm: () => {
-            const nama = document.getElementById('swalInputNamaRoom')?.value.trim() || 'Room Mabar ASN';
-            const tier = document.getElementById('swalSelectTierRoom')?.value || defaultTier;
-            const rawEmails = document.getElementById('swalInputGuestEmails')?.value.trim() || '';
-            const emailList = Array.from(new Set(
-                rawEmails.split(/[\n,;]+/)
-                    .map(e => e.trim().toLowerCase())
-                    .filter(e => e.length > 3 && e.includes('@') && e.includes('.'))
-            ));
-            return { nama, tier, emailList };
+            const nama = document.getElementById('swalInputNamaRoom')?.value.trim() || 'Room CBT Arena';
+            const tierSel = document.getElementById('swalSelectTierRoom')?.value || defaultTier;
+            const paketEl = document.getElementById('swalSelectPaketRoom');
+            const paketKey = paketEl?.value || 'full';
+            const paketLabel = paketEl?.options?.[paketEl.selectedIndex]?.text || 'Simulasi SKD Lengkap';
+            return { nama, tierSel, paketKey, paketLabel };
         }
     }).then(async (result) => {
         if (result.isConfirmed) {
-            const { nama, tier, emailList } = result.value;
-            await eksekusiBikinRoom(nama, tier, emailList);
+            const { nama, tierSel, paketKey, paketLabel } = result.value;
+            await eksekusiBikinRoom(nama, tierSel, paketKey, paketLabel);
         }
     });
 };
 
-async function eksekusiBikinRoom(namaRoom, tier, guestEmails) {
+async function eksekusiBikinRoom(namaRoom, tierSel, paketKey, paketLabel) {
     const kodeRoom = Math.floor(10000 + Math.random() * 90000).toString();
     const u = window.currentUser;
-    const maxPlayers = TIER_CAPACITY[tier] || 2;
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
 
-    Swal.fire({ title: 'Menyiapkan Room Mabar...', allowOutsideClick: false, didOpen: () => Swal.showLoading() });
+    let maxPlayers = TIER_CAPACITY[tierSel] || 2;
+    let roomTier = tierSel;
+    if (tierSel === 'custom_10') { maxPlayers = 10; roomTier = 'admin'; }
+    else if (tierSel === 'custom_25') { maxPlayers = 25; roomTier = 'admin'; }
+
+    if (!prof.isAdmin) {
+        const userTier = String(prof.tier || 'bronze').toLowerCase();
+        roomTier = userTier;
+        maxPlayers = TIER_CAPACITY[userTier] || 2;
+    }
+
+    Swal.fire({ title: 'Menyiapkan Room Arena...', allowOutsideClick: false, didOpen: () => Swal.showLoading() });
 
     try {
         const roomRef = doc(db, COLLECTIONS.ROOMS, kodeRoom);
         await setDoc(roomRef, {
             nama: namaRoom,
             kode: kodeRoom,
-            tier: tier,
+            tier: roomTier,
             maxPlayers: maxPlayers,
+            paketKey: paketKey || 'full',
+            paketLabel: paketLabel || 'Simulasi SKD Lengkap',
             hostUid: u.uid,
             hostName: u.displayName || 'Host',
             hostEmail: (u.email || '').toLowerCase(),
             status: 'waiting',
             waktuPerSoal: 54,
-            allowedGuestEmails: guestEmails,
+            allowedGuestEmails: [],
             createdAt: Date.now(),
             players: {
                 [u.uid]: {
@@ -2455,8 +2517,28 @@ async function eksekusiBikinRoom(namaRoom, tier, guestEmails) {
 }
 
 window.bukaModalGabungRoom = () => {
+    if (!window.currentUser) {
+        return Swal.fire({
+            title: 'Login Diperlukan',
+            text: 'Silakan login terlebih dahulu untuk bergabung ke room CBT Arena.',
+            icon: 'info',
+            confirmButtonText: 'Login Sekarang',
+            confirmButtonColor: '#1e3a8a'
+        }).then(res => {
+            if (res.isConfirmed) window.eksekusiLoginGoogle();
+        });
+    }
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    if (!isAllowedArenaUser(prof)) {
+        return window.bukaModalUpgrade(
+            'Gabung Room CBT Arena',
+            'Akun Free terkunci dari fitur multiplayer. Upgrade ke Paket Bronze, Silver, atau Gold untuk bergabung.'
+        );
+    }
+
     Swal.fire({
-        title: '🔑 Masuk Room Mabar',
+        title: '🔑 Masuk Room CBT Arena',
         input: 'text',
         inputLabel: 'Masukkan 5 Digit Kode Room:',
         inputPlaceholder: 'Contoh: 76352',
@@ -2477,13 +2559,21 @@ window.gabungRoom = async (kodeRoom) => {
     if (!window.currentUser) {
         return Swal.fire({
             title: 'Login Diperlukan',
-            text: 'Silakan login terlebih dahulu untuk bergabung ke room mabar.',
+            text: 'Silakan login terlebih dahulu untuk bergabung ke room CBT Arena.',
             icon: 'info',
             confirmButtonText: 'Login Sekarang',
             confirmButtonColor: '#1e3a8a'
         }).then(res => {
             if (res.isConfirmed) window.eksekusiLoginGoogle();
         });
+    }
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    if (!isAllowedArenaUser(prof)) {
+        return window.bukaModalUpgrade(
+            'Gabung Room CBT Arena',
+            'Akun Free terkunci dan tidak dapat bergabung ke room multiplayer. Upgrade ke Bronze, Silver, atau Gold.'
+        );
     }
 
     Swal.fire({ title: 'Menghubungkan ke Room...', allowOutsideClick: false, didOpen: () => Swal.showLoading() });
@@ -2499,22 +2589,17 @@ window.gabungRoom = async (kodeRoom) => {
         const dataRoom = snap.data();
         const u = window.currentUser;
         const myEmail = (u.email || '').toLowerCase().trim();
-        const guestEmails = (Array.isArray(dataRoom.allowedGuestEmails) ? dataRoom.allowedGuestEmails : []).map(e => e.toLowerCase().trim());
-        const isGuest = guestEmails.includes(myEmail);
-        const prof = window.currentUserProfile || { isPaid: false, isAdmin: false };
-
         const existingPlayers = dataRoom.players || {};
         const alreadyJoined = Boolean(existingPlayers[u.uid]);
         const maxPlayers = dataRoom.maxPlayers || 2;
 
-        // Validasi Hak Akses (Harus Paid / Admin / Whitelisted Guest)
-        if (!alreadyJoined && !prof.isAdmin && !prof.isPaid && !isGuest) {
-            return Swal.fire('Akses Terbatas', 'Room ini hanya untuk peserta berbayar aktif atau Tamu Undangan yang emailnya telah didaftarkan oleh Host.', 'warning');
+        if (!alreadyJoined && dataRoom.status !== 'waiting') {
+            return Swal.fire('Room Sudah Dimulai / Ditutup', 'Ujian di room ini sudah berjalan sehingga peserta baru tidak dapat masuk.', 'warning');
         }
 
-        // Validasi Batas Kapasitas Room (2 / 5 / 10)
-        if (!alreadyJoined && !prof.isAdmin && Object.keys(existingPlayers).length >= maxPlayers) {
-            return Swal.fire('Room Penuh!', `Kapasitas maksimal paket ${(dataRoom.tier || 'bronze').toUpperCase()} (${maxPlayers} peserta) telah penuh.`, 'warning');
+        // Validasi Batas Kapasitas Room (Terkunci otomatis saat penuh untuk siapapun)
+        if (!alreadyJoined && Object.keys(existingPlayers).length >= maxPlayers) {
+            return Swal.fire('Room Penuh & Terkunci!', `Kapasitas maksimal paket ${(dataRoom.tier || 'bronze').toUpperCase()} (${maxPlayers} peserta) sudah penuh.`, 'warning');
         }
 
         if (!alreadyJoined) {
@@ -2529,8 +2614,7 @@ window.gabungRoom = async (kodeRoom) => {
                     skorTKP: 0,
                     totalWaktu: 0,
                     isFinished: false,
-                    role: isGuest ? 'GUEST' : (dataRoom.hostUid === u.uid ? 'HOST' : 'PESERTA'),
-                    isGuest: isGuest,
+                    role: dataRoom.hostUid === u.uid ? 'HOST' : 'PESERTA',
                     email: myEmail,
                     lastSeen: Date.now()
                 }
@@ -2538,17 +2622,6 @@ window.gabungRoom = async (kodeRoom) => {
         }
 
         Swal.close();
-        if (isGuest && !alreadyJoined) {
-            Swal.fire({
-                toast: true,
-                position: 'top-end',
-                icon: 'success',
-                title: 'Akses Tamu Undangan Terverifikasi 🎟️',
-                showConfirmButton: false,
-                timer: 2500
-            });
-        }
-
         window.activeRoomCode = kodeRoom;
         bukaWaitingRoom(kodeRoom);
     } catch (err) {
@@ -2562,6 +2635,96 @@ window.gabungRoomOtomatis = (kodeRoom) => {
         window.gabungRoom(kodeRoom);
     }, 1200);
 };
+
+window.kirimUndanganEmailRoom = async (kodeRoom) => {
+    const inputEl = document.getElementById('waitingInviteEmailInput');
+    const email = (inputEl?.value || '').trim().toLowerCase();
+    if (!email || !email.includes('@') || !email.includes('.')) {
+        return Swal.fire('Email Tidak Valid', 'Masukkan alamat email teman yang valid (contoh: teman@gmail.com).', 'warning');
+    }
+
+    const data = window.latestRoomData;
+    const currentCount = Object.keys(data?.players || {}).length;
+    const maxPlayers = data?.maxPlayers || 2;
+    if (currentCount >= maxPlayers) {
+        return Swal.fire('Room Penuh & Terkunci', `Kapasitas ${maxPlayers} peserta sudah terpenuhi.`, 'warning');
+    }
+
+    try {
+        const roomRef = doc(db, COLLECTIONS.ROOMS, String(kodeRoom));
+        await updateDoc(roomRef, {
+            allowedGuestEmails: arrayUnion(email)
+        });
+        if (inputEl) inputEl.value = '';
+        Swal.fire({
+            toast: true,
+            position: 'top-end',
+            icon: 'success',
+            title: `Undangan terkirim ke ${email}`,
+            showConfirmButton: false,
+            timer: 2500
+        });
+    } catch (err) {
+        Swal.fire('Gagal Mengundang', err.message, 'error');
+    }
+};
+
+function startInvitePopupListener(user) {
+    if (!user || !user.email) return;
+    const myEmail = user.email.toLowerCase().trim();
+    if (window.invitePopupUnsubscribe) window.invitePopupUnsubscribe();
+    if (!window.shownRoomInvites) window.shownRoomInvites = new Set();
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    if (!isAllowedArenaUser(prof)) return;
+
+    const qInv = query(
+        collection(db, COLLECTIONS.ROOMS),
+        where('allowedGuestEmails', 'array-contains', myEmail)
+    );
+
+    window.invitePopupUnsubscribe = onSnapshot(qInv, (snap) => {
+        snap.docChanges().forEach((change) => {
+            if (change.type !== 'added' && change.type !== 'modified') return;
+            const room = change.doc.data();
+            const kode = String(room.kode || change.doc.id);
+            const players = room.players || {};
+            const isFull = Object.keys(players).length >= (room.maxPlayers || 2);
+
+            if (
+                room.status === 'waiting' &&
+                !players[user.uid] &&
+                !isFull &&
+                window.activeRoomCode !== kode &&
+                !window.shownRoomInvites.has(kode)
+            ) {
+                window.shownRoomInvites.add(kode);
+                Swal.fire({
+                    title: '📩 Undangan CBT Arena!',
+                    html: `
+                        <div style="text-align:left; font-size:0.88rem; line-height:1.6;">
+                            <b>${room.hostName || 'Temanmu'}</b> mengundang kamu bergabung ke room:<br/>
+                            <div style="margin-top:8px; padding:10px 12px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px;">
+                                <div><b>Room:</b> ${room.nama || kode}</div>
+                                <div><b>Paket Soal:</b> ${room.paketLabel || 'Simulasi SKD'}</div>
+                                <div><b>Kode:</b> ${kode} (${Object.keys(players).length}/${room.maxPlayers || 2} Peserta)</div>
+                            </div>
+                        </div>
+                    `,
+                    icon: 'info',
+                    showCancelButton: true,
+                    confirmButtonText: 'Gabung Sekarang',
+                    cancelButtonText: 'Nanti',
+                    confirmButtonColor: '#1e3a8a'
+                }).then((res) => {
+                    if (res.isConfirmed) {
+                        window.gabungRoom(kode);
+                    }
+                });
+            }
+        });
+    });
+}
 
 function bukaWaitingRoom(kodeRoom) {
     const linkInvite = `${window.location.origin}${window.location.pathname}?room=${kodeRoom}`;
@@ -2578,14 +2741,25 @@ function bukaWaitingRoom(kodeRoom) {
         const data = docSnap.data();
         window.latestRoomData = data;
         const players = data.players || {};
+        const playerCount = Object.keys(players).length;
+        const maxPlayers = data.maxPlayers || 2;
+        const isFull = playerCount >= maxPlayers;
         const isHost = data.hostUid === window.currentUser?.uid;
 
-        // Jika Host sudah klik MULAI MABAR, otomatis masuk ke ujian
+        // Jika Host sudah klik MULAI ARENA, otomatis masuk ke ujian dengan paket soal yang dipilih
         if (data.status === 'ujian' && !hasStartedExamClient) {
             hasStartedExamClient = true;
             window.currentAppMode = 'multiplayer';
-            window.currentQuestions = [...(window.DATA_SKD_CPNS || [])];
-            window.examTimeRemaining = 100 * 60;
+            const paketInfo = getQuestionsForRoomPaket(data.paketKey || 'full');
+            window.currentQuestions = paketInfo.questions;
+            window.examTimeRemaining = paketInfo.durationSec;
+            window.currentPackageMeta = {
+                saveId: `arena_${kodeRoom}`,
+                tipe: 'arena',
+                paketNo: null,
+                title: `${data.nama} (${paketInfo.label})`,
+                totalDurationSeconds: paketInfo.durationSec
+            };
             startExamSessionUI();
             return;
         }
@@ -2600,41 +2774,58 @@ function bukaWaitingRoom(kodeRoom) {
         examStage.style.display = 'block';
 
         let playerTilesHtml = Object.values(players).map(p => {
-            const isGuestBadge = (p.role === 'GUEST' || p.isGuest) ? `<span style="background:#ecfdf5; color:#059669; font-size:0.7rem; font-weight:800; padding:2px 8px; border-radius:10px; border:1px solid #a7f3d0;"><i class="fas fa-ticket-alt"></i> TAMU</span>` : '';
-            const isHostBadge = (p.role === 'HOST' || p.uid === data.hostUid) ? `<span style="background:#fef3c7; color:#b45309; font-size:0.7rem; font-weight:800; padding:2px 8px; border-radius:10px; border:1px solid #fde68a;">👑 HOST</span>` : '';
+            const isHostBadge = (p.role === 'HOST' || p.uid === data.hostUid) ? `<span style="background:#fef3c7; color:#b45309; font-size:0.7rem; font-weight:800; padding:2px 8px; border-radius:10px; border:1px solid #fde68a;">👑 HOST</span>` : `<span style="background:#eff6ff; color:#1d4ed8; font-size:0.7rem; font-weight:800; padding:2px 8px; border-radius:10px; border:1px solid #bfdbfe;">PESERTA</span>`;
             return `
                 <div style="background:white; border:1px solid #e2e8f0; border-radius:12px; padding:12px; display:flex; align-items:center; gap:10px; box-shadow:0 2px 6px rgba(0,0,0,0.03);">
                     <img src="${p.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(p.nama)}" style="width:40px; height:40px; border-radius:50%; border:2px solid #2563eb;" />
                     <div style="text-align:left;">
                         <div style="font-weight:700; font-size:0.88rem; color:#1e293b;">${p.nama}</div>
-                        <div style="display:flex; gap:6px; margin-top:2px;">${isHostBadge} ${isGuestBadge}</div>
+                        <div style="display:flex; gap:6px; margin-top:2px;">${isHostBadge}</div>
                     </div>
                 </div>
             `;
         }).join('');
 
+        const invitedList = Array.isArray(data.allowedGuestEmails) ? data.allowedGuestEmails : [];
+        const inviteBoxHtml = isHost ? (
+            isFull
+                ? `<div style="margin:0 auto 20px; max-width:520px; background:#fef2f2; border:1px solid #fecaca; color:#b91c1c; padding:10px 14px; border-radius:10px; font-size:0.84rem; font-weight:700;">
+                        <i class="fas fa-lock"></i> Room Penuh &amp; Terkunci (${playerCount}/${maxPlayers} Peserta). Tidak ada peserta lain yang bisa bergabung.
+                   </div>`
+                : `<div style="margin:0 auto 20px; max-width:540px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:14px; text-align:left;">
+                        <label style="display:block; font-size:0.82rem; font-weight:800; color:#0f172a; margin-bottom:8px;">
+                            <i class="fas fa-paper-plane" style="color:#2563eb;"></i> Undang Teman via Email (Muncul Pop-up Otomatis saat Login)
+                        </label>
+                        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+                            <input id="waitingInviteEmailInput" type="email" placeholder="teman@gmail.com" style="flex:1; min-width:200px; padding:9px 12px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.85rem;" />
+                            <button onclick="window.kirimUndanganEmailRoom('${kodeRoom}')" style="background:#059669; color:white; border:none; padding:9px 16px; border-radius:8px; font-weight:700; font-size:0.84rem; cursor:pointer;">
+                                <i class="fas fa-user-plus"></i> Kirim Undangan
+                            </button>
+                        </div>
+                        ${invitedList.length > 0 ? `<div style="margin-top:8px; font-size:0.76rem; color:#475569;">Diundang: <b>${invitedList.join(', ')}</b></div>` : ''}
+                   </div>`
+        ) : '';
+
         examStage.innerHTML = `
             <div style="background:white; border-radius:16px; padding:24px; border:1px solid #e2e8f0; box-shadow:0 8px 24px rgba(0,0,0,0.05); text-align:center;">
-                <div style="display:inline-flex; align-items:center; gap:8px; background:#eff6ff; color:#1d4ed8; padding:6px 16px; border-radius:20px; font-weight:800; font-size:0.82rem; margin-bottom:10px;">
-                    <i class="fas fa-satellite-dish fa-spin"></i> WAITING ROOM • PAKET ${(data.tier || 'bronze').toUpperCase()} (MAKS ${data.maxPlayers || 1} PESERTA)
+                <div style="display:inline-flex; align-items:center; gap:8px; background:${isFull ? '#fef2f2' : '#eff6ff'}; color:${isFull ? '#b91c1c' : '#1d4ed8'}; padding:6px 16px; border-radius:20px; font-weight:800; font-size:0.82rem; margin-bottom:10px;">
+                    <i class="fas ${isFull ? 'fa-lock' : 'fa-satellite-dish fa-spin'}"></i> WAITING ROOM • PAKET ${(data.tier || 'bronze').toUpperCase()} (${playerCount}/${maxPlayers} PESERTA)
                 </div>
                 <h2 style="font-size:1.35rem; font-weight:800; color:#1e3a8a; margin-bottom:4px;">${data.nama}</h2>
+                <div style="font-size:0.84rem; font-weight:700; color:#0f766e; margin-bottom:6px;"><i class="fas fa-book"></i> Paket Soal: ${data.paketLabel || 'Simulasi SKD Lengkap'}</div>
                 <div style="font-size:2rem; font-weight:900; letter-spacing:4px; color:#d97706; margin:8px 0; font-family:monospace;">
                     ${kodeRoom}
                 </div>
-                <div style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:20px;">
-                    <button onclick="navigator.clipboard.writeText('${linkInvite}'); Swal.fire('Link Disalin!', 'Kirim link ini ke teman untuk mabar langsung.', 'success');" style="background:#2563eb; color:white; border:none; padding:8px 16px; border-radius:20px; font-weight:700; font-size:0.8rem; cursor:pointer;">
-                        <i class="fas fa-link"></i> Salin Link Invite
+                <div style="display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:16px;">
+                    <button onclick="navigator.clipboard.writeText('${linkInvite}'); Swal.fire('Link Disalin!', 'Kirim link ini ke teman untuk bergabung ke CBT Arena.', 'success');" style="background:#2563eb; color:white; border:none; padding:8px 16px; border-radius:20px; font-weight:700; font-size:0.8rem; cursor:pointer;">
+                        <i class="fas fa-link"></i> Salin Link Room
                     </button>
-                    ${isHost ? `
-                        <button onclick="window.kelolaEmailTamu('${kodeRoom}')" style="background:#059669; color:white; border:none; padding:8px 16px; border-radius:20px; font-weight:700; font-size:0.8rem; cursor:pointer;">
-                            <i class="fas fa-user-plus"></i> Whitelist Tamu
-                        </button>
-                    ` : ''}
                 </div>
+
+                ${inviteBoxHtml}
                 
                 <div style="text-align:left; font-weight:800; font-size:0.9rem; color:#1e293b; margin-bottom:12px; display:flex; justify-content:space-between;">
-                    <span>Peserta Terhubung (${Object.keys(players).length} / ${data.maxPlayers || 2})</span>
+                    <span>Peserta Terhubung (${playerCount} / ${maxPlayers})</span>
                     <span style="color:#059669; font-size:0.8rem;"><i class="fas fa-shield-alt"></i> Mode Hemat Kuota Aktif</span>
                 </div>
                 
