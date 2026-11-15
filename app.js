@@ -3098,13 +3098,20 @@ function buildMentorVisualHtml(q) {
     // 4. Visualisasi Panduan Transformasi Figural (Rotasi / Cermin / Elemen)
     if (sub.includes('figural')) {
         const isKetidaksamaan = sub.includes('ketidaksamaan');
+        const pLower = String(q.pembahasan || '').toLowerCase();
+        const isRot = /rotasi|putar|searah|berlawanan|90|180|270/.test(pLower);
+        const isMirror = /cermin|refleksi|pencerminan|terbalik|mirror/.test(pLower);
+        const isCount = /jumlah|sisi|titik|garis|tambah|kurang|arsir/.test(pLower);
+        const chipStyle = (active, bg, fg, bd) => active
+            ? `background:${bg}; color:${fg}; border:2px solid ${bd}; padding:4px 9px; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);`
+            : `background:#f8fafc; color:#64748b; border:1px solid #e2e8f0; padding:4px 9px; border-radius:6px; opacity:0.8;`;
         return `
             <div style="background:#ffffff; border:1px solid #e0e7ff; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
-                <div style="font-size:0.74rem; font-weight:800; color:#4338ca; margin-bottom:6px;"><i class="fas fa-shapes"></i> Panduan Visual Pola Figural</div>
+                <div style="font-size:0.74rem; font-weight:800; color:#4338ca; margin-bottom:6px;"><i class="fas fa-shapes"></i> Visualisasi Pola Transformasi Figural</div>
                 <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap; font-size:0.74rem; font-weight:700;">
-                    <span style="background:#eef2ff; color:#3730a3; padding:4px 9px; border-radius:6px;">↻ Rotasi (90° / 180°)</span>
-                    <span style="background:#ecfeff; color:#0e7490; padding:4px 9px; border-radius:6px;">↔ Cermin / Refleksi</span>
-                    <span style="background:#fef3c7; color:#92400e; padding:4px 9px; border-radius:6px;">${isKetidaksamaan ? '≠ Cari 1 Fitur Berbeda' : '+ / − Jumlah Sisi & Titik'}</span>
+                    <span style="${chipStyle(isRot, '#eef2ff', '#3730a3', '#6366f1')}">↻ Rotasi (90° / 180°)</span>
+                    <span style="${chipStyle(isMirror, '#ecfeff', '#0e7490', '#06b6d4')}">↔ Cermin / Refleksi</span>
+                    <span style="${chipStyle(isCount || isKetidaksamaan, '#fef3c7', '#92400e', '#f59e0b')}">${isKetidaksamaan ? '≠ Cari 1 Fitur Berbeda' : '+ / − Jumlah Sisi & Titik'}</span>
                 </div>
             </div>
         `;
