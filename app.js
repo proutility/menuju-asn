@@ -2154,9 +2154,11 @@ window.renderBrankasPembahasan = () => {
 
     const statTotal = document.getElementById('brankasStatTotal');
     const statLast = document.getElementById('brankasStatLast');
+    const statLastLabel = document.getElementById('brankasStatLastLabel');
     const statAccess = document.getElementById('brankasStatAccess');
     if (statTotal) statTotal.textContent = `${history.length} Paket`;
-    if (statLast) statLast.textContent = history[0] ? `${history[0].totalSkor} / ${history[0].maxSkor}` : '-';
+    if (statLast && history.length === 0) statLast.textContent = '-';
+    if (statLastLabel && history.length === 0) statLastLabel.textContent = 'Skor Rata-Rata';
     if (statAccess) {
         if (prof.isAdmin) statAccess.textContent = 'ADMIN (Full + Remedial)';
         else if (tier === 'gold') statAccess.textContent = 'GOLD (Full + Remedial)';
@@ -2311,6 +2313,34 @@ window.renderBrankasPembahasan = () => {
         const matchCat = catFilter === 'all' || getBrankasCat(item) === catFilter;
         return matchDate && matchCat;
     });
+
+    const calcAvgStats = (list) => {
+        if (!list || !list.length) return { count: 0, avgSkor: 0, avgMax: 0, avgPct: 0 };
+        const avgSkor = Math.round(list.reduce((s, x) => s + Number(x.totalSkor || 0), 0) / list.length);
+        const avgMax = Math.round(list.reduce((s, x) => s + Number(x.maxSkor || 0), 0) / list.length);
+        const avgPct = Math.round(list.reduce((s, x) => s + (x.maxSkor > 0 ? (Number(x.totalSkor || 0) / x.maxSkor) * 100 : 0), 0) / list.length);
+        return { count: list.length, avgSkor, avgMax, avgPct };
+    };
+    window.brankasAverageSummary = {
+        all: calcAvgStats(history),
+        tryout: calcAvgStats(history.filter(x => getBrankasCat(x) === 'tryout')),
+        twk: calcAvgStats(history.filter(x => getBrankasCat(x) === 'twk')),
+        tiu: calcAvgStats(history.filter(x => getBrankasCat(x) === 'tiu')),
+        tkp: calcAvgStats(history.filter(x => getBrankasCat(x) === 'tkp')),
+        filtered: calcAvgStats(filteredHistory)
+    };
+    const catAvgLabelMap = {
+        all: 'Skor Rata-Rata (Semua)',
+        tryout: 'Skor Rata-Rata Tryout',
+        twk: 'Skor Rata-Rata TWK',
+        tiu: 'Skor Rata-Rata TIU',
+        tkp: 'Skor Rata-Rata TKP'
+    };
+    if (statLastLabel) statLastLabel.textContent = catAvgLabelMap[catFilter] || 'Skor Rata-Rata';
+    if (statLast) {
+        const curAvg = window.brankasAverageSummary.filtered;
+        statLast.textContent = curAvg.count > 0 ? `${curAvg.avgSkor} / ${curAvg.avgMax} (${curAvg.avgPct}%)` : '-';
+    }
 
     const dayOptionsHtml = uniqueDays.map(d =>
         `<option value="${d.key}" ${dateFilter === d.key ? 'selected' : ''}>${d.label}${d.key === todayKey ? ' (Hari Ini)' : ''}</option>`
