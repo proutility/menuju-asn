@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.1.5">
+    <link rel="stylesheet" href="style.css?v=2.4.0">
 </head>
 <body>
 
@@ -406,6 +406,10 @@
                 </button>
                 <button class="sidebar-item" data-view="diskusi" onclick="window.switchAppView('diskusi')">
                     <i class="fas fa-comments"></i><span>Diskusi &amp; Chat</span>
+                </button>
+                <button class="sidebar-item" data-view="bot" onclick="window.switchAppView('bot')">
+                    <i class="fas fa-robot"></i><span>MenujuASN-BOT &amp; Berita</span>
+                    <span class="sidebar-badge" style="background:#0ea5e9; color:#fff;">AI</span>
                 </button>
                 <button class="sidebar-item admin-nav-item" id="navCommandCenterBtn" data-view="command" style="display:none;" onclick="window.switchAppView('command')">
                     <i class="fas fa-user-shield"></i><span>Command Center</span>
@@ -992,6 +996,76 @@
                 </div>
             </section>
 
+            <!-- VIEW 6B: MENUJUASN-BOT & PUSAT BERITA -->
+            <section id="view-bot" class="app-view">
+                <div class="view-banner navy">
+                    <div class="command-banner-row" style="width:100%;">
+                        <div>
+                            <h2><i class="fas fa-robot"></i> MenujuASN-BOT &amp; Pusat Berita CPNS</h2>
+                            <p>Asisten AI pintar untuk crosscheck kelemahan belajar, cek info CPNS live via Google, dan kumpulan link berita resmi terkurasi.</p>
+                        </div>
+                        <button class="btn-dash-gold" onclick="window.refreshBotAndNewsView()">
+                            <i class="fas fa-sync-alt"></i> Muat Ulang
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bot-quota-bar" id="botQuotaBar">
+                    <span class="bot-quota-pill"><i class="fas fa-brain"></i> Bedah Soal AI: <strong id="qExplainLabel">-</strong></span>
+                    <span class="bot-quota-pill"><i class="fas fa-chart-line"></i> Analisis Kelemahan: <strong id="qWeaknessLabel">-</strong></span>
+                    <span class="bot-quota-pill"><i class="fas fa-globe"></i> Tanya Info Live: <strong id="qNewsLabel">-</strong></span>
+                </div>
+
+                <div class="bot-two-col">
+                    <!-- KARTU 1: ANALISIS KELEMAHAN PESERTA -->
+                    <div class="bot-panel-card">
+                        <div class="bot-panel-head">
+                            <div class="mode-icon blue"><i class="fas fa-stethoscope"></i></div>
+                            <div>
+                                <h3>Crosscheck Kelemahan Belajar</h3>
+                                <span>MenujuASN-BOT menganalisis riwayat Brankas Pembahasanmu terhadap Passing Grade BKN.</span>
+                            </div>
+                        </div>
+                        <button class="btn-card primary" id="btnAnalisisKelemahan" onclick="window.jalankanAnalisisKelemahanAI()">
+                            <i class="fas fa-magic"></i> Analisis Kelemahan Saya Sekarang
+                        </button>
+                        <div id="botWeaknessResult" class="bot-result-box" style="display:none;"></div>
+                    </div>
+
+                    <!-- KARTU 2: TANYA INFO CPNS LIVE (GOOGLE SEARCH) -->
+                    <div class="bot-panel-card">
+                        <div class="bot-panel-head">
+                            <div class="mode-icon gold"><i class="fas fa-search"></i></div>
+                            <div>
+                                <h3>Tanya Info CPNS Terbaru (Live Google)</h3>
+                                <span>Tanyakan jadwal BKN, formasi, atau regulasi KemenPAN-RB terbaru langsung ke MenujuASN-BOT.</span>
+                            </div>
+                        </div>
+                        <form class="bot-search-form" onsubmit="window.tanyaInfoCpnsBot(event)">
+                            <input type="text" id="botNewsQuestion" placeholder="Contoh: Jadwal pendaftaran CPNS 2026 terbaru BKN..." required />
+                            <button type="submit" class="btn-card primary" style="width:auto; white-space:nowrap;">
+                                <i class="fas fa-paper-plane"></i> Tanya BOT
+                            </button>
+                        </form>
+                        <div id="botNewsSearchResult" class="bot-result-box" style="display:none;"></div>
+                    </div>
+                </div>
+
+                <!-- KARTU 3: PUSAT BERITA RESMI (CURATED ADMIN LINKS) -->
+                <div class="bot-panel-card" style="margin-top:20px;">
+                    <div class="bot-panel-head">
+                        <div class="mode-icon green"><i class="fas fa-newspaper"></i></div>
+                        <div>
+                            <h3>Pusat Berita &amp; Pengumuman Resmi CPNS</h3>
+                            <span>Kumpulan tautan berita &amp; edaran resmi pilihan Admin MENUJU ASN — klik untuk membaca langsung.</span>
+                        </div>
+                    </div>
+                    <div id="pusatBeritaList" class="news-grid">
+                        <div class="cc-empty">Memuat daftar berita resmi...</div>
+                    </div>
+                </div>
+            </section>
+
             <!-- VIEW 7: BELI PAKET / UPGRADE -->
             <section id="view-upgrade" class="app-view">
                 <div class="view-banner gold">
@@ -1121,6 +1195,9 @@
                     <button class="cc-tab" data-cctab="settings" onclick="window.switchCommandTab('settings')">
                         <i class="fas fa-sliders-h"></i> Saklar Paket &amp; Pengumuman
                     </button>
+                    <button class="cc-tab" data-cctab="newsbot" onclick="window.switchCommandTab('newsbot')">
+                        <i class="fas fa-newspaper"></i> Pusat Berita &amp; BOT
+                    </button>
                 </div>
 
                 <!-- PANEL CC 1: RADAR PESERTA & KELOLA LANGGANAN -->
@@ -1202,6 +1279,48 @@
                         </div>
                         <button class="btn-dash-gold" onclick="window.adminSimpanPengaturan()">
                             <i class="fas fa-save"></i> Simpan Pengaturan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PANEL CC 5: PUSAT BERITA & KONFIGURASI MENUJUASN-BOT -->
+                <div id="ccPanel-newsbot" class="cc-panel">
+                    <div class="cc-settings-card" style="margin-bottom:18px;">
+                        <h3><i class="fas fa-newspaper"></i> Tambah Link ke Pusat Berita Peserta</h3>
+                        <p>Salin link berita resmi (BKN / KemenPAN-RB / Media) di sini, otomatis tampil di tab MenujuASN-BOT &amp; Berita.</p>
+                        <div class="cc-form-group">
+                            <label for="ccNewsTitle">Judul Berita / Pengumuman</label>
+                            <input type="text" id="ccNewsTitle" placeholder="Contoh: Jadwal Resmi Pendaftaran CPNS 2026 dari BKN" />
+                        </div>
+                        <div style="display:grid; grid-template-columns:1fr 180px; gap:10px;">
+                            <div class="cc-form-group">
+                                <label for="ccNewsUrl">URL / Link Berita (https://...)</label>
+                                <input type="url" id="ccNewsUrl" placeholder="https://www.bkn.go.id/..." />
+                            </div>
+                            <div class="cc-form-group">
+                                <label for="ccNewsTag">Sumber / Tag</label>
+                                <input type="text" id="ccNewsTag" placeholder="BKN / KemenPAN-RB" value="BKN" />
+                            </div>
+                        </div>
+                        <div class="cc-form-group">
+                            <label for="ccNewsDesc">Ringkasan Singkat (Opsional)</label>
+                            <input type="text" id="ccNewsDesc" placeholder="Ringkasan 1 kalimat agar peserta langsung paham isinya..." />
+                        </div>
+                        <button class="btn-dash-gold" onclick="window.adminTambahBerita()">
+                            <i class="fas fa-plus-circle"></i> Publikasikan Link Berita
+                        </button>
+                        <div id="ccNewsAdminList" style="margin-top:16px;"></div>
+                    </div>
+
+                    <div class="cc-settings-card">
+                        <h3><i class="fas fa-robot"></i> API Key Khusus MenujuASN-BOT (Opsional)</h3>
+                        <p>Secara default Cloud Function memakai key Gemini yang sudah aktif di server. Jika ingin memisahkan ke key Tier 1 lain, tempel di sini (tersimpan aman di <code>cpns_settings/ai_config</code>, tidak bisa dibaca peserta).</p>
+                        <div class="cc-form-group">
+                            <label for="ccBotApiKeyInput">Gemini API Key (Tier 1)</label>
+                            <input type="password" id="ccBotApiKeyInput" placeholder="AIzaSy... (kosongkan jika tetap memakai key server saat ini)" />
+                        </div>
+                        <button class="btn-card primary" style="width:auto;" onclick="window.adminSimpanBotApiKey()">
+                            <i class="fas fa-key"></i> Simpan API Key MenujuASN-BOT
                         </button>
                     </div>
                 </div>

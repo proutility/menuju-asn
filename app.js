@@ -1851,7 +1851,7 @@ window.hapusRiwayatBrankas = async (attemptId) => {
 
     const res = await Swal.fire({
         title: 'Yakin Hapus Riwayat?',
-        html: `Data hasil &amp; pembahasan ${label} akan dihapus permanen (termasuk dari Firebase) dan <b>tidak bisa dikembalikan lagi</b>.`,
+        html: `Data hasil &amp; pembahasan ${label} akan dihapus permanen dan <b>tidak bisa dikembalikan lagi</b>.`,
         icon: 'warning',
         showCancelButton: true,
         confirmButtonText: 'Ya, Hapus Permanen',
@@ -2300,9 +2300,23 @@ window.renderBrankasPembahasan = () => {
         `<option value="${d.key}" ${dateFilter === d.key ? 'selected' : ''}>${d.label}${d.key === todayKey ? ' (Hari Ini)' : ''}</option>`
     ).join('');
 
+    const CAT_META = {
+        tryout: { label: 'Tryout', color: '#7c3aed' },
+        twk: { label: 'TWK', color: '#2563eb' },
+        tiu: { label: 'TIU', color: '#d97706' },
+        tkp: { label: 'TKP', color: '#16a34a' }
+    };
+
     const buildProgressAnalyticsHtml = (dataset) => {
-        if (!dataset || dataset.length === 0) return '';
-        const chrono = [...dataset].slice(0, 10).reverse();
+        if (!dataset || dataset.length === 0) {
+            if (!history || history.length === 0) return '';
+            return `
+                <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:14px; padding:16px 18px; margin-bottom:16px; color:#64748b; font-size:0.84rem; text-align:center;">
+                    Belum ada riwayat nilai untuk filter kategori/tanggal ini.
+                </div>
+            `;
+        }
+        const chrono = [...dataset].slice(0, 12).reverse();
         const pctList = chrono.map(it => it.maxSkor > 0 ? Math.round(((it.totalSkor || 0) / it.maxSkor) * 100) : 0);
         const avgPct = Math.round(pctList.reduce((a, b) => a + b, 0) / pctList.length);
         const bestItem = dataset.reduce((best, cur) => {
@@ -2312,25 +2326,78 @@ window.renderBrankasPembahasan = () => {
         }, dataset[0]);
         const lulusCount = dataset.filter(it => it.statusLolos).length;
 
-        // SVG Line Chart (Grafik Garis Naik-Turun)
-        const w = 440, h = 148, padL = 32, padR = 18, padT = 18, padB = 26;
+        // SVG Line Chart (Grafik Garis Naik-Turun Multi-Warna sesuai Filter)
+        const w = 440, h = 156, padL = 32, padR = 20, padT = 18, padB = 26;
         const plotW = w - padL - padR;
         const plotH = h - padT - padB;
-        const pts = chrono.map((it, idx) => {
+        const allPts = chrono.map((it, idx) => {
             const x = chrono.length === 1 ? padL + plotW / 2 : padL + (idx / (chrono.length - 1)) * plotW;
             const pct = pctList[idx];
             const y = padT + plotH - (pct / 100) * plotH;
-            return { x: Number(x.toFixed(1)), y: Number(y.toFixed(1)), pct, skor: it.totalSkor || 0, max: it.maxSkor || 0 };
+            return {
+                x: Number(x.toFixed(1)),
+                y: Number(y.toFixed(1)),
+                pct,
+                skor: it.totalSkor || 0,
+                max: it.maxSkor || 0,
+                cat: getBrankasCat(it),
+                idx
+            };
         });
-        const polyPoints = pts.map(p => `${p.x},${p.y}`).join(' ');
-        const areaPoints = pts.length > 1
-            ? `${pts[0].x},${padT + plotH} ${polyPoints} ${pts[pts.length - 1].x},${padT + plotH}`
-            : '';
-        const dotsSvg = pts.map((p, idx) => `
-            <circle cx="${p.x}" cy="${p.y}" r="4.5" fill="#1e3a8a" stroke="#ffffff" stroke-width="2"/>
-            <text x="${p.x}" y="${Math.max(11, p.y - 8)}" text-anchor="middle" font-size="9" font-weight="800" fill="#1e3a8a">${p.skor}</text>
+
+        const activeCats = catFilter === 'all'
+            ? Object.keys(CAT_META).filter(c => allPts.some(p => p.cat === c))
+            : [catFilter];
+
+        const defsSvg = Object.entries(CAT_META).map(([cat, meta]) => `
+            <linearGradient id="brankasArea-${cat}" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="${meta.color}" stop-opacity="0.20"/>
+                <stop offset="100%" stop-color="${meta.color}" stop-opacity="0.01"/>
+            </linearGradient>
+            <marker id="brankasArrow-${cat}" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+                <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="${meta.color}"/>
+            </marker>
+        `).join('');
+
+        const seriesSvg = activeCats.map(cat => {
+            const meta = CAT_META[cat] || CAT_META.tryout;
+            const pts = allPts.filter(p => p.cat === cat);
+            if (!pts.length) return '';
+            const polyPoints = pts.map(p => `${p.x},${p.y}`).join(' ');
+            const areaPoints = (catFilter !== 'all' && pts.length > 1)
+                ? `${pts[0].x},${padT + plotH} ${polyPoints} ${pts[pts.length - 1].x},${padT + plotH}`
+                : '';
+            const lineSvg = pts.length > 1
+                ? `<polyline fill="none" stroke="${meta.color}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#brankasArrow-${cat})" points="${polyPoints}"/>`
+                : '';
+            const dotsSvg = pts.map(p => `
+                <circle cx="${p.x}" cy="${p.y}" r="4.5" fill="${meta.color}" stroke="#ffffff" stroke-width="2"/>
+                <text x="${p.x}" y="${Math.max(11, p.y - 8)}" text-anchor="middle" font-size="9" font-weight="800" fill="${meta.color}">${p.skor}</text>
+            `).join('');
+            return `
+                ${areaPoints ? `<polygon points="${areaPoints}" fill="url(#brankasArea-${cat})"/>` : ''}
+                ${lineSvg}
+                ${dotsSvg}
+            `;
+        }).join('');
+
+        const xLabelsSvg = allPts.map((p, idx) => `
             <text x="${p.x}" y="${h - 6}" text-anchor="middle" font-size="9" font-weight="700" fill="#64748b">#${idx + 1}</text>
         `).join('');
+
+        const legendHtml = catFilter === 'all'
+            ? `<div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-top:6px; padding-top:6px; border-top:1px dashed #e2e8f0; font-size:0.72rem; font-weight:700; color:#475569;">
+                ${Object.entries(CAT_META).map(([cat, meta]) => `
+                    <span style="display:inline-flex; align-items:center; gap:5px; ${allPts.some(p => p.cat === cat) ? '' : 'opacity:0.45;'}">
+                        <span style="display:inline-block; width:14px; height:3px; border-radius:2px; background:${meta.color};"></span>
+                        <span style="color:${meta.color}; font-weight:800;">${meta.label}</span>
+                    </span>
+                `).join('')}
+               </div>`
+            : `<div style="display:flex; align-items:center; gap:6px; margin-top:6px; padding-top:6px; border-top:1px dashed #e2e8f0; font-size:0.72rem; font-weight:800; color:${(CAT_META[catFilter] || CAT_META.tryout).color};">
+                <span style="display:inline-block; width:14px; height:3px; border-radius:2px; background:${(CAT_META[catFilter] || CAT_META.tryout).color};"></span>
+                Tren Kategori ${(CAT_META[catFilter] || CAT_META.tryout).label}
+               </div>`;
 
         // Bar Batang Rata-Rata Subtes (TWK, TIU, TKP)
         const subMetrics = [
@@ -2362,25 +2429,20 @@ window.renderBrankasPembahasan = () => {
                     </div>
                 </div>
                 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px; align-items:stretch;">
-                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px;">
+                    <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px; display:flex; flex-direction:column; justify-content:space-between;">
                         <div style="font-size:0.76rem; font-weight:800; color:#475569; margin-bottom:4px;">Grafik Garis Tren Nilai (Skor Paket)</div>
                         <svg viewBox="0 0 ${w} ${h}" style="width:100%; height:145px; display:block;">
-                            <defs>
-                                <linearGradient id="brankasLineArea" x1="0" y1="0" x2="0" y2="1">
-                                    <stop offset="0%" stop-color="#2563eb" stop-opacity="0.22"/>
-                                    <stop offset="100%" stop-color="#2563eb" stop-opacity="0.01"/>
-                                </linearGradient>
-                            </defs>
+                            <defs>${defsSvg}</defs>
                             <line x1="${padL}" y1="${padT}" x2="${w - padR}" y2="${padT}" stroke="#e2e8f0" stroke-dasharray="3,3"/>
                             <line x1="${padL}" y1="${padT + plotH / 2}" x2="${w - padR}" y2="${padT + plotH / 2}" stroke="#e2e8f0" stroke-dasharray="3,3"/>
                             <line x1="${padL}" y1="${padT + plotH}" x2="${w - padR}" y2="${padT + plotH}" stroke="#cbd5e1"/>
                             <text x="4" y="${padT + 3}" font-size="8.5" fill="#94a3b8" font-weight="700">100%</text>
                             <text x="8" y="${padT + plotH / 2 + 3}" font-size="8.5" fill="#94a3b8" font-weight="700">50%</text>
                             <text x="14" y="${padT + plotH + 3}" font-size="8.5" fill="#94a3b8" font-weight="700">0%</text>
-                            ${areaPoints ? `<polygon points="${areaPoints}" fill="url(#brankasLineArea)"/>` : ''}
-                            ${pts.length > 1 ? `<polyline fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" points="${polyPoints}"/>` : ''}
-                            ${dotsSvg}
+                            ${seriesSvg}
+                            ${xLabelsSvg}
                         </svg>
+                        ${legendHtml}
                     </div>
                     <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 14px; display:flex; flex-direction:column; justify-content:space-between;">
                         <div style="font-size:0.76rem; font-weight:800; color:#475569; margin-bottom:8px;">Diagram Bar Batang Rata-Rata Subtes</div>
@@ -2393,7 +2455,7 @@ window.renderBrankasPembahasan = () => {
         `;
     };
 
-    const analyticsHtml = buildProgressAnalyticsHtml(filteredHistory.length ? filteredHistory : history);
+    const analyticsHtml = buildProgressAnalyticsHtml(filteredHistory);
 
     const listHtml = filteredHistory.map(item => {
         const tgl = new Date(item.finishedAt || Date.now()).toLocaleString('id-ID', {

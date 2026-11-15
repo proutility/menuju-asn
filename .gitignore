@@ -9,3 +9,5 @@ firebase-admin-tool.ps1
 *.ps1
 *.py
 deep_analysis_report.json
+functions/node_modules/
+.firebase/
