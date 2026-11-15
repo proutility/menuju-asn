@@ -1213,8 +1213,8 @@ function buildExamStageMarkup() {
                     Memuat butir pertanyaan...
                 </div>
                 <div class="options-list" id="optionsListDisplay"></div>
-                <div id="arenaBotNextBanner" style="display:none; margin-top:14px;"></div>
                 <div id="instantPembahasanBox" style="display:none; margin-top:14px;"></div>
+                <div id="arenaBotNextBanner" style="display:none; margin-top:14px;"></div>
                 
                 <div class="exam-nav" style="${window.currentAppMode === 'multiplayer' ? 'display:none;' : ''}">
                     <button id="btnPrevSoal" class="btn-nav" onclick="window.prevSoal()">
@@ -1253,13 +1253,22 @@ function startExamTimer() {
     clearInterval(window.examTimerInterval);
     const updateDisplay = () => {
         const timerEl = document.getElementById('examTimerDisplay');
-        const m = Math.floor(window.examTimeRemaining / 60);
-        const s = window.examTimeRemaining % 60;
+        const rem = Math.max(0, Number(window.examTimeRemaining || 0));
+        const m = Math.floor(rem / 60);
+        const s = rem % 60;
         if (timerEl) {
             timerEl.innerHTML = `<i class="fas fa-stopwatch"></i> ${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
         }
-        if (window.examTimeRemaining <= 0) {
+        if (rem <= 0) {
             clearInterval(window.examTimerInterval);
+            if (window.currentAppMode === 'multiplayer') {
+                window._arenaQuestionTimedOut = true;
+                renderSoalSekarang();
+                if (typeof window.evaluateMenujuAsnBotAutoNext === 'function') {
+                    window.evaluateMenujuAsnBotAutoNext(window.latestRoomData || {});
+                }
+                return;
+            }
             Swal.fire({
                 icon: 'warning',
                 title: 'Waktu Habis!',
@@ -1269,6 +1278,7 @@ function startExamTimer() {
             }).then(() => {
                 selesaikanUjian();
             });
+            return;
         }
         window.examTimeRemaining--;
     };
@@ -1363,7 +1373,10 @@ function renderSoalSekarang() {
     const instantBoxEl = document.getElementById('instantPembahasanBox');
     if (opsListEl) {
         const currentAns = window.userAnswers[q.id];
-        const showInstant = Boolean((window.isInstantReviewMode || window.currentAppMode === 'multiplayer') && currentAns);
+        const showInstant = Boolean(
+            (window.isInstantReviewMode && currentAns) ||
+            (window.currentAppMode === 'multiplayer' && (currentAns || window._arenaQuestionTimedOut))
+        );
         const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
 
         opsListEl.innerHTML = q.opsi.map(opt => {
@@ -3120,7 +3133,8 @@ function bukaWaitingRoom(kodeRoom) {
             window.currentAppMode = 'multiplayer';
             const paketInfo = getQuestionsForRoomPaket(data.paketKey || 'full');
             window.currentQuestions = paketInfo.questions;
-            window.examTimeRemaining = paketInfo.durationSec;
+            window.examTimeRemaining = 60;
+            window._arenaQuestionTimedOut = false;
             window.currentPackageMeta = {
                 saveId: `arena_${kodeRoom}`,
                 tipe: 'arena',
@@ -3147,7 +3161,10 @@ function bukaWaitingRoom(kodeRoom) {
                     return;
                 }
                 window.currentIdx = data.currentQuestionIdx;
+                window.examTimeRemaining = 60;
+                window._arenaQuestionTimedOut = false;
                 renderSoalSekarang();
+                startExamTimer();
             }
             if (typeof window.renderInlineArenaKlasemen === 'function') window.renderInlineArenaKlasemen();
             if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
@@ -3226,10 +3243,6 @@ function bukaWaitingRoom(kodeRoom) {
                     ${playerTilesHtml}
                 </div>
 
-                <div style="max-width:620px; margin:0 auto 20px; text-align:left;">
-                    ${buildArenaChatWidgetHtml('waiting')}
-                </div>
-
                 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
                     <button onclick="window.kembaliKeLobby()" style="background:#f1f5f9; color:#475569; border:1px solid #cbd5e1; padding:10px 20px; border-radius:8px; font-weight:700; font-size:0.85rem; cursor:pointer;">
                         Keluar Room
@@ -3246,6 +3259,7 @@ function bukaWaitingRoom(kodeRoom) {
                 </div>
             </div>
         `;
+        if (typeof window.mountArenaFloatingChatDock === 'function') window.mountArenaFloatingChatDock();
         if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
     });
 }
@@ -3492,7 +3506,7 @@ window.evaluateMenujuAsnBotAutoNext = (roomData) => {
 
     const curQ = (window.currentQuestions || [])[window.currentIdx];
     const iAnswered = Boolean(curQ && window.userAnswers?.[curQ.id]);
-    if (!iAnswered) {
+    if (!iAnswered && !window._arenaQuestionTimedOut) {
         bannerEl.style.display = 'none';
         bannerEl.innerHTML = '';
         return;
@@ -3502,7 +3516,7 @@ window.evaluateMenujuAsnBotAutoNext = (roomData) => {
     const myUid = window.currentUser?.uid;
     const isHost = data.hostUid === myUid;
     const playersObj = { ...(data.players || {}) };
-    if (myUid) {
+    if (myUid && iAnswered) {
         playersObj[myUid] = {
             ...(playersObj[myUid] || {}),
             lastAnsweredIdx: Math.max(Number(playersObj[myUid]?.lastAnsweredIdx ?? -1), window.currentIdx)
@@ -3512,7 +3526,7 @@ window.evaluateMenujuAsnBotAutoNext = (roomData) => {
     const allPlayers = Object.values(playersObj);
     const totalP = Math.max(1, allPlayers.length);
     const answeredCount = allPlayers.filter(p => Number(p.lastAnsweredIdx ?? -1) >= window.currentIdx).length;
-    const allReady = answeredCount >= totalP;
+    const allReady = answeredCount >= totalP || Boolean(window._arenaQuestionTimedOut);
     const isLastQ = window.currentIdx >= (window.currentQuestions || []).length - 1;
     const nextLabel = isLastQ ? 'Podium & Hasil Akhir' : `Soal #${window.currentIdx + 2}`;
 
@@ -3537,7 +3551,16 @@ window.evaluateMenujuAsnBotAutoNext = (roomData) => {
         return;
     }
 
-    // Semua peserta sudah menjawab -> jalankan hitung mundur 5 detik
+    // Semua peserta sudah menjawab (atau waktu 60 detik habis) -> hentikan timer soal & jalankan hitung mundur 5 detik
+    clearInterval(window.examTimerInterval);
+    const timerEl = document.getElementById('examTimerDisplay');
+    if (timerEl && !timerEl.innerHTML.includes('fa-pause-circle')) {
+        const rem = Math.max(0, Number(window.examTimeRemaining || 0));
+        const m = Math.floor(rem / 60);
+        const s = rem % 60;
+        timerEl.innerHTML = `<i class="fas fa-pause-circle" style="color:#4ade80;"></i> ${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
     if (window._botCountdownTargetIdx !== window.currentIdx) {
         clearInterval(window._botAutoNextInterval);
         window._botCountdownTargetIdx = window.currentIdx;
@@ -3633,8 +3656,14 @@ window.toggleArenaFloatingChat = (forceOpen) => {
 };
 
 window.mountArenaFloatingChatDock = () => {
-    document.getElementById('arenaFloatingChatDock')?.remove();
-    if (window.currentAppMode !== 'multiplayer') return;
+    if (window.currentAppMode !== 'multiplayer' && !window.activeRoomCode) {
+        document.getElementById('arenaFloatingChatDock')?.remove();
+        return;
+    }
+    if (document.getElementById('arenaFloatingChatDock')) {
+        if (typeof window.renderArenaChatFeed === 'function') window.renderArenaChatFeed();
+        return;
+    }
 
     const dock = document.createElement('div');
     dock.id = 'arenaFloatingChatDock';
