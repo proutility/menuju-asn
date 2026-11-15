@@ -3058,37 +3058,105 @@ function buildMentorVisualHtml(q) {
         }
     }
 
-    // 3. Visualisasi Diagram Venn Mini SVG & Alur Logika Silogisme
+    // 3. Visualisasi Diagram Venn Rapi & Peta Premis Nyata Silogisme
     if (sub.includes('silogisme') || sub.includes('logis')) {
         const lowerSoal = String(q.soal || '').toLowerCase();
         const isSebagian = lowerSoal.includes('sebagian') || lowerSoal.includes('beberapa');
+        const isSemua = lowerSoal.includes('semua');
+
+        // Ekstrak kalimat premis & fakta nyata dari teks soal
+        const cleanBody = String(q.soal || '')
+            .replace(/\(S[23]-\d+\)/g, '')
+            .replace(/Kesimpulan yang paling tepat adalah\.{0,3}/i, '')
+            .replace(/Berdasarkan narasi tersebut,?\s*kesimpulan.*?\.{0,3}/i, '')
+            .replace(/Manakah pernyataan yang paling tepat\??/i, '')
+            .trim();
+        const sents = cleanBody
+            .split(/(?<=[.!?])\s+|\n+/)
+            .map(s => s.trim())
+            .filter(s => s.length > 8);
+
+        const bestOpt = (q.opsi || []).find(o => o.benar);
+        const premisCards = sents.slice(0, 3).map((s, idx) => {
+            const isFact = idx === sents.slice(0, 3).length - 1 && sents.length >= 2 && (/\btidak\b|\bbukan\b|diketahui|ternyata/i.test(s) || sents.length >= 3);
+            const tag = isFact ? 'Fakta Kasus' : `Premis ${idx + 1}`;
+            const bg = isFact ? '#fffbeb' : '#eff6ff';
+            const fg = isFact ? '#92400e' : '#1e40af';
+            const bd = isFact ? '#fde68a' : '#bfdbfe';
+            return `
+                <div style="background:${bg}; border:1px solid ${bd}; border-radius:7px; padding:6px 10px; font-size:0.77rem; color:#1e293b; line-height:1.45;">
+                    <span style="font-weight:800; color:${fg}; margin-right:5px;">${tag}:</span>${escapeHtmlMentor(s)}
+                </div>
+            `;
+        }).join('');
+
         const vennSvg = isSebagian
             ? `
-                <svg viewBox="0 0 210 78" style="width:185px; height:68px; flex-shrink:0;">
-                    <circle cx="78" cy="39" r="28" fill="rgba(37,99,235,0.14)" stroke="#2563eb" stroke-width="1.8"/>
-                    <circle cx="122" cy="39" r="28" fill="rgba(22,163,74,0.14)" stroke="#16a34a" stroke-width="1.8"/>
-                    <text x="64" y="42" text-anchor="middle" font-size="10" font-weight="800" fill="#1e40af">A</text>
-                    <text x="100" y="42" text-anchor="middle" font-size="9.5" font-weight="800" fill="#0f172a">A∩B</text>
-                    <text x="136" y="42" text-anchor="middle" font-size="10" font-weight="800" fill="#166534">B</text>
+                <svg viewBox="0 0 220 92" style="width:190px; height:80px; flex-shrink:0;">
+                    <circle cx="82" cy="46" r="32" fill="rgba(37,99,235,0.12)" stroke="#2563eb" stroke-width="1.8"/>
+                    <circle cx="138" cy="46" r="32" fill="rgba(22,163,74,0.12)" stroke="#16a34a" stroke-width="1.8"/>
+                    <text x="63" y="50" text-anchor="middle" font-size="11" font-weight="800" fill="#1e40af">A</text>
+                    <text x="110" y="50" text-anchor="middle" font-size="10" font-weight="800" fill="#0f172a">A∩B</text>
+                    <text x="157" y="50" text-anchor="middle" font-size="11" font-weight="800" fill="#166534">B</text>
                 </svg>`
-            : `
-                <svg viewBox="0 0 210 78" style="width:185px; height:68px; flex-shrink:0;">
-                    <circle cx="105" cy="39" r="33" fill="rgba(22,163,74,0.12)" stroke="#16a34a" stroke-width="1.8"/>
-                    <circle cx="105" cy="43" r="21" fill="rgba(37,99,235,0.16)" stroke="#2563eb" stroke-width="1.8"/>
-                    <text x="105" y="19" text-anchor="middle" font-size="9.5" font-weight="800" fill="#166534">Semua B (Himpunan Besar)</text>
-                    <text x="105" y="47" text-anchor="middle" font-size="10" font-weight="800" fill="#1e40af">Semua A</text>
-                </svg>`;
+            : (isSemua ? `
+                <svg viewBox="0 0 220 96" style="width:190px; height:84px; flex-shrink:0;">
+                    <circle cx="110" cy="48" r="42" fill="rgba(22,163,74,0.10)" stroke="#16a34a" stroke-width="1.8"/>
+                    <text x="110" y="21" text-anchor="middle" font-size="9.5" font-weight="800" fill="#166534">B (Himpunan Besar)</text>
+                    <circle cx="110" cy="58" r="23" fill="rgba(37,99,235,0.16)" stroke="#2563eb" stroke-width="1.8"/>
+                    <text x="110" y="62" text-anchor="middle" font-size="10" font-weight="800" fill="#1e40af">A ⊂ B</text>
+                </svg>` : '');
+
+        // Buat Notasi Simbolik Cepat (P -> Q, ~Q, ∴ ~P / A ⊂ B)
+        let formulaHtml = '';
+        if (isSemua && isSebagian) {
+            formulaHtml = `
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-family:monospace; font-size:0.8rem; font-weight:800; background:#f8fafc; border:1px dashed #94a3b8; border-radius:7px; padding:7px 10px; color:#0f172a;">
+                    <span style="background:#dbeafe; color:#1e40af; padding:2px 7px; border-radius:5px;">Semua A = B</span>
+                    <span>+</span>
+                    <span style="background:#fef3c7; color:#92400e; padding:2px 7px; border-radius:5px;">Sebagian B = C</span>
+                    <span>➔</span>
+                    <span style="background:#dcfce7; color:#166534; padding:2px 7px; border-radius:5px;">∴ Sebagian (coret B)</span>
+                </div>`;
+        } else if (isSemua) {
+            formulaHtml = `
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-family:monospace; font-size:0.8rem; font-weight:800; background:#f8fafc; border:1px dashed #94a3b8; border-radius:7px; padding:7px 10px; color:#0f172a;">
+                    <span style="background:#dbeafe; color:#1e40af; padding:2px 7px; border-radius:5px;">P ⊂ Q (Semua P adalah Q)</span>
+                    <span>+</span>
+                    <span style="background:#fef3c7; color:#92400e; padding:2px 7px; border-radius:5px;">Q ⊂ R</span>
+                    <span>➔</span>
+                    <span style="background:#dcfce7; color:#166534; padding:2px 7px; border-radius:5px;">∴ P ⊂ R</span>
+                </div>`;
+        } else {
+            const hasNegFact = sents.length >= 2 && /\btidak\b|\bbukan\b/i.test(sents[sents.length - 1]);
+            const is3Prem = sents.length >= 3;
+            const chain = is3Prem ? 'P → Q → R' : 'P → Q';
+            const factSym = hasNegFact ? (is3Prem ? '~Q / ~R (tidak)' : '~Q (tidak)') : 'P (terpenuhi)';
+            const resSym = hasNegFact ? '∴ ~P (Modus Tollens)' : (is3Prem ? '∴ R (Silogisme)' : '∴ Q (Modus Ponens)');
+            formulaHtml = `
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-family:monospace; font-size:0.8rem; font-weight:800; background:#f8fafc; border:1px dashed #94a3b8; border-radius:7px; padding:7px 10px; color:#0f172a;">
+                    <span style="background:#dbeafe; color:#1e40af; padding:2px 7px; border-radius:5px;">${chain}</span>
+                    <span>|</span>
+                    <span style="background:#fef3c7; color:#92400e; padding:2px 7px; border-radius:5px;">Fakta: ${factSym}</span>
+                    <span>➔</span>
+                    <span style="background:#dcfce7; color:#166534; padding:2px 7px; border-radius:5px;">${resSym}</span>
+                    <span style="font-family:sans-serif; font-size:0.7rem; font-weight:600; color:#64748b;">(~ = tidak/bukan, ∴ = jadi)</span>
+                </div>`;
+        }
+
         return `
             <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:8px; padding:10px 12px; margin-bottom:10px;">
-                <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:6px;"><i class="fas fa-sitemap"></i> Diagram Venn & Alur Logika Silogisme</div>
-                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+                <div style="font-size:0.74rem; font-weight:800; color:#1d4ed8; margin-bottom:8px;"><i class="fas fa-sitemap"></i> Peta Premis &amp; Notasi Simbolik Silogisme</div>
+                <div style="margin-bottom:8px;">${formulaHtml}</div>
+                <div style="display:flex; align-items:flex-start; gap:12px; flex-wrap:wrap;">
                     ${vennSvg}
-                    <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap; font-size:0.75rem; font-weight:700; flex:1; min-width:200px;">
-                        <span style="background:#eff6ff; color:#1e40af; padding:4px 8px; border-radius:6px;">Premis 1</span>
-                        <span style="color:#64748b;">➔</span>
-                        <span style="background:#fef3c7; color:#92400e; padding:4px 8px; border-radius:6px;">Premis 2 (${isSebagian ? 'Irisan' : 'Sub-himpunan'})</span>
-                        <span style="color:#64748b;">➔</span>
-                        <span style="background:#dcfce7; color:#166534; padding:4px 8px; border-radius:6px;">Simpulan Pasti</span>
+                    <div style="display:flex; flex-direction:column; gap:5px; flex:1; min-width:220px;">
+                        ${premisCards}
+                        ${bestOpt ? `
+                            <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:7px; padding:6px 10px; font-size:0.77rem; color:#166534; line-height:1.45;">
+                                <span style="font-weight:800; margin-right:5px;">➔ Kesimpulan Pasti (${escapeHtmlMentor(q.kunci || bestOpt.label)}):</span>${escapeHtmlMentor(bestOpt.teks)}
+                            </div>
+                        ` : ''}
                     </div>
                 </div>
             </div>
@@ -3169,35 +3237,41 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
         : 'Bobot nilai tertinggi menunjukkan opsi paling selaras dengan indikator BKN pada subtes ini.';
     const safeId = String(uidSuffix).replace(/[^a-zA-Z0-9_-]/g, '_');
 
-    // Pecah pembahasan menjadi langkah-langkah logis (max 3-4 langkah ala Papan Tulis)
+    const bestOpt = (q.opsi || []).find(o => o.benar) ||
+        (q.opsi || []).reduce((best, cur) => (Number(cur.poin || 0) > Number(best?.poin || -1) ? cur : best), null);
+    const kunciLabel = q.kunci || bestOpt?.label || '-';
+
+    // Pecah pembahasan menjadi langkah-langkah logis yang jelas & langsung terbaca
     let parts = rawText
         .split(/(?:\n+|(?<=[.!?])\s+(?=[A-Z0-9(]))/)
         .map(s => s.trim())
         .filter(Boolean);
     if (parts.length === 0) parts = [rawText];
+    if (parts.length === 1 && bestOpt) {
+        parts = [
+            parts[0],
+            `Berdasarkan analisis di atas, jawaban yang paling tepat adalah opsi ${kunciLabel}: "${bestOpt.teks}".`
+        ];
+    }
     if (parts.length > 4) {
         parts = [parts[0], parts[1], parts.slice(2).join(' ')];
     }
-
-    const bestOpt = (q.opsi || []).find(o => o.benar) ||
-        (q.opsi || []).reduce((best, cur) => (Number(cur.poin || 0) > Number(best?.poin || -1) ? cur : best), null);
-    const kunciLabel = q.kunci || bestOpt?.label || '-';
 
     const getStepTitle = (idx, total) => {
         if (total === 1) return 'Inti Pembahasan & Kunci';
         if (idx === 0) return 'Tangkap Kata Kunci / Diketahui';
         if (idx === total - 1) return 'Kesimpulan & Kunci Jawaban';
-        return 'Proses / Rumus / Logika';
+        return 'Penjabaran Proses / Logika';
     };
 
     const stepsHtml = parts.map((stepTxt, idx) => `
-        <div class="mentor-step-item" data-step-idx="${idx}" style="${idx === 0 ? '' : 'display:none;'} background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
+        <div class="mentor-step-item" data-step-idx="${idx}" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
             <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 8px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1} • ${getStepTitle(idx, parts.length)}</span>
             ${escapeHtmlMentor(stepTxt)}
         </div>
     `).join('');
 
-    const hasMoreSteps = parts.length > 1;
+    const hasMoreSteps = false;
     const visualHtml = buildMentorVisualHtml(q);
     const gotPoin = meta.gotPoin !== undefined ? Number(meta.gotPoin) : 0;
     const maxPoin = meta.maxPoin !== undefined ? Number(meta.maxPoin) : 5;
