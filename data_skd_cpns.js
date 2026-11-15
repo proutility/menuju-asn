@@ -87,7 +87,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Wajib militer bagi seluruh warga negara produktif",
+        "teks": "Wajib militer bagi seluruh warga negara produktif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -111,7 +111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membuat aplikasi pengawas aktivitas digital masyarakat secara tertutup",
+        "teks": "Membuat aplikasi pengawas aktivitas digital masyarakat secara tertutup agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -185,7 +185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menciptakan persaingan antardaerah dalam hal kekuasaan politik",
+        "teks": "Menciptakan persaingan antardaerah dalam hal kekuasaan politik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -225,7 +225,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah",
+        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -299,7 +299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah",
+        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -333,7 +333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghindari sanksi administratif dan pencabutan izin usaha dari dinas perdagangan",
+        "teks": "Menghindari sanksi administratif dan pencabutan izin usaha dari dinas perdagangan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -385,7 +385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan pegawai terhadap surat keputusan penempatan tugas di daerah terpencil",
+        "teks": "Kepatuhan pegawai terhadap surat keputusan penempatan tugas di daerah terpencil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -425,7 +425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota",
+        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -511,7 +511,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim",
+        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -551,7 +551,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -573,7 +573,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -653,7 +653,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan penilaian khusus adiknya kepada rekan di sebelah tanpa mundur dari tim",
+        "teks": "Menyerahkan penilaian khusus adiknya kepada rekan di sebelah tanpa mundur dari tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -687,7 +687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -927,7 +927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan",
+        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -991,7 +991,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara",
+        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -1013,7 +1013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi",
+        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -1053,7 +1053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1139,7 +1139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum",
+        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1425,7 +1425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1527,7 +1527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah",
+        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -1567,7 +1567,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor",
+        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1607,7 +1607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memenuhi indikator penilaian kepatuhan standar pelayanan publik instansi daerah",
+        "teks": "Memenuhi indikator penilaian kepatuhan standar pelayanan publik instansi daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1647,7 +1647,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba",
+        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1699,7 +1699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kehati-hatian panitia menghadapi jadwal pemeriksaan rutin dari badan pemeriksa",
+        "teks": "Kehati-hatian panitia menghadapi jadwal pemeriksaan rutin dari badan pemeriksa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1745,7 +1745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba",
+        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1767,7 +1767,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi",
+        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1819,7 +1819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim",
+        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1939,7 +1939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan hasil tangkapan ikan nelayan tradisional untuk memenuhi permintaan pasar",
+        "teks": "Peningkatan hasil tangkapan ikan nelayan tradisional untuk memenuhi permintaan pasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2025,7 +2025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit",
+        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2093,7 +2093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat",
+        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2145,7 +2145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2231,7 +2231,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -2247,7 +2247,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga",
+        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2647,7 +2647,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keinginan menjaga iklim investasi daerah tetap kondusif selama tahun politik",
+        "teks": "Keinginan menjaga iklim investasi daerah tetap kondusif selama tahun politik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2711,7 +2711,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -2745,7 +2745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal",
+        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2779,7 +2779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional",
+        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2807,7 +2807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keseimbangan pembangunan antara ruang terbuka hijau dan sektor pertanian rakyat",
+        "teks": "Keseimbangan pembangunan antara ruang terbuka hijau dan sektor pertanian rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2865,7 +2865,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha",
+        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2911,7 +2911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun",
+        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -2951,7 +2951,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menegur secara pribadi di luar forum rapat agar tidak merusak reputasi rekan kerja",
+        "teks": "Menegur secara pribadi di luar forum rapat agar tidak merusak reputasi rekan kerja sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -3025,7 +3025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan",
+        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3053,7 +3053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik",
+        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -3191,7 +3191,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan",
+        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3225,7 +3225,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya",
+        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -3333,7 +3333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat",
+        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3391,7 +3391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan",
+        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3447,7 +3447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak",
+        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3511,7 +3511,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3551,7 +3551,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan",
+        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3831,7 +3831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional",
+        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3847,7 +3847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan",
+        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3905,7 +3905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3927,7 +3927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4013,7 +4013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Peningkatan kepedulian sosial pegawai terhadap kondisi hunian warga lanjut usia",
+        "teks": "Peningkatan kepedulian sosial pegawai terhadap kondisi hunian warga lanjut usia demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4133,7 +4133,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan",
+        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4219,7 +4219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian",
+        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4287,7 +4287,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional",
+        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4327,7 +4327,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjaga jarak pandang jalur transportasi darat agar tidak terganggu oleh kabut asap",
+        "teks": "Menjaga jarak pandang jalur transportasi darat agar tidak terganggu oleh kabut asap sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -4431,7 +4431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Upaya menjaga keindahan kawasan pesisir pantai guna menarik kunjungan wisatawan lokal",
+        "teks": "Upaya menjaga keindahan kawasan pesisir pantai guna menarik kunjungan wisatawan lokal sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -4453,7 +4453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Perlindungan nama baik instansi penyelenggara pemerintahan daerah dari berita bohong",
+        "teks": "Perlindungan nama baik instansi penyelenggara pemerintahan daerah dari berita bohong demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4511,7 +4511,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat",
+        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -4591,7 +4591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 28C ayat (1) UUD 1945 tentang hak warga memperoleh manfaat ilmu pengetahuan",
+        "teks": "Pasal 28C ayat (1) UUD 1945 tentang hak warga memperoleh manfaat ilmu pengetahuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -4607,7 +4607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA",
+        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4659,7 +4659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar",
+        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4699,7 +4699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain",
+        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4727,7 +4727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5019,7 +5019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor",
+        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5047,7 +5047,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyampaian laporan capaian pembangunan fisik instansi kepada masyarakat luas",
+        "teks": "Penyampaian laporan capaian pembangunan fisik instansi kepada masyarakat luas demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -5105,7 +5105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyesuaikan tata letak papan informasi kantor dengan pedoman kementerian",
+        "teks": "Menyesuaikan tata letak papan informasi kantor dengan pedoman kementerian agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -5139,7 +5139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal",
+        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5173,7 +5173,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan",
+        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5207,7 +5207,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -5247,7 +5247,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran",
+        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5345,7 +5345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat",
+        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -5419,7 +5419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kebiasaan hidup sederhana yang diterapkan pejabat di lingkungan tempat tinggalnya",
+        "teks": "Kebiasaan hidup sederhana yang diterapkan pejabat di lingkungan tempat tinggalnya demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5505,7 +5505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5545,7 +5545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memudahkan proses pencatatan transaksi keuangan harian bagi pelaku usaha perhotelan",
+        "teks": "Memudahkan proses pencatatan transaksi keuangan harian bagi pelaku usaha perhotelan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5567,7 +5567,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5751,7 +5751,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Negara Indonesia adalah negara kesatuan yang berbentuk republik demokratis berdaulat",
+        "teks": "Negara Indonesia adalah negara kesatuan yang berbentuk republik demokratis berdaulat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -5767,7 +5767,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5859,7 +5859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 28E ayat (1) dan Pasal 29 ayat (2) mengenai kebebasan beragama dan beribadah",
+        "teks": "Pasal 28E ayat (1) dan Pasal 29 ayat (2) mengenai kebebasan beragama dan beribadah sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -5887,7 +5887,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama",
+        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5927,7 +5927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 22 ayat (1) UUD 1945 tentang penetapan peraturan pemerintah pengganti undang-undang",
+        "teks": "Pasal 22 ayat (1) UUD 1945 tentang penetapan peraturan pemerintah pengganti undang-undang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6265,7 +6265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat",
+        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6339,7 +6339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat",
+        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6385,7 +6385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6471,7 +6471,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa",
+        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -6585,7 +6585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan",
+        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6665,7 +6665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -6779,7 +6779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6825,7 +6825,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering",
+        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -6893,7 +6893,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal",
+        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6967,7 +6967,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA",
+        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7007,7 +7007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sila Pertama semata yang mewajibkan setiap penduduk memeluk agama dan kepercayaan",
+        "teks": "Sila Pertama semata yang mewajibkan setiap penduduk memeluk agama dan kepercayaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7047,7 +7047,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -7087,7 +7087,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sistem negara federasi dengan pembagian kedaulatan penuh antara pusat dan negara bagian",
+        "teks": "Sistem negara federasi dengan pembagian kedaulatan penuh antara pusat dan negara bagian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7431,7 +7431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengurangi tingkat kesalahan input berkas oleh petugas verifikasi administrasi",
+        "teks": "Mengurangi tingkat kesalahan input berkas oleh petugas verifikasi administrasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -7453,7 +7453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak",
+        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7493,7 +7493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Publikasi program kerja kemasyarakatan instansi melalui kanal informasi resmi",
+        "teks": "Publikasi program kerja kemasyarakatan instansi melalui kanal informasi resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7607,7 +7607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kemampuan teknis aparatur dalam merancang jadwal perjalanan dinas antar-pulau",
+        "teks": "Kemampuan teknis aparatur dalam merancang jadwal perjalanan dinas antar-pulau demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7693,7 +7693,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik",
+        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -7779,7 +7779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti arahan pimpinan dengan membuat catatan pribadi sebagai arsip pengaman diri",
+        "teks": "Mengikuti arahan pimpinan dengan membuat catatan pribadi sebagai arsip pengaman diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7831,7 +7831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim",
+        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -7945,7 +7945,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8013,7 +8013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan",
+        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8111,7 +8111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional",
+        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -8167,7 +8167,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal",
+        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8207,7 +8207,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional",
+        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8253,7 +8253,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 28C ayat (1) UUD 1945 tentang hak warga memperoleh manfaat ilmu pengetahuan",
+        "teks": "Pasal 28C ayat (1) UUD 1945 tentang hak warga memperoleh manfaat ilmu pengetahuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8311,7 +8311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden",
+        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -8351,7 +8351,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -8631,7 +8631,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Penyampaian laporan capaian pembangunan fisik instansi kepada masyarakat luas",
+        "teks": "Penyampaian laporan capaian pembangunan fisik instansi kepada masyarakat luas agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -8659,7 +8659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota",
+        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8687,7 +8687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan",
+        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8745,7 +8745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan",
+        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8779,7 +8779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan potensi pendapatan daerah melalui pengembangan sektor ekonomi kreatif",
+        "teks": "Peningkatan potensi pendapatan daerah melalui pengembangan sektor ekonomi kreatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8819,7 +8819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kemampuan teknis aparatur dalam merancang jadwal perjalanan dinas antar-pulau",
+        "teks": "Kemampuan teknis aparatur dalam merancang jadwal perjalanan dinas antar-pulau demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8927,7 +8927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi",
+        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9007,7 +9007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu",
+        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -9105,7 +9105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring",
+        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9133,7 +9133,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencapai target kepatuhan administrasi kepabeanan dan karantina tahun berjalan",
+        "teks": "Mencapai target kepatuhan administrasi kepabeanan dan karantina tahun berjalan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9219,7 +9219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah",
+        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9265,7 +9265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memperluas jaringan pemasaran produk kerajinan lokal ke luar wilayah kabupaten",
+        "teks": "Memperluas jaringan pemasaran produk kerajinan lokal ke luar wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9287,7 +9287,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9373,7 +9373,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah",
+        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9419,7 +9419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar",
+        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9539,7 +9539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -9819,7 +9819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keterampilan mediasi tokoh masyarakat dalam mengelola agenda pertemuan warga",
+        "teks": "Keterampilan mediasi tokoh masyarakat dalam mengelola agenda pertemuan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9871,7 +9871,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Peningkatan daya saing harga produk kerajinan tangan di pasar ekspor regional",
+        "teks": "Peningkatan daya saing harga produk kerajinan tangan di pasar ekspor regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -9911,7 +9911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor",
+        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -9991,7 +9991,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan pegawai terhadap surat keputusan penempatan tugas di daerah terpencil",
+        "teks": "Kepatuhan pegawai terhadap surat keputusan penempatan tugas di daerah terpencil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -10007,7 +10007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan potensi pendapatan daerah melalui pengembangan sektor ekonomi kreatif",
+        "teks": "Peningkatan potensi pendapatan daerah melalui pengembangan sektor ekonomi kreatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10053,7 +10053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi",
+        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10225,7 +10225,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik",
+        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -10247,7 +10247,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi",
+        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10333,7 +10333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan",
+        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10367,7 +10367,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjaga jarak pandang jalur transportasi darat agar tidak terganggu oleh kabut asap",
+        "teks": "Menjaga jarak pandang jalur transportasi darat agar tidak terganggu oleh kabut asap sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -10413,7 +10413,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10465,7 +10465,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah",
+        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10499,7 +10499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi",
+        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10545,7 +10545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10591,7 +10591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -10607,7 +10607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga",
+        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10659,7 +10659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan",
+        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10687,7 +10687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah",
+        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10751,7 +10751,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 11 ayat (1) UUD 1945 mengenai persetujuan DPR dalam pembuatan perjanjian internasional",
+        "teks": "Pasal 11 ayat (1) UUD 1945 mengenai persetujuan DPR dalam pembuatan perjanjian internasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -11031,7 +11031,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar",
+        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -11059,7 +11059,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan",
+        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11099,7 +11099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11127,7 +11127,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyampaian laporan capaian pembangunan fisik instansi kepada masyarakat luas",
+        "teks": "Penyampaian laporan capaian pembangunan fisik instansi kepada masyarakat luas agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -11179,7 +11179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar",
+        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11339,7 +11339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat",
+        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -11385,7 +11385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan",
+        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11447,7 +11447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Dukungan terhadap penerapan sistem nomor antrean elektronik di loket pelayanan",
+        "teks": "Dukungan terhadap penerapan sistem nomor antrean elektronik di loket pelayanan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -11505,7 +11505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengurangi beban anggaran pengadaan perangkat lunak pemetaan di dinas terkait",
+        "teks": "Mengurangi beban anggaran pengadaan perangkat lunak pemetaan di dinas terkait demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11539,7 +11539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11573,7 +11573,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering",
+        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -11625,7 +11625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11727,7 +11727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah",
+        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11807,7 +11807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak",
+        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11847,7 +11847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi",
+        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11887,7 +11887,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar",
+        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11939,7 +11939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama",
+        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12219,7 +12219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana",
+        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12259,7 +12259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak",
+        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12299,7 +12299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional",
+        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12333,7 +12333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Keterampilan mediasi tokoh masyarakat dalam mengelola agenda pertemuan warga",
+        "teks": "Keterampilan mediasi tokoh masyarakat dalam mengelola agenda pertemuan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12659,7 +12659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap prosedur pengamanan aset dan barang milik instansi pemerintah",
+        "teks": "Kepatuhan terhadap prosedur pengamanan aset dan barang milik instansi pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12745,7 +12745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah",
+        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12767,7 +12767,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan",
+        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12819,7 +12819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan",
+        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12847,7 +12847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12939,7 +12939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13071,7 +13071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota",
+        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -13105,7 +13105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota",
+        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -13419,7 +13419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13453,7 +13453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor",
+        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13499,7 +13499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota",
+        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13567,7 +13567,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -13653,7 +13653,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa",
+        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13687,7 +13687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -13773,7 +13773,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi",
+        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14139,7 +14139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil",
+        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14179,7 +14179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum",
+        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14265,7 +14265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional",
+        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14287,7 +14287,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan",
+        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14345,7 +14345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjaga hubungan baik antarpeserta musyawarah agar tidak terjadi perselisihan pribadi",
+        "teks": "Menjaga hubungan baik antarpeserta musyawarah agar tidak terjadi perselisihan pribadi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -14625,7 +14625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi",
+        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14665,7 +14665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak",
+        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14699,7 +14699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor",
+        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -14791,7 +14791,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan pegawai terhadap surat edaran pimpinan mengenai aksi solidaritas sosial",
+        "teks": "Kepatuhan pegawai terhadap surat edaran pimpinan mengenai aksi solidaritas sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -14831,7 +14831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan",
+        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -14911,7 +14911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan",
+        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -14979,7 +14979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor",
+        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15013,7 +15013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian",
+        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15047,7 +15047,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melaporkan penawaran diskon tersebut kepada bagian umum tanpa menolak penggunaannya",
+        "teks": "Melaporkan penawaran diskon tersebut kepada bagian umum tanpa menolak penggunaannya demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15151,7 +15151,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah",
+        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -15185,7 +15185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengukur tingkat ketahanan fisik peserta sebelum menerima surat pengangkatan tetap",
+        "teks": "Mengukur tingkat ketahanan fisik peserta sebelum menerima surat pengangkatan tetap demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15231,7 +15231,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial",
+        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -15265,7 +15265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memperluas portofolio pengembangan sistem informasi geografis berbasis web terbuka",
+        "teks": "Memperluas portofolio pengembangan sistem informasi geografis berbasis web terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15299,7 +15299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas",
+        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15333,7 +15333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional",
+        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15379,7 +15379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan",
+        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15425,7 +15425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara",
+        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15459,7 +15459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Sistem negara federasi dengan pembagian kedaulatan penuh antara pusat dan negara bagian",
+        "teks": "Sistem negara federasi dengan pembagian kedaulatan penuh antara pusat dan negara bagian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15493,7 +15493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan",
+        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15807,7 +15807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar",
+        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -15847,7 +15847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Strategi pengelola koperasi dalam menyediakan variasi barang konsumsi bagi anggota",
+        "teks": "Strategi pengelola koperasi dalam menyediakan variasi barang konsumsi bagi anggota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15899,7 +15899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri",
+        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15933,7 +15933,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15967,7 +15967,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -16013,7 +16013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16065,7 +16065,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keterampilan petugas dalam melacak nomor kontak pemohon pada berkas pendaftaran",
+        "teks": "Keterampilan petugas dalam melacak nomor kontak pemohon pada berkas pendaftaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16093,7 +16093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama",
+        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16185,7 +16185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi",
+        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16311,7 +16311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memenuhi syarat kelulusan administratif kurikulum pendidikan dasar kepegawaian",
+        "teks": "Memenuhi syarat kelulusan administratif kurikulum pendidikan dasar kepegawaian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -16339,7 +16339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meningkatkan jumlah pengunjung perpustakaan keliling milik pemerintah daerah",
+        "teks": "Meningkatkan jumlah pengunjung perpustakaan keliling milik pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16431,7 +16431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memperluas portofolio pengembangan sistem informasi geografis berbasis web terbuka",
+        "teks": "Memperluas portofolio pengembangan sistem informasi geografis berbasis web terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -16453,7 +16453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering",
+        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -16607,7 +16607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum",
+        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16711,7 +16711,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepribadian bangsa yang membedakan karakter Indonesia dengan bangsa lain di dunia",
+        "teks": "Kepribadian bangsa yang membedakan karakter Indonesia dengan bangsa lain di dunia demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -16745,7 +16745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Cita-cita pembangunan jangka panjang yang tercantum dalam dokumen rencana pemerintah",
+        "teks": "Cita-cita pembangunan jangka panjang yang tercantum dalam dokumen rencana pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17099,7 +17099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17185,7 +17185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana",
+        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17207,7 +17207,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan kepedulian sosial pegawai terhadap kondisi hunian warga lanjut usia",
+        "teks": "Peningkatan kepedulian sosial pegawai terhadap kondisi hunian warga lanjut usia demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17287,7 +17287,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa",
+        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17333,7 +17333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menghemat anggaran pemeliharaan rutin kendaraan operasional milik instansi",
+        "teks": "Upaya menghemat anggaran pemeliharaan rutin kendaraan operasional milik instansi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -17545,7 +17545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membangun jejaring kerja sama antar-komunitas pendidikan nonformal di tingkat kota",
+        "teks": "Membangun jejaring kerja sama antar-komunitas pendidikan nonformal di tingkat kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17585,7 +17585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat",
+        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17625,7 +17625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17665,7 +17665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Peningkatan wawasan generasi muda mengenai perkembangan sistem tata negara modern",
+        "teks": "Peningkatan wawasan generasi muda mengenai perkembangan sistem tata negara modern demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17739,7 +17739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama",
+        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17791,7 +17791,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -17807,7 +17807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Setiap warga negara berhak atas kebebasan berserikat, berkumpul, dan berpendapat damai",
+        "teks": "Setiap warga negara berhak atas kebebasan berserikat, berkumpul, dan berpendapat damai demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17847,7 +17847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Harmonisasi prosedur penimbangan muatan truk di perbatasan jalan lintas provinsi",
+        "teks": "Harmonisasi prosedur penimbangan muatan truk di perbatasan jalan lintas provinsi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17939,7 +17939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18219,7 +18219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan daya saing harga produk kerajinan tangan di pasar ekspor regional",
+        "teks": "Peningkatan daya saing harga produk kerajinan tangan di pasar ekspor regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18253,7 +18253,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana",
+        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18339,7 +18339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak",
+        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18379,7 +18379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18425,7 +18425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi",
+        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18471,7 +18471,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung",
+        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -18545,7 +18545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha",
+        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18591,7 +18591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta bagian keuangan memperbaiki pos pencatatan agar selisih anggaran tertutup",
+        "teks": "Meminta bagian keuangan memperbaiki pos pencatatan agar selisih anggaran tertutup sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -18659,7 +18659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunda pengunggahan laporan hingga mendapat persetujuan tertulis dari bagian hukum",
+        "teks": "Menunda pengunggahan laporan hingga mendapat persetujuan tertulis dari bagian hukum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18773,7 +18773,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah",
+        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18927,7 +18927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 31 ayat (1) dan Pasal 32 ayat (1) tentang hak pendidikan dan pemajuan budaya",
+        "teks": "Pasal 31 ayat (1) dan Pasal 32 ayat (1) tentang hak pendidikan dan pemajuan budaya demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -18967,7 +18967,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19053,7 +19053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 22 ayat (1) UUD 1945 tentang penetapan peraturan pemerintah pengganti undang-undang",
+        "teks": "Pasal 22 ayat (1) UUD 1945 tentang penetapan peraturan pemerintah pengganti undang-undang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19093,7 +19093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA",
+        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19145,7 +19145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi",
+        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19453,7 +19453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal",
+        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19487,7 +19487,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah",
+        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -19567,7 +19567,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kehati-hatian menghadapi perbedaan sistem hukum kekayaan intelektual internasional",
+        "teks": "Kehati-hatian menghadapi perbedaan sistem hukum kekayaan intelektual internasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19625,7 +19625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana",
+        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19733,7 +19733,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghadiri sebentar lalu melaporkan isi pertemuan secara lisan kepada atasan langsung",
+        "teks": "Menghadiri sebentar lalu melaporkan isi pertemuan secara lisan kepada atasan langsung demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19767,7 +19767,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran",
+        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19813,7 +19813,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20065,7 +20065,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memudahkan proses pencatatan transaksi keuangan harian bagi pelaku usaha perhotelan",
+        "teks": "Memudahkan proses pencatatan transaksi keuangan harian bagi pelaku usaha perhotelan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20093,7 +20093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membantu sekolah dasar sekitar dalam meningkatkan angka partisipasi belajar siswa",
+        "teks": "Membantu sekolah dasar sekitar dalam meningkatkan angka partisipasi belajar siswa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20127,7 +20127,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Harmonisasi prosedur penimbangan muatan truk di perbatasan jalan lintas provinsi",
+        "teks": "Harmonisasi prosedur penimbangan muatan truk di perbatasan jalan lintas provinsi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20213,7 +20213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban warga mengikuti pendidikan dasar nasional",
+        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban warga mengikuti pendidikan dasar nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20265,7 +20265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal",
+        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20327,7 +20327,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan indeks kesehatan masyarakat",
+        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan indeks kesehatan masyarakat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20619,7 +20619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pelestarian teknik pewarnaan alami kain tradisional agar tetap diminati kolektor",
+        "teks": "Pelestarian teknik pewarnaan alami kain tradisional agar tetap diminati kolektor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -20647,7 +20647,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar",
+        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20711,7 +20711,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan",
+        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -20751,7 +20751,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah",
+        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -20813,7 +20813,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat",
+        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20951,7 +20951,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat",
+        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -20973,7 +20973,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kebiasaan hidup sederhana yang diterapkan pejabat di lingkungan tempat tinggalnya",
+        "teks": "Kebiasaan hidup sederhana yang diterapkan pejabat di lingkungan tempat tinggalnya demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21105,7 +21105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meningkatkan kenyamanan transaksi belanja wisatawan nusantara selama masa liburan",
+        "teks": "Meningkatkan kenyamanan transaksi belanja wisatawan nusantara selama masa liburan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21173,7 +21173,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya",
+        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -21247,7 +21247,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi",
+        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21345,7 +21345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -21379,7 +21379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan indeks kesehatan masyarakat",
+        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan indeks kesehatan masyarakat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21431,7 +21431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat",
+        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -21471,7 +21471,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -21539,7 +21539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan",
+        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21825,7 +21825,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21859,7 +21859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal",
+        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21893,7 +21893,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu",
+        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -21945,7 +21945,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21973,7 +21973,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan",
+        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -22047,7 +22047,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -22099,7 +22099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22179,7 +22179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon",
+        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22207,7 +22207,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun",
+        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -22299,7 +22299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencapai target kepatuhan administrasi kepabeanan dan karantina tahun berjalan",
+        "teks": "Mencapai target kepatuhan administrasi kepabeanan dan karantina tahun berjalan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22333,7 +22333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas",
+        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22391,7 +22391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meningkatkan jumlah pengunjung perpustakaan keliling milik pemerintah daerah",
+        "teks": "Meningkatkan jumlah pengunjung perpustakaan keliling milik pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -22431,7 +22431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring",
+        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -22465,7 +22465,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membantu sekolah dasar sekitar dalam meningkatkan angka partisipasi belajar siswa",
+        "teks": "Membantu sekolah dasar sekitar dalam meningkatkan angka partisipasi belajar siswa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22487,7 +22487,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional",
+        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22527,7 +22527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar",
+        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22591,7 +22591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Perlindungan terhadap petani lokal agar produknya lebih diminati pasar kabupaten",
+        "teks": "Perlindungan terhadap petani lokal agar produknya lebih diminati pasar kabupaten sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -22705,7 +22705,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan",
+        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22739,7 +22739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga",
+        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -23065,7 +23065,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keseimbangan pembangunan antara ruang terbuka hijau dan sektor pertanian rakyat",
+        "teks": "Keseimbangan pembangunan antara ruang terbuka hijau dan sektor pertanian rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23093,7 +23093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional",
+        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23173,7 +23173,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23219,7 +23219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan",
+        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23271,7 +23271,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23287,7 +23287,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik",
+        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -23385,7 +23385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23471,7 +23471,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Dukungan terhadap penerapan sistem nomor antrean elektronik di loket pelayanan",
+        "teks": "Dukungan terhadap penerapan sistem nomor antrean elektronik di loket pelayanan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -23493,7 +23493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial",
+        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23591,7 +23591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan",
+        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23631,7 +23631,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit",
+        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23671,7 +23671,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23699,7 +23699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal",
+        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -23727,7 +23727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan",
+        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -23831,7 +23831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 28G ayat (1) UUD 1945 mengenai perlindungan diri pribadi dan rasa aman warga",
+        "teks": "Pasal 28G ayat (1) UUD 1945 mengenai perlindungan diri pribadi dan rasa aman warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23853,7 +23853,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional",
+        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24219,7 +24219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu",
+        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -24271,7 +24271,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat",
+        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -24327,7 +24327,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kemampuan teknis aparatur dalam merancang jadwal perjalanan dinas antar-pulau",
+        "teks": "Kemampuan teknis aparatur dalam merancang jadwal perjalanan dinas antar-pulau demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24379,7 +24379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan",
+        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24419,7 +24419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah",
+        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -24447,7 +24447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama",
+        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24511,7 +24511,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum",
+        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -24545,7 +24545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga",
+        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24585,7 +24585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga",
+        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24619,7 +24619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Dukungan terhadap penerapan sistem nomor antrean elektronik di loket pelayanan",
+        "teks": "Dukungan terhadap penerapan sistem nomor antrean elektronik di loket pelayanan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -24659,7 +24659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghadiri pertemuan tersebut asalkan biaya makan dibayar masing-masing secara terpisah",
+        "teks": "Menghadiri pertemuan tersebut asalkan biaya makan dibayar masing-masing secara terpisah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24687,7 +24687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memperluas jaringan pemasaran produk kerajinan lokal ke luar wilayah kabupaten",
+        "teks": "Memperluas jaringan pemasaran produk kerajinan lokal ke luar wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24751,7 +24751,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan",
+        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -24865,7 +24865,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal",
+        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24887,7 +24887,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan",
+        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24927,7 +24927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan",
+        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25025,7 +25025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Negara Indonesia adalah negara kesatuan yang berbentuk republik demokratis berdaulat",
+        "teks": "Negara Indonesia adalah negara kesatuan yang berbentuk republik demokratis berdaulat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25059,7 +25059,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi",
+        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -25105,7 +25105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan",
+        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -25139,7 +25139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25413,7 +25413,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal",
+        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25447,7 +25447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan",
+        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25505,7 +25505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat",
+        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25533,7 +25533,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25579,7 +25579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional",
+        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25619,7 +25619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keterampilan mediasi tokoh masyarakat dalam mengelola agenda pertemuan warga",
+        "teks": "Keterampilan mediasi tokoh masyarakat dalam mengelola agenda pertemuan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25665,7 +25665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghadiri pertemuan tersebut asalkan biaya makan dibayar masing-masing secara terpisah",
+        "teks": "Menghadiri pertemuan tersebut asalkan biaya makan dibayar masing-masing secara terpisah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25791,7 +25791,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum",
+        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -25825,7 +25825,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghadiri sebentar lalu melaporkan isi pertemuan secara lisan kepada atasan langsung",
+        "teks": "Menghadiri sebentar lalu melaporkan isi pertemuan secara lisan kepada atasan langsung demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25893,7 +25893,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengukur tingkat ketahanan fisik peserta sebelum menerima surat pengangkatan tetap",
+        "teks": "Mengukur tingkat ketahanan fisik peserta sebelum menerima surat pengangkatan tetap demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25945,7 +25945,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pelaksanaan fungsi pengawasan aktivitas organisasi kemahasiswaan di tingkat daerah",
+        "teks": "Pelaksanaan fungsi pengawasan aktivitas organisasi kemahasiswaan di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25967,7 +25967,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam",
+        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26065,7 +26065,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal",
+        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26151,7 +26151,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri",
+        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -26173,7 +26173,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum",
+        "teks": "Pasal 34 ayat (3) UUD 1945 mengenai tanggung jawab penyediaan fasilitas layanan umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26271,7 +26271,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota",
+        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -26287,7 +26287,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26327,7 +26327,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan",
+        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26613,7 +26613,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26647,7 +26647,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak",
+        "teks": "Keinginan membangun citra positif pelayanan aparatur di hadapan masyarakat terdampak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26745,7 +26745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Peningkatan kepedulian sosial pegawai terhadap kondisi hunian warga lanjut usia",
+        "teks": "Peningkatan kepedulian sosial pegawai terhadap kondisi hunian warga lanjut usia demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26859,7 +26859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung",
+        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -26985,7 +26985,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian",
+        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27071,7 +27071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan penilaian khusus adiknya kepada rekan di sebelah tanpa mundur dari tim",
+        "teks": "Menyerahkan penilaian khusus adiknya kepada rekan di sebelah tanpa mundur dari tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -27145,7 +27145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring",
+        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27219,7 +27219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan",
+        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27299,7 +27299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemenuhan agenda kegiatan penyuluhan lintas instansi di sekolah daerah perbatasan",
+        "teks": "Pemenuhan agenda kegiatan penyuluhan lintas instansi di sekolah daerah perbatasan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27345,7 +27345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah",
+        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27385,7 +27385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA",
+        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27505,7 +27505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga",
+        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27527,7 +27527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan",
+        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27819,7 +27819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat",
+        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27847,7 +27847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri",
+        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27905,7 +27905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27939,7 +27939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penerapan efisiensi belanja operasional tanpa mengurangi kualitas layanan publik",
+        "teks": "Penerapan efisiensi belanja operasional tanpa mengurangi kualitas layanan publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27991,7 +27991,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara",
+        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -28007,7 +28007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi tingkat kesalahan input berkas oleh petugas verifikasi administrasi",
+        "teks": "Mengurangi tingkat kesalahan input berkas oleh petugas verifikasi administrasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28053,7 +28053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda pengunggahan laporan hingga mendapat persetujuan tertulis dari bagian hukum",
+        "teks": "Menunda pengunggahan laporan hingga mendapat persetujuan tertulis dari bagian hukum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28087,7 +28087,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -28127,7 +28127,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -28185,7 +28185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung",
+        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -28259,7 +28259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan",
+        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -28311,7 +28311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -28345,7 +28345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28367,7 +28367,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi beban anggaran pengadaan perangkat lunak pemetaan di dinas terkait",
+        "teks": "Mengurangi beban anggaran pengadaan perangkat lunak pemetaan di dinas terkait demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28407,7 +28407,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional",
+        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28493,7 +28493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam",
+        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28579,7 +28579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal",
+        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28607,7 +28607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial",
+        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28647,7 +28647,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 28C ayat (1) UUD 1945 tentang hak warga memperoleh manfaat ilmu pengetahuan",
+        "teks": "Pasal 28C ayat (1) UUD 1945 tentang hak warga memperoleh manfaat ilmu pengetahuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28705,7 +28705,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial",
+        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28733,7 +28733,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 28G ayat (1) UUD 1945 mengenai perlindungan diri pribadi dan rasa aman warga",
+        "teks": "Pasal 28G ayat (1) UUD 1945 mengenai perlindungan diri pribadi dan rasa aman warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29071,7 +29071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Publikasi program kerja kemasyarakatan instansi melalui kanal informasi resmi",
+        "teks": "Publikasi program kerja kemasyarakatan instansi melalui kanal informasi resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -29093,7 +29093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor",
+        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -29145,7 +29145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya menjaga kesegaran pasokan buah untuk kebutuhan rapat rutin perkantoran",
+        "teks": "Upaya menjaga kesegaran pasokan buah untuk kebutuhan rapat rutin perkantoran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29167,7 +29167,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara",
+        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29231,7 +29231,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -29391,7 +29391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu",
+        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -29499,7 +29499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya",
+        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -29539,7 +29539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan wawasan generasi muda mengenai perkembangan sistem tata negara modern",
+        "teks": "Peningkatan wawasan generasi muda mengenai perkembangan sistem tata negara modern demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29699,7 +29699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah",
+        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29739,7 +29739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Sila Pertama semata yang mewajibkan setiap penduduk memeluk agama dan kepercayaan",
+        "teks": "Sila Pertama semata yang mewajibkan setiap penduduk memeluk agama dan kepercayaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29779,7 +29779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan",
+        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29807,7 +29807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak",
+        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29847,7 +29847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri",
+        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29887,7 +29887,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan",
+        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29945,7 +29945,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -30265,7 +30265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemenuhan agenda rutin tahunan instansi dalam memeriahkan hari besar nasional",
+        "teks": "Pemenuhan agenda rutin tahunan instansi dalam memeriahkan hari besar nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -30293,7 +30293,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah",
+        "teks": "Peningkatan kualitas pengelolaan konten media sosial resmi pemerintah daerah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -30385,7 +30385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Strategi pengelola koperasi dalam menyediakan variasi barang konsumsi bagi anggota",
+        "teks": "Strategi pengelola koperasi dalam menyediakan variasi barang konsumsi bagi anggota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -30413,7 +30413,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menjaga kesegaran pasokan buah untuk kebutuhan rapat rutin perkantoran",
+        "teks": "Upaya menjaga kesegaran pasokan buah untuk kebutuhan rapat rutin perkantoran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -30453,7 +30453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba",
+        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -30527,7 +30527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan",
+        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -30619,7 +30619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menghemat anggaran pemeliharaan rutin kendaraan operasional milik instansi",
+        "teks": "Upaya menghemat anggaran pemeliharaan rutin kendaraan operasional milik instansi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -30665,7 +30665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu",
+        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -30745,7 +30745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyeragamkan tata cara pelaksanaan upacara resmi di seluruh lingkungan instansi daerah",
+        "teks": "Menyeragamkan tata cara pelaksanaan upacara resmi di seluruh lingkungan instansi daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -30807,7 +30807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas",
+        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -30985,7 +30985,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Sistem negara federasi dengan pembagian kedaulatan penuh antara pusat dan negara bagian",
+        "teks": "Sistem negara federasi dengan pembagian kedaulatan penuh antara pusat dan negara bagian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31007,7 +31007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban warga mengikuti pendidikan dasar nasional",
+        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban warga mengikuti pendidikan dasar nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31413,7 +31413,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota",
+        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31493,7 +31493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengoptimalkan peluang pertukaran pengetahuan teknologi layanan antarnegara",
+        "teks": "Mengoptimalkan peluang pertukaran pengetahuan teknologi layanan antarnegara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31607,7 +31607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor",
+        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -31659,7 +31659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyampaikan temuan secara lisan kepada pimpinan tanpa melampirkan bukti tertulis",
+        "teks": "Menyampaikan temuan secara lisan kepada pimpinan tanpa melampirkan bukti tertulis demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31733,7 +31733,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap format penyusunan laporan pertanggungjawaban keuangan daerah",
+        "teks": "Kepatuhan terhadap format penyusunan laporan pertanggungjawaban keuangan daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31785,7 +31785,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyampaikan temuan secara lisan kepada pimpinan tanpa melampirkan bukti tertulis",
+        "teks": "Menyampaikan temuan secara lisan kepada pimpinan tanpa melampirkan bukti tertulis demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31847,7 +31847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -31893,7 +31893,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Perlindungan nama baik instansi penyelenggara pemerintahan daerah dari berita bohong",
+        "teks": "Perlindungan nama baik instansi penyelenggara pemerintahan daerah dari berita bohong demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32025,7 +32025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah",
+        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32105,7 +32105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah",
+        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32173,7 +32173,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan",
+        "teks": "Menerapkan prosedur rapat demokratis sesuai tata tertib organisasi kemasyarakatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32271,7 +32271,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial",
+        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -32351,7 +32351,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjaga hubungan baik antarpeserta musyawarah agar tidak terjadi perselisihan pribadi",
+        "teks": "Menjaga hubungan baik antarpeserta musyawarah agar tidak terjadi perselisihan pribadi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -32607,7 +32607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan",
+        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32671,7 +32671,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara",
+        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -32727,7 +32727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penguatan kerja sama antara pemerintah daerah dan organisasi kepemudaan setempat",
+        "teks": "Penguatan kerja sama antara pemerintah daerah dan organisasi kepemudaan setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32887,7 +32887,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga",
+        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32933,7 +32933,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi",
+        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33087,7 +33087,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33145,7 +33145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Peningkatan wawasan generasi muda mengenai perkembangan sistem tata negara modern",
+        "teks": "Peningkatan wawasan generasi muda mengenai perkembangan sistem tata negara modern demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33311,7 +33311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan",
+        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -33351,7 +33351,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional",
+        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -33391,7 +33391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -33471,7 +33471,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Setiap warga negara berhak atas kebebasan berserikat, berkumpul, dan berpendapat damai",
+        "teks": "Setiap warga negara berhak atas kebebasan berserikat, berkumpul, dan berpendapat damai demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -33499,7 +33499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33545,7 +33545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 22 ayat (1) UUD 1945 tentang penetapan peraturan pemerintah pengganti undang-undang",
+        "teks": "Pasal 22 ayat (1) UUD 1945 tentang penetapan peraturan pemerintah pengganti undang-undang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33807,7 +33807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33859,7 +33859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar",
+        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33905,7 +33905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan",
+        "teks": "Mempertahankan loyalitas pelanggan tetap pasar tradisional selama masa kelangkaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33939,7 +33939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33985,7 +33985,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar",
+        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -34105,7 +34105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyampaikan temuan secara lisan kepada pimpinan tanpa melampirkan bukti tertulis",
+        "teks": "Menyampaikan temuan secara lisan kepada pimpinan tanpa melampirkan bukti tertulis demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34247,7 +34247,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda pertemuan hingga pengumuman pemenang lelang resmi ditayangkan di portal",
+        "teks": "Menunda pertemuan hingga pengumuman pemenang lelang resmi ditayangkan di portal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34327,7 +34327,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah",
+        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34391,7 +34391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif",
+        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -34407,7 +34407,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas",
+        "teks": "Pelatihan keterampilan berdiskusi dan menyampaikan pendapat secara tertib di kelas demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34533,7 +34533,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA",
+        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34585,7 +34585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden",
+        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34671,7 +34671,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil",
+        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -34751,7 +34751,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -35013,7 +35013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35065,7 +35065,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -35105,7 +35105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pelestarian teknik pewarnaan alami kain tradisional agar tetap diminati kolektor",
+        "teks": "Pelestarian teknik pewarnaan alami kain tradisional agar tetap diminati kolektor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -35139,7 +35139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35185,7 +35185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional",
+        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35207,7 +35207,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah",
+        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35265,7 +35265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta ketua tim untuk tidak memberitahukan hubungan keluarga kepada anggota lain",
+        "teks": "Meminta ketua tim untuk tidak memberitahukan hubungan keluarga kepada anggota lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35311,7 +35311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa",
+        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -35333,7 +35333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik",
+        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -35379,7 +35379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum",
+        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35431,7 +35431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan",
+        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -35505,7 +35505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif",
+        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35579,7 +35579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya",
+        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -35653,7 +35653,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat",
+        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35699,7 +35699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memperluas portofolio pengembangan sistem informasi geografis berbasis web terbuka",
+        "teks": "Memperluas portofolio pengembangan sistem informasi geografis berbasis web terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35727,7 +35727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi",
+        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35819,7 +35819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri",
+        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35847,7 +35847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan",
+        "teks": "Sila Ketiga yang menempatkan persatuan wilayah kampung di atas kepentingan golongan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35893,7 +35893,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil",
+        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35945,7 +35945,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak",
+        "teks": "Pasal 27 ayat (2) UUD 1945 tentang hak warga negara atas pekerjaan dan penghidupan layak demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36207,7 +36207,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Netralitas aparatur negara dalam mengawal seluruh tahapan pemilihan umum daerah",
+        "teks": "Netralitas aparatur negara dalam mengawal seluruh tahapan pemilihan umum daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36265,7 +36265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor",
+        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36299,7 +36299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal",
+        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36345,7 +36345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pelestarian teknik pewarnaan alami kain tradisional agar tetap diminati kolektor",
+        "teks": "Pelestarian teknik pewarnaan alami kain tradisional agar tetap diminati kolektor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -36367,7 +36367,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah",
+        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36425,7 +36425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara",
+        "teks": "Mematuhi seluruh tata tertib penjurian yang ditetapkan oleh panitia penyelenggara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36533,7 +36533,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengikuti arahan pimpinan dengan membuat catatan pribadi sebagai arsip pengaman diri",
+        "teks": "Mengikuti arahan pimpinan dengan membuat catatan pribadi sebagai arsip pengaman diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36591,7 +36591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga",
+        "teks": "Kenyamanan berkendara jarak jauh dengan menggunakan kendaraan milik pribadi keluarga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -36607,7 +36607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon",
+        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36659,7 +36659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -36727,7 +36727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meningkatkan kenyamanan transaksi belanja wisatawan nusantara selama masa liburan",
+        "teks": "Meningkatkan kenyamanan transaksi belanja wisatawan nusantara selama masa liburan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36791,7 +36791,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah",
+        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -36813,7 +36813,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Peningkatan hasil tangkapan ikan nelayan tradisional untuk memenuhi permintaan pasar",
+        "teks": "Peningkatan hasil tangkapan ikan nelayan tradisional untuk memenuhi permintaan pasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36859,7 +36859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial",
+        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36905,7 +36905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyeragamkan tata cara pelaksanaan upacara resmi di seluruh lingkungan instansi daerah",
+        "teks": "Menyeragamkan tata cara pelaksanaan upacara resmi di seluruh lingkungan instansi daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36979,7 +36979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara",
+        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -37071,7 +37071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain",
+        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -37151,7 +37151,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden",
+        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -37493,7 +37493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Strategi pengelola koperasi dalam menyediakan variasi barang konsumsi bagi anggota",
+        "teks": "Strategi pengelola koperasi dalam menyediakan variasi barang konsumsi bagi anggota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -37527,7 +37527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan",
+        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -37585,7 +37585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik",
+        "teks": "Kepatuhan terhadap imbauan aparat keamanan mengenai ketertiban ruang publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -37785,7 +37785,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung",
+        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -38019,7 +38019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memudahkan proses pencatatan transaksi keuangan harian bagi pelaku usaha perhotelan",
+        "teks": "Memudahkan proses pencatatan transaksi keuangan harian bagi pelaku usaha perhotelan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38191,7 +38191,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah",
+        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -38305,7 +38305,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan",
+        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -38345,7 +38345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar",
+        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38607,7 +38607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38687,7 +38687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyesuaikan tata letak papan informasi kantor dengan pedoman kementerian",
+        "teks": "Menyesuaikan tata letak papan informasi kantor dengan pedoman kementerian agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -38727,7 +38727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keinginan menjaga iklim investasi daerah tetap kondusif selama tahun politik",
+        "teks": "Keinginan menjaga iklim investasi daerah tetap kondusif selama tahun politik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38779,7 +38779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional",
+        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38831,7 +38831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Netralitas aparatur negara dalam mengawal seluruh tahapan pemilihan umum daerah",
+        "teks": "Netralitas aparatur negara dalam mengawal seluruh tahapan pemilihan umum daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -38871,7 +38871,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -38899,7 +38899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keaktifan pegawai dalam menyampaikan pendapat kritis selama forum evaluasi rutin",
+        "teks": "Keaktifan pegawai dalam menyampaikan pendapat kritis selama forum evaluasi rutin demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38939,7 +38939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -38991,7 +38991,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum",
+        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -39145,7 +39145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghindari sanksi disiplin berat akibat kelalaian pemeriksaan dokumen karantina",
+        "teks": "Menghindari sanksi disiplin berat akibat kelalaian pemeriksaan dokumen karantina demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39167,7 +39167,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah",
+        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39213,7 +39213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Peningkatan hasil tangkapan ikan nelayan tradisional untuk memenuhi permintaan pasar",
+        "teks": "Peningkatan hasil tangkapan ikan nelayan tradisional untuk memenuhi permintaan pasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39351,7 +39351,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -39367,7 +39367,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39425,7 +39425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 28G ayat (1) UUD 1945 mengenai perlindungan diri pribadi dan rasa aman warga",
+        "teks": "Pasal 28G ayat (1) UUD 1945 mengenai perlindungan diri pribadi dan rasa aman warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39533,7 +39533,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga",
+        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39847,7 +39847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota",
+        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39905,7 +39905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat",
+        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39927,7 +39927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peningkatan potensi pendapatan daerah melalui pengembangan sektor ekonomi kreatif",
+        "teks": "Peningkatan potensi pendapatan daerah melalui pengembangan sektor ekonomi kreatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39967,7 +39967,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah",
+        "teks": "Kepatuhan peneliti terhadap perjanjian kerja sama riset dengan lembaga pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40013,7 +40013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor",
+        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -40053,7 +40053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran",
+        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40133,7 +40133,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda pengunggahan laporan hingga mendapat persetujuan tertulis dari bagian hukum",
+        "teks": "Menunda pengunggahan laporan hingga mendapat persetujuan tertulis dari bagian hukum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40185,7 +40185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kehati-hatian panitia menghadapi jadwal pemeriksaan rutin dari badan pemeriksa",
+        "teks": "Kehati-hatian panitia menghadapi jadwal pemeriksaan rutin dari badan pemeriksa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40231,7 +40231,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon",
+        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -40253,7 +40253,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta bagian keuangan memperbaiki pos pencatatan agar selisih anggaran tertutup",
+        "teks": "Meminta bagian keuangan memperbaiki pos pencatatan agar selisih anggaran tertutup sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -40299,7 +40299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah",
+        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40345,7 +40345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pelaksanaan fungsi pengawasan aktivitas organisasi kemahasiswaan di tingkat daerah",
+        "teks": "Pelaksanaan fungsi pengawasan aktivitas organisasi kemahasiswaan di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40419,7 +40419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring",
+        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40493,7 +40493,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah",
+        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40527,7 +40527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan",
+        "teks": "Pasal 33 ayat (4) UUD 1945 tentang prinsip demokrasi ekonomi yang berkelanjutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -40585,7 +40585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 31 ayat (1) dan Pasal 32 ayat (1) tentang hak pendidikan dan pemajuan budaya",
+        "teks": "Pasal 31 ayat (1) dan Pasal 32 ayat (1) tentang hak pendidikan dan pemajuan budaya agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -40665,7 +40665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota",
+        "teks": "Memperkuat solidaritas sosial kelompok relawan agar semakin dipercaya oleh warga kota sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -40699,7 +40699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional",
+        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40733,7 +40733,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan",
+        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41111,7 +41111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah",
+        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -41151,7 +41151,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional",
+        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -41219,7 +41219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal",
+        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41511,7 +41511,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kesiapsiagaan logistik pemerintah daerah dalam mendistribusikan bantuan bahan pangan",
+        "teks": "Kesiapsiagaan logistik pemerintah daerah dalam mendistribusikan bantuan bahan pangan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -41625,7 +41625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah",
+        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41653,7 +41653,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan",
+        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41705,7 +41705,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi",
+        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41733,7 +41733,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjaga hubungan baik antarpeserta musyawarah agar tidak terjadi perselisihan pribadi",
+        "teks": "Menjaga hubungan baik antarpeserta musyawarah agar tidak terjadi perselisihan pribadi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -41785,7 +41785,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 28E ayat (1) dan Pasal 29 ayat (2) mengenai kebebasan beragama dan beribadah",
+        "teks": "Pasal 28E ayat (1) dan Pasal 29 ayat (2) mengenai kebebasan beragama dan beribadah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -41865,7 +41865,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepribadian bangsa yang membedakan karakter Indonesia dengan bangsa lain di dunia",
+        "teks": "Kepribadian bangsa yang membedakan karakter Indonesia dengan bangsa lain di dunia demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41911,7 +41911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat",
+        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -41927,7 +41927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain",
+        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42213,7 +42213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42265,7 +42265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara",
+        "teks": "Kepatuhan administratif terhadap prosedur pencatatan aset barang milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42333,7 +42333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Peningkatan daya saing harga produk kerajinan tangan di pasar ekspor regional",
+        "teks": "Peningkatan daya saing harga produk kerajinan tangan di pasar ekspor regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42431,7 +42431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat",
+        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -42465,7 +42465,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keterampilan petugas dalam melacak nomor kontak pemohon pada berkas pendaftaran",
+        "teks": "Keterampilan petugas dalam melacak nomor kontak pemohon pada berkas pendaftaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42499,7 +42499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta ketua tim untuk tidak memberitahukan hubungan keluarga kepada anggota lain",
+        "teks": "Meminta ketua tim untuk tidak memberitahukan hubungan keluarga kepada anggota lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42533,7 +42533,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan",
+        "teks": "Kepatuhan terhadap standar format penyajian laporan capaian kinerja triwulanan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42567,7 +42567,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42659,7 +42659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran",
+        "teks": "Membeli barang kebutuhan kantor menggunakan potongan harga tersebut untuk hemat anggaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42687,7 +42687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah",
+        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42739,7 +42739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam",
+        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42779,7 +42779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam",
+        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42967,7 +42967,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama",
+        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43031,7 +43031,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi",
+        "teks": "Pasal 26 ayat (1) UUD 1945 mengenai ketentuan warga negara Indonesia dan penduduk resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -43071,7 +43071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga",
+        "teks": "Mencatat seluruh perbedaan pendapat peserta ke dalam risalah resmi rapat warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -43087,7 +43087,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional",
+        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43145,7 +43145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepribadian bangsa yang membedakan karakter Indonesia dengan bangsa lain di dunia",
+        "teks": "Kepribadian bangsa yang membedakan karakter Indonesia dengan bangsa lain di dunia demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43413,7 +43413,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu",
+        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -43447,7 +43447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan",
+        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43499,7 +43499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu",
+        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -43545,7 +43545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor",
+        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43573,7 +43573,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan",
+        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43613,7 +43613,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan",
+        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43653,7 +43653,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun",
+        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -43693,7 +43693,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap prosedur pengamanan aset dan barang milik instansi pemerintah",
+        "teks": "Kepatuhan terhadap prosedur pengamanan aset dan barang milik instansi pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43733,7 +43733,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menghemat anggaran pemeliharaan rutin kendaraan operasional milik instansi",
+        "teks": "Upaya menghemat anggaran pemeliharaan rutin kendaraan operasional milik instansi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -43785,7 +43785,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor",
+        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43807,7 +43807,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha",
+        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43853,7 +43853,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian",
+        "teks": "Upaya menjaga kelancaran penyelesaian berkas layanan masyarakat di loket harian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43905,7 +43905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan",
+        "teks": "Kemampuan manajerial pegawai dalam mengelola posko pengungsian skala kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43933,7 +43933,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44013,7 +44013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit",
+        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44145,7 +44145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -44167,7 +44167,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 30 ayat (1) UUD 1945 mengenai hak dan kewajiban ikut serta dalam usaha pertahanan",
+        "teks": "Pasal 30 ayat (1) UUD 1945 mengenai hak dan kewajiban ikut serta dalam usaha pertahanan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44219,7 +44219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Cita-cita pembangunan jangka panjang yang tercantum dalam dokumen rencana pemerintah",
+        "teks": "Cita-cita pembangunan jangka panjang yang tercantum dalam dokumen rencana pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44333,7 +44333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara",
+        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44631,7 +44631,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor",
+        "teks": "Kerja sama distribusi logistik berbiaya rendah antara pemasok dan pengurus kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -44647,7 +44647,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal",
+        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44699,7 +44699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor",
+        "teks": "Penyesuaian spesifikasi teknis barang agar sesuai dengan kebiasaan pegawai kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -44739,7 +44739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi indikator penilaian kepatuhan standar pelayanan publik instansi daerah",
+        "teks": "Memenuhi indikator penilaian kepatuhan standar pelayanan publik instansi daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44773,7 +44773,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana",
+        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44899,7 +44899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan",
+        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -44927,7 +44927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44979,7 +44979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor",
+        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45007,7 +45007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan",
+        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -45047,7 +45047,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu",
+        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -45111,7 +45111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah",
+        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -45191,7 +45191,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memperluas jaringan pemasaran produk kerajinan lokal ke luar wilayah kabupaten",
+        "teks": "Memperluas jaringan pemasaran produk kerajinan lokal ke luar wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -45259,7 +45259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah",
+        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45299,7 +45299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional",
+        "teks": "Peningkatan minat baca siswa terhadap buku referensi geografi dan sejarah nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45333,7 +45333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama",
+        "teks": "Sistem konfederasi wilayah otonom yang hanya terikat pada kerja sama pertahanan bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45391,7 +45391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -45419,7 +45419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi",
+        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -45465,7 +45465,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga",
+        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -45533,7 +45533,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan",
+        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45831,7 +45831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan",
+        "teks": "Kepatuhan terhadap imbauan dinas pertanian mengenai promosi komoditas unggulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -45911,7 +45911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi",
+        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -45939,7 +45939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi indikator penilaian kepatuhan standar pelayanan publik instansi daerah",
+        "teks": "Memenuhi indikator penilaian kepatuhan standar pelayanan publik instansi daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45979,7 +45979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan",
+        "teks": "Menerapkan manajemen pergudangan yang tertib menjelang hari besar keagamaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46111,7 +46111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung",
+        "teks": "Kepatuhan terhadap tata tertib pengunjung yang dipasang di pintu masuk gedung demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -46151,7 +46151,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap format penyusunan laporan pertanggungjawaban keuangan daerah",
+        "teks": "Kepatuhan terhadap format penyusunan laporan pertanggungjawaban keuangan daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -46253,7 +46253,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi",
+        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46327,7 +46327,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah",
+        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46379,7 +46379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat",
+        "teks": "Kepatuhan aparatur terhadap instruksi tugas kemanusiaan dari kepala daerah setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46567,7 +46567,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden",
+        "teks": "Pasal 20 ayat (2) UUD 1945 mengenai pembahasan rancangan undang-undang bersama Presiden demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46699,7 +46699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain",
+        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47025,7 +47025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Netralitas aparatur negara dalam mengawal seluruh tahapan pemilihan umum daerah",
+        "teks": "Netralitas aparatur negara dalam mengawal seluruh tahapan pemilihan umum daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47093,7 +47093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal",
+        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47145,7 +47145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah",
+        "teks": "Penerapan strategi komunikasi publik yang informatif bagi pengguna internet daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -47311,7 +47311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim",
+        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -47333,7 +47333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha",
+        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47367,7 +47367,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta bagian keuangan memperbaiki pos pencatatan agar selisih anggaran tertutup",
+        "teks": "Meminta bagian keuangan memperbaiki pos pencatatan agar selisih anggaran tertutup sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -47425,7 +47425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba",
+        "teks": "Tanggung jawab menyelesaikan target pekerjaan tim sebelum akhir pekan tiba demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47459,7 +47459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun",
+        "teks": "Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -47505,7 +47505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah",
+        "teks": "Kepatuhan nelayan terhadap batas zona penangkapan ikan yang ditetapkan pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47527,7 +47527,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meningkatkan jumlah pengunjung perpustakaan keliling milik pemerintah daerah",
+        "teks": "Meningkatkan jumlah pengunjung perpustakaan keliling milik pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47579,7 +47579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengukur tingkat ketahanan fisik peserta sebelum menerima surat pengangkatan tetap",
+        "teks": "Mengukur tingkat ketahanan fisik peserta sebelum menerima surat pengangkatan tetap demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47739,7 +47739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar",
+        "teks": "Kedaulatan berada di tangan rakyat dan dilaksanakan sepenuhnya menurut Undang-Undang Dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47773,7 +47773,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA",
+        "teks": "Pasal 14 ayat (1) UUD 1945 mengenai pemberian grasi dan rehabilitasi dengan pertimbangan MA demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47825,7 +47825,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar",
+        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47865,7 +47865,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional",
+        "teks": "Kewajiban pelajar sekolah menengah untuk menguasai minimal dua tarian tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47911,7 +47911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi",
+        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -47927,7 +47927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Cita-cita pembangunan jangka panjang yang tercantum dalam dokumen rencana pemerintah",
+        "teks": "Cita-cita pembangunan jangka panjang yang tercantum dalam dokumen rencana pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48311,7 +48311,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Penerapan efisiensi belanja operasional tanpa mengurangi kualitas layanan publik",
+        "teks": "Penerapan efisiensi belanja operasional tanpa mengurangi kualitas layanan publik demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -48345,7 +48345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan",
+        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -48407,7 +48407,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48471,7 +48471,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -48573,7 +48573,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat",
+        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -48607,7 +48607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda pertemuan hingga pengumuman pemenang lelang resmi ditayangkan di portal",
+        "teks": "Menunda pertemuan hingga pengumuman pemenang lelang resmi ditayangkan di portal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48665,7 +48665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama",
+        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48785,7 +48785,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah",
+        "teks": "Pengayaan materi pelajaran pendidikan kewarganegaraan untuk persiapan ujian sekolah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48859,7 +48859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Perlindungan nama baik instansi penyelenggara pemerintahan daerah dari berita bohong",
+        "teks": "Perlindungan nama baik instansi penyelenggara pemerintahan daerah dari berita bohong demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48905,7 +48905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit",
+        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48951,7 +48951,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial",
+        "teks": "Sila Kedua yang menekankan persamaan derajat manusia tanpa membedakan status sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -48979,7 +48979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49025,7 +49025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Harmonisasi prosedur penimbangan muatan truk di perbatasan jalan lintas provinsi",
+        "teks": "Harmonisasi prosedur penimbangan muatan truk di perbatasan jalan lintas provinsi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49053,7 +49053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban warga mengikuti pendidikan dasar nasional",
+        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban warga mengikuti pendidikan dasar nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49407,7 +49407,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyesuaikan tata letak papan informasi kantor dengan pedoman kementerian",
+        "teks": "Menyesuaikan tata letak papan informasi kantor dengan pedoman kementerian agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -49505,7 +49505,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal",
+        "teks": "Kepatuhan terhadap tahapan penyusunan rencana kerja pembangunan daerah secara formal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49551,7 +49551,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota",
+        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -49625,7 +49625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar",
+        "teks": "Ketahanan fisik dan mental pegawai saat menghadapi kondisi cuaca perairan luar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49979,7 +49979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi",
+        "teks": "Memenuhi ketentuan pemasangan daftar tarif resmi layanan wisata di kawasan destinasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50019,7 +50019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit",
+        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50105,7 +50105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengurangi beban anggaran pengadaan perangkat lunak pemetaan di dinas terkait",
+        "teks": "Mengurangi beban anggaran pengadaan perangkat lunak pemetaan di dinas terkait demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50185,7 +50185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga",
+        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50225,7 +50225,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari",
+        "teks": "Pandangan hidup bangsa yang menjadi pedoman etika pergaulan sosial masyarakat sehari-hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50265,7 +50265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil",
+        "teks": "Pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50625,7 +50625,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota",
+        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50665,7 +50665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal",
+        "teks": "Pertimbangan praktis mengenai kemudahan distribusi benih di wilayah penelitian asal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50727,7 +50727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat",
+        "teks": "Upaya menjaga hubungan baik jangka panjang dengan pengurus koperasi setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50927,7 +50927,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi",
+        "teks": "Kepatuhan pegawai terhadap ketentuan jam kerja efektif yang berlaku di instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50979,7 +50979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon",
+        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51059,7 +51059,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap prosedur pengamanan aset dan barang milik instansi pemerintah",
+        "teks": "Kepatuhan terhadap prosedur pengamanan aset dan barang milik instansi pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51093,7 +51093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51133,7 +51133,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit",
+        "teks": "Melatih kemampuan manajerial dasar untuk kebutuhan rotasi jabatan pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51213,7 +51213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring",
+        "teks": "Peningkatan kemampuan teknis aparatur dalam memverifikasi konten multimedia daring demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51259,7 +51259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pembinaan etika bermedia sosial bagi komunitas pengguna internet di wilayah kecamatan",
+        "teks": "Pembinaan etika bermedia sosial bagi komunitas pengguna internet di wilayah kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51305,7 +51305,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah",
+        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51339,7 +51339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 25A UUD 1945 tentang penegasan Indonesia sebagai negara kepulauan berciri nusantara",
+        "teks": "Pasal 25A UUD 1945 tentang penegasan Indonesia sebagai negara kepulauan berciri nusantara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51425,7 +51425,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat",
+        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51447,7 +51447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -51487,7 +51487,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga",
+        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51545,7 +51545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat",
+        "teks": "Asas sentralisasi mutlak di mana seluruh kebijakan teknis daerah ditentukan oleh pusat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51819,7 +51819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penguatan kerja sama antara pemerintah daerah dan organisasi kepemudaan setempat",
+        "teks": "Penguatan kerja sama antara pemerintah daerah dan organisasi kepemudaan setempat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51847,7 +51847,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -51951,7 +51951,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional",
+        "teks": "Keinginan memperoleh pengakuan akademik dari komunitas peneliti pertanian nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -51979,7 +51979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemenuhan agenda rutin tahunan instansi dalam memeriahkan hari besar nasional",
+        "teks": "Pemenuhan agenda rutin tahunan instansi dalam memeriahkan hari besar nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52019,7 +52019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan pegawai terhadap surat keputusan penempatan tugas di daerah terpencil",
+        "teks": "Kepatuhan pegawai terhadap surat keputusan penempatan tugas di daerah terpencil demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52071,7 +52071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha",
+        "teks": "Menghindari beban kerja tambahan di luar tugas pokok pembinaan pelaku usaha demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -52151,7 +52151,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan",
+        "teks": "Menunda pemanfaatan kupon diskon hingga masa tugas inspeksi lapangan selesai dilakukan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -52213,7 +52213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik",
+        "teks": "Mengirim staf perwakilan untuk hadir agar hubungan alumni tetap terjaga dengan baik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -52351,7 +52351,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -52407,7 +52407,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal",
+        "teks": "Menghindari kerugian selisih nilai tukar saat penukaran valuta asing di gerai lokal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52465,7 +52465,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering",
+        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -52551,7 +52551,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar",
+        "teks": "Menunjukkan rasa cinta tanah air dengan menolong sesama penduduk di wilayah sekitar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -52613,7 +52613,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara",
+        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52659,7 +52659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52745,7 +52745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga",
+        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -53025,7 +53025,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik",
+        "teks": "Penyeragaman selera seni pelajar agar kembali menekuni kesenian tradisional klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -53093,7 +53093,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kepatuhan pegawai terhadap surat edaran pimpinan mengenai aksi solidaritas sosial",
+        "teks": "Kepatuhan pegawai terhadap surat edaran pimpinan mengenai aksi solidaritas sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53145,7 +53145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu",
+        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -53179,7 +53179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri",
+        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53213,7 +53213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat",
+        "teks": "Keterampilan komunikasi persuasif untuk meredam ketegangan sosial di ruang rapat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53293,7 +53293,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menegur secara pribadi di luar forum rapat agar tidak merusak reputasi rekan kerja",
+        "teks": "Menegur secara pribadi di luar forum rapat agar tidak merusak reputasi rekan kerja sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -53345,7 +53345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama",
+        "teks": "Meminta rekan satu tim menandatangani laporan perubahan tanggal tersebut secara bersama demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53373,7 +53373,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53431,7 +53431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi",
+        "teks": "Memberikan waktu seminggu kepada sahabatnya untuk mengganti dana sebelum dicatat resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -53459,7 +53459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keterampilan petugas dalam melacak nomor kontak pemohon pada berkas pendaftaran",
+        "teks": "Keterampilan petugas dalam melacak nomor kontak pemohon pada berkas pendaftaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53511,7 +53511,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial",
+        "teks": "Pelaksanaan fungsi rutin kehumasan instansi dalam merespons isu di media sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -53551,7 +53551,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -53607,7 +53607,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah",
+        "teks": "Menjaga stabilitas harga barang konsumsi masyarakat di pasar tradisional daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53665,7 +53665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah",
+        "teks": "Menunjukkan kemajuan literasi teknologi informasi di kalangan pegawai muda daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53711,7 +53711,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pelaksanaan fungsi pengawasan aktivitas organisasi kemahasiswaan di tingkat daerah",
+        "teks": "Pelaksanaan fungsi pengawasan aktivitas organisasi kemahasiswaan di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -53785,7 +53785,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan indeks kesehatan masyarakat",
+        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan indeks kesehatan masyarakat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53831,7 +53831,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah",
+        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -53899,7 +53899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi",
+        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -54213,7 +54213,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota",
+        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54259,7 +54259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan",
+        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54299,7 +54299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan",
+        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -54333,7 +54333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan",
+        "teks": "Kewenangan pemerintah daerah dalam menetapkan skala prioritas anggaran tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54391,7 +54391,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana",
+        "teks": "Kewajiban struktural instansi pemerintah daerah dalam tugas penanggulangan bencana demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -54431,7 +54431,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi",
+        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -54545,7 +54545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim",
+        "teks": "Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54585,7 +54585,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon",
+        "teks": "Keinginan mengamati secara langsung kecepatan waktu layanan petugas terhadap pemohon demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54659,7 +54659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -54779,7 +54779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan",
+        "teks": "Memenuhi prosedur penyusunan laporan evaluasi perdagangan antarwilayah tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54819,7 +54819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan",
+        "teks": "Mempercepat proses pengumpulan laporan kondisi jalan rusak di wilayah pegunungan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54887,7 +54887,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering",
+        "teks": "Memanfaatkan peralatan pemadam kebakaran desa secara optimal selama musim kering agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -54933,7 +54933,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55013,7 +55013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan",
+        "teks": "Perjanjian luhur pendiri bangsa saat memproklamasikan kemerdekaan negara kesatuan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55053,7 +55053,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain",
+        "teks": "Pasal 28J ayat (1) UUD 1945 tentang kewajiban menghormati hak asasi manusia orang lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55111,7 +55111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara",
+        "teks": "Pasal 23 ayat (1) UUD 1945 tentang pengelolaan anggaran pendapatan dan belanja negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -55145,7 +55145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional",
+        "teks": "Pasal 32 ayat (1) UUD 1945 mengenai kewajiban negara memajukan kebudayaan nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55447,7 +55447,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat",
+        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55545,7 +55545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota",
+        "teks": "Upaya mencegah peniruan desain produk oleh pelaku usaha sejenis di dalam kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55579,7 +55579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah",
+        "teks": "Mematuhi jadwal distribusi logistik yang disepakati bersama pengelola pasar daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55687,7 +55687,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum",
+        "teks": "Kesabaran menunggu giliran pelayanan publik di ruang tunggu bersama masyarakat umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55727,7 +55727,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan",
+        "teks": "Kepatuhan terhadap jadwal servis berkala mobil dinas pada akhir bulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -55865,7 +55865,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor",
+        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55905,7 +55905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencapai target kepatuhan administrasi kepabeanan dan karantina tahun berjalan",
+        "teks": "Mencapai target kepatuhan administrasi kepabeanan dan karantina tahun berjalan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55939,7 +55939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya",
+        "teks": "Upaya menjaga ketertiban dialog publik agar tidak memicu kegaduhan di dunia maya sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -56007,7 +56007,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membangun jejaring kerja sama antar-komunitas pendidikan nonformal di tingkat kota",
+        "teks": "Membangun jejaring kerja sama antar-komunitas pendidikan nonformal di tingkat kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56071,7 +56071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meningkatkan kenyamanan transaksi belanja wisatawan nusantara selama masa liburan",
+        "teks": "Meningkatkan kenyamanan transaksi belanja wisatawan nusantara selama masa liburan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -56173,7 +56173,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga",
+        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56219,7 +56219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional",
+        "teks": "Pasal 33 ayat (1) dan Pasal 34 ayat (4) mengenai penyelenggaraan perekonomian nasional demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -56265,7 +56265,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan",
+        "teks": "Mewujudkan kerukunan antarumat beragama melalui kerja sama bakti sosial kemanusiaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56293,7 +56293,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar",
+        "teks": "Efisiensi biaya distribusi barang kebutuhan pokok menjelang perayaan hari besar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56333,7 +56333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Negara Indonesia adalah negara kesatuan yang berbentuk republik demokratis berdaulat",
+        "teks": "Negara Indonesia adalah negara kesatuan yang berbentuk republik demokratis berdaulat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56631,7 +56631,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Kehati-hatian menghadapi perbedaan sistem hukum kekayaan intelektual internasional",
+        "teks": "Kehati-hatian menghadapi perbedaan sistem hukum kekayaan intelektual internasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -56665,7 +56665,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional",
+        "teks": "Menunjukkan kesiapan tim aparatur dalam mengikuti ajang evaluasi tingkat regional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56699,7 +56699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar",
+        "teks": "Upaya mempercepat pemulihan infrastruktur jalan agar distribusi barang kembali lancar sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -56745,7 +56745,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Publikasi program kerja kemasyarakatan instansi melalui kanal informasi resmi",
+        "teks": "Publikasi program kerja kemasyarakatan instansi melalui kanal informasi resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56853,7 +56853,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai",
+        "teks": "Memanfaatkan diskon tersebut untuk keperluan pribadi karena berlaku bagi banyak pegawai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -56911,7 +56911,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa",
+        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -56979,7 +56979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi",
+        "teks": "Kebiasaan kerja teratur yang sudah terbentuk selama bertahun-tahun mengabdi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57013,7 +57013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa",
+        "teks": "Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57071,7 +57071,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu",
+        "teks": "Efisiensi perencanaan anggaran kegiatan sosialisasi agar tidak melampaui pagu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -57191,7 +57191,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran",
+        "teks": "Melindungi lahan perkebunan masyarakat sekitar dari kerugian ekonomi akibat kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -57219,7 +57219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif",
+        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57247,7 +57247,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam",
+        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57345,7 +57345,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah",
+        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57413,7 +57413,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri",
+        "teks": "Pasal 28C ayat (1) UUD 1945 mengenai pemenuhan kebutuhan dasar untuk mengembangkan diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57453,7 +57453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka",
+        "teks": "Menghormati kebebasan setiap peserta forum dalam menyampaikan kritik secara terbuka demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57499,7 +57499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah",
+        "teks": "Dekonsentrasi administratif penuh tanpa adanya kewenangan legislasi di tingkat daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57545,7 +57545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga",
+        "teks": "Pasal 27 ayat (3) dan Pasal 30 ayat (1) mengenai hak dan kewajiban bela negara warga demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -57865,7 +57865,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu",
+        "teks": "Mempercepat alur pengisian formulir permohonan di loket pelayanan terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -57905,7 +57905,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat",
+        "teks": "Pemenuhan syarat administratif untuk memperoleh fasilitas kredit usaha rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57939,7 +57939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri",
+        "teks": "Penolakan terhadap seluruh bentuk produk hiburan modern yang berasal dari luar negeri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57979,7 +57979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN",
+        "teks": "Menjaga hubungan kerja sama antar-instansi pelayanan publik di kawasan ASEAN demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58111,7 +58111,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor",
+        "teks": "Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -58293,7 +58293,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam",
+        "teks": "Efektivitas koordinasi lintas lembaga selama masa tanggap darurat bencana alam demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58339,7 +58339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memenuhi imbauan pemerintah pusat mengenai larangan pembukaan lahan dengan cara bakar",
+        "teks": "Memenuhi imbauan pemerintah pusat mengenai larangan pembukaan lahan dengan cara bakar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58367,7 +58367,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif",
+        "teks": "Kewajiban aparatur dalam merespons dinamika aspirasi masyarakat secara komunikatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58499,7 +58499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif",
+        "teks": "Mengisi akhir pekan para relawan muda dengan kegiatan sosial kemasyarakatan positif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58545,7 +58545,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Setiap warga negara berhak atas kebebasan berserikat, berkumpul, dan berpendapat damai",
+        "teks": "Setiap warga negara berhak atas kebebasan berserikat, berkumpul, dan berpendapat damai demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58591,7 +58591,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi",
+        "teks": "Pemisahan kelompok kesenian berdasarkan daerah asal guna menjaga kemurnian tradisi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -58659,7 +58659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah",
+        "teks": "Pasal 18A ayat (1) UUD 1945 mengenai hubungan wewenang antara pusat dan pemerintah daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58739,7 +58739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59013,7 +59013,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Keseimbangan pembangunan antara ruang terbuka hijau dan sektor pertanian rakyat",
+        "teks": "Keseimbangan pembangunan antara ruang terbuka hijau dan sektor pertanian rakyat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59047,7 +59047,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi",
+        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59105,7 +59105,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi",
+        "teks": "Upaya memenuhi target jumlah penerima layanan tahunan yang ditetapkan instansi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59145,7 +59145,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan",
+        "teks": "Pemenuhan target publikasi berita positif kinerja aparatur pada triwulan berjalan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -59185,7 +59185,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota",
+        "teks": "Pemenuhan agenda kegiatan seremonial tahunan instansi di tingkat kabupaten/kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59253,7 +59253,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengikuti arahan pimpinan dengan membuat catatan pribadi sebagai arsip pengaman diri",
+        "teks": "Mengikuti arahan pimpinan dengan membuat catatan pribadi sebagai arsip pengaman diri demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59333,7 +59333,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai",
+        "teks": "Mengajukan pertanyaan standar yang sama dengan peserta lain agar tidak dicurigai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59385,7 +59385,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta ketua tim untuk tidak memberitahukan hubungan keluarga kepada anggota lain",
+        "teks": "Meminta ketua tim untuk tidak memberitahukan hubungan keluarga kepada anggota lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59407,7 +59407,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat",
+        "teks": "Mengubah tanggal sebagian dokumen lampiran agar keterlambatan tampak lebih singkat sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59453,7 +59453,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda pertemuan hingga pengumuman pemenang lelang resmi ditayangkan di portal",
+        "teks": "Menunda pertemuan hingga pengumuman pemenang lelang resmi ditayangkan di portal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59573,7 +59573,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjaga jarak pandang jalur transportasi darat agar tidak terganggu oleh kabut asap",
+        "teks": "Menjaga jarak pandang jalur transportasi darat agar tidak terganggu oleh kabut asap sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59631,7 +59631,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah",
+        "teks": "Pelaksanaan program kerja sama antara kelompok nelayan dan dinas kelautan daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -59659,7 +59659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pembinaan etika bermedia sosial bagi komunitas pengguna internet di wilayah kecamatan",
+        "teks": "Pembinaan etika bermedia sosial bagi komunitas pengguna internet di wilayah kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59699,7 +59699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menjaga keindahan kawasan pesisir pantai guna menarik kunjungan wisatawan lokal",
+        "teks": "Upaya menjaga keindahan kawasan pesisir pantai guna menarik kunjungan wisatawan lokal sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59751,7 +59751,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal",
+        "teks": "Penyeragaman seluruh tradisi daerah menjadi satu corak kebudayaan nasional tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -59825,7 +59825,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional",
+        "teks": "Pasal 34 ayat (2) UUD 1945 mengenai pengembangan sistem jaminan sosial nasional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59871,7 +59871,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga",
+        "teks": "Sila Kelima yang mengatur pembagian tugas kerja bakti secara merata bagi semua warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -132429,7 +132429,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersikap selektif memilah kebenaran informasi digital agar tidak ikut tersesat oleh kabar bohong.",
+        "teks": "Bersikap selektif memilah kebenaran informasi digital agar tidak ikut tersesat oleh kabar bohong sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -132459,7 +132459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencari referensi dari berbagai literatur serta aktif berdiskusi di forum teknologi informasi.",
+        "teks": "Mencari referensi dari berbagai literatur serta aktif berdiskusi di forum teknologi informasi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -132524,7 +132524,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendatangi ketua panitia RW untuk menginformasikan bahwa Anda berhalangan hadir kerja bakti.",
+        "teks": "Mendatangi ketua panitia RW untuk menginformasikan bahwa Anda berhalangan hadir kerja bakti agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -132564,7 +132564,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berusaha tenang dan menjadikan kejadian ini pelajaran dengan memasang pengingat digital di ponsel.",
+        "teks": "Berusaha tenang dan menjadikan kejadian ini pelajaran dengan memasang pengingat digital di ponsel agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -132629,7 +132629,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyarankan rekan tidak memakai fasilitas kantor saat jam kerja agar kinerja unit tidak terganggu.",
+        "teks": "Menyarankan rekan tidak memakai fasilitas kantor saat jam kerja agar kinerja unit tidak terganggu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -132754,7 +132754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merenungkan rencana kerja terbaik sebelum bertindak agar setiap tugas menghasilkan capaian maksimal.",
+        "teks": "Merenungkan rencana kerja terbaik sebelum bertindak agar setiap tugas menghasilkan capaian maksimal sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -132804,7 +132804,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberi tahu keluarga bahwa Anda pindah lebih dulu lalu menjemput mereka setelah kondisi stabil.",
+        "teks": "Memberi tahu keluarga bahwa Anda pindah lebih dulu lalu menjemput mereka setelah kondisi stabil supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -132839,7 +132839,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap menjalankan operasional seperti biasa sambil meyakini pelanggan lama pasti akan kembali.",
+        "teks": "Tetap menjalankan operasional seperti biasa sambil meyakini pelanggan lama pasti akan kembali supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -132849,7 +132849,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memindahkan lokasi gerai layanan ke area lain yang masih sepi dari pesaing usaha.",
+        "teks": "Memindahkan lokasi gerai layanan ke area lain yang masih sepi dari pesaing usaha supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -132919,7 +132919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghadap atasan meminta peninjauan ulang pembagian beban kerja karena terasa tidak seimbang.",
+        "teks": "Menghadap atasan meminta peninjauan ulang pembagian beban kerja karena terasa tidak seimbang sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -132999,7 +132999,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tidak mengikuti pelatihan tersebut karena waktu akhir pekan mutlak dialokasikan untuk kebersamaan keluarga.",
+        "teks": "Tidak mengikuti pelatihan tersebut karena waktu akhir pekan mutlak dialokasikan untuk kebersamaan keluarga sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -133069,7 +133069,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghampiri kepala unit baru menanyakan sistem kerja guna mempersiapkan diri menghadapi suasana baru.",
+        "teks": "Menghampiri kepala unit baru menanyakan sistem kerja guna mempersiapkan diri menghadapi suasana baru sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -133094,7 +133094,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membawa keluarga ikut serta sambil mencari pekerjaan paruh waktu guna membiayai kebutuhan bersama.",
+        "teks": "Membawa keluarga ikut serta sambil mencari pekerjaan paruh waktu guna membiayai kebutuhan bersama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -133234,7 +133234,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meninjau kembali kesesuaian pekerjaan yang dijalankan dengan bakat, minat, serta kompetensi pribadi Anda.",
+        "teks": "Meninjau kembali kesesuaian pekerjaan yang dijalankan dengan bakat, minat, serta kompetensi pribadi Anda agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -133329,7 +133329,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Bekerja maksimal pada porsi pribadi sambil meyakini anggota lain juga menyelesaikan bagiannya baik.",
+        "teks": "Bekerja maksimal pada porsi pribadi sambil meyakini anggota lain juga menyelesaikan bagiannya baik agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -133434,7 +133434,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu tenang di depan pintu tanpa terlihat agar perbincangan atasan tidak terganggu.",
+        "teks": "Menunggu tenang di depan pintu tanpa terlihat agar perbincangan atasan tidak terganggu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -133474,7 +133474,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mendorong serta menyemangati anggota lain agar bekerja baik demi tercapainya target kelompok.",
+        "teks": "Mendorong serta menyemangati anggota lain agar bekerja baik demi tercapainya target kelompok sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -133594,7 +133594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengabaikan perilakunya karena meyakini rekan kerja lain pasti akan menegur sifat buruknya nanti.",
+        "teks": "Mengabaikan perilakunya karena meyakini rekan kerja lain pasti akan menegur sifat buruknya nanti sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -133624,7 +133624,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjelaskan bahwa tugas Anda hanya mendaftar warga baru lalu menunjuk bagian pengaduan lain.",
+        "teks": "Menjelaskan bahwa tugas Anda hanya mendaftar warga baru lalu menunjuk bagian pengaduan lain agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -133644,7 +133644,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan anak tetap bersekolah di lembaga tersebut karena fokus utamanya pendidikan agama.",
+        "teks": "Membiarkan anak tetap bersekolah di lembaga tersebut karena fokus utamanya pendidikan agama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -133684,7 +133684,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih diam tidak terlibat aksi agar terhindar dari masalah hukum di kemudian hari.",
+        "teks": "Memilih diam tidak terlibat aksi agar terhindar dari masalah hukum di kemudian hari sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -133794,7 +133794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menganggap pandangan itu wajar muncul dari latar belakang pendidikan keagamaan yang ditempuhnya.",
+        "teks": "Menganggap pandangan itu wajar muncul dari latar belakang pendidikan keagamaan yang ditempuhnya agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -133864,7 +133864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menahan diri tidak memberi tahu meski mengganggu pandangan karena takut mengambil risiko teguran.",
+        "teks": "Menahan diri tidak memberi tahu meski mengganggu pandangan karena takut mengambil risiko teguran sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -134029,7 +134029,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kesempatan kepada pegawai untuk mengembangkan kompetensi dengan mengikuti seminar luar kantor.",
+        "teks": "Memberikan kesempatan kepada pegawai untuk mengembangkan kompetensi dengan mengikuti seminar luar kantor agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -134064,7 +134064,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membuka diri kapan saja bagi rekan kerja yang ingin mencurahkan keluh kesah pribadinya.",
+        "teks": "Membuka diri kapan saja bagi rekan kerja yang ingin mencurahkan keluh kesah pribadinya supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -134114,7 +134114,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya meluangkan waktu untuk memikirkan kembali dampak dari gagasan yang baru diusulkan.",
+        "teks": "Memintanya meluangkan waktu untuk memikirkan kembali dampak dari gagasan yang baru diusulkan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -134209,7 +134209,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan usulan alternatif tindakan pembinaan yang paling tepat bagi rekan bermasalah tersebut.",
+        "teks": "Mengajukan usulan alternatif tindakan pembinaan yang paling tepat bagi rekan bermasalah tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -134284,7 +134284,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Segera mencari pegawai pengganti di unit lain agar kinerja bidang kembali membaik.",
+        "teks": "Segera mencari pegawai pengganti di unit lain agar kinerja bidang kembali membaik sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -134319,7 +134319,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh mereka membaca dokumen uraian tugas masing-masing lalu menerapkannya dalam pekerjaan harian.",
+        "teks": "Menyuruh mereka membaca dokumen uraian tugas masing-masing lalu menerapkannya dalam pekerjaan harian agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -134359,7 +134359,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memeriksa terlebih dahulu apakah ada keterlibatan rekan lain yang turut melakukan kelalaian serupa.",
+        "teks": "Memeriksa terlebih dahulu apakah ada keterlibatan rekan lain yang turut melakukan kelalaian serupa agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -134379,7 +134379,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak tindakan rekayasa tersebut hanya dalam hati tanpa mengambil sikap teguran apa pun.",
+        "teks": "Menolak tindakan rekayasa tersebut hanya dalam hati tanpa mengambil sikap teguran apa pun supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -134434,7 +134434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menanyakan alasan mendesak di balik tindakannya sebelum memberikan nasihat agar ia lebih disiplin.",
+        "teks": "Menanyakan alasan mendesak di balik tindakannya sebelum memberikan nasihat agar ia lebih disiplin sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -134519,7 +134519,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pulang diam-diam tepat waktu tanpa sepengetahuan atasan demi menepati janji kepada anak.",
+        "teks": "Pulang diam-diam tepat waktu tanpa sepengetahuan atasan demi menepati janji kepada anak sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -134564,7 +134564,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membuka media sosial di ponsel untuk bersantai melepas penat setelah fokus bekerja.",
+        "teks": "Membuka media sosial di ponsel untuk bersantai melepas penat setelah fokus bekerja agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -134694,7 +134694,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa murung dan kehilangan semangat kerja akibat kegagalan mencapai target yang diinginkan.",
+        "teks": "Merasa murung dan kehilangan semangat kerja akibat kegagalan mencapai target yang diinginkan agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -134749,7 +134749,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyindirnya secara halus di sela obrolan ruangan agar ia teringat akan kelalaiannya sendiri.",
+        "teks": "Menyindirnya secara halus di sela obrolan ruangan agar ia teringat akan kelalaiannya sendiri sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -134809,7 +134809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghadiri seminar seharian penuh semata-mata agar terhindar dari kewajiban mengetik tugas laporan.",
+        "teks": "Menghadiri seminar seharian penuh semata-mata agar terhindar dari kewajiban mengetik tugas laporan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -134834,7 +134834,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Selalu mencari cara alternatif pelimpahan agar tidak perlu mengambil keputusan teknis sendiri.",
+        "teks": "Selalu mencari cara alternatif pelimpahan agar tidak perlu mengambil keputusan teknis sendiri sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -134874,7 +134874,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Suatu hambatan serius yang menghalangi kelancaran pencapaian target kinerja harian di kantor.",
+        "teks": "Suatu hambatan serius yang menghalangi kelancaran pencapaian target kinerja harian di kantor agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -134979,7 +134979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memintanya langsung memperkenalkan diri kepada seluruh pegawai ruangan agar cepat dikenal luas.",
+        "teks": "Memintanya langsung memperkenalkan diri kepada seluruh pegawai ruangan agar cepat dikenal luas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -135064,7 +135064,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menegaskan di forum evaluasi bahwa kegagalan itu merupakan kekeliruan anak buah semata.",
+        "teks": "Menegaskan di forum evaluasi bahwa kegagalan itu merupakan kekeliruan anak buah semata agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -135194,7 +135194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersedia mengajarinya hanya apabila seluruh pekerjaan pribadi Anda sedang benar-benar waktu longgar.",
+        "teks": "Bersedia mengajarinya hanya apabila seluruh pekerjaan pribadi Anda sedang benar-benar waktu longgar agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -135219,7 +135219,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meyakini tim dokter rumah sakit pasti mampu menangani kondisi beliau dengan baik.",
+        "teks": "Meyakini tim dokter rumah sakit pasti mampu menangani kondisi beliau dengan baik agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -135329,7 +135329,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pekerjaan rutin harian yang alurnya sudah terprediksi tetap sama dari waktu ke waktu.",
+        "teks": "Pekerjaan rutin harian yang alurnya sudah terprediksi tetap sama dari waktu ke waktu agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -135394,7 +135394,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengimbau para pemohon layanan agar bersabar menunggu proses perbaikan layar monitor selesai.",
+        "teks": "Mengimbau para pemohon layanan agar bersabar menunggu proses perbaikan layar monitor selesai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -135469,7 +135469,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta kejelasan rencana warga apakah jadi mengajukan permohonan layanan atau tidak.",
+        "teks": "Meminta kejelasan rencana warga apakah jadi mengajukan permohonan layanan atau tidak agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -135509,7 +135509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta petugas magang atau rekan meja sebelah untuk mendampingi keperluan warga tersebut.",
+        "teks": "Meminta petugas magang atau rekan meja sebelah untuk mendampingi keperluan warga tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -135539,7 +135539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta mahasiswa tersebut menunggu tenang dan kembali lagi setelah jam istirahat selesai.",
+        "teks": "Meminta mahasiswa tersebut menunggu tenang dan kembali lagi setelah jam istirahat selesai agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -135584,7 +135584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengumumkan lewat pengeras suara posko agar pengguna lain melapor jika menemukan KTP.",
+        "teks": "Mengumumkan lewat pengeras suara posko agar pengguna lain melapor jika menemukan KTP sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -135624,7 +135624,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta pasien tetap melanjutkan pemeriksaan hari ini dengan mendaftar jalur pembayaran umum.",
+        "teks": "Meminta pasien tetap melanjutkan pemeriksaan hari ini dengan mendaftar jalur pembayaran umum agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -135639,7 +135639,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi bahan materi yang akan dikaji secara merata kepada seluruh anggota tim.",
+        "teks": "Membagi bahan materi yang akan dikaji secara merata kepada seluruh anggota tim agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -135694,7 +135694,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menceritakan kejadian yang baru saja Anda lihat kepada rekan-rekan di ruangan lain.",
+        "teks": "Menceritakan kejadian yang baru saja Anda lihat kepada rekan-rekan di ruangan lain agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -135724,7 +135724,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyampaikan basa-basi ringan menanyakan kesibukan tugas yang sedang dikerjakan oleh senior Anda.",
+        "teks": "Menyampaikan basa-basi ringan menanyakan kesibukan tugas yang sedang dikerjakan oleh senior Anda agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -135779,7 +135779,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan informasi lowongan tersebut secara khusus kepada jaringan alumni kampus asal Anda.",
+        "teks": "Membagikan informasi lowongan tersebut secara khusus kepada jaringan alumni kampus asal Anda agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -135819,7 +135819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Hanya mengamati dari jauh sambil melihat perkembangan kinerja hariannya di meja kerja.",
+        "teks": "Hanya mengamati dari jauh sambil melihat perkembangan kinerja hariannya di meja kerja agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -135884,7 +135884,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan pengunduran diri dari unit tersebut karena merasa tidak mampu dan minder.",
+        "teks": "Mengajukan pengunduran diri dari unit tersebut karena merasa tidak mampu dan minder sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -135924,7 +135924,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menolak ikut turun lapangan karena tidak terbiasa berjalan kaki menempuh jarak jauh.",
+        "teks": "Menolak ikut turun lapangan karena tidak terbiasa berjalan kaki menempuh jarak jauh sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -136009,7 +136009,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa rendah diri karena terus membandingkan kompetensi pribadi dengan anggota tim lain.",
+        "teks": "Merasa rendah diri karena terus membandingkan kompetensi pribadi dengan anggota tim lain sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -136034,7 +136034,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima bingkisan tersebut diam-diam sambil meminta mahasiswa tidak melaporkannya kepada pimpinan.",
+        "teks": "Menerima bingkisan tersebut diam-diam sambil meminta mahasiswa tidak melaporkannya kepada pimpinan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -136109,7 +136109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mulai menyusun strategi peningkatan kinerja harian agar target prestasi segera tercapai nyata.",
+        "teks": "Mulai menyusun strategi peningkatan kinerja harian agar target prestasi segera tercapai nyata sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -136199,7 +136199,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjabat tangan lawan tanding dengan sikap lapang dada dan penuh sportivitas tinggi.",
+        "teks": "Menjabat tangan lawan tanding dengan sikap lapang dada dan penuh sportivitas tinggi agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -136384,7 +136384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tidak menghiraukan ajakan tersebut karena menganggapnya sekadar candaan ringan di sela kerja.",
+        "teks": "Tidak menghiraukan ajakan tersebut karena menganggapnya sekadar candaan ringan di sela kerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -136419,7 +136419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengingatkan rekan diklat tersebut bahwa besok pagi ada jadwal ujian evaluasi penting.",
+        "teks": "Mengingatkan rekan diklat tersebut bahwa besok pagi ada jadwal ujian evaluasi penting agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -136459,7 +136459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memilih tidak berkomentar apa pun karena khawatir menyinggung perasaan keluarga korban.",
+        "teks": "Memilih tidak berkomentar apa pun karena khawatir menyinggung perasaan keluarga korban sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -136499,7 +136499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Ikut berkomentar di media sosial mengedukasi warganet agar tidak mudah termakan isu.",
+        "teks": "Ikut berkomentar di media sosial mengedukasi warganet agar tidak mudah termakan isu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -136524,7 +136524,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan sahabat Anda agar melepas cadarnya selama berada di lingkungan kantor instansi.",
+        "teks": "Menyarankan sahabat Anda agar melepas cadarnya selama berada di lingkungan kantor instansi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -136569,7 +136569,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta pegawai menuntaskan tugas survei dahulu baru menyusul merayakan hari raya keagamaannya.",
+        "teks": "Meminta pegawai menuntaskan tugas survei dahulu baru menyusul merayakan hari raya keagamaannya agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -136599,7 +136599,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memilih diam saja sepanjang rapat karena malas berdebat panjang dengan rekan tersebut.",
+        "teks": "Memilih diam saja sepanjang rapat karena malas berdebat panjang dengan rekan tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -136809,7 +136809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan kerja yang sudah mahir untuk mengajari cara mengoperasikan aplikasi baru.",
+        "teks": "Meminta rekan kerja yang sudah mahir untuk mengajari cara mengoperasikan aplikasi baru demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
@@ -136909,7 +136909,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencari pekerjaan lepas secara daring dari rumah agar tetap produktif tanpa keluar.",
+        "teks": "Mencari pekerjaan lepas secara daring dari rumah agar tetap produktif tanpa keluar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -136954,7 +136954,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa kapok menyampaikan usulan dan memilih pasif tidak berkontribusi dalam diskusi berikutnya.",
+        "teks": "Merasa kapok menyampaikan usulan dan memilih pasif tidak berkontribusi dalam diskusi berikutnya agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -136974,7 +136974,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Segera memperbaiki bagian desain yang direvisi pimpinan meskipun dengan perasaan berat hati.",
+        "teks": "Segera memperbaiki bagian desain yang direvisi pimpinan meskipun dengan perasaan berat hati agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -137014,7 +137014,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta tolong pemohon layanan lain yang melintas untuk mengarahkan nenek menuju toilet.",
+        "teks": "Meminta tolong pemohon layanan lain yang melintas untuk mengarahkan nenek menuju toilet agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -137079,7 +137079,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berdiskusi dengan rekan sejawat mengenai langkah tepat menyikapi pemberian hadiah dari warga.",
+        "teks": "Berdiskusi dengan rekan sejawat mengenai langkah tepat menyikapi pemberian hadiah dari warga agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -137129,7 +137129,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengarahkan pengendara tersebut menuju jalur pelayanan rekan petugas loket di sebelah Anda.",
+        "teks": "Mengarahkan pengendara tersebut menuju jalur pelayanan rekan petugas loket di sebelah Anda agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -137149,7 +137149,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memberitahukan dengan ramah kepada warga bahwa jam loket pelayanan sudah resmi tutup.",
+        "teks": "Memberitahukan dengan ramah kepada warga bahwa jam loket pelayanan sudah resmi tutup agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -137249,7 +137249,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan pesan rekan tersebut dan tidak membalasnya karena merasa malas membantu promosi.",
+        "teks": "Mengabaikan pesan rekan tersebut dan tidak membalasnya karena merasa malas membantu promosi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -137299,7 +137299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berusaha melakukan pendekatan komunikasi baik dengan rekan tersebut demi kelancaran target bersama.",
+        "teks": "Berusaha melakukan pendekatan komunikasi baik dengan rekan tersebut demi kelancaran target bersama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -137319,7 +137319,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan surat peringatan keras agar staf tersebut segera mengikuti standar budaya kerja.",
+        "teks": "Memberikan surat peringatan keras agar staf tersebut segera mengikuti standar budaya kerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -137469,7 +137469,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pasangan agar tidak perlu melaksanakan rangkaian upacara adat yang dianggap rumit.",
+        "teks": "Meminta pasangan agar tidak perlu melaksanakan rangkaian upacara adat yang dianggap rumit sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -137509,7 +137509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta izin baik-baik kepada tuan rumah agar lampu ruang belajar tetap dinyalakan.",
+        "teks": "Meminta izin baik-baik kepada tuan rumah agar lampu ruang belajar tetap dinyalakan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -137549,7 +137549,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencari jawaban penjelasan melalui mesin pencari internet untuk dibacakan kepada anak-anak.",
+        "teks": "Mencari jawaban penjelasan melalui mesin pencari internet untuk dibacakan kepada anak-anak agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -137564,7 +137564,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berdebat langsung dengan warga setempat dengan menyebut tradisi tersebut sebagai perbuatan keliru.",
+        "teks": "Berdebat langsung dengan warga setempat dengan menyebut tradisi tersebut sebagai perbuatan keliru agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -137614,7 +137614,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak bekerja di tempat itu sambil meyakini ada penempatan lain lebih baik.",
+        "teks": "Menolak bekerja di tempat itu sambil meyakini ada penempatan lain lebih baik demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
@@ -137719,7 +137719,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa kasihan kepada mereka yang meremehkan karena belum memahami kemampuan kerja Anda.",
+        "teks": "Merasa kasihan kepada mereka yang meremehkan karena belum memahami kemampuan kerja Anda sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -137744,7 +137744,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Merekomendasikan rekan pegawai lain yang latar belakang pendidikannya lebih linier dengan kepegawaian.",
+        "teks": "Merekomendasikan rekan pegawai lain yang latar belakang pendidikannya lebih linier dengan kepegawaian agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -137854,7 +137854,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membujuk kakak kandung agar memberikan surat rekomendasi khusus kepada tim seleksi penerimaan.",
+        "teks": "Membujuk kakak kandung agar memberikan surat rekomendasi khusus kepada tim seleksi penerimaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -137919,7 +137919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Cukup memantau perkembangan perilakunya dari jauh terlebih dahulu sebelum mengambil sikap lanjut.",
+        "teks": "Cukup memantau perkembangan perilakunya dari jauh terlebih dahulu sebelum mengambil sikap lanjut agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -138109,7 +138109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersedia menjalankan perintah menyimpang asalkan atasan memberikan surat jaminan perlindungan hukum tertulis.",
+        "teks": "Bersedia menjalankan perintah menyimpang asalkan atasan memberikan surat jaminan perlindungan hukum tertulis agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -138164,7 +138164,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menuliskan komentar bernada negatif guna memancing perdebatan di kolom komentar media sosial.",
+        "teks": "Menuliskan komentar bernada negatif guna memancing perdebatan di kolom komentar media sosial sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -138199,7 +138199,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Bersedia membantu rekan kerja tersebut hanya apabila ia datang meminta bantuan langsung.",
+        "teks": "Bersedia membantu rekan kerja tersebut hanya apabila ia datang meminta bantuan langsung agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -138234,7 +138234,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memaksakan segera membawa ibu menuju rumah sakit meski kondisinya sulit berjalan jauh.",
+        "teks": "Memaksakan segera membawa ibu menuju rumah sakit meski kondisinya sulit berjalan jauh agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -138314,7 +138314,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menasihati anak agar tidak mengulangi menonton tayangan kartun serupa di lain waktu.",
+        "teks": "Menasihati anak agar tidak mengulangi menonton tayangan kartun serupa di lain waktu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -138379,7 +138379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memberikan hukuman fisik atau kurungan kamar agar adik jera bermain ponsel berlebihan.",
+        "teks": "Memberikan hukuman fisik atau kurungan kamar agar adik jera bermain ponsel berlebihan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -138449,7 +138449,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pemohon berusaha membaca ulang brosur tersebut pelan-pelan hingga paham sendiri.",
+        "teks": "Meminta pemohon berusaha membaca ulang brosur tersebut pelan-pelan hingga paham sendiri agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -138494,7 +138494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memutuskan menolak bergabung dalam penugasan tim proyek mana pun di unit kerja.",
+        "teks": "Memutuskan menolak bergabung dalam penugasan tim proyek mana pun di unit kerja supaya persoalan tidak berlarut-larut.",
         "poin": 1
       }
     ],
@@ -138564,7 +138564,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menolak pengajuan berkas secara halus sesuai SOP tertulis demi keadilan antrean lainnya.",
+        "teks": "Menolak pengajuan berkas secara halus sesuai SOP tertulis demi keadilan antrean lainnya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -138579,7 +138579,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencatat keluhan warga di buku tamu lalu menjanjikan perbaikan setelah jaringan normal.",
+        "teks": "Mencatat keluhan warga di buku tamu lalu menjanjikan perbaikan setelah jaringan normal agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -138619,7 +138619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menerima berkas mereka terlebih dahulu namun penandatanganan tetap dijadwalkan besok pagi.",
+        "teks": "Menerima berkas mereka terlebih dahulu namun penandatanganan tetap dijadwalkan besok pagi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -138754,7 +138754,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjalankan alur yang ada karena perubahan tata cara harus menunggu arahan pimpinan.",
+        "teks": "Menjalankan alur yang ada karena perubahan tata cara harus menunggu arahan pimpinan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -138834,7 +138834,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyusun bagian laporan yang sudah tersedia sambil terus mengingatkan mereka di grup kerja.",
+        "teks": "Menyusun bagian laporan yang sudah tersedia sambil terus mengingatkan mereka di grup kerja agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -138869,7 +138869,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menarik seluruh usulan inovasi agar pembahasan rapat dapat segera berpindah ke agenda lain.",
+        "teks": "Menarik seluruh usulan inovasi agar pembahasan rapat dapat segera berpindah ke agenda lain sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -138944,7 +138944,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta anggota tim termuda mengambil alih seluruh proses pengeditan dokumen akhir dari beliau.",
+        "teks": "Meminta anggota tim termuda mengambil alih seluruh proses pengeditan dokumen akhir dari beliau agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -139084,7 +139084,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta kepala dusun mendampingi warganya setiap kali mereka datang mengurus berkas ke kantor.",
+        "teks": "Meminta kepala dusun mendampingi warganya setiap kali mereka datang mengurus berkas ke kantor agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -139119,7 +139119,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pemilihan tempat makan sepenuhnya kepada suara terbanyak dalam grup percakapan kantor.",
+        "teks": "Menyerahkan pemilihan tempat makan sepenuhnya kepada suara terbanyak dalam grup percakapan kantor agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -139159,7 +139159,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan proses adaptasi berjalan alami karena setiap pendatang memang butuh waktu menyesuaikan diri.",
+        "teks": "Membiarkan proses adaptasi berjalan alami karena setiap pendatang memang butuh waktu menyesuaikan diri sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -139259,7 +139259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberlakukan aturan kantor secara ketat sejak hari pertama tanpa perlu perlakuan khusus apa pun.",
+        "teks": "Memberlakukan aturan kantor secara ketat sejak hari pertama tanpa perlu perlakuan khusus apa pun agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -139294,7 +139294,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membersihkan area yang masih kosong terlebih dahulu sambil menunggu rekan lain mencapai kesepakatan.",
+        "teks": "Membersihkan area yang masih kosong terlebih dahulu sambil menunggu rekan lain mencapai kesepakatan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -139334,7 +139334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta operator bagian umum mengurus seluruh unggahan dokumen TTE hingga pejabat tinggal menyetujui.",
+        "teks": "Meminta operator bagian umum mengurus seluruh unggahan dokumen TTE hingga pejabat tinggal menyetujui agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -139389,7 +139389,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghubungi panitia pusat lewat pesan singkat untuk meminta waktu lima menit memulihkan jaringan.",
+        "teks": "Menghubungi panitia pusat lewat pesan singkat untuk meminta waktu lima menit memulihkan jaringan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -139434,7 +139434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan mengirim data mentahnya agar Anda sendiri yang mengunggah lewat akun Anda.",
+        "teks": "Meminta rekan mengirim data mentahnya agar Anda sendiri yang mengunggah lewat akun Anda sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -139464,7 +139464,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencatat kesalahan angka tersebut untuk dibahas pada jadwal rapat evaluasi triwulan mendatang.",
+        "teks": "Mencatat kesalahan angka tersebut untuk dibahas pada jadwal rapat evaluasi triwulan mendatang agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -139544,7 +139544,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengambil alih proses penggabungan file PDF warga tersebut menggunakan aplikasi terpasang di komputer.",
+        "teks": "Mengambil alih proses penggabungan file PDF warga tersebut menggunakan aplikasi terpasang di komputer agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -139574,7 +139574,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengeluhkan kendala aplikasi tersebut di grup pegawai agar rekan lain ikut merasakan hal sama.",
+        "teks": "Mengeluhkan kendala aplikasi tersebut di grup pegawai agar rekan lain ikut merasakan hal sama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -139604,7 +139604,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengerjakan kedua tugas secara paralel semampunya meskipun berisiko hasilnya kurang mendalam.",
+        "teks": "Mengerjakan kedua tugas secara paralel semampunya meskipun berisiko hasilnya kurang mendalam agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -139634,7 +139634,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyarankan kepada pimpinan agar menugaskan pegawai lain yang bidangnya lebih sesuai topik.",
+        "teks": "Menyarankan kepada pimpinan agar menugaskan pegawai lain yang bidangnya lebih sesuai topik sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -139674,7 +139674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengarahkan vendor untuk menyalurkan uang tersebut sebagai sumbangan kotak amal masjid kantor.",
+        "teks": "Mengarahkan vendor untuk menyalurkan uang tersebut sebagai sumbangan kotak amal masjid kantor agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -139714,7 +139714,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melaporkan kekeliruan tersebut kepada ketua tim agar beliau yang memutuskan tindak lanjut selanjutnya.",
+        "teks": "Melaporkan kekeliruan tersebut kepada ketua tim agar beliau yang memutuskan tindak lanjut selanjutnya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -139754,7 +139754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan mendadak tersebut secara halus karena dikerjakan di luar jam kerja resmi.",
+        "teks": "Menolak penugasan mendadak tersebut secara halus karena dikerjakan di luar jam kerja resmi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -139894,7 +139894,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Keluar sementara dari grup tidak resmi tersebut demi menghindari paparan isu bernuansa perpecahan.",
+        "teks": "Keluar sementara dari grup tidak resmi tersebut demi menghindari paparan isu bernuansa perpecahan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -139949,7 +139949,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencatat identitas kedua pegawai tersebut dan menyerahkannya kepada tim pengawasan internal instansi.",
+        "teks": "Mencatat identitas kedua pegawai tersebut dan menyerahkannya kepada tim pengawasan internal instansi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -140064,7 +140064,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberi komentar terbuka di unggahannya agar pembaca lain mengetahui sikap resmi sebagai ASN.",
+        "teks": "Memberi komentar terbuka di unggahannya agar pembaca lain mengetahui sikap resmi sebagai ASN dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 3
       },
       {
@@ -140139,7 +140139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan adik menunggu lebih lama di sekolah hingga rapat penting kantor selesai tuntas.",
+        "teks": "Membiarkan adik menunggu lebih lama di sekolah hingga rapat penting kantor selesai tuntas agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -140209,7 +140209,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak rekan keluar ruangan untuk minum kopi dan menghabiskan waktu luang bersama-sama.",
+        "teks": "Mengajak rekan keluar ruangan untuk minum kopi dan menghabiskan waktu luang bersama-sama supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -140299,7 +140299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berusaha belajar langsung secara tekun kepada pegawai senior yang sudah mahir mengolah data.",
+        "teks": "Berusaha belajar langsung secara tekun kepada pegawai senior yang sudah mahir mengolah data supaya persoalan tidak berlarut-larut.",
         "poin": 4
       },
       {
@@ -140384,7 +140384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merawat rekan yang sakit terlebih dahulu serta membatalkan seluruh jadwal kegiatan penyuluhan desa.",
+        "teks": "Merawat rekan yang sakit terlebih dahulu serta membatalkan seluruh jadwal kegiatan penyuluhan desa agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -140444,7 +140444,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berpura-pura tidak mendengar atau sibuk mengerjakan berkas lain setiap kali diperintah oleh senior.",
+        "teks": "Berpura-pura tidak mendengar atau sibuk mengerjakan berkas lain setiap kali diperintah oleh senior agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -140489,7 +140489,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memaklumi kondisi kamar berantakan karena adik mungkin sedang sibuk menyelesaikan tugas sekolah atau kuliahnya.",
+        "teks": "Memaklumi kondisi kamar berantakan karena adik mungkin sedang sibuk menyelesaikan tugas sekolah atau kuliahnya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -140519,7 +140519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberikan dukungan moral kepada rekan yang bersalah agar tetap bersemangat memperbaiki kesalahannya.",
+        "teks": "Memberikan dukungan moral kepada rekan yang bersalah agar tetap bersemangat memperbaiki kesalahannya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -140574,7 +140574,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan ibu memasak sendiri di dapur karena masakan tangan ibu terasa lebih lezat.",
+        "teks": "Membiarkan ibu memasak sendiri di dapur karena masakan tangan ibu terasa lebih lezat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -140629,7 +140629,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap tidak peduli dengan rencana warga karena malas berdebat panjang di luar dinas.",
+        "teks": "Bersikap tidak peduli dengan rencana warga karena malas berdebat panjang di luar dinas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -140694,7 +140694,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberikan hadiah kecil kepada anak sebagai wujud apresiasi atas kerja kerasnya selama semester.",
+        "teks": "Memberikan hadiah kecil kepada anak sebagai wujud apresiasi atas kerja kerasnya selama semester agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -140729,7 +140729,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Belajar bersama rekan-rekan guru lain di sekolah mengenai cara mengoperasikan perangkat pembelajaran digital.",
+        "teks": "Belajar bersama rekan-rekan guru lain di sekolah mengenai cara mengoperasikan perangkat pembelajaran digital agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -140799,7 +140799,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencari lokasi lapangan lain yang jauh dari rumah tetangga untuk tetap bermain petasan.",
+        "teks": "Mencari lokasi lapangan lain yang jauh dari rumah tetangga untuk tetap bermain petasan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -140904,7 +140904,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta kepada atasan agar sementara waktu pekerjaan dialihkan kepada rekan kerja lain dahulu.",
+        "teks": "Meminta kepada atasan agar sementara waktu pekerjaan dialihkan kepada rekan kerja lain dahulu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -140929,7 +140929,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyampaikan terus terang kepada atasan bahwa Anda tidak sanggup bertugas di daerah terpencil.",
+        "teks": "Menyampaikan terus terang kepada atasan bahwa Anda tidak sanggup bertugas di daerah terpencil agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -141034,7 +141034,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta bantuan rekan sejawat di ruangan untuk menafsirkan maksud deskripsi proyek dari atasan.",
+        "teks": "Meminta bantuan rekan sejawat di ruangan untuk menafsirkan maksud deskripsi proyek dari atasan supaya pekerjaan tetap berjalan.",
         "poin": 4
       },
       {
@@ -141149,7 +141149,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bersikap biasa saja dan berinteraksi sebatas urusan pekerjaan kantor tanpa perlu terlalu akrab.",
+        "teks": "Bersikap biasa saja dan berinteraksi sebatas urusan pekerjaan kantor tanpa perlu terlalu akrab agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -141169,7 +141169,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Disiplin tidak membuang sampah sembarangan ke saluran air di sekitar lingkungan tempat tinggal.",
+        "teks": "Disiplin tidak membuang sampah sembarangan ke saluran air di sekitar lingkungan tempat tinggal agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -141214,7 +141214,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memaksakan anggaran rumah tangga berutang demi meniru gaya hidup mewah yang tampil di layar.",
+        "teks": "Memaksakan anggaran rumah tangga berutang demi meniru gaya hidup mewah yang tampil di layar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -141289,7 +141289,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berusaha mencari penghasilan tambahan lebih keras lagi khusus untuk mendanai hobi koleksi tersebut.",
+        "teks": "Berusaha mencari penghasilan tambahan lebih keras lagi khusus untuk mendanai hobi koleksi tersebut agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -141314,7 +141314,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap memberikan dukungan penuh kepada idola tersebut apa pun kesalahan hukum yang dilakukannya.",
+        "teks": "Tetap memberikan dukungan penuh kepada idola tersebut apa pun kesalahan hukum yang dilakukannya supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -141324,7 +141324,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Aktif membela sang idola di forum daring setiap kali ia dikritik oleh warganet.",
+        "teks": "Aktif membela sang idola di forum daring setiap kali ia dikritik oleh warganet agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -141399,7 +141399,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap acuh tak acuh terhadap pembaruan teknologi selama tugas manual masih bisa dikerjakan.",
+        "teks": "Bersikap acuh tak acuh terhadap pembaruan teknologi selama tugas manual masih bisa dikerjakan supaya pekerjaan tetap berjalan.",
         "poin": 1
       }
     ],
@@ -141424,7 +141424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta saran pertimbangan dari rekan sesama tim seleksi dalam mengambil keputusan akhir penilaian.",
+        "teks": "Meminta saran pertimbangan dari rekan sesama tim seleksi dalam mengambil keputusan akhir penilaian agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -141469,7 +141469,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memarahi rekan tersebut dengan suara keras karena dinilai ceroboh saat menginput data penting.",
+        "teks": "Memarahi rekan tersebut dengan suara keras karena dinilai ceroboh saat menginput data penting sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -141489,7 +141489,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta tolong kepada ibu di rumah untuk membelikan pakaian tersebut di pasar terdekat.",
+        "teks": "Meminta tolong kepada ibu di rumah untuk membelikan pakaian tersebut di pasar terdekat demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
@@ -141519,7 +141519,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memilih bersantai duduk di kursi meja sendiri sembari menunggu bunyi bel jam pulang.",
+        "teks": "Memilih bersantai duduk di kursi meja sendiri sembari menunggu bunyi bel jam pulang supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -141559,7 +141559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap mengerjakan tugas surat-menyurat secara manual terlebih dahulu karena dirasa jauh lebih nyaman.",
+        "teks": "Tetap mengerjakan tugas surat-menyurat secara manual terlebih dahulu karena dirasa jauh lebih nyaman sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -141589,7 +141589,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur rekan tersebut secara langsung di depan umum agar ia merasa malu dan jera.",
+        "teks": "Menegur rekan tersebut secara langsung di depan umum agar ia merasa malu dan jera sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -141669,7 +141669,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berusaha mengambil jalur lorong lain yang lebih sepi apabila kondisi sekitar memang memungkinkan.",
+        "teks": "Berusaha mengambil jalur lorong lain yang lebih sepi apabila kondisi sekitar memang memungkinkan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -141704,7 +141704,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengirimi dosen pesan singkat berbohong bahwa Anda sedang sakit keras tidak bisa bicara.",
+        "teks": "Mengirimi dosen pesan singkat berbohong bahwa Anda sedang sakit keras tidak bisa bicara agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -141784,7 +141784,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak mengobrol rekan kerja sebelah yang memiliki selera humor agar tidak merasa jenuh.",
+        "teks": "Mengajak mengobrol rekan kerja sebelah yang memiliki selera humor agar tidak merasa jenuh sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -141819,7 +141819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta ikut dilibatkan dalam pembagian sisa kas kegiatan tersebut demi kepentingan pribadi Anda.",
+        "teks": "Meminta ikut dilibatkan dalam pembagian sisa kas kegiatan tersebut demi kepentingan pribadi Anda sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -141869,7 +141869,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajari siswa tersebut secara sabar berulang-ulang di luar jam pelajaran hingga ia memahami.",
+        "teks": "Mengajari siswa tersebut secara sabar berulang-ulang di luar jam pelajaran hingga ia memahami agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -141959,7 +141959,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyalahkan anggota tim lainnya karena dianggap tidak berusaha bekerja semaksimal mungkin dari awal.",
+        "teks": "Menyalahkan anggota tim lainnya karena dianggap tidak berusaha bekerja semaksimal mungkin dari awal sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -141979,7 +141979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap fokus menjalankan tugas rutin harian kantor saja sambil menunggu hari pelaksanaan lomba.",
+        "teks": "Tetap fokus menjalankan tugas rutin harian kantor saja sambil menunggu hari pelaksanaan lomba agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -142124,7 +142124,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memberikan kesempatan kerja langsung kepada keponakan semata-mata karena pertimbangan ikatan keluarga dekat.",
+        "teks": "Memberikan kesempatan kerja langsung kepada keponakan semata-mata karena pertimbangan ikatan keluarga dekat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -142229,7 +142229,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memprioritaskan merawat ibu di rumah hingga pulih sembuh karena kesehatan ibu paling utama.",
+        "teks": "Memprioritaskan merawat ibu di rumah hingga pulih sembuh karena kesehatan ibu paling utama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -142294,7 +142294,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Bersikap biasa saja dan hanya berfokus menyelesaikan kewajiban pribadi di tempat kerja baru.",
+        "teks": "Bersikap biasa saja dan hanya berfokus menyelesaikan kewajiban pribadi di tempat kerja baru agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -142364,7 +142364,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta juru parkir menukarkan dahulu uang pecahan tersebut ke warung agar mendapat kembalian.",
+        "teks": "Meminta juru parkir menukarkan dahulu uang pecahan tersebut ke warung agar mendapat kembalian sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -142414,7 +142414,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendukung penuh cerita adik tersebut karena menganggap hal itu sekadar candaan anak kecil.",
+        "teks": "Mendukung penuh cerita adik tersebut karena menganggap hal itu sekadar candaan anak kecil sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -142499,7 +142499,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pergi ke kantin kantor untuk sarapan pagi terlebih dahulu sebelum mulai menyentuh pekerjaan.",
+        "teks": "Pergi ke kantin kantor untuk sarapan pagi terlebih dahulu sebelum mulai menyentuh pekerjaan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -142624,7 +142624,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengusulkan langsung kepada pimpinan di grup agar jadwal rapat mendadak tersebut ditunda saja.",
+        "teks": "Mengusulkan langsung kepada pimpinan di grup agar jadwal rapat mendadak tersebut ditunda saja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -142654,7 +142654,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bersikap tidak peduli dengan penilaian pimpinan karena kesalahan itu dilakukan oleh anggota tim.",
+        "teks": "Bersikap tidak peduli dengan penilaian pimpinan karena kesalahan itu dilakukan oleh anggota tim sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -142719,7 +142719,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tetap menyerahkan berkas hasil pekerjaan tersebut secara diam tanpa bersedia melakukan revisi ulang.",
+        "teks": "Tetap menyerahkan berkas hasil pekerjaan tersebut secara diam tanpa bersedia melakukan revisi ulang agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -142784,7 +142784,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memeriksa kondisi komputer atasan sebentar terlebih dahulu lalu baru menyusul masuk ruang diklat.",
+        "teks": "Memeriksa kondisi komputer atasan sebentar terlebih dahulu lalu baru menyusul masuk ruang diklat agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -142864,7 +142864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghubungi atasan lewat pesan singkat memohon izin bahwa Anda akan datang sedikit terlambat.",
+        "teks": "Menghubungi atasan lewat pesan singkat memohon izin bahwa Anda akan datang sedikit terlambat agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -142904,7 +142904,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memutuskan tidak lagi melayani pesanan katering dari pelanggan yang banyak mengeluh tersebut lagi.",
+        "teks": "Memutuskan tidak lagi melayani pesanan katering dari pelanggan yang banyak mengeluh tersebut lagi agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -142999,7 +142999,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunjukkan komitmen integritas pribadi dalam menunaikan amanah tugas yang telah diberikan oleh instansi.",
+        "teks": "Menunjukkan komitmen integritas pribadi dalam menunaikan amanah tugas yang telah diberikan oleh instansi agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -143044,7 +143044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak rekan kerja lainnya bergosip membicarakan kebiasaan pencitraan rekan tersebut di belakang meja.",
+        "teks": "Mengajak rekan kerja lainnya bergosip membicarakan kebiasaan pencitraan rekan tersebut di belakang meja agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -143134,7 +143134,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memarahi langsung petugas pelayan di meja depan karena pelayanan yang sangat mengecewakan.",
+        "teks": "Memarahi langsung petugas pelayan di meja depan karena pelayanan yang sangat mengecewakan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -143179,7 +143179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa sangat malu dan tertekan karena dimarahi atasan di depan rekan-rekan kerja lainnya.",
+        "teks": "Merasa sangat malu dan tertekan karena dimarahi atasan di depan rekan-rekan kerja lainnya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -143324,7 +143324,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memarahi pasien tersebut agar segera tenang dan mengikuti prosedur pemeriksaan medis.",
+        "teks": "Memarahi pasien tersebut agar segera tenang dan mengikuti prosedur pemeriksaan medis sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -143354,7 +143354,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merekam kejadian tersebut diam-diam lalu menyebarkannya ke media sosial agar viral.",
+        "teks": "Merekam kejadian tersebut diam-diam lalu menyebarkannya ke media sosial agar viral sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -143384,7 +143384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyajikan konten hiburan ringan agar pengikut akun merasa terhibur setiap hari.",
+        "teks": "Menyajikan konten hiburan ringan agar pengikut akun merasa terhibur setiap hari sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -143424,7 +143424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa heran terhadap kebijakan lembaga yang seolah mendukung tindakan pidana tersangka.",
+        "teks": "Merasa heran terhadap kebijakan lembaga yang seolah mendukung tindakan pidana tersangka agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -143444,7 +143444,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Layanan televisi nasional saat ini sangat mengecewakan karena seluruh tayangannya tidak mendidik.",
+        "teks": "Layanan televisi nasional saat ini sangat mengecewakan karena seluruh tayangannya tidak mendidik sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -143514,7 +143514,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memilih bekerja hanya dengan rekan berintegritas tinggi agar kinerjanya tidak terganggu.",
+        "teks": "Memilih bekerja hanya dengan rekan berintegritas tinggi agar kinerjanya tidak terganggu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -143559,7 +143559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencari tahu akar penyebab perselisihan mereka tanpa berupaya membantu mencari solusi.",
+        "teks": "Mencari tahu akar penyebab perselisihan mereka tanpa berupaya membantu mencari solusi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -143639,7 +143639,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencari pegawai lain di subbagian keuangan agar terhindar dari rekan tersebut.",
+        "teks": "Mencari pegawai lain di subbagian keuangan agar terhindar dari rekan tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -143674,7 +143674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghadiri acara keluarga terlebih dahulu baru menyusul ke lokasi bakti sosial.",
+        "teks": "Menghadiri acara keluarga terlebih dahulu baru menyusul ke lokasi bakti sosial demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       }
     ],
@@ -143704,7 +143704,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari kepengurusan organisasi pegawai dengan alasan fokus tugas belajar.",
+        "teks": "Mengundurkan diri dari kepengurusan organisasi pegawai dengan alasan fokus tugas belajar agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -143769,7 +143769,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tidak memedulikan reputasi seluruh pesaing yang ikut serta dalam perlombaan tersebut.",
+        "teks": "Tidak memedulikan reputasi seluruh pesaing yang ikut serta dalam perlombaan tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -143794,7 +143794,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengusahakan tercapainya target karier tersebut dengan bekerja keras dan bersungguh-sungguh.",
+        "teks": "Mengusahakan tercapainya target karier tersebut dengan bekerja keras dan bersungguh-sungguh agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -143879,7 +143879,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak langsung mempercayai laporan yang disampaikan oleh staf tersebut tanpa bukti.",
+        "teks": "Tidak langsung mempercayai laporan yang disampaikan oleh staf tersebut tanpa bukti supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -143914,7 +143914,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghapus aplikasi pemutar video dari ponsel adik agar tidak menonton lagi.",
+        "teks": "Menghapus aplikasi pemutar video dari ponsel adik agar tidak menonton lagi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -144054,7 +144054,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tetap pergi ke ruang perpustakaan fisik untuk mencari dokumen referensi tersebut.",
+        "teks": "Tetap pergi ke ruang perpustakaan fisik untuk mencari dokumen referensi tersebut supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -144089,7 +144089,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menawarkan jasa pengerjaan tugas ilmiah milik orang lain demi memperoleh bayaran.",
+        "teks": "Menawarkan jasa pengerjaan tugas ilmiah milik orang lain demi memperoleh bayaran sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -144109,7 +144109,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Konten hiburan ringan yang menyenangkan untuk sekadar melepaskan rasa lelah bekerja.",
+        "teks": "Konten hiburan ringan yang menyenangkan untuk sekadar melepaskan rasa lelah bekerja agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -144159,7 +144159,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti perkembangan berita viral semata agar tidak tertinggal perbincangan di kantor.",
+        "teks": "Mengikuti perkembangan berita viral semata agar tidak tertinggal perbincangan di kantor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -144184,7 +144184,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta bantuan rekan kerja yang kompeten untuk mengerjakan seluruh laporan tersebut.",
+        "teks": "Meminta bantuan rekan kerja yang kompeten untuk mengerjakan seluruh laporan tersebut supaya pekerjaan tetap berjalan.",
         "poin": 4
       },
       {
@@ -144224,7 +144224,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunggu di tempat hingga rekan tersebut meminta bantuan Anda secara langsung.",
+        "teks": "Menunggu di tempat hingga rekan tersebut meminta bantuan Anda secara langsung agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -144329,7 +144329,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berusaha mencairkan suasana dan membangun kembali komunikasi baik dengan rekan tersebut.",
+        "teks": "Berusaha mencairkan suasana dan membangun kembali komunikasi baik dengan rekan tersebut agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -144474,7 +144474,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencari tahu aturan disiplin dan standar kerja resmi rumah sakit tersebut.",
+        "teks": "Mencari tahu aturan disiplin dan standar kerja resmi rumah sakit tersebut supaya pekerjaan tetap berjalan.",
         "poin": 4
       },
       {
@@ -144539,7 +144539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memilih diam dan tidak menyampaikan pendapat karena khawatir tidak didengar forum.",
+        "teks": "Memilih diam dan tidak menyampaikan pendapat karena khawatir tidak didengar forum sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -144599,7 +144599,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa kecewa dalam hati atas sikap kaku dan intoleran ketua tim.",
+        "teks": "Merasa kecewa dalam hati atas sikap kaku dan intoleran ketua tim agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -144654,7 +144654,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak para warga sekitar bersama-sama menghentikan aksi kekerasan saat kejadian berlangsung.",
+        "teks": "Mengajak para warga sekitar bersama-sama menghentikan aksi kekerasan saat kejadian berlangsung agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -144674,7 +144674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih berteman hanya dengan rekan yang memiliki latar belakang keluarga serumpun.",
+        "teks": "Memilih berteman hanya dengan rekan yang memiliki latar belakang keluarga serumpun agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -144714,7 +144714,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berdiskusi secara terbuka dengan pasangan untuk mencari jalan tengah terbaik bersama.",
+        "teks": "Berdiskusi secara terbuka dengan pasangan untuk mencari jalan tengah terbaik bersama agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -144759,7 +144759,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membersihkan sendiri seluruh ruangan kerja tersebut tanpa melibatkan petugas kebersihan kantor.",
+        "teks": "Membersihkan sendiri seluruh ruangan kerja tersebut tanpa melibatkan petugas kebersihan kantor agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -144794,7 +144794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap acuh tak acuh terhadap pasien tersebut sampai jam pelayanan dibuka.",
+        "teks": "Bersikap acuh tak acuh terhadap pasien tersebut sampai jam pelayanan dibuka agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -144824,7 +144824,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menutup akses kolom komentar pada unggahan tersebut agar tidak memicu perdebatan.",
+        "teks": "Menutup akses kolom komentar pada unggahan tersebut agar tidak memicu perdebatan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -144844,7 +144844,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti kebiasaan lama pegawai senior datang terlambat ke ruang kerja pelayanan.",
+        "teks": "Mengikuti kebiasaan lama pegawai senior datang terlambat ke ruang kerja pelayanan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -144929,7 +144929,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Arahan lisan dari pimpinan unit kerja yang sedang bertugas pada hari itu.",
+        "teks": "Arahan lisan dari pimpinan unit kerja yang sedang bertugas pada hari itu agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -144954,7 +144954,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunjukkan arah jalan menuju ruang laboratorium agar pasien bertanya sendiri di sana.",
+        "teks": "Menunjukkan arah jalan menuju ruang laboratorium agar pasien bertanya sendiri di sana sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -144994,7 +144994,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta orang tua menunda jadwal acara keluarga sampai Anda selesai berkegiatan.",
+        "teks": "Meminta orang tua menunda jadwal acara keluarga sampai Anda selesai berkegiatan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -145054,7 +145054,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluhkan tingginya beban kerja di ruangan kepada sesama rekan perawat jaga.",
+        "teks": "Mengeluhkan tingginya beban kerja di ruangan kepada sesama rekan perawat jaga agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -145109,7 +145109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memantau saja tindakan rekan kerja tersebut dari jauh tanpa menegur langsung.",
+        "teks": "Memantau saja tindakan rekan kerja tersebut dari jauh tanpa menegur langsung agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -145134,7 +145134,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak mentah-mentah usulan solusi tersebut karena berasal dari rekan yang berseberangan.",
+        "teks": "Menolak mentah-mentah usulan solusi tersebut karena berasal dari rekan yang berseberangan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -145169,7 +145169,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Melakukan evaluasi masalah seorang diri di ruang kerja tanpa melibatkan bawahan.",
+        "teks": "Melakukan evaluasi masalah seorang diri di ruang kerja tanpa melibatkan bawahan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -145244,7 +145244,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberitahukan informasi ancaman organisasi tersebut hanya kepada rekan kerja terdekat saja.",
+        "teks": "Memberitahukan informasi ancaman organisasi tersebut hanya kepada rekan kerja terdekat saja agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -145279,7 +145279,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankannya segera mundur dari kepanitiaan agar dapat fokus menjalani pengobatan medis.",
+        "teks": "Menyarankannya segera mundur dari kepanitiaan agar dapat fokus menjalani pengobatan medis sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -145319,7 +145319,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap tidak peduli setiap kali rekan baru tersebut datang meminta bantuan.",
+        "teks": "Bersikap tidak peduli setiap kali rekan baru tersebut datang meminta bantuan agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -145389,7 +145389,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Hanya memfokuskan seluruh perhatian pada ambisi pribadi dan karier masa depan.",
+        "teks": "Hanya memfokuskan seluruh perhatian pada ambisi pribadi dan karier masa depan supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -145439,7 +145439,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut bergabung mengobrol bersama peserta lain karena materi dirasa kurang menarik.",
+        "teks": "Ikut bergabung mengobrol bersama peserta lain karena materi dirasa kurang menarik sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -145529,7 +145529,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Langsung menanyakan rincian pembagian tugas pokok dan hak fasilitas kerja Anda.",
+        "teks": "Langsung menanyakan rincian pembagian tugas pokok dan hak fasilitas kerja Anda agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -145579,7 +145579,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menuruti seluruh perintah oknum senior tersebut karena takut menjadi sasaran perundungan.",
+        "teks": "Menuruti seluruh perintah oknum senior tersebut karena takut menjadi sasaran perundungan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -145629,7 +145629,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta bantuan rekan sesama peserta diklat untuk mengerjakan tugas daring Anda.",
+        "teks": "Meminta bantuan rekan sesama peserta diklat untuk mengerjakan tugas daring Anda agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -145664,7 +145664,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak peduli dengan perkembangan aplikasi belanja digital karena merasa tidak perlu.",
+        "teks": "Tidak peduli dengan perkembangan aplikasi belanja digital karena merasa tidak perlu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -145834,7 +145834,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tetap ikut membantu rekan tersebut mendesain pamflet sosialisasi dengan cara manual.",
+        "teks": "Tetap ikut membantu rekan tersebut mendesain pamflet sosialisasi dengan cara manual supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -145979,7 +145979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Sekadar menganggukkan kepala tanda mengerti tanpa memberikan usulan masukan apa pun.",
+        "teks": "Sekadar menganggukkan kepala tanda mengerti tanpa memberikan usulan masukan apa pun agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -146009,7 +146009,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung menyusun program kerja baru sebagai solusi atas keluhan layanan masyarakat.",
+        "teks": "Langsung menyusun program kerja baru sebagai solusi atas keluhan layanan masyarakat agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -146074,7 +146074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menelusuri kebenaran laporan seorang diri terlebih dahulu lalu mengambil keputusan bijak.",
+        "teks": "Menelusuri kebenaran laporan seorang diri terlebih dahulu lalu mengambil keputusan bijak agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -146144,7 +146144,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap ikut bergabung dalam kelompok tersebut demi menjaga perasaan teman baru.",
+        "teks": "Tetap ikut bergabung dalam kelompok tersebut demi menjaga perasaan teman baru sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -146179,7 +146179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempercayai kabar tersebut karena rekan itu dikenal sangat aktif di media sosial.",
+        "teks": "Mempercayai kabar tersebut karena rekan itu dikenal sangat aktif di media sosial sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -146229,7 +146229,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersedia mempertimbangkan saran pilihan kampus yang disampaikan oleh orang tua tersebut.",
+        "teks": "Bersedia mempertimbangkan saran pilihan kampus yang disampaikan oleh orang tua tersebut agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -146394,7 +146394,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tidak masuk bertugas pada shift siang begitu saja tanpa konfirmasi apa pun.",
+        "teks": "Tidak masuk bertugas pada shift siang begitu saja tanpa konfirmasi apa pun supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -146459,7 +146459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Langsung masuk ke ruang jaga dan mulai bekerja tanpa mengucapkan sepatah kata.",
+        "teks": "Langsung masuk ke ruang jaga dan mulai bekerja tanpa mengucapkan sepatah kata agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -146559,7 +146559,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti saja seluruh alur prosedur pelayanan di loket tersebut tanpa komentar apa pun.",
+        "teks": "Mengikuti saja seluruh alur prosedur pelayanan di loket tersebut tanpa komentar apa pun agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -146609,7 +146609,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Segera memperbaiki gangguan sistem aplikasi tersebut dengan perasaan kesal dan tidak ikhlas.",
+        "teks": "Segera memperbaiki gangguan sistem aplikasi tersebut dengan perasaan kesal dan tidak ikhlas agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -146629,7 +146629,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengingatkan batas waktu penyelesaian tugas tersebut kepada staf secara berkala setiap hari.",
+        "teks": "Mengingatkan batas waktu penyelesaian tugas tersebut kepada staf secara berkala setiap hari agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -146709,7 +146709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan rekan kerja tersebut menyendiri terlebih dahulu untuk menenangkan diri dari duka.",
+        "teks": "Membiarkan rekan kerja tersebut menyendiri terlebih dahulu untuk menenangkan diri dari duka agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -146769,7 +146769,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berdiam diri di meja kerja saja tanpa melakukan inisiatif bertanya apa pun.",
+        "teks": "Berdiam diri di meja kerja saja tanpa melakukan inisiatif bertanya apa pun agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -146919,7 +146919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Hanya memfokuskan diri pada penyelesaian pekerjaan kantor tanpa banyak berinteraksi sosial.",
+        "teks": "Hanya memfokuskan diri pada penyelesaian pekerjaan kantor tanpa banyak berinteraksi sosial agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -146959,7 +146959,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membantu membacakan surat kabar untuk nenek sebentar lalu kembali melanjutkan belajar lagi.",
+        "teks": "Membantu membacakan surat kabar untuk nenek sebentar lalu kembali melanjutkan belajar lagi agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -146999,7 +146999,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengatakan akan menyusul belakangan ke kantin setelah menyelesaikan urusan pribadi di meja.",
+        "teks": "Mengatakan akan menyusul belakangan ke kantin setelah menyelesaikan urusan pribadi di meja agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -147119,7 +147119,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur langsung rekan senior tersebut agar segera menghentikan sikap semena-mena kepada junior.",
+        "teks": "Menegur langsung rekan senior tersebut agar segera menghentikan sikap semena-mena kepada junior sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -147194,7 +147194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta rekan kerja mengajarinya cara mengajukan pinjaman cepat melalui aplikasi digital tersebut.",
+        "teks": "Meminta rekan kerja mengajarinya cara mengajukan pinjaman cepat melalui aplikasi digital tersebut agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -147229,7 +147229,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengalami kesulitan memahami pengoperasian perangkat lunak maupun aplikasi sistem kerja digital baru.",
+        "teks": "Mengalami kesulitan memahami pengoperasian perangkat lunak maupun aplikasi sistem kerja digital baru agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -147259,7 +147259,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memanfaatkan hari libur akhir pekan untuk membuka kelas bimbingan belajar tatap muka.",
+        "teks": "Memanfaatkan hari libur akhir pekan untuk membuka kelas bimbingan belajar tatap muka agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -147304,7 +147304,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tetap memilih memberikan pelayanan pengaduan masyarakat secara tatap muka langsung di loket.",
+        "teks": "Tetap memilih memberikan pelayanan pengaduan masyarakat secara tatap muka langsung di loket agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -147349,7 +147349,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menasihati pengirim pesan tersebut secara singkat agar tidak berniat melakukan perbuatan jahat.",
+        "teks": "Menasihati pengirim pesan tersebut secara singkat agar tidak berniat melakukan perbuatan jahat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -147419,7 +147419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencari tahu informasi mengenai jenis gim daring yang sering dimainkan rekan tersebut.",
+        "teks": "Mencari tahu informasi mengenai jenis gim daring yang sering dimainkan rekan tersebut agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -147454,7 +147454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meniadakan seluruh kuota cuti hari raya pegawai karena tuntutan pekerjaan masih menumpuk.",
+        "teks": "Meniadakan seluruh kuota cuti hari raya pegawai karena tuntutan pekerjaan masih menumpuk sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -147484,7 +147484,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti proses seleksi lowongan pekerjaan di tempat lain tersebut secara diam-diam saja.",
+        "teks": "Mengikuti proses seleksi lowongan pekerjaan di tempat lain tersebut secara diam-diam saja agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -147539,7 +147539,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberitahu kerabat tersebut secara sopan agar mematuhi seluruh SOP penerimaan mahasiswa baru.",
+        "teks": "Memberitahu kerabat tersebut secara sopan agar mematuhi seluruh SOP penerimaan mahasiswa baru sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -147589,7 +147589,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melaporkan langsung upaya pemberian uang suap dari orang tua siswa kepada kepala sekolah.",
+        "teks": "Melaporkan langsung upaya pemberian uang suap dari orang tua siswa kepada kepala sekolah agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -147609,7 +147609,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berkata jujur kepada pegawai senior bahwa Anda belum mengetahui cara menyelesaikan tugasnya.",
+        "teks": "Berkata jujur kepada pegawai senior bahwa Anda belum mengetahui cara menyelesaikan tugasnya supaya persoalan tidak berlarut-larut.",
         "poin": 4
       },
       {
@@ -147619,12 +147619,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pegawai senior tersebut menunjuk rekan lain yang jauh lebih menguasai tugasnya.",
+        "teks": "Meminta pegawai senior tersebut menunjuk rekan lain yang jauh lebih menguasai tugasnya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Tetap bersikap sok tahu dan langsung mengambil alih pekerjaan tanpa bertanya dulu.",
+        "teks": "Tetap bersikap sok tahu dan langsung mengambil alih pekerjaan tanpa bertanya dulu supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -147644,7 +147644,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memilih menyewa kamar kos di dekat lokasi kantor agar lebih mudah dijangkau.",
+        "teks": "Memilih menyewa kamar kos di dekat lokasi kantor agar lebih mudah dijangkau sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -147854,7 +147854,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap berpegang kaku pada aturan kantor dengan mewajibkan seluruh pegawai tanpa kecuali.",
+        "teks": "Tetap berpegang kaku pada aturan kantor dengan mewajibkan seluruh pegawai tanpa kecuali agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -147899,7 +147899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Melakukan negosiasi kepada kepala ruangan agar hanya mendapat jadwal shift pagi saja.",
+        "teks": "Melakukan negosiasi kepada kepala ruangan agar hanya mendapat jadwal shift pagi saja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -147939,7 +147939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Langsung menyelesaikan perintah tugas atasan seorang diri dan membatalkan janji bersama sahabat.",
+        "teks": "Langsung menyelesaikan perintah tugas atasan seorang diri dan membatalkan janji bersama sahabat agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -148039,7 +148039,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Segera menghadap Kepala Puskesmas terlebih dahulu agar cepat selesai lalu menangani korban.",
+        "teks": "Segera menghadap Kepala Puskesmas terlebih dahulu agar cepat selesai lalu menangani korban sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -148099,7 +148099,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pelaku usaha tersebut pulang dan kembali besok karena jam layanan tutup.",
+        "teks": "Meminta pelaku usaha tersebut pulang dan kembali besok karena jam layanan tutup sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -148179,7 +148179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta izin kepada atasan untuk mengantar merawat rekan sakit karena hubungan dekat.",
+        "teks": "Meminta izin kepada atasan untuk mengantar merawat rekan sakit karena hubungan dekat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -148224,7 +148224,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap biasa saja dan pasrah menerima nasib penempatan sebagai petugas meja informasi.",
+        "teks": "Bersikap biasa saja dan pasrah menerima nasib penempatan sebagai petugas meja informasi agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -148239,7 +148239,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan seluruh gosip miring di kantor tersebut karena merasa semuanya tidak benar.",
+        "teks": "Membiarkan seluruh gosip miring di kantor tersebut karena merasa semuanya tidak benar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -148294,7 +148294,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Berusaha mengenal beberapa anggota panitia yang memang belum Anda kenal terlebih dahulu.",
+        "teks": "Berusaha mengenal beberapa anggota panitia yang memang belum Anda kenal terlebih dahulu agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -148309,7 +148309,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melihat dan mempelajari terlebih dahulu jenis tugasnya baru memutuskan akan membantu atau tidak.",
+        "teks": "Melihat dan mempelajari terlebih dahulu jenis tugasnya baru memutuskan akan membantu atau tidak agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -148364,7 +148364,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap biasa saja karena menganggap ketegangan tersebut akan mereda seiring berjalannya waktu.",
+        "teks": "Bersikap biasa saja karena menganggap ketegangan tersebut akan mereda seiring berjalannya waktu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -148379,7 +148379,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta maaf kepadanya hanya karena diminta rekan lain agar koordinasi tetap berjalan.",
+        "teks": "Meminta maaf kepadanya hanya karena diminta rekan lain agar koordinasi tetap berjalan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -148434,7 +148434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendekati satu orang rekan kantor saja yang dirasa paling mudah diajak akrab.",
+        "teks": "Mendekati satu orang rekan kantor saja yang dirasa paling mudah diajak akrab agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -148449,7 +148449,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencatat usulan efisiensi tersebut untuk dipertimbangkan pelaksanaannya pada proyek pembangunan selanjutnya.",
+        "teks": "Mencatat usulan efisiensi tersebut untuk dipertimbangkan pelaksanaannya pada proyek pembangunan selanjutnya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -148484,7 +148484,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap menonton drama asing tersebut namun melarang anak-anak di bawah umur ikut menyaksikan.",
+        "teks": "Tetap menonton drama asing tersebut namun melarang anak-anak di bawah umur ikut menyaksikan agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -148574,7 +148574,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjelaskan duduk perkara kesalahpahaman dana program tersebut secara langsung antara Anda dan Yogi.",
+        "teks": "Menjelaskan duduk perkara kesalahpahaman dana program tersebut secara langsung antara Anda dan Yogi agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -148609,7 +148609,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menolak keras kehadiran pengungsi di Indonesia karena dianggap mengancam tatanan budaya bangsa.",
+        "teks": "Menolak keras kehadiran pengungsi di Indonesia karena dianggap mengancam tatanan budaya bangsa sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -148639,7 +148639,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bersikap biasa saja seperti rekan lainnya dan menghormati keinginannya dalam berinteraksi sosial.",
+        "teks": "Bersikap biasa saja seperti rekan lainnya dan menghormati keinginannya dalam berinteraksi sosial agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -148679,7 +148679,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Baru datang bergabung ke lokasi kerja bakti ketika kegiatan sudah hampir selesai.",
+        "teks": "Baru datang bergabung ke lokasi kerja bakti ketika kegiatan sudah hampir selesai agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -148809,7 +148809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Hanya melamar pada instansi atau perusahaan besar saja sesuai keyakinan kemampuan diri.",
+        "teks": "Hanya melamar pada instansi atau perusahaan besar saja sesuai keyakinan kemampuan diri agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -148854,7 +148854,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta rekomendasi merek ponsel pintar keluaran terbaru kepada rekan kerja di kantor.",
+        "teks": "Meminta rekomendasi merek ponsel pintar keluaran terbaru kepada rekan kerja di kantor agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -148979,7 +148979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan saja kesalahan teknis desain tersebut selama pihak mitra tidak menyadarinya sama sekali.",
+        "teks": "Membiarkan saja kesalahan teknis desain tersebut selama pihak mitra tidak menyadarinya sama sekali agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -149164,7 +149164,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menggelar rapat besar seluruh warga RW khusus untuk membahas perselisihan kedua warga.",
+        "teks": "Menggelar rapat besar seluruh warga RW khusus untuk membahas perselisihan kedua warga agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -149194,7 +149194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tetap masuk kantor setengah hari pagi saja lalu pulang jika suasana sepi.",
+        "teks": "Tetap masuk kantor setengah hari pagi saja lalu pulang jika suasana sepi supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -149274,7 +149274,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyatakan penolakan terhadap aksi kekerasan bersenjata karena mengancam keselamatan jiwa warga sipil.",
+        "teks": "Menyatakan penolakan terhadap aksi kekerasan bersenjata karena mengancam keselamatan jiwa warga sipil sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -149294,7 +149294,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tidak mengucapkan selamat hari raya sama sekali karena bukan perayaan agama Anda.",
+        "teks": "Tidak mengucapkan selamat hari raya sama sekali karena bukan perayaan agama Anda sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -149379,7 +149379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa yakin bahwa seluruh anggota keluarga sudah cukup cerdas menyaring informasi internet.",
+        "teks": "Merasa yakin bahwa seluruh anggota keluarga sudah cukup cerdas menyaring informasi internet supaya pekerjaan tetap berjalan.",
         "poin": 1
       }
     ],
@@ -149394,7 +149394,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menulis artikel opini berdasarkan pengalaman pribadi terkait isu radikalisme yang pernah dialami.",
+        "teks": "Menulis artikel opini berdasarkan pengalaman pribadi terkait isu radikalisme yang pernah dialami agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -149484,7 +149484,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak anggota grup lebih giat membagikan berita positif dari sumber yang valid.",
+        "teks": "Mengajak anggota grup lebih giat membagikan berita positif dari sumber yang valid agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       }
     ],
@@ -149519,7 +149519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Langsung memimpin doa bersama secara lantang berdasarkan tata cara agama yang dianut.",
+        "teks": "Langsung memimpin doa bersama secara lantang berdasarkan tata cara agama yang dianut supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -149554,7 +149554,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengingatkan warga bahwa setiap orang memiliki hak tinggal di properti miliknya sendiri.",
+        "teks": "Mengingatkan warga bahwa setiap orang memiliki hak tinggal di properti miliknya sendiri supaya persoalan tidak berlarut-larut.",
         "poin": 2
       }
     ],
@@ -149744,7 +149744,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta maaf kepada ibu dengan sopan dan mengatakan sedang tidak bisa menjemput.",
+        "teks": "Meminta maaf kepada ibu dengan sopan dan mengatakan sedang tidak bisa menjemput agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -149799,7 +149799,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta izin pertimbangan kepada atasan karena sudah terlanjur berjanji dengan rekan kerja.",
+        "teks": "Meminta izin pertimbangan kepada atasan karena sudah terlanjur berjanji dengan rekan kerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -149819,7 +149819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menggali informasi mengenai fitur-fitur aplikasi pengingat yang bisa membantu jadwal hariannya.",
+        "teks": "Menggali informasi mengenai fitur-fitur aplikasi pengingat yang bisa membantu jadwal hariannya agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -149864,7 +149864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak menghiraukan apabila menemukan komentar kasar atau provokatif di linimasa media sosial.",
+        "teks": "Tidak menghiraukan apabila menemukan komentar kasar atau provokatif di linimasa media sosial agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -149919,7 +149919,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencari informasi umum mengenai cara kerja sistem aplikasi IT baru tersebut dahulu.",
+        "teks": "Mencari informasi umum mengenai cara kerja sistem aplikasi IT baru tersebut dahulu agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -150029,7 +150029,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Penyampaian argumentasi logis berdasarkan data fakta dalam setiap rapat pembahasan teknis pekerjaan.",
+        "teks": "Penyampaian argumentasi logis berdasarkan data fakta dalam setiap rapat pembahasan teknis pekerjaan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -150164,7 +150164,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta masyarakat pengguna untuk menuliskan dan menyampaikan seluruh keluhan mereka melalui formulir.",
+        "teks": "Meminta masyarakat pengguna untuk menuliskan dan menyampaikan seluruh keluhan mereka melalui formulir agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -150214,7 +150214,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak mempermasalahkan kendala tersebut karena hampir seluruh daerah lain mengalami hal serupa.",
+        "teks": "Tidak mempermasalahkan kendala tersebut karena hampir seluruh daerah lain mengalami hal serupa sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -150234,7 +150234,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta maaf dan meminta kakek tersebut tetap mengantre sesuai nomor urut panggilannya.",
+        "teks": "Meminta maaf dan meminta kakek tersebut tetap mengantre sesuai nomor urut panggilannya agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -150269,7 +150269,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menahan emosi diri dan menjawab pertanyaannya karena sudah menjadi tugas utama melayani.",
+        "teks": "Menahan emosi diri dan menjawab pertanyaannya karena sudah menjadi tugas utama melayani sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -150324,7 +150324,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membawa seluruh berkas pekerjaan dinas tersebut pulang untuk dikerjakan hingga larut malam.",
+        "teks": "Membawa seluruh berkas pekerjaan dinas tersebut pulang untuk dikerjakan hingga larut malam agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -150349,7 +150349,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak tawaran kemitraan tersebut dengan alasan lokasi kabupaten mitra terlalu jauh dijangkau.",
+        "teks": "Menolak tawaran kemitraan tersebut dengan alasan lokasi kabupaten mitra terlalu jauh dijangkau agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -150384,7 +150384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung meracikkan obat pesanan pasien tersebut karena merasa kasihan menunggu terlalu lama.",
+        "teks": "Langsung meracikkan obat pesanan pasien tersebut karena merasa kasihan menunggu terlalu lama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -150454,7 +150454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung melaporkan pelanggaran jam pulang rekan kerja tersebut kepada pimpinan unit kerja.",
+        "teks": "Langsung melaporkan pelanggaran jam pulang rekan kerja tersebut kepada pimpinan unit kerja agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -150559,7 +150559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematikan seluruh peralatan elektronik listrik di rumah maupun kantor saat tidak digunakan.",
+        "teks": "Mematikan seluruh peralatan elektronik listrik di rumah maupun kantor saat tidak digunakan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -150624,7 +150624,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap mewajibkan besaran iuran berlaku sama rata bagi seluruh pegawai tanpa pengecualian.",
+        "teks": "Tetap mewajibkan besaran iuran berlaku sama rata bagi seluruh pegawai tanpa pengecualian agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -150744,7 +150744,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjalin kerja sama dan relasi baik dengan seluruh calon peserta yang mendaftar.",
+        "teks": "Menjalin kerja sama dan relasi baik dengan seluruh calon peserta yang mendaftar agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -150814,7 +150814,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendesak pemerintah pusat agar lebih ketat menjaga kedaulatan negara dari paham radikalisme.",
+        "teks": "Mendesak pemerintah pusat agar lebih ketat menjaga kedaulatan negara dari paham radikalisme sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -150849,7 +150849,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendengarkan ceritanya dengan baik dan menjaga rahasianya tanpa menceritakan kepada siapa pun.",
+        "teks": "Mendengarkan ceritanya dengan baik dan menjaga rahasianya tanpa menceritakan kepada siapa pun agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -150874,7 +150874,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersikap sangat selektif dalam memilihkan teman bermain bagi anak di lingkungan sekitar.",
+        "teks": "Bersikap sangat selektif dalam memilihkan teman bermain bagi anak di lingkungan sekitar agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -150949,7 +150949,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak usulan tersebut lalu segera meninggalkan rapat karena menganggap acara tidak penting.",
+        "teks": "Menolak usulan tersebut lalu segera meninggalkan rapat karena menganggap acara tidak penting sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -151094,7 +151094,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendatangi rumah tersebut sambil memaki penghuninya dan mengusir mereka pindah dari kompleks.",
+        "teks": "Mendatangi rumah tersebut sambil memaki penghuninya dan mengusir mereka pindah dari kompleks agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -151109,7 +151109,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung melaporkan pertemuan organisasi tersebut kepada pihak berwajib saat itu juga.",
+        "teks": "Langsung melaporkan pertemuan organisasi tersebut kepada pihak berwajib saat itu juga supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -151229,7 +151229,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta nenek tersebut pulang saja karena merasa percuma dijelaskan berulang kali lagi.",
+        "teks": "Meminta nenek tersebut pulang saja karena merasa percuma dijelaskan berulang kali lagi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -151289,7 +151289,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membuka jalur antrean tambahan baru agar barisan warga terbagi menjadi dua bagian.",
+        "teks": "Membuka jalur antrean tambahan baru agar barisan warga terbagi menjadi dua bagian sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -151404,7 +151404,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak berminat mengikuti seleksi promosi karena merasa posisi jabatan sekarang sudah cukup.",
+        "teks": "Tidak berminat mengikuti seleksi promosi karena merasa posisi jabatan sekarang sudah cukup sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -151479,7 +151479,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bekerja seperti biasanya saja karena proyek ini semata-mata urusan tanggung jawab dinas.",
+        "teks": "Bekerja seperti biasanya saja karena proyek ini semata-mata urusan tanggung jawab dinas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -151509,7 +151509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencoba turun tangan langsung membantu menyelesaikan pekerjaan anggota tim satu per satu.",
+        "teks": "Mencoba turun tangan langsung membantu menyelesaikan pekerjaan anggota tim satu per satu agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -151544,7 +151544,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Diam saja dan fokus pada pekerjaan sendiri karena kesalahannya merupakan urusan pribadinya.",
+        "teks": "Diam saja dan fokus pada pekerjaan sendiri karena kesalahannya merupakan urusan pribadinya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -151604,7 +151604,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta kepada atasan agar diberi tugas lain yang jauh lebih mudah dikerjakan.",
+        "teks": "Meminta kepada atasan agar diberi tugas lain yang jauh lebih mudah dikerjakan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -151669,7 +151669,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut membuang sampah ke saluran air tersebut karena kondisinya sudah terlanjur kotor.",
+        "teks": "Ikut membuang sampah ke saluran air tersebut karena kondisinya sudah terlanjur kotor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -151739,7 +151739,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta tolong warga sekitar lokasi untuk menolong korban karena Anda sedang sibuk.",
+        "teks": "Meminta tolong warga sekitar lokasi untuk menolong korban karena Anda sedang sibuk sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -151784,7 +151784,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menuruti saja perintah tersebut dengan alasan kewajiban berbakti dan patuh kepada orang tua.",
+        "teks": "Menuruti saja perintah tersebut dengan alasan kewajiban berbakti dan patuh kepada orang tua agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -151854,7 +151854,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membantu adik belajar mengerjakan tugasnya dengan mengharap imbalan uang jajan tambahan.",
+        "teks": "Membantu adik belajar mengerjakan tugasnya dengan mengharap imbalan uang jajan tambahan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -151919,7 +151919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan protes agar tetap memakai aplikasi lama karena aplikasi baru sangat membingungkan.",
+        "teks": "Mengajukan protes agar tetap memakai aplikasi lama karena aplikasi baru sangat membingungkan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -151959,7 +151959,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membeli ponsel pintar baru sekaligus agar bisa memainkan gim daring lebih lancar.",
+        "teks": "Membeli ponsel pintar baru sekaligus agar bisa memainkan gim daring lebih lancar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -151999,7 +151999,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti sistem presensi biometrik secara terpaksa karena sudah menjadi keputusan resmi instansi.",
+        "teks": "Mengikuti sistem presensi biometrik secara terpaksa karena sudah menjadi keputusan resmi instansi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -152019,7 +152019,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta tetap memakai aplikasi pesan lama karena merasa sulit beradaptasi dengan aplikasi baru.",
+        "teks": "Meminta tetap memakai aplikasi pesan lama karena merasa sulit beradaptasi dengan aplikasi baru sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -152069,7 +152069,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta tim IT melacak dan mengancam balik pelaku peretasan data instansi tersebut.",
+        "teks": "Meminta tim IT melacak dan mengancam balik pelaku peretasan data instansi tersebut agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -152129,7 +152129,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Merasa sedikit kesal karena mempertanyakan mengapa tidak ditempatkan di sekolah dekat rumah.",
+        "teks": "Merasa sedikit kesal karena mempertanyakan mengapa tidak ditempatkan di sekolah dekat rumah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -152174,7 +152174,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Datang sebentar ke kelas untuk berpamitan izin tidak masuk mengajar lalu pergi.",
+        "teks": "Datang sebentar ke kelas untuk berpamitan izin tidak masuk mengajar lalu pergi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -152209,7 +152209,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa bingung cara menjelaskan kondisi kritis pasien kepada pihak keluarga di luar.",
+        "teks": "Merasa bingung cara menjelaskan kondisi kritis pasien kepada pihak keluarga di luar supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -152229,7 +152229,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap menggunakan material standar teknis yang semestinya agar struktur bangunan tetap kokoh.",
+        "teks": "Tetap menggunakan material standar teknis yang semestinya agar struktur bangunan tetap kokoh sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -152279,7 +152279,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengabaikan panggilan telepon adik dan tidak berbuat apa-apa demi melayani antrean warga.",
+        "teks": "Mengabaikan panggilan telepon adik dan tidak berbuat apa-apa demi melayani antrean warga sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -152439,7 +152439,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut mengantre menerima uang tunai tersebut sambil mengabaikan isi ajaran brosurnya saja.",
+        "teks": "Ikut mengantre menerima uang tunai tersebut sambil mengabaikan isi ajaran brosurnya saja supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -152509,7 +152509,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung meninggalkan lokasi penugasan desa dan melapor bahwa desa tersebut terpapar radikal.",
+        "teks": "Langsung meninggalkan lokasi penugasan desa dan melapor bahwa desa tersebut terpapar radikal agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -152544,7 +152544,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menanamkan semangat nasionalisme serta rasa cinta tanah air kepada seluruh peserta upacara.",
+        "teks": "Menanamkan semangat nasionalisme serta rasa cinta tanah air kepada seluruh peserta upacara agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -152594,7 +152594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Ikut melaksanakan jadwal ronda malam warga semata-mata agar tidak ditegur tokoh masyarakat.",
+        "teks": "Ikut melaksanakan jadwal ronda malam warga semata-mata agar tidak ditegur tokoh masyarakat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -152669,7 +152669,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendatangi penyelenggara dan mengajaknya langsung menghentikan kegiatan berbahaya tersebut di tempat.",
+        "teks": "Mendatangi penyelenggara dan mengajaknya langsung menghentikan kegiatan berbahaya tersebut di tempat agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -152699,7 +152699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membuat kegaduhan atau kerusuhan di tempat agar acara pidato provokatif tersebut bubar.",
+        "teks": "Membuat kegaduhan atau kerusuhan di tempat agar acara pidato provokatif tersebut bubar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -152759,7 +152759,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengarahkan pemohon tersebut kembali ke barisan antrean sesuai ketentuan yang berlaku.",
+        "teks": "Mengarahkan pemohon tersebut kembali ke barisan antrean sesuai ketentuan yang berlaku agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -152859,7 +152859,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berusaha menahan penumpang tersebut agar tetap tertib mengikuti barisan antrean saya.",
+        "teks": "Berusaha menahan penumpang tersebut agar tetap tertib mengikuti barisan antrean saya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -152944,7 +152944,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menutup loket pelayanan sementara waktu agar bisa langsung menemui teman tersebut.",
+        "teks": "Menutup loket pelayanan sementara waktu agar bisa langsung menemui teman tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -153054,7 +153054,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Segera menyusun rencana kerja pribadi agar tugas bagian saya cepat selesai.",
+        "teks": "Segera menyusun rencana kerja pribadi agar tugas bagian saya cepat selesai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -153069,7 +153069,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan beragam cenderamata secara rutin kepada pengguna layanan yang paling setia.",
+        "teks": "Memberikan beragam cenderamata secara rutin kepada pengguna layanan yang paling setia agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -153159,7 +153159,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menceritakan kondisi kekurangan dana tersebut kepada warga agar mereka memaklumi keterbatasan.",
+        "teks": "Menceritakan kondisi kekurangan dana tersebut kepada warga agar mereka memaklumi keterbatasan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -153194,7 +153194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meyakinkan diri sendiri terlebih dahulu apakah masih sanggup menjabat di usia ini.",
+        "teks": "Meyakinkan diri sendiri terlebih dahulu apakah masih sanggup menjabat di usia ini agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -153224,7 +153224,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan mereka membawa sendiri seluruh busana dan perlengkapan adat dari daerahnya.",
+        "teks": "Menyarankan mereka membawa sendiri seluruh busana dan perlengkapan adat dari daerahnya agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -153244,7 +153244,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap menghadiri rapat rutin warga RT tersebut seperti agenda biasanya berlangsung.",
+        "teks": "Tetap menghadiri rapat rutin warga RT tersebut seperti agenda biasanya berlangsung agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -153289,7 +153289,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berusaha menyelesaikan seluruh permasalahan tersebut secara bertahap satu per satu dulu.",
+        "teks": "Berusaha menyelesaikan seluruh permasalahan tersebut secara bertahap satu per satu dulu agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -153334,7 +153334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melapor kepada atasan agar lokasi riset dipindahkan ke wilayah lain saja.",
+        "teks": "Melapor kepada atasan agar lokasi riset dipindahkan ke wilayah lain saja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -153359,7 +153359,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mendatangi kelompok orang tersebut lalu meminta sejumlah uang keamanan kepada mereka.",
+        "teks": "Mendatangi kelompok orang tersebut lalu meminta sejumlah uang keamanan kepada mereka agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -153509,7 +153509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tidak membuat video edukasi tersebut dengan alasan tidak memiliki perangkat kamera.",
+        "teks": "Tidak membuat video edukasi tersebut dengan alasan tidak memiliki perangkat kamera agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -153594,7 +153594,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengunduh aplikasi versi bajakan sementara waktu agar tugas desain segera terselesaikan.",
+        "teks": "Mengunduh aplikasi versi bajakan sementara waktu agar tugas desain segera terselesaikan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -153754,7 +153754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tetap mengambil cuti penuh karena hal tersebut merupakan hak saya sebagai pegawai.",
+        "teks": "Tetap mengambil cuti penuh karena hal tersebut merupakan hak saya sebagai pegawai dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 1
       }
     ],
@@ -153789,7 +153789,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tidak menerima laporan saya direvisi dan langsung meninggalkan berkas di meja kerja.",
+        "teks": "Tidak menerima laporan saya direvisi dan langsung meninggalkan berkas di meja kerja agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -153859,7 +153859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sengaja tidak masuk kerja pada hari tenggat waktu dengan alasan sakit.",
+        "teks": "Sengaja tidak masuk kerja pada hari tenggat waktu dengan alasan sakit agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       }
     ],
@@ -153919,7 +153919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya melakukan sesuatu yang terbaik sekaligus siap bertanggung jawab penuh.",
+        "teks": "Upaya melakukan sesuatu yang terbaik sekaligus siap bertanggung jawab penuh agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -153984,7 +153984,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyebarluaskan berita mengenai rekam jejak organisasi tersebut kepada seluruh masyarakat.",
+        "teks": "Menyebarluaskan berita mengenai rekam jejak organisasi tersebut kepada seluruh masyarakat agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -154014,7 +154014,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Rajin melaksanakan ibadah harian secara rutin dan tidak pernah terlewatkan.",
+        "teks": "Rajin melaksanakan ibadah harian secara rutin dan tidak pernah terlewatkan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -154089,7 +154089,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memberitahunya secara tegas bahwa paham radikalisme merupakan ajaran yang tidak baik.",
+        "teks": "Memberitahunya secara tegas bahwa paham radikalisme merupakan ajaran yang tidak baik agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -154119,7 +154119,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mempercayai Pancasila sepenuhnya sebagai satu-satunya ideologi negara yang paling tepat.",
+        "teks": "Mempercayai Pancasila sepenuhnya sebagai satu-satunya ideologi negara yang paling tepat agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -154194,7 +154194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membentuk sebuah organisasi kemasyarakatan baru yang berhaluan nasionalis di daerah.",
+        "teks": "Membentuk sebuah organisasi kemasyarakatan baru yang berhaluan nasionalis di daerah agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -154234,7 +154234,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung membuka suatu jenis usaha baru yang sedang ramai diminati pasar.",
+        "teks": "Langsung membuka suatu jenis usaha baru yang sedang ramai diminati pasar agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -154344,7 +154344,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengingatkan rekan kerja tersebut supaya selalu memberikan pelayanan maksimal kepada setiap warga.",
+        "teks": "Mengingatkan rekan kerja tersebut supaya selalu memberikan pelayanan maksimal kepada setiap warga sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -154409,7 +154409,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Marah dan geram dalam hati karena seluruh rencana kunjungan akhir pekan terganggu.",
+        "teks": "Marah dan geram dalam hati karena seluruh rencana kunjungan akhir pekan terganggu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -154454,7 +154454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyuruh kedua rekan tersebut meneruskan perdebatan di luar ruangan kerja kantor.",
+        "teks": "Menyuruh kedua rekan tersebut meneruskan perdebatan di luar ruangan kerja kantor agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -154489,7 +154489,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta rekan tersebut agar segera membela dirinya sendiri secara tegas di rapat.",
+        "teks": "Meminta rekan tersebut agar segera membela dirinya sendiri secara tegas di rapat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -154559,7 +154559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Beralasan sedang tidak enak badan supaya tidak perlu ikut kegiatan wisata tersebut.",
+        "teks": "Beralasan sedang tidak enak badan supaya tidak perlu ikut kegiatan wisata tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -154629,7 +154629,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meratapi nasib sambil terus mempertanyakan mengapa ujian sakit ini menimpa diri saya.",
+        "teks": "Meratapi nasib sambil terus mempertanyakan mengapa ujian sakit ini menimpa diri saya agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -154649,7 +154649,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berupaya meraih kedudukan atau jabatan tinggi dengan menempuh segala macam cara.",
+        "teks": "Berupaya meraih kedudukan atau jabatan tinggi dengan menempuh segala macam cara agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -154754,7 +154754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Ikut meninggalkan pekerjaan kantor tersebut dan pergi bersamanya lebih awal juga.",
+        "teks": "Ikut meninggalkan pekerjaan kantor tersebut dan pergi bersamanya lebih awal juga agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -154864,7 +154864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan saja gaya pengawasan ketat pimpinan selama tugas pribadi saya selesai.",
+        "teks": "Mengabaikan saja gaya pengawasan ketat pimpinan selama tugas pribadi saya selesai agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -154889,7 +154889,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Cukup mengikuti berita perkembangan teknologi terbaru melalui tayangan media massa saja.",
+        "teks": "Cukup mengikuti berita perkembangan teknologi terbaru melalui tayangan media massa saja agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -154974,7 +154974,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa gelisah dan kurang nyaman apabila mereka mulai menyinggung tugas baru saya.",
+        "teks": "Merasa gelisah dan kurang nyaman apabila mereka mulai menyinggung tugas baru saya supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -155049,7 +155049,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima keputusan penolakan laporan tersebut namun tidak melakukan tindak lanjut perbaikan.",
+        "teks": "Menerima keputusan penolakan laporan tersebut namun tidak melakukan tindak lanjut perbaikan agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -155069,7 +155069,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih diam saja karena membantah hanya akan memperpanjang serta memperkeruh permasalahan.",
+        "teks": "Memilih diam saja karena membantah hanya akan memperpanjang serta memperkeruh permasalahan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -155149,7 +155149,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memilih diam seribu bahasa tanpa memberikan komentar atau tanggapan apa pun.",
+        "teks": "Memilih diam seribu bahasa tanpa memberikan komentar atau tanggapan apa pun agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -155224,7 +155224,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pergantian kepemimpinan di instansi merupakan peristiwa rutin yang sangat lumrah terjadi.",
+        "teks": "Pergantian kepemimpinan di instansi merupakan peristiwa rutin yang sangat lumrah terjadi agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -155249,7 +155249,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Melaporkan kejadian tabrakan kepada pimpinan dan siap menerima sanksi sesuai aturan.",
+        "teks": "Melaporkan kejadian tabrakan kepada pimpinan dan siap menerima sanksi sesuai aturan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -155329,7 +155329,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengikuti seluruh perintah serta arahan pimpinan secara loyal dan penuh kepatuhan.",
+        "teks": "Mengikuti seluruh perintah serta arahan pimpinan secara loyal dan penuh kepatuhan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -155399,7 +155399,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sebaiknya peraturan kantor yang sulit dipatuhi seperti itu segera diubah saja.",
+        "teks": "Sebaiknya peraturan kantor yang sulit dipatuhi seperti itu segera diubah saja agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -155424,7 +155424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta rekan menyelesaikan pekerjaan lama saya agar saya fokus tugas baru.",
+        "teks": "Meminta rekan menyelesaikan pekerjaan lama saya agar saya fokus tugas baru sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -155494,7 +155494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Selalu mengandalkan serta meminta bantuan orang lain untuk mewujudkan keinginan pribadi.",
+        "teks": "Selalu mengandalkan serta meminta bantuan orang lain untuk mewujudkan keinginan pribadi agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -155539,7 +155539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengembalikan seluruh biaya ganti rugi tiket kepada para calon penonton acara.",
+        "teks": "Mengembalikan seluruh biaya ganti rugi tiket kepada para calon penonton acara supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -155554,7 +155554,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Segera menelepon petugas pemadam kebakaran terlebih dahulu dari ruang kerja kantor.",
+        "teks": "Segera menelepon petugas pemadam kebakaran terlebih dahulu dari ruang kerja kantor agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -155594,7 +155594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta izin atasan berangkat ke luar kota setelah seluruh pekerjaan selesai.",
+        "teks": "Meminta izin atasan berangkat ke luar kota setelah seluruh pekerjaan selesai agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -155644,7 +155644,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menginformasikan kepada atasan bahwa ada tamu penting dari luar kota menunggu.",
+        "teks": "Menginformasikan kepada atasan bahwa ada tamu penting dari luar kota menunggu agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -155699,7 +155699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membantu memanggilkan jasa ojek payung terdekat bagi orang yang kehujanan tersebut.",
+        "teks": "Membantu memanggilkan jasa ojek payung terdekat bagi orang yang kehujanan tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -155739,7 +155739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Guru dan pembimbing yang telah membekali ilmu pengetahuan sejak bangku pendidikan.",
+        "teks": "Guru dan pembimbing yang telah membekali ilmu pengetahuan sejak bangku pendidikan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -155774,7 +155774,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersifat anti terhadap kegagalan dalam setiap percobaan inovasi program kerja baru.",
+        "teks": "Bersifat anti terhadap kegagalan dalam setiap percobaan inovasi program kerja baru agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -155814,7 +155814,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tetap berdiri menunggu di halte berharap ada pengendara berbaik hati menumpangi.",
+        "teks": "Tetap berdiri menunggu di halte berharap ada pengendara berbaik hati menumpangi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -155884,7 +155884,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Ikut merasa terganggu dengan aktivitas ibadah yang dilakukan para penghuni kos.",
+        "teks": "Ikut merasa terganggu dengan aktivitas ibadah yang dilakukan para penghuni kos agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -155949,7 +155949,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta bantuan rekan kerja lain yang lebih senior untuk menasihati koordinator.",
+        "teks": "Meminta bantuan rekan kerja lain yang lebih senior untuk menasihati koordinator agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -155989,7 +155989,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meninggalkan pekerjaan sebentar untuk mengantarkan dan menunjukkan langsung letak buku tersebut.",
+        "teks": "Meninggalkan pekerjaan sebentar untuk mengantarkan dan menunjukkan langsung letak buku tersebut agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -156134,7 +156134,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberikan dukungan seadanya saja daripada dicap tidak setia kawan oleh rekan.",
+        "teks": "Memberikan dukungan seadanya saja daripada dicap tidak setia kawan oleh rekan demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       }
     ],
@@ -156194,7 +156194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Segera pergi meninggalkan nenek tersebut karena saya harus cepat menaiki pesawat.",
+        "teks": "Segera pergi meninggalkan nenek tersebut karena saya harus cepat menaiki pesawat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -156224,7 +156224,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memanggilkan petugas keamanan jaga setempat untuk segera membantu ibu tersebut keluar.",
+        "teks": "Memanggilkan petugas keamanan jaga setempat untuk segera membantu ibu tersebut keluar agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -156269,7 +156269,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Saya merasa biasa saja dan tidak mempermasalahkan adanya gangguan di kantor.",
+        "teks": "Saya merasa biasa saja dan tidak mempermasalahkan adanya gangguan di kantor agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -156434,7 +156434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyalahkan rekan sejawat lain yang ikut menyusun bagian draf laporan tersebut.",
+        "teks": "Menyalahkan rekan sejawat lain yang ikut menyusun bagian draf laporan tersebut agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -156479,7 +156479,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bersikap sudah sangat akrab selayaknya bergaul dengan teman sebaya di luar.",
+        "teks": "Bersikap sudah sangat akrab selayaknya bergaul dengan teman sebaya di luar agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -156534,7 +156534,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memulai perdebatan terbuka karena tidak rela dipermalukan di depan rekan kerja.",
+        "teks": "Memulai perdebatan terbuka karena tidak rela dipermalukan di depan rekan kerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -156614,7 +156614,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Upaya membuat seluruh anggota tim merasa kehadirannya memang sangat dibutuhkan kantor.",
+        "teks": "Upaya membuat seluruh anggota tim merasa kehadirannya memang sangat dibutuhkan kantor agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -156639,7 +156639,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Selalu terbuka mendengarkan keluh kesah rekan kerja kapan pun mereka sedang membutuhkannya.",
+        "teks": "Selalu terbuka mendengarkan keluh kesah rekan kerja kapan pun mereka sedang membutuhkannya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -156689,7 +156689,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Saya selalu mendapatkan bantuan dari lingkungan kerja dan tetangga di sekitar.",
+        "teks": "Saya selalu mendapatkan bantuan dari lingkungan kerja dan tetangga di sekitar agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -156719,7 +156719,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh mereka membaca seluruh buku pedoman tugas lalu menanyakan bagian sulit.",
+        "teks": "Menyuruh mereka membaca seluruh buku pedoman tugas lalu menanyakan bagian sulit supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -156744,7 +156744,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung menutup loket untuk istirahat saat itu juga karena waktunya tiba.",
+        "teks": "Langsung menutup loket untuk istirahat saat itu juga karena waktunya tiba sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -156849,7 +156849,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melayani setiap warga pemohon layanan dengan sikap yang santun dan ramah.",
+        "teks": "Melayani setiap warga pemohon layanan dengan sikap yang santun dan ramah demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       },
       {
@@ -156919,7 +156919,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyuruh rekan kerja lain menggantikan tugas loket karena ingin menemui kerabat.",
+        "teks": "Menyuruh rekan kerja lain menggantikan tugas loket karena ingin menemui kerabat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -157004,7 +157004,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menugaskan anggota pandai menyusun materi, sementara lainnya sekadar mencetak dan menjilid.",
+        "teks": "Menugaskan anggota pandai menyusun materi, sementara lainnya sekadar mencetak dan menjilid agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -157074,7 +157074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bekerja sama aktif serta bahu-membahu bersama seluruh anggota tim kerja lainnya.",
+        "teks": "Bekerja sama aktif serta bahu-membahu bersama seluruh anggota tim kerja lainnya agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -157094,7 +157094,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengingatkan atasan secara lisan bahwa beliau memiliki rencana pertemuan dengan mitra.",
+        "teks": "Mengingatkan atasan secara lisan bahwa beliau memiliki rencana pertemuan dengan mitra agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -157139,7 +157139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak secara halus dan menegaskan tidak ingin terlibat dalam pemalsuan tersebut.",
+        "teks": "Menolak secara halus dan menegaskan tidak ingin terlibat dalam pemalsuan tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -157314,7 +157314,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memutuskan tidak mau berteman atau berkomunikasi lagi dengan rekan kerja tersebut.",
+        "teks": "Memutuskan tidak mau berteman atau berkomunikasi lagi dengan rekan kerja tersebut agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -157354,7 +157354,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membantunya setelah tugas saya rampung sambil memintanya bersabar menunggu sebentar.",
+        "teks": "Membantunya setelah tugas saya rampung sambil memintanya bersabar menunggu sebentar agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -157424,7 +157424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa kesal menunggu lama lalu menyuruh mereka pulang dan bekerja sendiri.",
+        "teks": "Merasa kesal menunggu lama lalu menyuruh mereka pulang dan bekerja sendiri supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -157444,7 +157444,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyelesaikan laporan rutin dahulu agar siap sewaktu-waktu diminta oleh pimpinan instansi.",
+        "teks": "Menyelesaikan laporan rutin dahulu agar siap sewaktu-waktu diminta oleh pimpinan instansi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -157484,7 +157484,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mendorong rekan kerja bekerja baik hanya apabila situasinya menguntungkan bagi saya.",
+        "teks": "Mendorong rekan kerja bekerja baik hanya apabila situasinya menguntungkan bagi saya agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -157549,7 +157549,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas perbuatan menyakitkan tersebut dengan tindakan lain yang jauh lebih kejam.",
+        "teks": "Membalas perbuatan menyakitkan tersebut dengan tindakan lain yang jauh lebih kejam agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -157594,7 +157594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencontoh hasil penelitian milik instansi lain yang sudah terbukti sukses terdahulu.",
+        "teks": "Mencontoh hasil penelitian milik instansi lain yang sudah terbukti sukses terdahulu supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -157604,7 +157604,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan cara dan pola metode lama yang biasa saya pakai meneliti.",
+        "teks": "Menggunakan cara dan pola metode lama yang biasa saya pakai meneliti agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -157674,7 +157674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meninggalkan komentar pada unggahan teman tersebut berupa narasi kontra-HTI secara bijak.",
+        "teks": "Meninggalkan komentar pada unggahan teman tersebut berupa narasi kontra-HTI secara bijak agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -157709,7 +157709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menggelar diskusi bersama rekan sesama ASN untuk mendeteksi dini paparan paham radikalisme.",
+        "teks": "Menggelar diskusi bersama rekan sesama ASN untuk mendeteksi dini paparan paham radikalisme agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -157884,7 +157884,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menasihati anggota tim agar menyadari tanggung jawab bersama demi keberhasilan target tim.",
+        "teks": "Menasihati anggota tim agar menyadari tanggung jawab bersama demi keberhasilan target tim sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -158059,7 +158059,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menanyakan langsung kepada rekan kerja lain apakah isu penggelapan dana itu benar.",
+        "teks": "Menanyakan langsung kepada rekan kerja lain apakah isu penggelapan dana itu benar agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -158109,7 +158109,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengingatkan atasan secara lisan bahwa beliau memiliki jadwal rencana bertemu mitra kerja.",
+        "teks": "Mengingatkan atasan secara lisan bahwa beliau memiliki jadwal rencana bertemu mitra kerja supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -158144,7 +158144,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan terima kasih kepada pimpinan atas pujian dan penilaian terhadap kemampuan saya.",
+        "teks": "Menyampaikan terima kasih kepada pimpinan atas pujian dan penilaian terhadap kemampuan saya agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -158259,7 +158259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersedia dipindahkan kapan saja tanpa membantah sedikit pun perintah dan kebijakan pimpinan.",
+        "teks": "Bersedia dipindahkan kapan saja tanpa membantah sedikit pun perintah dan kebijakan pimpinan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -158284,7 +158284,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyelesaikan seluruh pekerjaan tepat tenggat waktu dengan hasil maksimal sesuai kemampuan saya.",
+        "teks": "Menyelesaikan seluruh pekerjaan tepat tenggat waktu dengan hasil maksimal sesuai kemampuan saya agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -158369,7 +158369,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membersihkan pecahan piring tersebut dengan teliti meski berakibat datang terlambat ke kantor.",
+        "teks": "Membersihkan pecahan piring tersebut dengan teliti meski berakibat datang terlambat ke kantor agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -158444,7 +158444,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tetap menangani pasien tersebut dengan perasaan kesal karena mengabaikan saran pengobatan saya.",
+        "teks": "Tetap menangani pasien tersebut dengan perasaan kesal karena mengabaikan saran pengobatan saya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -158569,7 +158569,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Lebih memilih bekerja sendiri dan fokus menyelesaikan tugas yang sedang saya emban.",
+        "teks": "Lebih memilih bekerja sendiri dan fokus menyelesaikan tugas yang sedang saya emban agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -158614,7 +158614,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencari bahan referensi dari internet dan jurnal daring guna memaksimalkan hasil tugas.",
+        "teks": "Mencari bahan referensi dari internet dan jurnal daring guna memaksimalkan hasil tugas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -158684,7 +158684,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengakui kesalahan kepada rekan tim tersebut dan berjanji tidak akan mengulanginya lagi.",
+        "teks": "Mengakui kesalahan kepada rekan tim tersebut dan berjanji tidak akan mengulanginya lagi agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -158709,7 +158709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Bersikap santai saja karena bisa meminta bantuan pasokan air bersih kepada tetangga.",
+        "teks": "Bersikap santai saja karena bisa meminta bantuan pasokan air bersih kepada tetangga sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -158754,7 +158754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kekompakan serta kebiasaan bermusyawarah mufakat yang selalu dijaga selama bekerja sama.",
+        "teks": "Kekompakan serta kebiasaan bermusyawarah mufakat yang selalu dijaga selama bekerja sama agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -158819,7 +158819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memberikan tes seleksi pegawai seperti standar prosedur biasa yang dilakukan oleh kantor.",
+        "teks": "Memberikan tes seleksi pegawai seperti standar prosedur biasa yang dilakukan oleh kantor supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -158894,7 +158894,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melihat terlebih dahulu apakah ada rekan kerja lain yang turut berbuat salah.",
+        "teks": "Melihat terlebih dahulu apakah ada rekan kerja lain yang turut berbuat salah agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -158924,7 +158924,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Terkadang bersikap tekun dalam bekerja terutama saat suasana hati sedang sangat baik.",
+        "teks": "Terkadang bersikap tekun dalam bekerja terutama saat suasana hati sedang sangat baik agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -158959,7 +158959,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengakses situs media sosial untuk memantau kabar terbaru dari kerabat dan kawan.",
+        "teks": "Mengakses situs media sosial untuk memantau kabar terbaru dari kerabat dan kawan supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -159054,7 +159054,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Saya hanya berani mencoba langkah penyelesaian yang sudah pasti tidak memiliki risiko.",
+        "teks": "Saya hanya berani mencoba langkah penyelesaian yang sudah pasti tidak memiliki risiko agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -159099,7 +159099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersedia ikut kompetisi hanya apabila melihat peluang menang yang sangat besar.",
+        "teks": "Bersedia ikut kompetisi hanya apabila melihat peluang menang yang sangat besar supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -159164,7 +159164,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Bersikap tertutup dan tidak banyak mencampuri urusan pribadi masing-masing penghuni rumah.",
+        "teks": "Bersikap tertutup dan tidak banyak mencampuri urusan pribadi masing-masing penghuni rumah agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -159214,7 +159214,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta orang lain di luar keluarga untuk hadir mewakili saya kerja bakti.",
+        "teks": "Meminta orang lain di luar keluarga untuk hadir mewakili saya kerja bakti agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -159229,7 +159229,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan saja tindakan tersebut agar tidak memicu perselisihan antarrekan di ruang rapat.",
+        "teks": "Membiarkan saja tindakan tersebut agar tidak memicu perselisihan antarrekan di ruang rapat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -159279,7 +159279,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak permintaan tersebut sembari mengusulkan langsung nama koordinator senior kepada kepala dinas.",
+        "teks": "Menolak permintaan tersebut sembari mengusulkan langsung nama koordinator senior kepada kepala dinas agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -159389,7 +159389,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa kecewa dalam hati lalu mencoba menanyakan ide atasan yang lebih baik.",
+        "teks": "Merasa kecewa dalam hati lalu mencoba menanyakan ide atasan yang lebih baik agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -159409,7 +159409,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berbasa-basi sebentar lalu tetap menerimanya karena merasa tidak enak menolak sahabat sendiri.",
+        "teks": "Berbasa-basi sebentar lalu tetap menerimanya karena merasa tidak enak menolak sahabat sendiri sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -159579,7 +159579,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mentoleransi perbuatannya karena baru kali ini saja sahabat saya melakukan kecurangan tersebut.",
+        "teks": "Mentoleransi perbuatannya karena baru kali ini saja sahabat saya melakukan kecurangan tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -159834,7 +159834,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencetak dokumen pribadi di kantor tetapi menunggu hingga seluruh jam kerja selesai.",
+        "teks": "Mencetak dokumen pribadi di kantor tetapi menunggu hingga seluruh jam kerja selesai agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -159859,7 +159859,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Saya pun ikut tidak mematuhi peraturan yang terasa sangat sulit dipatuhi tersebut.",
+        "teks": "Saya pun ikut tidak mematuhi peraturan yang terasa sangat sulit dipatuhi tersebut supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -159914,7 +159914,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Saya menegosiasikan ulang tenggat waktu kepada atasan agar tidak terasa terlalu memberatkan.",
+        "teks": "Saya menegosiasikan ulang tenggat waktu kepada atasan agar tidak terasa terlalu memberatkan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -159949,7 +159949,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Langsung mendaftar ikut kompetisi karena merasa sangat yakin pasti memenangkan persaingan itu.",
+        "teks": "Langsung mendaftar ikut kompetisi karena merasa sangat yakin pasti memenangkan persaingan itu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -159964,7 +159964,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencari dengan saksama siapa saja pihak lain yang turut menyebabkan kegagalan saya.",
+        "teks": "Mencari dengan saksama siapa saja pihak lain yang turut menyebabkan kegagalan saya supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -160114,7 +160114,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima tawaran dengan permohonan agar keluarga boleh ikut disertai tambahan biaya hidup.",
+        "teks": "Menerima tawaran dengan permohonan agar keluarga boleh ikut disertai tambahan biaya hidup sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -160139,7 +160139,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Lebih baik diam menonton saja karena sudah menyadari batas kekuatan tim kami.",
+        "teks": "Lebih baik diam menonton saja karena sudah menyadari batas kekuatan tim kami sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -160189,7 +160189,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Ujian yang harus saya upayakan agar tidak mengurangi semangat kerja harian saya.",
+        "teks": "Ujian yang harus saya upayakan agar tidak mengurangi semangat kerja harian saya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -160264,7 +160264,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Berharap penuh doa semoga hari ini menjadi hari keberuntungan yang baik bagi saya.",
+        "teks": "Berharap penuh doa semoga hari ini menjadi hari keberuntungan yang baik bagi saya agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -160299,7 +160299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Di mana pun saya berkarya dengan syarat didukung penuh fasilitas oleh pemerintah.",
+        "teks": "Di mana pun saya berkarya dengan syarat didukung penuh fasilitas oleh pemerintah agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -160329,7 +160329,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bertanya-tanya dalam hati mungkinkah tahun depan saya masih bisa mendapatkannya kembali.",
+        "teks": "Bertanya-tanya dalam hati mungkinkah tahun depan saya masih bisa mendapatkannya kembali agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -160369,7 +160369,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyarankan pegawai lain yang masih lajang saja untuk mengikuti pelatihan akhir pekan tersebut.",
+        "teks": "Menyarankan pegawai lain yang masih lajang saja untuk mengikuti pelatihan akhir pekan tersebut agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -160419,7 +160419,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa sangat kecewa dalam hati karena gagasan kerja terbaik saya ditolak langsung.",
+        "teks": "Merasa sangat kecewa dalam hati karena gagasan kerja terbaik saya ditolak langsung sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -160459,7 +160459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tidak berani mengambil keputusan apa pun tanpa adanya petunjuk langsung dari atasan.",
+        "teks": "Tidak berani mengambil keputusan apa pun tanpa adanya petunjuk langsung dari atasan supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -160494,7 +160494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tidak berminat sama sekali untuk repot-repot mengajukan suatu ide kegiatan apa pun.",
+        "teks": "Tidak berminat sama sekali untuk repot-repot mengajukan suatu ide kegiatan apa pun agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -160559,7 +160559,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Lebih baik saya ikut diam saja karena seluruh peserta rapat lain diam.",
+        "teks": "Lebih baik saya ikut diam saja karena seluruh peserta rapat lain diam sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -160599,7 +160599,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminjamkan seluruh sisa uang saya yang sedikit itu demi membantu biaya persalinannya.",
+        "teks": "Meminjamkan seluruh sisa uang saya yang sedikit itu demi membantu biaya persalinannya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -160714,7 +160714,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta atasan tertinggi untuk memindahkan staf tersebut ke unit kerja lain saja.",
+        "teks": "Meminta atasan tertinggi untuk memindahkan staf tersebut ke unit kerja lain saja supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -160774,7 +160774,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memiliki tingkat ketekunan kerja yang tergolong rendah saat menghadapi rutinitas tugas dinas.",
+        "teks": "Memiliki tingkat ketekunan kerja yang tergolong rendah saat menghadapi rutinitas tugas dinas agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -160854,7 +160854,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Langsung mengambil keputusan sendiri demi menyelamatkan unit dari situasi rumit tersebut.",
+        "teks": "Langsung mengambil keputusan sendiri demi menyelamatkan unit dari situasi rumit tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -160879,7 +160879,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menganjurkan rekan tersebut agar ke depan mulai mengikuti layanan asuransi kesehatan.",
+        "teks": "Menganjurkan rekan tersebut agar ke depan mulai mengikuti layanan asuransi kesehatan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -160914,7 +160914,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berencana menjenguk beliau nanti ketika saya sudah memiliki waktu yang benar-benar longgar.",
+        "teks": "Berencana menjenguk beliau nanti ketika saya sudah memiliki waktu yang benar-benar longgar agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -160944,7 +160944,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajarinya cukup satu kali saja agar ia tidak terus bergantung kepada saya.",
+        "teks": "Mengajarinya cukup satu kali saja agar ia tidak terus bergantung kepada saya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -161014,7 +161014,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Saya yang paling sering berkeluh kesah menceritakan masalah pribadi kepada orang lain.",
+        "teks": "Saya yang paling sering berkeluh kesah menceritakan masalah pribadi kepada orang lain agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -161089,7 +161089,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menegur atasan dengan nada keras atas kekeliruan instruksi yang sangat merugikan waktu.",
+        "teks": "Menegur atasan dengan nada keras atas kekeliruan instruksi yang sangat merugikan waktu agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -161119,7 +161119,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Diam saja karena khawatir bila melapor nanti justru dituduh sebagai pihak perusaknya.",
+        "teks": "Diam saja karena khawatir bila melapor nanti justru dituduh sebagai pihak perusaknya dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 2
       },
       {
@@ -161224,7 +161224,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berusaha memahami mekanisme kerja unit baru melalui arsip berkas dan aturan kebijakan.",
+        "teks": "Berusaha memahami mekanisme kerja unit baru melalui arsip berkas dan aturan kebijakan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -161524,7 +161524,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyindir rekan tersebut secara halus di depan pegawai lain agar ingat kelalaiannya.",
+        "teks": "Menyindir rekan tersebut secara halus di depan pegawai lain agar ingat kelalaiannya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -161559,7 +161559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Terus meratapi kekurangan diri sendiri tanpa berupaya bangkit memperbaiki strategi kerja.",
+        "teks": "Terus meratapi kekurangan diri sendiri tanpa berupaya bangkit memperbaiki strategi kerja agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -161784,7 +161784,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sabar itu memang sangat mudah diucapkan lisan namun terasa sulit dilakukan nyata.",
+        "teks": "Sabar itu memang sangat mudah diucapkan lisan namun terasa sulit dilakukan nyata agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -161869,7 +161869,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Saya merasa mustahil presentasi esok hari berjalan tidak lancar karena sudah latihan.",
+        "teks": "Saya merasa mustahil presentasi esok hari berjalan tidak lancar karena sudah latihan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -162009,7 +162009,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Saya meminta pertimbangan pendapat pasangan di rumah dahulu sebelum mengambil tugas tersebut.",
+        "teks": "Saya meminta pertimbangan pendapat pasangan di rumah dahulu sebelum mengambil tugas tersebut agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -162049,7 +162049,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Saya terus bertanya-tanya dalam hati mungkinkah saya mampu mengatasi masalah pelik itu.",
+        "teks": "Saya terus bertanya-tanya dalam hati mungkinkah saya mampu mengatasi masalah pelik itu agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -162069,7 +162069,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Suatu hambatan berat yang selalu datang menghadang kelancaran langkah karier kerja saya.",
+        "teks": "Suatu hambatan berat yang selalu datang menghadang kelancaran langkah karier kerja saya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -162109,7 +162109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Saya mempertimbangkan usulan pendapat berbeda tersebut di dalam hati tanpa berkomentar banyak.",
+        "teks": "Saya mempertimbangkan usulan pendapat berbeda tersebut di dalam hati tanpa berkomentar banyak agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -162134,7 +162134,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencoba sekuat tenaga membela serta mempertahankan pendapat saya agar tidak kalah argumen.",
+        "teks": "Mencoba sekuat tenaga membela serta mempertahankan pendapat saya agar tidak kalah argumen sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -162169,7 +162169,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa puas dalam hati namun tidak perlu memuji agar ia tidak sombong.",
+        "teks": "Merasa puas dalam hati namun tidak perlu memuji agar ia tidak sombong sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -162284,7 +162284,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Terkadang merasa marah apabila cara atasan memberikan instruksi kerja kurang jelas.",
+        "teks": "Terkadang merasa marah apabila cara atasan memberikan instruksi kerja kurang jelas agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -162309,7 +162309,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berusaha mencari pihak lain untuk dijadikan kambing hitam penyebab munculnya masalah tersebut.",
+        "teks": "Berusaha mencari pihak lain untuk dijadikan kambing hitam penyebab munculnya masalah tersebut supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -162324,7 +162324,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melihat terlebih dahulu adakah rekan kerja lain yang ikut berbuat salah sama.",
+        "teks": "Melihat terlebih dahulu adakah rekan kerja lain yang ikut berbuat salah sama agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -162389,7 +162389,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta bantuan rekan-rekan kerja lain di ruangan untuk ikut mengerjakan tugas tersebut.",
+        "teks": "Meminta bantuan rekan-rekan kerja lain di ruangan untuk ikut mengerjakan tugas tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -162424,7 +162424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Hanya mengonfirmasi ulang kepada kasir apabila selisih nominal harganya dirasa terlalu tinggi.",
+        "teks": "Hanya mengonfirmasi ulang kepada kasir apabila selisih nominal harganya dirasa terlalu tinggi agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -162494,7 +162494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencoba memperbaiki sendiri kerusakan bodi kendaraan dinas tersebut di rumah agar hemat.",
+        "teks": "Mencoba memperbaiki sendiri kerusakan bodi kendaraan dinas tersebut di rumah agar hemat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -162529,7 +162529,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima teguran sebagai pelajaran sambil tetap melaporkan pegawai lain yang turut bersalah.",
+        "teks": "Menerima teguran sebagai pelajaran sambil tetap melaporkan pegawai lain yang turut bersalah agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -162629,7 +162629,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Daripada memicu stres pikiran, lebih baik meminta orang lain saja untuk mengerjakannya.",
+        "teks": "Daripada memicu stres pikiran, lebih baik meminta orang lain saja untuk mengerjakannya agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -162694,7 +162694,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memilih mengerjakan seluruh tugas tim seorang diri yang penting target selesai tepat waktu.",
+        "teks": "Memilih mengerjakan seluruh tugas tim seorang diri yang penting target selesai tepat waktu agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -162779,7 +162779,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tetap melakukannya kali ini saja karena ia merupakan bagian keluarga saudara dekat saya.",
+        "teks": "Tetap melakukannya kali ini saja karena ia merupakan bagian keluarga saudara dekat saya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -162844,7 +162844,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Saya merasa ragu-ragu menentukan tindakan apakah harus ikut melaju atau tetap berhenti.",
+        "teks": "Saya merasa ragu-ragu menentukan tindakan apakah harus ikut melaju atau tetap berhenti agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -162884,7 +162884,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Saya langsung melaporkan sikap kurang ramah pegawai baru tersebut kepada atasan unit.",
+        "teks": "Saya langsung melaporkan sikap kurang ramah pegawai baru tersebut kepada atasan unit agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -162909,7 +162909,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengingatkannya dengan baik lalu berpesan agar jangan memberitahu ayahnya bahwa saya menegur.",
+        "teks": "Mengingatkannya dengan baik lalu berpesan agar jangan memberitahu ayahnya bahwa saya menegur sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -162939,7 +162939,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membentuk tim kerja yang solid dari rekan sepemahaman demi menjaga kekompakan kelompok.",
+        "teks": "Membentuk tim kerja yang solid dari rekan sepemahaman demi menjaga kekompakan kelompok sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -163114,7 +163114,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memilih diam saja dan mendengarkan pujian pimpinan tersebut tanpa melakukan perubahan apa pun.",
+        "teks": "Memilih diam saja dan mendengarkan pujian pimpinan tersebut tanpa melakukan perubahan apa pun agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -163184,7 +163184,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menanyakan secara baik hal apa yang membuatnya tampak kurang bersemangat dalam bekerja.",
+        "teks": "Menanyakan secara baik hal apa yang membuatnya tampak kurang bersemangat dalam bekerja agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -163239,7 +163239,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta maaf kepada rekan instansi lalu segera melaporkan kejadian itu ke pihak berwenang.",
+        "teks": "Meminta maaf kepada rekan instansi lalu segera melaporkan kejadian itu ke pihak berwenang agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -163309,7 +163309,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta rekan kerja lain mengantarkan saudara ke bandara karena saya sibuk bertugas.",
+        "teks": "Meminta rekan kerja lain mengantarkan saudara ke bandara karena saya sibuk bertugas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -163334,7 +163334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Pulang tepat sesuai jadwal kantor sambil meninggalkan tumpukan pekerjaan di atas meja.",
+        "teks": "Pulang tepat sesuai jadwal kantor sambil meninggalkan tumpukan pekerjaan di atas meja agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -163379,7 +163379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sedapat mungkin menyarankan kepada rekan-rekan kerja lainnya agar lebih fokus dalam bekerja.",
+        "teks": "Sedapat mungkin menyarankan kepada rekan-rekan kerja lainnya agar lebih fokus dalam bekerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -163414,7 +163414,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengerjakan sendiri tugas staf tersebut meski berisiko membuat saya harus bekerja lembur.",
+        "teks": "Mengerjakan sendiri tugas staf tersebut meski berisiko membuat saya harus bekerja lembur agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -163434,7 +163434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyelenggarakan pengajian setelah waktu subuh sebelum seluruh warga sibuk berangkat bekerja dinas.",
+        "teks": "Menyelenggarakan pengajian setelah waktu subuh sebelum seluruh warga sibuk berangkat bekerja dinas agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -163519,7 +163519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sepakat bersama rekan kerja lain bersikap acuh karena tahu perilaku atasan yang kaku.",
+        "teks": "Sepakat bersama rekan kerja lain bersikap acuh karena tahu perilaku atasan yang kaku sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -163539,7 +163539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta salah seorang rekan kerja tertentu saja untuk menghasilkan ide inovasi baru.",
+        "teks": "Meminta salah seorang rekan kerja tertentu saja untuk menghasilkan ide inovasi baru agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -163589,7 +163589,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengantarkan nenek berkeliling menyusuri seluruh rak toko meski berisiko terlambat tiba kantor.",
+        "teks": "Mengantarkan nenek berkeliling menyusuri seluruh rak toko meski berisiko terlambat tiba kantor agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -163679,7 +163679,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menerimanya bekerja agar unit kerja saya dipandang baik dan peduli oleh warga sekitar.",
+        "teks": "Menerimanya bekerja agar unit kerja saya dipandang baik dan peduli oleh warga sekitar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -163724,7 +163724,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak memberikan uang jajan sama sekali agar ia tidak terbiasa jajan sembarangan.",
+        "teks": "Tidak memberikan uang jajan sama sekali agar ia tidak terbiasa jajan sembarangan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -163819,7 +163819,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Melaksanakan perintah sambil mengajak rekan diskusi dampak negatif apabila terjadi kebocoran data.",
+        "teks": "Melaksanakan perintah sambil mengajak rekan diskusi dampak negatif apabila terjadi kebocoran data agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -163869,7 +163869,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjelaskan aturan kawasan tanpa rokok kepada tamu tersebut agar segera mematikan rokoknya.",
+        "teks": "Menjelaskan aturan kawasan tanpa rokok kepada tamu tersebut agar segera mematikan rokoknya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -163889,7 +163889,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengolok-olok para pelajar yang tawuran tersebut lalu bergegas pergi karena dikejar waktu.",
+        "teks": "Mengolok-olok para pelajar yang tawuran tersebut lalu bergegas pergi karena dikejar waktu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -163919,7 +163919,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui tindakan tegas atasan terhadap pelanggaran etika rapat yang dilakukan rekan itu.",
+        "teks": "Menyetujui tindakan tegas atasan terhadap pelanggaran etika rapat yang dilakukan rekan itu agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -164039,7 +164039,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memotret dan memviralkan kondisi sampah berserakan tersebut ke media sosial agar diketahui.",
+        "teks": "Memotret dan memviralkan kondisi sampah berserakan tersebut ke media sosial agar diketahui sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -164074,7 +164074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membeli aplikasi pesanan atasan sekaligus membeli aplikasi lain yang lebih baik lagi.",
+        "teks": "Membeli aplikasi pesanan atasan sekaligus membeli aplikasi lain yang lebih baik lagi agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -164109,7 +164109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Kembali ke kantor saja dan melanjutkan distribusi sisa paket pada keesokan harinya.",
+        "teks": "Kembali ke kantor saja dan melanjutkan distribusi sisa paket pada keesokan harinya agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -164134,7 +164134,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih tidak mengikuti tradisi warga tersebut karena merasa kurang cocok dengan kebiasaan.",
+        "teks": "Memilih tidak mengikuti tradisi warga tersebut karena merasa kurang cocok dengan kebiasaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -164174,7 +164174,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mendekorasi ruang tunggu agar bersih, ber-AC, serta tersedia minuman dan bahan bacaan.",
+        "teks": "Mendekorasi ruang tunggu agar bersih, ber-AC, serta tersedia minuman dan bahan bacaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -164204,7 +164204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap melayani pasien tersebut secara maksimal sesuai standar prosedur medis rumah sakit.",
+        "teks": "Tetap melayani pasien tersebut secara maksimal sesuai standar prosedur medis rumah sakit agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -164359,7 +164359,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa iba hatinya lalu dengan berhati-hati membantu nenek tersebut semampu waktu tersedia.",
+        "teks": "Merasa iba hatinya lalu dengan berhati-hati membantu nenek tersebut semampu waktu tersedia agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -164479,7 +164479,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyewa jasa konsultan TI eksternal untuk membangun sistem guna mempermudah proses seleksi.",
+        "teks": "Menyewa jasa konsultan TI eksternal untuk membangun sistem guna mempermudah proses seleksi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -164519,7 +164519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Ikut tertawa bersama rekan kerja lainnya karena menganggap hal itu sekadar candaan.",
+        "teks": "Ikut tertawa bersama rekan kerja lainnya karena menganggap hal itu sekadar candaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -164594,7 +164594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memberikan ide-ide orisinal serta solusi inovatif yang memberi nilai tambah bagi instansi.",
+        "teks": "Memberikan ide-ide orisinal serta solusi inovatif yang memberi nilai tambah bagi instansi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -164639,7 +164639,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak rekan-rekan kerja lainnya di ruangan untuk bersama-sama membantu beliau memahami TI.",
+        "teks": "Mengajak rekan-rekan kerja lainnya di ruangan untuk bersama-sama membantu beliau memahami TI agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -164674,7 +164674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendengarkan keluh kesah warga lalu mengajarkan langsung cara mengirim pengaduan secara daring.",
+        "teks": "Mendengarkan keluh kesah warga lalu mengajarkan langsung cara mengirim pengaduan secara daring agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -164744,7 +164744,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa bangga dan bahagia lalu menyuruh keluarga di rumah mengadakan syukuran meriah.",
+        "teks": "Merasa bangga dan bahagia lalu menyuruh keluarga di rumah mengadakan syukuran meriah agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -164809,7 +164809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Hanya bersedia mengerjakan tugas di luar uraian jabatan jika diperintahkan oleh atasan.",
+        "teks": "Hanya bersedia mengerjakan tugas di luar uraian jabatan jika diperintahkan oleh atasan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -164909,7 +164909,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengobrol ringan bersama rekan sejawat yang baru tiba di lobi ruang kerja.",
+        "teks": "Mengobrol ringan bersama rekan sejawat yang baru tiba di lobi ruang kerja agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -164984,7 +164984,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta bantuan rekan sejawat mengerjakan tugas agar tidak melewati batas waktu atasan.",
+        "teks": "Meminta bantuan rekan sejawat mengerjakan tugas agar tidak melewati batas waktu atasan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -165019,7 +165019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menganggap stabilitas pola kerja lama jauh lebih penting daripada menerapkan perubahan baru.",
+        "teks": "Menganggap stabilitas pola kerja lama jauh lebih penting daripada menerapkan perubahan baru agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -165039,7 +165039,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Bersikap acuh tak acuh karena widyaiswara memang tidak menawarkan jadwal ujian susulan.",
+        "teks": "Bersikap acuh tak acuh karena widyaiswara memang tidak menawarkan jadwal ujian susulan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -165214,7 +165214,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap menyelesaikan laporan terlebih dahulu karena khawatir sewaktu-waktu diminta oleh atasan langsung.",
+        "teks": "Tetap menyelesaikan laporan terlebih dahulu karena khawatir sewaktu-waktu diminta oleh atasan langsung sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -165249,7 +165249,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa cemas berkepanjangan hingga sulit tidur memikirkan dampak ekonomi pada bulan depan.",
+        "teks": "Merasa cemas berkepanjangan hingga sulit tidur memikirkan dampak ekonomi pada bulan depan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -165334,7 +165334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghubungi pihak pemerintah desa terkait untuk membantu melengkapi berkas agar tidak bolak-balik.",
+        "teks": "Menghubungi pihak pemerintah desa terkait untuk membantu melengkapi berkas agar tidak bolak-balik sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -165359,7 +165359,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengusulkan kepada pimpinan agar aturan kehadiran rapat ditegaskan kembali tanpa ada pengecualian.",
+        "teks": "Mengusulkan kepada pimpinan agar aturan kehadiran rapat ditegaskan kembali tanpa ada pengecualian sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -165434,7 +165434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Melaporkan kepada atasan agar diterbitkan penegasan aturan berpakaian seragam bagi seluruh peserta.",
+        "teks": "Melaporkan kepada atasan agar diterbitkan penegasan aturan berpakaian seragam bagi seluruh peserta sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -165634,7 +165634,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memeriksa seluruh kotak masuk email secara manual satu per satu setiap hari.",
+        "teks": "Memeriksa seluruh kotak masuk email secara manual satu per satu setiap hari agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
@@ -165714,7 +165714,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Merasa sangat sedih dan kecewa mendalam atas kegagalan target yang telah ditetapkan.",
+        "teks": "Merasa sangat sedih dan kecewa mendalam atas kegagalan target yang telah ditetapkan supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -165794,7 +165794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa ragu mengajukan gagasan kegiatan karena khawatir kecewa jika usulan saya ditolak.",
+        "teks": "Merasa ragu mengajukan gagasan kegiatan karena khawatir kecewa jika usulan saya ditolak sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -165859,7 +165859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berpura-pura memahami seluruh pembicaraannya agar proses layanan konsultasi cepat tampak selesai.",
+        "teks": "Berpura-pura memahami seluruh pembicaraannya agar proses layanan konsultasi cepat tampak selesai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -166029,7 +166029,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memilih membaca berita hiburan ringan di ponsel sambil menunggu jam pulang kantor.",
+        "teks": "Memilih membaca berita hiburan ringan di ponsel sambil menunggu jam pulang kantor agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -166074,7 +166074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melaksanakan tugas diklat hingga tuntas lalu kembali ke rumah sebulan kemudian.",
+        "teks": "Melaksanakan tugas diklat hingga tuntas lalu kembali ke rumah sebulan kemudian agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -166179,7 +166179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Berharap seharusnya ada rekan lain di unit kerja yang membantu menyelesaikan masalah.",
+        "teks": "Berharap seharusnya ada rekan lain di unit kerja yang membantu menyelesaikan masalah agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -166199,7 +166199,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengancam akan mengeluarkan anggota yang tidak serius bekerja dari daftar keanggotaan tim.",
+        "teks": "Mengancam akan mengeluarkan anggota yang tidak serius bekerja dari daftar keanggotaan tim agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -166454,7 +166454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya meninjau serta memikirkan kembali dampak risiko dari gagasan yang ia usulkan.",
+        "teks": "Memintanya meninjau serta memikirkan kembali dampak risiko dari gagasan yang ia usulkan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -166494,7 +166494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendengarkan dan mencari solusi terbaik atas keluhan warga lalu mengajarkan kanal daring.",
+        "teks": "Mendengarkan dan mencari solusi terbaik atas keluhan warga lalu mengajarkan kanal daring agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -166584,7 +166584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memastikan anak tidak bersekolah di lembaga berhaluan radikal dan menentang nilai Pancasila.",
+        "teks": "Memastikan anak tidak bersekolah di lembaga berhaluan radikal dan menentang nilai Pancasila agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -166634,7 +166634,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menanyakan kejelasan informasi kepadanya lalu mengajak mengonfirmasi secara baik-baik ke kantor kelurahan.",
+        "teks": "Menanyakan kejelasan informasi kepadanya lalu mengajak mengonfirmasi secara baik-baik ke kantor kelurahan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -166704,7 +166704,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menilai paham radikalisme tidak bisa digeneralisasi hanya dari beberapa oknum pelaku terorisme.",
+        "teks": "Menilai paham radikalisme tidak bisa digeneralisasi hanya dari beberapa oknum pelaku terorisme agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -166794,7 +166794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap memberikan kesempatan perbaikan karena setiap pegawai berhak memperoleh pembinaan lanjutan.",
+        "teks": "Tetap memberikan kesempatan perbaikan karena setiap pegawai berhak memperoleh pembinaan lanjutan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -166834,7 +166834,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh mereka membaca seluruh dokumen uraian tugas lalu menerapkannya dalam setiap pekerjaan.",
+        "teks": "Menyuruh mereka membaca seluruh dokumen uraian tugas lalu menerapkannya dalam setiap pekerjaan supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -166864,7 +166864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Ikut mengenakan rok kain adat serta memakainya secara berkesinambungan selama bertugas kerja.",
+        "teks": "Ikut mengenakan rok kain adat serta memakainya secara berkesinambungan selama bertugas kerja agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -166934,7 +166934,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan usulan alternatif tindakan penyelesaian yang tepat agar persoalan rekan segera tuntas.",
+        "teks": "Mengajukan usulan alternatif tindakan penyelesaian yang tepat agar persoalan rekan segera tuntas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -166979,7 +166979,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak ajakan rekan kerja karena saya memiliki agenda pribadi di luar.",
+        "teks": "Menolak ajakan rekan kerja karena saya memiliki agenda pribadi di luar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -167114,7 +167114,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Merasa keberatan lalu meminta instansi menanggung penuh seluruh biaya tugas belajar.",
+        "teks": "Merasa keberatan lalu meminta instansi menanggung penuh seluruh biaya tugas belajar agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -167194,7 +167194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta rekan kerja lain yang sedang senggang untuk membantu menyelesaikan kesulitan tugasnya.",
+        "teks": "Meminta rekan kerja lain yang sedang senggang untuk membantu menyelesaikan kesulitan tugasnya agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -167214,7 +167214,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengambil alih dan menyelesaikan sebagian besar pekerjaan kelompok agar cepat selesai tuntas.",
+        "teks": "Mengambil alih dan menyelesaikan sebagian besar pekerjaan kelompok agar cepat selesai tuntas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -167319,7 +167319,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengikuti langkah solusi dari pegawai lain yang pernah mengalami hambatan kerja serupa.",
+        "teks": "Mengikuti langkah solusi dari pegawai lain yang pernah mengalami hambatan kerja serupa agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -167354,7 +167354,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Bekerja merupakan kewajiban utama pegawai demi memperoleh penghasilan bulanan secara tetap saja.",
+        "teks": "Bekerja merupakan kewajiban utama pegawai demi memperoleh penghasilan bulanan secara tetap saja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -167389,7 +167389,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyelesaikan seluruh berkas pekerjaan tersebut sampai tuntas dengan syarat meminta uang lembur.",
+        "teks": "Menyelesaikan seluruh berkas pekerjaan tersebut sampai tuntas dengan syarat meminta uang lembur agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -167469,7 +167469,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berusaha mempelajari dan memahami mekanisme kerja unit baru melalui penjelasan rekan sejawat.",
+        "teks": "Berusaha mempelajari dan memahami mekanisme kerja unit baru melalui penjelasan rekan sejawat agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -167494,7 +167494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memandang perubahan sistem kerja di organisasi sebagai sesuatu yang pasti terjadi setiap waktu.",
+        "teks": "Memandang perubahan sistem kerja di organisasi sebagai sesuatu yang pasti terjadi setiap waktu agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -167599,7 +167599,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyalahkan rekan sejawat dalam tim kerja yang ikut menyusun bagian draf laporan tersebut.",
+        "teks": "Menyalahkan rekan sejawat dalam tim kerja yang ikut menyusun bagian draf laporan tersebut supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -167634,7 +167634,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjaga stabilitas organisasi dapat ditempuh dengan sedapat mungkin menghindari munculnya berbagai perubahan baru.",
+        "teks": "Menjaga stabilitas organisasi dapat ditempuh dengan sedapat mungkin menghindari munculnya berbagai perubahan baru agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -167664,7 +167664,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan kendaraan dinas tersebut secara diam-diam karena tidak ada pegawai lain yang mengetahui kejadian.",
+        "teks": "Menyimpan kendaraan dinas tersebut secara diam-diam karena tidak ada pegawai lain yang mengetahui kejadian sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -167704,7 +167704,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih diam saja karena membantah pimpinan di kantor hanya akan menambah rumit permasalahan.",
+        "teks": "Memilih diam saja karena membantah pimpinan di kantor hanya akan menambah rumit permasalahan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -167874,7 +167874,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengerjakan seluruh tugas tim sendirian yang terpenting laporan selesai sebelum batas waktu berakhir.",
+        "teks": "Mengerjakan seluruh tugas tim sendirian yang terpenting laporan selesai sebelum batas waktu berakhir agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -167919,7 +167919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Masuk ke ruang kerja dan mengobrol santai bersama rekan sejawat yang sudah datang.",
+        "teks": "Masuk ke ruang kerja dan mengobrol santai bersama rekan sejawat yang sudah datang agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -167994,7 +167994,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menciptakan hubungan sosial yang baik dengan setiap orang, rekan kerja, maupun pimpinan instansi.",
+        "teks": "Menciptakan hubungan sosial yang baik dengan setiap orang, rekan kerja, maupun pimpinan instansi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -168029,7 +168029,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bekerja terus hingga larut malam setiap hari meskipun seluruh tugas harian sudah selesai.",
+        "teks": "Bekerja terus hingga larut malam setiap hari meskipun seluruh tugas harian sudah selesai agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -168104,7 +168104,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tetap menjadi staf pelaksana di unit kerja lain yang masih sesuai kompetensi dasar.",
+        "teks": "Tetap menjadi staf pelaksana di unit kerja lain yang masih sesuai kompetensi dasar supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -168204,7 +168204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Masuk kerja tepat waktu meski di dalam ruang kantor hanya duduk mengobrol santai.",
+        "teks": "Masuk kerja tepat waktu meski di dalam ruang kantor hanya duduk mengobrol santai agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
@@ -168244,7 +168244,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa perlu membeberkan permasalahan internal keuangan tersebut kepada seluruh jajaran pegawai di instansi.",
+        "teks": "Merasa perlu membeberkan permasalahan internal keuangan tersebut kepada seluruh jajaran pegawai di instansi supaya pekerjaan tetap berjalan.",
         "poin": 1
       }
     ],
@@ -168314,7 +168314,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tidak, selama besaran gaji dan tunjangan kesejahteraan yang diterima masih dirasa cukup memadai.",
+        "teks": "Tidak, selama besaran gaji dan tunjangan kesejahteraan yang diterima masih dirasa cukup memadai agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -168349,7 +168349,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merasa ragu-ragu mengajukan suatu ide kegiatan karena khawatir kecewa apabila usulan tidak diterima.",
+        "teks": "Merasa ragu-ragu mengajukan suatu ide kegiatan karena khawatir kecewa apabila usulan tidak diterima sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -168524,7 +168524,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Pekerjaan apa saja tanpa mengenal rasa lelah sedikit pun meski tanpa pamrih penghargaan.",
+        "teks": "Pekerjaan apa saja tanpa mengenal rasa lelah sedikit pun meski tanpa pamrih penghargaan supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -168544,7 +168544,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tidak pernah berani mengambil keputusan sendiri karena khawatir menanggung risiko kesalahan di kantor.",
+        "teks": "Tidak pernah berani mengambil keputusan sendiri karena khawatir menanggung risiko kesalahan di kantor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -168584,7 +168584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak mendekati kepala kantor yang baru karena khawatir dicap penjilat oleh rekan kerja.",
+        "teks": "Menolak mendekati kepala kantor yang baru karena khawatir dicap penjilat oleh rekan kerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -168659,7 +168659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berusaha bekerja seadanya sesuai kemampuan minimal agar tidak merasa kelelahan saat bertugas.",
+        "teks": "Berusaha bekerja seadanya sesuai kemampuan minimal agar tidak merasa kelelahan saat bertugas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -168679,7 +168679,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Gagasan yang bersifat umum dan sudah sering diterapkan di berbagai instansi daerah lain.",
+        "teks": "Gagasan yang bersifat umum dan sudah sering diterapkan di berbagai instansi daerah lain agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -168724,7 +168724,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta rekan kerja menyelesaikan tugas lama saya lalu saya fokus mengerjakan tugas baru.",
+        "teks": "Meminta rekan kerja menyelesaikan tugas lama saya lalu saya fokus mengerjakan tugas baru agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -168769,7 +168769,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyuruh rekan kerja lain yang memiliki waktu luang untuk menyelesaikan tugas berat tersebut.",
+        "teks": "Menyuruh rekan kerja lain yang memiliki waktu luang untuk menyelesaikan tugas berat tersebut supaya pekerjaan tetap berjalan.",
         "poin": 1
       }
     ],
@@ -168854,7 +168854,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memaksanya dengan nada tegas untuk tetap tinggal di kantor sampai seluruh pekerjaan selesai.",
+        "teks": "Memaksanya dengan nada tegas untuk tetap tinggal di kantor sampai seluruh pekerjaan selesai supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -168939,7 +168939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunda-nunda pelaksanaan ide pembaruan begitu melihat adanya potensi risiko kendala di lapangan.",
+        "teks": "Menunda-nunda pelaksanaan ide pembaruan begitu melihat adanya potensi risiko kendala di lapangan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -168969,7 +168969,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Keberanian mencoba hal-hal baru yang dipastikan aman serta sama sekali tidak memiliki risiko.",
+        "teks": "Keberanian mencoba hal-hal baru yang dipastikan aman serta sama sekali tidak memiliki risiko agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -169064,7 +169064,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa tidak perlu lagi berusaha terlalu keras karena prestasi kerja sudah cukup diakui.",
+        "teks": "Merasa tidak perlu lagi berusaha terlalu keras karena prestasi kerja sudah cukup diakui sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -169189,7 +169189,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Dapat bangkit kembali hanya apabila ada rekan kerja atau keluarga yang mendukung saya.",
+        "teks": "Dapat bangkit kembali hanya apabila ada rekan kerja atau keluarga yang mendukung saya supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -169224,7 +169224,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tugas kedinasan yang mudah dikerjakan agar hasil akhirnya selalu terlihat maksimal tanpa kendala.",
+        "teks": "Tugas kedinasan yang mudah dikerjakan agar hasil akhirnya selalu terlihat maksimal tanpa kendala sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -169254,7 +169254,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menggerakkan rekan lain agar terbiasa bekerja mandiri dan tidak bergantung kepada sesama pegawai.",
+        "teks": "Menggerakkan rekan lain agar terbiasa bekerja mandiri dan tidak bergantung kepada sesama pegawai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -169289,7 +169289,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mencari mentor atau pembimbing senior agar capaian prestasi kerja saya dapat segera meningkat.",
+        "teks": "Mencari mentor atau pembimbing senior agar capaian prestasi kerja saya dapat segera meningkat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -169319,7 +169319,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan keluhan warga tersebut begitu saja agar tidak mengganggu konsentrasi pelayanan di loket.",
+        "teks": "Mengabaikan keluhan warga tersebut begitu saja agar tidak mengganggu konsentrasi pelayanan di loket sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -169349,7 +169349,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih posisi jabatan yang hanya secara langsung berperan di garda depan pelayanan publik.",
+        "teks": "Memilih posisi jabatan yang hanya secara langsung berperan di garda depan pelayanan publik agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -169384,7 +169384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencoba membantu warga yang mengeluh tersebut menyelesaikan persoalan layanannya sebisa mungkin di tempat.",
+        "teks": "Mencoba membantu warga yang mengeluh tersebut menyelesaikan persoalan layanannya sebisa mungkin di tempat agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -169464,7 +169464,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu bengkel menambal ban sambil berharap proses pengerjaannya bisa selesai jauh lebih cepat.",
+        "teks": "Menunggu bengkel menambal ban sambil berharap proses pengerjaannya bisa selesai jauh lebih cepat agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -169524,7 +169524,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menegur cara kerjanya yang lamban tersebut karena terbukti sering menghambat pekerjaan rekan lain.",
+        "teks": "Menegur cara kerjanya yang lamban tersebut karena terbukti sering menghambat pekerjaan rekan lain sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -169559,7 +169559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Berusaha menghindar secara halus setiap kali diminta meluangkan waktu untuk membantu orang lain.",
+        "teks": "Berusaha menghindar secara halus setiap kali diminta meluangkan waktu untuk membantu orang lain agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -169599,7 +169599,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berusaha mengebut penyelesaian tugas pribadi secepat mungkin terlebih dahulu baru menuju loket pelayanan.",
+        "teks": "Berusaha mengebut penyelesaian tugas pribadi secepat mungkin terlebih dahulu baru menuju loket pelayanan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -169674,7 +169674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tidak menanggapi permintaan bantuan orang lain apabila hati saya sedang merasa kurang nyaman.",
+        "teks": "Tidak menanggapi permintaan bantuan orang lain apabila hati saya sedang merasa kurang nyaman agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -169709,7 +169709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Langsung memihak dan membela kelompok pegawai yang pendapatnya kebetulan sejalan dengan pikiran saya.",
+        "teks": "Langsung memihak dan membela kelompok pegawai yang pendapatnya kebetulan sejalan dengan pikiran saya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -169844,7 +169844,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bekerja secara normatif sesuai dengan tata aturan prosedur tertulis yang berlaku di instansi.",
+        "teks": "Bekerja secara normatif sesuai dengan tata aturan prosedur tertulis yang berlaku di instansi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -169874,7 +169874,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memberitahukan lokasi tugas Pak Yanto mengingat kondisi urusan dinas tersebut bersifat sangat genting.",
+        "teks": "Memberitahukan lokasi tugas Pak Yanto mengingat kondisi urusan dinas tersebut bersifat sangat genting agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -169914,7 +169914,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengingatkan secara tidak formal kepada pegawai tersebut di luar jam kerja secara santai.",
+        "teks": "Mengingatkan secara tidak formal kepada pegawai tersebut di luar jam kerja secara santai agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -169974,7 +169974,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Bertanya terlebih dahulu kepada atasan langsung apakah pegawai diizinkan libur pada hari Senin.",
+        "teks": "Bertanya terlebih dahulu kepada atasan langsung apakah pegawai diizinkan libur pada hari Senin agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -170029,7 +170029,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Saya melakukan negosiasi kepada atasan apabila mendapatkan target kinerja yang dirasa terlalu tinggi.",
+        "teks": "Saya melakukan negosiasi kepada atasan apabila mendapatkan target kinerja yang dirasa terlalu tinggi agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -170064,7 +170064,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Saya bekerja secara kaku mengikuti cara dan prosedur standar yang sudah lazim dilakukan.",
+        "teks": "Saya bekerja secara kaku mengikuti cara dan prosedur standar yang sudah lazim dilakukan agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -170164,7 +170164,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tingkat kedisiplinan setiap anggota tim dalam mengerjakan rincian tugas yang telah diberikan.",
+        "teks": "Tingkat kedisiplinan setiap anggota tim dalam mengerjakan rincian tugas yang telah diberikan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -170189,7 +170189,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Sekadar mengingatkan ringan saja karena menganggap anggota kelompok sudah dewasa dan paham aturan.",
+        "teks": "Sekadar mengingatkan ringan saja karena menganggap anggota kelompok sudah dewasa dan paham aturan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -170229,7 +170229,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Segera menemui ketua tim terlebih dahulu untuk klarifikasi sebelum mendapatkan teguran resmi darinya.",
+        "teks": "Segera menemui ketua tim terlebih dahulu untuk klarifikasi sebelum mendapatkan teguran resmi darinya agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -170264,7 +170264,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menilai bahwa pemberian tugas sulit sebaiknya selalu disertai bimbingan penuh dari pegawai senior.",
+        "teks": "Menilai bahwa pemberian tugas sulit sebaiknya selalu disertai bimbingan penuh dari pegawai senior agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -170344,7 +170344,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Berbincang akrab hanya dengan rekan satu bidang yang sudah lama dikenal.",
+        "teks": "Berbincang akrab hanya dengan rekan satu bidang yang sudah lama dikenal agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -170414,7 +170414,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyesali keputusan memilih rekan tersebut masuk ke dalam susunan pengurus tim kerja.",
+        "teks": "Menyesali keputusan memilih rekan tersebut masuk ke dalam susunan pengurus tim kerja agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -170439,7 +170439,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengusulkan pengadaan berbagai perangkat elektronik terbaru untuk mendukung fasilitas kerja unit.",
+        "teks": "Mengusulkan pengadaan berbagai perangkat elektronik terbaru untuk mendukung fasilitas kerja unit agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -170519,7 +170519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mendiamkan rekan tersebut sebagai bentuk kekecewaan tanpa perlu membuka pembicaraan lagi.",
+        "teks": "Mendiamkan rekan tersebut sebagai bentuk kekecewaan tanpa perlu membuka pembicaraan lagi agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -170584,7 +170584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menawarkan bantuan biaya sebagian sambil mencarikan dukungan donatur dari pihak ketiga terkait.",
+        "teks": "Menawarkan bantuan biaya sebagian sambil mencarikan dukungan donatur dari pihak ketiga terkait agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -170604,7 +170604,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjadi lebih mudah tersinggung ketika menerima masukan atau teguran dari rekan sejawat.",
+        "teks": "Menjadi lebih mudah tersinggung ketika menerima masukan atau teguran dari rekan sejawat agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -170674,7 +170674,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa sulit mengakui penilaian tersebut karena Anda merasa sudah bekerja sangat maksimal.",
+        "teks": "Merasa sulit mengakui penilaian tersebut karena Anda merasa sudah bekerja sangat maksimal sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -170729,7 +170729,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Sengaja mencari topik gurauan ringan agar suasana kerja kembali hangat tanpa canggung.",
+        "teks": "Sengaja mencari topik gurauan ringan agar suasana kerja kembali hangat tanpa canggung sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -170754,7 +170754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersikap tenang sambil meyakini bahwa persoalan tersebut pasti dapat diselesaikan dengan baik.",
+        "teks": "Bersikap tenang sambil meyakini bahwa persoalan tersebut pasti dapat diselesaikan dengan baik agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -170794,7 +170794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa menyesal apabila menolak mendengarkan curhatannya saat ia sangat membutuhkan teman bicara.",
+        "teks": "Merasa menyesal apabila menolak mendengarkan curhatannya saat ia sangat membutuhkan teman bicara agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -170864,7 +170864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa jengkel terhadap peserta rapat yang terkesan menolak gagasan Anda tanpa pertimbangan matang.",
+        "teks": "Merasa jengkel terhadap peserta rapat yang terkesan menolak gagasan Anda tanpa pertimbangan matang agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -170894,7 +170894,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tetap memberikan beban tugas yang sama rata demi menjaga keadilan di dalam tim.",
+        "teks": "Tetap memberikan beban tugas yang sama rata demi menjaga keadilan di dalam tim sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -171029,7 +171029,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Ikut merasakan kesedihan mendalam atas musibah kesehatan yang menimpa keluarga sahabat dekat Anda.",
+        "teks": "Ikut merasakan kesedihan mendalam atas musibah kesehatan yang menimpa keluarga sahabat dekat Anda agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -171109,7 +171109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berusaha mengambil hatinya terlebih dahulu agar ia bersedia melunakkan sikap saat berkoordinasi.",
+        "teks": "Berusaha mengambil hatinya terlebih dahulu agar ia bersedia melunakkan sikap saat berkoordinasi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -171214,7 +171214,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa gelisah setiap kali rekan mulai menilai kebiasaan kerja atau sikap keseharian Anda.",
+        "teks": "Merasa gelisah setiap kali rekan mulai menilai kebiasaan kerja atau sikap keseharian Anda agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -171289,7 +171289,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan hadiah tersebut di rumah tanpa menyentuhnya karena memang tidak sesuai selera pribadi.",
+        "teks": "Menyimpan hadiah tersebut di rumah tanpa menyentuhnya karena memang tidak sesuai selera pribadi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       }
     ],
@@ -171359,7 +171359,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghubungi petugas bengkel melalui telepon agar datang langsung ke lokasi motor yang mogok.",
+        "teks": "Menghubungi petugas bengkel melalui telepon agar datang langsung ke lokasi motor yang mogok sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -171424,7 +171424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu rekan lama tersebut menyapa Anda terlebih dahulu untuk memastikan ia masih mengingat.",
+        "teks": "Menunggu rekan lama tersebut menyapa Anda terlebih dahulu untuk memastikan ia masih mengingat agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -171659,7 +171659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membujuknya secara halus agar mau menunda kepulangan demi membantu menyelesaikan sisa tugas tim.",
+        "teks": "Membujuknya secara halus agar mau menunda kepulangan demi membantu menyelesaikan sisa tugas tim sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -171709,7 +171709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tidak ada tanggapan atau pertanyaan balik dari pendengar setelah sesi pemaparan materi berakhir.",
+        "teks": "Tidak ada tanggapan atau pertanyaan balik dari pendengar setelah sesi pemaparan materi berakhir agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -171724,7 +171724,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melontarkan gagasan pemantik guna mendorong keterlibatan aktif seluruh peserta rapat dalam berdiskusi.",
+        "teks": "Melontarkan gagasan pemantik guna mendorong keterlibatan aktif seluruh peserta rapat dalam berdiskusi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -171814,7 +171814,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Merumuskan ulang konsep program hanya bersama pihak luar yang sejalan dengan gagasan Anda.",
+        "teks": "Merumuskan ulang konsep program hanya bersama pihak luar yang sejalan dengan gagasan Anda agar situasi tetap kondusif.",
         "poin": 3
       }
     ],
@@ -171884,7 +171884,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memperbanyak doa agar kegiatan tahun ini berjalan lancar tanpa kendala teknis berarti.",
+        "teks": "Memperbanyak doa agar kegiatan tahun ini berjalan lancar tanpa kendala teknis berarti sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -171919,7 +171919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menjalankan usaha sekadarnya sambil mengikuti suratan nasib atas hasil keuntungan yang nanti diperoleh.",
+        "teks": "Menjalankan usaha sekadarnya sambil mengikuti suratan nasib atas hasil keuntungan yang nanti diperoleh agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -172009,7 +172009,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih langsung beristirahat di meja kerja karena menganggap pekerjaan otomatis berhenti sementara.",
+        "teks": "Memilih langsung beristirahat di meja kerja karena menganggap pekerjaan otomatis berhenti sementara sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -172039,7 +172039,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pikiran yang mudah bercabang ke banyak hal sehingga tidak fokus pada satu tujuan.",
+        "teks": "Pikiran yang mudah bercabang ke banyak hal sehingga tidak fokus pada satu tujuan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -172119,7 +172119,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersikap ramah terhadap seluruh rekan namun tetap menjaga jarak pada batas formalitas tertentu.",
+        "teks": "Bersikap ramah terhadap seluruh rekan namun tetap menjaga jarak pada batas formalitas tertentu agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -172144,7 +172144,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa kurang nyaman karena harus mempelajari ulang alur kerja yang sudah lama dikuasai.",
+        "teks": "Merasa kurang nyaman karena harus mempelajari ulang alur kerja yang sudah lama dikuasai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -172184,7 +172184,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Pribadi yang santai dalam bekerja sehingga terkadang baru bergerak cepat menjelang tenggat waktu.",
+        "teks": "Pribadi yang santai dalam bekerja sehingga terkadang baru bergerak cepat menjelang tenggat waktu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -172254,7 +172254,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan fenomena tersebut berlalu karena setiap warga memiliki kebebasan memilih tontonan masing-masing.",
+        "teks": "Membiarkan fenomena tersebut berlalu karena setiap warga memiliki kebebasan memilih tontonan masing-masing sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -172284,7 +172284,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memutuskan hubungan pertemanan seketika dan enggan bekerja sama lagi dalam proyek apa pun.",
+        "teks": "Memutuskan hubungan pertemanan seketika dan enggan bekerja sama lagi dalam proyek apa pun agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -172364,7 +172364,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengeluhkan beratnya beban masalah tersebut di media sosial agar memperoleh dukungan moril dari teman.",
+        "teks": "Mengeluhkan beratnya beban masalah tersebut di media sosial agar memperoleh dukungan moril dari teman sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -172474,7 +172474,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengingatkannya secara datar bahwa Anda sudah meminta maaf sehingga tidak perlu membesar-besarkan masalah.",
+        "teks": "Mengingatkannya secara datar bahwa Anda sudah meminta maaf sehingga tidak perlu membesar-besarkan masalah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -172494,7 +172494,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Saya mampu bekerja secara efektif baik ketika ditugaskan secara tim maupun secara individu.",
+        "teks": "Saya mampu bekerja secara efektif baik ketika ditugaskan secara tim maupun secara individu agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -172534,7 +172534,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Bekerja dengan cukup baik namun terkadang masih membutuhkan dorongan dari pimpinan atau rekan tim.",
+        "teks": "Bekerja dengan cukup baik namun terkadang masih membutuhkan dorongan dari pimpinan atau rekan tim agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -172609,7 +172609,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memeriksa ulang hasil kerjanya sendiri berulang kali karena tidak ingin ikut campur bagian rekan lain.",
+        "teks": "Memeriksa ulang hasil kerjanya sendiri berulang kali karena tidak ingin ikut campur bagian rekan lain sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -172689,7 +172689,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Berusaha menyelesaikan tugas dengan baik meskipun terkadang masih menunggu arahan teknis dari rekan senior.",
+        "teks": "Berusaha menyelesaikan tugas dengan baik meskipun terkadang masih menunggu arahan teknis dari rekan senior agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -172704,7 +172704,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendapatkan fasilitas ruang kerja yang sangat mewah serta tunjangan kinerja yang selalu meningkat.",
+        "teks": "Mendapatkan fasilitas ruang kerja yang sangat mewah serta tunjangan kinerja yang selalu meningkat agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -172759,7 +172759,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengerjakan berkas tersebut sekadarnya saja karena menganggap itu bukan kesalahan kinerja dirinya.",
+        "teks": "Mengerjakan berkas tersebut sekadarnya saja karena menganggap itu bukan kesalahan kinerja dirinya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       }
     ],
@@ -172864,7 +172864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencari informasi lengkap mengenai syarat pendaftaran serta berkonsultasi dengan atasan mengenai izin belajar.",
+        "teks": "Mencari informasi lengkap mengenai syarat pendaftaran serta berkonsultasi dengan atasan mengenai izin belajar agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -172879,7 +172879,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memudahkan pegawai mencari berbagai referensi regulasi dan bahan rapat secara cepat setiap hari.",
+        "teks": "Memudahkan pegawai mencari berbagai referensi regulasi dan bahan rapat secara cepat setiap hari agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -172949,7 +172949,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Merasa tidak tertarik membacanya karena tidak berkaitan langsung dengan penilaian kinerja jabatan saya.",
+        "teks": "Merasa tidak tertarik membacanya karena tidak berkaitan langsung dengan penilaian kinerja jabatan saya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -173074,7 +173074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Belajar tetap diperlukan sesekali saja apabila instansi menerapkan sistem aplikasi layanan baru.",
+        "teks": "Belajar tetap diperlukan sesekali saja apabila instansi menerapkan sistem aplikasi layanan baru supaya pekerjaan tetap berjalan.",
         "poin": 2
       }
     ],
@@ -173099,7 +173099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima izin tersebut dengan senang hati sambil mengatur jadwal kuliah pada akhir pekan secara teratur.",
+        "teks": "Menerima izin tersebut dengan senang hati sambil mengatur jadwal kuliah pada akhir pekan secara teratur supaya pekerjaan tetap berjalan.",
         "poin": 4
       },
       {
@@ -173169,7 +173169,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menjaga jarak komunikasi dengan orang kepercayaan pimpinan tersebut agar terhindar dari gesekan pendapat.",
+        "teks": "Menjaga jarak komunikasi dengan orang kepercayaan pimpinan tersebut agar terhindar dari gesekan pendapat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -173204,7 +173204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengamati perkembangan situasi dari kejauhan hingga konflik internal tersebut mereda dengan sendirinya.",
+        "teks": "Mengamati perkembangan situasi dari kejauhan hingga konflik internal tersebut mereda dengan sendirinya agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -173229,7 +173229,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berusaha memahami latar belakang masalah dari kedua sisi agar dapat bersikap adil dan bijaksana.",
+        "teks": "Berusaha memahami latar belakang masalah dari kedua sisi agar dapat bersikap adil dan bijaksana sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -173274,7 +173274,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti keputusan tersebut secara pasif sambil berharap tidak terjadi kendala fatal di kemudian hari.",
+        "teks": "Mengikuti keputusan tersebut secara pasif sambil berharap tidak terjadi kendala fatal di kemudian hari agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -173344,7 +173344,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Segera berkenalan dengan rekan-rekan baru serta mempelajari alur kerja unit secara proaktif.",
+        "teks": "Segera berkenalan dengan rekan-rekan baru serta mempelajari alur kerja unit secara proaktif agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -173369,7 +173369,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berinteraksi seperlunya saja untuk menghindari risiko salah ucap yang menyinggung adat mereka.",
+        "teks": "Berinteraksi seperlunya saja untuk menghindari risiko salah ucap yang menyinggung adat mereka agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -173409,7 +173409,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memprotes keputusan ketua tim secara keras karena merasa ide tersebut sangat dibutuhkan instansi.",
+        "teks": "Memprotes keputusan ketua tim secara keras karena merasa ide tersebut sangat dibutuhkan instansi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -173454,7 +173454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mendukung kebijakan efisiensi organisasi serta terus meningkatkan kompetensi diri agar tetap bernilai strategis.",
+        "teks": "Mendukung kebijakan efisiensi organisasi serta terus meningkatkan kompetensi diri agar tetap bernilai strategis sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -173474,7 +173474,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengembalikan kamera tersebut diam-diam ke lemari penyimpanan seolah tidak pernah terjadi kerusakan apa pun.",
+        "teks": "Mengembalikan kamera tersebut diam-diam ke lemari penyimpanan seolah tidak pernah terjadi kerusakan apa pun agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -173519,7 +173519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghubungi istri untuk menjadwalkan ulang kontrol atau meminta bantuan keluarga menggantikan mengantar sore itu.",
+        "teks": "Menghubungi istri untuk menjadwalkan ulang kontrol atau meminta bantuan keluarga menggantikan mengantar sore itu agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -173549,7 +173549,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengikuti kebiasaan rekan lain membuka gawai pribadi ketika antrean pemohon layanan sedang terlihat sepi.",
+        "teks": "Mengikuti kebiasaan rekan lain membuka gawai pribadi ketika antrean pemohon layanan sedang terlihat sepi agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -173584,7 +173584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengurangi intensitas interaksi dengan mereka agar tidak memicu rasa iri atau gosip di kantor.",
+        "teks": "Mengurangi intensitas interaksi dengan mereka agar tidak memicu rasa iri atau gosip di kantor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -173699,7 +173699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak tugas secara langsung karena khawatir hasil pekerjaan tidak akan memenuhi standar kualitas instansi.",
+        "teks": "Menolak tugas secara langsung karena khawatir hasil pekerjaan tidak akan memenuhi standar kualitas instansi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -173869,7 +173869,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta mitra kerja tersebut menghubungi langsung telepon genggam pimpinan agar segera mendapat jawaban pasti.",
+        "teks": "Meminta mitra kerja tersebut menghubungi langsung telepon genggam pimpinan agar segera mendapat jawaban pasti sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -173899,7 +173899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengingatkan rekan tersebut mengenai pentingnya menjaga integritas kompetisi agar hasil penilaian tetap adil.",
+        "teks": "Mengingatkan rekan tersebut mengenai pentingnya menjaga integritas kompetisi agar hasil penilaian tetap adil sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -174014,7 +174014,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Aktif mengikuti berbagai kegiatan sosial kemasyarakatan di lingkungan tempat tinggal setiap akhir pekan tiba.",
+        "teks": "Aktif mengikuti berbagai kegiatan sosial kemasyarakatan di lingkungan tempat tinggal setiap akhir pekan tiba agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -174044,7 +174044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Kepemimpinan otoriter yang mewajibkan seluruh bawahan menjalankan perintah atasan secara mutlak tanpa ruang diskusi.",
+        "teks": "Kepemimpinan otoriter yang mewajibkan seluruh bawahan menjalankan perintah atasan secara mutlak tanpa ruang diskusi agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -174104,7 +174104,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membantu memperbaiki bagian data yang tertukar sambil mengingatkan Reni agar lebih teliti di kemudian hari.",
+        "teks": "Membantu memperbaiki bagian data yang tertukar sambil mengingatkan Reni agar lebih teliti di kemudian hari sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -174139,7 +174139,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima perubahan penataan ruangan tersebut secara wajar sambil menata ulang berkas meja agar lebih rapi.",
+        "teks": "Menerima perubahan penataan ruangan tersebut secara wajar sambil menata ulang berkas meja agar lebih rapi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -174194,7 +174194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak anggota lain tetap menjaga netralitas serta mendorong terciptanya musyawarah mufakat yang konstruktif.",
+        "teks": "Mengajak anggota lain tetap menjaga netralitas serta mendorong terciptanya musyawarah mufakat yang konstruktif agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -174209,7 +174209,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyusun laporan berdasarkan rekap data bulan sebelumnya agar proses pengerjaan jauh lebih cepat selesai.",
+        "teks": "Menyusun laporan berdasarkan rekap data bulan sebelumnya agar proses pengerjaan jauh lebih cepat selesai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -174254,7 +174254,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Bersedia menggantikan tugas tersebut meski terpaksa membaca naskah acara seadanya tanpa persiapan matang.",
+        "teks": "Bersedia menggantikan tugas tersebut meski terpaksa membaca naskah acara seadanya tanpa persiapan matang agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -174294,7 +174294,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak secara halus karena khawatir meninggalkan meja kerja akan menimbulkan teguran dari atasan langsung.",
+        "teks": "Menolak secara halus karena khawatir meninggalkan meja kerja akan menimbulkan teguran dari atasan langsung sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -174324,7 +174324,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengajak berdiskusi empat mata guna mencari solusi pengaturan jadwal kerja efektif pada jam kantor reguler.",
+        "teks": "Mengajak berdiskusi empat mata guna mencari solusi pengaturan jadwal kerja efektif pada jam kantor reguler sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -174369,7 +174369,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meraih promosi jabatan struktural secara cepat melalui berbagai proyek strategis yang ditangani di kantor.",
+        "teks": "Meraih promosi jabatan struktural secara cepat melalui berbagai proyek strategis yang ditangani di kantor agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -174424,7 +174424,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan sikap tidak aktifnya lalu mengerjakan seluruh bagian tugasnya seorang diri tanpa mengeluh.",
+        "teks": "Membiarkan sikap tidak aktifnya lalu mengerjakan seluruh bagian tugasnya seorang diri tanpa mengeluh supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -174474,7 +174474,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap netral tanpa memihak kubu mana pun sambil berharap suasana kantor kembali tenang sendirinya.",
+        "teks": "Bersikap netral tanpa memihak kubu mana pun sambil berharap suasana kantor kembali tenang sendirinya agar situasi tetap kondusif.",
         "poin": 2
       }
     ],
@@ -174494,7 +174494,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminjamkannya secara diam-diam karena merasa tidak tega menolak permintaan teman lama yang sedang kesusahan.",
+        "teks": "Meminjamkannya secara diam-diam karena merasa tidak tega menolak permintaan teman lama yang sedang kesusahan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -174524,7 +174524,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memilih rekan yang sudah dikenal dekat agar koordinasi internal lebih cepat terbangun",
+        "teks": "Memilih rekan yang sudah dikenal dekat agar koordinasi internal lebih cepat terbangun sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -174574,7 +174574,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memproses berkas yang bersifat mendesak terlebih dahulu sebelum mengajukan izin keluar kantor sementara",
+        "teks": "Memproses berkas yang bersifat mendesak terlebih dahulu sebelum mengajukan izin keluar kantor sementara agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -174649,7 +174649,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengerjakan materi pelatihan di luar jam dinas secara bertahap agar kewajiban utama tetap terpenuhi",
+        "teks": "Mengerjakan materi pelatihan di luar jam dinas secara bertahap agar kewajiban utama tetap terpenuhi sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -174684,7 +174684,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengarahkan pemohon yang keberatan ke bagian informasi sambil tetap memproses berkas di loket",
+        "teks": "Mengarahkan pemohon yang keberatan ke bagian informasi sambil tetap memproses berkas di loket agar situasi tetap kondusif",
         "poin": 2
       }
     ],
@@ -174699,7 +174699,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengusulkan penjadwalan ulang salah satu agenda kepada pimpinan agar pelaksanaan berjalan maksimal",
+        "teks": "Mengusulkan penjadwalan ulang salah satu agenda kepada pimpinan agar pelaksanaan berjalan maksimal sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -174844,7 +174844,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda persiapan akhir presentasi sementara waktu demi mendampingi adiknya ke fasilitas kesehatan",
+        "teks": "Menunda persiapan akhir presentasi sementara waktu demi mendampingi adiknya ke fasilitas kesehatan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -174889,7 +174889,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pertimbangan ulang atas beban tugas tambahan agar pekerjaan pokok tidak ikut terhambat",
+        "teks": "Meminta pertimbangan ulang atas beban tugas tambahan agar pekerjaan pokok tidak ikut terhambat sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -174924,7 +174924,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melakukan evaluasi beban kerja tiap meja layanan guna mengidentifikasi titik hambatan utama",
+        "teks": "Melakukan evaluasi beban kerja tiap meja layanan guna mengidentifikasi titik hambatan utama sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       },
       {
@@ -174964,7 +174964,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan seluruh proses rekrutmen gugus tugas kepada bagian kepegawaian agar ia fokus pada rencana kerja",
+        "teks": "Menyerahkan seluruh proses rekrutmen gugus tugas kepada bagian kepegawaian agar ia fokus pada rencana kerja sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       }
     ],
@@ -175029,7 +175029,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta unit lain menangani sendiri verifikasi rutin hingga dokumen rencana strategis selesai disusun",
+        "teks": "Meminta unit lain menangani sendiri verifikasi rutin hingga dokumen rencana strategis selesai disusun agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -175099,7 +175099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberikan pelayanan pemeriksaan awal sesuai prosedur sebelum berkonsultasi dengan rekan sejawat",
+        "teks": "Memberikan pelayanan pemeriksaan awal sesuai prosedur sebelum berkonsultasi dengan rekan sejawat agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -175119,7 +175119,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa petugas kebersihan baru saja membersihkan area tersebut sesuai jadwal rutin",
+        "teks": "Menyampaikan bahwa petugas kebersihan baru saja membersihkan area tersebut sesuai jadwal rutin agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -175154,7 +175154,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti rapat evaluasi unit terlebih dahulu kemudian menyusul ke lokasi kompetisi inovasi",
+        "teks": "Mengikuti rapat evaluasi unit terlebih dahulu kemudian menyusul ke lokasi kompetisi inovasi agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -175189,7 +175189,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa bidang kerjanya di kantor bukan pada bagian pemeliharaan teknis lapangan",
+        "teks": "Menjelaskan bahwa bidang kerjanya di kantor bukan pada bagian pemeliharaan teknis lapangan agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -175244,7 +175244,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengalihkan pembahasan ke moderator acara agar suasana forum tetap kondusif hingga selesai",
+        "teks": "Mengalihkan pembahasan ke moderator acara agar suasana forum tetap kondusif hingga selesai sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       }
     ],
@@ -175279,7 +175279,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menelusuri riwayat penggunaan barang terlebih dahulu sebelum menyampaikan laporan resmi kepada atasan",
+        "teks": "Menelusuri riwayat penggunaan barang terlebih dahulu sebelum menyampaikan laporan resmi kepada atasan agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -175294,7 +175294,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghubungi keluarga rekan tersebut agar segera menjemput dan mengantarnya ke rumah sakit",
+        "teks": "Menghubungi keluarga rekan tersebut agar segera menjemput dan mengantarnya ke rumah sakit sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -175334,7 +175334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menegur secara langsung kekeliruan metode kerja mereka agar tidak terulang pada tugas lanjutan",
+        "teks": "Menegur secara langsung kekeliruan metode kerja mereka agar tidak terulang pada tugas lanjutan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -175379,7 +175379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjelaskan jadwal agenda kepala unit hari itu dan menawarkan penjadwalan ulang pertemuan",
+        "teks": "Menjelaskan jadwal agenda kepala unit hari itu dan menawarkan penjadwalan ulang pertemuan agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -175479,7 +175479,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta izin pulang terlebih dahulu dan menawarkan penyelesaian data secara daring dari rumah malam harinya",
+        "teks": "Meminta izin pulang terlebih dahulu dan menawarkan penyelesaian data secara daring dari rumah malam harinya agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -175594,7 +175594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengusulkan penyederhanaan konsep acara agar tidak memerlukan biaya dekorasi tambahan",
+        "teks": "Mengusulkan penyederhanaan konsep acara agar tidak memerlukan biaya dekorasi tambahan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -175619,7 +175619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menginformasikan kompetisi tersebut kepada sahabatnya setelah ia memastikan draf tulisannya hampir rampung",
+        "teks": "Menginformasikan kompetisi tersebut kepada sahabatnya setelah ia memastikan draf tulisannya hampir rampung agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -175644,7 +175644,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memangkas jumlah item perlengkapan kegiatan agar tetap sesuai dengan anggaran kas yang tersedia",
+        "teks": "Memangkas jumlah item perlengkapan kegiatan agar tetap sesuai dengan anggaran kas yang tersedia sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -175754,7 +175754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta tim bendahara menyusun ulang pos pengeluaran untuk mengoptimalkan dana yang ada",
+        "teks": "Meminta tim bendahara menyusun ulang pos pengeluaran untuk mengoptimalkan dana yang ada agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -175939,7 +175939,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu masukan dari atasan mengenai kelanjutan program sebelum mengambil langkah promosi baru",
+        "teks": "Menunggu masukan dari atasan mengenai kelanjutan program sebelum mengambil langkah promosi baru agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -175969,7 +175969,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membagikan ringkasan informasi tersebut hanya kepada rekan terdekat di unit kerjanya agar lebih fokus",
+        "teks": "Membagikan ringkasan informasi tersebut hanya kepada rekan terdekat di unit kerjanya agar lebih fokus sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -176044,7 +176044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Tetap bersikap rendah hati dan meminta masukan dari para senior sebagai bentuk penghormatan kerja",
+        "teks": "Tetap bersikap rendah hati dan meminta masukan dari para senior sebagai bentuk penghormatan kerja agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -176079,7 +176079,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memperkuat koordinasi dengan mitra vendor lama yang sudah memahami standar kerja unitnya",
+        "teks": "Memperkuat koordinasi dengan mitra vendor lama yang sudah memahami standar kerja unitnya supaya pekerjaan tetap berjalan",
         "poin": 3
       },
       {
@@ -176154,7 +176154,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencoba memasang aplikasi perbankan daring pada perangkat kerjanya sesuai arahan petugas layanan bank",
+        "teks": "Mencoba memasang aplikasi perbankan daring pada perangkat kerjanya sesuai arahan petugas layanan bank agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -176184,7 +176184,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Merasa antusias karena citra positif instansi di mata masyarakat akan meningkat melalui publikasi daring",
+        "teks": "Merasa antusias karena citra positif instansi di mata masyarakat akan meningkat melalui publikasi daring sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -176244,7 +176244,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta staf pranata komputer menyiapkan format presentasi pada aplikasi baru sesuai draf materi yang tersedia",
+        "teks": "Meminta staf pranata komputer menyiapkan format presentasi pada aplikasi baru sesuai draf materi yang tersedia agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -176294,7 +176294,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mulai mencari langkah mitigasi gempa secara konvensional tanpa perlu memasang perangkat teknologi deteksi dini",
+        "teks": "Mulai mencari langkah mitigasi gempa secara konvensional tanpa perlu memasang perangkat teknologi deteksi dini agar situasi tetap kondusif",
         "poin": 1
       }
     ],
@@ -176329,7 +176329,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tetap mempertahankan metode pencatatan manual dalam menyelesaikan pekerjaan administrasi sehari-hari di unitnya",
+        "teks": "Tetap mempertahankan metode pencatatan manual dalam menyelesaikan pekerjaan administrasi sehari-hari di unitnya agar situasi tetap kondusif",
         "poin": 1
       }
     ],
@@ -176384,7 +176384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memanfaatkan presensi manual selama kewajiban autentikasi sidik jari belum diterapkan ketat di unit kerjanya",
+        "teks": "Memanfaatkan presensi manual selama kewajiban autentikasi sidik jari belum diterapkan ketat di unit kerjanya agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -176459,7 +176459,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencoba aplikasi pendukung lain di luar ketetapan kantor berdasarkan rekomendasi rekan yang berpengalaman",
+        "teks": "Mencoba aplikasi pendukung lain di luar ketetapan kantor berdasarkan rekomendasi rekan yang berpengalaman agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -176539,7 +176539,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Bersikap lebih cermat sebelum mengunggah konten dan mengusulkan penyusunan pedoman publikasi media sosial kantor",
+        "teks": "Bersikap lebih cermat sebelum mengunggah konten dan mengusulkan penyusunan pedoman publikasi media sosial kantor agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -176559,7 +176559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengusulkan kepada pimpinan pengadaan sistem jaringan terpisah agar tidak mengganggu akses unit kerja lain",
+        "teks": "Mengusulkan kepada pimpinan pengadaan sistem jaringan terpisah agar tidak mengganggu akses unit kerja lain sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -176609,7 +176609,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyiapkan lapisan enkripsi tambahan pada dokumen daftar kata sandi guna mencegah kebocoran akses",
+        "teks": "Menyiapkan lapisan enkripsi tambahan pada dokumen daftar kata sandi guna mencegah kebocoran akses sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -176629,7 +176629,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengumpulkan informasi mengenai latar budaya Fahrul agar tidak kembali terjadi kesalahpahaman instruksi",
+        "teks": "Mengumpulkan informasi mengenai latar budaya Fahrul agar tidak kembali terjadi kesalahpahaman instruksi sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       },
       {
@@ -176709,7 +176709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menanyakan secara langsung kepada perwakilan warga mengenai bagian perilaku tim yang dirasa mengganggu",
+        "teks": "Menanyakan secara langsung kepada perwakilan warga mengenai bagian perilaku tim yang dirasa mengganggu agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -176744,7 +176744,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta Amin dan Leo mempelajari terlebih dahulu rekam jejak serta kemampuan teknis yang dimiliki Teguh",
+        "teks": "Meminta Amin dan Leo mempelajari terlebih dahulu rekam jejak serta kemampuan teknis yang dimiliki Teguh agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -176769,7 +176769,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencari referensi informasi mengenai ketentuan pelaksanaan ritual keagamaan sesuai agama yang dianut Ali",
+        "teks": "Mencari referensi informasi mengenai ketentuan pelaksanaan ritual keagamaan sesuai agama yang dianut Ali agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -176854,7 +176854,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberikan pengertian kepada para pegawai senior bahwa Afif sama sekali tidak berniat menyinggung mereka",
+        "teks": "Memberikan pengertian kepada para pegawai senior bahwa Afif sama sekali tidak berniat menyinggung mereka agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -176984,7 +176984,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyebarkan pengumuman melalui media sosial setempat dan menerima siapa saja yang bersedia membantu menjaga stan",
+        "teks": "Menyebarkan pengumuman melalui media sosial setempat dan menerima siapa saja yang bersedia membantu menjaga stan agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -177014,7 +177014,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencoba memesan dalam jumlah terbatas terlebih dahulu untuk menguji kesesuaian hasil dan respons pegawai",
+        "teks": "Mencoba memesan dalam jumlah terbatas terlebih dahulu untuk menguji kesesuaian hasil dan respons pegawai agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -177204,7 +177204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membangun dialog terbuka dengan beberapa perwakilan peserta tamu guna memahami kebiasaan yang ada",
+        "teks": "Membangun dialog terbuka dengan beberapa perwakilan peserta tamu guna memahami kebiasaan yang ada sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -177234,7 +177234,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta bantuan pihak keluarga dan kerabat dekat Luki agar menasihatinya berhenti memusuhi warga lain",
+        "teks": "Meminta bantuan pihak keluarga dan kerabat dekat Luki agar menasihatinya berhenti memusuhi warga lain sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       },
       {
@@ -177334,7 +177334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berdiskusi dengan beberapa tetangga sekitar mengenai kondisi ketertiban lingkungan yang sedang berlangsung",
+        "teks": "Berdiskusi dengan beberapa tetangga sekitar mengenai kondisi ketertiban lingkungan yang sedang berlangsung agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -177369,7 +177369,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menerima masuknya kebiasaan baru di wilayah tersebut tanpa harus menyingkirkan tradisi lama yang sudah ada",
+        "teks": "Menerima masuknya kebiasaan baru di wilayah tersebut tanpa harus menyingkirkan tradisi lama yang sudah ada agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -177399,7 +177399,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempelajari terlebih dahulu dampak hukum maupun konsekuensi kepegawaian sebelum memutuskan untuk ikut",
+        "teks": "Mempelajari terlebih dahulu dampak hukum maupun konsekuensi kepegawaian sebelum memutuskan untuk ikut agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -177429,7 +177429,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencari informasi pembanding yang akurat sekaligus menenangkan rekan kerja melalui grup komunikasi kantor",
+        "teks": "Mencari informasi pembanding yang akurat sekaligus menenangkan rekan kerja melalui grup komunikasi kantor agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -177464,7 +177464,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memikirkan jalan penyelesaian damai agar polemik mereda dan rekan tersebut tetap dapat mengklarifikasi maksudnya",
+        "teks": "Memikirkan jalan penyelesaian damai agar polemik mereda dan rekan tersebut tetap dapat mengklarifikasi maksudnya sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -177584,7 +177584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Berupaya menerima dengan lapang dada setiap bentuk perbedaan adat dan kebiasaan di lingkungan barunya",
+        "teks": "Berupaya menerima dengan lapang dada setiap bentuk perbedaan adat dan kebiasaan di lingkungan barunya agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -177639,7 +177639,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap melanjutkan pelaksanaan ibadah dengan tenang selama oknum tersebut belum mengganggu jalannya acara",
+        "teks": "Tetap melanjutkan pelaksanaan ibadah dengan tenang selama oknum tersebut belum mengganggu jalannya acara agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -177679,7 +177679,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengamati situasi terlebih dahulu untuk memastikan kronologi kejadian sebelum mengambil sikap",
+        "teks": "Mengamati situasi terlebih dahulu untuk memastikan kronologi kejadian sebelum mengambil sikap agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -177759,7 +177759,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu arahan teknis lebih rinci dari pimpinan sebelum memulai tahapan pelaksanaan",
+        "teks": "Menunggu arahan teknis lebih rinci dari pimpinan sebelum memulai tahapan pelaksanaan agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -177779,7 +177779,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan ringkasan hasil audit kepada atasan langsung tanpa merinci bukti pendukungnya",
+        "teks": "Menyampaikan ringkasan hasil audit kepada atasan langsung tanpa merinci bukti pendukungnya agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -177829,7 +177829,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memohon maaf kepada Ketua RT sambil menjelaskan kondisi kelelahan setelah lembur kantor",
+        "teks": "Memohon maaf kepada Ketua RT sambil menjelaskan kondisi kelelahan setelah lembur kantor agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -177859,7 +177859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Merasa kurang dihargai sehingga memilih diam dan mengikuti alur rapat hingga selesai",
+        "teks": "Merasa kurang dihargai sehingga memilih diam dan mengikuti alur rapat hingga selesai sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -177929,7 +177929,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tidak mempermasalahkan pembagian tugas selama pekerjaan pribadi saya tidak ikut terganggu",
+        "teks": "Tidak mempermasalahkan pembagian tugas selama pekerjaan pribadi saya tidak ikut terganggu agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -178009,7 +178009,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengerjakan tugas tersebut sekadarnya karena keterbatasan waktu dan padatnya tugas utama",
+        "teks": "Mengerjakan tugas tersebut sekadarnya karena keterbatasan waktu dan padatnya tugas utama sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       }
     ],
@@ -178069,7 +178069,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunggu evaluasi resmi dari pimpinan unit sebelum mengusulkan penyesuaian metode kerja",
+        "teks": "Menunggu evaluasi resmi dari pimpinan unit sebelum mengusulkan penyesuaian metode kerja agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -178144,7 +178144,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membuang seluruh tumpukan kertas tersebut ke tempat pembuangan sampah umum kantor",
+        "teks": "Membuang seluruh tumpukan kertas tersebut ke tempat pembuangan sampah umum kantor agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -178179,7 +178179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengusulkan perombakan susunan anggota tim agar koordinasi pada tahap berikutnya lebih solid",
+        "teks": "Mengusulkan perombakan susunan anggota tim agar koordinasi pada tahap berikutnya lebih solid sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -178219,7 +178219,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membiasakan diri bekerja cepat agar seluruh tugas dapat diselesaikan sebelum batas waktu tiba",
+        "teks": "Membiasakan diri bekerja cepat agar seluruh tugas dapat diselesaikan sebelum batas waktu tiba sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       }
     ],
@@ -178234,7 +178234,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap melanjutkan solusi tersebut hingga selesai sambil mencatat kendala yang muncul",
+        "teks": "Tetap melanjutkan solusi tersebut hingga selesai sambil mencatat kendala yang muncul agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -178279,7 +178279,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta petugas dari unit kerja lain tersebut untuk mencari sendiri di ruang arsip",
+        "teks": "Meminta petugas dari unit kerja lain tersebut untuk mencari sendiri di ruang arsip agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -178449,7 +178449,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempertimbangkan tawaran tersebut dengan syarat kerahasiaan identitas terjamin sepenuhnya",
+        "teks": "Mempertimbangkan tawaran tersebut dengan syarat kerahasiaan identitas terjamin sepenuhnya agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -178499,7 +178499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membuat konten edukasi umum tentang pentingnya memilih produk kosmetik berizin resmi BPOM/SNI",
+        "teks": "Membuat konten edukasi umum tentang pentingnya memilih produk kosmetik berizin resmi BPOM/SNI agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -178564,7 +178564,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengemukakan perbedaan pandangan secara terbuka namun tetap dalam batasan umum",
+        "teks": "Mengemukakan perbedaan pandangan secara terbuka namun tetap dalam batasan umum agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -178584,7 +178584,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendengarkan keluh kesahnya sambil tetap mengetik dan menyelesaikan pekerjaan kantor",
+        "teks": "Mendengarkan keluh kesahnya sambil tetap mengetik dan menyelesaikan pekerjaan kantor agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -178619,7 +178619,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tidur sejenak di ruang istirahat selama beberapa menit untuk memulihkan tenaga",
+        "teks": "Tidur sejenak di ruang istirahat selama beberapa menit untuk memulihkan tenaga agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -178724,7 +178724,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak tawaran tersebut secara halus karena merasa lebih cocok pada tugas administrasi",
+        "teks": "Menolak tawaran tersebut secara halus karena merasa lebih cocok pada tugas administrasi sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -178809,7 +178809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengumumkan kondisi keuangan tersebut secara ringkas melalui grup percakapan resmi kantor",
+        "teks": "Mengumumkan kondisi keuangan tersebut secara ringkas melalui grup percakapan resmi kantor agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -178869,7 +178869,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menegur tetangga secara langsung dan menjelaskan bahaya asap sampah bagi kesehatan",
+        "teks": "Menegur tetangga secara langsung dan menjelaskan bahaya asap sampah bagi kesehatan agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -178904,7 +178904,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta petugas keamanan rumah sakit untuk segera menertibkan bapak tersebut keluar area",
+        "teks": "Meminta petugas keamanan rumah sakit untuk segera menertibkan bapak tersebut keluar area supaya pekerjaan tetap berjalan",
         "poin": 3
       },
       {
@@ -178949,7 +178949,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta bantuan rekan kerja yang lebih senior untuk meninjau ulang hasil pekerjaan Anda",
+        "teks": "Meminta bantuan rekan kerja yang lebih senior untuk meninjau ulang hasil pekerjaan Anda agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -179024,7 +179024,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunggu panduan dari tim eksternal sebelum menggerakkan anggota memasuki area bencana",
+        "teks": "Menunggu panduan dari tim eksternal sebelum menggerakkan anggota memasuki area bencana agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -179044,7 +179044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunggu tim medis khusus tiba di titik lokasi untuk melakukan penanganan awal",
+        "teks": "Menunggu tim medis khusus tiba di titik lokasi untuk melakukan penanganan awal agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -179094,7 +179094,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengarahkan sebagian pemohon ke unit layanan wilayah lain yang antreannya lebih lengang",
+        "teks": "Mengarahkan sebagian pemohon ke unit layanan wilayah lain yang antreannya lebih lengang agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -179109,7 +179109,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan kepada pimpinan bahwa kegagalan murni disebabkan oleh faktor eksternal",
+        "teks": "Menjelaskan kepada pimpinan bahwa kegagalan murni disebabkan oleh faktor eksternal agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -179144,7 +179144,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Hanya pada saat agenda rapat evaluasi bulanan resmi dilaksanakan",
+        "teks": "Hanya pada saat agenda rapat evaluasi bulanan resmi dilaksanakan agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -179199,7 +179199,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Tidak cukup hanya berpartisipasi, melainkan harus menargetkan gelar juara umum",
+        "teks": "Tidak cukup hanya berpartisipasi, melainkan harus menargetkan gelar juara umum supaya pekerjaan tetap berjalan",
         "poin": 1
       }
     ],
@@ -179289,7 +179289,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghindari penugasan tersebut secara halus dengan alasan kesesuaian kompetensi",
+        "teks": "Menghindari penugasan tersebut secara halus dengan alasan kesesuaian kompetensi agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -179409,7 +179409,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencari peluang mutasi atau pekerjaan lain yang dirasa lebih menantang secara pribadi",
+        "teks": "Mencari peluang mutasi atau pekerjaan lain yang dirasa lebih menantang secara pribadi agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -179439,7 +179439,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerapkan metode pengajaran yang bervariasi tanpa mengelompokkan kemampuan siswa",
+        "teks": "Menerapkan metode pengajaran yang bervariasi tanpa mengelompokkan kemampuan siswa agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -179509,7 +179509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunda kelanjutan proses pelaporan kasus hingga situasi dan tekanan dari pihak terkait mereda",
+        "teks": "Menunda kelanjutan proses pelaporan kasus hingga situasi dan tekanan dari pihak terkait mereda agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -179574,7 +179574,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunggu hingga anggota tim tersebut bersedia membuka komunikasi terlebih dahulu dengan Anda",
+        "teks": "Menunggu hingga anggota tim tersebut bersedia membuka komunikasi terlebih dahulu dengan Anda agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -179654,7 +179654,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memperbaiki fasilitas fisik ruang pelayanan terlebih dahulu agar terlihat lebih menarik",
+        "teks": "Memperbaiki fasilitas fisik ruang pelayanan terlebih dahulu agar terlihat lebih menarik sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       }
     ],
@@ -179669,7 +179669,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan konflik pribadi tersebut dan meminta keduanya tetap fokus pada target kerja",
+        "teks": "Mengabaikan konflik pribadi tersebut dan meminta keduanya tetap fokus pada target kerja agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -179739,7 +179739,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan pelanggaran tersebut demi menjaga stabilitas dan hubungan baik antarpejabat",
+        "teks": "Mengabaikan pelanggaran tersebut demi menjaga stabilitas dan hubungan baik antarpejabat sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -179899,7 +179899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta bantuan warga setempat untuk berjalan menuju posko terdekat menghubungi petugas",
+        "teks": "Meminta bantuan warga setempat untuk berjalan menuju posko terdekat menghubungi petugas agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -179934,7 +179934,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunggu instruksi lanjutan dari pimpinan komando tanpa mengambil tindakan evaluasi di tempat",
+        "teks": "Menunggu instruksi lanjutan dari pimpinan komando tanpa mengambil tindakan evaluasi di tempat agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -179964,7 +179964,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Terus mencoba menghubungi anggota tim melalui perangkat komunikasi meski jaringan terganggu",
+        "teks": "Terus mencoba menghubungi anggota tim melalui perangkat komunikasi meski jaringan terganggu agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -179994,7 +179994,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengandalkan dokumen pedoman lama yang tersedia tanpa melakukan klarifikasi kepada tim",
+        "teks": "Mengandalkan dokumen pedoman lama yang tersedia tanpa melakukan klarifikasi kepada tim agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -180074,7 +180074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengabaikan temuan tersebut selama tidak ada pegawai yang secara terbuka mempraktikkan ajakan di dalamnya.",
+        "teks": "Mengabaikan temuan tersebut selama tidak ada pegawai yang secara terbuka mempraktikkan ajakan di dalamnya agar situasi tetap kondusif.",
         "poin": 1
       }
     ],
@@ -180109,7 +180109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat namanya dalam buku laporan harian petugas jaga sambil menunggu arahan pimpinan pada rapat bulanan.",
+        "teks": "Mencatat namanya dalam buku laporan harian petugas jaga sambil menunggu arahan pimpinan pada rapat bulanan agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -180144,7 +180144,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menangguhkan sementara proses cetak paspor dan meminta pemohon kembali besok setelah Anda berkonsultasi dengan rekan loket.",
+        "teks": "Menangguhkan sementara proses cetak paspor dan meminta pemohon kembali besok setelah Anda berkonsultasi dengan rekan loket agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -180159,7 +180159,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan acara penyuluhan lebih awal agar perdebatan ideologis tidak semakin meluas di hadapan warga desa.",
+        "teks": "Menghentikan acara penyuluhan lebih awal agar perdebatan ideologis tidak semakin meluas di hadapan warga desa sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -180209,7 +180209,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menggantikan posisi rekan tersebut di tim agar pekerjaan lintas staf tetap dapat berjalan sesuai jadwal sidang.",
+        "teks": "Menggantikan posisi rekan tersebut di tim agar pekerjaan lintas staf tetap dapat berjalan sesuai jadwal sidang sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -180229,7 +180229,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu laporan tertulis resmi dari seluruh orang tua siswa sebelum melakukan penelusuran ke sekolah terkait.",
+        "teks": "Menunggu laporan tertulis resmi dari seluruh orang tua siswa sebelum melakukan penelusuran ke sekolah terkait supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -180284,7 +180284,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghapus komentar tersebut diam-diam tanpa mencatat akun penyebarnya maupun melaporkannya kepada atasan unit kehumasan.",
+        "teks": "Menghapus komentar tersebut diam-diam tanpa mencatat akun penyebarnya maupun melaporkannya kepada atasan unit kehumasan demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -180314,7 +180314,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyampaikan penolakan secara tegas kepada rekan tersebut lalu meminta rekan lain menjauhinya di lingkungan kerja.",
+        "teks": "Menyampaikan penolakan secara tegas kepada rekan tersebut lalu meminta rekan lain menjauhinya di lingkungan kerja supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -180384,7 +180384,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menolak usulan staf tersebut secara singkat tanpa menjelaskan makna strategis peringatan hari besar bagi ASN.",
+        "teks": "Menolak usulan staf tersebut secara singkat tanpa menjelaskan makna strategis peringatan hari besar bagi ASN supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -180404,7 +180404,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan stiker tersebut hingga sore hari sambil menunggu petugas kebersihan kantor membersihkannya.",
+        "teks": "Membiarkan stiker tersebut hingga sore hari sambil menunggu petugas kebersihan kantor membersihkannya supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -180454,7 +180454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyampaikan keberatan secara pribadi kepada rekan tersebut setelah berita acara penetapan pemenang ditandatangani.",
+        "teks": "Menyampaikan keberatan secara pribadi kepada rekan tersebut setelah berita acara penetapan pemenang ditandatangani agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -180484,17 +180484,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan pesan teman tersebut dan langsung keluar dari percakapan pribadi tanpa memberikan penjelasan apa pun.",
+        "teks": "Mengabaikan pesan teman tersebut dan langsung keluar dari percakapan pribadi tanpa memberikan penjelasan apa pun agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menyampaikan penolakan halus dengan alasan sedang tidak aktif membuka media sosial selama masa sibuk kantor.",
+        "teks": "Menyampaikan penolakan halus dengan alasan sedang tidak aktif membuka media sosial selama masa sibuk kantor supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menolak permintaan tersebut dan menyarankan teman menyalurkan bantuan hanya melalui lembaga kemanusiaan resmi berizin pemerintah.",
+        "teks": "Menolak permintaan tersebut dan menyarankan teman menyalurkan bantuan hanya melalui lembaga kemanusiaan resmi berizin pemerintah supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -180509,7 +180509,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung mengeluarkan siswa tersebut dari ruang kelas dan memberikan nilai terendah pada mata pelajaran Anda.",
+        "teks": "Langsung mengeluarkan siswa tersebut dari ruang kelas dan memberikan nilai terendah pada mata pelajaran Anda demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
@@ -180524,12 +180524,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta siswa tersebut menghafalkan teks UUD 1945 di depan kelas sebagai bentuk sanksi edukatif langsung.",
+        "teks": "Meminta siswa tersebut menghafalkan teks UUD 1945 di depan kelas sebagai bentuk sanksi edukatif langsung demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat pernyataan siswa tersebut dan langsung menyerahkan penanganannya kepada wakil kepala sekolah bidang kesiswaan.",
+        "teks": "Mencatat pernyataan siswa tersebut dan langsung menyerahkan penanganannya kepada wakil kepala sekolah bidang kesiswaan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -180554,7 +180554,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengomentari langsung unggahan mahasiswa tersebut di media sosial agar segera dihapus sebelum dilihat pimpinan.",
+        "teks": "Mengomentari langsung unggahan mahasiswa tersebut di media sosial agar segera dihapus sebelum dilihat pimpinan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -180594,7 +180594,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan warga minoritas melaksanakan perayaannya di luar kompleks perumahan demi menghindari gesekan sementara.",
+        "teks": "Menyarankan warga minoritas melaksanakan perayaannya di luar kompleks perumahan demi menghindari gesekan sementara sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -180629,7 +180629,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan sepenuhnya penyelesaian konflik tersebut kepada pihak kepolisian tanpa melakukan pendekatan dialogis.",
+        "teks": "Menyerahkan sepenuhnya penyelesaian konflik tersebut kepada pihak kepolisian tanpa melakukan pendekatan dialogis agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -180659,12 +180659,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pasien menandatangani surat penolakan tindakan medis secara langsung tanpa memberikan edukasi terlebih dahulu.",
+        "teks": "Meminta pasien menandatangani surat penolakan tindakan medis secara langsung tanpa memberikan edukasi terlebih dahulu demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menegur pasien dengan nada tegas bahwa sikap pilih-pilih dokter tidak diperbolehkan di rumah sakit pemerintah.",
+        "teks": "Menegur pasien dengan nada tegas bahwa sikap pilih-pilih dokter tidak diperbolehkan di rumah sakit pemerintah agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -180694,7 +180694,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan pesan tersebut dan menutup sementara notifikasi grup kantor hingga pembahasan isu mereda.",
+        "teks": "Mengabaikan pesan tersebut dan menutup sementara notifikasi grup kantor hingga pembahasan isu mereda agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
@@ -180719,7 +180719,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta mantan napiter tersebut pindah ke daerah lain yang belum mengetahui riwayat kasus hukumnya.",
+        "teks": "Meminta mantan napiter tersebut pindah ke daerah lain yang belum mengetahui riwayat kasus hukumnya supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -180729,7 +180729,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyerahkan sepenuhnya urusan penerimaan warga kepada keluarga mantan napiter tanpa pendampingan lanjutan.",
+        "teks": "Menyerahkan sepenuhnya urusan penerimaan warga kepada keluarga mantan napiter tanpa pendampingan lanjutan agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -180764,12 +180764,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengingatkan penguji tersebut secara bercanda setelah rapat selesai agar tidak terlalu kaku menilai penampilan peserta.",
+        "teks": "Mengingatkan penguji tersebut secara bercanda setelah rapat selesai agar tidak terlalu kaku menilai penampilan peserta sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menghitung rata-rata nilai dari penguji lain saja tanpa mempersoalkan bias penilaian yang terjadi.",
+        "teks": "Menghitung rata-rata nilai dari penguji lain saja tanpa mempersoalkan bias penilaian yang terjadi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -180804,7 +180804,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menegur peserta tersebut dengan keras agar tidak mengikuti pelatihan jika tidak bersedia tunduk pada konstitusi.",
+        "teks": "Menegur peserta tersebut dengan keras agar tidak mengikuti pelatihan jika tidak bersedia tunduk pada konstitusi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -180839,12 +180839,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan buku tersebut di gudang arsip tanpa mencatat asal donatur maupun melapor kepada atasan.",
+        "teks": "Menyimpan buku tersebut di gudang arsip tanpa mencatat asal donatur maupun melapor kepada atasan supaya persoalan tidak berlarut-larut.",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Mencoret bagian kalimat yang bernada kebencian dengan spidol hitam lalu tetap memajangnya di rak baca.",
+        "teks": "Mencoret bagian kalimat yang bernada kebencian dengan spidol hitam lalu tetap memajangnya di rak baca supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -180879,7 +180879,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta pelapor menghubungi langsung pihak kepolisian setempat tanpa meneruskan informasi ke pimpinan seksi.",
+        "teks": "Meminta pelapor menghubungi langsung pihak kepolisian setempat tanpa meneruskan informasi ke pimpinan seksi demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       }
     ],
@@ -180894,7 +180894,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan topik pembicaraan ke materi teknis perkuliahan agar suasana kelas tidak berubah menjadi tegang.",
+        "teks": "Mengalihkan topik pembicaraan ke materi teknis perkuliahan agar suasana kelas tidak berubah menjadi tegang sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -180944,7 +180944,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengusulkan kepada atasan agar kelompok kajian tersebut dilarang mengadakan aktivitas apa pun di luar jam kantor.",
+        "teks": "Mengusulkan kepada atasan agar kelompok kajian tersebut dilarang mengadakan aktivitas apa pun di luar jam kantor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -180974,7 +180974,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung mencabut sertifikat pemandu wisata tersebut tanpa memberikan teguran atau kesempatan pembinaan.",
+        "teks": "Langsung mencabut sertifikat pemandu wisata tersebut tanpa memberikan teguran atau kesempatan pembinaan supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -180999,7 +180999,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas teriakan pelanggar tersebut agar pengunjung lain tahu bahwa petugas kejaksaan tidak bisa direndahkan.",
+        "teks": "Membalas teriakan pelanggar tersebut agar pengunjung lain tahu bahwa petugas kejaksaan tidak bisa direndahkan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -181009,17 +181009,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menutup loket pelayanan tilang sementara hingga pelanggar tersebut pergi meninggalkan area kantor kejaksaan.",
+        "teks": "Menutup loket pelayanan tilang sementara hingga pelanggar tersebut pergi meninggalkan area kantor kejaksaan agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta petugas keamanan langsung membawa pelanggar keluar tanpa menjelaskan prosedur hukum kepada warga di ruang tunggu.",
+        "teks": "Meminta petugas keamanan langsung membawa pelanggar keluar tanpa menjelaskan prosedur hukum kepada warga di ruang tunggu agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Membiarkan pelanggar tersebut meluapkan emosinya sambil terus memproses berkas tilang warga lain di loket.",
+        "teks": "Membiarkan pelanggar tersebut meluapkan emosinya sambil terus memproses berkas tilang warga lain di loket demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -181034,7 +181034,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap meloloskan berkas pendaftaran selama seluruh syarat administratif seperti susunan pengurus dan domisili lengkap.",
+        "teks": "Tetap meloloskan berkas pendaftaran selama seluruh syarat administratif seperti susunan pengurus dan domisili lengkap agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -181084,12 +181084,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menegur rekan tersebut secara terbuka di depan pemohon layanan agar ia langsung menyadari kesalahannya.",
+        "teks": "Menegur rekan tersebut secara terbuka di depan pemohon layanan agar ia langsung menyadari kesalahannya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mengamati kejadian tersebut dan baru membicarakannya bersama rekan lain saat jam istirahat kantor.",
+        "teks": "Mengamati kejadian tersebut dan baru membicarakannya bersama rekan lain saat jam istirahat kantor supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -181119,7 +181119,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pegawai tersebut mencari sendiri rekan pengganti piket tanpa perlu membahas alasan penolakannya.",
+        "teks": "Meminta pegawai tersebut mencari sendiri rekan pengganti piket tanpa perlu membahas alasan penolakannya agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       },
       {
@@ -181149,7 +181149,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengajak rekan-rekan lain berdebat panjang di kolom komentar guna membuktikan kesalahan akun anonim tersebut.",
+        "teks": "Mengajak rekan-rekan lain berdebat panjang di kolom komentar guna membuktikan kesalahan akun anonim tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -181254,7 +181254,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyebarkan kecurigaan tersebut di grup warga perumahan agar semua orang langsung mengucilkan keluarga tersebut.",
+        "teks": "Menyebarkan kecurigaan tersebut di grup warga perumahan agar semua orang langsung mengucilkan keluarga tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -181299,7 +181299,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyalurkan bantuan ke kelompok pertama terlebih dahulu lalu kembali pada malam hari secara diam-diam ke kampung sebelah.",
+        "teks": "Menyalurkan bantuan ke kelompok pertama terlebih dahulu lalu kembali pada malam hari secara diam-diam ke kampung sebelah supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -181314,7 +181314,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meloloskan draf pasal tersebut karena merupakan aspirasi resmi dari daerah pengusul yang harus dihormati.",
+        "teks": "Meloloskan draf pasal tersebut karena merupakan aspirasi resmi dari daerah pengusul yang harus dihormati sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -181349,7 +181349,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegurnya dengan suara keras di tengah barisan upacara agar seluruh peserta lain mendengar ketidakdisiplinannya.",
+        "teks": "Menegurnya dengan suara keras di tengah barisan upacara agar seluruh peserta lain mendengar ketidakdisiplinannya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -181364,7 +181364,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengabaikan sikapnya sepenuhnya selama upacara berlangsung dan tidak pernah membahasnya di kemudian hari.",
+        "teks": "Mengabaikan sikapnya sepenuhnya selama upacara berlangsung dan tidak pernah membahasnya di kemudian hari supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -181384,7 +181384,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung mengabaikan pengaduan tersebut karena dikirim secara anonim tanpa mencantumkan nama pelapor.",
+        "teks": "Langsung mengabaikan pengaduan tersebut karena dikirim secara anonim tanpa mencantumkan nama pelapor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -181419,7 +181419,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatalkan pengurusan berkas administrasinya secara sepihak sebagai hukuman atas ucapannya terhadap negara.",
+        "teks": "Membatalkan pengurusan berkas administrasinya secara sepihak sebagai hukuman atas ucapannya terhadap negara agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -181434,12 +181434,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melayani berkasnya dengan wajah masam tanpa mengucapkan sepatah kata pun sebagai bentuk ketidaksukaan.",
+        "teks": "Melayani berkasnya dengan wajah masam tanpa mengucapkan sepatah kata pun sebagai bentuk ketidaksukaan supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memproses berkas seperti biasa tanpa menanggapi pernyataannya karena urusan sikap pribadi berada di luar layanan.",
+        "teks": "Memproses berkas seperti biasa tanpa menanggapi pernyataannya karena urusan sikap pribadi berada di luar layanan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -181454,7 +181454,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan infografis tersebut lalu mengirimkannya ke grup keluarga untuk bahan diskusi akhir pekan.",
+        "teks": "Menyimpan infografis tersebut lalu mengirimkannya ke grup keluarga untuk bahan diskusi akhir pekan agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 1
       },
       {
@@ -181469,12 +181469,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghapus peserta tersebut dari ruang rapat daring tanpa memberikan penjelasan maupun klarifikasi fakta.",
+        "teks": "Menghapus peserta tersebut dari ruang rapat daring tanpa memberikan penjelasan maupun klarifikasi fakta supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyampaikan bahwa ASN dilarang membahas politik praktis tanpa meluruskan bahaya narasi penolakan demokrasi.",
+        "teks": "Menyampaikan bahwa ASN dilarang membahas politik praktis tanpa meluruskan bahaya narasi penolakan demokrasi agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -181509,7 +181509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta pihak tersebut segera meninggalkan ruang PTSP tanpa memberikan informasi mengenai prosedur banding resmi.",
+        "teks": "Meminta pihak tersebut segera meninggalkan ruang PTSP tanpa memberikan informasi mengenai prosedur banding resmi agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -181524,7 +181524,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui keputusan panitia bazar agar acara di lapangan berjalan seragam tanpa keluhan peserta lain.",
+        "teks": "Menyetujui keputusan panitia bazar agar acara di lapangan berjalan seragam tanpa keluhan peserta lain sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -181559,7 +181559,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani petisi tersebut sebagai bentuk solidaritas terhadap rekan-rekan lama di unit kerja.",
+        "teks": "Menandatangani petisi tersebut sebagai bentuk solidaritas terhadap rekan-rekan lama di unit kerja demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -181569,7 +181569,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tidak ikut menandatangani petisi namun juga tidak berani menyatakan keberatan kepada rekan yang mengajak.",
+        "teks": "Tidak ikut menandatangani petisi namun juga tidak berani menyatakan keberatan kepada rekan yang mengajak supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -181579,7 +181579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menolak ajakan tersebut secara pribadi namun membiarkan petisi terus diedarkan ke ruangan kerja lainnya.",
+        "teks": "Menolak ajakan tersebut secara pribadi namun membiarkan petisi terus diedarkan ke ruangan kerja lainnya agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -181594,7 +181594,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan aktivitas tersebut selama pemohon tidak mengganggu ketertiban antrean di depan loket.",
+        "teks": "Mengabaikan aktivitas tersebut selama pemohon tidak mengganggu ketertiban antrean di depan loket agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -181609,7 +181609,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menutup loket pelayanan sementara dan meminta seluruh pengunjung keluar dari ruang tunggu kantor.",
+        "teks": "Menutup loket pelayanan sementara dan meminta seluruh pengunjung keluar dari ruang tunggu kantor demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
@@ -181639,12 +181639,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghapus seluruh isi situs web desa secara permanen tanpa menyimpan bukti digital serangan siber.",
+        "teks": "Menghapus seluruh isi situs web desa secara permanen tanpa menyimpan bukti digital serangan siber supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menunggu laporan resmi tertulis dari kepala desa terlebih dahulu sebelum mengambil tindakan teknis pemulihan.",
+        "teks": "Menunggu laporan resmi tertulis dari kepala desa terlebih dahulu sebelum mengambil tindakan teknis pemulihan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -181674,7 +181674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematikan pengeras suara secara mendadak di tengah ceramah tanpa memberikan penjelasan kepada hadirin.",
+        "teks": "Mematikan pengeras suara secara mendadak di tengah ceramah tanpa memberikan penjelasan kepada hadirin agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
@@ -181709,17 +181709,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memeriksa tas pengunjung tersebut secara paksa meskipun yang bersangkutan belum diberi penjelasan prosedur.",
+        "teks": "Memeriksa tas pengunjung tersebut secara paksa meskipun yang bersangkutan belum diberi penjelasan prosedur agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta pengunjung tersebut menunggu di luar pagar gedung tanpa memberikan alternatif penjelasan aturan.",
+        "teks": "Meminta pengunjung tersebut menunggu di luar pagar gedung tanpa memberikan alternatif penjelasan aturan supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memanggil petugas keamanan senior untuk menggantikan Anda bernegosiasi di pintu masuk gedung.",
+        "teks": "Memanggil petugas keamanan senior untuk menggantikan Anda bernegosiasi di pintu masuk gedung agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -181734,7 +181734,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti ajakan rekan tersebut karena merasa lebih nyaman bertransaksi dengan kelompok yang sependapat.",
+        "teks": "Mengikuti ajakan rekan tersebut karena merasa lebih nyaman bertransaksi dengan kelompok yang sependapat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -181824,7 +181824,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melanjutkan pembacaan tuntutan secara profesional tanpa menanggapi provokasi maupun meminta penertiban kepada majelis hakim.",
+        "teks": "Melanjutkan pembacaan tuntutan secara profesional tanpa menanggapi provokasi maupun meminta penertiban kepada majelis hakim agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -181849,17 +181849,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membuang buku saku tersebut ke tempat sampah pos jaga lalu tetap mengizinkan pembesuk menemui warga binaan.",
+        "teks": "Membuang buku saku tersebut ke tempat sampah pos jaga lalu tetap mengizinkan pembesuk menemui warga binaan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Mengembalikan buku tersebut kepada pembesuk sambil melarangnya membawa masuk ke area dalam lapas.",
+        "teks": "Mengembalikan buku tersebut kepada pembesuk sambil melarangnya membawa masuk ke area dalam lapas demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menahan buku saku tersebut di pos jaga untuk diperiksa sendiri setelah jam pergantian piket selesai.",
+        "teks": "Menahan buku saku tersebut di pos jaga untuk diperiksa sendiri setelah jam pergantian piket selesai agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 4
       }
     ],
@@ -181879,7 +181879,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menolak masuknya yang bersangkutan ke wilayah Indonesia sebelum dokumen paspor aslinya ditemukan.",
+        "teks": "Menolak masuknya yang bersangkutan ke wilayah Indonesia sebelum dokumen paspor aslinya ditemukan supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -181919,17 +181919,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memasang sendiri lambang negara secara diam-diam pada malam hari tanpa memberi tahu pengelola lembaga pelatihan.",
+        "teks": "Memasang sendiri lambang negara secara diam-diam pada malam hari tanpa memberi tahu pengelola lembaga pelatihan karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Langsung mencabut izin penggunaan gedung pemerintah saat itu juga tanpa memberikan ruang dialog dan penjelasan aturan.",
+        "teks": "Langsung mencabut izin penggunaan gedung pemerintah saat itu juga tanpa memberikan ruang dialog dan penjelasan aturan demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Melaporkan penolakan tersebut kepada atasan sambil tetap memperpanjang kontrak peminjaman gedung seperti biasa.",
+        "teks": "Melaporkan penolakan tersebut kepada atasan sambil tetap memperpanjang kontrak peminjaman gedung seperti biasa agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -181959,12 +181959,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengingatkan pegawai tersebut secara informal tanpa mendokumentasikan bukti maupun melapor ke unit kepatuhan.",
+        "teks": "Mengingatkan pegawai tersebut secara informal tanpa mendokumentasikan bukti maupun melapor ke unit kepatuhan supaya persoalan tidak berlarut-larut.",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Membagikan tangkapan layar profil akun tersebut ke grup percakapan pegawai lain untuk membahas maksudnya.",
+        "teks": "Membagikan tangkapan layar profil akun tersebut ke grup percakapan pegawai lain untuk membahas maksudnya supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -181994,12 +181994,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menegur koordinator pengumpul iuran secara terbuka di ruang makan kantor tanpa melaporkannya ke pimpinan.",
+        "teks": "Menegur koordinator pengumpul iuran secara terbuka di ruang makan kantor tanpa melaporkannya ke pimpinan demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menolak ajakan iuran dengan alasan kebutuhan keluarga sedang banyak tanpa menyinggung status organisasi penerima.",
+        "teks": "Menolak ajakan iuran dengan alasan kebutuhan keluarga sedang banyak tanpa menyinggung status organisasi penerima supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -182014,7 +182014,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyatakan bahwa warga boleh memilih aturan mana yang paling sesuai dengan keyakinan kelompoknya masing-masing.",
+        "teks": "Menyatakan bahwa warga boleh memilih aturan mana yang paling sesuai dengan keyakinan kelompoknya masing-masing agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -182024,12 +182024,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pemuda tersebut langsung bertanya kepada aparat kepolisian lalu lintas agar tidak memperpanjang diskusi.",
+        "teks": "Meminta pemuda tersebut langsung bertanya kepada aparat kepolisian lalu lintas agar tidak memperpanjang diskusi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menegur pemuda tersebut bahwa ucapannya merupakan bentuk pembangkangan hukum yang dapat dipidana langsung.",
+        "teks": "Menegur pemuda tersebut bahwa ucapannya merupakan bentuk pembangkangan hukum yang dapat dipidana langsung supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -182059,7 +182059,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengambil alih berkas perkara tersebut secara diam-diam tanpa melaporkan sikap bias rekan kepada kepala seksi.",
+        "teks": "Mengambil alih berkas perkara tersebut secara diam-diam tanpa melaporkan sikap bias rekan kepada kepala seksi supaya pekerjaan tetap berjalan.",
         "poin": 4
       },
       {
@@ -182099,12 +182099,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyita ponsel siswa di kelas dan memanggil orang tua untuk mengambilnya tanpa memberikan pendampingan lanjutan.",
+        "teks": "Menyita ponsel siswa di kelas dan memanggil orang tua untuk mengambilnya tanpa memberikan pendampingan lanjutan supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Melaporkan temuan grup tersebut kepada kepala sekolah dan menunggu arahan rapat dewan guru bulan depan.",
+        "teks": "Melaporkan temuan grup tersebut kepada kepala sekolah dan menunggu arahan rapat dewan guru bulan depan supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -182129,7 +182129,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membenarkan kekhawatiran warga tersebut bahwa data kependudukan memang sering disalahgunakan pihak penguasa.",
+        "teks": "Membenarkan kekhawatiran warga tersebut bahwa data kependudukan memang sering disalahgunakan pihak penguasa agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -182164,12 +182164,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung menolak melayani pemohon dan meminta yang bersangkutan segera meninggalkan area kantor pengadilan.",
+        "teks": "Langsung menolak melayani pemohon dan meminta yang bersangkutan segera meninggalkan area kantor pengadilan agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Membiarkan pemohon terus berargumen di loket hingga ia merasa lelah dan pergi sendiri.",
+        "teks": "Membiarkan pemohon terus berargumen di loket hingga ia merasa lelah dan pergi sendiri demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
@@ -182204,7 +182204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menghubungi penerima barang secara pribadi untuk menanyakan tujuan pengiriman buku sebelum melaporkan ke atasan.",
+        "teks": "Menghubungi penerima barang secara pribadi untuk menanyakan tujuan pengiriman buku sebelum melaporkan ke atasan supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
@@ -182224,7 +182224,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh kegiatan posyandu di wilayah tersebut hingga warga sendiri yang meminta maaf kepada petugas.",
+        "teks": "Menghentikan seluruh kegiatan posyandu di wilayah tersebut hingga warga sendiri yang meminta maaf kepada petugas supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -182259,7 +182259,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan temuan log tersebut selama kecepatan akses internet untuk pekerjaan pegawai lain tidak terganggu.",
+        "teks": "Mengabaikan temuan log tersebut selama kecepatan akses internet untuk pekerjaan pegawai lain tidak terganggu demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -182274,7 +182274,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memblokir akses situs tersebut secara diam-diam tanpa mencatat log maupun melaporkan indikasi paparan paham radikal.",
+        "teks": "Memblokir akses situs tersebut secara diam-diam tanpa mencatat log maupun melaporkan indikasi paparan paham radikal agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       },
       {
@@ -182304,7 +182304,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tidak ikut memboikot namun menyarankan rekan tersebut berpura-pura izin sakit agar tidak menghadiri acara.",
+        "teks": "Tidak ikut memboikot namun menyarankan rekan tersebut berpura-pura izin sakit agar tidak menghadiri acara sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -182344,12 +182344,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengirim surat imbauan normatif kepada manajemen perusahaan tanpa melakukan pengawasan langsung ke lokasi.",
+        "teks": "Mengirim surat imbauan normatif kepada manajemen perusahaan tanpa melakukan pengawasan langsung ke lokasi demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat laporan tersebut dalam daftar aduan bulanan untuk dibahas pada rapat koordinasi triwulan berikutnya.",
+        "teks": "Mencatat laporan tersebut dalam daftar aduan bulanan untuk dibahas pada rapat koordinasi triwulan berikutnya supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -182374,12 +182374,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung memasukkan seluruh anggota kedua kelompok ke sel pengasingan tanpa memeriksa kronologi pemicu keributan.",
+        "teks": "Langsung memasukkan seluruh anggota kedua kelompok ke sel pengasingan tanpa memeriksa kronologi pemicu keributan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menegur salah satu kelompok yang suaranya paling keras dan membiarkan kelompok lainnya tetap berada di lapangan.",
+        "teks": "Menegur salah satu kelompok yang suaranya paling keras dan membiarkan kelompok lainnya tetap berada di lapangan agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
@@ -182399,7 +182399,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menarik paksa tamu undangan tersebut agar berdiri di tengah berlangsungnya lagu kebangsaan.",
+        "teks": "Menarik paksa tamu undangan tersebut agar berdiri di tengah berlangsungnya lagu kebangsaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -182409,17 +182409,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memfoto sikap tamu tersebut lalu menyebarkannya kepada wartawan yang hadir di ruang acara.",
+        "teks": "Memfoto sikap tamu tersebut lalu menyebarkannya kepada wartawan yang hadir di ruang acara dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Mengabaikan kejadian tersebut sepenuhnya dan tetap memperlakukannya sebagai tamu kehormatan tanpa catatan evaluasi.",
+        "teks": "Mengabaikan kejadian tersebut sepenuhnya dan tetap memperlakukannya sebagai tamu kehormatan tanpa catatan evaluasi supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Melaporkan sikap tamu tersebut kepada kepala bagian protokol usai acara tanpa berusaha mengonfirmasi maksudnya.",
+        "teks": "Melaporkan sikap tamu tersebut kepada kepala bagian protokol usai acara tanpa berusaha mengonfirmasi maksudnya supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -182449,12 +182449,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberikan teguran tertulis kepada pengelola yayasan tanpa mencantumkan indikasi penyebaran paham anti-NKRI dalam laporan audit.",
+        "teks": "Memberikan teguran tertulis kepada pengelola yayasan tanpa mencantumkan indikasi penyebaran paham anti-NKRI dalam laporan audit supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menunda penyelesaian laporan audit sambil menunggu arahan informal dari pejabat pengelola keuangan daerah.",
+        "teks": "Menunda penyelesaian laporan audit sambil menunggu arahan informal dari pejabat pengelola keuangan daerah agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -182469,7 +182469,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memaksakan pengukuran lahan secara sepihak meskipun situasi di lapangan mulai memanas dan berisiko bentrok.",
+        "teks": "Memaksakan pengukuran lahan secara sepihak meskipun situasi di lapangan mulai memanas dan berisiko bentrok supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 2
       },
       {
@@ -182489,7 +182489,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membatalkan jadwal pengukuran hari itu dan pulang ke kantor tanpa membuat berita acara hambatan lapangan.",
+        "teks": "Membatalkan jadwal pengukuran hari itu dan pulang ke kantor tanpa membuat berita acara hambatan lapangan supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -182504,7 +182504,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan spanduk tersebut terpasang sampai ada penumpang atau tokoh masyarakat yang datang mengajukan protes.",
+        "teks": "Membiarkan spanduk tersebut terpasang sampai ada penumpang atau tokoh masyarakat yang datang mengajukan protes supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -182514,7 +182514,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menutup tulisan provokatif pada spanduk dengan cat semprot tanpa menurunkannya maupun memeriksa rekaman CCTV.",
+        "teks": "Menutup tulisan provokatif pada spanduk dengan cat semprot tanpa menurunkannya maupun memeriksa rekaman CCTV agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -182524,7 +182524,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memfoto spanduk tersebut lalu mengunggahnya ke media sosial pribadi untuk menanyakan siapa pemasangnya.",
+        "teks": "Memfoto spanduk tersebut lalu mengunggahnya ke media sosial pribadi untuk menanyakan siapa pemasangnya demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       }
     ],
@@ -182539,7 +182539,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menuruti permintaan pengurus kelompok dan meminta dinas mengganti rekan penyuluh agar program bantuan cepat cair.",
+        "teks": "Menuruti permintaan pengurus kelompok dan meminta dinas mengganti rekan penyuluh agar program bantuan cepat cair sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -182559,7 +182559,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melaporkan sikap penolakan pengurus kelompok kepada kepala dinas tanpa berusaha menjembatani komunikasi di desa.",
+        "teks": "Melaporkan sikap penolakan pengurus kelompok kepada kepala dinas tanpa berusaha menjembatani komunikasi di desa agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -182574,7 +182574,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan hal tersebut karena menganggap setiap pegawai berhak mendengarkan konten apa pun selama tetap mengetik pekerjaan.",
+        "teks": "Membiarkan hal tersebut karena menganggap setiap pegawai berhak mendengarkan konten apa pun selama tetap mengetik pekerjaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -182624,12 +182624,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membeli sebagian kecil buku tersebut namun menyimpannya di ruang akses terbatas tanpa sepengetahuan pimpinan kampus.",
+        "teks": "Membeli sebagian kecil buku tersebut namun menyimpannya di ruang akses terbatas tanpa sepengetahuan pimpinan kampus supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Menolak pengadaan tersebut secara lisan dengan alasan anggaran pembelian buku tahun ini sudah habis terpakai.",
+        "teks": "Menolak pengadaan tersebut secara lisan dengan alasan anggaran pembelian buku tahun ini sudah habis terpakai agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -182644,7 +182644,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan informasi tersebut selama izin tinggal orang asing tersebut masih berlaku aktif dan paspornya tidak palsu.",
+        "teks": "Mengabaikan informasi tersebut selama izin tinggal orang asing tersebut masih berlaku aktif dan paspornya tidak palsu demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -182679,7 +182679,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan kebijakan pedagang tersebut karena pemilik kios memiliki hak menentukan siapa saja yang boleh membeli barangnya.",
+        "teks": "Membiarkan kebijakan pedagang tersebut karena pemilik kios memiliki hak menentukan siapa saja yang boleh membeli barangnya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -182694,12 +182694,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Langsung menggembok kios pedagang tersebut secara sepihak tanpa memberikan peringatan maupun kesempatan klarifikasi.",
+        "teks": "Langsung menggembok kios pedagang tersebut secara sepihak tanpa memberikan peringatan maupun kesempatan klarifikasi agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Mencatat kejadian tersebut dalam buku pengawasan pasar untuk dibahas saat perpanjangan kontrak sewa tahun depan.",
+        "teks": "Mencatat kejadian tersebut dalam buku pengawasan pasar untuk dibahas saat perpanjangan kontrak sewa tahun depan supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -182714,7 +182714,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus pesan ancaman tersebut agar tidak menimbulkan kepanikan di kalangan pegawai staf pengadilan.",
+        "teks": "Menghapus pesan ancaman tersebut agar tidak menimbulkan kepanikan di kalangan pegawai staf pengadilan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -182759,7 +182759,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung menyatakan peserta tersebut tidak lulus pelatihan tanpa memberikan kesempatan dialog dan perbaikan konsep.",
+        "teks": "Langsung menyatakan peserta tersebut tidak lulus pelatihan tanpa memberikan kesempatan dialog dan perbaikan konsep supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -182784,7 +182784,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengganti seluruh relawan lintas agama pada tim Anda agar pihak pengelola sekolah mau mengizinkan simulasi tetap berjalan.",
+        "teks": "Mengganti seluruh relawan lintas agama pada tim Anda agar pihak pengelola sekolah mau mengizinkan simulasi tetap berjalan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -182794,7 +182794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membatalkan seluruh kegiatan edukasi bencana di sekolah tersebut dan meminta siswa belajar evakuasi secara mandiri.",
+        "teks": "Membatalkan seluruh kegiatan edukasi bencana di sekolah tersebut dan meminta siswa belajar evakuasi secara mandiri agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -182829,7 +182829,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menegur wajib pajak tersebut dengan nada tinggi bahwa penolakannya dapat langsung diproses sebagai tindak pidana pengemplangan.",
+        "teks": "Menegur wajib pajak tersebut dengan nada tinggi bahwa penolakannya dapat langsung diproses sebagai tindak pidana pengemplangan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -182854,7 +182854,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabulkan permintaan oknum tersebut demi menjaga kelancaran acara pengibaran bendera dari potensi protes di daerah.",
+        "teks": "Mengabulkan permintaan oknum tersebut demi menjaga kelancaran acara pengibaran bendera dari potensi protes di daerah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -182899,17 +182899,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memaksakan eksekusi administratif seorang diri meskipun situasi tidak kondusif tanpa pengamanan maupun berita acara.",
+        "teks": "Memaksakan eksekusi administratif seorang diri meskipun situasi tidak kondusif tanpa pengamanan maupun berita acara supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Bernegosiasi mengubah isi penetapan pengadilan di lapangan agar pihak penolak bersedia menandatangani berita acara.",
+        "teks": "Bernegosiasi mengubah isi penetapan pengadilan di lapangan agar pihak penolak bersedia menandatangani berita acara sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meninggalkan lokasi segera setelah mendapat ancaman tanpa memberikan penjelasan prosedur hukum kepada pihak terkait.",
+        "teks": "Meninggalkan lokasi segera setelah mendapat ancaman tanpa memberikan penjelasan prosedur hukum kepada pihak terkait agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -182924,7 +182924,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memisahkan seluruh fasilitas pengelolaan sampah masing-masing RW meskipun anggaran daerah sebenarnya hanya cukup untuk satu unit terpadu.",
+        "teks": "Memisahkan seluruh fasilitas pengelolaan sampah masing-masing RW meskipun anggaran daerah sebenarnya hanya cukup untuk satu unit terpadu supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -182934,17 +182934,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengalihkan bantuan fasilitas kompos ke kelurahan lain tanpa berupaya mendamaikan sentimen antarwarga kedua RW.",
+        "teks": "Mengalihkan bantuan fasilitas kompos ke kelurahan lain tanpa berupaya mendamaikan sentimen antarwarga kedua RW agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Memaklumi penolakan tersebut sebagai hak warga menentukan mitra kerja lingkungannya sendiri.",
+        "teks": "Memaklumi penolakan tersebut sebagai hak warga menentukan mitra kerja lingkungannya sendiri agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Menyerahkan penyelesaian persoalan sentimen antarwarga tersebut sepenuhnya kepada pihak kelurahan tanpa pendampingan dinas.",
+        "teks": "Menyerahkan penyelesaian persoalan sentimen antarwarga tersebut sepenuhnya kepada pihak kelurahan tanpa pendampingan dinas agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -182959,7 +182959,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan warga binaan tersebut mengurung diri di kamar hunian selama masa pidananya tanpa pendekatan pembinaan.",
+        "teks": "Membiarkan warga binaan tersebut mengurung diri di kamar hunian selama masa pidananya tanpa pendekatan pembinaan supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -182974,12 +182974,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta sesama warga binaan lain menjauhi yang bersangkutan hingga ia bersedia tunduk pada aturan petugas lapas.",
+        "teks": "Meminta sesama warga binaan lain menjauhi yang bersangkutan hingga ia bersedia tunduk pada aturan petugas lapas agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat penolakan tersebut dalam buku laporan harian tanpa berkoordinasi dengan tim pembinaan maupun konselor.",
+        "teks": "Mencatat penolakan tersebut dalam buku laporan harian tanpa berkoordinasi dengan tim pembinaan maupun konselor supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 4
       }
     ],
@@ -182994,7 +182994,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyarankan pemerintah daerah menutup sementara fasilitas seni budaya tersebut agar tuntutan ormas segera mereda.",
+        "teks": "Menyarankan pemerintah daerah menutup sementara fasilitas seni budaya tersebut agar tuntutan ormas segera mereda sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -183014,7 +183014,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunggu ormas tersebut mengajukan gugatan resmi ke pengadilan terlebih dahulu sebelum memberikan pendapat hukum.",
+        "teks": "Menunggu ormas tersebut mengajukan gugatan resmi ke pengadilan terlebih dahulu sebelum memberikan pendapat hukum agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -183029,7 +183029,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan warga tersebut agar proses verifikasi penerima bantuan tidak mengalami penolakan di lapangan.",
+        "teks": "Menyetujui usulan warga tersebut agar proses verifikasi penerima bantuan tidak mengalami penolakan di lapangan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -183044,7 +183044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan pendamping tersebut menunggu di dalam mobil dinas sementara Anda menemui warga seorang diri.",
+        "teks": "Meminta rekan pendamping tersebut menunggu di dalam mobil dinas sementara Anda menemui warga seorang diri supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -183079,7 +183079,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengomentari unggahan akun penyebar hoaks tersebut secara informal agar segera menghapus dokumen palsunya.",
+        "teks": "Mengomentari unggahan akun penyebar hoaks tersebut secara informal agar segera menghapus dokumen palsunya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -183099,7 +183099,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan kebijakan pengurus koperasi tersebut selama tingkat pengembalian pinjaman anggotanya tetap lancar.",
+        "teks": "Membiarkan kebijakan pengurus koperasi tersebut selama tingkat pengembalian pinjaman anggotanya tetap lancar agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -183119,7 +183119,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat keluhan anggota yang ditolak dan baru membahasnya pada rapat anggota tahunan tahun mendatang.",
+        "teks": "Mencatat keluhan anggota yang ditolak dan baru membahasnya pada rapat anggota tahunan tahun mendatang agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 4
       }
     ],
@@ -183144,17 +183144,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mendukung sikap rekan tersebut selama ia tetap rajin menyelesaikan tugas administratif kantornya sehari-hari.",
+        "teks": "Mendukung sikap rekan tersebut selama ia tetap rajin menyelesaikan tugas administratif kantornya sehari-hari supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Membiarkan berkas pakta integritas rekan tersebut kosong tanpa melaporkan penolakannya kepada bagian kepegawaian.",
+        "teks": "Membiarkan berkas pakta integritas rekan tersebut kosong tanpa melaporkan penolakannya kepada bagian kepegawaian supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyarankan rekan tersebut menandatangani saja secara formalitas di atas kertas tanpa perlu meyakini isinya.",
+        "teks": "Menyarankan rekan tersebut menandatangani saja secara formalitas di atas kertas tanpa perlu meyakini isinya demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -183169,7 +183169,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan izin khusus kepada siswa tersebut untuk tidak pernah mengikuti upacara bendera selama bersekolah.",
+        "teks": "Memberikan izin khusus kepada siswa tersebut untuk tidak pernah mengikuti upacara bendera selama bersekolah demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -183179,7 +183179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengatakan bahwa jika tidak mau ikut upacara, orang tua sebaiknya langsung memindahkan anaknya ke sekolah lain.",
+        "teks": "Mengatakan bahwa jika tidak mau ikut upacara, orang tua sebaiknya langsung memindahkan anaknya ke sekolah lain supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -183189,7 +183189,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan penjelasan aturan tata tertib sekolah sepenuhnya kepada petugas tata usaha sekolah.",
+        "teks": "Menyerahkan penjelasan aturan tata tertib sekolah sepenuhnya kepada petugas tata usaha sekolah demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 4
       }
     ],
@@ -183214,17 +183214,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membalas komentar penonton siaran langsung melalui ponsel pribadi Anda untuk membela nama baik kejaksaan.",
+        "teks": "Membalas komentar penonton siaran langsung melalui ponsel pribadi Anda untuk membela nama baik kejaksaan agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Menutup loket pelayanan seketika dan meninggalkan pengunjung tersebut sendirian di ruang layanan terpadu.",
+        "teks": "Menutup loket pelayanan seketika dan meninggalkan pengunjung tersebut sendirian di ruang layanan terpadu demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Membiarkan pengunjung merekam sambil mempercepat proses berkasnya agar ia segera keluar dari kantor kejaksaan.",
+        "teks": "Membiarkan pengunjung merekam sambil mempercepat proses berkasnya agar ia segera keluar dari kantor kejaksaan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -183239,7 +183239,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung membatalkan seluruh rangkaian festival seni budaya demi menghindari risiko penolakan di lokasi acara.",
+        "teks": "Langsung membatalkan seluruh rangkaian festival seni budaya demi menghindari risiko penolakan di lokasi acara dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 1
       },
       {
@@ -183249,17 +183249,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengganti seluruh mata acara seni tradisional menjadi kegiatan seremonial tertutup tanpa melibatkan seniman lokal.",
+        "teks": "Mengganti seluruh mata acara seni tradisional menjadi kegiatan seremonial tertutup tanpa melibatkan seniman lokal demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Membiarkan panitia menghadapi massa penekan seorang diri tanpa dukungan koordinasi dari dinas dan aparat.",
+        "teks": "Membiarkan panitia menghadapi massa penekan seorang diri tanpa dukungan koordinasi dari dinas dan aparat agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menunda pelaksanaan festival hingga tahun berikutnya tanpa menyampaikan kejelasan kepada para seniman daerah.",
+        "teks": "Menunda pelaksanaan festival hingga tahun berikutnya tanpa menyampaikan kejelasan kepada para seniman daerah supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -183289,12 +183289,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengusulkan pengurangan anggaran program tersebut hingga minimal tanpa mengkaji dampak pembinaan pegawai.",
+        "teks": "Mengusulkan pengurangan anggaran program tersebut hingga minimal tanpa mengkaji dampak pembinaan pegawai karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyerahkan keputusan ada tidaknya program kebangsaan sepenuhnya kepada bagian verifikasi anggaran pusat.",
+        "teks": "Menyerahkan keputusan ada tidaknya program kebangsaan sepenuhnya kepada bagian verifikasi anggaran pusat agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -183319,17 +183319,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh pelintas tersebut membuang sendiri pamfletnya ke sungai perbatasan lalu tetap meloloskannya masuk.",
+        "teks": "Menyuruh pelintas tersebut membuang sendiri pamfletnya ke sungai perbatasan lalu tetap meloloskannya masuk karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Mengambil beberapa lembar pamflet sebagai arsip pribadi tanpa melaporkan keberadaan sisanya kepada pimpinan pos.",
+        "teks": "Mengambil beberapa lembar pamflet sebagai arsip pribadi tanpa melaporkan keberadaan sisanya kepada pimpinan pos supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menolak masuknya pelintas tersebut secara lisan tanpa mencatat kronologi maupun mengamankan bukti pamflet.",
+        "teks": "Menolak masuknya pelintas tersebut secara lisan tanpa mencatat kronologi maupun mengamankan bukti pamflet agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -183354,17 +183354,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan ketegangan antarkelompok pekerja tersebut berlangsung selama target progres fisik mingguan masih tercapai.",
+        "teks": "Membiarkan ketegangan antarkelompok pekerja tersebut berlangsung selama target progres fisik mingguan masih tercapai agar situasi tetap kondusif.",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Menghentikan seluruh kontrak proyek daerah tanpa upaya mediasi dengan para pekerja maupun tokoh masyarakat.",
+        "teks": "Menghentikan seluruh kontrak proyek daerah tanpa upaya mediasi dengan para pekerja maupun tokoh masyarakat supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memisahkan jam kerja antara pekerja lokal dan tenaga ahli pendatang tanpa menyelesaikan akar sentimen kesukuannya.",
+        "teks": "Memisahkan jam kerja antara pekerja lokal dan tenaga ahli pendatang tanpa menyelesaikan akar sentimen kesukuannya agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -183379,7 +183379,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut membagikan tautan tersebut ke grup lain karena isinya tampak menarik dan ramai diperbincangkan.",
+        "teks": "Ikut membagikan tautan tersebut ke grup lain karena isinya tampak menarik dan ramai diperbincangkan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -183424,17 +183424,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung mengoyak stiker pada kaca kendaraan tersebut tanpa berbicara terlebih dahulu kepada pemilik angkutan.",
+        "teks": "Langsung mengoyak stiker pada kaca kendaraan tersebut tanpa berbicara terlebih dahulu kepada pemilik angkutan supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menolak melakukan pengujian teknis kendaraan dan menyuruh pemilik angkutan pulang tanpa penjelasan aturan.",
+        "teks": "Menolak melakukan pengujian teknis kendaraan dan menyuruh pemilik angkutan pulang tanpa penjelasan aturan demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memfoto stiker tersebut untuk arsip pribadi lalu menerbitkan buku uji kendaraan seperti biasa.",
+        "teks": "Memfoto stiker tersebut untuk arsip pribadi lalu menerbitkan buku uji kendaraan seperti biasa agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -183449,7 +183449,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan pendapat tersebut dan langsung beralih ke materi teknis pengisian formulir pelaporan anggaran desa.",
+        "teks": "Mengabaikan pendapat tersebut dan langsung beralih ke materi teknis pengisian formulir pelaporan anggaran desa supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -183484,7 +183484,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan bidan desa tersebut keluar dari desa dan membiarkan posisi tenaga kesehatan desa kosong sementara.",
+        "teks": "Memindahkan bidan desa tersebut keluar dari desa dan membiarkan posisi tenaga kesehatan desa kosong sementara agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 1
       },
       {
@@ -183494,12 +183494,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan warga memilih tidak memeriksakan kehamilan sebagai bentuk penghormatan terhadap keputusan tokoh setempat.",
+        "teks": "Membiarkan warga memilih tidak memeriksakan kehamilan sebagai bentuk penghormatan terhadap keputusan tokoh setempat supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta bidan desa tetap bekerja dari rumah dinas sambil menunggu warga yang berani datang sendiri secara diam-diam.",
+        "teks": "Meminta bidan desa tetap bekerja dari rumah dinas sambil menunggu warga yang berani datang sendiri secara diam-diam agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -183519,7 +183519,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan peminjaman tersebut selama fasilitas gedung kantor tidak mengalami kerusakan fisik setelah digunakan.",
+        "teks": "Membiarkan peminjaman tersebut selama fasilitas gedung kantor tidak mengalami kerusakan fisik setelah digunakan supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -183529,7 +183529,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta oknum pegawai tersebut memberikan uang kebersihan ruangan tanpa melaporkan penyalahgunaan aset negara.",
+        "teks": "Meminta oknum pegawai tersebut memberikan uang kebersihan ruangan tanpa melaporkan penyalahgunaan aset negara agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -183554,7 +183554,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan pengunjung tersebut pergi dan membersihkan coretan setelah jam tutup museum tanpa membuat laporan.",
+        "teks": "Membiarkan pengunjung tersebut pergi dan membersihkan coretan setelah jam tutup museum tanpa membuat laporan supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -183564,7 +183564,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memarahi pengunjung tersebut dengan nada keras di tengah ruang pamer hingga menarik kerumunan pengunjung lain.",
+        "teks": "Memarahi pengunjung tersebut dengan nada keras di tengah ruang pamer hingga menarik kerumunan pengunjung lain agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -183599,7 +183599,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak mengerjakan kajian tersebut karena menganggap tuntutan petisi tidak layak dibahas secara akademis maupun hukum.",
+        "teks": "Menolak mengerjakan kajian tersebut karena menganggap tuntutan petisi tidak layak dibahas secara akademis maupun hukum sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -183624,7 +183624,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyarankan warga pendatang tersebut mencari tempat tinggal di kelurahan lain yang mayoritas warganya seagama.",
+        "teks": "Menyarankan warga pendatang tersebut mencari tempat tinggal di kelurahan lain yang mayoritas warganya seagama supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -183634,12 +183634,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta warga pendatang menunggu beberapa bulan hingga Ketua RT bersedia mengenal dan menerimanya secara pribadi.",
+        "teks": "Meminta warga pendatang menunggu beberapa bulan hingga Ketua RT bersedia mengenal dan menerimanya secara pribadi agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menerbitkan surat domisili sementara secara diam-diam tanpa menegur maupun membina pelanggaran sikap Ketua RT.",
+        "teks": "Menerbitkan surat domisili sementara secara diam-diam tanpa menegur maupun membina pelanggaran sikap Ketua RT agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 4
       },
       {
@@ -183659,7 +183659,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan akun palsu tersebut selama tidak banyak pengikut yang membagikan ulang unggahan kebenciannya.",
+        "teks": "Membiarkan akun palsu tersebut selama tidak banyak pengikut yang membagikan ulang unggahan kebenciannya supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -183669,7 +183669,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menggunakan akun pribadi Anda untuk berbalas komentar dengan pengelola akun palsu agar warganet tahu itu penipuan.",
+        "teks": "Menggunakan akun pribadi Anda untuk berbalas komentar dengan pengelola akun palsu agar warganet tahu itu penipuan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -183739,7 +183739,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan dokumen tersebut di laci meja pribadi tanpa melapor agar tidak menghambat proses administrasi barang bukti.",
+        "teks": "Menyimpan dokumen tersebut di laci meja pribadi tanpa melapor agar tidak menghambat proses administrasi barang bukti sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -183774,7 +183774,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghubungi notaris pemohon secara informal untuk menyarankan penggantian kata tanpa mencatat riwayat penolakan di sistem.",
+        "teks": "Menghubungi notaris pemohon secara informal untuk menyarankan penggantian kata tanpa mencatat riwayat penolakan di sistem supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
@@ -183799,7 +183799,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan aktivitas tersebut selama dokumen izin singgah awak kapal masih berlaku sesuai jadwal pelabuhan.",
+        "teks": "Mengabaikan aktivitas tersebut selama dokumen izin singgah awak kapal masih berlaku sesuai jadwal pelabuhan supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -183809,7 +183809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta awak kapal asing tersebut segera naik kembali ke kapal tanpa menyita bukti maupun melapor ke pimpinan.",
+        "teks": "Meminta awak kapal asing tersebut segera naik kembali ke kapal tanpa menyita bukti maupun melapor ke pimpinan demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       },
       {
@@ -183869,7 +183869,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan penumpang tersebut memutar videonya selama tidak merusak fasilitas tempat duduk di dek kapal.",
+        "teks": "Membiarkan penumpang tersebut memutar videonya selama tidak merusak fasilitas tempat duduk di dek kapal demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 1
       },
       {
@@ -183879,7 +183879,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung menurunkan penumpang tersebut di pulau terdekat tanpa berkoordinasi dengan nakhoda maupun petugas keamanan.",
+        "teks": "Langsung menurunkan penumpang tersebut di pulau terdekat tanpa berkoordinasi dengan nakhoda maupun petugas keamanan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -183889,7 +183889,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melaporkan kejadian tersebut kepada nakhoda kapal setelah kapal tiba di pelabuhan tujuan akhir.",
+        "teks": "Melaporkan kejadian tersebut kepada nakhoda kapal setelah kapal tiba di pelabuhan tujuan akhir agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -183904,7 +183904,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sebagai bentuk penghargaan terhadap aspirasi mayoritas penduduk desa setempat.",
+        "teks": "Menyetujui usulan tersebut sebagai bentuk penghargaan terhadap aspirasi mayoritas penduduk desa setempat supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -183914,7 +183914,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Diam saja mengikuti jalannya rapat karena usulan tersebut berasal dari perwakilan pemerintah daerah setempat.",
+        "teks": "Diam saja mengikuti jalannya rapat karena usulan tersebut berasal dari perwakilan pemerintah daerah setempat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -183939,7 +183939,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan pemesanan tersebut karena menganggap aksesori tambahan hanya variasi gaya berpakaian pegawai.",
+        "teks": "Membiarkan pemesanan tersebut karena menganggap aksesori tambahan hanya variasi gaya berpakaian pegawai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -183974,7 +183974,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas ucapan pemohon dengan emosi dan merobek formulir permohonannya di depan loket pelayanan.",
+        "teks": "Membalas ucapan pemohon dengan emosi dan merobek formulir permohonannya di depan loket pelayanan supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 1
       },
       {
@@ -183984,17 +183984,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membenarkan keluhan pemohon agar ia cepat tenang dan proses foto biometrik paspor segera selesai.",
+        "teks": "Membenarkan keluhan pemohon agar ia cepat tenang dan proses foto biometrik paspor segera selesai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menolak melayani pemohon tersebut secara diam-diam dengan alasan gangguan jaringan sistem keimigrasian.",
+        "teks": "Menolak melayani pemohon tersebut secara diam-diam dengan alasan gangguan jaringan sistem keimigrasian agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memproses permohonan paspornya dengan cepat tanpa menegur maupun melaporkan sikap penolakan terhadap lambang negara.",
+        "teks": "Memproses permohonan paspornya dengan cepat tanpa menegur maupun melaporkan sikap penolakan terhadap lambang negara supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -184114,7 +184114,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan mediasi secara emosional dan mengusir kedua belah pihak keluar dari ruang mediasi pengadilan.",
+        "teks": "Menghentikan mediasi secara emosional dan mengusir kedua belah pihak keluar dari ruang mediasi pengadilan supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -184134,7 +184134,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunda sesi mediasi ke minggu berikutnya tanpa menjelaskan bahwa seluruh proses peradilan tunduk pada hukum nasional.",
+        "teks": "Menunda sesi mediasi ke minggu berikutnya tanpa menjelaskan bahwa seluruh proses peradilan tunduk pada hukum nasional demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -184159,7 +184159,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membalas komentar warganet tersebut dengan sindiran tajam menggunakan akun resmi kementerian.",
+        "teks": "Membalas komentar warganet tersebut dengan sindiran tajam menggunakan akun resmi kementerian demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 2
       },
       {
@@ -184169,7 +184169,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menutup kolom komentar khusus pada unggahan tersebut tanpa melakukan pencatatan akun penyebar ujaran kebencian.",
+        "teks": "Menutup kolom komentar khusus pada unggahan tersebut tanpa melakukan pencatatan akun penyebar ujaran kebencian supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -184184,7 +184184,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menuruti tuntutan kelompok tersebut dan memindahkan pengungsi suku lain ke pinggiran lokasi tanpa fasilitas memadai.",
+        "teks": "Menuruti tuntutan kelompok tersebut dan memindahkan pengungsi suku lain ke pinggiran lokasi tanpa fasilitas memadai supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -184204,7 +184204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memisahkan letak tenda sejauh mungkin tanpa berupaya memberikan edukasi kemanusiaan dan solidaritas bencana.",
+        "teks": "Memisahkan letak tenda sejauh mungkin tanpa berupaya memberikan edukasi kemanusiaan dan solidaritas bencana agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -184234,7 +184234,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Melanjutkan penggeledahan secara terburu-buru tanpa menjelaskan dasar hukum kepada para karyawan di kantor tersebut.",
+        "teks": "Melanjutkan penggeledahan secara terburu-buru tanpa menjelaskan dasar hukum kepada para karyawan di kantor tersebut agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -184254,7 +184254,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan unggahan mahasiswa tersebut karena prestasi nilai akademiknya di kampus sangat tinggi dan membanggakan.",
+        "teks": "Membiarkan unggahan mahasiswa tersebut karena prestasi nilai akademiknya di kampus sangat tinggi dan membanggakan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -184269,7 +184269,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu hingga mahasiswa tersebut menyelesaikan studinya terlebih dahulu baru menanyakan maksud unggahannya.",
+        "teks": "Menunggu hingga mahasiswa tersebut menyelesaikan studinya terlebih dahulu baru menanyakan maksud unggahannya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -184304,7 +184304,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta orang tua anak tersebut keluar dari ruang layanan karena dianggap menghina kedaulatan negara Republik Indonesia.",
+        "teks": "Meminta orang tua anak tersebut keluar dari ruang layanan karena dianggap menghina kedaulatan negara Republik Indonesia sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -184334,7 +184334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghapus nama penulis lalu tetap menerbitkan artikel tersebut dengan menyensor beberapa kalimat sensitif tanpa konfirmasi.",
+        "teks": "Menghapus nama penulis lalu tetap menerbitkan artikel tersebut dengan menyensor beberapa kalimat sensitif tanpa konfirmasi supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -184344,7 +184344,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan artikel tersebut di draf portal tanpa memberikan jawaban maupun catatan penolakan kepada penulis.",
+        "teks": "Menyimpan artikel tersebut di draf portal tanpa memberikan jawaban maupun catatan penolakan kepada penulis agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -184369,7 +184369,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Ikut membaca buku saku tersebut karena penasaran dengan alasan rekan tersebut menolak upacara bendera.",
+        "teks": "Ikut membaca buku saku tersebut karena penasaran dengan alasan rekan tersebut menolak upacara bendera sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -184409,12 +184409,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pasien tersebut menebus obatnya di apotek luar rumah sakit agar tidak menunggu terlalu lama.",
+        "teks": "Meminta pasien tersebut menebus obatnya di apotek luar rumah sakit agar tidak menunggu terlalu lama dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Mencatat kejadian tersebut tanpa mengambil langkah percepatan pelayanan resep pasien yang sedang membutuhkan obat.",
+        "teks": "Mencatat kejadian tersebut tanpa mengambil langkah percepatan pelayanan resep pasien yang sedang membutuhkan obat agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -184439,12 +184439,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan pendapat peserta tersebut dan langsung menutup sesi konseling kelompok lebih awal.",
+        "teks": "Mengabaikan pendapat peserta tersebut dan langsung menutup sesi konseling kelompok lebih awal demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menyampaikan bahwa pembentukan laskar diperbolehkan asalkan tidak dilakukan di sekitar kantor instansi pemerintah.",
+        "teks": "Menyampaikan bahwa pembentukan laskar diperbolehkan asalkan tidak dilakukan di sekitar kantor instansi pemerintah agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -184464,7 +184464,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menganggap cerita warga binaan tersebut sekadar perselisihan biasa antarsesama penghuni kamar hunian.",
+        "teks": "Menganggap cerita warga binaan tersebut sekadar perselisihan biasa antarsesama penghuni kamar hunian supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -184484,7 +184484,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memindahkan warga binaan pelapor ke kamar lain tanpa menindaklanjuti keberadaan kelompok pemaksa sumpah setia tersebut.",
+        "teks": "Memindahkan warga binaan pelapor ke kamar lain tanpa menindaklanjuti keberadaan kelompok pemaksa sumpah setia tersebut agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -184509,7 +184509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengganti istilah Pancasila dengan kalimat nilai universal umum tanpa mencantumkan dasar negara secara eksplisit.",
+        "teks": "Mengganti istilah Pancasila dengan kalimat nilai universal umum tanpa mencantumkan dasar negara secara eksplisit agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -184519,7 +184519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan keputusan penghapusan klausul sepenuhnya kepada tim hukum mitra LSM pengusul.",
+        "teks": "Menyerahkan keputusan penghapusan klausul sepenuhnya kepada tim hukum mitra LSM pengusul supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -184534,7 +184534,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh pembelajaran seni tari tradisional di sekolah demi menghindari protes warga sekitar.",
+        "teks": "Menghentikan seluruh pembelajaran seni tari tradisional di sekolah demi menghindari protes warga sekitar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -184544,7 +184544,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Tetap menggelar pentas tari secara diam-diam di dalam aula tertutup tanpa mengundang orang tua siswa.",
+        "teks": "Tetap menggelar pentas tari secara diam-diam di dalam aula tertutup tanpa mengundang orang tua siswa agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
@@ -184579,7 +184579,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung mengambil ponsel pengunjung tersebut dan menghapus video rekaman yang sudah dibuatnya.",
+        "teks": "Langsung mengambil ponsel pengunjung tersebut dan menghapus video rekaman yang sudah dibuatnya supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -184589,7 +184589,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengamati aktivitas tersebut dari balik meja layanan tanpa menegur pengunjung hingga ia keluar sendiri.",
+        "teks": "Mengamati aktivitas tersebut dari balik meja layanan tanpa menegur pengunjung hingga ia keluar sendiri agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -184624,7 +184624,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunggu teguran datang langsung dari inspektorat pusat tanpa mencatat ketidakhadiran dalam evaluasi unit.",
+        "teks": "Menunggu teguran datang langsung dari inspektorat pusat tanpa mencatat ketidakhadiran dalam evaluasi unit supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -184649,17 +184649,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengumumkan kesalahan guru pembuat soal tersebut secara terbuka di grup kepala sekolah se-kabupaten.",
+        "teks": "Mengumumkan kesalahan guru pembuat soal tersebut secara terbuka di grup kepala sekolah se-kabupaten demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menunggu hingga muncul keluhan dari orang tua siswa barulah melakukan revisi pada bank soal daerah.",
+        "teks": "Menunggu hingga muncul keluhan dari orang tua siswa barulah melakukan revisi pada bank soal daerah supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menghapus butir soal tersebut secara diam-diam tanpa memberi umpan balik edukatif kepada guru pembuatnya.",
+        "teks": "Menghapus butir soal tersebut secara diam-diam tanpa memberi umpan balik edukatif kepada guru pembuatnya agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 4
       }
     ],
@@ -184684,7 +184684,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memarahi pemohon di depan loket dan langsung merobek surat rekomendasi palsu tersebut sebagai peringatan.",
+        "teks": "Memarahi pemohon di depan loket dan langsung merobek surat rekomendasi palsu tersebut sebagai peringatan agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
@@ -184719,7 +184719,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menegur warga tersebut secara keras di grup percakapan lingkungan dengan menuduhnya sebagai pengkhianat bangsa.",
+        "teks": "Menegur warga tersebut secara keras di grup percakapan lingkungan dengan menuduhnya sebagai pengkhianat bangsa demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
@@ -184764,7 +184764,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat kelambanan layanan tersebut dalam laporan bulanan tanpa memastikan warga segera mendapatkan pelayanan perekaman.",
+        "teks": "Mencatat kelambanan layanan tersebut dalam laporan bulanan tanpa memastikan warga segera mendapatkan pelayanan perekaman supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -184799,7 +184799,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunda pembahasan pasal ketertiban umum tanpa memberikan penjelasan mengenai batasan konstitusional penyusunan perda.",
+        "teks": "Menunda pembahasan pasal ketertiban umum tanpa memberikan penjelasan mengenai batasan konstitusional penyusunan perda supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -184834,7 +184834,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta maaf kepada klien secara diam-diam usai acara tanpa mengingatkan rekan petugas agar tidak mengulanginya.",
+        "teks": "Meminta maaf kepada klien secara diam-diam usai acara tanpa mengingatkan rekan petugas agar tidak mengulanginya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -184859,12 +184859,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta komunitas budaya tersebut membuat aplikasi promosi sendiri di luar kanal resmi pemerintah daerah.",
+        "teks": "Meminta komunitas budaya tersebut membuat aplikasi promosi sendiri di luar kanal resmi pemerintah daerah supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Membiarkan penolakan pengelola aplikasi terlebih dahulu sambil menunggu apakah komunitas budaya mengajukan komplain.",
+        "teks": "Membiarkan penolakan pengelola aplikasi terlebih dahulu sambil menunggu apakah komunitas budaya mengajukan komplain supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
@@ -184884,7 +184884,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan pengaruh tersebut selama pegawai magang masih bersedia membantu pekerjaan pengetikan surat masuk.",
+        "teks": "Membiarkan pengaruh tersebut selama pegawai magang masih bersedia membantu pekerjaan pengetikan surat masuk supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -184899,12 +184899,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pegawai tata usaha tersebut memindahkan meja kerjanya menjauh dari area duduk para pegawai magang.",
+        "teks": "Meminta pegawai tata usaha tersebut memindahkan meja kerjanya menjauh dari area duduk para pegawai magang agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mengingatkan pegawai magang secara pribadi tanpa melaporkan perilaku pegawai tata usaha kepada pimpinan pengawasan.",
+        "teks": "Mengingatkan pegawai magang secara pribadi tanpa melaporkan perilaku pegawai tata usaha kepada pimpinan pengawasan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -184929,17 +184929,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menutup loket pelayanan seketika dan meninggalkan ruang PTSP hingga pengunjung tersebut pulang sendiri.",
+        "teks": "Menutup loket pelayanan seketika dan meninggalkan ruang PTSP hingga pengunjung tersebut pulang sendiri supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Merekam ucapan pengunjung tersebut diam-diam lalu menyebarkannya ke media sosial pribadi Anda.",
+        "teks": "Merekam ucapan pengunjung tersebut diam-diam lalu menyebarkannya ke media sosial pribadi Anda agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Membiarkan ucapan penghinaan tersebut berlanjut sambil terus memproses berkas pengunjung lain di loket.",
+        "teks": "Membiarkan ucapan penghinaan tersebut berlanjut sambil terus memproses berkas pengunjung lain di loket demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -184954,7 +184954,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan acara tersebut tetap berlangsung atas nama kebebasan berpendapat di lingkungan akademik kampus.",
+        "teks": "Mengizinkan acara tersebut tetap berlangsung atas nama kebebasan berpendapat di lingkungan akademik kampus supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -184964,7 +184964,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Langsung membekukan seluruh aktivitas organisasi mahasiswa tersebut secara permanen tanpa berdialog dengan pengurusnya.",
+        "teks": "Langsung membekukan seluruh aktivitas organisasi mahasiswa tersebut secara permanen tanpa berdialog dengan pengurusnya agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
@@ -185004,7 +185004,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunda pemeriksaan berkas tanpa batas waktu agar tidak perlu menerbitkan surat penolakan resmi.",
+        "teks": "Menunda pemeriksaan berkas tanpa batas waktu agar tidak perlu menerbitkan surat penolakan resmi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -185044,7 +185044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunggu laporan polisi dari keluarga pasien barulah dinas kesehatan melakukan pemeriksaan izin klinik.",
+        "teks": "Menunggu laporan polisi dari keluarga pasien barulah dinas kesehatan melakukan pemeriksaan izin klinik supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -185059,7 +185059,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membaca petisi tersebut lalu membagikannya ke rekan kerja lain sekadar untuk mengetahui reaksi mereka.",
+        "teks": "Membaca petisi tersebut lalu membagikannya ke rekan kerja lain sekadar untuk mengetahui reaksi mereka demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -185069,7 +185069,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan tautan petisi tersebut dan berpura-pura tidak pernah melihat pesan dari rekan kerja Anda.",
+        "teks": "Mengabaikan tautan petisi tersebut dan berpura-pura tidak pernah melihat pesan dari rekan kerja Anda agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -185094,7 +185094,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui permintaan tersebut sepenuhnya dan menghapus seluruh bagian materi tentang hukum konstitusi dan Pancasila.",
+        "teks": "Menyetujui permintaan tersebut sepenuhnya dan menghapus seluruh bagian materi tentang hukum konstitusi dan Pancasila supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -185104,17 +185104,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membatalkan seluruh acara penyuluhan hukum di lembaga tersebut secara sepihak tanpa berdialog dengan pengurus.",
+        "teks": "Membatalkan seluruh acara penyuluhan hukum di lembaga tersebut secara sepihak tanpa berdialog dengan pengurus agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Tetap datang mengisi materi hukum lalu lintas ringan saja tanpa menyinggung kedudukan konstitusi maupun negara.",
+        "teks": "Tetap datang mengisi materi hukum lalu lintas ringan saja tanpa menyinggung kedudukan konstitusi maupun negara supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Melaporkan permintaan pengurus lembaga kepada aparat keamanan setempat sebelum berdialog menjelaskan tujuan penyuluhan.",
+        "teks": "Melaporkan permintaan pengurus lembaga kepada aparat keamanan setempat sebelum berdialog menjelaskan tujuan penyuluhan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -185144,7 +185144,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan pernyataan tersebut tanpa tanggapan lalu langsung menyerahkan catatan mediasi ke ruang persidangan.",
+        "teks": "Membiarkan pernyataan tersebut tanpa tanggapan lalu langsung menyerahkan catatan mediasi ke ruang persidangan demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
@@ -185164,7 +185164,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan tamu tersebut membuat konten di lobi selama tidak menghalangi pintu masuk utama kantor.",
+        "teks": "Membiarkan tamu tersebut membuat konten di lobi selama tidak menghalangi pintu masuk utama kantor supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -185174,7 +185174,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Merampas paksa spanduk dan kamera tamu tersebut hingga memicu keributan fisik di area lobi kantor.",
+        "teks": "Merampas paksa spanduk dan kamera tamu tersebut hingga memicu keributan fisik di area lobi kantor demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
@@ -185199,7 +185199,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan blokade jalan tersebut hingga warga transmigran memilih pulang kembali ke daerah asalnya.",
+        "teks": "Membiarkan blokade jalan tersebut hingga warga transmigran memilih pulang kembali ke daerah asalnya agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -185209,17 +185209,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta warga transmigran tidak keluar dari area permukiman mereka selama beberapa bulan pertama agar tidak memicu kemarahan warga.",
+        "teks": "Meminta warga transmigran tidak keluar dari area permukiman mereka selama beberapa bulan pertama agar tidak memicu kemarahan warga sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menggunakan alat berat untuk membongkar blokade jalan secara sepihak tanpa melibatkan tokoh masyarakat setempat.",
+        "teks": "Menggunakan alat berat untuk membongkar blokade jalan secara sepihak tanpa melibatkan tokoh masyarakat setempat supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Melaporkan kejadian tersebut ke kementerian pusat dan menunggu tim pusat datang menyelesaikan konflik di lapangan.",
+        "teks": "Melaporkan kejadian tersebut ke kementerian pusat dan menunggu tim pusat datang menyelesaikan konflik di lapangan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -185269,7 +185269,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap memenangkan naskah tersebut apabila gaya penulisan bahasanya dinilai paling rapi di antara peserta lain.",
+        "teks": "Tetap memenangkan naskah tersebut apabila gaya penulisan bahasanya dinilai paling rapi di antara peserta lain supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -185284,7 +185284,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membuang naskah tersebut tanpa memasukkan ke dalam daftar penilaian maupun memberi umpan balik kepada pembina sekolah.",
+        "teks": "Membuang naskah tersebut tanpa memasukkan ke dalam daftar penilaian maupun memberi umpan balik kepada pembina sekolah agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
@@ -185304,7 +185304,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas bentakan pemohon tersebut dengan suara lebih keras agar ia merasa takut dan menuruti antrean.",
+        "teks": "Membalas bentakan pemohon tersebut dengan suara lebih keras agar ia merasa takut dan menuruti antrean sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -185314,17 +185314,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membenarkan sikap pemohon dan langsung memarahi rekan petugas perempuan agar segera mundur dari ruang foto.",
+        "teks": "Membenarkan sikap pemohon dan langsung memarahi rekan petugas perempuan agar segera mundur dari ruang foto dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menolak seluruh permohonan paspor warga tersebut secara permanen tanpa memberikan penjelasan prosedur yang tenang.",
+        "teks": "Menolak seluruh permohonan paspor warga tersebut secara permanen tanpa memberikan penjelasan prosedur yang tenang karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Membiarkan pemohon meluapkan amarahnya di ruang foto tanpa melakukan penertiban maupun menjelaskan etika layanan publik.",
+        "teks": "Membiarkan pemohon meluapkan amarahnya di ruang foto tanpa melakukan penertiban maupun menjelaskan etika layanan publik demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 4
       }
     ],
@@ -185339,7 +185339,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan surat tersebut dan menyarankan pimpinan pengadilan membatalkan seluruh eksekusi putusan di wilayah itu.",
+        "teks": "Menyimpan surat tersebut dan menyarankan pimpinan pengadilan membatalkan seluruh eksekusi putusan di wilayah itu supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -185349,17 +185349,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak menerima surat tersebut di loket dan mengusir perwakilan kelompok keluar dari gedung pengadilan.",
+        "teks": "Menolak menerima surat tersebut di loket dan mengusir perwakilan kelompok keluar dari gedung pengadilan supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Memfoto surat pernyataan kolektif tersebut lalu membagikannya ke media sosial untuk melihat opini warganet.",
+        "teks": "Memfoto surat pernyataan kolektif tersebut lalu membagikannya ke media sosial untuk melihat opini warganet agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyerahkan surat tersebut kepada petugas keamanan pengadilan tanpa mencatatnya dalam register surat masuk resmi.",
+        "teks": "Menyerahkan surat tersebut kepada petugas keamanan pengadilan tanpa mencatatnya dalam register surat masuk resmi agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -185374,7 +185374,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui pembatasan hak suara tersebut agar rapat musyawarah desa dapat segera mengambil keputusan cepat.",
+        "teks": "Menyetujui pembatasan hak suara tersebut agar rapat musyawarah desa dapat segera mengambil keputusan cepat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -185454,17 +185454,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membuka paksa loker siswa di hadapan seluruh kelas dan memarahinya sebagai pengkhianat negara.",
+        "teks": "Membuka paksa loker siswa di hadapan seluruh kelas dan memarahinya sebagai pengkhianat negara karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menyobek stiker tersebut diam-diam sepulang sekolah tanpa pernah berkomunikasi dengan siswa maupun guru BK.",
+        "teks": "Menyobek stiker tersebut diam-diam sepulang sekolah tanpa pernah berkomunikasi dengan siswa maupun guru BK demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Langsung melaporkan siswa tersebut ke pihak kepolisian setempat tanpa pembinaan internal sekolah dan orang tua.",
+        "teks": "Langsung melaporkan siswa tersebut ke pihak kepolisian setempat tanpa pembinaan internal sekolah dan orang tua supaya pekerjaan tetap berjalan.",
         "poin": 3
       }
     ],
@@ -185489,7 +185489,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memilih diam dalam rapat tim meskipun mengetahui alasan penolakan rekan tersebut tidak objektif.",
+        "teks": "Memilih diam dalam rapat tim meskipun mengetahui alasan penolakan rekan tersebut tidak objektif supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -185499,7 +185499,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat keberatan pribadi dalam dokumen kerja tanpa menyampaikan argumen persatuan ekonomi nasional di rapat tim.",
+        "teks": "Mencatat keberatan pribadi dalam dokumen kerja tanpa menyampaikan argumen persatuan ekonomi nasional di rapat tim supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -185529,7 +185529,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan potongan video fitnah tersebut beredar luas dengan keyakinan masyarakat nanti akan menilai sendiri.",
+        "teks": "Membiarkan potongan video fitnah tersebut beredar luas dengan keyakinan masyarakat nanti akan menilai sendiri supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -185559,17 +185559,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta relawan pengajar tersebut mengundurkan diri agar warga binaan bersedia kembali masuk ke ruang kelas.",
+        "teks": "Meminta relawan pengajar tersebut mengundurkan diri agar warga binaan bersedia kembali masuk ke ruang kelas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Langsung menjatuhkan hukuman disiplin kepada warga binaan tersebut di depan relawan pengajar dan peserta lain.",
+        "teks": "Langsung menjatuhkan hukuman disiplin kepada warga binaan tersebut di depan relawan pengajar dan peserta lain supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memindahkan warga binaan tersebut ke jadwal kelas minggu depan tanpa membahas sikap intoleransinya secara edukatif.",
+        "teks": "Memindahkan warga binaan tersebut ke jadwal kelas minggu depan tanpa membahas sikap intoleransinya secara edukatif agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -185594,12 +185594,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membocorkan tangkapan layar ujaran kebencian peserta tersebut ke media sosial sebelum pengumuman resmi panitia.",
+        "teks": "Membocorkan tangkapan layar ujaran kebencian peserta tersebut ke media sosial sebelum pengumuman resmi panitia agar situasi tetap kondusif.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Mengabaikan temuan tersebut dengan anggapan sikapnya akan berubah setelah resmi mengikuti pelatihan dasar ASN.",
+        "teks": "Mengabaikan temuan tersebut dengan anggapan sikapnya akan berubah setelah resmi mengikuti pelatihan dasar ASN supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -185654,7 +185654,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak melayani seluruh berkasnya dan menyuruh pemohon pulang tanpa memberikan kejelasan solusi administrasi.",
+        "teks": "Menolak melayani seluruh berkasnya dan menyuruh pemohon pulang tanpa memberikan kejelasan solusi administrasi agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -185669,12 +185669,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pemohon menanyakan sendiri kekurangan berkasnya kepada petugas jaga gerbang kejaksaan.",
+        "teks": "Meminta pemohon menanyakan sendiri kekurangan berkasnya kepada petugas jaga gerbang kejaksaan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyimpan berkas yang sudah dibawa lalu menyuruh pemohon mengabari jika sudah sempat kembali lagi ke kota.",
+        "teks": "Menyimpan berkas yang sudah dibawa lalu menyuruh pemohon mengabari jika sudah sempat kembali lagi ke kota demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -185689,7 +185689,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup loket pendaftaran tepat detik jam berakhir dan menyuruh ibu tersebut menunggu hingga jadwal besuk minggu depan.",
+        "teks": "Menutup loket pendaftaran tepat detik jam berakhir dan menyuruh ibu tersebut menunggu hingga jadwal besuk minggu depan supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 1
       },
       {
@@ -185704,12 +185704,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyuruh ibu tersebut menitipkan barang bawaannya saja di pos depan tanpa berupaya membantu proses kunjungan.",
+        "teks": "Menyuruh ibu tersebut menitipkan barang bawaannya saja di pos depan tanpa berupaya membantu proses kunjungan agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meminta ibu tersebut menunggu di luar pagar lapas hingga sesi besuk siang dibuka dua jam kemudian.",
+        "teks": "Meminta ibu tersebut menunggu di luar pagar lapas hingga sesi besuk siang dibuka dua jam kemudian karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 4
       }
     ],
@@ -185724,7 +185724,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Diam di balik meja loket sambil membiarkan pemohon bertanya-tanya sendiri mengenai penyebab antrean tidak bergerak.",
+        "teks": "Diam di balik meja loket sambil membiarkan pemohon bertanya-tanya sendiri mengenai penyebab antrean tidak bergerak supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -185734,17 +185734,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyalahkan tim IT pusat di hadapan pemohon agar masyarakat memahami bahwa keterlambatan bukan salah petugas loket.",
+        "teks": "Menyalahkan tim IT pusat di hadapan pemohon agar masyarakat memahami bahwa keterlambatan bukan salah petugas loket sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta seluruh pemohon pulang dan menjadwal ulang antrean minggu depan tanpa menunggu upaya pemulihan sistem.",
+        "teks": "Meminta seluruh pemohon pulang dan menjadwal ulang antrean minggu depan tanpa menunggu upaya pemulihan sistem agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menempelkan kertas pengumuman gangguan di kaca loket tanpa memberikan penjelasan lisan maupun pendataan darurat.",
+        "teks": "Menempelkan kertas pengumuman gangguan di kaca loket tanpa memberikan penjelasan lisan maupun pendataan darurat demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -185774,7 +185774,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyuruh petugas kebersihan yang lewat untuk mengantar pemohon tersebut karena Anda sedang tidak ingin diganggu.",
+        "teks": "Menyuruh petugas kebersihan yang lewat untuk mengantar pemohon tersebut karena Anda sedang tidak ingin diganggu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -185804,7 +185804,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta ibu tersebut pulang dan menenangkan diri terlebih dahulu sebelum kembali lagi ke pengadilan.",
+        "teks": "Meminta ibu tersebut pulang dan menenangkan diri terlebih dahulu sebelum kembali lagi ke pengadilan supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -185814,7 +185814,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengarahkan ibu tersebut langsung masuk ke ruang panitera tanpa menjelaskan prosedur layanan Posbakum.",
+        "teks": "Mengarahkan ibu tersebut langsung masuk ke ruang panitera tanpa menjelaskan prosedur layanan Posbakum agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -185844,12 +185844,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan warga tersebut mengurus penetapan perbaikan nama ke pengadilan negeri meskipun sebenarnya cukup koreksi redaksional dinas.",
+        "teks": "Menyarankan warga tersebut mengurus penetapan perbaikan nama ke pengadilan negeri meskipun sebenarnya cukup koreksi redaksional dinas agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima berkas perbaikan warga lalu menyuruhnya menunggu kabar tanpa estimasi waktu penyelesaian.",
+        "teks": "Menerima berkas perbaikan warga lalu menyuruhnya menunggu kabar tanpa estimasi waktu penyelesaian supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -185864,7 +185864,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung mendahulukan pengemudi tersebut ke depan antrean tanpa memberi tahu warga lain yang sudah menunggu sejak pagi.",
+        "teks": "Langsung mendahulukan pengemudi tersebut ke depan antrean tanpa memberi tahu warga lain yang sudah menunggu sejak pagi agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -185874,7 +185874,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menegur pengemudi tersebut dengan ketus bahwa semua orang di ruang tunggu juga memiliki kesibukan masing-masing.",
+        "teks": "Menegur pengemudi tersebut dengan ketus bahwa semua orang di ruang tunggu juga memiliki kesibukan masing-masing agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 2
       },
       {
@@ -185884,7 +185884,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta pengemudi tersebut kembali sore hari menjelang tutup loket ketika antrean sudah lebih sepi.",
+        "teks": "Meminta pengemudi tersebut kembali sore hari menjelang tutup loket ketika antrean sudah lebih sepi demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -185909,7 +185909,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pemohon membayar jasa konsultan swasta di luar kantor agar seluruh proses unggah berkasnya diuruskan.",
+        "teks": "Meminta pemohon membayar jasa konsultan swasta di luar kantor agar seluruh proses unggah berkasnya diuruskan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -185919,7 +185919,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberikan selebaran panduan tertulis kepada pemohon tanpa bersedia mendampingi saat ia mencoba mengisi.",
+        "teks": "Memberikan selebaran panduan tertulis kepada pemohon tanpa bersedia mendampingi saat ia mencoba mengisi supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -185969,7 +185969,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta warga tersebut menanyakan sendiri kepada petugas ukur yang datang ke desanya tiga bulan lalu.",
+        "teks": "Meminta warga tersebut menanyakan sendiri kepada petugas ukur yang datang ke desanya tiga bulan lalu supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -185984,12 +185984,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyuruh warga tersebut mengunduh aplikasi resmi BPN dan meminta cucunya mengecek status dari rumah.",
+        "teks": "Menyuruh warga tersebut mengunduh aplikasi resmi BPN dan meminta cucunya mengecek status dari rumah supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat nomor berkas warga tersebut di kertas lalu memintanya menelepon kantor pekan depan.",
+        "teks": "Mencatat nomor berkas warga tersebut di kertas lalu memintanya menelepon kantor pekan depan demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 4
       }
     ],
@@ -186004,7 +186004,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pemohon mengikuti aturan standar pengambilan tiga hari lagi tanpa berupaya mengecek kondisi paspornya.",
+        "teks": "Meminta pemohon mengikuti aturan standar pengambilan tiga hari lagi tanpa berupaya mengecek kondisi paspornya agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -186019,12 +186019,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan pemohon menunda tiket keberangkatan ke luar negeri sampai jadwal pengambilan reguler tiba.",
+        "teks": "Menyarankan pemohon menunda tiket keberangkatan ke luar negeri sampai jadwal pengambilan reguler tiba supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyuruh pemohon menunggu sampai sore menjelang tutup kantor untuk melihat apakah paspornya sudah turun ke loket.",
+        "teks": "Menyuruh pemohon menunggu sampai sore menjelang tutup kantor untuk melihat apakah paspornya sudah turun ke loket agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -186054,7 +186054,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut lalu membagikannya kepada petugas kebersihan di ruang tunggu pengadilan.",
+        "teks": "Menerima amplop tersebut lalu membagikannya kepada petugas kebersihan di ruang tunggu pengadilan supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -186089,7 +186089,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjanjikan bahwa laporannya pasti selesai minggu ini meskipun Anda belum memeriksa status berkasnya di sistem.",
+        "teks": "Menjanjikan bahwa laporannya pasti selesai minggu ini meskipun Anda belum memeriksa status berkasnya di sistem agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
@@ -186109,7 +186109,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pemohon tersebut keluar antrean dan kembali lagi hanya jika sudah didampingi penerjemah pribadi.",
+        "teks": "Meminta pemohon tersebut keluar antrean dan kembali lagi hanya jika sudah didampingi penerjemah pribadi agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 2
       },
       {
@@ -186129,7 +186129,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menunjuk papan pengumuman alur layanan di dinding lobi tanpa memastikan apakah pemohon memahami isinya.",
+        "teks": "Menunjuk papan pengumuman alur layanan di dinding lobi tanpa memastikan apakah pemohon memahami isinya supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -186154,17 +186154,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan ibu tersebut pulang dulu dan membayar pajak kendaraan melalui minimarket di dekat rumahnya saja.",
+        "teks": "Menyarankan ibu tersebut pulang dulu dan membayar pajak kendaraan melalui minimarket di dekat rumahnya saja demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Meminta ibu tersebut menitipkan bayinya kepada petugas keamanan di lobi selama ia menunggu giliran panggilan loket.",
+        "teks": "Meminta ibu tersebut menitipkan bayinya kepada petugas keamanan di lobi selama ia menunggu giliran panggilan loket supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Menyapa ibu tersebut dengan senyum dari balik loket sambil berharap antrean di depannya cepat selesai.",
+        "teks": "Menyapa ibu tersebut dengan senyum dari balik loket sambil berharap antrean di depannya cepat selesai agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -186189,7 +186189,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan pelajar tersebut membeli sendiri buku yang dibutuhkan di toko buku terdekat.",
+        "teks": "Menyarankan pelajar tersebut membeli sendiri buku yang dibutuhkan di toko buku terdekat demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
@@ -186199,7 +186199,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberitahukan perkiraan tanggal pengembalian buku tersebut tanpa menawarkan sumber referensi lain yang tersedia.",
+        "teks": "Memberitahukan perkiraan tanggal pengembalian buku tersebut tanpa menawarkan sumber referensi lain yang tersedia supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -186234,7 +186234,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menanyakan kepada warga apakah mereka bersedia menunggu satu jam terlebih dahulu sebelum Anda pergi makan siang.",
+        "teks": "Menanyakan kepada warga apakah mereka bersedia menunggu satu jam terlebih dahulu sebelum Anda pergi makan siang agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -186259,7 +186259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menghapus papan alur layanan tersebut agar petugas saja yang menjelaskan secara lisan jika ada warga bertanya.",
+        "teks": "Menghapus papan alur layanan tersebut agar petugas saja yang menjelaskan secara lisan jika ada warga bertanya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -186269,7 +186269,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menambahkan daftar glosarium istilah hukum berukuran kecil di bagian paling bawah papan pengumuman.",
+        "teks": "Menambahkan daftar glosarium istilah hukum berukuran kecil di bagian paling bawah papan pengumuman agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -186284,7 +186284,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung menolak pendaftaran dan menyuruh pasien pulang ke desa untuk membuat surat rujukan baru tanpa penjelasan.",
+        "teks": "Langsung menolak pendaftaran dan menyuruh pasien pulang ke desa untuk membuat surat rujukan baru tanpa penjelasan supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
@@ -186304,7 +186304,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta pasien menunggu di ruang tunggu hingga poli selesai barulah menanyakan kebijakan dokter jaga.",
+        "teks": "Meminta pasien menunggu di ruang tunggu hingga poli selesai barulah menanyakan kebijakan dokter jaga agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -186354,7 +186354,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa pendaftaran sekarang wajib daring sehingga warga harus meminjam ponsel tetangganya sendiri di rumah.",
+        "teks": "Menjelaskan bahwa pendaftaran sekarang wajib daring sehingga warga harus meminjam ponsel tetangganya sendiri di rumah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -186369,7 +186369,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta warga tersebut menunggu pendataan ulang tahun depan oleh petugas kelurahan.",
+        "teks": "Meminta warga tersebut menunggu pendataan ulang tahun depan oleh petugas kelurahan demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
@@ -186389,7 +186389,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjawab dengan nada ketus bahwa jadwal sidang adalah urusan hakim dan bukan kewenangan petugas meja informasi.",
+        "teks": "Menjawab dengan nada ketus bahwa jadwal sidang adalah urusan hakim dan bukan kewenangan petugas meja informasi agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -186399,17 +186399,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh warga tersebut menunggu saja di kursi ruang tunggu tanpa mengecek kejelasan agenda di ruang sidang.",
+        "teks": "Menyuruh warga tersebut menunggu saja di kursi ruang tunggu tanpa mengecek kejelasan agenda di ruang sidang supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menjelaskan bahwa keterlambatan sidang adalah hal biasa di pengadilan sehingga tidak perlu dipertanyakan.",
+        "teks": "Menjelaskan bahwa keterlambatan sidang adalah hal biasa di pengadilan sehingga tidak perlu dipertanyakan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Mengarahkan warga tersebut berjalan sendiri menuju ruang panitera pidana atau perdata untuk bertanya langsung.",
+        "teks": "Mengarahkan warga tersebut berjalan sendiri menuju ruang panitera pidana atau perdata untuk bertanya langsung agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 4
       }
     ],
@@ -186434,7 +186434,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan pelaku UMKM tidak perlu mendaftarkan mereknya dulu selama usahanya masih berskala rumahan.",
+        "teks": "Menyarankan pelaku UMKM tidak perlu mendaftarkan mereknya dulu selama usahanya masih berskala rumahan demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -186459,7 +186459,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa aturan lintas dinas memang rumit dan petugas loket tidak bisa mengubah prosedur yang sudah ada.",
+        "teks": "Menjelaskan bahwa aturan lintas dinas memang rumit dan petugas loket tidak bisa mengubah prosedur yang sudah ada supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -186474,12 +186474,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pemohon tetap bersabar mengikuti alur birokrasi yang berlaku tanpa mencatat keluhannya.",
+        "teks": "Meminta pemohon tetap bersabar mengikuti alur birokrasi yang berlaku tanpa mencatat keluhannya agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima keluhan tersebut dan berjanji akan menyampaikannya kepada pimpinan jika ada waktu luang.",
+        "teks": "Menerima keluhan tersebut dan berjanji akan menyampaikannya kepada pimpinan jika ada waktu luang demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -186509,7 +186509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerima berkasnya dan menjanjikan surat baru dapat diambil keesokan harinya setelah jam apel pagi.",
+        "teks": "Menerima berkasnya dan menjanjikan surat baru dapat diambil keesokan harinya setelah jam apel pagi supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -186529,7 +186529,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyuruh alumni tersebut pulang saja ke luar kota dan kembali lagi minggu depan tanpa solusi alternatif.",
+        "teks": "Menyuruh alumni tersebut pulang saja ke luar kota dan kembali lagi minggu depan tanpa solusi alternatif agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -186544,12 +186544,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjelaskan bahwa keterlambatan tanda tangan bukan kesalahan tata usaha karena kepala sekolah sedang tugas luar.",
+        "teks": "Menjelaskan bahwa keterlambatan tanda tangan bukan kesalahan tata usaha karena kepala sekolah sedang tugas luar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meminta alumni tersebut menginap dua hari di sekitar sekolah hingga kepala sekolah kembali dari dinas luar.",
+        "teks": "Meminta alumni tersebut menginap dua hari di sekitar sekolah hingga kepala sekolah kembali dari dinas luar supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -186564,7 +186564,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegaskan bahwa klien tetap wajib datang langsung ke kantor Bapas sesuai jadwal tanpa pengecualian kondisi sakit.",
+        "teks": "Menegaskan bahwa klien tetap wajib datang langsung ke kantor Bapas sesuai jadwal tanpa pengecualian kondisi sakit supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -186574,7 +186574,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengabaikan laporan lewat telepon karena keluarga wajib datang langsung membawa surat ke kantor pada hari yang sama.",
+        "teks": "Mengabaikan laporan lewat telepon karena keluarga wajib datang langsung membawa surat ke kantor pada hari yang sama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -186584,7 +186584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat nama klien di kertas catatan meja tanpa menjelaskan dokumen medis apa yang harus disiapkan keluarga.",
+        "teks": "Mencatat nama klien di kertas catatan meja tanpa menjelaskan dokumen medis apa yang harus disiapkan keluarga demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -186619,7 +186619,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Membantu mengisikan satu atau dua wajib pajak yang datang paling pagi lalu meminta sisanya membaca panduan sendiri.",
+        "teks": "Membantu mengisikan satu atau dua wajib pajak yang datang paling pagi lalu meminta sisanya membaca panduan sendiri agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -186644,12 +186644,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta warga tersebut tidak menuliskan keluhan fasilitas di survei resmi agar nilai akreditasi pengadilan tidak turun.",
+        "teks": "Meminta warga tersebut tidak menuliskan keluhan fasilitas di survei resmi agar nilai akreditasi pengadilan tidak turun sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Mendengarkan keluhan tersebut sambil lalu tanpa mencatat maupun memandu pengisian formulir masukan resmi.",
+        "teks": "Mendengarkan keluhan tersebut sambil lalu tanpa mencatat maupun memandu pengisian formulir masukan resmi supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -186679,17 +186679,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta wisatawan bersabar menunggu di area parkir hingga petugas loket tiket kembali ke tempatnya.",
+        "teks": "Meminta wisatawan bersabar menunggu di area parkir hingga petugas loket tiket kembali ke tempatnya supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Memberikan teguran keras kepada petugas loket di hadapan seluruh wisatawan yang sedang mengantre.",
+        "teks": "Memberikan teguran keras kepada petugas loket di hadapan seluruh wisatawan yang sedang mengantre agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat keluhan wisatawan tersebut untuk dibahas pada rapat evaluasi dinas akhir bulan nanti.",
+        "teks": "Mencatat keluhan wisatawan tersebut untuk dibahas pada rapat evaluasi dinas akhir bulan nanti supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -186714,7 +186714,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyampaikan bahwa kasus perselisihan kerja terlalu rumit dan menyarankannya menerima keputusan perusahaan saja.",
+        "teks": "Menyampaikan bahwa kasus perselisihan kerja terlalu rumit dan menyarankannya menerima keputusan perusahaan saja supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -186724,7 +186724,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat nomor telepon pekerja tersebut lalu berjanji akan menghubungi kembali jika ada waktu konsultasi kosong.",
+        "teks": "Mencatat nomor telepon pekerja tersebut lalu berjanji akan menghubungi kembali jika ada waktu konsultasi kosong supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 4
       }
     ],
@@ -186754,12 +186754,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta warga tersebut kembali minggu depan setelah mengurus surat keterangan tidak mampu dari kelurahan.",
+        "teks": "Meminta warga tersebut kembali minggu depan setelah mengurus surat keterangan tidak mampu dari kelurahan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencetak status kepesertaan dari layar komputer lalu menyuruh warga membawanya sendiri ke dinas sosial.",
+        "teks": "Mencetak status kepesertaan dari layar komputer lalu menyuruh warga membawanya sendiri ke dinas sosial demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -186774,7 +186774,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta sopir membayar tunai secara langsung kepada Anda tanpa bukti resi resmi agar truk bisa segera jalan.",
+        "teks": "Meminta sopir membayar tunai secara langsung kepada Anda tanpa bukti resi resmi agar truk bisa segera jalan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -186789,12 +186789,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menutup loket izin trayek sementara hingga pihak bank memperbaiki gangguan jaringan pembayaran digital.",
+        "teks": "Menutup loket izin trayek sementara hingga pihak bank memperbaiki gangguan jaringan pembayaran digital agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meminta sopir menunggu di area parkir tanpa memberi tahu perkembangan penanganan gangguan ke pihak bank.",
+        "teks": "Meminta sopir menunggu di area parkir tanpa memberi tahu perkembangan penanganan gangguan ke pihak bank supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -186819,17 +186819,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta lansia tersebut pulang dulu dan baru kembali apabila sudah ditemani oleh anaknya.",
+        "teks": "Meminta lansia tersebut pulang dulu dan baru kembali apabila sudah ditemani oleh anaknya demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta pengunjung lain yang sedang mengantre di belakangnya untuk membacakan dan mengisikan formulir lansia tersebut.",
+        "teks": "Meminta pengunjung lain yang sedang mengantre di belakangnya untuk membacakan dan mengisikan formulir lansia tersebut agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mengisi seluruh formulir dengan cepat tanpa membacakan kembali isinya kepada pemohon lansia.",
+        "teks": "Mengisi seluruh formulir dengan cepat tanpa membacakan kembali isinya kepada pemohon lansia karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 4
       }
     ],
@@ -186844,7 +186844,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengarsipkan aduan tersebut hingga jumlah laporan warga di ruas jalan yang sama mencapai minimal sepuluh aduan.",
+        "teks": "Mengarsipkan aduan tersebut hingga jumlah laporan warga di ruas jalan yang sama mencapai minimal sepuluh aduan demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -186854,17 +186854,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membalas aduan dengan kalimat normatif terima kasih tanpa meneruskannya kepada dinas teknis terkait.",
+        "teks": "Membalas aduan dengan kalimat normatif terima kasih tanpa meneruskannya kepada dinas teknis terkait supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta pelapor menghubungi sendiri kantor dinas penerangan jalan agar lebih cepat ditangani petugas lapangan.",
+        "teks": "Meminta pelapor menghubungi sendiri kantor dinas penerangan jalan agar lebih cepat ditangani petugas lapangan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meneruskan aduan ke dinas terkait tanpa melakukan pemantauan tindak lanjut maupun memberi kabar kepada pelapor.",
+        "teks": "Meneruskan aduan ke dinas terkait tanpa melakukan pemantauan tindak lanjut maupun memberi kabar kepada pelapor agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -186889,7 +186889,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta ketiga lansia tersebut datang ke kantor dinas kabupaten menggunakan perahu sewa pada hari kerja berikutnya.",
+        "teks": "Meminta ketiga lansia tersebut datang ke kantor dinas kabupaten menggunakan perahu sewa pada hari kerja berikutnya agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -186899,7 +186899,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Melayani satu orang lansia saja yang paling dekat sementara dua lainnya dijanjikan masuk daftar kunjungan tahun depan.",
+        "teks": "Melayani satu orang lansia saja yang paling dekat sementara dua lainnya dijanjikan masuk daftar kunjungan tahun depan demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -186914,7 +186914,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap memproses antrean secara kaku sesuai nomor urut meskipun tersedia kursi prioritas yang kosong.",
+        "teks": "Tetap memproses antrean secara kaku sesuai nomor urut meskipun tersedia kursi prioritas yang kosong demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 2
       },
       {
@@ -186924,12 +186924,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan pengunjung tersebut pulang dulu mengobati anaknya baru kembali mengurus izin besuk lain hari.",
+        "teks": "Menyarankan pengunjung tersebut pulang dulu mengobati anaknya baru kembali mengurus izin besuk lain hari supaya persoalan tidak berlarut-larut.",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Mengambilkan air minum saja tanpa berupaya membantu kelancaran proses administrasi di loket.",
+        "teks": "Mengambilkan air minum saja tanpa berupaya membantu kelancaran proses administrasi di loket agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       },
       {
@@ -186959,17 +186959,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengatakan bahwa itu bukan urusan Pengadilan Negeri dan langsung memanggil nomor antrean berikutnya.",
+        "teks": "Mengatakan bahwa itu bukan urusan Pengadilan Negeri dan langsung memanggil nomor antrean berikutnya karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menyarankan pemohon mencari informasi sendiri melalui mesin pencari di ponsel mengenai alamat pengadilan yang benar.",
+        "teks": "Menyarankan pemohon mencari informasi sendiri melalui mesin pencari di ponsel mengenai alamat pengadilan yang benar demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menunjukkan gedung Pengadilan Agama dari pintu lobi tanpa menjelaskan bahwa berkasnya sudah cukup lengkap atau masih kurang.",
+        "teks": "Menunjukkan gedung Pengadilan Agama dari pintu lobi tanpa menjelaskan bahwa berkasnya sudah cukup lengkap atau masih kurang supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -186984,7 +186984,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak berkasnya langsung dan menyuruhnya kembali setelah seluruh formulir diisi oleh agen penyalur.",
+        "teks": "Menolak berkasnya langsung dan menyuruhnya kembali setelah seluruh formulir diisi oleh agen penyalur agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -186994,17 +186994,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan pemohon mendaftar menggunakan jalur paspor wisata biasa saja agar persyaratannya lebih mudah.",
+        "teks": "Menyarankan pemohon mendaftar menggunakan jalur paspor wisata biasa saja agar persyaratannya lebih mudah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Memberikan formulir kosong kepada pemohon tanpa menjelaskan perbedaan prosedur paspor pekerja migran dan wisata.",
+        "teks": "Memberikan formulir kosong kepada pemohon tanpa menjelaskan perbedaan prosedur paspor pekerja migran dan wisata supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meminta pemohon mencari contoh isian formulir milik pemohon lain di ruang tunggu kantor imigrasi.",
+        "teks": "Meminta pemohon mencari contoh isian formulir milik pemohon lain di ruang tunggu kantor imigrasi supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -187039,7 +187039,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta mahasiswa menunggu tanpa batas waktu yang jelas hingga ketiga bidang menyerahkan laporan tahunan.",
+        "teks": "Meminta mahasiswa menunggu tanpa batas waktu yang jelas hingga ketiga bidang menyerahkan laporan tahunan supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -187069,12 +187069,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberikan tautan situs web resmi lembaga kepada nelayan untuk dibuka di ponselnya masing-masing.",
+        "teks": "Memberikan tautan situs web resmi lembaga kepada nelayan untuk dibuka di ponselnya masing-masing agar situasi tetap kondusif.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyebutkan angka kecepatan angin secara singkat tanpa menjelaskan dampaknya terhadap keselamatan perahu kecil.",
+        "teks": "Menyebutkan angka kecepatan angin secara singkat tanpa menjelaskan dampaknya terhadap keselamatan perahu kecil supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -187089,7 +187089,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa sistem sudah menolak otomatis sehingga pemohon harus mengulang pendaftaran dari awal bulan depan.",
+        "teks": "Menjelaskan bahwa sistem sudah menolak otomatis sehingga pemohon harus mengulang pendaftaran dari awal bulan depan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -187099,7 +187099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh pemohon membaca sendiri pesan kesalahan berwarna merah pada layar akun OSS miliknya.",
+        "teks": "Menyuruh pemohon membaca sendiri pesan kesalahan berwarna merah pada layar akun OSS miliknya agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
@@ -187109,7 +187109,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memberikan catatan kecil berisi nama dokumen yang kurang tanpa membantu proses pengunggahan ulangnya.",
+        "teks": "Memberikan catatan kecil berisi nama dokumen yang kurang tanpa membantu proses pengunggahan ulangnya supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -187139,12 +187139,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memfoto rekan yang sedang bermain ponsel lalu mengirimkannya ke grup pimpinan rumah sakit tanpa melayani pasien.",
+        "teks": "Memfoto rekan yang sedang bermain ponsel lalu mengirimkannya ke grup pimpinan rumah sakit tanpa melayani pasien supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meminta pasien lansia tersebut duduk di bangku belakang sambil menunggu rekan Anda selesai membuka ponselnya.",
+        "teks": "Meminta pasien lansia tersebut duduk di bangku belakang sambil menunggu rekan Anda selesai membuka ponselnya supaya pekerjaan tetap berjalan.",
         "poin": 4
       }
     ],
@@ -187169,17 +187169,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta istri warga binaan tersebut menulis surat permohonan ulang dari awal dan menaruhnya di kotak saran.",
+        "teks": "Meminta istri warga binaan tersebut menulis surat permohonan ulang dari awal dan menaruhnya di kotak saran agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menyampaikan bahwa pemeriksaan rujukan ke rumah sakit luar membutuhkan antrean panjang selama beberapa bulan.",
+        "teks": "Menyampaikan bahwa pemeriksaan rujukan ke rumah sakit luar membutuhkan antrean panjang selama beberapa bulan supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat aduan tersebut di buku tamu untuk diserahkan kepada petugas pembinaan pada rapat minggu depan.",
+        "teks": "Mencatat aduan tersebut di buku tamu untuk diserahkan kepada petugas pembinaan pada rapat minggu depan demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -187194,7 +187194,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak permohonan balik nama tersebut dan menyatakan seluruh ahli waris wajib hadir fisik bersamaan di kantor.",
+        "teks": "Menolak permohonan balik nama tersebut dan menyatakan seluruh ahli waris wajib hadir fisik bersamaan di kantor agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -187209,7 +187209,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pemohon menunda pengurusan balik nama waris sampai seluruh keluarganya pulang mudik tahun depan.",
+        "teks": "Meminta pemohon menunda pengurusan balik nama waris sampai seluruh keluarganya pulang mudik tahun depan supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -187229,7 +187229,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan saksi tersebut berdiri di dekat pintu masuk hingga jaksa pemeriksa keluar memanggilnya.",
+        "teks": "Membiarkan saksi tersebut berdiri di dekat pintu masuk hingga jaksa pemeriksa keluar memanggilnya demi menjaga suasana kerja yang nyaman.",
         "poin": 1
       },
       {
@@ -187249,7 +187249,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat kehadiran saksi pada buku tamu lalu memintanya menunggu tanpa memberi tahu jaksa pemeriksa.",
+        "teks": "Mencatat kehadiran saksi pada buku tamu lalu memintanya menunggu tanpa memberi tahu jaksa pemeriksa agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -187274,17 +187274,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan permohonan tersebut tertahan di sistem antrean sampai pemohon menyadari sendiri kesalahannya.",
+        "teks": "Membiarkan permohonan tersebut tertahan di sistem antrean sampai pemohon menyadari sendiri kesalahannya agar tidak mengganggu target pekerjaan tim.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Meminta pemohon mengirimkan surat keberatan resmi terlebih dahulu sebelum berkasnya dapat ditinjau ulang.",
+        "teks": "Meminta pemohon mengirimkan surat keberatan resmi terlebih dahulu sebelum berkasnya dapat ditinjau ulang supaya persoalan tidak berlarut-larut.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menjelaskan letak kesalahan pemohon melalui telepon tanpa memandu langkah perbaikan cepatnya di sistem.",
+        "teks": "Menjelaskan letak kesalahan pemohon melalui telepon tanpa memandu langkah perbaikan cepatnya di sistem demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -187309,7 +187309,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan warga tersebut menyemprot sendiri sarang tawon menggunakan obat nyamuk pada malam hari.",
+        "teks": "Menyarankan warga tersebut menyemprot sendiri sarang tawon menggunakan obat nyamuk pada malam hari agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 2
       },
       {
@@ -187334,7 +187334,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pemohon pulang dan kembali lagi hanya jika sudah didampingi oleh anggota keluarga yang bisa berbicara.",
+        "teks": "Meminta pemohon pulang dan kembali lagi hanya jika sudah didampingi oleh anggota keluarga yang bisa berbicara supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -187344,7 +187344,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Berbicara dengan suara lebih keras dan cepat sambil menunjuk-nunjuk daftar syarat di kaca loket.",
+        "teks": "Berbicara dengan suara lebih keras dan cepat sambil menunjuk-nunjuk daftar syarat di kaca loket supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -187354,7 +187354,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak pengunjung lain di ruang tunggu untuk ikut menerjemahkan maksud pemohon secara spontan.",
+        "teks": "Mengajak pengunjung lain di ruang tunggu untuk ikut menerjemahkan maksud pemohon secara spontan agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -187369,7 +187369,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung menyerahkan akta cerai asli hanya bermodalkan fotokopi KTP tanpa verifikasi identitas asli.",
+        "teks": "Langsung menyerahkan akta cerai asli hanya bermodalkan fotokopi KTP tanpa verifikasi identitas asli agar tidak mengganggu target pekerjaan tim.",
         "poin": 1
       },
       {
@@ -187379,17 +187379,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh pemohon pulang mengambil KTP asli tanpa menanyakan apakah ia memiliki identitas resmi digital di ponselnya.",
+        "teks": "Menyuruh pemohon pulang mengambil KTP asli tanpa menanyakan apakah ia memiliki identitas resmi digital di ponselnya supaya pekerjaan tetap berjalan.",
         "poin": 4
       },
       {
         "label": "D",
-        "teks": "Menolak melayani dengan nada kesal karena syarat pengambilan dokumen sudah tertulis jelas di papan pengumuman.",
+        "teks": "Menolak melayani dengan nada kesal karena syarat pengambilan dokumen sudah tertulis jelas di papan pengumuman sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Meminta pemohon menitipkan pengambilan akta cerainya kepada calo atau tukang ojek di depan gerbang.",
+        "teks": "Meminta pemohon menitipkan pengambilan akta cerainya kepada calo atau tukang ojek di depan gerbang demi menjaga suasana kerja yang nyaman.",
         "poin": 3
       }
     ],
@@ -187404,7 +187404,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjawab singkat bahwa semua barang kiriman wajib bayar pajak tanpa menjelaskan ketentuan pembebasan resmi.",
+        "teks": "Menjawab singkat bahwa semua barang kiriman wajib bayar pajak tanpa menjelaskan ketentuan pembebasan resmi supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
@@ -187419,12 +187419,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan pemohon mencari penjelasan aturan bea cukai di kolom komentar media sosial.",
+        "teks": "Menyarankan pemohon mencari penjelasan aturan bea cukai di kolom komentar media sosial agar beban kerja di unit Anda tidak semakin bertambah.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memberikan tautan peraturan menteri yang panjang tanpa membantu mengecek status resi barang kirimannya.",
+        "teks": "Memberikan tautan peraturan menteri yang panjang tanpa membantu mengecek status resi barang kirimannya demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -187449,17 +187449,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pengunjung di sebelahnya menolong pemohon tersebut sementara Anda tetap fokus di bilik foto.",
+        "teks": "Meminta pengunjung di sebelahnya menolong pemohon tersebut sementara Anda tetap fokus di bilik foto dengan pertimbangan efisiensi waktu dan tenaga yang tersedia.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menyarankan pemohon tersebut pulang saja dan menjadwalkan ulang foto paspornya minggu depan.",
+        "teks": "Menyarankan pemohon tersebut pulang saja dan menjadwalkan ulang foto paspornya minggu depan agar tidak menimbulkan konflik baru di lingkungan kerja.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Memanggil petugas keamanan lobi untuk menjaga pemohon tanpa memprioritaskan pemeriksaan kesehatannya.",
+        "teks": "Memanggil petugas keamanan lobi untuk menjaga pemohon tanpa memprioritaskan pemeriksaan kesehatannya supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 4
       }
     ],
@@ -187509,7 +187509,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak melayani ibu tersebut dan menyuruhnya membeli paket internet dulu di konter terdekat.",
+        "teks": "Menolak melayani ibu tersebut dan menyuruhnya membeli paket internet dulu di konter terdekat agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -187529,7 +187529,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyediakan kata sandi Wi-Fi kantor lalu menyuruh ibu tersebut mencoba mengisi formulirnya sendiri.",
+        "teks": "Menyediakan kata sandi Wi-Fi kantor lalu menyuruh ibu tersebut mencoba mengisi formulirnya sendiri agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -187544,7 +187544,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup jendela loket sementara dengan alasan gangguan server adalah urusan tim teknologi informasi kampus.",
+        "teks": "Menutup jendela loket sementara dengan alasan gangguan server adalah urusan tim teknologi informasi kampus demi menjaga hubungan baik dengan semua pihak yang terlibat.",
         "poin": 1
       },
       {
@@ -187554,17 +187554,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta mahasiswa terus mencoba menekan tombol simpan di ponsel masing-masing sampai tengah malam.",
+        "teks": "Meminta mahasiswa terus mencoba menekan tombol simpan di ponsel masing-masing sampai tengah malam supaya persoalan tidak berlarut-larut.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menerima keluhan lisan mahasiswa tanpa berkoordinasi dengan pimpinan akademik maupun pengelola server.",
+        "teks": "Menerima keluhan lisan mahasiswa tanpa berkoordinasi dengan pimpinan akademik maupun pengelola server agar tidak mengganggu target pekerjaan tim.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyarankan mahasiswa meminta izin dispensasi keterlambatan secara perorangan ke dosen wali masing-masing.",
+        "teks": "Menyarankan mahasiswa meminta izin dispensasi keterlambatan secara perorangan ke dosen wali masing-masing demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       }
     ],
@@ -187599,7 +187599,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat masalah tersebut dalam laporan survei tanpa mengajukan rancangan perbaikan penanda arah.",
+        "teks": "Mencatat masalah tersebut dalam laporan survei tanpa mengajukan rancangan perbaikan penanda arah supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -187614,7 +187614,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyarankan warga tersebut meminta tetangga di desanya membacakan surat panggilan sebelum berangkat ke pengadilan.",
+        "teks": "Menyarankan warga tersebut meminta tetangga di desanya membacakan surat panggilan sebelum berangkat ke pengadilan karena menurut Anda cara tersebut paling aman untuk saat ini.",
         "poin": 1
       },
       {
@@ -187624,17 +187624,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyebutkan nomor ruang sidang secara singkat sambil menunjuk ke arah lorong belakang gedung pengadilan.",
+        "teks": "Menyebutkan nomor ruang sidang secara singkat sambil menunjuk ke arah lorong belakang gedung pengadilan supaya tidak timbul kesalahpahaman dengan pihak lain.",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Meminta petugas keamanan saja yang membacakan surat tersebut karena Anda sedang memeriksa berkas lain.",
+        "teks": "Meminta petugas keamanan saja yang membacakan surat tersebut karena Anda sedang memeriksa berkas lain sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Melingkari tanggal dan jam sidang dengan pulpen merah pada surat lalu mengembalikannya kepada warga tersebut.",
+        "teks": "Melingkari tanggal dan jam sidang dengan pulpen merah pada surat lalu mengembalikannya kepada warga tersebut supaya persoalan tidak berlarut-larut.",
         "poin": 4
       }
     ],
@@ -187659,7 +187659,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta warga tersebut diam saja supaya tidak menimbulkan masalah berkepanjangan dengan oknum di lapangan.",
+        "teks": "Meminta warga tersebut diam saja supaya tidak menimbulkan masalah berkepanjangan dengan oknum di lapangan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -187694,17 +187694,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta pemohon mengetik sendiri data pribadinya di komputer petugas loket secara bergantian.",
+        "teks": "Meminta pemohon mengetik sendiri data pribadinya di komputer petugas loket secara bergantian demi menjaga suasana kerja yang nyaman.",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Membatasi jumlah nomor antrean harian menjadi setengahnya agar petugas tidak kewalahan mengetik manual.",
+        "teks": "Membatasi jumlah nomor antrean harian menjadi setengahnya agar petugas tidak kewalahan mengetik manual sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menyarankan pemohon membawa fotokopi data yang sudah diketik rapi dari rumah masing-masing.",
+        "teks": "Menyarankan pemohon membawa fotokopi data yang sudah diketik rapi dari rumah masing-masing agar tidak mengganggu target pekerjaan tim.",
         "poin": 4
       }
     ],
@@ -187724,22 +187724,22 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta beliau membaca papan informasi alur perkara terlebih dahulu agar tidak memperlama antrean pemohon lain",
+        "teks": "Meminta beliau membaca papan informasi alur perkara terlebih dahulu agar tidak memperlama antrean pemohon lain dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
         "label": "C",
-        "teks": "Menyebutkan nomor register perkara dan menyarankan beliau meminta bantuan anggota keluarga yang lebih muda untuk mengecek secara daring",
+        "teks": "Menyebutkan nomor register perkara dan menyarankan beliau meminta bantuan anggota keluarga yang lebih muda untuk mengecek secara daring demi menjaga suasana kerja yang nyaman",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Memintanya menunggu hingga jam pelayanan hampir tutup agar Anda memiliki waktu lebih longgar untuk menjelaskan",
+        "teks": "Memintanya menunggu hingga jam pelayanan hampir tutup agar Anda memiliki waktu lebih longgar untuk menjelaskan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Mengecek status perkaranya di sistem, menyampaikannya secara singkat, lalu memanggil nomor antrean berikutnya",
+        "teks": "Mengecek status perkaranya di sistem, menyampaikannya secara singkat, lalu memanggil nomor antrean berikutnya agar tidak menimbulkan konflik baru di lingkungan kerja",
         "poin": 4
       }
     ],
@@ -187754,7 +187754,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung menolak penyerahan barang bukti karena berkas tidak lengkap dan menyuruhnya kembali besok",
+        "teks": "Langsung menolak penyerahan barang bukti karena berkas tidak lengkap dan menyuruhnya kembali besok dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -187769,12 +187769,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya mengurus ulang fotokopi putusan ke Pengadilan Negeri terlebih dahulu baru kembali ke Kejaksaan",
+        "teks": "Memintanya mengurus ulang fotokopi putusan ke Pengadilan Negeri terlebih dahulu baru kembali ke Kejaksaan karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat nomor teleponnya dan berjanji akan menghubunginya jika berkas dari jaksa sudah ditemukan",
+        "teks": "Mencatat nomor teleponnya dan berjanji akan menghubunginya jika berkas dari jaksa sudah ditemukan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -187789,7 +187789,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap memanggil pemohon yang datanya muncul saja sambil menunggu tim IT memperbaiki jaringan tanpa memberi pengumuman",
+        "teks": "Tetap memanggil pemohon yang datanya muncul saja sambil menunggu tim IT memperbaiki jaringan tanpa memberi pengumuman karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -187799,17 +187799,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan seluruh pemohon menjadwalkan ulang kedatangan di hari lain agar ruang tunggu tidak penuh",
+        "teks": "Menyarankan seluruh pemohon menjadwalkan ulang kedatangan di hari lain agar ruang tunggu tidak penuh dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Meminta petugas keamanan menenangkan pemohon dan memastikan loket akan dibuka kembali setelah sistem pulih",
+        "teks": "Meminta petugas keamanan menenangkan pemohon dan memastikan loket akan dibuka kembali setelah sistem pulih dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat nama pemohon secara manual di buku tamu agar mereka merasa didata sambil menunggu sistem normal",
+        "teks": "Mencatat nama pemohon secara manual di buku tamu agar mereka merasa didata sambil menunggu sistem normal sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -187829,7 +187829,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Langsung mengizinkan masuk ke ruang kunjungan tanpa pemeriksaan agar tidak membuang waktu lagi",
+        "teks": "Langsung mengizinkan masuk ke ruang kunjungan tanpa pemeriksaan agar tidak membuang waktu lagi dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -187839,12 +187839,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta ibu tersebut menunggu di luar hingga jadwal kunjungan sesi siang dibuka kembali",
+        "teks": "Meminta ibu tersebut menunggu di luar hingga jadwal kunjungan sesi siang dibuka kembali karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima barang bawaannya saja untuk diperiksa dan dititipkan tanpa perlu menjelaskan opsi komunikasi lain",
+        "teks": "Menerima barang bawaannya saja untuk diperiksa dan dititipkan tanpa perlu menjelaskan opsi komunikasi lain dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -187859,17 +187859,17 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya menonton video tutorial di kanal media sosial dinas agar bisa belajar mengisi sendiri dari rumah",
+        "teks": "Memintanya menonton video tutorial di kanal media sosial dinas agar bisa belajar mengisi sendiri dari rumah dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "B",
-        "teks": "Mengambil alih akun dan seluruh data pribadinya lalu mengisikan semuanya tanpa melibatkan pemohon",
+        "teks": "Mengambil alih akun dan seluruh data pribadinya lalu mengisikan semuanya tanpa melibatkan pemohon karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
         "label": "C",
-        "teks": "Menegurnya dengan halus bahwa pelaku usaha zaman sekarang harus mau belajar teknologi agar tidak tertinggal",
+        "teks": "Menegurnya dengan halus bahwa pelaku usaha zaman sekarang harus mau belajar teknologi agar tidak tertinggal sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -187879,7 +187879,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencetakkan daftar persyaratan tertulis dan menyuruhnya kembali setelah semua berkas siap diunggah",
+        "teks": "Mencetakkan daftar persyaratan tertulis dan menyuruhnya kembali setelah semua berkas siap diunggah demi menjaga hubungan baik dengan semua pihak yang terlibat",
         "poin": 4
       }
     ],
@@ -187894,12 +187894,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memanggil satpam untuk membantu mengambilkan nomor antrean reguler bagi pasien tersebut",
+        "teks": "Memanggil satpam untuk membantu mengambilkan nomor antrean reguler bagi pasien tersebut karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "B",
-        "teks": "Menunggu pasien tersebut mendekat ke loket baru menanyakan keperluannya agar tidak mengganggu antrean lain",
+        "teks": "Menunggu pasien tersebut mendekat ke loket baru menanyakan keperluannya agar tidak mengganggu antrean lain dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -187909,12 +187909,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Langsung mendaftarkannya di loket biasa setelah pasien di depan selesai dilayani",
+        "teks": "Langsung mendaftarkannya di loket biasa setelah pasien di depan selesai dilayani dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Menyarankan pasien agar lain kali datang bersama pendamping supaya lebih mudah mengurus pendaftaran",
+        "teks": "Menyarankan pasien agar lain kali datang bersama pendamping supaya lebih mudah mengurus pendaftaran sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       }
     ],
@@ -187929,12 +187929,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak seluruh permohonan data mahasiswa tersebut karena berkaitan dengan data warga binaan yang bersifat rahasia",
+        "teks": "Menolak seluruh permohonan data mahasiswa tersebut karena berkaitan dengan data warga binaan yang bersifat rahasia sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
         "label": "B",
-        "teks": "Memberikan seluruh data mentah termasuk nama lengkap agar penelitian mahasiswa tersebut akurat",
+        "teks": "Memberikan seluruh data mentah termasuk nama lengkap agar penelitian mahasiswa tersebut akurat dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 1
       },
       {
@@ -187944,12 +187944,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta mahasiswa tersebut mencari sendiri data statistik yang sudah terbit di laman resmi kementerian",
+        "teks": "Meminta mahasiswa tersebut mencari sendiri data statistik yang sudah terbit di laman resmi kementerian agar beban kerja di unit Anda tidak semakin bertambah",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima surat permohonannya dan memintanya menunggu jawaban tertulis dari pimpinan dalam dua minggu ke depan",
+        "teks": "Menerima surat permohonannya dan memintanya menunggu jawaban tertulis dari pimpinan dalam dua minggu ke depan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -187964,7 +187964,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa perubahan PK adalah hal biasa dan meminta mereka menanyakan langsung kepada klien bersangkutan",
+        "teks": "Menyampaikan bahwa perubahan PK adalah hal biasa dan meminta mereka menanyakan langsung kepada klien bersangkutan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -187974,17 +187974,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan mereka datang lagi pada hari kerja berikutnya saat PK yang baru sedang tidak bertugas di lapangan",
+        "teks": "Menyarankan mereka datang lagi pada hari kerja berikutnya saat PK yang baru sedang tidak bertugas di lapangan karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Mencatat keluhannya di buku pengaduan tanpa memberikan kepastian kapan mereka akan dihubungi kembali",
+        "teks": "Mencatat keluhannya di buku pengaduan tanpa memberikan kepastian kapan mereka akan dihubungi kembali demi menjaga hubungan baik dengan semua pihak yang terlibat",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Memberikan nomor kontak kantor Bapas agar mereka bisa menelepon sebelum datang untuk wajib lapor",
+        "teks": "Memberikan nomor kontak kantor Bapas agar mereka bisa menelepon sebelum datang untuk wajib lapor sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -187999,12 +187999,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas dengan nada tegas bahwa keterlambatan blangko bukan kesalahan petugas daerah melainkan pemerintah pusat",
+        "teks": "Membalas dengan nada tegas bahwa keterlambatan blangko bukan kesalahan petugas daerah melainkan pemerintah pusat karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "B",
-        "teks": "Memintanya bersabar dan rutin mengecek pengumuman ketersediaan blangko di media sosial dinas",
+        "teks": "Memintanya bersabar dan rutin mengecek pengumuman ketersediaan blangko di media sosial dinas dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
@@ -188019,7 +188019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyarankannya meminta surat keterangan dari kelurahan setempat sebagai pengganti sementara",
+        "teks": "Menyarankannya meminta surat keterangan dari kelurahan setempat sebagai pengganti sementara dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       }
     ],
@@ -188039,22 +188039,22 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengembalikan berkasnya dan menyarankan untuk menyewa pengacara profesional agar tidak salah lagi",
+        "teks": "Mengembalikan berkasnya dan menyarankan untuk menyewa pengacara profesional agar tidak salah lagi dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
         "label": "C",
-        "teks": "Memintanya membaca contoh surat gugatan yang tertempel di papan pengumuman lalu mengetiknya ulang",
+        "teks": "Memintanya membaca contoh surat gugatan yang tertempel di papan pengumuman lalu mengetiknya ulang dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menolak pendaftaran dan menyuruhnya kembali setelah semua syarat yang tercantum di brosur terpenuhi",
+        "teks": "Menolak pendaftaran dan menyuruhnya kembali setelah semua syarat yang tercantum di brosur terpenuhi karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Menandai bagian berkas yang kurang dengan stabilo agar lebih mudah ia perbaiki di rumah",
+        "teks": "Menandai bagian berkas yang kurang dengan stabilo agar lebih mudah ia perbaiki di rumah sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -188069,7 +188069,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyarankannya mengirim laporan secara anonim melalui pos agar tidak perlu berhadapan langsung dengan petugas",
+        "teks": "Menyarankannya mengirim laporan secara anonim melalui pos agar tidak perlu berhadapan langsung dengan petugas sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -188079,17 +188079,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyakinkannya secara lisan bahwa semua petugas di kantor dapat dipercaya tanpa menjelaskan prosedur perlindungannya",
+        "teks": "Menyakinkannya secara lisan bahwa semua petugas di kantor dapat dipercaya tanpa menjelaskan prosedur perlindungannya agar tidak menimbulkan konflik baru di lingkungan kerja",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Memintanya melapor ke kepolisian terdekat terlebih dahulu jika merasa terancam secara fisik",
+        "teks": "Memintanya melapor ke kepolisian terdekat terlebih dahulu jika merasa terancam secara fisik dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Menerima berkasnya di loket umum dan menjanjikan bahwa berkas tersebut hanya akan dibaca oleh kepala seksi",
+        "teks": "Menerima berkasnya di loket umum dan menjanjikan bahwa berkas tersebut hanya akan dibaca oleh kepala seksi dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -188114,17 +188114,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memintanya mengunggah sendiri dari rumah dan datang kembali jika mengalami kendala pembayaran",
+        "teks": "Memintanya mengunggah sendiri dari rumah dan datang kembali jika mengalami kendala pembayaran karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menjelaskan bahwa pendaftaran hak cipta bersifat opsional sehingga tidak perlu terburu-buru jika belum mampu",
+        "teks": "Menjelaskan bahwa pendaftaran hak cipta bersifat opsional sehingga tidak perlu terburu-buru jika belum mampu dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Mencatat kontak perajin tersebut untuk diundang pada kegiatan sosialisasi HKI bulan depan",
+        "teks": "Mencatat kontak perajin tersebut untuk diundang pada kegiatan sosialisasi HKI bulan depan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -188144,12 +188144,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengatakan bahwa faktor alam berada di luar kendali kantor sehingga pemohon harus memakluminya",
+        "teks": "Mengatakan bahwa faktor alam berada di luar kendali kantor sehingga pemohon harus memakluminya dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
         "label": "C",
-        "teks": "Meminta pemohon menunggu kabar via telepon dari petugas ukur tanpa kepastian hari",
+        "teks": "Meminta pemohon menunggu kabar via telepon dari petugas ukur tanpa kepastian hari dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
@@ -188159,7 +188159,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat keluhan pemohon dan berjanji akan meneruskannya kepada kepala seksi pengukuran",
+        "teks": "Mencatat keluhan pemohon dan berjanji akan meneruskannya kepada kepala seksi pengukuran karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -188174,7 +188174,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan keluhannya karena semua wajib pajak juga mengalami hal yang sama menjelang tenggat waktu",
+        "teks": "Mengabaikan keluhannya karena semua wajib pajak juga mengalami hal yang sama menjelang tenggat waktu dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 1
       },
       {
@@ -188184,17 +188184,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memintanya datang kembali pagi-pagi sekali besok agar mendapat nomor antrean paling awal",
+        "teks": "Memintanya datang kembali pagi-pagi sekali besok agar mendapat nomor antrean paling awal dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Menyarankannya menggunakan jasa konsultan pajak di luar kantor jika tidak sabar menunggu",
+        "teks": "Menyarankannya menggunakan jasa konsultan pajak di luar kantor jika tidak sabar menunggu karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memastikan kepada seluruh pengunjung bahwa petugas loket sedang bekerja maksimal tanpa henti",
+        "teks": "Memastikan kepada seluruh pengunjung bahwa petugas loket sedang bekerja maksimal tanpa henti karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -188209,12 +188209,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta mahasiswa tersebut menunggu rekan kerja Anda masuk kembali minggu depan untuk mencarinya",
+        "teks": "Meminta mahasiswa tersebut menunggu rekan kerja Anda masuk kembali minggu depan untuk mencarinya dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "B",
-        "teks": "Menjelaskan bahwa mahasiswa itu sendiri yang kurang proaktif memantau status berkasnya jauh hari",
+        "teks": "Menjelaskan bahwa mahasiswa itu sendiri yang kurang proaktif memantau status berkasnya jauh hari dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -188224,12 +188224,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta mahasiswa mengulang pengumpulan salinan berkas dari awal untuk diproses pada gelombang wisuda berikutnya",
+        "teks": "Meminta mahasiswa mengulang pengumpulan salinan berkas dari awal untuk diproses pada gelombang wisuda berikutnya karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencoba mencari sekilas di meja rekan Anda dan berjanji memberi kabar jika berkasnya ditemukan",
+        "teks": "Mencoba mencari sekilas di meja rekan Anda dan berjanji memberi kabar jika berkasnya ditemukan karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -188244,12 +188244,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya datang kembali bersama penerjemah atau sponsor perusahaannya",
+        "teks": "Memintanya datang kembali bersama penerjemah atau sponsor perusahaannya karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "B",
-        "teks": "Menunjuk bagian kolom formulir yang kosong dengan jari tanpa berbicara agar cepat dimengerti",
+        "teks": "Menunjuk bagian kolom formulir yang kosong dengan jari tanpa berbicara agar cepat dimengerti sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -188259,12 +188259,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengisi seluruh formulirnya sendiri berdasarkan paspor agar tidak menghambat antrean pemohon lain",
+        "teks": "Mengisi seluruh formulirnya sendiri berdasarkan paspor agar tidak menghambat antrean pemohon lain dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Menyarankannya belajar bahasa Indonesia dasar terlebih dahulu sebelum mengurus dokumen keimigrasian",
+        "teks": "Menyarankannya belajar bahasa Indonesia dasar terlebih dahulu sebelum mengurus dokumen keimigrasian dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       }
     ],
@@ -188279,7 +188279,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap memanggil namanya dengan pengeras suara keras-keras agar cepat selesai dan bisa pulang",
+        "teks": "Tetap memanggil namanya dengan pengeras suara keras-keras agar cepat selesai dan bisa pulang sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -188294,12 +188294,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya datang lagi besok pagi saat ruang tunggu masih sepi pengunjung",
+        "teks": "Memintanya datang lagi besok pagi saat ruang tunggu masih sepi pengunjung karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Mempercepat pencetakan akta cerai tanpa berbicara banyak dengannya agar ia cepat keluar ruangan",
+        "teks": "Mempercepat pencetakan akta cerai tanpa berbicara banyak dengannya agar ia cepat keluar ruangan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -188314,7 +188314,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup loket tepat waktu pukul 11.30 sesuai jam istirahat tanpa menghiraukan warga yang sudah mengantre",
+        "teks": "Menutup loket tepat waktu pukul 11.30 sesuai jam istirahat tanpa menghiraukan warga yang sudah mengantre karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -188329,12 +188329,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menerima uang tunai denda tilang dari warga agar dapat Anda setorkan sendiri ke bank pada sore hari",
+        "teks": "Menerima uang tunai denda tilang dari warga agar dapat Anda setorkan sendiri ke bank pada sore hari dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Melayani semampunya hingga jam istirahat tiba, lalu meminta sisanya datang kembali pada hari Senin",
+        "teks": "Melayani semampunya hingga jam istirahat tiba, lalu meminta sisanya datang kembali pada hari Senin dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188349,7 +188349,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung memproses berkasnya lebih dulu demi menjaga hubungan baik dengan notaris senior tersebut",
+        "teks": "Langsung memproses berkasnya lebih dulu demi menjaga hubungan baik dengan notaris senior tersebut sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -188364,12 +188364,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta izin terlebih dahulu kepada pimpinan apakah notaris tersebut boleh diberi jalur khusus",
+        "teks": "Meminta izin terlebih dahulu kepada pimpinan apakah notaris tersebut boleh diberi jalur khusus karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima berkasnya di meja Anda terlebih dahulu namun baru memprosesnya setelah antrean lain selesai",
+        "teks": "Menerima berkasnya di meja Anda terlebih dahulu namun baru memprosesnya setelah antrean lain selesai dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -188384,7 +188384,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa poli umum sudah tutup dan menyarankan mereka langsung menuju rumah sakit kabupaten",
+        "teks": "Menjelaskan bahwa poli umum sudah tutup dan menyarankan mereka langsung menuju rumah sakit kabupaten dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -188394,12 +188394,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta orang tua anak tersebut mengurus kartu BPJS dan surat rujukan terlebih dahulu di bagian administrasi",
+        "teks": "Meminta orang tua anak tersebut mengurus kartu BPJS dan surat rujukan terlebih dahulu di bagian administrasi agar beban kerja di unit Anda tidak semakin bertambah",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Menyarankan mereka membeli perban di apotek terdekat jika lukanya terlihat tidak terlalu dalam",
+        "teks": "Menyarankan mereka membeli perban di apotek terdekat jika lukanya terlihat tidak terlalu dalam dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
@@ -188419,12 +188419,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa data penerima bantuan ditentukan oleh kementerian pusat sehingga daerah tidak bisa berbuat apa-apa",
+        "teks": "Menyampaikan bahwa data penerima bantuan ditentukan oleh kementerian pusat sehingga daerah tidak bisa berbuat apa-apa dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
         "label": "B",
-        "teks": "Memintanya meminta surat keterangan tidak mampu dari RT/RW lalu kembali minggu depan",
+        "teks": "Memintanya meminta surat keterangan tidak mampu dari RT/RW lalu kembali minggu depan karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
@@ -188439,7 +188439,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat nama dan alamatnya di buku keluhan untuk disampaikan saat rapat evaluasi bulanan dinas",
+        "teks": "Mencatat nama dan alamatnya di buku keluhan untuk disampaikan saat rapat evaluasi bulanan dinas dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188454,12 +188454,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengumumkan agar sebagian wajib pajak pulang saja dan membayar di kantor induk kabupaten",
+        "teks": "Mengumumkan agar sebagian wajib pajak pulang saja dan membayar di kantor induk kabupaten dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
         "label": "B",
-        "teks": "Tetap bekerja seperti biasa tanpa berkomentar karena jumlah perangkat memang terbatas dari kantor",
+        "teks": "Tetap bekerja seperti biasa tanpa berkomentar karena jumlah perangkat memang terbatas dari kantor dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
@@ -188469,7 +188469,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menutup penerimaan berkas lebih awal dari jadwal agar tidak ada antrean yang tersisa di sore hari",
+        "teks": "Menutup penerimaan berkas lebih awal dari jadwal agar tidak ada antrean yang tersisa di sore hari sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -188489,12 +188489,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus komentar tersebut agar citra lembaga peradilan tidak rusak di mata publik",
+        "teks": "Menghapus komentar tersebut agar citra lembaga peradilan tidak rusak di mata publik dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "B",
-        "teks": "Membalas komentar dengan defensif bahwa pengadilan menangani ribuan perkara setiap tahun",
+        "teks": "Membalas komentar dengan defensif bahwa pengadilan menangani ribuan perkara setiap tahun karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -188504,7 +188504,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan komentar tersebut karena media sosial hanya bersifat informasi satu arah",
+        "teks": "Membiarkan komentar tersebut karena media sosial hanya bersifat informasi satu arah dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
@@ -188529,7 +188529,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan pengacara langsung menuju sel tahanan tanpa pendampingan demi menghormati profesinya",
+        "teks": "Membiarkan pengacara langsung menuju sel tahanan tanpa pendampingan demi menghormati profesinya dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -188539,12 +188539,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan pengacara tersebut bertemu kliennya langsung di ruang tunggu pengadilan besok pagi saja",
+        "teks": "Menyarankan pengacara tersebut bertemu kliennya langsung di ruang tunggu pengadilan besok pagi saja karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Meminta pengacara menitipkan catatan tertulis melalui petugas jaga agar disampaikan kepada tahanan",
+        "teks": "Meminta pengacara menitipkan catatan tertulis melalui petugas jaga agar disampaikan kepada tahanan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188559,7 +188559,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa urusan ganti rugi perdata bukan tanggung jawab jaksa dan memintanya mencari pengacara",
+        "teks": "Menyampaikan bahwa urusan ganti rugi perdata bukan tanggung jawab jaksa dan memintanya mencari pengacara dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -188569,12 +188569,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memintanya menanyakan langsung ke Pengadilan Negeri yang menjatuhkan putusan pidana tersebut",
+        "teks": "Memintanya menanyakan langsung ke Pengadilan Negeri yang menjatuhkan putusan pidana tersebut karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Menyuruhnya menunggu surat panggilan resmi di rumah tanpa memberi nomor kontak layanan informasi",
+        "teks": "Menyuruhnya menunggu surat panggilan resmi di rumah tanpa memberi nomor kontak layanan informasi dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -188604,17 +188604,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengizinkannya menyisipkan kendaraan ke jalur pemeriksaan hari ini secara diam-diam asalkan membayar biaya tambahan",
+        "teks": "Mengizinkannya menyisipkan kendaraan ke jalur pemeriksaan hari ini secara diam-diam asalkan membayar biaya tambahan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Menjelaskan bahwa keterbatasan kuota harian ditetapkan untuk menjaga kualitas pengujian",
+        "teks": "Menjelaskan bahwa keterbatasan kuota harian ditetapkan untuk menjaga kualitas pengujian karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
         "label": "E",
-        "teks": "Mencatat nomor polisi kendaraannya sebagai daftar tunggu jika ada pendaftar hari ini yang batal hadir",
+        "teks": "Mencatat nomor polisi kendaraannya sebagai daftar tunggu jika ada pendaftar hari ini yang batal hadir dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188634,7 +188634,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyampaikan bahwa perusahaan memang memiliki hak efisiensi sehingga ia harus menerimanya",
+        "teks": "Menyampaikan bahwa perusahaan memang memiliki hak efisiensi sehingga ia harus menerimanya dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -188644,12 +188644,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Langsung mengarahkannya ke Pengadilan Hubungan Industrial tanpa melakukan pencatatan mediasi di dinas",
+        "teks": "Langsung mengarahkannya ke Pengadilan Hubungan Industrial tanpa melakukan pencatatan mediasi di dinas karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima berkasnya untuk diarsipkan dan menjanjikan akan memanggil pihak perusahaan dalam waktu dekat",
+        "teks": "Menerima berkasnya untuk diarsipkan dan menjanjikan akan memanggil pihak perusahaan dalam waktu dekat dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188664,7 +188664,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak memberikan bantuan kepada warga yang belum terdata agar tidak menyalahi laporan pertanggungjawaban",
+        "teks": "Menolak memberikan bantuan kepada warga yang belum terdata agar tidak menyalahi laporan pertanggungjawaban dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -188679,12 +188679,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta warga pulang mengurus surat pengantar kepala desa terlebih dahulu baru kembali ke kantor BPBD",
+        "teks": "Meminta warga pulang mengurus surat pengantar kepala desa terlebih dahulu baru kembali ke kantor BPBD dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menampung mereka di halaman kantor sambil menunggu tim verifikasi pulang dari lokasi bencana sore hari",
+        "teks": "Menampung mereka di halaman kantor sambil menunggu tim verifikasi pulang dari lokasi bencana sore hari karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -188699,7 +188699,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung mengemasi peralatan dan membatalkan sisa antrean pemohon untuk hari itu",
+        "teks": "Langsung mengemasi peralatan dan membatalkan sisa antrean pemohon untuk hari itu karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
@@ -188709,7 +188709,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Duduk menunggu di ruang tunggu sambil menyuruh pemohon bubar sementara sampai listrik menyala",
+        "teks": "Duduk menunggu di ruang tunggu sambil menyuruh pemohon bubar sementara sampai listrik menyala dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -188719,7 +188719,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Berkoordinasi dengan panitia perusahaan mengenai genset tanpa menyiapkan aktivitas verifikasi berkas",
+        "teks": "Berkoordinasi dengan panitia perusahaan mengenai genset tanpa menyiapkan aktivitas verifikasi berkas karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -188734,7 +188734,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa ruang tunggu pengadilan terbuka untuk umum sehingga ia harus berani menghadapinya",
+        "teks": "Menyampaikan bahwa ruang tunggu pengadilan terbuka untuk umum sehingga ia harus berani menghadapinya sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -188744,17 +188744,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankannya menunggu di kantin luar gedung pengadilan sampai namanya dipanggil melalui pengeras suara",
+        "teks": "Menyarankannya menunggu di kantin luar gedung pengadilan sampai namanya dipanggil melalui pengeras suara agar beban kerja di unit Anda tidak semakin bertambah",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Memintanya langsung melapor ke jaksa penuntut umum tanpa memberi petunjuk lokasi ruangannya",
+        "teks": "Memintanya langsung melapor ke jaksa penuntut umum tanpa memberi petunjuk lokasi ruangannya supaya tidak timbul kesalahpahaman dengan pihak lain",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Mengizinkannya duduk di dekat meja petugas PTSP selama menunggu persidangan dimulai",
+        "teks": "Mengizinkannya duduk di dekat meja petugas PTSP selama menunggu persidangan dimulai dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188769,7 +188769,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak menerbitkan surat keterangan sebelum kartu keluarga yang baru selesai dicetak",
+        "teks": "Menolak menerbitkan surat keterangan sebelum kartu keluarga yang baru selesai dicetak karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -188784,12 +188784,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyuruh wali murid meminta surat pengantar dari wali kelas terlebih dahulu meskipun data siswa ada di tata usaha",
+        "teks": "Menyuruh wali murid meminta surat pengantar dari wali kelas terlebih dahulu meskipun data siswa ada di tata usaha dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Menjelaskan bahwa sekolah tidak bertanggung jawab jika tenggat waktu pendaftaran beasiswa terlewat",
+        "teks": "Menjelaskan bahwa sekolah tidak bertanggung jawab jika tenggat waktu pendaftaran beasiswa terlewat dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 1
       }
     ],
@@ -188804,12 +188804,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjawab singkat bahwa pesan itu pasti palsu lalu segera menutup telepon agar antrean panggilan lain masuk",
+        "teks": "Menjawab singkat bahwa pesan itu pasti palsu lalu segera menutup telepon agar antrean panggilan lain masuk dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
         "label": "B",
-        "teks": "Memintanya langsung melapor ke kantor polisi terdekat karena kejaksaan tidak mengurus penipuan daring",
+        "teks": "Memintanya langsung melapor ke kantor polisi terdekat karena kejaksaan tidak mengurus penipuan daring dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
@@ -188824,7 +188824,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyarankannya memblokir nomor tersebut dan mengabaikan pesan yang masuk",
+        "teks": "Menyarankannya memblokir nomor tersebut dan mengabaikan pesan yang masuk karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 4
       }
     ],
@@ -188839,7 +188839,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa penghapusan fidusia hanya bisa dilakukan oleh perusahaan pembiayaan sehingga kantor tidak dapat membantu",
+        "teks": "Menyampaikan bahwa penghapusan fidusia hanya bisa dilakukan oleh perusahaan pembiayaan sehingga kantor tidak dapat membantu dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -188854,12 +188854,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankannya menghubungi pengadilan negeri untuk menggugat perusahaan pembiayaan yang sudah tutup",
+        "teks": "Menyarankannya menghubungi pengadilan negeri untuk menggugat perusahaan pembiayaan yang sudah tutup karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Mencatat keluhannya untuk ditanyakan terlebih dahulu kepada tim teknis Direktorat Jenderal AHU di pusat",
+        "teks": "Mencatat keluhannya untuk ditanyakan terlebih dahulu kepada tim teknis Direktorat Jenderal AHU di pusat dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -188874,7 +188874,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkannya karena ia sendiri yang memilih duduk di sudut ruang tunggu",
+        "teks": "Membiarkannya karena ia sendiri yang memilih duduk di sudut ruang tunggu dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -188884,17 +188884,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Meminta petugas kebersihan memasang penunjuk arah ruang laktasi baru setelah jam pelayanan usai",
+        "teks": "Meminta petugas kebersihan memasang penunjuk arah ruang laktasi baru setelah jam pelayanan usai demi menjaga hubungan baik dengan semua pihak yang terlibat",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Mengumumkan lewat pengeras suara bahwa kantor menyediakan ruang laktasi bagi ibu menyusui",
+        "teks": "Mengumumkan lewat pengeras suara bahwa kantor menyediakan ruang laktasi bagi ibu menyusui karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Menegur pengunjung pria di sekitar kursi tersebut agar tidak melihat ke arah ibu itu",
+        "teks": "Menegur pengunjung pria di sekitar kursi tersebut agar tidak melihat ke arah ibu itu dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       }
     ],
@@ -188909,7 +188909,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya mengulang besok pagi karena jam layanan loket sudah hampir selesai",
+        "teks": "Memintanya mengulang besok pagi karena jam layanan loket sudah hampir selesai dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -188924,12 +188924,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankannya membaca buku panduan e-Court yang dapat diunduh pada situs web Mahkamah Agung",
+        "teks": "Menyarankannya membaca buku panduan e-Court yang dapat diunduh pada situs web Mahkamah Agung karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima salinan berkas cetaknya saja untuk didaftarkan secara manual meski melanggar kebijakan e-Court",
+        "teks": "Menerima salinan berkas cetaknya saja untuk didaftarkan secara manual meski melanggar kebijakan e-Court dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -188944,7 +188944,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa pengelola di lapangan mungkin sudah menaikkan harga tanpa melapor ke dinas",
+        "teks": "Menjelaskan bahwa pengelola di lapangan mungkin sudah menaikkan harga tanpa melapor ke dinas karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -188954,17 +188954,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan wisatawan tersebut memakluminya karena selisih harganya tidak terlalu besar bagi turis asing",
+        "teks": "Menyarankan wisatawan tersebut memakluminya karena selisih harganya tidak terlalu besar bagi turis asing dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Mencatat keluhan mereka di buku tamu agar menjadi bahan rapat evaluasi akhir tahun",
+        "teks": "Mencatat keluhan mereka di buku tamu agar menjadi bahan rapat evaluasi akhir tahun dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memberikan brosur terbaru yang tarifnya sudah disesuaikan sambil mengucapkan terima kasih atas masukannya",
+        "teks": "Memberikan brosur terbaru yang tarifnya sudah disesuaikan sambil mengucapkan terima kasih atas masukannya karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -188979,12 +188979,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya kembali sendiri mencari paspor ke ruang tunggu dan mengantre ulang dari belakang",
+        "teks": "Memintanya kembali sendiri mencari paspor ke ruang tunggu dan mengantre ulang dari belakang karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
         "label": "B",
-        "teks": "Mengizinkannya lewat pemeriksaan imigrasi menggunakan foto paspor di ponselnya demi mengejar pesawat",
+        "teks": "Mengizinkannya lewat pemeriksaan imigrasi menggunakan foto paspor di ponselnya demi mengejar pesawat dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -188999,7 +188999,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Memintanya menunggu di samping konter sambil menanyakan ciri-ciri tas tempat paspor disimpan",
+        "teks": "Memintanya menunggu di samping konter sambil menanyakan ciri-ciri tas tempat paspor disimpan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189014,7 +189014,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa dinas hanya melakukan tera ulang setahun sekali sehingga warga diminta berhati-hati sendiri saat membeli",
+        "teks": "Menyampaikan bahwa dinas hanya melakukan tera ulang setahun sekali sehingga warga diminta berhati-hati sendiri saat membeli dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -189029,12 +189029,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pelapor membawa bukti video pengukuran ulang terlebih dahulu sebagai syarat laporan",
+        "teks": "Meminta pelapor membawa bukti video pengukuran ulang terlebih dahulu sebagai syarat laporan karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Menerima laporannya dan berjanji akan meneruskannya kepada kepala pasar untuk diperiksa",
+        "teks": "Menerima laporannya dan berjanji akan meneruskannya kepada kepala pasar untuk diperiksa dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 4
       }
     ],
@@ -189049,12 +189049,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung memberikan salinan berkas dakwaan tersebut agar berita di media massa cepat terbit dan transparan",
+        "teks": "Langsung memberikan salinan berkas dakwaan tersebut agar berita di media massa cepat terbit dan transparan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "B",
-        "teks": "Menolak secara kasar dan melarang wartawan memasuki area pelayanan publik kejaksaan",
+        "teks": "Menolak secara kasar dan melarang wartawan memasuki area pelayanan publik kejaksaan karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -189064,7 +189064,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta wartawan mencari sendiri informasi perkara tersebut melalui laman Sistem Informasi Penelusuran Perkara (SIPP) pengadilan",
+        "teks": "Meminta wartawan mencari sendiri informasi perkara tersebut melalui laman Sistem Informasi Penelusuran Perkara (SIPP) pengadilan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
@@ -189084,7 +189084,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Berbicara dengan suara sangat keras di depan wajahnya agar gerak bibir Anda mudah terbaca",
+        "teks": "Berbicara dengan suara sangat keras di depan wajahnya agar gerak bibir Anda mudah terbaca sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -189094,12 +189094,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memintanya pulang terlebih dahulu dan datang kembali besok bersama anggota keluarga yang bisa mendengar",
+        "teks": "Memintanya pulang terlebih dahulu dan datang kembali besok bersama anggota keluarga yang bisa mendengar demi menjaga hubungan baik dengan semua pihak yang terlibat",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Memberinya formulir kertas dan memintanya mengisi sendiri seluruh kolom tanpa banyak berinteraksi",
+        "teks": "Memberinya formulir kertas dan memintanya mengisi sendiri seluruh kolom tanpa banyak berinteraksi dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
@@ -189119,7 +189119,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyampaikan bahwa seluruh ahli waris wajib hadir fisik secara bersamaan agar permohonan dapat diproses",
+        "teks": "Menyampaikan bahwa seluruh ahli waris wajib hadir fisik secara bersamaan agar permohonan dapat diproses dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -189129,7 +189129,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankannya berkonsultasi dengan notaris swasta terlebih dahulu karena kasusnya cukup rumit",
+        "teks": "Menyarankannya berkonsultasi dengan notaris swasta terlebih dahulu karena kasusnya cukup rumit sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -189139,7 +189139,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima berkas yang ada sekarang saja dan menjanjikan akan mencarikan solusinya di rapat tim nanti",
+        "teks": "Menerima berkas yang ada sekarang saja dan menjanjikan akan mencarikan solusinya di rapat tim nanti karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 4
       }
     ],
@@ -189164,17 +189164,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh pasien menunda jadwal kontrol dokternya sampai bulan depan menunggu status aktif kembali",
+        "teks": "Menyuruh pasien menunda jadwal kontrol dokternya sampai bulan depan menunggu status aktif kembali karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Mengarahkan pasien datang sendiri ke kantor cabang BPJS di pusat kota untuk menanyakan masalahnya",
+        "teks": "Mengarahkan pasien datang sendiri ke kantor cabang BPJS di pusat kota untuk menanyakan masalahnya dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat nama pasien di buku laporan kendala harian untuk disampaikan kepada pihak manajemen",
+        "teks": "Mencatat nama pasien di buku laporan kendala harian untuk disampaikan kepada pihak manajemen dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189189,7 +189189,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menganggap hal itu di luar tanggung jawab kantor karena kejadiannya berada di luar pagar gedung",
+        "teks": "Menganggap hal itu di luar tanggung jawab kantor karena kejadiannya berada di luar pagar gedung dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -189204,12 +189204,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta pemohon memotret wajah oknum calo tersebut sebagai syarat agar keluhannya bisa diproses",
+        "teks": "Meminta pemohon memotret wajah oknum calo tersebut sebagai syarat agar keluhannya bisa diproses dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Mencatat ciri-ciri calo tersebut di meja informasi dan meminta satpam berpatroli di gerbang depan",
+        "teks": "Mencatat ciri-ciri calo tersebut di meja informasi dan meminta satpam berpatroli di gerbang depan karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 4
       }
     ],
@@ -189229,12 +189229,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyebutkan tarif resmi sambil menyarankan mereka menyiapkan uang transportasi sukarela untuk penghulu",
+        "teks": "Menyebutkan tarif resmi sambil menyarankan mereka menyiapkan uang transportasi sukarela untuk penghulu karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "C",
-        "teks": "Meminta mereka membaca sendiri papan tarif yang tertempel di dinding ruang tunggu KUA",
+        "teks": "Meminta mereka membaca sendiri papan tarif yang tertempel di dinding ruang tunggu KUA dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
@@ -189244,7 +189244,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencetakkan kode billing pembayaran setelah berkas pendaftaran mereka selesai diperiksa tanpa penjelasan rinci",
+        "teks": "Mencetakkan kode billing pembayaran setelah berkas pendaftaran mereka selesai diperiksa tanpa penjelasan rinci dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189264,12 +189264,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menghubungi dokter senior tersebut untuk meminta persetujuan mendahulukan antrean temannya",
+        "teks": "Menghubungi dokter senior tersebut untuk meminta persetujuan mendahulukan antrean temannya karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
         "label": "C",
-        "teks": "Langsung mendahulukan sampelnya agar tidak mendapat teguran dari dokter senior di kemudian hari",
+        "teks": "Langsung mendahulukan sampelnya agar tidak mendapat teguran dari dokter senior di kemudian hari dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -189279,7 +189279,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menerima permintaannya namun tetap memprosesnya sesuai urutan normal tanpa memberi tahu pemohon",
+        "teks": "Menerima permintaannya namun tetap memprosesnya sesuai urutan normal tanpa memberi tahu pemohon dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189294,7 +189294,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak laporannya mentah-mentah dan menyuruhnya pergi sendiri ke Dinas Pekerjaan Umum",
+        "teks": "Menolak laporannya mentah-mentah dan menyuruhnya pergi sendiri ke Dinas Pekerjaan Umum karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -189309,12 +189309,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengatakan bahwa anggaran perbaikan jalan daerah tahun ini memang sedang diprioritaskan untuk wilayah lain",
+        "teks": "Mengatakan bahwa anggaran perbaikan jalan daerah tahun ini memang sedang diprioritaskan untuk wilayah lain dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Mencatat keluhannya di buku tamu sebagai arsip tanpa menjelaskan instansi mana yang berwenang",
+        "teks": "Mencatat keluhannya di buku tamu sebagai arsip tanpa menjelaskan instansi mana yang berwenang dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189329,12 +189329,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa pemohon seharusnya lebih teliti saat proses wawancara verifikasi data sebelumnya",
+        "teks": "Menjelaskan bahwa pemohon seharusnya lebih teliti saat proses wawancara verifikasi data sebelumnya karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "B",
-        "teks": "Meminta pemohon mendaftar antrean baru dan membayar ulang biaya paspor untuk penggantian buku",
+        "teks": "Meminta pemohon mendaftar antrean baru dan membayar ulang biaya paspor untuk penggantian buku dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -189344,7 +189344,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan pemohon tetap menggunakan paspor tersebut karena kesalahan satu huruf biasanya ditoleransi",
+        "teks": "Menyarankan pemohon tetap menggunakan paspor tersebut karena kesalahan satu huruf biasanya ditoleransi dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
@@ -189364,7 +189364,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjelaskan bahwa penunjukan pengacara sepenuhnya merupakan urusan pribadi keluarga tersangka",
+        "teks": "Menjelaskan bahwa penunjukan pengacara sepenuhnya merupakan urusan pribadi keluarga tersangka karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
@@ -189379,12 +189379,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya menunggu hingga berkas dilimpahkan ke pengadilan nanti baru mengajukan keberatan kepada hakim",
+        "teks": "Memintanya menunggu hingga berkas dilimpahkan ke pengadilan nanti baru mengajukan keberatan kepada hakim dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Mencatat nomor perkara anaknya dan berjanji menanyakan kepada jaksa apakah perkara tersebut wajib didampingi pengacara",
+        "teks": "Mencatat nomor perkara anaknya dan berjanji menanyakan kepada jaksa apakah perkara tersebut wajib didampingi pengacara dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189399,7 +189399,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak laporan karena tidak disertai hasil uji laboratorium dari sampel air sumur warga",
+        "teks": "Menolak laporan karena tidak disertai hasil uji laboratorium dari sampel air sumur warga dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -189409,7 +189409,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyuruh warga mengambil sendiri air sumur dalam botol bekas air mineral lalu mengantarkannya besok",
+        "teks": "Menyuruh warga mengambil sendiri air sumur dalam botol bekas air mineral lalu mengantarkannya besok karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
@@ -189419,7 +189419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat pengaduan warga dan berjanji akan mengirim surat teguran kepada pihak pabrik minggu depan",
+        "teks": "Mencatat pengaduan warga dan berjanji akan mengirim surat teguran kepada pihak pabrik minggu depan dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189434,7 +189434,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatalkan pertemuan hari itu dan memintanya menjadwalkan ulang bulan depan sesuai antrean baru",
+        "teks": "Membatalkan pertemuan hari itu dan memintanya menjadwalkan ulang bulan depan sesuai antrean baru karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 2
       },
       {
@@ -189444,17 +189444,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menggeser jadwal instansi lain yang sudah datang tepat waktu agar pejabat DPRD tersebut tetap dilayani penuh",
+        "teks": "Menggeser jadwal instansi lain yang sudah datang tepat waktu agar pejabat DPRD tersebut tetap dilayani penuh dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Memintanya meninggalkan naskah draf perda saja di meja resepsionis untuk dibaca tim perancang secara mandiri",
+        "teks": "Memintanya meninggalkan naskah draf perda saja di meja resepsionis untuk dibaca tim perancang secara mandiri dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Tetap melayaninya sebentar sambil menegurnya agar lebih disiplin waktu pada pertemuan berikutnya",
+        "teks": "Tetap melayaninya sebentar sambil menegurnya agar lebih disiplin waktu pada pertemuan berikutnya sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -189469,7 +189469,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Fokus saja memanggil nomor antrean loket karena perbaikan AC adalah tugas bagian umum",
+        "teks": "Fokus saja memanggil nomor antrean loket karena perbaikan AC adalah tugas bagian umum dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 2
       },
       {
@@ -189479,17 +189479,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan para pengunjung menunggu di luar gedung di bawah pohon sampai nomor antrean mereka dipanggil",
+        "teks": "Menyarankan para pengunjung menunggu di luar gedung di bawah pohon sampai nomor antrean mereka dipanggil dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 3
       },
       {
         "label": "D",
-        "teks": "Meminta maaf apabila ada yang mengeluh sambil menjelaskan bahwa peralatan gedung sudah berumur tua",
+        "teks": "Meminta maaf apabila ada yang mengeluh sambil menjelaskan bahwa peralatan gedung sudah berumur tua karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Melaporkan kerusakan AC melalui grup pesan singkat kantor dan menunggu teknisi datang siang nanti",
+        "teks": "Melaporkan kerusakan AC melalui grup pesan singkat kantor dan menunggu teknisi datang siang nanti karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -189504,12 +189504,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya pulang terlebih dahulu dan meminta tolong anaknya membuatkan alamat surel baru",
+        "teks": "Memintanya pulang terlebih dahulu dan meminta tolong anaknya membuatkan alamat surel baru karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "B",
-        "teks": "Menggunakan alamat surel pribadi Anda untuk mendaftarkan usahanya agar proses pendaftaran cepat selesai",
+        "teks": "Menggunakan alamat surel pribadi Anda untuk mendaftarkan usahanya agar proses pendaftaran cepat selesai dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
@@ -189519,12 +189519,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menjelaskan bahwa tanpa pemahaman teknologi dasar, pedagang akan kesulitan mengurus izin secara mandiri",
+        "teks": "Menjelaskan bahwa tanpa pemahaman teknologi dasar, pedagang akan kesulitan mengurus izin secara mandiri agar tidak menimbulkan konflik baru di lingkungan kerja",
         "poin": 1
       },
       {
         "label": "E",
-        "teks": "Menyarankannya mendaftar melalui jasa biro perizinan swasta yang biasanya membantu pengurusan NIB",
+        "teks": "Menyarankannya mendaftar melalui jasa biro perizinan swasta yang biasanya membantu pengurusan NIB karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -189549,17 +189549,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menganggap skor rendah tersebut wajar karena banyak pemohon tidak membaca informasi di situs web sebelum datang",
+        "teks": "Menganggap skor rendah tersebut wajar karena banyak pemohon tidak membaca informasi di situs web sebelum datang dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 2
       },
       {
         "label": "D",
-        "teks": "Mengganti pertanyaan kuesioner IKM agar pemohon lebih fokus menilai keramahan petugas saja",
+        "teks": "Mengganti pertanyaan kuesioner IKM agar pemohon lebih fokus menilai keramahan petugas saja dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Membagikan selebaran alur layanan kepada pemohon yang sudah terlanjur duduk di depan loket verifikasi",
+        "teks": "Membagikan selebaran alur layanan kepada pemohon yang sudah terlanjur duduk di depan loket verifikasi karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 4
       }
     ],
@@ -189574,12 +189574,12 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyarankannya mengurus sendiri ke kantor Dukcapil setelah surat lepasnya keluar nanti",
+        "teks": "Menyarankannya mengurus sendiri ke kantor Dukcapil setelah surat lepasnya keluar nanti karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 3
       },
       {
         "label": "B",
-        "teks": "Menjelaskan bahwa Lapas hanya mengurus pembinaan di dalam, bukan dokumen kependudukan warga binaan",
+        "teks": "Menjelaskan bahwa Lapas hanya mengurus pembinaan di dalam, bukan dokumen kependudukan warga binaan dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 1
       },
       {
@@ -189589,12 +189589,12 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya menghubungi keluarganya agar membawakan salinan kartu keluarga sebagai bekal saat bebas nanti",
+        "teks": "Memintanya menghubungi keluarganya agar membawakan salinan kartu keluarga sebagai bekal saat bebas nanti dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       },
       {
         "label": "E",
-        "teks": "Mengatakan bahwa surat bebas dari Lapas sudah cukup sebagai pengganti kartu identitas sementara",
+        "teks": "Mengatakan bahwa surat bebas dari Lapas sudah cukup sebagai pengganti kartu identitas sementara karena menurut Anda cara tersebut paling aman untuk saat ini",
         "poin": 2
       }
     ],
@@ -189619,17 +189619,17 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankannya menyewa penginapan di sekitar kota jika tidak sanggup pulang pergi minggu depan",
+        "teks": "Menyarankannya menyewa penginapan di sekitar kota jika tidak sanggup pulang pergi minggu depan karena Anda menilai langkah itu cukup praktis dan tidak membutuhkan banyak koordinasi tambahan",
         "poin": 1
       },
       {
         "label": "D",
-        "teks": "Memintanya menandatangani buku tamu sebagai bukti sudah hadir lalu menjanjikan panggilan ulang",
+        "teks": "Memintanya menandatangani buku tamu sebagai bukti sudah hadir lalu menjanjikan panggilan ulang dengan alasan menghindari risiko kesalahan yang dapat merugikan nama baik unit kerja",
         "poin": 3
       },
       {
         "label": "E",
-        "teks": "Memberinya air minum di ruang tunggu sambil menjelaskan bahwa jadwal jaksa hari ini sudah penuh",
+        "teks": "Memberinya air minum di ruang tunggu sambil menjelaskan bahwa jadwal jaksa hari ini sudah penuh dengan pertimbangan efisiensi waktu dan tenaga yang tersedia",
         "poin": 4
       }
     ],
@@ -189644,7 +189644,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas berbicara dengan nada suara yang sama tingginya agar masyarakat melihat ketegasan petugas pengadilan",
+        "teks": "Membalas berbicara dengan nada suara yang sama tingginya agar masyarakat melihat ketegasan petugas pengadilan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -189699,7 +189699,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyetujui prosesi adat hanya apabila acara penyuluhan hukum sebelumnya memang sudah terjadwal lebih longgar",
+        "teks": "Menyetujui prosesi adat hanya apabila acara penyuluhan hukum sebelumnya memang sudah terjadwal lebih longgar agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -189719,7 +189719,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyetujui pembatalan penggunaan aula bersama untuk sementara demi mencegah potensi gesekan antarwarga binaan",
+        "teks": "Menyetujui pembatalan penggunaan aula bersama untuk sementara demi mencegah potensi gesekan antarwarga binaan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -189754,7 +189754,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan perilaku tersebut karena candaan dilakukan di ruang tertutup dan tidak terdengar langsung oleh pemohon",
+        "teks": "Membiarkan perilaku tersebut karena candaan dilakukan di ruang tertutup dan tidak terdengar langsung oleh pemohon sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -189789,7 +189789,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengikuti pilihan suara terbanyak di rapat panitia supaya proses pemesanan konsumsi acara segera selesai tepat waktu",
+        "teks": "Mengikuti pilihan suara terbanyak di rapat panitia supaya proses pemesanan konsumsi acara segera selesai tepat waktu sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -189859,7 +189859,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan dinamika tersebut berlangsung alami karena penerimaan warga kampung berada di luar kewenangan petugas",
+        "teks": "Membiarkan dinamika tersebut berlangsung alami karena penerimaan warga kampung berada di luar kewenangan petugas sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -189929,7 +189929,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Tetap menggunakan bahasa daerah dalam percakapan kelompok agar suasana keakraban dengan rekan lama tidak terasa kaku",
+        "teks": "Tetap menggunakan bahasa daerah dalam percakapan kelompok agar suasana keakraban dengan rekan lama tidak terasa kaku sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -189959,7 +189959,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Hanya memasang spanduk ucapan untuk hari besar agama mayoritas siswa agar tidak memicu perdebatan di grup warga",
+        "teks": "Hanya memasang spanduk ucapan untuk hari besar agama mayoritas siswa agar tidak memicu perdebatan di grup warga sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -190004,7 +190004,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti pantangan adat tersebut hanya ketika sedang berada di hadapan tokoh adat atau warga desa setempat saja",
+        "teks": "Mengikuti pantangan adat tersebut hanya ketika sedang berada di hadapan tokoh adat atau warga desa setempat saja agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -190074,7 +190074,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mencatat penolakan tersebut agar kelak rekan lain juga tidak perlu repot memberikan santunan bila ia mengalami musibah",
+        "teks": "Mencatat penolakan tersebut agar kelak rekan lain juga tidak perlu repot memberikan santunan bila ia mengalami musibah sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -190104,7 +190104,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyampaikan penyuluhan dengan istilah medis lengkap yang menegaskan bahwa praktik persalinan tradisional berbahaya",
+        "teks": "Menyampaikan penyuluhan dengan istilah medis lengkap yang menegaskan bahwa praktik persalinan tradisional berbahaya agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -190144,7 +190144,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memilih diam sepanjang rapat dan menyerahkan keputusan akhir kepada kepala dinas agar pembahasan tidak berlarut-larut",
+        "teks": "Memilih diam sepanjang rapat dan menyerahkan keputusan akhir kepada kepala dinas agar pembahasan tidak berlarut-larut sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -190204,7 +190204,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan perdebatan lisan tersebut diselesaikan sendiri selama belum mengarah pada tindakan kontak fisik di blok",
+        "teks": "Membiarkan perdebatan lisan tersebut diselesaikan sendiri selama belum mengarah pada tindakan kontak fisik di blok agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -190239,7 +190239,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang pegawai yang tidak berpuasa makan atau minum di seluruh area gedung kantor selama jam kerja bulan Ramadhan",
+        "teks": "Melarang pegawai yang tidak berpuasa makan atau minum di seluruh area gedung kantor selama jam kerja bulan Ramadhan agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -190324,7 +190324,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menulis sindiran terbuka di dalam grup agar seluruh anggota sadar bahwa lelucon stereotip tersebut tidak pantas dibagikan",
+        "teks": "Menulis sindiran terbuka di dalam grup agar seluruh anggota sadar bahwa lelucon stereotip tersebut tidak pantas dibagikan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -190389,7 +190389,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memaksakan pembagian persis mengikuti daftar kertas dinas tanpa bersedia mendengarkan masukan tetua adat setempat",
+        "teks": "Memaksakan pembagian persis mengikuti daftar kertas dinas tanpa bersedia mendengarkan masukan tetua adat setempat agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -190414,7 +190414,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencurigainya jangan-jangan ia enggan bergaul karena merasa tidak menyukai kebiasaan sosial masyarakat sekitar",
+        "teks": "Mencurigainya jangan-jangan ia enggan bergaul karena merasa tidak menyukai kebiasaan sosial masyarakat sekitar sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -190454,7 +190454,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengusulkan pemasangan tulisan peringatan keras di loket bahwa orang asing wajib mengikuti tata krama komunikasi lokal",
+        "teks": "Mengusulkan pemasangan tulisan peringatan keras di loket bahwa orang asing wajib mengikuti tata krama komunikasi lokal agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -190504,7 +190504,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan penyusunan acara pembuka kepada perangkat desa dengan catatan durasi kegiatan tidak melebihi batas waktu",
+        "teks": "Menyerahkan penyusunan acara pembuka kepada perangkat desa dengan catatan durasi kegiatan tidak melebihi batas waktu agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -190609,7 +190609,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengadakan acara tukar kado serta makan siang bersama di dalam masing-masing ruangan bidang kerja secara sederhana",
+        "teks": "Mengadakan acara tukar kado serta makan siang bersama di dalam masing-masing ruangan bidang kerja secara sederhana agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -190644,7 +190644,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengambil alih berkas permohonan warga tersebut untuk langsung diproses sesuai SOP tanpa menegur sikap rekan di loket",
+        "teks": "Mengambil alih berkas permohonan warga tersebut untuk langsung diproses sesuai SOP tanpa menegur sikap rekan di loket agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -190674,7 +190674,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memberinya ruang jalan saat kebetulan berpapasan di pintu pantry lalu segera melanjutkan aktivitas istirahat Anda",
+        "teks": "Memberinya ruang jalan saat kebetulan berpapasan di pintu pantry lalu segera melanjutkan aktivitas istirahat Anda agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -190694,7 +190694,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegaskan bahwa kedaulatan negara tidak bisa ditawar sehingga warga perbatasan harus memutus hubungan sosial lintas batas",
+        "teks": "Menegaskan bahwa kedaulatan negara tidak bisa ditawar sehingga warga perbatasan harus memutus hubungan sosial lintas batas sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -190729,7 +190729,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut membicarakan perbedaan gaya budaya pimpinan baru tersebut agar tetap dianggap kompak oleh kelompok rekan kerja",
+        "teks": "Ikut membicarakan perbedaan gaya budaya pimpinan baru tersebut agar tetap dianggap kompak oleh kelompok rekan kerja sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -190809,7 +190809,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengalah terus-menerus dalam diam meskipun merasa sangat terganggu dan waktu istirahat Anda menjadi kurang berkualitas",
+        "teks": "Mengalah terus-menerus dalam diam meskipun merasa sangat terganggu dan waktu istirahat Anda menjadi kurang berkualitas agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -190849,7 +190849,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memilih tidak ikut campur karena tugas pokok Anda hanya memberikan penyuluhan teknik pemupukan serta budidaya tanaman",
+        "teks": "Memilih tidak ikut campur karena tugas pokok Anda hanya memberikan penyuluhan teknik pemupukan serta budidaya tanaman sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -190909,7 +190909,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyuruh mereka menyelesaikan perdebatan di luar gedung karena suara mereka mengganggu ketenangan ruang tunggu lainnya",
+        "teks": "Menyuruh mereka menyelesaikan perdebatan di luar gedung karena suara mereka mengganggu ketenangan ruang tunggu lainnya sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -190989,7 +190989,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memasang papan larangan merekam video di sekitar benda cagar budaya tersebut mulai keesokan harinya setelah jam tutup",
+        "teks": "Memasang papan larangan merekam video di sekitar benda cagar budaya tersebut mulai keesokan harinya setelah jam tutup supaya pekerjaan tetap berjalan",
         "poin": 4
       },
       {
@@ -191009,7 +191009,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menganggapnya kurang kompeten karena jarang berani menyampaikan pendapat dengan suara lantang saat rapat berlangsung",
+        "teks": "Menganggapnya kurang kompeten karena jarang berani menyampaikan pendapat dengan suara lantang saat rapat berlangsung sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -191054,7 +191054,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mematikan notifikasi grup percakapan warga sementara waktu agar tidak ikut terseret dalam perdebatan antartetangga",
+        "teks": "Mematikan notifikasi grup percakapan warga sementara waktu agar tidak ikut terseret dalam perdebatan antartetangga sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -191079,7 +191079,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pasien menandatangani surat pulang paksa apabila tetap tidak bersedia mengikuti prosedur petugas yang bertugas",
+        "teks": "Meminta pasien menandatangani surat pulang paksa apabila tetap tidak bersedia mengikuti prosedur petugas yang bertugas agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -191124,7 +191124,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengusulkan penghapusan pelajaran muatan lokal dari sekolah dan menggantinya dengan penguatan pelajaran bahasa asing saja",
+        "teks": "Mengusulkan penghapusan pelajaran muatan lokal dari sekolah dan menggantinya dengan penguatan pelajaran bahasa asing saja agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -191149,7 +191149,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkannya karena wajar apabila petugas melakukan pemeriksaan lebih ketat terhadap pelancong dari negara tertentu",
+        "teks": "Membiarkannya karena wajar apabila petugas melakukan pemeriksaan lebih ketat terhadap pelancong dari negara tertentu sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -191229,7 +191229,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Memindahkan sandal yang berserakan ke sudut gudang belakang agar pemiliknya lebih berhati-hati pada waktu berikutnya",
+        "teks": "Memindahkan sandal yang berserakan ke sudut gudang belakang agar pemiliknya lebih berhati-hati pada waktu berikutnya sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -191259,7 +191259,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengisi sendiri kolom jawaban formulir asesmen berdasarkan pengamatan umum Anda agar jadwal pelaporan tidak terhambat",
+        "teks": "Mengisi sendiri kolom jawaban formulir asesmen berdasarkan pengamatan umum Anda agar jadwal pelaporan tidak terhambat sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -191324,7 +191324,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengatakan bahwa seluruh hidangan di acara resmi pemerintah pasti aman dikonsumsi tanpa perlu ditanyakan kembali bahannya",
+        "teks": "Mengatakan bahwa seluruh hidangan di acara resmi pemerintah pasti aman dikonsumsi tanpa perlu ditanyakan kembali bahannya agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -191394,7 +191394,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus jalur prioritas saat itu juga dan meminta nenek tersebut mengantre kembali di belakang barisan pemuda itu",
+        "teks": "Menghapus jalur prioritas saat itu juga dan meminta nenek tersebut mengantre kembali di belakang barisan pemuda itu agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -191429,7 +191429,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap mempertahankan tanggal usulan tersebut karena jumlah pegawai yang merayakan hari raya itu hanya beberapa orang saja",
+        "teks": "Tetap mempertahankan tanggal usulan tersebut karena jumlah pegawai yang merayakan hari raya itu hanya beberapa orang saja sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -191469,7 +191469,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menolak undangan rekan kerja secara terang-terangan dengan alasan perbedaan keyakinan dan tradisi keluarga besar Anda",
+        "teks": "Menolak undangan rekan kerja secara terang-terangan dengan alasan perbedaan keyakinan dan tradisi keluarga besar Anda agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -191514,7 +191514,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Bersikap profesional pasif dengan hanya berbicara kepada rekan lintas generasi saat ada penugasan resmi dari atasan",
+        "teks": "Bersikap profesional pasif dengan hanya berbicara kepada rekan lintas generasi saat ada penugasan resmi dari atasan agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -191584,7 +191584,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti pendapat suara terbanyak dalam forum rapat tanpa mengajukan alternatif kompromi yang menjembatani kedua kubu",
+        "teks": "Mengikuti pendapat suara terbanyak dalam forum rapat tanpa mengajukan alternatif kompromi yang menjembatani kedua kubu agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -191604,7 +191604,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas kritik tersebut dengan membandingkan kelemahan budaya kerja di daerah asal tamu tersebut saat sesi diskusi",
+        "teks": "Membalas kritik tersebut dengan membandingkan kelemahan budaya kerja di daerah asal tamu tersebut saat sesi diskusi agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -191649,7 +191649,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan surat edaran imbauan tertulis tentang larangan bertengkar di tempat kerja kepada seluruh karyawan pabrik",
+        "teks": "Mengeluarkan surat edaran imbauan tertulis tentang larangan bertengkar di tempat kerja kepada seluruh karyawan pabrik agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -191689,7 +191689,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memproses permohonannya secepat mungkin dengan kontak mata minimal supaya warga tersebut segera keluar dari ruangan",
+        "teks": "Memproses permohonannya secepat mungkin dengan kontak mata minimal supaya warga tersebut segera keluar dari ruangan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -191714,7 +191714,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memilih dekorasi budaya dari suku yang jumlah anggotanya paling dominan di dalam ruangan kerja tim Anda saat ini",
+        "teks": "Memilih dekorasi budaya dari suku yang jumlah anggotanya paling dominan di dalam ruangan kerja tim Anda saat ini agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -191764,7 +191764,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengingatkan warga tersebut bahwa aturan tata naskah resmi negara melarang pencantuman gelar adat tidak resmi",
+        "teks": "Mengingatkan warga tersebut bahwa aturan tata naskah resmi negara melarang pencantuman gelar adat tidak resmi agar situasi tetap kondusif",
         "poin": 1
       }
     ],
@@ -191794,7 +191794,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunjuk tokoh agama dari setiap keyakinan yang ada di lokasi untuk memimpin doa secara bergantian satu per satu",
+        "teks": "Menunjuk tokoh agama dari setiap keyakinan yang ada di lokasi untuk memimpin doa secara bergantian satu per satu agar situasi tetap kondusif",
         "poin": 4
       },
       {
@@ -191829,7 +191829,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengingatkannya agar tidak terlalu pemilih terhadap makanan karena kondisi di dalam Lapas memang serba terbatas",
+        "teks": "Mengingatkannya agar tidak terlalu pemilih terhadap makanan karena kondisi di dalam Lapas memang serba terbatas sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -191864,7 +191864,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunda proses foto biometrik dan meminta pemohon berkonsultasi terlebih dahulu dengan kepala kantor imigrasi",
+        "teks": "Menunda proses foto biometrik dan meminta pemohon berkonsultasi terlebih dahulu dengan kepala kantor imigrasi agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -191894,7 +191894,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankannya sering bertanya langsung kepada kepala subbagian apabila menemukan istilah yang tidak ia pahami",
+        "teks": "Menyarankannya sering bertanya langsung kepada kepala subbagian apabila menemukan istilah yang tidak ia pahami agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -191929,7 +191929,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mendiamkan situasi tersebut karena meyakini candaan antarrekan kerja lama akan berhenti sendiri setelah beberapa hari",
+        "teks": "Mendiamkan situasi tersebut karena meyakini candaan antarrekan kerja lama akan berhenti sendiri setelah beberapa hari sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -191954,7 +191954,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang seluruh anggota keluarga besar hadir di lingkungan gedung pengadilan selama proses mediasi berlangsung",
+        "teks": "Melarang seluruh anggota keluarga besar hadir di lingkungan gedung pengadilan selama proses mediasi berlangsung agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -192009,7 +192009,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta ketua angkatan CPNS mengawasi pergaulan peserta supaya tidak terbentuk kelompok eksklusif selama orientasi",
+        "teks": "Meminta ketua angkatan CPNS mengawasi pergaulan peserta supaya tidak terbentuk kelompok eksklusif selama orientasi sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       }
     ],
@@ -192034,7 +192034,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Mengkritik pola pikir tradisional warga tersebut karena dinilai menghambat kesetaraan gender dan kemajuan ekonomi desa",
+        "teks": "Mengkritik pola pikir tradisional warga tersebut karena dinilai menghambat kesetaraan gender dan kemajuan ekonomi desa sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -192099,7 +192099,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Memintanya tetap memakan oleh-oleh tersebut di hadapan rekan-rekan supaya tidak mengecewakan perasaan si pemberi",
+        "teks": "Memintanya tetap memakan oleh-oleh tersebut di hadapan rekan-rekan supaya tidak mengecewakan perasaan si pemberi sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -192134,7 +192134,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda pendataan di desa adat tersebut dan mengalihkan kuota sertifikasi ke wilayah perkotaan yang lebih kooperatif",
+        "teks": "Menunda pendataan di desa adat tersebut dan mengalihkan kuota sertifikasi ke wilayah perkotaan yang lebih kooperatif agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -192164,7 +192164,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengembalikan surat tersebut kepada pengirimnya karena seluruh surat resmi kepada instansi wajib berbahasa Indonesia",
+        "teks": "Mengembalikan surat tersebut kepada pengirimnya karena seluruh surat resmi kepada instansi wajib berbahasa Indonesia sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -192204,7 +192204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkannya terus berkomentar negatif karena merasa hal itu hanya bentuk kerinduan rekan Anda pada kampung halaman",
+        "teks": "Membiarkannya terus berkomentar negatif karena merasa hal itu hanya bentuk kerinduan rekan Anda pada kampung halaman sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -192269,7 +192269,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima bingkisan hasil kebun tersebut langsung karena nilainya kecil dan menolak dianggap tidak menghormati adat tamu",
+        "teks": "Menerima bingkisan hasil kebun tersebut langsung karena nilainya kecil dan menolak dianggap tidak menghormati adat tamu sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -192304,7 +192304,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang rekan tersebut membawa lagi makanan khas daerahnya ke kantor mulai besok agar tidak mengganggu pegawai lain",
+        "teks": "Melarang rekan tersebut membawa lagi makanan khas daerahnya ke kantor mulai besok agar tidak mengganggu pegawai lain sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -192359,7 +192359,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menghadiri upacara adat tersebut sebagai pengamat pasif tanpa memastikan adanya komitmen perlindungan terhadap anak",
+        "teks": "Menghadiri upacara adat tersebut sebagai pengamat pasif tanpa memastikan adanya komitmen perlindungan terhadap anak agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -192374,7 +192374,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mewajibkan tetangga baru tersebut hadir sebagai syarat penerimaan resmi di lingkungan RT tempat tinggal Anda saat ini",
+        "teks": "Mewajibkan tetangga baru tersebut hadir sebagai syarat penerimaan resmi di lingkungan RT tempat tinggal Anda saat ini agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -192464,7 +192464,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan keputusan sepenuhnya kepada vendor percetakan berdasarkan tren desain promosi wisata nasional tahun ini",
+        "teks": "Menyerahkan keputusan sepenuhnya kepada vendor percetakan berdasarkan tren desain promosi wisata nasional tahun ini agar situasi tetap kondusif",
         "poin": 3
       }
     ],
@@ -192519,7 +192519,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membalas memutar musik dengan volume yang sama kerasnya di meja Anda supaya ia merasakan sendiri ketidaknyamanan itu",
+        "teks": "Membalas memutar musik dengan volume yang sama kerasnya di meja Anda supaya ia merasakan sendiri ketidaknyamanan itu sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -192569,7 +192569,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta perwakilan tokoh adat menyerahkan dokumen sejarah tertulis desa terlebih dahulu agar dapat diverifikasi tim",
+        "teks": "Meminta perwakilan tokoh adat menyerahkan dokumen sejarah tertulis desa terlebih dahulu agar dapat diverifikasi tim sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -192639,7 +192639,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat klaim masing-masing desa secara administratif sambil menunggu hasil kajian sejarah dari dinas kebudayaan daerah",
+        "teks": "Mencatat klaim masing-masing desa secara administratif sambil menunggu hasil kajian sejarah dari dinas kebudayaan daerah agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -192654,7 +192654,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pasien membuang benda tersebut terlebih dahulu sebelum dokter bersedia melakukan pemeriksaan kesehatan apa pun",
+        "teks": "Meminta pasien membuang benda tersebut terlebih dahulu sebelum dokter bersedia melakukan pemeriksaan kesehatan apa pun agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -192704,7 +192704,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan interaksi tersebut berlangsung karena candaan soal logat daerah merupakan hal biasa dalam pergaulan kantor",
+        "teks": "Membiarkan interaksi tersebut berlangsung karena candaan soal logat daerah merupakan hal biasa dalam pergaulan kantor sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -192774,7 +192774,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengaturan barang bawaan pemudik sepenuhnya kepada awak kapal tanpa memberi panduan keselamatan di dermaga",
+        "teks": "Menyerahkan pengaturan barang bawaan pemudik sepenuhnya kepada awak kapal tanpa memberi panduan keselamatan di dermaga agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -192814,7 +192814,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta keluarga mencari sendiri plastik atau wadah bening di warung sekitar Rutan sebelum makanan diperiksa petugas",
+        "teks": "Meminta keluarga mencari sendiri plastik atau wadah bening di warung sekitar Rutan sebelum makanan diperiksa petugas agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -192839,7 +192839,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menolak keras usulan tersebut dengan menuduh rekan Anda memiliki pandangan bias gender yang merendahkan kaum perempuan",
+        "teks": "Menolak keras usulan tersebut dengan menuduh rekan Anda memiliki pandangan bias gender yang merendahkan kaum perempuan agar situasi tetap kondusif",
         "poin": 1
       },
       {
@@ -192869,7 +192869,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menjanjikan langsung kepada para saksi bahwa jadwal sidang pasti akan digeser tanpa berkoordinasi dengan panitera sidang",
+        "teks": "Menjanjikan langsung kepada para saksi bahwa jadwal sidang pasti akan digeser tanpa berkoordinasi dengan panitera sidang agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -192914,7 +192914,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengusulkan penambahan jam pelajaran sejarah daerah secara teori di kelas agar siswa lebih hafal nama permainan tradisional",
+        "teks": "Mengusulkan penambahan jam pelajaran sejarah daerah secara teori di kelas agar siswa lebih hafal nama permainan tradisional sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -192949,7 +192949,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan loket lain yang berbeda marga untuk melayani wajib pajak tersebut agar Anda terhindar dari konflik kepentingan",
+        "teks": "Meminta rekan loket lain yang berbeda marga untuk melayani wajib pajak tersebut agar Anda terhindar dari konflik kepentingan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       },
       {
@@ -193044,7 +193044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mempersilakan mereka menunggu di panggung utama saja sambil menikmati hiburan tanpa perlu mengikuti kegiatan jalan sehat",
+        "teks": "Mempersilakan mereka menunggu di panggung utama saja sambil menikmati hiburan tanpa perlu mengikuti kegiatan jalan sehat agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -193129,7 +193129,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta warga menunda pembukaan lahan tahun ini sampai pemerintah daerah menyiapkan alat berat pembuka lahan gratis",
+        "teks": "Meminta warga menunda pembukaan lahan tahun ini sampai pemerintah daerah menyiapkan alat berat pembuka lahan gratis agar situasi tetap kondusif",
         "poin": 4
       }
     ],
@@ -193184,7 +193184,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkannya pulang saja supaya tidak menghambat antrean pendonor lain yang sudah siap secara fisik maupun mental",
+        "teks": "Membiarkannya pulang saja supaya tidak menghambat antrean pendonor lain yang sudah siap secara fisik maupun mental sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -193214,7 +193214,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya menuliskan suku pihak ayah saja secara sepihak karena dalam tradisi umum garis keturunan mengikuti ayah",
+        "teks": "Memintanya menuliskan suku pihak ayah saja secara sepihak karena dalam tradisi umum garis keturunan mengikuti ayah sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 2
       },
       {
@@ -193264,7 +193264,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankannya membawa bekal makanan sendiri pada acara potluck berikutnya supaya tidak merasa ragu saat makan bersama",
+        "teks": "Menyarankannya membawa bekal makanan sendiri pada acara potluck berikutnya supaya tidak merasa ragu saat makan bersama sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 3
       },
       {
@@ -193304,7 +193304,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengatur penempatan kamar tidur berdasarkan kesamaan bahasa daerah supaya komunikasi antarteman sekamar lebih mudah",
+        "teks": "Mengatur penempatan kamar tidur berdasarkan kesamaan bahasa daerah supaya komunikasi antarteman sekamar lebih mudah sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 4
       }
     ],
@@ -193334,7 +193334,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan siswa mengikuti kursus olah vokal di kota jika benar-benar serius ingin lolos wawancara seleksi instansi pusat",
+        "teks": "Menyarankan siswa mengikuti kursus olah vokal di kota jika benar-benar serius ingin lolos wawancara seleksi instansi pusat agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -193394,7 +193394,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Meminta rekan kerja tersebut segera mengajukan pindah ke bagian belakang yang tidak berhadapan langsung dengan masyarakat",
+        "teks": "Meminta rekan kerja tersebut segera mengajukan pindah ke bagian belakang yang tidak berhadapan langsung dengan masyarakat agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -193429,7 +193429,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mencetak paspor dengan satu kata saja tanpa memberi tahu potensi kendala pengajuan visa di negara tujuan keberangkatannya",
+        "teks": "Mencetak paspor dengan satu kata saja tanpa memberi tahu potensi kendala pengajuan visa di negara tujuan keberangkatannya agar situasi tetap kondusif",
         "poin": 2
       },
       {
@@ -193509,7 +193509,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Meminta para lansia berdiri menunggu di teras luar balai desa terlebih dahulu sampai nama perkara mereka dipanggil petugas",
+        "teks": "Meminta para lansia berdiri menunggu di teras luar balai desa terlebih dahulu sampai nama perkara mereka dipanggil petugas agar situasi tetap kondusif",
         "poin": 3
       },
       {
@@ -193564,7 +193564,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melaporkan pegawai tersebut kepada bagian kepegawaian supaya diberikan sanksi pemotongan tunjangan kinerja bulanan",
+        "teks": "Melaporkan pegawai tersebut kepada bagian kepegawaian supaya diberikan sanksi pemotongan tunjangan kinerja bulanan sebagai bentuk kehati-hatian dalam menjalankan tugas",
         "poin": 1
       },
       {
@@ -193669,7 +193669,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda pelaksanaan sidang terpadu sampai kedua instansi mitra mengirimkan surat kesanggupan resmi terlebih dahulu.",
+        "teks": "Menunda pelaksanaan sidang terpadu sampai kedua instansi mitra mengirimkan surat kesanggupan resmi terlebih dahulu agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -193704,7 +193704,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengembalikan berkas berulang kali sesuai prosedur tertulis tanpa perlu berkomunikasi langsung dengan penyidik terkait.",
+        "teks": "Mengembalikan berkas berulang kali sesuai prosedur tertulis tanpa perlu berkomunikasi langsung dengan penyidik terkait agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -193809,7 +193809,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan seluruh sosialisasi teknis kepada tim Kemenkumham karena urusan kekayaan intelektual merupakan tugas mereka.",
+        "teks": "Menyerahkan seluruh sosialisasi teknis kepada tim Kemenkumham karena urusan kekayaan intelektual merupakan tugas mereka sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -193884,7 +193884,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan penyelesaian selisih data kepada KPKNL saja karena merekalah yang bertanggung jawab menyelenggarakan lelang.",
+        "teks": "Menyerahkan penyelesaian selisih data kepada KPKNL saja karena merekalah yang bertanggung jawab menyelenggarakan lelang sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -193929,7 +193929,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Memajang produk di lobi kantor lapas sambil menunggu ada perusahaan swasta yang datang menawarkan kerja sama pemasaran.",
+        "teks": "Memajang produk di lobi kantor lapas sambil menunggu ada perusahaan swasta yang datang menawarkan kerja sama pemasaran agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -193969,7 +193969,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengarahkan warga yang mengantre agar datang langsung ke kantor cabang instansi terkait meski jaraknya cukup jauh.",
+        "teks": "Mengarahkan warga yang mengantre agar datang langsung ke kantor cabang instansi terkait meski jaraknya cukup jauh sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -193989,7 +193989,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda rapat tanpa batas waktu sampai Biro Hukum dan DPRD menyelesaikan perbedaan pendapat mereka di luar forum resmi.",
+        "teks": "Menunda rapat tanpa batas waktu sampai Biro Hukum dan DPRD menyelesaikan perbedaan pendapat mereka di luar forum resmi agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -194034,7 +194034,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu hingga sore hari menjelang keberangkatan barangkali ada surat balasan yang masuk melalui bagian persuratan.",
+        "teks": "Menunggu hingga sore hari menjelang keberangkatan barangkali ada surat balasan yang masuk melalui bagian persuratan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -194089,7 +194089,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur kepala desa secara tertulis karena dianggap kurang mendukung program prioritas kesehatan dari pemerintah.",
+        "teks": "Menegur kepala desa secara tertulis karena dianggap kurang mendukung program prioritas kesehatan dari pemerintah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -194179,7 +194179,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Mengirimkan ulang surat permohonan data dengan melampirkan fotokopi undang-undang tanpa menjalin komunikasi langsung.",
+        "teks": "Mengirimkan ulang surat permohonan data dengan melampirkan fotokopi undang-undang tanpa menjalin komunikasi langsung agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -194204,7 +194204,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menumpuk seluruh logistik di gudang utama kabupaten sampai daftar pengungsi terverifikasi seratus persen secara manual.",
+        "teks": "Menumpuk seluruh logistik di gudang utama kabupaten sampai daftar pengungsi terverifikasi seratus persen secara manual agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -194269,7 +194269,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh proses finalisasi hingga beberapa bulan ke depan sampai jadwal seluruh anggota tim benar-benar kosong.",
+        "teks": "Menunda seluruh proses finalisasi hingga beberapa bulan ke depan sampai jadwal seluruh anggota tim benar-benar kosong agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -194339,7 +194339,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengundang seorang motivator secara insidental satu kali setahun saat peringatan hari besar keagamaan di dalam rutan.",
+        "teks": "Mengundang seorang motivator secara insidental satu kali setahun saat peringatan hari besar keagamaan di dalam rutan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -194379,7 +194379,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunggu hingga hari terakhir tanpa menghubungi unit terkait karena tanggung jawab pengumpulan data ada pada mereka.",
+        "teks": "Menunggu hingga hari terakhir tanpa menghubungi unit terkait karena tanggung jawab pengumpulan data ada pada mereka sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -194419,7 +194419,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengirimkan materi presentasi melalui email kepada guru PPKn agar disampaikan sendiri oleh pihak sekolah di kelas.",
+        "teks": "Mengirimkan materi presentasi melalui email kepada guru PPKn agar disampaikan sendiri oleh pihak sekolah di kelas sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -194439,7 +194439,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti kemauan instansi yang paling dominan di lapangan supaya rapat segera bubar dan petugas bisa beristirahat.",
+        "teks": "Mengikuti kemauan instansi yang paling dominan di lapangan supaya rapat segera bubar dan petugas bisa beristirahat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -194489,7 +194489,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan catatan keluhan tersebut sebagai bahan evaluasi tahunan sambil menunggu pembaruan aplikasi versi berikutnya.",
+        "teks": "Menyimpan catatan keluhan tersebut sebagai bahan evaluasi tahunan sambil menunggu pembaruan aplikasi versi berikutnya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -194564,7 +194564,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta BLK mengisi stan yang kosong dengan materi pelatihan keterampilan saja tanpa mengupayakan tambahan lowongan kerja.",
+        "teks": "Meminta BLK mengisi stan yang kosong dengan materi pelatihan keterampilan saja tanpa mengupayakan tambahan lowongan kerja agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -194579,7 +194579,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung menjatuhkan rekomendasi sanksi terberat tanpa memberi ruang penjelasan maupun pendampingan perbaikan prosedur.",
+        "teks": "Langsung menjatuhkan rekomendasi sanksi terberat tanpa memberi ruang penjelasan maupun pendampingan perbaikan prosedur agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -194614,7 +194614,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan masyarakat menunggu sambil mengeluhkan kinerja organisasi bantuan hukum tersebut di depan para pemohon layanan.",
+        "teks": "Membiarkan masyarakat menunggu sambil mengeluhkan kinerja organisasi bantuan hukum tersebut di depan para pemohon layanan agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -194664,7 +194664,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan sepenuhnya urusan bujuk-membujuk keluarga korban kepada penasihat hukum pelaku di luar kantor kejaksaan.",
+        "teks": "Menyerahkan sepenuhnya urusan bujuk-membujuk keluarga korban kepada penasihat hukum pelaku di luar kantor kejaksaan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -194689,7 +194689,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Menunggu penumpang tersebut mengantre di jalur umum baru kemudian memanggil petugas keamanan bandara di depan keramaian.",
+        "teks": "Menunggu penumpang tersebut mengantre di jalur umum baru kemudian memanggil petugas keamanan bandara di depan keramaian agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -194769,7 +194769,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Mengusulkan agar semua ide direktorat dimasukkan terpisah ke dalam laporan tanpa perlu ada penyelarasan alur kerja.",
+        "teks": "Mengusulkan agar semua ide direktorat dimasukkan terpisah ke dalam laporan tanpa perlu ada penyelarasan alur kerja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -194789,7 +194789,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak pasien rujukan yang tidak membawa surat rujukan tercetak lengkap sesuai format standar administrasi rumah sakit.",
+        "teks": "Menolak pasien rujukan yang tidak membawa surat rujukan tercetak lengkap sesuai format standar administrasi rumah sakit agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -194839,7 +194839,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "D",
-        "teks": "Menunggu laporan perbaikan teknisi sampai malam sebelum acara baru mengabari instansi mitra mengenai ketidakpastian lokasi.",
+        "teks": "Menunggu laporan perbaikan teknisi sampai malam sebelum acara baru mengabari instansi mitra mengenai ketidakpastian lokasi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -194929,7 +194929,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menekan pejabat tersebut dengan ancaman penyitaan dokumen di depan stafnya agar ia segera menyerahkan seluruh berkas proyek.",
+        "teks": "Menekan pejabat tersebut dengan ancaman penyitaan dokumen di depan stafnya agar ia segera menyerahkan seluruh berkas proyek sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -194984,7 +194984,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menggabungkan soal dari kedua pihak secara acak tanpa melakukan penelaahan ulang terhadap keseimbangan tingkat kesulitannya.",
+        "teks": "Menggabungkan soal dari kedua pihak secara acak tanpa melakukan penelaahan ulang terhadap keseimbangan tingkat kesulitannya agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -195019,7 +195019,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Menugaskan satu staf loket untuk menerima pesan WhatsApp dari bidan tanpa standar format pengiriman data yang jelas.",
+        "teks": "Menugaskan satu staf loket untuk menerima pesan WhatsApp dari bidan tanpa standar format pengiriman data yang jelas agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -195044,7 +195044,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Menunda pengukuran sampai akhir tahun anggaran dengan alasan jadwal tim ukur kantor BPN masih penuh di wilayah lain.",
+        "teks": "Menunda pengukuran sampai akhir tahun anggaran dengan alasan jadwal tim ukur kantor BPN masih penuh di wilayah lain agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -195069,7 +195069,7 @@ window.DATA_SKD_CPNS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melaporkannya langsung kepada kepala biro sebagai pegawai yang menghambat pekerjaan tim dan menolak bekerja sama.",
+        "teks": "Melaporkannya langsung kepada kepala biro sebagai pegawai yang menghambat pekerjaan tim dan menolak bekerja sama supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -195194,7 +195194,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta staf magang di kantor menelepon satu per satu kantor kecamatan untuk menanyakan kapan berkas dikirimkan.",
+        "teks": "Meminta staf magang di kantor menelepon satu per satu kantor kecamatan untuk menanyakan kapan berkas dikirimkan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -195264,7 +195264,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "E",
-        "teks": "Meminta petugas piket menambah jam kerja lembur secara terus-menerus tanpa menjalin komunikasi siaga dengan aparat sekitar.",
+        "teks": "Meminta petugas piket menambah jam kerja lembur secara terus-menerus tanpa menjalin komunikasi siaga dengan aparat sekitar agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -195319,7 +195319,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "B",
-        "teks": "Mengundang pihak luar secara mendadak sepuluh menit sebelum acara dimulai agar tidak banyak pihak yang sempat hadir.",
+        "teks": "Mengundang pihak luar secara mendadak sepuluh menit sebelum acara dimulai agar tidak banyak pihak yang sempat hadir sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -195394,7 +195394,7 @@ window.DATA_SKD_CPNS = [
       },
       {
         "label": "C",
-        "teks": "Hanya mengirim ulang salinan laporan akhir tebal lewat surat resmi tanpa menjalin perkenalan atau komunikasi lebih lanjut.",
+        "teks": "Hanya mengirim ulang salinan laporan akhir tebal lewat surat resmi tanpa menjalin perkenalan atau komunikasi lebih lanjut agar situasi tetap kondusif.",
         "poin": 3
       },
       {

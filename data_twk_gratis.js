@@ -30,7 +30,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Kepatuhan administratif terhadap prosedur pengadaan barang dan jasa pemerintah",
+        "teks": "Kepatuhan administratif terhadap prosedur pengadaan barang dan jasa pemerintah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -64,7 +64,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Penyeragaman selera seni generasi muda agar kembali menyukai kesenian tradisional",
+        "teks": "Penyeragaman selera seni generasi muda agar kembali menyukai kesenian tradisional sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -138,7 +138,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Penerapan teknik negosiasi modern untuk meredam konflik horizontal di tingkat desa",
+        "teks": "Penerapan teknik negosiasi modern untuk meredam konflik horizontal di tingkat desa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -178,7 +178,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Pertimbangan rasional mengenai kenyamanan tinggal dekat dengan keluarga di tanah air",
+        "teks": "Pertimbangan rasional mengenai kenyamanan tinggal dekat dengan keluarga di tanah air demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -316,7 +316,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Melaporkan temuan tersebut secara lisan kepada atasan tanpa mencantumkannya di berkas",
+        "teks": "Melaporkan temuan tersebut secara lisan kepada atasan tanpa mencantumkannya di berkas demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -344,7 +344,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Tanggung jawab pelayanan prima agar pemohon merasa nyaman datang ke kantor",
+        "teks": "Tanggung jawab pelayanan prima agar pemohon merasa nyaman datang ke kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -384,7 +384,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Keterampilan komunikasi asertif dalam menyampaikan pendapat kepada pimpinan unit",
+        "teks": "Keterampilan komunikasi asertif dalam menyampaikan pendapat kepada pimpinan unit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -418,7 +418,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Upaya menjaga kesederhanaan gaya hidup pegawai negeri di hadapan masyarakat umum",
+        "teks": "Upaya menjaga kesederhanaan gaya hidup pegawai negeri di hadapan masyarakat umum demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -476,7 +476,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Kepatuhan terhadap prosedur pencatatan perubahan data pada sistem informasi",
+        "teks": "Kepatuhan terhadap prosedur pencatatan perubahan data pada sistem informasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -504,7 +504,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Melaksanakan tugas rutin kehumasan instansi dalam merespons pemberitaan media",
+        "teks": "Melaksanakan tugas rutin kehumasan instansi dalam merespons pemberitaan media demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -584,7 +584,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Upaya menjaga keindahan ekosistem pantai guna menarik kunjungan wisatawan",
+        "teks": "Upaya menjaga keindahan ekosistem pantai guna menarik kunjungan wisatawan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -618,7 +618,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menekan biaya operasional rutin perusahaan pembangkit listrik milik negara",
+        "teks": "Menekan biaya operasional rutin perusahaan pembangkit listrik milik negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -664,7 +664,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Pemenuhan beban jam mengajar tatap muka sesuai kurikulum nasional yang berlaku",
+        "teks": "Pemenuhan beban jam mengajar tatap muka sesuai kurikulum nasional yang berlaku demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -704,7 +704,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Kesiapsiagaan logistik instansi pemerintah dalam menyalurkan bantuan darurat",
+        "teks": "Kesiapsiagaan logistik instansi pemerintah dalam menyalurkan bantuan darurat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -750,7 +750,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Pasal 31 ayat (1) dan Pasal 32 ayat (1) mengenai hak pendidikan dan pemajuan budaya",
+        "teks": "Pasal 31 ayat (1) dan Pasal 32 ayat (1) mengenai hak pendidikan dan pemajuan budaya agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -784,7 +784,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Sila Kedua yang menekankan persamaan derajat tanpa memandang latar belakang ekonomi",
+        "teks": "Sila Kedua yang menekankan persamaan derajat tanpa memandang latar belakang ekonomi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -904,7 +904,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Pengurangan beban tugas administratif Presiden sebagai kepala pemerintahan",
+        "teks": "Pengurangan beban tugas administratif Presiden sebagai kepala pemerintahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -938,7 +938,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Kewajiban setiap pelajar untuk menguasai minimal dua kesenian tradisional",
+        "teks": "Kewajiban setiap pelajar untuk menguasai minimal dua kesenian tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1224,7 +1224,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Melindungi hak kebebasan berpendapat setiap warga negara di media sosial",
+        "teks": "Melindungi hak kebebasan berpendapat setiap warga negara di media sosial demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1276,7 +1276,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menunjukkan kesiapan fisik dan mental atlet dalam menghadapi tekanan kompetisi",
+        "teks": "Menunjukkan kesiapan fisik dan mental atlet dalam menghadapi tekanan kompetisi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -1344,7 +1344,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Mengakomodasi aspirasi komunitas arsitek yang peduli pada estetika kota",
+        "teks": "Mengakomodasi aspirasi komunitas arsitek yang peduli pada estetika kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1424,7 +1424,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Menjaga hubungan baik jangka panjang dengan pelanggan tetap di pasar tradisional",
+        "teks": "Menjaga hubungan baik jangka panjang dengan pelanggan tetap di pasar tradisional demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1476,7 +1476,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Kehati-hatian pegawai menghindari sorotan negatif dari peserta seleksi lainnya",
+        "teks": "Kehati-hatian pegawai menghindari sorotan negatif dari peserta seleksi lainnya demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -1544,7 +1544,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Kepatuhan terhadap format pelaporan keuangan yang ditetapkan bendahara",
+        "teks": "Kepatuhan terhadap format pelaporan keuangan yang ditetapkan bendahara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1618,7 +1618,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Upaya mencegah kesalahan pengambilan keputusan strategis oleh pimpinan rapat",
+        "teks": "Upaya mencegah kesalahan pengambilan keputusan strategis oleh pimpinan rapat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1670,7 +1670,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Keterampilan wawancara dalam menggali informasi penghasilan calon penerima",
+        "teks": "Keterampilan wawancara dalam menggali informasi penghasilan calon penerima demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1732,7 +1732,7 @@ window.DATA_TWK_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelaksanaan fungsi pengawasan akademik terhadap kegiatan organisasi mahasiswa",
+        "teks": "Pelaksanaan fungsi pengawasan akademik terhadap kegiatan organisasi mahasiswa demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1790,7 +1790,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi",
+        "teks": "Menjaga kelancaran arus bongkar muat logistik bagi perusahaan pelayaran resmi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1818,7 +1818,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menerapkan metode budidaya pertanian modern sesuai panduan dinas pertanian",
+        "teks": "Menerapkan metode budidaya pertanian modern sesuai panduan dinas pertanian demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1858,7 +1858,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Mengisi waktu luang anggota komunitas dengan aktivitas sosial yang bermanfaat",
+        "teks": "Mengisi waktu luang anggota komunitas dengan aktivitas sosial yang bermanfaat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1938,7 +1938,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban pemerintah membiayai pendidikan dasar",
+        "teks": "Pasal 31 ayat (2) UUD 1945 tentang kewajiban pemerintah membiayai pendidikan dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1972,7 +1972,7 @@ window.DATA_TWK_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Negara Indonesia ialah negara kesatuan yang berbentuk republik demokratis",
+        "teks": "Negara Indonesia ialah negara kesatuan yang berbentuk republik demokratis demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1996,7 +1996,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Setiap warga negara berhak atas kebebasan berserikat dan berkumpul secara damai",
+        "teks": "Setiap warga negara berhak atas kebebasan berserikat dan berkumpul secara damai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -2052,7 +2052,7 @@ window.DATA_TWK_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kewajiban warga pendatang untuk beradaptasi dengan adat istiadat masyarakat lokal",
+        "teks": "Kewajiban warga pendatang untuk beradaptasi dengan adat istiadat masyarakat lokal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2104,7 +2104,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Perjanjian luhur para pendiri bangsa saat menyepakati bentuk negara kesatuan",
+        "teks": "Perjanjian luhur para pendiri bangsa saat menyepakati bentuk negara kesatuan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -2132,7 +2132,7 @@ window.DATA_TWK_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan derajat kesehatan warga kota",
+        "teks": "Membantu tugas pemerintah daerah dalam meningkatkan derajat kesehatan warga kota demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2476,7 +2476,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Pelestarian teknik membatik tradisional agar tetap diminati oleh kolektor seni",
+        "teks": "Pelestarian teknik membatik tradisional agar tetap diminati oleh kolektor seni sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -2504,7 +2504,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Keinginan menciptakan citra daerah yang aman bagi investor dan pelaku usaha",
+        "teks": "Keinginan menciptakan citra daerah yang aman bagi investor dan pelaku usaha demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2538,7 +2538,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Uji coba kelayakan produk rintisan sebelum dipasarkan secara komersial",
+        "teks": "Uji coba kelayakan produk rintisan sebelum dipasarkan secara komersial agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -2716,7 +2716,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Kesabaran dalam menunggu giliran pelayanan publik di tengah antrean panjang",
+        "teks": "Kesabaran dalam menunggu giliran pelayanan publik di tengah antrean panjang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -2750,7 +2750,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Mematuhi prosedur pencadangan basis data agar tidak terjadi kerusakan sistem",
+        "teks": "Mematuhi prosedur pencadangan basis data agar tidak terjadi kerusakan sistem sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2772,7 +2772,7 @@ window.DATA_TWK_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ketelitian dalam memeriksa tanggal pengambilan foto pada arsip dokumentasi",
+        "teks": "Ketelitian dalam memeriksa tanggal pengambilan foto pada arsip dokumentasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2830,7 +2830,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Ketegasan sikap dalam berkomunikasi dengan pelaku usaha yang melanggar izin",
+        "teks": "Ketegasan sikap dalam berkomunikasi dengan pelaku usaha yang melanggar izin demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2864,7 +2864,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Kehati-hatian bendahara agar tidak mendapat teguran dari pejabat pembuat komitmen",
+        "teks": "Kehati-hatian bendahara agar tidak mendapat teguran dari pejabat pembuat komitmen sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2904,7 +2904,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Strategi tim pelatih dalam memaksimalkan potensi atlet utama pada laga final",
+        "teks": "Strategi tim pelatih dalam memaksimalkan potensi atlet utama pada laga final demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2996,7 +2996,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Penerapan kode etik jurnalistik dalam menyusun berita investigasi yang akurat",
+        "teks": "Penerapan kode etik jurnalistik dalam menyusun berita investigasi yang akurat demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3018,7 +3018,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Memudahkan proses pencatatan akuntansi harian pada usaha jasa perjalanan",
+        "teks": "Memudahkan proses pencatatan akuntansi harian pada usaha jasa perjalanan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3098,7 +3098,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Memperluas portofolio pengembangan aplikasi layanan publik berbasis peta digital",
+        "teks": "Memperluas portofolio pengembangan aplikasi layanan publik berbasis peta digital demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3252,7 +3252,7 @@ window.DATA_TWK_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Efektivitas kepemimpinan partisipatif untuk meningkatkan motivasi kerja anggota tim",
+        "teks": "Efektivitas kepemimpinan partisipatif untuk meningkatkan motivasi kerja anggota tim demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3276,7 +3276,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Upaya mencegah terjadinya perpecahan pendapat di antara pegawai senior dan junior",
+        "teks": "Upaya mencegah terjadinya perpecahan pendapat di antara pegawai senior dan junior sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -3310,7 +3310,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "MPR kehilangan seluruh kewenangan untuk mengubah dan menetapkan Undang-Undang Dasar",
+        "teks": "MPR kehilangan seluruh kewenangan untuk mengubah dan menetapkan Undang-Undang Dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3350,7 +3350,7 @@ window.DATA_TWK_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Pelestarian alat musik tradisional agar tidak punah di tengah arus musik modern",
+        "teks": "Pelestarian alat musik tradisional agar tidak punah di tengah arus musik modern sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },

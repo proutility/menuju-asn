@@ -12,7 +12,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menolak berkasnya secara singkat dan memintanya datang lagi minggu depan setelah seluruh dokumen lengkap sempurna.",
+        "teks": "Menolak berkasnya secara singkat dan memintanya datang lagi minggu depan setelah seluruh dokumen lengkap sempurna agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -62,7 +62,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mengarahkan penelepon agar menanyakan langsung kepada pengacara tersangka karena kantor tidak melayani telepon pribadi.",
+        "teks": "Mengarahkan penelepon agar menanyakan langsung kepada pengacara tersangka karena kantor tidak melayani telepon pribadi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       }
     ],
@@ -97,7 +97,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mengalihkan pemohon yang berkasnya sudah siap ke pencatatan manual sementara agar sebagian proses tetap berjalan.",
+        "teks": "Mengalihkan pemohon yang berkasnya sudah siap ke pencatatan manual sementara agar sebagian proses tetap berjalan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -132,7 +132,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan formulir permohonan kosong terlebih dahulu agar ia mengisi sendiri data yang ingin diperbarui.",
+        "teks": "Menyerahkan formulir permohonan kosong terlebih dahulu agar ia mengisi sendiri data yang ingin diperbarui sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -152,7 +152,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Meminta pengunjung lain di barisan depan memberikan tempat duduk teduh sementara sambil menunggu nomor antrean biasa.",
+        "teks": "Meminta pengunjung lain di barisan depan memberikan tempat duduk teduh sementara sambil menunggu nomor antrean biasa agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -227,7 +227,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkannya marah di depan loket sambil terus memanggil nomor antrean berikutnya supaya pelayanan tidak terhenti.",
+        "teks": "Membiarkannya marah di depan loket sambil terus memanggil nomor antrean berikutnya supaya pelayanan tidak terhenti sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -257,7 +257,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menjawab pertanyaannya sambil berkemas merapikan tas agar ia sadar bahwa waktu layanan pagi sudah hampir habis.",
+        "teks": "Menjawab pertanyaannya sambil berkemas merapikan tas agar ia sadar bahwa waktu layanan pagi sudah hampir habis sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -287,7 +287,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memaksa petugas kejaksaan dan kepolisian mengubah seluruh sistem pencatatan mereka mengikuti format pengadilan.",
+        "teks": "Memaksa petugas kejaksaan dan kepolisian mengubah seluruh sistem pencatatan mereka mengikuti format pengadilan agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -372,7 +372,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan setiap instansi turun ke lokasi pilihannya masing-masing pada hari yang sama tanpa koordinasi rute.",
+        "teks": "Membiarkan setiap instansi turun ke lokasi pilihannya masing-masing pada hari yang sama tanpa koordinasi rute agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -397,7 +397,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menghapus instansi tersebut dari daftar undangan rapat berikutnya karena dianggap tidak berkomitmen pada tugas tim.",
+        "teks": "Menghapus instansi tersebut dari daftar undangan rapat berikutnya karena dianggap tidak berkomitmen pada tugas tim sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -427,7 +427,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap memulai penggalian sesuai jadwal kontraktor agar target serapan anggaran triwulan tidak mengalami keterlambatan.",
+        "teks": "Tetap memulai penggalian sesuai jadwal kontraktor agar target serapan anggaran triwulan tidak mengalami keterlambatan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -472,7 +472,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Mengunggah pernyataan klarifikasi sendiri di media sosial tanpa verifikasi data dari bidang teknis maupun unit pengaduan.",
+        "teks": "Mengunggah pernyataan klarifikasi sendiri di media sosial tanpa verifikasi data dari bidang teknis maupun unit pengaduan agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -537,7 +537,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Memaksa pihak ritel modern menerima produk apa adanya sebagai bentuk kewajiban sosial perusahaan terhadap warga desa.",
+        "teks": "Memaksa pihak ritel modern menerima produk apa adanya sebagai bentuk kewajiban sosial perusahaan terhadap warga desa agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -612,7 +612,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Membagikan buku ringkasan undang-undang waris nasional kepada kepala desa tanpa melakukan dialog langsung dengan warga.",
+        "teks": "Membagikan buku ringkasan undang-undang waris nasional kepada kepala desa tanpa melakukan dialog langsung dengan warga agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -652,7 +652,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Mengizinkan ibadah digelar di aula utama dengan syarat seluruh warga binaan hanya duduk diam tanpa perlengkapan ritual.",
+        "teks": "Mengizinkan ibadah digelar di aula utama dengan syarat seluruh warga binaan hanya duduk diam tanpa perlengkapan ritual agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -672,7 +672,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menertawakan kepercayaan warga tersebut dan menegaskan bahwa mitos leluhur menjadi penyebab utama anak kurang gizi.",
+        "teks": "Menertawakan kepercayaan warga tersebut dan menegaskan bahwa mitos leluhur menjadi penyebab utama anak kurang gizi agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -727,7 +727,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Membayarkan iurannya secara diam-diam tanpa memberitahunya terlebih dahulu supaya daftar nama terlihat penuh terisi.",
+        "teks": "Membayarkan iurannya secara diam-diam tanpa memberitahunya terlebih dahulu supaya daftar nama terlihat penuh terisi sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -777,7 +777,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mewajibkan warga klaster perumahan membayar denda uang kebersihan saja agar tidak perlu turun bersama warga lama.",
+        "teks": "Mewajibkan warga klaster perumahan membayar denda uang kebersihan saja agar tidak perlu turun bersama warga lama sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -862,7 +862,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Mengambil alih seluruh penginputan berkas rekan senior setiap hari tanpa mengajarkan cara menggunakan fiturnya.",
+        "teks": "Mengambil alih seluruh penginputan berkas rekan senior setiap hari tanpa mengajarkan cara menggunakan fiturnya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -902,7 +902,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mengirimkan tangkapan layar sebagian data saja lewat pesan pribadi agar tidak seluruh isi berkas tersebar di chat.",
+        "teks": "Mengirimkan tangkapan layar sebagian data saja lewat pesan pribadi agar tidak seluruh isi berkas tersebar di chat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -932,7 +932,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Mencatat keluhan tersebut dalam laporan bulanan tanpa menindaklanjuti perbaikan antarmuka aplikasi kepada tim IT.",
+        "teks": "Mencatat keluhan tersebut dalam laporan bulanan tanpa menindaklanjuti perbaikan antarmuka aplikasi kepada tim IT supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -997,7 +997,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Meminta satu orang staf mengetik ulang seluruh file dari lima bidang setiap hari ke dalam satu dokumen presentasi.",
+        "teks": "Meminta satu orang staf mengetik ulang seluruh file dari lima bidang setiap hari ke dalam satu dokumen presentasi agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -1032,7 +1032,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan seluruh hasil pindaian dalam satu folder besar dan meminta peneliti membuka file satu per satu saat mencari.",
+        "teks": "Menyimpan seluruh hasil pindaian dalam satu folder besar dan meminta peneliti membuka file satu per satu saat mencari agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -1062,7 +1062,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan ruang rapat hening selama lima belas menit menunggu narasumber berhasil masuk kembali ke dalam panggilan video.",
+        "teks": "Membiarkan ruang rapat hening selama lima belas menit menunggu narasumber berhasil masuk kembali ke dalam panggilan video agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -1127,7 +1127,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkannya saja dengan harapan kepala seksi tidak teliti memeriksa angka lampiran di halaman belakang berkas.",
+        "teks": "Mendiamkannya saja dengan harapan kepala seksi tidak teliti memeriksa angka lampiran di halaman belakang berkas agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -1197,7 +1197,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti kebiasaan lama di kantor saja supaya tidak dianggap sok tahu oleh rekan-rekan yang lebih senior.",
+        "teks": "Mengikuti kebiasaan lama di kantor saja supaya tidak dianggap sok tahu oleh rekan-rekan yang lebih senior sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -1237,7 +1237,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menyarankan rekan menunda sebagian kecil kuitansi saja agar penyimpangan tanggal pencatatan tidak terlalu mencolok.",
+        "teks": "Menyarankan rekan menunda sebagian kecil kuitansi saja agar penyimpangan tanggal pencatatan tidak terlalu mencolok sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -1307,7 +1307,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menolak permohonan secara singkat tanpa memberi tahu cara mengurus surat keterangan atau perbaikan data di Dukcapil.",
+        "teks": "Menolak permohonan secara singkat tanpa memberi tahu cara mengurus surat keterangan atau perbaikan data di Dukcapil agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -1357,7 +1357,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menghubungi pengirim artikel secara pribadi untuk menasihatinya agar berhati-hati mengunggah konten sensitif di grup.",
+        "teks": "Menghubungi pengirim artikel secara pribadi untuk menasihatinya agar berhati-hati mengunggah konten sensitif di grup sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -1422,7 +1422,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan rekan bersikap acuh tak acuh selama tidak terjadi pelanggaran keamanan fisik di dalam blok hunian.",
+        "teks": "Membiarkan rekan bersikap acuh tak acuh selama tidak terjadi pelanggaran keamanan fisik di dalam blok hunian supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -1457,7 +1457,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan kegiatan itu berjalan karena berlangsung di luar jam dinas dan bukan di dalam gedung kantor pemerintah.",
+        "teks": "Membiarkan kegiatan itu berjalan karena berlangsung di luar jam dinas dan bukan di dalam gedung kantor pemerintah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -1497,7 +1497,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan tangkapan layar unggahan tersebut dalam laporan mingguan tanpa berkoordinasi cepat dengan FKUB maupun aparat.",
+        "teks": "Menyimpan tangkapan layar unggahan tersebut dalam laporan mingguan tanpa berkoordinasi cepat dengan FKUB maupun aparat agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -1522,7 +1522,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Langsung menyebarkan tangkapan layar akun media sosial pelamar tersebut ke grup publik untuk memberi efek jera sosial.",
+        "teks": "Langsung menyebarkan tangkapan layar akun media sosial pelamar tersebut ke grup publik untuk memberi efek jera sosial agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -1557,7 +1557,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Memarahi warga RT yang belum memasang bendera di depan umum dan menuduh mereka sebagai pengkhianat bangsa.",
+        "teks": "Memarahi warga RT yang belum memasang bendera di depan umum dan menuduh mereka sebagai pengkhianat bangsa supaya pekerjaan tetap berjalan.",
         "poin": 1
       },
       {
@@ -1582,7 +1582,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memintanya mundur dari antrean dan menyuruhnya mencari orang lain di luar gedung untuk menuliskan formulirnya.",
+        "teks": "Memintanya mundur dari antrean dan menyuruhnya mencari orang lain di luar gedung untuk menuliskan formulirnya agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -1627,7 +1627,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Memarahi pelanggar yang menyelak dengan suara keras di depan umum agar menjadi pelajaran bagi pengunjung lainnya.",
+        "teks": "Memarahi pelanggar yang menyelak dengan suara keras di depan umum agar menjadi pelajaran bagi pengunjung lainnya sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -1672,7 +1672,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menyuruhnya pergi ke kantor imigrasi cabang yang dipilihnya di aplikasi tanpa mengecek apakah masih sempat terlayani.",
+        "teks": "Menyuruhnya pergi ke kantor imigrasi cabang yang dipilihnya di aplikasi tanpa mengecek apakah masih sempat terlayani agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -1687,7 +1687,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh pendaftaran pasien hari itu hingga aliran listrik PLN menyala kembali tanpa batas waktu pasti.",
+        "teks": "Menghentikan seluruh pendaftaran pasien hari itu hingga aliran listrik PLN menyala kembali tanpa batas waktu pasti agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -1737,7 +1737,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan warga menulis keluhannya di media sosial agar cepat viral dan mendapat perhatian pejabat provinsi terkait.",
+        "teks": "Menyarankan warga menulis keluhannya di media sosial agar cepat viral dan mendapat perhatian pejabat provinsi terkait sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -1757,7 +1757,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyalahkan petugas ukur lapangan di hadapan warga tersebut supaya warga tidak memarahi Anda di loket penyerahan.",
+        "teks": "Menyalahkan petugas ukur lapangan di hadapan warga tersebut supaya warga tidak memarahi Anda di loket penyerahan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -1812,7 +1812,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menyarankannya melihat contoh format berkas yayasan lain yang sudah disetujui tanpa menjelaskan perbedaannya.",
+        "teks": "Menyarankannya melihat contoh format berkas yayasan lain yang sudah disetujui tanpa menjelaskan perbedaannya agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -1847,7 +1847,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menyuruh siswa yang bersangkutan saja mengurus pengembalian buku sementara orang tua menunggu lama di luar ruang TU.",
+        "teks": "Menyuruh siswa yang bersangkutan saja mengurus pengembalian buku sementara orang tua menunggu lama di luar ruang TU agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -1877,7 +1877,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Menegur petugas instansi mitra di depan warga yang sedang menunggu agar mereka merasa jera dan disiplin di lain waktu.",
+        "teks": "Menegur petugas instansi mitra di depan warga yang sedang menunggu agar mereka merasa jera dan disiplin di lain waktu sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -1937,7 +1937,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Mempersingkat waktu konsultasi tiap UMKM menjadi dua menit saja meskipun materi pendaftaran belum dipahami peserta.",
+        "teks": "Mempersingkat waktu konsultasi tiap UMKM menjadi dua menit saja meskipun materi pendaftaran belum dipahami peserta agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -2022,7 +2022,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mengirimkan email pengingat setiap dua minggu sekali tanpa menyepakati pembagian tenggat waktu tiap bab modul.",
+        "teks": "Mengirimkan email pengingat setiap dua minggu sekali tanpa menyepakati pembagian tenggat waktu tiap bab modul agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2122,7 +2122,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Meminta penyedia lokal belajar sendiri dari video di internet tanpa menyediakan panduan khusus dari unit pengadaan.",
+        "teks": "Meminta penyedia lokal belajar sendiri dari video di internet tanpa menyediakan panduan khusus dari unit pengadaan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -2182,7 +2182,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menertawakan suara pelannya bersama rekan lain secara santai supaya ia terdorong untuk berbicara lebih lantang.",
+        "teks": "Menertawakan suara pelannya bersama rekan lain secara santai supaya ia terdorong untuk berbicara lebih lantang sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -2222,7 +2222,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan tetua menjawab seluruh pertanyaan untuk semua anggota rombongan supaya proses wawancara berlangsung lebih cepat.",
+        "teks": "Membiarkan tetua menjawab seluruh pertanyaan untuk semua anggota rombongan supaya proses wawancara berlangsung lebih cepat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -2257,7 +2257,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan mereka menyelesaikan perselisihan kebersihan kamar sendiri asalkan tidak terjadi perkelahian fisik.",
+        "teks": "Membiarkan mereka menyelesaikan perselisihan kebersihan kamar sendiri asalkan tidak terjadi perkelahian fisik agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -2302,7 +2302,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menawarkan lokasi panggung pinggir yang lebih kecil sebagai kompromi cepat tanpa membahas konsep pelestarian seninya.",
+        "teks": "Menawarkan lokasi panggung pinggir yang lebih kecil sebagai kompromi cepat tanpa membahas konsep pelestarian seninya agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2327,7 +2327,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Menyarankan rekan penyandang disabilitas tersebut tidak usah ikut datang dan cukup dibawakan nasi kotak ke rumah.",
+        "teks": "Menyarankan rekan penyandang disabilitas tersebut tidak usah ikut datang dan cukup dibawakan nasi kotak ke rumah supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -2372,7 +2372,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menjelaskan kriteria penerima bantuan secara singkat lalu membiarkan perangkat dusun mengatur sendiri urutan panggilnya.",
+        "teks": "Menjelaskan kriteria penerima bantuan secara singkat lalu membiarkan perangkat dusun mengatur sendiri urutan panggilnya agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2397,7 +2397,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Menghapus penggunaan aplikasi antrean daring karena dianggap belum cocok diterapkan bagi masyarakat umum di daerah.",
+        "teks": "Menghapus penggunaan aplikasi antrean daring karena dianggap belum cocok diterapkan bagi masyarakat umum di daerah sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -2477,7 +2477,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menunggu ia kembali dari makan siang lalu menyindirnya soal kelalaian menjaga keamanan akun sistem keimigrasian.",
+        "teks": "Menunggu ia kembali dari makan siang lalu menyindirnya soal kelalaian menjaga keamanan akun sistem keimigrasian agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2497,7 +2497,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Meminta pejabat penandatangan menyerahkan PIN serta token TTE miliknya kepada staf operator agar bisa dicetak kapan saja.",
+        "teks": "Meminta pejabat penandatangan menyerahkan PIN serta token TTE miliknya kepada staf operator agar bisa dicetak kapan saja sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -2577,7 +2577,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan kebiasaan boros kertas tersebut berlanjut selama persediaan kertas di gudang bagian umum masih mencukupi.",
+        "teks": "Membiarkan kebiasaan boros kertas tersebut berlanjut selama persediaan kertas di gudang bagian umum masih mencukupi agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -2597,7 +2597,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan temuan celah tersebut dengan harapan jumlah jam lembur pegawai termasuk Anda terlihat lebih tinggi di sistem.",
+        "teks": "Mendiamkan temuan celah tersebut dengan harapan jumlah jam lembur pegawai termasuk Anda terlihat lebih tinggi di sistem agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -2687,7 +2687,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menjawab bahwa Anda tidak tahu-menahu soal perkara itu lalu menyarankannya bertanya langsung kepada panitera sidang.",
+        "teks": "Menjawab bahwa Anda tidak tahu-menahu soal perkara itu lalu menyarankannya bertanya langsung kepada panitera sidang agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2702,7 +2702,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menumpuk barang bukti elektronik di lorong koridor luar gudang agar ruang penyimpanan utama terlihat lebih longgar.",
+        "teks": "Menumpuk barang bukti elektronik di lorong koridor luar gudang agar ruang penyimpanan utama terlihat lebih longgar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -2787,7 +2787,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Mengerjakan pemeriksaan secara asal-asalan mengikuti pola kerja bidang perencanaan lama tanpa mengecek aturan baru.",
+        "teks": "Mengerjakan pemeriksaan secara asal-asalan mengikuti pola kerja bidang perencanaan lama tanpa mengecek aturan baru agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -2807,7 +2807,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membela diri dengan menyalahkan instansi penyedia data yang terlambat merilis angka terbaru tahun ini.",
+        "teks": "Membela diri dengan menyalahkan instansi penyedia data yang terlambat merilis angka terbaru tahun ini agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -2862,7 +2862,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Meminta rekan lain yang menjadi bendahara pengeluaran pembantu untuk memutuskan sendiri nasib sisa uang tersebut.",
+        "teks": "Meminta rekan lain yang menjadi bendahara pengeluaran pembantu untuk memutuskan sendiri nasib sisa uang tersebut agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2897,7 +2897,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menghubungi rekan yang sedang berduka setiap hari untuk menanyakan perkembangan berkas yang belum diselesaikannya.",
+        "teks": "Menghubungi rekan yang sedang berduka setiap hari untuk menanyakan perkembangan berkas yang belum diselesaikannya agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -2927,7 +2927,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Memintanya datang kembali minggu depan tanpa mencatat indikasi kecurigaan tersebut dalam sistem pengawasan.",
+        "teks": "Memintanya datang kembali minggu depan tanpa mencatat indikasi kecurigaan tersebut dalam sistem pengawasan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -2957,7 +2957,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Langsung membakar seluruh koleksi buku perpustakaan sekolah tersebut di halaman tanpa melakukan verifikasi isi terlebih dulu.",
+        "teks": "Langsung membakar seluruh koleksi buku perpustakaan sekolah tersebut di halaman tanpa melakukan verifikasi isi terlebih dulu agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -2987,7 +2987,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan perilaku eksklusif tersebut berkembang karena menganggap urusan mendidik anak adalah hak mutlak orang tua.",
+        "teks": "Membiarkan perilaku eksklusif tersebut berkembang karena menganggap urusan mendidik anak adalah hak mutlak orang tua sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -3027,7 +3027,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Ikut membalas dengan candaan di grup supaya suasana tidak kaku meskipun isi videonya jelas merendahkan negara.",
+        "teks": "Ikut membalas dengan candaan di grup supaya suasana tidak kaku meskipun isi videonya jelas merendahkan negara sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -3052,7 +3052,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghindari menjawab pertanyaan tersebut dengan alasan topik ideologi negara terlalu berat dibahas di tingkat desa.",
+        "teks": "Menghindari menjawab pertanyaan tersebut dengan alasan topik ideologi negara terlalu berat dibahas di tingkat desa agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -3107,7 +3107,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mencatat temuan selebaran gelap tersebut sebagai bahan laporan evaluasi kerukunan triwulan di kantor minggu depan.",
+        "teks": "Mencatat temuan selebaran gelap tersebut sebagai bahan laporan evaluasi kerukunan triwulan di kantor minggu depan agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -3137,7 +3137,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan panitia lain memutuskan tanpa menyampaikan temuan rekam jejak digital tersebut dalam rapat persiapan.",
+        "teks": "Membiarkan panitia lain memutuskan tanpa menyampaikan temuan rekam jejak digital tersebut dalam rapat persiapan supaya pekerjaan tetap berjalan.",
         "poin": 3
       },
       {
@@ -3172,7 +3172,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Mengarahkannya membuka situs web pengadilan melalui ponsel pribadinya sendiri di ruang tunggu tanpa pendampingan.",
+        "teks": "Mengarahkannya membuka situs web pengadilan melalui ponsel pribadinya sendiri di ruang tunggu tanpa pendampingan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -3247,7 +3247,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan formulir surat kuasa kosong lalu menyuruhnya mengurus sendiri tanda tangan anaknya dan kembali di hari lain.",
+        "teks": "Menyerahkan formulir surat kuasa kosong lalu menyuruhnya mengurus sendiri tanda tangan anaknya dan kembali di hari lain agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -3262,7 +3262,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut mematikan komputer tepat saat jam tutup dan meminta kesepuluh wajib pajak tersebut datang lagi besok pagi.",
+        "teks": "Ikut mematikan komputer tepat saat jam tutup dan meminta kesepuluh wajib pajak tersebut datang lagi besok pagi agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -3332,7 +3332,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolaknya mentah-mentah dan menyuruhnya pulang mengambil fotokopi terlebih dahulu meskipun kantor hampir tutup.",
+        "teks": "Menolaknya mentah-mentah dan menyuruhnya pulang mengambil fotokopi terlebih dahulu meskipun kantor hampir tutup agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -3372,7 +3372,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menunda pemrosesan berkas selama tujuh hari penuh sesuai standar waktu maksimal tanpa mempertimbangkan kondisi darurat.",
+        "teks": "Menunda pemrosesan berkas selama tujuh hari penuh sesuai standar waktu maksimal tanpa mempertimbangkan kondisi darurat agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -3477,7 +3477,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menyarankan pihak kampus mewajibkan seluruh mahasiswa asing datang sendiri ke kantor imigrasi setiap awal bulan.",
+        "teks": "Menyarankan pihak kampus mewajibkan seluruh mahasiswa asing datang sendiri ke kantor imigrasi setiap awal bulan agar situasi tetap kondusif.",
         "poin": 4
       },
       {
@@ -3512,7 +3512,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menunggu kelompok tani belajar sendiri memperbaiki proposalnya tanpa arahan teknis dari dinas maupun penyuluh.",
+        "teks": "Menunggu kelompok tani belajar sendiri memperbaiki proposalnya tanpa arahan teknis dari dinas maupun penyuluh supaya pekerjaan tetap berjalan.",
         "poin": 2
       },
       {
@@ -3547,7 +3547,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menutup sesi telepon pendengar saat itu juga dan menghentikan kerja sama siaran radio karena topiknya dianggap melenceng.",
+        "teks": "Menutup sesi telepon pendengar saat itu juga dan menghentikan kerja sama siaran radio karena topiknya dianggap melenceng sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -3597,7 +3597,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mengajak satu sekolah favorit di tengah kota mengadakan lomba menulis esai bertema manfaat membaca bagi pelajar.",
+        "teks": "Mengajak satu sekolah favorit di tengah kota mengadakan lomba menulis esai bertema manfaat membaca bagi pelajar agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -3612,7 +3612,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memulangkan seluruh relawan dan tim lapangan hari itu juga tanpa menyusun penyesuaian pekerjaan yang bisa dilakukan dulu.",
+        "teks": "Memulangkan seluruh relawan dan tim lapangan hari itu juga tanpa menyusun penyesuaian pekerjaan yang bisa dilakukan dulu agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -3757,7 +3757,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Memintanya meniru persis produk kerajinan dari daerah lain yang lebih ramai pembeli tanpa mempertahankan ciri khas lokal.",
+        "teks": "Memintanya meniru persis produk kerajinan dari daerah lain yang lebih ramai pembeli tanpa mempertahankan ciri khas lokal agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -3832,7 +3832,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Menghapus seluruh kegiatan seni warga binaan saat hari kemerdekaan demi menghindari potensi keramaian di lapangan.",
+        "teks": "Menghapus seluruh kegiatan seni warga binaan saat hari kemerdekaan demi menghindari potensi keramaian di lapangan sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -3877,7 +3877,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan saja tanpa menyapanya lagi supaya tidak terjadi perdebatan panjang mengenai kewajiban pajak dan iuran warga.",
+        "teks": "Membiarkan saja tanpa menyapanya lagi supaya tidak terjadi perdebatan panjang mengenai kewajiban pajak dan iuran warga sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -3907,7 +3907,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Menegur rekan-rekan Anda dengan suara keras tepat di hadapan tamu daerah sehingga suasana penyambutan menjadi tegang.",
+        "teks": "Menegur rekan-rekan Anda dengan suara keras tepat di hadapan tamu daerah sehingga suasana penyambutan menjadi tegang sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 3
       },
       {
@@ -3937,7 +3937,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Membuang berkas perkara lama yang kertasnya sudah rapuh ke tempat daur ulang supaya tidak merepotkan tim pemindai.",
+        "teks": "Membuang berkas perkara lama yang kertasnya sudah rapuh ke tempat daur ulang supaya tidak merepotkan tim pemindai sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 2
       },
       {
@@ -4002,7 +4002,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Mencatat nama pemohon lansia di buku tulis tanpa memasukkannya ke sistem antrean sehingga data tidak terpantau pusat.",
+        "teks": "Mencatat nama pemohon lansia di buku tulis tanpa memasukkannya ke sistem antrean sehingga data tidak terpantau pusat sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       },
       {
@@ -4122,7 +4122,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Memperingatkan satu kerabat yang paling dekat saja lewat pesan pribadi tanpa meluruskan hoaks di grup keluarga.",
+        "teks": "Memperingatkan satu kerabat yang paling dekat saja lewat pesan pribadi tanpa meluruskan hoaks di grup keluarga agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -4182,7 +4182,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Menitipkan surat panggilan resmi tersebut kepada pemilik warung di pinggir dermaga tanpa berita acara penyerahan sah.",
+        "teks": "Menitipkan surat panggilan resmi tersebut kepada pemilik warung di pinggir dermaga tanpa berita acara penyerahan sah agar situasi tetap kondusif.",
         "poin": 2
       },
       {
@@ -4257,7 +4257,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "D",
-        "teks": "Menelepon anak tersebut selama dua menit saja lalu menggunakan sebagian besar paragraf analisis dari laporan sebelumnya.",
+        "teks": "Menelepon anak tersebut selama dua menit saja lalu menggunakan sebagian besar paragraf analisis dari laporan sebelumnya agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -4282,7 +4282,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Diam saja dan tetap memasukkan perusahaan tersebut dalam penilaian normal tanpa melaporkan percobaan suap ke atasan.",
+        "teks": "Diam saja dan tetap memasukkan perusahaan tersebut dalam penilaian normal tanpa melaporkan percobaan suap ke atasan agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -4322,7 +4322,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Mengeluh setiap hari kepada rekan kerja lain bahwa sistem kerja di subbagian ini sangat kuno dan tidak masuk akal.",
+        "teks": "Mengeluh setiap hari kepada rekan kerja lain bahwa sistem kerja di subbagian ini sangat kuno dan tidak masuk akal agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -4402,7 +4402,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Meminta rekan humas yang rumahnya paling dekat dengan kantor cabang saja yang menangani krisis komunikasi tersebut.",
+        "teks": "Meminta rekan humas yang rumahnya paling dekat dengan kantor cabang saja yang menangani krisis komunikasi tersebut agar situasi tetap kondusif.",
         "poin": 4
       }
     ],
@@ -4422,7 +4422,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Memberikan nilai sempurna kepadanya demi menjaga persahabatan dan menghindari rasa tidak enak saat bertemu di kantor.",
+        "teks": "Memberikan nilai sempurna kepadanya demi menjaga persahabatan dan menghindari rasa tidak enak saat bertemu di kantor sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {
@@ -4462,7 +4462,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "C",
-        "teks": "Membaca selebaran tersebut lalu ikut mendiskusikan isinya secara terbuka dengan para pengunjung sidang di ruang tunggu.",
+        "teks": "Membaca selebaran tersebut lalu ikut mendiskusikan isinya secara terbuka dengan para pengunjung sidang di ruang tunggu agar situasi tetap kondusif.",
         "poin": 1
       },
       {
@@ -4527,7 +4527,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan buku catatan tersebut di loker pribadi Anda sambil menunggu jadwal razia gabungan bulan depan.",
+        "teks": "Menyimpan buku catatan tersebut di loker pribadi Anda sambil menunggu jadwal razia gabungan bulan depan demi menjaga suasana kerja yang nyaman.",
         "poin": 4
       },
       {
@@ -4612,7 +4612,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "E",
-        "teks": "Mengurangi nominal dana hibah yang diajukan menjadi setengahnya saja supaya risikonya dianggap tidak terlalu besar.",
+        "teks": "Mengurangi nominal dana hibah yang diajukan menjadi setengahnya saja supaya risikonya dianggap tidak terlalu besar sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 4
       }
     ],
@@ -4632,7 +4632,7 @@ window.DATA_TKP_GRATIS = [
       },
       {
         "label": "B",
-        "teks": "Langsung memutus hubungan pertemanan dengan tetangga tersebut tanpa berupaya memberi pemahaman hukum yang benar.",
+        "teks": "Langsung memutus hubungan pertemanan dengan tetangga tersebut tanpa berupaya memberi pemahaman hukum yang benar agar situasi tetap kondusif.",
         "poin": 3
       },
       {
@@ -4662,7 +4662,7 @@ window.DATA_TKP_GRATIS = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghiraukannya karena penggalangan dana tersebut memakai label kemanusiaan sehingga niatnya pasti baik.",
+        "teks": "Menghiraukannya karena penggalangan dana tersebut memakai label kemanusiaan sehingga niatnya pasti baik sebagai bentuk kehati-hatian dalam menjalankan tugas.",
         "poin": 1
       },
       {

@@ -49,19 +49,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -131,7 +131,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -149,13 +149,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -172,25 +172,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -213,19 +213,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -254,7 +254,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -295,19 +295,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -319,7 +319,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -336,13 +336,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -360,7 +360,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -389,7 +389,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi",
+        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -436,7 +436,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -459,19 +459,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -483,7 +483,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -500,25 +500,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -541,13 +541,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -600,7 +600,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -623,13 +623,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri",
+        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -647,7 +647,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -664,7 +664,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -676,13 +676,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri",
+        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -705,7 +705,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi",
+        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -770,7 +770,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional",
+        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -805,7 +805,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD",
+        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -840,7 +840,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi",
+        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -1238,7 +1238,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1320,7 +1320,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan izin hanya kepada kelompok mayoritas agar proses perizinan lebih cepat selesai",
+        "teks": "Memberikan izin hanya kepada kelompok mayoritas agar proses perizinan lebih cepat selesai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -1385,7 +1385,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -1467,7 +1467,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan warga menyelesaikan sendiri persoalan tersebut karena termasuk urusan adat",
+        "teks": "Membiarkan warga menyelesaikan sendiri persoalan tersebut karena termasuk urusan adat sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -1490,7 +1490,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta rekan kerja lain menandatangani berita acara tersebut agar nama Anda tidak tercantum",
+        "teks": "Meminta rekan kerja lain menandatangani berita acara tersebut agar nama Anda tidak tercantum dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -1525,19 +1525,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -1549,7 +1549,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -1584,13 +1584,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -1607,7 +1607,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -1619,19 +1619,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -1654,7 +1654,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan sisa dana hotel tersebut untuk membeli oleh-oleh resmi bagi seluruh pegawai kantor",
+        "teks": "Menggunakan sisa dana hotel tersebut untuk membeli oleh-oleh resmi bagi seluruh pegawai kantor demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -1689,7 +1689,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1730,7 +1730,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -1742,19 +1742,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -1777,13 +1777,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -1812,19 +1812,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -1836,7 +1836,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -1918,7 +1918,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -1941,13 +1941,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -1994,7 +1994,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan",
+        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -2111,7 +2111,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD",
+        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -2158,7 +2158,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2187,7 +2187,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD)",
+        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2468,7 +2468,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2486,7 +2486,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi",
+        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2509,7 +2509,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2568,7 +2568,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -2591,7 +2591,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -2632,7 +2632,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -2679,13 +2679,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2714,13 +2714,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2732,13 +2732,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -2761,7 +2761,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2779,7 +2779,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi",
+        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -2796,7 +2796,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -2814,13 +2814,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -2837,7 +2837,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2878,25 +2878,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -2960,7 +2960,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -2978,7 +2978,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -3001,19 +3001,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -3060,7 +3060,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah",
+        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -3083,7 +3083,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -3101,7 +3101,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -3124,13 +3124,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3171,7 +3171,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -3183,7 +3183,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3230,7 +3230,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -3329,7 +3329,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -3341,7 +3341,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -3353,7 +3353,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -3429,7 +3429,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional",
+        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -3710,13 +3710,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan",
+        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -3739,7 +3739,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan izin hanya kepada kelompok mayoritas agar proses perizinan lebih cepat selesai",
+        "teks": "Memberikan izin hanya kepada kelompok mayoritas agar proses perizinan lebih cepat selesai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -3780,13 +3780,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -3804,7 +3804,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -3839,7 +3839,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik",
+        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -3862,7 +3862,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -3903,7 +3903,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -3950,25 +3950,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -3985,19 +3985,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -4009,7 +4009,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -4026,19 +4026,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -4050,7 +4050,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -4079,7 +4079,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -4091,7 +4091,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan voucher tersebut dan baru menggunakannya setelah kontrak proyek selesai ditandatangani",
+        "teks": "Menyimpan voucher tersebut dan baru menggunakannya setelah kontrak proyek selesai ditandatangani agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -4108,7 +4108,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -4132,7 +4132,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -4161,7 +4161,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain",
+        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -4173,7 +4173,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -4190,19 +4190,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri",
+        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -4272,7 +4272,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       },
@@ -4284,13 +4284,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -4313,7 +4313,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -4337,7 +4337,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -4360,25 +4360,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -4395,7 +4395,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali",
+        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -4969,7 +4969,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -4981,7 +4981,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5022,7 +5022,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan",
+        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -5069,7 +5069,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -5116,7 +5116,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -5133,13 +5133,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -5157,7 +5157,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -5174,7 +5174,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -5186,19 +5186,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -5227,7 +5227,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -5256,13 +5256,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5274,13 +5274,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -5297,19 +5297,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -5321,7 +5321,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -5338,7 +5338,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -5350,19 +5350,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -5385,7 +5385,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5420,25 +5420,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -5473,7 +5473,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -5502,13 +5502,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5549,19 +5549,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri",
+        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -5596,7 +5596,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -5637,7 +5637,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -5672,13 +5672,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -5690,7 +5690,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -5748,7 +5748,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5766,13 +5766,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -5795,19 +5795,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -5830,7 +5830,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal",
+        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -5889,7 +5889,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -6158,7 +6158,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -6205,7 +6205,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -6252,7 +6252,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6322,7 +6322,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6346,7 +6346,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -6381,7 +6381,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -6404,13 +6404,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -6422,13 +6422,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -6469,7 +6469,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -6492,7 +6492,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga",
+        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -6504,7 +6504,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6527,13 +6527,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -6545,13 +6545,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -6568,25 +6568,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -6621,7 +6621,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -6633,7 +6633,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -6650,7 +6650,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -6668,13 +6668,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -6709,7 +6709,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali",
+        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -6738,7 +6738,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut",
+        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -6779,19 +6779,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6814,7 +6814,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6826,13 +6826,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai",
+        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -6867,13 +6867,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -6949,7 +6949,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -7031,7 +7031,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7125,7 +7125,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -7394,7 +7394,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -7435,25 +7435,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -7488,7 +7488,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -7517,7 +7517,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -7552,13 +7552,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -7576,7 +7576,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -7646,7 +7646,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7675,7 +7675,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -7687,19 +7687,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -7722,7 +7722,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7740,7 +7740,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -7763,7 +7763,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan sisa dana hotel tersebut untuk membeli oleh-oleh resmi bagi seluruh pegawai kantor",
+        "teks": "Menggunakan sisa dana hotel tersebut untuk membeli oleh-oleh resmi bagi seluruh pegawai kantor agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -7798,13 +7798,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7845,7 +7845,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain",
+        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -7857,7 +7857,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7880,25 +7880,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -7921,7 +7921,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7933,7 +7933,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -7962,7 +7962,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -7986,7 +7986,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -8003,13 +8003,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat",
+        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -8056,13 +8056,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -8085,7 +8085,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -8097,19 +8097,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       }
@@ -8126,7 +8126,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang",
+        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -8167,7 +8167,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara",
+        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8302,7 +8302,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan",
+        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -8343,7 +8343,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -8355,7 +8355,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -8624,13 +8624,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -8677,7 +8677,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -8747,7 +8747,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah",
+        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8788,7 +8788,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -8835,7 +8835,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -8870,25 +8870,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -8917,7 +8917,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -8946,7 +8946,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -8958,19 +8958,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -8987,13 +8987,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -9011,7 +9011,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -9028,7 +9028,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan sisa dana hotel tersebut untuk membeli oleh-oleh resmi bagi seluruh pegawai kantor",
+        "teks": "Menggunakan sisa dana hotel tersebut untuk membeli oleh-oleh resmi bagi seluruh pegawai kantor demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -9110,7 +9110,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -9122,13 +9122,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -9151,7 +9151,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -9169,7 +9169,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -9198,7 +9198,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -9257,7 +9257,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi",
+        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -9274,7 +9274,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9298,7 +9298,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -9415,7 +9415,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD",
+        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -9503,7 +9503,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang",
+        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -9520,13 +9520,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -9538,7 +9538,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -9573,7 +9573,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -9872,7 +9872,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -9948,7 +9948,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mewajibkan peserta mengenakan pakaian adat tanpa memperhatikan konsep acara yang dirancang",
+        "teks": "Mewajibkan peserta mengenakan pakaian adat tanpa memperhatikan konsep acara yang dirancang agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -9983,7 +9983,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -10018,7 +10018,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -10030,13 +10030,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -10059,7 +10059,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -10077,7 +10077,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -10094,25 +10094,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -10141,25 +10141,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -10182,25 +10182,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -10217,19 +10217,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10241,7 +10241,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -10264,13 +10264,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi",
+        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10299,7 +10299,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -10311,19 +10311,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -10340,25 +10340,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -10381,7 +10381,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -10393,7 +10393,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10428,13 +10428,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10463,7 +10463,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10487,7 +10487,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -10504,7 +10504,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10569,7 +10569,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali",
+        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -10627,7 +10627,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10680,7 +10680,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -10756,7 +10756,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11096,7 +11096,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -11143,7 +11143,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik",
+        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -11160,19 +11160,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional",
+        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -11213,7 +11213,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11225,7 +11225,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -11260,7 +11260,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11283,19 +11283,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -11324,25 +11324,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -11365,7 +11365,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11389,7 +11389,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -11465,7 +11465,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -11506,7 +11506,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem",
+        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -11529,7 +11529,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif",
+        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -11547,7 +11547,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -11582,7 +11582,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -11617,7 +11617,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11635,7 +11635,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -11652,7 +11652,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -11693,13 +11693,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung",
+        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -11740,7 +11740,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -11752,7 +11752,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11781,25 +11781,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -11822,19 +11822,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -11875,7 +11875,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11904,7 +11904,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -11939,7 +11939,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -11951,7 +11951,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -11963,7 +11963,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -11998,7 +11998,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah",
+        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -12021,7 +12021,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12326,7 +12326,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -12361,7 +12361,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -12402,7 +12402,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -12478,7 +12478,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -12496,7 +12496,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -12519,19 +12519,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional",
+        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -12554,7 +12554,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -12566,19 +12566,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -12595,19 +12595,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -12636,7 +12636,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -12660,7 +12660,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi",
+        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -12677,13 +12677,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -12695,13 +12695,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -12724,19 +12724,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -12765,25 +12765,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -12800,13 +12800,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -12853,7 +12853,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -12882,7 +12882,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -12894,13 +12894,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -12947,7 +12947,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -12964,7 +12964,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet",
+        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -13011,25 +13011,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -13134,7 +13134,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan",
+        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -13193,7 +13193,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -13210,7 +13210,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -13263,7 +13263,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara",
+        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13591,19 +13591,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -13638,7 +13638,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -13661,7 +13661,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -13673,7 +13673,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13702,7 +13702,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -13767,7 +13767,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media",
+        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -13784,7 +13784,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -13796,13 +13796,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -13831,13 +13831,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga",
+        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -13872,25 +13872,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -13960,7 +13960,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -13972,7 +13972,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -13989,13 +13989,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -14007,13 +14007,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -14030,25 +14030,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -14071,19 +14071,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -14095,7 +14095,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -14118,7 +14118,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah",
+        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -14153,7 +14153,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14171,7 +14171,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -14194,7 +14194,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -14235,7 +14235,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -14247,7 +14247,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14259,7 +14259,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -14276,7 +14276,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14329,7 +14329,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14364,7 +14364,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -14411,7 +14411,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14446,7 +14446,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14487,7 +14487,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -14774,7 +14774,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi",
+        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14856,7 +14856,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -14897,7 +14897,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -14915,7 +14915,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan",
+        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -14973,7 +14973,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -14991,13 +14991,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -15020,25 +15020,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -15061,7 +15061,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15073,7 +15073,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain",
+        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -15114,7 +15114,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15137,7 +15137,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -15149,19 +15149,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -15178,19 +15178,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -15202,7 +15202,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -15225,13 +15225,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif",
+        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -15272,19 +15272,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -15307,7 +15307,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -15342,7 +15342,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -15354,7 +15354,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -15383,7 +15383,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -15401,7 +15401,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15436,13 +15436,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15471,13 +15471,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri",
+        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -15489,7 +15489,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -15547,13 +15547,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -15565,7 +15565,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -15676,7 +15676,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -15723,7 +15723,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang",
+        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -16022,7 +16022,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media",
+        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -16039,13 +16039,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -16057,7 +16057,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -16080,7 +16080,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -16098,7 +16098,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -16133,7 +16133,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik",
+        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -16180,7 +16180,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16215,7 +16215,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -16244,25 +16244,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -16285,7 +16285,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -16297,19 +16297,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -16326,13 +16326,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -16367,25 +16367,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -16426,7 +16426,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -16449,7 +16449,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas",
+        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -16508,7 +16508,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -16531,19 +16531,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -16555,7 +16555,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -16596,7 +16596,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -16613,13 +16613,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -16631,13 +16631,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -16654,7 +16654,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -16666,7 +16666,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -16701,13 +16701,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -16719,7 +16719,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -16742,7 +16742,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -16754,13 +16754,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -16824,13 +16824,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -16842,7 +16842,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -16871,13 +16871,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -16924,7 +16924,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengalihkan seluruh proses pembahasan anggaran ke pertemuan tertutup di luar gedung resmi",
+        "teks": "Mengalihkan seluruh proses pembahasan anggaran ke pertemuan tertutup di luar gedung resmi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -16941,7 +16941,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -17228,7 +17228,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17287,7 +17287,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -17322,7 +17322,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -17351,7 +17351,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -17404,19 +17404,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -17445,7 +17445,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -17474,13 +17474,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -17492,13 +17492,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -17521,7 +17521,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -17539,7 +17539,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -17556,13 +17556,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -17574,13 +17574,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -17603,7 +17603,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -17638,7 +17638,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17650,19 +17650,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -17679,19 +17679,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17703,7 +17703,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -17720,19 +17720,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -17744,7 +17744,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -17761,7 +17761,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -17785,7 +17785,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung",
+        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -17802,7 +17802,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -17826,7 +17826,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -17855,7 +17855,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali",
+        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -17890,13 +17890,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -17908,7 +17908,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -17931,7 +17931,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet",
+        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -17972,7 +17972,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -18025,7 +18025,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18101,7 +18101,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah",
+        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -18148,13 +18148,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -18482,7 +18482,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -18505,7 +18505,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -18540,7 +18540,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -18587,7 +18587,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -18622,7 +18622,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18640,7 +18640,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengabaikan unggahan tersebut karena dianggap hanya dinamika kebebasan berpendapat di internet",
+        "teks": "Mengabaikan unggahan tersebut karena dianggap hanya dinamika kebebasan berpendapat di internet dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -18669,7 +18669,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18687,7 +18687,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -18722,7 +18722,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi",
+        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -18757,7 +18757,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -18786,7 +18786,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -18833,7 +18833,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -18868,7 +18868,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -18880,7 +18880,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -18892,7 +18892,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       }
@@ -18927,13 +18927,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga",
+        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -18962,7 +18962,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -18997,7 +18997,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah",
+        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -19038,25 +19038,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -19073,13 +19073,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19114,19 +19114,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19138,7 +19138,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -19155,25 +19155,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja",
+        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -19284,7 +19284,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal",
+        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -19319,19 +19319,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19343,7 +19343,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian",
+        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -19407,7 +19407,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -19688,7 +19688,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah",
+        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19735,7 +19735,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -19770,13 +19770,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi",
+        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19817,7 +19817,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk",
+        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19852,13 +19852,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -19899,7 +19899,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan",
+        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -19911,7 +19911,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -19946,7 +19946,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -19981,25 +19981,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -20016,19 +20016,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20040,7 +20040,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -20057,25 +20057,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -20104,25 +20104,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -20186,13 +20186,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -20280,7 +20280,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet",
+        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -20344,7 +20344,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -20385,19 +20385,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan",
+        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20450,7 +20450,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -20473,7 +20473,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20508,7 +20508,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20520,13 +20520,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -20561,7 +20561,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -20590,7 +20590,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -20649,7 +20649,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional",
+        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -20942,7 +20942,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -20959,7 +20959,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21065,7 +21065,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -21088,19 +21088,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional",
+        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -21129,7 +21129,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri",
+        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -21164,7 +21164,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -21182,7 +21182,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan voucher tersebut dan baru menggunakannya setelah kontrak proyek selesai ditandatangani",
+        "teks": "Menyimpan voucher tersebut dan baru menggunakannya setelah kontrak proyek selesai ditandatangani agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -21205,25 +21205,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21258,7 +21258,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21270,7 +21270,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -21287,7 +21287,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -21328,19 +21328,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21352,7 +21352,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -21387,7 +21387,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21457,25 +21457,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -21492,7 +21492,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21504,7 +21504,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -21539,7 +21539,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi",
+        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -21574,13 +21574,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -21615,7 +21615,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21627,7 +21627,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -21662,7 +21662,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21703,7 +21703,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah",
+        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -21756,7 +21756,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang",
+        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -21838,7 +21838,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -21879,7 +21879,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22148,7 +22148,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -22195,25 +22195,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -22295,7 +22295,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri",
+        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -22312,7 +22312,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -22353,7 +22353,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22406,7 +22406,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -22453,13 +22453,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain",
+        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -22476,25 +22476,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -22523,13 +22523,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22611,7 +22611,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -22640,7 +22640,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut",
+        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -22687,7 +22687,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -22699,7 +22699,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat",
+        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -22734,19 +22734,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -22787,7 +22787,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi",
+        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -22810,7 +22810,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -22828,7 +22828,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip",
+        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -22845,7 +22845,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -22869,7 +22869,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -22886,7 +22886,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah",
+        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -22945,7 +22945,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengalihkan seluruh proses pembahasan anggaran ke pertemuan tertutup di luar gedung resmi",
+        "teks": "Mengalihkan seluruh proses pembahasan anggaran ke pertemuan tertutup di luar gedung resmi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -22968,7 +22968,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD",
+        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -23021,7 +23021,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -23097,7 +23097,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -23115,7 +23115,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23378,7 +23378,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -23443,7 +23443,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -23460,7 +23460,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -23525,7 +23525,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan",
+        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -23542,7 +23542,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan warga menyelesaikan sendiri persoalan tersebut karena termasuk urusan adat",
+        "teks": "Membiarkan warga menyelesaikan sendiri persoalan tersebut karena termasuk urusan adat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -23624,7 +23624,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -23665,7 +23665,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -23683,7 +23683,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif",
+        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -23730,7 +23730,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -23747,7 +23747,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -23759,19 +23759,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -23788,7 +23788,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -23829,25 +23829,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -23870,7 +23870,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -23882,19 +23882,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -23958,25 +23958,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -23993,19 +23993,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -24017,7 +24017,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -24046,7 +24046,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24058,7 +24058,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -24075,13 +24075,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       },
@@ -24093,7 +24093,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -24140,7 +24140,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -24175,7 +24175,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24327,7 +24327,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -24702,7 +24702,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -24749,13 +24749,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -24796,7 +24796,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik",
+        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -24825,7 +24825,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -24854,13 +24854,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -24872,7 +24872,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -24895,7 +24895,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -24907,19 +24907,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -24936,7 +24936,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -24948,19 +24948,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -24983,7 +24983,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25001,7 +25001,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -25018,13 +25018,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -25036,7 +25036,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -25059,7 +25059,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain",
+        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -25071,7 +25071,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25100,25 +25100,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -25147,7 +25147,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25159,7 +25159,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -25182,7 +25182,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25194,7 +25194,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -25229,7 +25229,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip",
+        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -25241,7 +25241,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -25276,7 +25276,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -25288,7 +25288,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip",
+        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -25317,7 +25317,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -25329,7 +25329,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat",
+        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -25346,7 +25346,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal",
+        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25387,7 +25387,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25399,19 +25399,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian",
+        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -25434,7 +25434,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25575,7 +25575,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -25838,7 +25838,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan",
+        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -25850,7 +25850,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25885,7 +25885,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25897,7 +25897,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi",
+        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -25944,7 +25944,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -25961,7 +25961,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -25985,7 +25985,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengabaikan unggahan tersebut karena dianggap hanya dinamika kebebasan berpendapat di internet",
+        "teks": "Mengabaikan unggahan tersebut karena dianggap hanya dinamika kebebasan berpendapat di internet sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -26020,7 +26020,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -26055,7 +26055,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -26090,7 +26090,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26125,13 +26125,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26143,13 +26143,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -26166,7 +26166,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -26207,7 +26207,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas",
+        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -26254,25 +26254,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -26289,7 +26289,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -26301,19 +26301,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -26336,7 +26336,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut",
+        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -26377,7 +26377,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26389,7 +26389,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -26412,7 +26412,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -26424,7 +26424,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26453,7 +26453,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -26465,19 +26465,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -26500,7 +26500,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip",
+        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -26518,7 +26518,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -26547,7 +26547,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah",
+        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -26594,7 +26594,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara",
+        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26670,7 +26670,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26699,7 +26699,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -26723,7 +26723,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -27068,13 +27068,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -27086,7 +27086,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -27109,13 +27109,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengabaikan unggahan tersebut karena dianggap hanya dinamika kebebasan berpendapat di internet",
+        "teks": "Mengabaikan unggahan tersebut karena dianggap hanya dinamika kebebasan berpendapat di internet sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -27150,7 +27150,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -27168,7 +27168,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -27197,7 +27197,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27209,7 +27209,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -27238,7 +27238,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu",
+        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -27285,7 +27285,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -27314,7 +27314,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27361,7 +27361,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -27396,13 +27396,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -27420,7 +27420,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -27437,13 +27437,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -27478,13 +27478,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -27496,13 +27496,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -27519,19 +27519,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -27543,7 +27543,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -27560,13 +27560,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -27584,7 +27584,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -27601,7 +27601,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -27613,7 +27613,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27625,7 +27625,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -27642,7 +27642,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27654,7 +27654,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -27666,7 +27666,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -27730,19 +27730,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -27771,13 +27771,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27871,7 +27871,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi",
+        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -27888,7 +27888,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27947,7 +27947,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara",
+        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -27982,7 +27982,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28011,7 +28011,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28345,7 +28345,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -28363,7 +28363,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -28386,7 +28386,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi",
+        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28445,7 +28445,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media",
+        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -28544,7 +28544,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -28603,13 +28603,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -28644,13 +28644,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif",
+        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -28667,19 +28667,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -28714,7 +28714,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -28749,7 +28749,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta rekan kerja lain menandatangani berita acara tersebut agar nama Anda tidak tercantum",
+        "teks": "Meminta rekan kerja lain menandatangani berita acara tersebut agar nama Anda tidak tercantum sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -28790,13 +28790,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip",
+        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -28855,7 +28855,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut",
+        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -28872,13 +28872,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28890,13 +28890,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -28913,7 +28913,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -28931,7 +28931,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -28966,7 +28966,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -29001,7 +29001,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -29042,7 +29042,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah",
+        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -29077,7 +29077,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan seluruh proses pembahasan anggaran ke pertemuan tertutup di luar gedung resmi",
+        "teks": "Mengalihkan seluruh proses pembahasan anggaran ke pertemuan tertutup di luar gedung resmi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -29130,7 +29130,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29218,7 +29218,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal",
+        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -29528,7 +29528,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -29540,13 +29540,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -29569,7 +29569,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah",
+        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29628,7 +29628,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -29675,7 +29675,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik",
+        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -29704,7 +29704,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -29733,7 +29733,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29757,7 +29757,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi",
+        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -29774,19 +29774,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -29798,7 +29798,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -29815,7 +29815,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -29827,19 +29827,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -29862,7 +29862,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi",
+        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -29897,7 +29897,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -29909,7 +29909,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah",
+        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -29938,7 +29938,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -29950,19 +29950,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -30003,7 +30003,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas",
+        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -30038,7 +30038,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -30061,7 +30061,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -30073,13 +30073,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -30114,7 +30114,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah",
+        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -30143,19 +30143,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -30167,7 +30167,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -30208,7 +30208,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -30249,7 +30249,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -30278,7 +30278,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah",
+        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -30348,7 +30348,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD",
+        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -30413,7 +30413,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -30758,13 +30758,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -30817,7 +30817,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -30840,7 +30840,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -30852,13 +30852,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -30893,7 +30893,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -30928,7 +30928,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan",
+        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -30975,7 +30975,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -30987,7 +30987,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -31004,25 +31004,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -31045,19 +31045,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -31069,7 +31069,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -31086,13 +31086,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -31104,13 +31104,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -31127,19 +31127,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -31151,7 +31151,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -31168,13 +31168,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31186,13 +31186,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -31227,7 +31227,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta rekan kerja lain menandatangani berita acara tersebut agar nama Anda tidak tercantum",
+        "teks": "Meminta rekan kerja lain menandatangani berita acara tersebut agar nama Anda tidak tercantum dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -31250,19 +31250,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -31274,7 +31274,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -31291,7 +31291,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan",
+        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -31303,13 +31303,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31338,7 +31338,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -31391,7 +31391,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -31414,7 +31414,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -31455,13 +31455,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -31473,13 +31473,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -31496,7 +31496,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31508,13 +31508,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -31543,7 +31543,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal",
+        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -31596,7 +31596,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pengelolaan pasar tradisional, pariwisata daerah, dan persampahan kota",
+        "teks": "Pengelolaan pasar tradisional, pariwisata daerah, dan persampahan kota agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -31631,7 +31631,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -31643,7 +31643,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -31660,7 +31660,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -32000,7 +32000,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32029,7 +32029,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32070,19 +32070,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -32158,7 +32158,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -32193,7 +32193,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -32205,7 +32205,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -32234,25 +32234,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -32275,13 +32275,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -32293,13 +32293,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -32316,13 +32316,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -32334,13 +32334,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -32363,7 +32363,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -32398,7 +32398,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32451,13 +32451,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32480,7 +32480,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip",
+        "teks": "Membeli perlengkapan seragam lapangan bergaya militer untuk dipakai saat bekerja di ruang arsip agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -32492,7 +32492,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -32521,7 +32521,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -32545,7 +32545,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat",
+        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -32562,19 +32562,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -32586,7 +32586,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -32603,13 +32603,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -32621,13 +32621,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -32650,7 +32650,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -32662,7 +32662,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32685,13 +32685,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32726,7 +32726,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah",
+        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -32785,7 +32785,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32814,7 +32814,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -32908,7 +32908,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -32931,7 +32931,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -33224,7 +33224,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33265,7 +33265,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33306,13 +33306,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33353,19 +33353,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -33382,13 +33382,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -33423,7 +33423,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -33447,7 +33447,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -33505,13 +33505,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -33523,13 +33523,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -33558,7 +33558,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33570,7 +33570,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -33611,7 +33611,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas",
+        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -33628,7 +33628,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -33646,13 +33646,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -33687,13 +33687,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -33751,13 +33751,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -33769,7 +33769,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -33810,7 +33810,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah",
+        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -33833,13 +33833,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33857,7 +33857,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai",
+        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -33880,13 +33880,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -33898,7 +33898,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -33933,13 +33933,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -34021,7 +34021,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -34144,7 +34144,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang",
+        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -34448,7 +34448,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34472,7 +34472,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -34542,19 +34542,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -34595,7 +34595,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mewajibkan peserta mengenakan pakaian adat tanpa memperhatikan konsep acara yang dirancang",
+        "teks": "Mewajibkan peserta mengenakan pakaian adat tanpa memperhatikan konsep acara yang dirancang demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -34630,7 +34630,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri",
+        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -34700,25 +34700,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -34747,7 +34747,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -34776,13 +34776,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -34800,7 +34800,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -34817,19 +34817,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -34841,7 +34841,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -34858,7 +34858,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -34876,7 +34876,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi",
+        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -34905,25 +34905,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -34940,19 +34940,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -34964,7 +34964,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -34981,7 +34981,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah",
+        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -35022,13 +35022,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35075,7 +35075,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -35087,7 +35087,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -35104,7 +35104,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35128,7 +35128,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -35163,13 +35163,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -35210,7 +35210,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -35227,7 +35227,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -35309,7 +35309,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah",
+        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -35725,13 +35725,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35778,7 +35778,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -35801,7 +35801,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -35819,13 +35819,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -35848,7 +35848,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -35889,7 +35889,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -35924,7 +35924,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -35936,19 +35936,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       }
@@ -35965,7 +35965,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -35977,19 +35977,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -36018,7 +36018,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -36047,19 +36047,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -36071,7 +36071,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -36100,7 +36100,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -36129,19 +36129,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36153,7 +36153,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -36170,13 +36170,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan",
+        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36194,7 +36194,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -36211,25 +36211,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36252,7 +36252,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36276,7 +36276,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -36293,7 +36293,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -36305,19 +36305,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -36334,7 +36334,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -36346,19 +36346,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -36375,7 +36375,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36399,7 +36399,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -36440,7 +36440,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah",
+        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -36457,19 +36457,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -36557,7 +36557,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36598,7 +36598,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah",
+        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -36627,7 +36627,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36639,7 +36639,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -36914,7 +36914,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -36967,7 +36967,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri",
+        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -36990,13 +36990,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi",
+        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -37037,7 +37037,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -37090,7 +37090,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -37160,7 +37160,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -37201,25 +37201,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -37260,7 +37260,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -37277,13 +37277,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -37295,13 +37295,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -37330,7 +37330,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -37359,7 +37359,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -37371,13 +37371,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -37400,13 +37400,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -37441,7 +37441,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -37465,7 +37465,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -37488,19 +37488,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -37523,7 +37523,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       },
@@ -37535,13 +37535,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -37564,13 +37564,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -37605,13 +37605,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -37646,13 +37646,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -37670,7 +37670,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -37711,7 +37711,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -37734,19 +37734,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -37775,13 +37775,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -37793,7 +37793,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -37822,19 +37822,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -37857,7 +37857,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38138,7 +38138,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah",
+        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38179,7 +38179,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38220,7 +38220,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan",
+        "teks": "Memindahkan seluruh kegiatan budaya ke luar wilayah kabupaten agar tidak memicu gesekan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -38267,7 +38267,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -38285,7 +38285,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -38302,7 +38302,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi",
+        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38349,7 +38349,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -38384,13 +38384,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -38402,7 +38402,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -38425,7 +38425,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -38466,7 +38466,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga",
+        "teks": "Menunda verifikasi seluruh daftar penerima di kelurahan tersebut agar tidak memicu konflik keluarga dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -38478,7 +38478,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38513,7 +38513,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -38548,7 +38548,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -38589,7 +38589,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38601,19 +38601,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -38630,7 +38630,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -38642,19 +38642,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -38683,19 +38683,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -38712,25 +38712,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -38759,13 +38759,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -38777,7 +38777,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -38794,13 +38794,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -38835,19 +38835,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -38859,7 +38859,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -38876,7 +38876,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -38888,13 +38888,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -38935,7 +38935,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah",
+        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -39005,7 +39005,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -39046,7 +39046,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -39087,13 +39087,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -39105,7 +39105,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -39368,13 +39368,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39409,7 +39409,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -39421,13 +39421,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -39450,7 +39450,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39468,7 +39468,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -39515,7 +39515,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk",
+        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -39544,7 +39544,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan",
+        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -39585,7 +39585,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39614,7 +39614,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -39626,19 +39626,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -39655,25 +39655,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -39702,7 +39702,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -39737,13 +39737,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -39755,13 +39755,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -39778,7 +39778,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -39825,19 +39825,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -39860,7 +39860,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -39872,7 +39872,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -39907,7 +39907,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut",
+        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -39948,25 +39948,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -39983,13 +39983,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -40001,13 +40001,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -40024,25 +40024,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -40071,13 +40071,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -40106,7 +40106,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah",
+        "teks": "Pelayanan publik diprioritaskan bagi kelompok penduduk yang jumlahnya paling dominan di daerah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -40147,19 +40147,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian",
+        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -40171,7 +40171,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -40206,7 +40206,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal",
+        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40253,7 +40253,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal",
+        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -40323,7 +40323,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang",
+        "teks": "Sejajar dengan Undang-Undang dan Peraturan Pemerintah Pengganti Undang-Undang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -40598,7 +40598,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -40610,13 +40610,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -40686,7 +40686,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40698,7 +40698,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan",
+        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -40739,7 +40739,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -40774,7 +40774,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan",
+        "teks": "Mengurangi jatah anggaran semua kecamatan secara merata tanpa mempertimbangkan tingkat kebutuhan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -40844,19 +40844,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -40868,7 +40868,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -40897,7 +40897,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem",
+        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -40926,7 +40926,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -40950,7 +40950,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain",
+        "teks": "Menghubungi kerabat agar tetap menerima bantuan lalu menyalurkannya secara diam-diam ke pihak lain sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -40967,7 +40967,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -41008,25 +41008,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -41049,7 +41049,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi",
+        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -41067,7 +41067,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -41114,7 +41114,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -41131,19 +41131,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41172,13 +41172,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41213,19 +41213,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -41254,13 +41254,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41301,19 +41301,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -41342,7 +41342,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41471,7 +41471,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41828,7 +41828,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk",
+        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -41869,7 +41869,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -41881,7 +41881,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -41893,7 +41893,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -41910,13 +41910,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -41934,7 +41934,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -41951,7 +41951,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -41969,13 +41969,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -42016,7 +42016,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -42045,7 +42045,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media",
+        "teks": "Menutup pasar tradisional sementara waktu agar antrean pembeli tidak terekam media dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -42080,7 +42080,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -42115,19 +42115,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42139,7 +42139,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -42156,7 +42156,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -42168,19 +42168,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -42197,25 +42197,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -42262,7 +42262,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -42291,7 +42291,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42303,7 +42303,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -42320,7 +42320,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42361,7 +42361,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42385,7 +42385,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -42402,7 +42402,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -42414,19 +42414,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -42443,7 +42443,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42467,7 +42467,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -42484,13 +42484,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri",
+        "teks": "Membiarkan klaim tersebut karena dianggap sebagai bentuk promosi gratis budaya daerah di luar negeri dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -42502,7 +42502,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42525,7 +42525,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -42537,19 +42537,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -42566,7 +42566,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42607,13 +42607,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -42625,13 +42625,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian",
+        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -42672,7 +42672,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD)",
+        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -42713,7 +42713,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -42777,7 +42777,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43058,7 +43058,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -43099,7 +43099,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -43123,7 +43123,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -43152,7 +43152,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43199,7 +43199,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -43228,7 +43228,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk",
+        "teks": "Mewajibkan hafalan biografi pahlawan sebagai syarat pembuatan kartu identitas penduduk demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43304,7 +43304,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43316,19 +43316,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -43345,7 +43345,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43363,7 +43363,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi",
+        "teks": "Menyarankan teman tersebut mengambil data langsung saat jam istirahat ketika ruang server sepi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -43386,25 +43386,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43427,13 +43427,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -43474,25 +43474,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -43527,7 +43527,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem",
+        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -43556,25 +43556,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -43597,7 +43597,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -43609,13 +43609,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -43632,7 +43632,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -43644,7 +43644,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -43656,7 +43656,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -43679,13 +43679,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -43697,7 +43697,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -43714,25 +43714,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -43755,7 +43755,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -43773,13 +43773,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -43843,7 +43843,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -43931,7 +43931,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -43960,7 +43960,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44312,7 +44312,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -44388,7 +44388,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -44417,13 +44417,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional",
+        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -44435,7 +44435,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -44452,13 +44452,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -44470,7 +44470,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -44499,7 +44499,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri",
+        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -44599,7 +44599,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -44657,7 +44657,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -44675,7 +44675,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44716,7 +44716,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -44739,7 +44739,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah",
+        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -44757,7 +44757,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44780,19 +44780,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44804,7 +44804,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -44827,7 +44827,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44845,7 +44845,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       }
@@ -44862,25 +44862,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44909,7 +44909,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -44921,13 +44921,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -44968,7 +44968,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah",
+        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -44985,7 +44985,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -44997,13 +44997,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan",
+        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -45073,7 +45073,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah",
+        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -45120,7 +45120,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD",
+        "teks": "Meminta kepala daerah menetapkan anggaran sepihak tanpa melibatkan pembahasan bersama DPRD demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -45149,7 +45149,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45530,7 +45530,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung",
+        "teks": "Menyimpan seluruh arsip perjuangan daerah di gudang tertutup agar tidak rusak disentuh pengunjung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -45565,25 +45565,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -45600,13 +45600,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -45641,7 +45641,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45706,7 +45706,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai",
+        "teks": "Mengalihkan anggaran wilayah kepulauan ke program seremonial kota agar realisasi cepat tercapai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -45723,19 +45723,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -45747,7 +45747,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -45788,7 +45788,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem",
+        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -45811,25 +45811,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -45846,7 +45846,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -45858,19 +45858,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -45887,13 +45887,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -45905,13 +45905,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -45940,13 +45940,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi",
+        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -45969,7 +45969,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46010,7 +46010,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46051,25 +46051,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -46098,7 +46098,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat",
+        "teks": "Membuat spanduk slogan bela negara berukuran besar tanpa memperbaiki kecepatan layanan masyarakat agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -46110,7 +46110,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -46139,7 +46139,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46157,7 +46157,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       }
@@ -46174,13 +46174,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -46192,13 +46192,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -46215,19 +46215,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -46239,7 +46239,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -46309,7 +46309,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46338,7 +46338,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46444,7 +46444,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -46461,7 +46461,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal",
+        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -46748,7 +46748,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -46760,13 +46760,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -46836,7 +46836,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu",
+        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -46924,7 +46924,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -46953,7 +46953,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -46977,7 +46977,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan sepenuhnya keputusan pemilihan vendor kepada pihak penyedia jasa konsultansi",
+        "teks": "Menyerahkan sepenuhnya keputusan pemilihan vendor kepada pihak penyedia jasa konsultansi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -46994,7 +46994,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -47035,13 +47035,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -47053,7 +47053,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -47076,19 +47076,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -47100,7 +47100,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -47135,7 +47135,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -47158,7 +47158,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -47170,19 +47170,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -47205,13 +47205,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah",
+        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -47240,7 +47240,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -47252,7 +47252,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47264,7 +47264,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -47287,13 +47287,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -47305,7 +47305,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -47322,19 +47322,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -47363,13 +47363,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47381,7 +47381,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -47404,13 +47404,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -47428,7 +47428,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -47457,7 +47457,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -47504,7 +47504,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah",
+        "teks": "Otoritas Jasa Keuangan (OJK) bekerja sama dengan Bank Indonesia daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47527,7 +47527,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi",
+        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -47633,7 +47633,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -47668,7 +47668,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -47984,7 +47984,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi",
+        "teks": "Membalas komentar akun anonim tersebut dengan perdebatan terbuka agar publik melihat pembelaan instansi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -47996,7 +47996,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48066,7 +48066,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu",
+        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -48160,7 +48160,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu",
+        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -48201,7 +48201,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan",
+        "teks": "Menunggu arahan langsung dari pimpinan pusat tanpa menyampaikan kondisi ketimpangan lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -48236,7 +48236,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi",
+        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -48265,19 +48265,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -48306,25 +48306,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -48347,25 +48347,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -48388,13 +48388,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48406,13 +48406,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -48429,7 +48429,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi",
+        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -48447,7 +48447,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -48476,7 +48476,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali",
+        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -48517,13 +48517,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -48535,7 +48535,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -48558,7 +48558,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -48570,13 +48570,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -48599,7 +48599,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah",
+        "teks": "Menghapus log aktivitas sistem agar insiden peretasan tidak diketahui oleh inspektorat daerah dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -48640,13 +48640,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -48658,7 +48658,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -48675,13 +48675,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -48699,7 +48699,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai",
+        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -48757,13 +48757,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -48781,7 +48781,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -48816,7 +48816,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal",
+        "teks": "Pembangunan jalan penghubung antardesa dan perizinan usaha mikro lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -48857,7 +48857,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional",
+        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -48886,7 +48886,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal",
+        "teks": "Inspektorat Jenderal Kementerian Dalam Negeri sebagai pengawas tunggal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -48927,7 +48927,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49249,19 +49249,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -49302,7 +49302,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -49343,7 +49343,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49472,7 +49472,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -49513,7 +49513,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya",
+        "teks": "Mengubah tanggal sebagian dokumen saja agar denda keterlambatan vendor berkurang setengahnya sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -49536,19 +49536,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -49560,7 +49560,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -49577,7 +49577,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -49589,19 +49589,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -49618,13 +49618,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -49636,13 +49636,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -49665,25 +49665,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -49700,13 +49700,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -49718,13 +49718,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -49747,19 +49747,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -49788,7 +49788,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49800,13 +49800,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -49829,7 +49829,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -49841,13 +49841,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -49870,13 +49870,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -49888,7 +49888,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -49905,19 +49905,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -49958,7 +49958,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50052,7 +50052,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -50087,7 +50087,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan",
+        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -50134,7 +50134,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -50151,7 +50151,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan",
+        "teks": "Komisi Pemberantasan Korupsi (KPK) sebagai auditor laporan keuangan tahunan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50444,7 +50444,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50456,7 +50456,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -50479,7 +50479,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -50491,7 +50491,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -50503,7 +50503,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -50520,7 +50520,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik",
+        "teks": "Membatalkan izin penyelenggaraan festival karena tidak seratus persen menampilkan kesenian klasik sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -50620,7 +50620,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -50655,7 +50655,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50690,13 +50690,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -50731,25 +50731,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -50766,25 +50766,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -50831,7 +50831,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -50848,7 +50848,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -50860,19 +50860,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -50889,25 +50889,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -50936,7 +50936,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -50971,13 +50971,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -50995,7 +50995,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       }
@@ -51012,7 +51012,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -51030,13 +51030,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -51053,19 +51053,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -51077,7 +51077,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -51094,19 +51094,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -51118,7 +51118,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -51135,7 +51135,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -51153,7 +51153,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung",
+        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -51200,7 +51200,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan",
+        "teks": "Keberagaman budaya hanya ditampilkan pada acara wisata tanpa perlu dipertimbangkan dalam kebijakan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -51229,7 +51229,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi",
+        "teks": "Langsung mengambil suara terbanyak sejak menit pertama rapat tanpa membuka ruang diskusi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -51393,7 +51393,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -51668,7 +51668,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51692,7 +51692,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -51733,7 +51733,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -51768,7 +51768,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara",
+        "teks": "Melarang seluruh perayaan terbuka di ruang publik demi menjaga ketertiban umum sementara sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -51791,13 +51791,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -51815,7 +51815,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional",
+        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -51832,7 +51832,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah",
+        "teks": "Mengurangi jam pelajaran teknologi informasi dan menggantinya dengan ceramah sejarah satu arah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -51873,7 +51873,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -51914,19 +51914,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain",
+        "teks": "Memberikan kisi-kisi khusus kepada pejabat tersebut dengan syarat tidak disebarkan ke pihak lain demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung",
+        "teks": "Membagikan materi soal lama yang sudah dimodifikasi sedikit agar atasan tidak tersinggung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja",
+        "teks": "Mengundurkan diri dari panitia seleksi secara mendadak tanpa menyerahkan laporan kerja agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -51938,7 +51938,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis",
+        "teks": "Memberikan contoh soal yang mirip persis secara lisan tanpa menyerahkan dokumen tertulis demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -51955,13 +51955,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -51973,13 +51973,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -52002,25 +52002,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -52037,7 +52037,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -52049,19 +52049,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -52078,13 +52078,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -52096,13 +52096,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -52131,7 +52131,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52143,7 +52143,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat",
+        "teks": "Meloloskan nama kerabat tersebut karena sudah terlanjur diusulkan oleh pengurus lingkungan setempat dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -52166,7 +52166,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet",
+        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -52201,13 +52201,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar",
+        "teks": "Mengganti motif tenun tradisional dengan desain baru agar tidak lagi diperdebatkan pihak luar sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -52219,7 +52219,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52260,7 +52260,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi",
+        "teks": "Mengunggah ulang kabar bohong tersebut dengan tanda tanya di akun pribadi untuk memancing diskusi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -52283,7 +52283,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -52295,7 +52295,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -52307,7 +52307,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -52324,7 +52324,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -52336,13 +52336,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -52371,25 +52371,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -52406,7 +52406,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52418,13 +52418,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -52465,7 +52465,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran",
+        "teks": "Pelestarian kesenian daerah, perpustakaan kabupaten, dan pemadam kebakaran demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52488,25 +52488,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian",
+        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -52541,7 +52541,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52576,7 +52576,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -52588,13 +52588,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -52617,7 +52617,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -52910,13 +52910,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -52951,7 +52951,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -52980,13 +52980,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -53027,7 +53027,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -53039,7 +53039,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53086,7 +53086,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -53115,7 +53115,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi",
+        "teks": "Membiarkan setiap unit berjalan terpisah asalkan laporan administrasi tertulisnya tampak rapi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53144,19 +53144,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53168,7 +53168,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -53185,19 +53185,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -53209,7 +53209,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -53226,25 +53226,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -53267,7 +53267,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -53279,19 +53279,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -53308,7 +53308,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi",
+        "teks": "Mengeluarkan nama kerabat secara lisan tanpa mencatat alasan perubahan pada sistem verifikasi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53373,7 +53373,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem",
+        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -53390,13 +53390,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -53414,7 +53414,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -53437,7 +53437,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53449,7 +53449,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -53472,25 +53472,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -53513,25 +53513,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor",
+        "teks": "Menolak penugasan lapangan karena uraian tugas resmi hanya mengatur pekerjaan administratif di kantor sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu",
+        "teks": "Mengutamakan pembagian logistik darurat untuk lingkungan tempat tinggal keluarga sendiri terlebih dahulu demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih",
+        "teks": "Mengajukan cuti tahunan lebih awal hingga situasi darurat kesehatan di daerah benar-benar pulih demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan",
+        "teks": "Membatasi jam kerja posko darurat menjadi empat jam per hari agar staf tidak kelelahan dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -53560,7 +53560,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet",
+        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -53601,25 +53601,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -53636,7 +53636,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD)",
+        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -53736,7 +53736,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -53783,7 +53783,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -53818,7 +53818,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional",
+        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -53841,7 +53841,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54128,7 +54128,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -54140,13 +54140,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -54169,13 +54169,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54222,7 +54222,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu",
+        "teks": "Menyetujui penghapusan seni lokal asalkan panitia menyetor retribusi daerah tepat waktu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -54251,25 +54251,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -54316,7 +54316,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri",
+        "teks": "Menyerahkan pengelolaan panggung budaya sepenuhnya kepada sponsor produk komersial luar negeri demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -54351,7 +54351,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu",
+        "teks": "Melaporkan unit lain secara sepihak tanpa mencoba merumuskan mekanisme kerja terpadu agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -54374,19 +54374,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -54398,7 +54398,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       }
@@ -54462,7 +54462,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas",
+        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -54509,13 +54509,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah",
+        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54544,25 +54544,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -54579,13 +54579,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -54597,13 +54597,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -54644,7 +54644,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -54667,19 +54667,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai",
+        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -54702,13 +54702,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54743,7 +54743,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -54755,7 +54755,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung",
+        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -54790,13 +54790,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54808,7 +54808,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -54825,25 +54825,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja",
+        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -54872,7 +54872,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten",
+        "teks": "Pendidikan dasar, kesehatan masyarakat, dan penataan ruang wilayah kabupaten demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54907,7 +54907,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -54972,7 +54972,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -55007,7 +55007,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional",
+        "teks": "Setiap daerah berhak membuat aturan kewarganegaraan sendiri yang terpisah dari hukum nasional agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -55077,7 +55077,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55358,7 +55358,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -55370,7 +55370,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55417,7 +55417,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -55452,13 +55452,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -55505,7 +55505,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -55534,7 +55534,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah",
+        "teks": "Membiarkan harga melonjak sesuai mekanisme pasar bebas tanpa intervensi pemerintah daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -55569,7 +55569,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -55587,7 +55587,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -55628,7 +55628,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas",
+        "teks": "Menyimpan selisih dana tersebut sebagai kompensasi waktu lembur selama perjalanan dinas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -55645,7 +55645,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -55657,7 +55657,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyimpan voucher tersebut dan baru menggunakannya setelah kontrak proyek selesai ditandatangani",
+        "teks": "Menyimpan voucher tersebut dan baru menggunakannya setelah kontrak proyek selesai ditandatangani demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -55686,7 +55686,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -55698,19 +55698,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -55727,7 +55727,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -55739,19 +55739,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -55768,7 +55768,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi",
+        "teks": "Menerima parsel untuk dibagikan kepada seluruh staf kantor agar tidak dinikmati secara pribadi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -55792,7 +55792,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -55815,25 +55815,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -55850,7 +55850,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -55891,19 +55891,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -55915,7 +55915,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -55932,13 +55932,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja",
+        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -55950,13 +55950,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -55973,7 +55973,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -55997,7 +55997,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung",
+        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -56026,13 +56026,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -56055,19 +56055,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -56079,7 +56079,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -56114,7 +56114,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56178,7 +56178,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen",
+        "teks": "Membekukan seluruh gaji pegawai daerah agar semua fraksi segera menandatangani dokumen dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -56243,7 +56243,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -56260,7 +56260,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara",
+        "teks": "Kementerian Keuangan melalui Direktorat Jenderal Perbendaharaan Negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56319,7 +56319,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56629,13 +56629,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -56647,7 +56647,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -56717,13 +56717,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -56735,7 +56735,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -56758,7 +56758,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mewajibkan peserta mengenakan pakaian adat tanpa memperhatikan konsep acara yang dirancang",
+        "teks": "Mewajibkan peserta mengenakan pakaian adat tanpa memperhatikan konsep acara yang dirancang demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -56805,7 +56805,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif",
+        "teks": "Menunda seluruh pengadaan hingga tahun anggaran berikutnya tanpa mencari alternatif demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -56858,7 +56858,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem",
+        "teks": "Menunda penerbitan berita acara hingga akhir tahun agar keterlambatan tidak tercatat di sistem sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -56881,13 +56881,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah",
+        "teks": "Memberikan sebagian data yang dianggap kurang sensitif asalkan tidak mencantumkan alamat rumah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -56922,13 +56922,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif",
+        "teks": "Menerima pemberian tersebut sebagai bentuk penghargaan silaturahmi selama nilai laporan tetap objektif agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -56981,7 +56981,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan",
+        "teks": "Mengikuti perintah atasan demi menjaga keharmonisan kerja asalkan atasan menandatangani surat jaminan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -56998,7 +56998,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -57010,13 +57010,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -57045,25 +57045,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -57086,19 +57086,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -57127,7 +57127,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara",
+        "teks": "Meminta perajin menyembunyikan teknik pewarnaan alami secara tertutup tanpa pencatatan negara demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -57145,7 +57145,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah",
+        "teks": "Melarang wisatawan asing membeli kain tenun tradisional di seluruh sentra kerajinan daerah agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -57168,25 +57168,25 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -57203,19 +57203,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja",
+        "teks": "Mengabaikan pesan berantai tersebut karena dianggap sekadar perbedaan pandangan pribadi di luar jam kerja dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -57227,7 +57227,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -57250,13 +57250,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar",
+        "teks": "Mengamankan barang pribadi terlebih dahulu dan meninggalkan seluruh arsip fisik di lantai dasar demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57303,7 +57303,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut",
+        "teks": "Mematikan seluruh pemancar radio lokal agar warga tidak lagi membicarakan isu tersebut sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -57326,7 +57326,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -57338,7 +57338,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57350,7 +57350,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -57373,7 +57373,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -57432,7 +57432,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -57467,7 +57467,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57531,7 +57531,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -57830,7 +57830,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan",
+        "teks": "Melarang pemutaran film asing di seluruh ruang publik kabupaten selama bulan kemerdekaan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -57865,7 +57865,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -57900,13 +57900,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
@@ -57924,7 +57924,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -57941,13 +57941,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -57965,7 +57965,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -57982,7 +57982,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -57994,19 +57994,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen",
+        "teks": "Menghentikan seluruh perbaikan infrastruktur publik sampai tingkat kepatuhan pajak mencapai seratus persen sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -58088,7 +58088,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -58105,19 +58105,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -58129,7 +58129,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -58170,7 +58170,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -58187,19 +58187,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -58211,7 +58211,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -58228,7 +58228,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -58240,19 +58240,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       }
@@ -58269,7 +58269,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka",
+        "teks": "Menghapus bagian lampiran data mentah agar auditor eksternal tidak menemukan perbedaan angka sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -58281,19 +58281,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       }
@@ -58310,13 +58310,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -58351,7 +58351,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan",
+        "teks": "Mengajak pegawai lain mengucilkan pegawai baru tersebut tanpa pernah melaporkan ke pimpinan demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -58363,7 +58363,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan",
+        "teks": "Menghapus pegawai tersebut dari seluruh grup kerja secara sepihak tanpa prosedur pembinaan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -58375,7 +58375,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu",
+        "teks": "Membalas pesan tersebut dengan cacian di grup kantor agar yang bersangkutan merasa malu sebagai langkah antisipasi terhadap potensi konflik yang lebih besar",
         "benar": false,
         "poin": 0
       }
@@ -58392,7 +58392,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah",
+        "teks": "Menutup seluruh usaha mikro warga secara permanen tanpa memberikan pendampingan pengolahan limbah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58404,7 +58404,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan",
+        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -58416,7 +58416,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -58439,7 +58439,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun",
+        "teks": "Menunggu isu mereda dengan sendirinya selama beberapa pekan tanpa pernyataan resmi apa pun agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -58486,7 +58486,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber",
+        "teks": "Mematikan seluruh komputer kantor selama satu pekan tanpa melaporkan insiden ke tim keamanan siber demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -58521,13 +58521,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen",
+        "teks": "Menunggu instruksi tertulis resmi turun meski air sudah mulai memasuki ruang penyimpanan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari",
+        "teks": "Menghentikan seluruh layanan darurat warga hingga kondisi cuaca dinyatakan cerah selama tiga hari agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -58556,7 +58556,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien",
+        "teks": "Seluruh adat istiadat daerah harus diseragamkan menjadi satu budaya nasional tunggal agar efisien sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -58662,7 +58662,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara",
+        "teks": "Mahkamah Agung (MA) melalui putusan kasasi tata usaha negara demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -58679,7 +58679,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -58691,19 +58691,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian",
+        "teks": "Mengubah redaksi pasal menjadi imbauan tidak tertulis agar tidak terdeteksi saat evaluasi kementerian sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       }
@@ -59048,7 +59048,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan",
+        "teks": "Membagi kontrak secara merata antara vendor impor dan lokal tanpa melihat mutu bahan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59060,7 +59060,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan",
+        "teks": "Mengikuti harga termurah demi mempercepat serapan anggaran dinas pada triwulan berjalan sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -59101,7 +59101,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas",
+        "teks": "Menunda seluruh program lintas instansi hingga ada pergantian pimpinan di tiap dinas agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -59130,13 +59130,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal",
+        "teks": "Meminta pegawai lain ikut menyebarkan tangkapan layar unggahan tersebut di grup internal demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan",
+        "teks": "Menutup sementara seluruh kolom komentar akun resmi pemerintah daerah selama enam bulan demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -59212,7 +59212,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan",
+        "teks": "Mendiamkan ajakan tersebut karena penagihan pajak dianggap tugas eksklusif petugas lapangan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59230,13 +59230,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku",
+        "teks": "Menjanjikan penghapusan sanksi pajak secara lisan di luar peraturan daerah yang berlaku agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten",
+        "teks": "Memblokir seluruh peserta grup warga dari layanan administrasi kependudukan kabupaten demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -59277,7 +59277,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali",
+        "teks": "Membeli stok untuk keperluan kantor terlebih dahulu sebelum harga semakin tidak terkendali demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -59306,7 +59306,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59335,7 +59335,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi",
+        "teks": "Meminta izin lisan kepada kepala seksi sebelum menyalin data warga ke perangkat pribadi agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -59347,7 +59347,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang",
+        "teks": "Menyerahkan data secara gratis sebagai bantuan pertemanan tanpa menerima komisi uang demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59376,7 +59376,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil",
+        "teks": "Ikut menitipkan absensi saat sedang terlambat agar perlakuan di dalam tim terasa adil dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -59388,19 +59388,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu",
+        "teks": "Membiarkan praktik tersebut selama pekerjaan harian tim masih selesai sebelum tenggat waktu agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral",
+        "teks": "Menyebarkan video rekaman kecurangan rekan tersebut ke media sosial agar segera viral sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan",
+        "teks": "Menegur petugas piket di depan umum tanpa pernah berbicara kepada rekan yang bersangkutan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -59441,7 +59441,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -59482,7 +59482,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi",
+        "teks": "Meminta pihak hotel menerbitkan kuitansi menginap fiktif agar laporan keuangan terlihat rapi sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -59499,19 +59499,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -59523,7 +59523,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -59558,7 +59558,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah",
+        "teks": "Menyalahkan media massa nasional dalam konferensi pers tanpa menunjukkan data peta wilayah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -59581,7 +59581,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen",
+        "teks": "Menyebarkan foto kerusakan gedung kantor di media sosial sebelum melakukan penyelamatan dokumen demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59622,7 +59622,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali",
+        "teks": "Membayar tebusan kepada peretas menggunakan kas operasional agar layanan segera aktif kembali dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -59687,7 +59687,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet",
+        "teks": "Mengunggah informasi celah keamanan sistem tersebut ke forum publik untuk meminta saran warganet agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -59710,7 +59710,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -59728,7 +59728,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung",
+        "teks": "Mengadakan upacara baris-berbaris setiap hari selama jam pelayanan loket warga berlangsung dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       }
@@ -59751,7 +59751,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59763,7 +59763,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -59810,7 +59810,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD)",
+        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -59868,7 +59868,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Persatuan Indonesia (Sila ke-3)",
+        "teks": "Persatuan Indonesia (Sila ke-3) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -59886,7 +59886,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
@@ -59909,7 +59909,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota",
+        "teks": "Keputusan Kepala Dinas teknis yang diterbitkan di tingkat kabupaten/kota agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -59974,7 +59974,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah",
+        "teks": "Peraturan Bupati/Wali Kota dan Peraturan Desa sebagai aturan pelaksana daerah demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -60278,7 +60278,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan",
+        "teks": "Menolak kehadiran tamu asing dalam forum daerah agar bahasa Indonesia tetap murni digunakan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -60296,7 +60296,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       },
@@ -60337,7 +60337,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi",
+        "teks": "Mengimbau masyarakat mengurangi konsumsi harian tanpa menertibkan rantai distribusi sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -60483,13 +60483,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula",
+        "teks": "Menghilangkan sesi paparan tertulis dan menggantinya dengan diskusi informal tanpa notula demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional",
+        "teks": "Menggunakan bahasa asing sepenuhnya pada seluruh slide dan pidato pembukaan demi prestise internasional sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
@@ -60501,7 +60501,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai",
+        "teks": "Mencampur bahasa asing dan bahasa daerah di setiap kalimat agar terdengar lebih santai sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -60524,19 +60524,19 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -60577,7 +60577,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui",
+        "teks": "Tetap melampirkan tagihan pemesanan awal karena pagu anggaran perjalanan dinas sudah disetujui sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -60606,25 +60606,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah",
+        "teks": "Mengajukan surat tugas fiktif akhir pekan agar penggunaan mobil dinas tetap tercatat sah sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten",
+        "teks": "Mengizinkan pemakaian mobil dinas hanya untuk jarak dekat di dalam wilayah kabupaten agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata",
+        "teks": "Memakai kendaraan dinas sambil melepas pelat nomor merah sementara selama perjalanan wisata demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi",
+        "teks": "Menggunakan kendaraan dinas asalkan seluruh biaya bahan bakar dan tol ditanggung dengan uang pribadi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -60647,7 +60647,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas",
+        "teks": "Mengikuti angka versi pimpinan supaya anggaran operasional tahun depan tidak dipangkas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -60659,7 +60659,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan",
+        "teks": "Membiarkan angka tersebut karena selisih 15% dianggap masih dalam batas toleransi pelaporan sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       },
@@ -60671,7 +60671,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri",
+        "teks": "Menandatangani laporan dengan catatan kecil di luar berkas resmi untuk melindungi diri sendiri agar citra instansi tetap terjaga di mata publik",
         "benar": false,
         "poin": 0
       }
@@ -60688,25 +60688,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat",
+        "teks": "Menerima amplop tersebut dan memasukkannya ke kotak kas sosial pegawai di ruang rapat demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan",
+        "teks": "Menyimpan amplop di laci meja untuk dikembalikan setelah berkas izin selesai dicetak minggu depan demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket",
+        "teks": "Menolak uang tunai tetapi meminta pemohon membelikan makan siang untuk staf loket agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas",
+        "teks": "Memproses berkas pemohon paling akhir sebagai hukuman karena mencoba menyuap petugas dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -60729,7 +60729,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi",
+        "teks": "Meminta kontraktor mengganti parsel dengan sumbangan dana kegiatan olahraga instansi demi efisiensi waktu dan anggaran yang tersedia",
         "benar": false,
         "poin": 0
       },
@@ -60782,7 +60782,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka",
+        "teks": "Menghentikan layanan publik setiap pekan untuk latihan fisik di lapangan terbuka agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
@@ -60817,7 +60817,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga",
+        "teks": "Menutup pos lintas batas tradisional selama satu bulan untuk memaksa perubahan kebiasaan warga demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -60835,7 +60835,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       }
@@ -60852,7 +60852,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar tidak terjadi kesalahpahaman di tengah masyarakat",
         "benar": false,
         "poin": 0
       },
@@ -60864,19 +60864,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       }
@@ -60893,13 +60893,13 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan",
+        "teks": "Menggunakan mata uang asing juga saat membeli kebutuhan operasional posko lapangan demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi",
+        "teks": "Melarang warga berbelanja kebutuhan pokok di pasar perbatasan tanpa menyediakan solusi transaksi demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
@@ -60917,7 +60917,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai",
+        "teks": "Membiarkan penggunaan mata uang asing secara bebas agar perputaran perdagangan perbatasan tetap ramai sebagai wujud ketegasan sikap aparatur",
         "benar": false,
         "poin": 0
       }
@@ -60940,19 +60940,19 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "B",
-        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit",
+        "teks": "Memindahkan saluran pembuangan limbah ke wilayah kecamatan tetangga yang penduduknya lebih sedikit demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai",
+        "teks": "Membagikan air kemasan sekali pakai setiap hari tanpa mengatasi sumber pencemaran sungai agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan",
+        "teks": "Membiarkan pembuangan limbah berlangsung agar pertumbuhan ekonomi warga tidak terganggu aturan dengan alasan menghemat anggaran daerah",
         "benar": false,
         "poin": 0
       },
@@ -60975,25 +60975,25 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru",
+        "teks": "Mengalihkan anggaran irigasi pertanian untuk pembangunan tugu ikon kota yang baru dengan pertimbangan menjaga kondusivitas situasi di lapangan",
         "benar": false,
         "poin": 0
       },
       {
         "label": "B",
-        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal",
+        "teks": "Mengandalkan impor beras secara penuh sejak awal tahun tanpa memberdayakan petani lokal demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "C",
-        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan",
+        "teks": "Menunggu bantuan logistik dari pemerintah pusat tanpa menyusun peta kerawanan pangan kecamatan agar tidak menimbulkan polemik",
         "benar": false,
         "poin": 0
       },
       {
         "label": "D",
-        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota",
+        "teks": "Menyimpan cadangan pangan pemerintah hanya untuk kalangan pegawai negeri di pusat kota agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -61057,7 +61057,7 @@ window.DATA_TWK_BATCH2 = [
     "opsi": [
       {
         "label": "A",
-        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu",
+        "teks": "Memindahkan kewenangan izin rumah ibadah sepenuhnya kepada organisasi masyarakat tertentu demi kelancaran kegiatan bersama",
         "benar": false,
         "poin": 0
       },
@@ -61075,13 +61075,13 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah",
+        "teks": "Menyetujui usulan tersebut sepanjang disepakati oleh suara terbanyak dalam rapat panitia khusus daerah demi stabilitas lingkungan setempat",
         "benar": false,
         "poin": 0
       },
       {
         "label": "E",
-        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak",
+        "teks": "Menyerahkan pengesahan pasal tersebut tanpa kajian hukum karena otonomi daerah bersifat mutlak sesuai kewenangan yang dimiliki",
         "benar": false,
         "poin": 0
       }
@@ -61157,7 +61157,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah",
+        "teks": "Hanya berada di bawah UUD 1945 tanpa terikat pada Peraturan Pemerintah agar kegiatan tetap berjalan lancar",
         "benar": false,
         "poin": 0
       },
@@ -61204,7 +61204,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "E",
-        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD)",
+        "teks": "Komisi Yudisial (KY) bersama Dewan Perwakilan Daerah (DPD) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       }
@@ -61239,7 +61239,7 @@ window.DATA_TWK_BATCH2 = [
       },
       {
         "label": "D",
-        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1)",
+        "teks": "Ketuhanan Yang Maha Esa (Sila ke-1) demi menjaga ketertiban",
         "benar": false,
         "poin": 0
       },
