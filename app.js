@@ -3344,13 +3344,13 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
     };
 
     const stepsHtml = parts.map((stepTxt, idx) => `
-        <div class="mentor-step-item" data-step-idx="${idx}" style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
+        <div class="mentor-step-item" data-step-idx="${idx}" style="${idx === 0 ? '' : 'display:none;'} background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:9px 11px; margin-bottom:6px; font-size:0.83rem; color:#1e293b; line-height:1.55;">
             <span style="display:inline-block; font-size:0.7rem; font-weight:800; color:#1d4ed8; background:#eff6ff; padding:2px 8px; border-radius:999px; margin-right:6px;">Langkah ${idx + 1} • ${getStepTitle(idx, parts.length)}</span>
             ${escapeHtmlMentor(stepTxt)}
         </div>
     `).join('');
 
-    const hasMoreSteps = false;
+    const hasMoreSteps = parts.length > 1;
     const visualHtml = buildMentorVisualHtml(q);
     const gotPoin = meta.gotPoin !== undefined ? Number(meta.gotPoin) : 0;
     const maxPoin = meta.maxPoin !== undefined ? Number(meta.maxPoin) : 5;
