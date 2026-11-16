@@ -359,6 +359,8 @@ window.switchAppView = (viewName) => {
         if (typeof window.renderArenaLeaderboardHistory === 'function') window.renderArenaLeaderboardHistory();
     } else if (viewName === 'studi') {
         if (typeof window.syncPusatStudiButtons === 'function') window.syncPusatStudiButtons();
+    } else if (viewName === 'diskusi') {
+        if (typeof window.loadRiwayatPengaduanSaya === 'function') window.loadRiwayatPengaduanSaya();
     }
 };
 
@@ -665,30 +667,100 @@ window.adminSimpanPengaturan = async () => {
     }
 };
 
-window.kirimPesanDiskusi = (e) => {
-    e.preventDefault();
-    const input = document.getElementById('chatInputText');
-    const box = document.getElementById('chatMessagesBox');
-    if (!input || !box) return;
-    const text = input.value.trim();
-    if (!text) return;
+window.kirimPengaduanPeserta = async (e) => {
+    if (e && e.preventDefault) e.preventDefault();
+    if (!window.currentUser) {
+        return Swal.fire('Perlu Login', 'Silakan login dengan akun Google terlebih dahulu untuk mengirim pengaduan.', 'info');
+    }
 
-    const user = window.currentUser;
-    const nama = user && user.displayName ? user.displayName.split(' ')[0] : 'Pejuang ASN';
-    const initial = nama.charAt(0).toUpperCase();
+    const kat = (document.getElementById('pengaduanKategoriSelect')?.value || 'Informasi Umum & Saran').trim();
+    const subjek = (document.getElementById('pengaduanSubjekInput')?.value || '').trim();
+    const pesan = (document.getElementById('pengaduanPesanInput')?.value || '').trim();
 
-    const msgEl = document.createElement('div');
-    msgEl.className = 'chat-msg mine';
-    msgEl.innerHTML = `
-        <div class="chat-avatar">${initial}</div>
-        <div class="chat-bubble">
-            <div class="chat-meta"><strong>${nama}</strong> <span>Baru saja</span></div>
-            <p>${text.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
-        </div>
-    `;
-    box.appendChild(msgEl);
-    box.scrollTop = box.scrollHeight;
-    input.value = '';
+    if (!pesan) {
+        return Swal.fire('Data Belum Lengkap', 'Mohon tuliskan detail pengaduan atau pertanyaan Anda.', 'warning');
+    }
+
+    const btn = document.getElementById('btnKirimPengaduan');
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Mengirim...';
+    }
+
+    try {
+        const judul = subjek ? `[${kat}] ${subjek}` : `[${kat}]`;
+        await addDoc(collection(db, 'laporan_soal'), {
+            uid_pelapor: window.currentUser.uid,
+            email: window.currentUser.email || '',
+            nama_pelapor: window.currentUserProfile?.nama || window.currentUser.displayName || 'Pejuang ASN',
+            kategori: kat,
+            judul,
+            pesan,
+            status: 'pending',
+            createdAt: Date.now()
+        });
+        const subjInp = document.getElementById('pengaduanSubjekInput');
+        const msgInp = document.getElementById('pengaduanPesanInput');
+        if (subjInp) subjInp.value = '';
+        if (msgInp) msgInp.value = '';
+        Swal.fire({
+            icon: 'success',
+            title: 'Pengaduan Terkirim!',
+            text: 'Laporan Anda sudah masuk ke Command Center Admin dan akan segera ditindaklanjuti.',
+            timer: 1900,
+            showConfirmButton: false
+        });
+        window.loadRiwayatPengaduanSaya();
+    } catch (err) {
+        console.error('Gagal mengirim pengaduan:', err);
+        Swal.fire('Gagal Mengirim', err.message, 'error');
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-paper-plane"></i> Kirim ke Admin';
+        }
+    }
+};
+
+window.loadRiwayatPengaduanSaya = async () => {
+    const box = document.getElementById('riwayatPengaduanSayaBox');
+    if (!box) return;
+    if (!window.currentUser) {
+        box.innerHTML = '<div class="cc-empty">Silakan login untuk melihat riwayat pengaduan Anda.</div>';
+        return;
+    }
+
+    box.innerHTML = '<div class="cc-empty"><i class="fas fa-spinner fa-spin"></i> Memuat riwayat pengaduan...</div>';
+    try {
+        const qSnap = await getDocs(query(collection(db, 'laporan_soal'), where('uid_pelapor', '==', window.currentUser.uid), limit(25)));
+        const list = [];
+        qSnap.forEach(d => list.push({ id: d.id, ...d.data() }));
+        list.sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0));
+
+        if (!list.length) {
+            box.innerHTML = '<div class="cc-empty">Belum ada pengaduan yang Anda kirimkan.</div>';
+            return;
+        }
+
+        const esc = (str) => String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        box.innerHTML = list.map(rep => {
+            const st = String(rep.status || 'pending').toLowerCase();
+            const isDone = st === 'selesai';
+            const tgl = rep.createdAt ? new Date(rep.createdAt).toLocaleString('id-ID', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '-';
+            return `
+                <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px; margin-bottom:8px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:4px;">
+                        <strong style="font-size:0.81rem; color:#0f172a;">${esc(rep.judul || 'Pengaduan Peserta')}</strong>
+                        <span style="font-size:0.68rem; font-weight:800; padding:2px 8px; border-radius:999px; ${isDone ? 'background:#dcfce7;color:#15803d;' : 'background:#fef3c7;color:#b45309;'}">${isDone ? 'SELESAI' : 'PROSES'}</span>
+                    </div>
+                    <p style="margin:0 0 4px; font-size:0.78rem; color:#475569; white-space:pre-line;">${esc(rep.pesan || '-')}</p>
+                    <small style="font-size:0.7rem; color:#94a3b8;">Dikirim: ${tgl}</small>
+                </div>
+            `;
+        }).join('');
+    } catch (err) {
+        box.innerHTML = `<div class="cc-empty" style="color:#b91c1c;">Gagal memuat riwayat: ${err.message}</div>`;
+    }
 };
 
 window.pilihPaketLanding = (namaPaket, harga) => {

@@ -470,7 +470,7 @@
                     <span class="sidebar-badge gold">GOLD</span>
                 </button>
                 <button class="sidebar-item" data-view="diskusi" onclick="window.switchAppView('diskusi')">
-                    <i class="fas fa-comments"></i><span>Diskusi &amp; Chat</span>
+                    <i class="fas fa-headset"></i><span>Informasi &amp; Pengaduan</span>
                 </button>
                 <button class="sidebar-item" data-view="bot" onclick="window.switchAppView('bot')">
                     <i class="fas fa-robot"></i><span>MenujuASN-BOT &amp; Berita</span>
@@ -974,34 +974,95 @@
                 <div id="studiDetailContent" class="studi-tips-list"></div>
             </section>
 
-            <!-- VIEW 6: DISKUSI & CHAT DALAM APLIKASI -->
+            <!-- VIEW 6: INFORMASI & PENGADUAN PESERTA -->
             <section id="view-diskusi" class="app-view">
                 <div class="view-banner navy">
                     <div>
-                        <h2><i class="fas fa-comments"></i> Diskusi &amp; Chat Pejuang ASN</h2>
-                        <p>Bahas soal sulit, tanya trik cepat TIU, dan berbagi semangat sesama peserta ASN langsung di dalam aplikasi.</p>
+                        <h2><i class="fas fa-headset"></i> Informasi &amp; Pengaduan Peserta</h2>
+                        <p>Pusat layanan bantuan resmi MENUJU ASN. Pilih kategori kendala (Pembayaran, Soal, Tryout, dll.) untuk ditindaklanjuti Admin.</p>
                     </div>
                 </div>
 
-                <div class="chat-shell">
-                    <div class="chat-channels">
-                        <span class="chat-channel active"><i class="fas fa-hashtag"></i> umum-cpns-2026</span>
-                        <span class="chat-channel"><i class="fas fa-hashtag"></i> bedah-soal-tiu</span>
-                        <span class="chat-channel"><i class="fas fa-hashtag"></i> sharing-twk-tkp</span>
+                <div class="bot-two-col">
+                    <!-- KOLOM KIRI: FORM PENGADUAN DENGAN DROPDOWN -->
+                    <div class="bot-panel-card">
+                        <div class="bot-panel-head">
+                            <div class="mode-icon blue"><i class="fas fa-paper-plane"></i></div>
+                            <div>
+                                <h3>Kirim Pengaduan / Pertanyaan</h3>
+                                <span>Langsung terhubung ke Command Center Admin MENUJU ASN.</span>
+                            </div>
+                        </div>
+                        <form onsubmit="window.kirimPengaduanPeserta(event)" style="display:flex; flex-direction:column; gap:12px;">
+                            <div class="cc-form-group" style="margin:0;">
+                                <label for="pengaduanKategoriSelect">Kategori Informasi / Pengaduan</label>
+                                <select id="pengaduanKategoriSelect" required style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:10px; font-size:0.86rem; font-weight:600; color:#0f172a; background:#ffffff;">
+                                    <option value="Pembayaran & Aktivasi Paket">💳 Pembayaran &amp; Aktivasi Paket</option>
+                                    <option value="Kendala Soal / Kunci Jawaban">📝 Kendala Soal / Kunci Jawaban</option>
+                                    <option value="Tryout (TO Akbar) & Skor">🏆 Tryout (TO Akbar) &amp; Skor</option>
+                                    <option value="CBT Arena (Multiplayer)">👥 CBT Arena (Multiplayer)</option>
+                                    <option value="Kendala Teknis / Bug Aplikasi">⚙️ Kendala Teknis / Bug Aplikasi</option>
+                                    <option value="Informasi Umum & Saran">💡 Informasi Umum &amp; Saran</option>
+                                </select>
+                            </div>
+                            <div class="cc-form-group" style="margin:0;">
+                                <label for="pengaduanSubjekInput">Judul Singkat / Nomor Paket (Opsional)</label>
+                                <input type="text" id="pengaduanSubjekInput" maxlength="100" placeholder="Contoh: TWK Paket #12 / Konfirmasi Paket Silver / TO Akbar #1" style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:10px; font-size:0.85rem; box-sizing:border-box;" />
+                            </div>
+                            <div class="cc-form-group" style="margin:0;">
+                                <label for="pengaduanPesanInput">Detail Pengaduan / Pertanyaan</label>
+                                <textarea id="pengaduanPesanInput" rows="5" required placeholder="Tuliskan detail kendala atau pertanyaan Anda secara jelas agar Admin dapat segera membantu..." style="width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:10px; font-size:0.85rem; font-family:inherit; line-height:1.5; box-sizing:border-box;"></textarea>
+                            </div>
+                            <button type="submit" id="btnKirimPengaduan" class="btn-card primary">
+                                <i class="fas fa-paper-plane"></i> Kirim ke Admin
+                            </button>
+                        </form>
                     </div>
-                    <div class="chat-messages-box" id="chatMessagesBox">
-                        <div class="chat-msg">
-                            <div class="chat-avatar">M</div>
-                            <div class="chat-bubble">
-                                <div class="chat-meta"><strong>Magaski • Analisis Soal</strong> <span>Baru saja</span></div>
-                                <p>Selamat datang di Ruang Diskusi MENUJU ASN! Ada soal TWK atau TIU yang bikin bingung? Drop nomor atau topiknya di sini ya.</p>
+
+                    <!-- KOLOM KANAN: INFORMASI RESMI & RIWAYAT PENGADUAN SAYA -->
+                    <div style="display:flex; flex-direction:column; gap:16px;">
+                        <div class="bot-panel-card">
+                            <div class="bot-panel-head">
+                                <div class="mode-icon gold"><i class="fas fa-circle-info"></i></div>
+                                <div>
+                                    <h3>Informasi Layanan &amp; Pembayaran</h3>
+                                    <span>Panduan singkat akun, paket belajar, dan kontak resmi.</span>
+                                </div>
+                            </div>
+                            <div style="display:flex; flex-direction:column; gap:8px; font-size:0.82rem; color:#334155; line-height:1.55;">
+                                <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px;">
+                                    <strong><i class="fas fa-envelope" style="color:#2563eb;"></i> Email Resmi Admin:</strong><br>
+                                    <a href="mailto:admin.menujuasn@gmail.com" style="color:#1d4ed8; font-weight:700; text-decoration:none;">admin.menujuasn@gmail.com</a>
+                                </div>
+                                <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 12px;">
+                                    <strong><i class="fas fa-tags" style="color:#d97706;"></i> Daftar Paket Resmi:</strong><br>
+                                    • Satuan Subtes: <b>Rp 9.999</b> • Satuan TO Akbar: <b>Rp 24.999</b><br>
+                                    • <b>Bronze</b> Rp 49.999 • <b>Silver</b> Rp 74.999 • <b>Gold</b> Rp 99.999
+                                </div>
+                                <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:10px 12px; color:#1e40af;">
+                                    <i class="fas fa-bolt"></i> Integrasi pembayaran otomatis <b>Xendit</b> (QRIS, E-Wallet &amp; Virtual Account) sedang disiapkan untuk aktivasi instan.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bot-panel-card">
+                            <div class="bot-panel-head" style="justify-content:space-between;">
+                                <div style="display:flex; align-items:center; gap:12px;">
+                                    <div class="mode-icon green"><i class="fas fa-clock-rotate-left"></i></div>
+                                    <div>
+                                        <h3>Riwayat Pengaduan Saya</h3>
+                                        <span>Pantau status tindak lanjut laporan Anda.</span>
+                                    </div>
+                                </div>
+                                <button type="button" onclick="window.loadRiwayatPengaduanSaya()" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; border-radius:8px; padding:6px 10px; font-size:0.75rem; font-weight:700; cursor:pointer;">
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>
+                            </div>
+                            <div id="riwayatPengaduanSayaBox" style="max-height:260px; overflow-y:auto;">
+                                <div class="cc-empty">Memuat riwayat pengaduan...</div>
                             </div>
                         </div>
                     </div>
-                    <form class="chat-input-row" onsubmit="window.kirimPesanDiskusi(event)">
-                        <input type="text" id="chatInputText" placeholder="Tulis pesan atau tanya soal di sini..." autocomplete="off" />
-                        <button type="submit"><i class="fas fa-paper-plane"></i> Kirim</button>
-                    </form>
                 </div>
             </section>
 
@@ -1400,7 +1461,7 @@
                 <i class="fas fa-vault"></i><span>Brankas</span>
             </button>
             <button class="mob-nav-btn" data-view="diskusi" onclick="window.switchAppView('diskusi')">
-                <i class="fas fa-comments"></i><span>Diskusi</span>
+                <i class="fas fa-headset"></i><span>Pengaduan</span>
             </button>
         </nav>
     </div>
