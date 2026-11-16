@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.5.7">
+    <link rel="stylesheet" href="style.css?v=2.5.8">
 </head>
 <body>
 
@@ -140,53 +140,42 @@
             <div class="landing-section-head">
                 <span class="section-eyebrow">SIMULASI INTERAKTIF</span>
                 <h2>Intip Ruang Ujian CAT &amp; Pembahasan Instan</h2>
-                <p>Coba klik salah satu opsi jawaban di bawah ini untuk melihat simulasi bobot nilai TKP dan kunci jawaban secara langsung.</p>
+                <p>Pilih subtes <strong>TWK</strong>, <strong>TIU (Deret + SVG)</strong>, atau <strong>TKP</strong> lalu klik salah satu opsi jawaban untuk melihat pembahasan mentor layaknya ruang ujian asli.</p>
+            </div>
+
+            <div class="preview-subtes-tabs" id="landingPreviewTabs">
+                <button type="button" class="preview-tab-btn active" data-sub="twk" onclick="window.switchPreviewLandingSubtes('twk')">
+                    <i class="fas fa-landmark"></i> TWK • HOTS Nasionalisme
+                </button>
+                <button type="button" class="preview-tab-btn" data-sub="tiu" onclick="window.switchPreviewLandingSubtes('tiu')">
+                    <i class="fas fa-brain"></i> TIU • Deret Angka (SVG)
+                </button>
+                <button type="button" class="preview-tab-btn" data-sub="tkp" onclick="window.switchPreviewLandingSubtes('tkp')">
+                    <i class="fas fa-user-check"></i> TKP • Bobot 1–5
+                </button>
             </div>
 
             <div class="preview-cat-shell">
-                <div class="preview-cat-main">
-                    <div class="preview-cat-topbar">
-                        <span class="badge-subtes tkp">TKP • PELAYANAN PUBLIK</span>
-                        <span class="preview-timer-pill"><i class="fas fa-stopwatch"></i> 42:18</span>
-                    </div>
-                    <p class="preview-q-text">Anda bertugas di loket Pelayanan Terpadu. Seorang lansia datang dari desa jauh membawa berkas yang kurang lengkap menjelang jam tutup layanan. Langkah terbaik Anda adalah...</p>
-                    <div class="preview-options" id="landingPreviewOptions">
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 2, 'Kurang optimal — menolak langsung tanpa membantu memeriksa kekurangan membuat pemohon lansia kesulitan.')">
-                            <span class="preview-opt-label">A</span>
-                            <span>Menolak berkas secara sopan dan memintanya kembali besok pagi saat loket baru dibuka.</span>
-                        </button>
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 4, 'Baik (Poin 4) — sudah membantu mengecek berkas, namun akan lebih maksimal jika sekaligus memberi opsi prioritas lanjutan.')">
-                            <span class="preview-opt-label">B</span>
-                            <span>Menerima dan mencatat kekurangan berkasnya agar ia tahu syarat apa saja yang perlu dilengkapi.</span>
-                        </button>
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 1, 'Berisiko melanggar SOP karena tetap memproses permohonan yang syaratnya belum terpenuhi.')">
-                            <span class="preview-opt-label">C</span>
-                            <span>Tetap memproses permohonan tersebut agar pemohon tidak kecewa meski berkasnya belum lengkap.</span>
-                        </button>
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 5, 'Tepat (Poin 5)! Ramah, solutif memeriksa kekurangan berkas, dan memandu jalur prioritas sesuai prosedur layanan.')">
-                            <span class="preview-opt-label">D</span>
-                            <span>Melayani dengan ramah, mengecek kekurangan berkasnya, lalu memandu solusi prioritas sesuai SOP.</span>
-                        </button>
-                        <button type="button" class="preview-opt-btn" onclick="window.pilihPreviewLanding(this, 3, 'Cukup baik (Poin 3) — membantu menjelaskan syarat, tetapi belum memberikan pendampingan solusi yang tuntas.')">
-                            <span class="preview-opt-label">E</span>
-                            <span>Menjelaskan daftar syarat resmi di papan informasi dan mengarahkannya ke bagian pengaduan umum.</span>
-                        </button>
-                    </div>
-                    <div id="landingPreviewFeedback" class="preview-feedback-box" style="display:none;"></div>
+                <div class="preview-cat-main" id="landingPreviewMain">
+                    <!-- Diisi dinamis oleh window.renderPreviewLandingSubtes() di app.js -->
                 </div>
                 <aside class="preview-cat-side">
                     <div class="preview-side-head">
-                        <strong>Navigasi Soal</strong>
-                        <span>1–45</span>
+                        <strong>Navigasi Preview</strong>
+                        <span id="previewNavCounter">TWK • 1/3</span>
                     </div>
-                    <div class="preview-num-grid">
-                        <span class="pnum answered">1</span><span class="pnum answered">2</span><span class="pnum ragu">3</span><span class="pnum current">4</span><span class="pnum">5</span>
-                        <span class="pnum">6</span><span class="pnum">7</span><span class="pnum">8</span><span class="pnum">9</span><span class="pnum">10</span>
+                    <div class="preview-num-grid" id="landingPreviewNumGrid">
+                        <button type="button" class="pnum current" onclick="window.switchPreviewLandingSubtes('twk')" title="Soal TWK">1</button>
+                        <button type="button" class="pnum" onclick="window.switchPreviewLandingSubtes('tiu')" title="Soal TIU Deret">2</button>
+                        <button type="button" class="pnum" onclick="window.switchPreviewLandingSubtes('tkp')" title="Soal TKP">3</button>
                     </div>
-                    <div class="preview-legend">
+                    <div class="preview-legend" style="margin-top:10px;">
                         <span><i class="dot g"></i> Dijawab</span>
-                        <span><i class="dot y"></i> Ragu</span>
-                        <span><i class="dot w"></i> Kosong</span>
+                        <span><i class="dot y"></i> Aktif</span>
+                        <span><i class="dot w"></i> Lainnya</span>
+                    </div>
+                    <div style="margin-top:12px; padding:10px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; font-size:0.74rem; color:#475569; line-height:1.45;">
+                        <strong><i class="fas fa-lightbulb" style="color:#d97706;"></i> Info:</strong> Klik angka <b>1 (TWK)</b>, <b>2 (TIU)</b>, atau <b>3 (TKP)</b> untuk mencoba tipe soal &amp; pembahasan berbeda.
                     </div>
                     <button class="btn-card primary" style="margin-top:14px;" onclick="window.eksekusiLoginGoogle()">
                         <i class="fas fa-play"></i> Mulai Latihan Gratis
@@ -1510,7 +1499,7 @@
 
     <!-- FOOTER EKSEKUTIF MENUJU ASN -->
     <footer class="asn-footer">
-        <div class="asn-footer-inner">
+        <div class="asn-footer-inner" id="asnFooterTopInfo">
             <div class="asn-footer-brand">
                 <div class="asn-footer-logo-row">
                     <div class="asn-footer-logo-crop">
@@ -1572,13 +1561,6 @@
                     <strong>MENUJU ASN</strong>
                     <span>© 2026 MENUJU ASN. Semua hak cipta dilindungi.</span>
                 </div>
-                <div class="asn-footer-bottom-socials">
-                    <span class="social-deco-sm"><i class="fab fa-instagram"></i></span>
-                    <span class="social-deco-sm"><i class="fab fa-tiktok"></i></span>
-                    <span class="social-deco-sm"><i class="fas fa-at"></i></span>
-                    <span class="social-deco-sm" style="font-weight:900;">𝕏</span>
-                    <span class="social-deco-sm"><i class="fab fa-youtube"></i></span>
-                </div>
             </div>
         </div>
     </footer>
@@ -1591,7 +1573,7 @@
     <script src="data_tiu_batch2.js?v=2.5.6"></script>
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
-    <script type="module" src="app.js?v=2.5.7"></script>
+    <script type="module" src="app.js?v=2.5.8"></script>
     
     <script>
         // PWA Service Worker Registration

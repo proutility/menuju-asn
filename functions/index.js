@@ -74,14 +74,13 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
     let json;
     try {
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
-      const thinkingConfig = model === "gemini-3.8-flash"
-        ? { thinkingLevel: "LOW" }
-        : { thinkingBudget: 0 };
       const generationConfig = {
         temperature: 0.3,
-        maxOutputTokens: 900,
-        thinkingConfig
+        maxOutputTokens: 900
       };
+      if (model === "gemini-3.8-flash") {
+        generationConfig.thinkingConfig = { thinkingLevel: "LOW" };
+      }
       if (responseMimeType) {
         generationConfig.responseMimeType = responseMimeType;
       }
@@ -94,11 +93,12 @@ async function callGemini({ apiKey, systemInstruction, prompt, useGoogleSearch =
         body.tools = [{ google_search: {} }];
       }
 
+      const timeoutMs = model === "gemini-3.8-flash" ? 22000 : 15000;
       resp = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
-        signal: AbortSignal.timeout(12000)
+        signal: AbortSignal.timeout(timeoutMs)
       });
       json = await resp.json();
     } catch (err) {
@@ -180,7 +180,7 @@ async function incrementQuota(userRef, today, counts, actionKey) {
 }
 
 exports.menujuAsnBot = onRequest(
-  { region: "asia-southeast2", cors: true, maxInstances: 20, memory: "512MiB", timeoutSeconds: 60 },
+  { region: "asia-southeast2", cors: true, maxInstances: 20, memory: "512MiB", timeoutSeconds: 90 },
   async (req, res) => {
     if (req.method === "OPTIONS") {
       return res.status(204).send("");

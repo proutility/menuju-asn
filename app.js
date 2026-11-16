@@ -127,9 +127,6 @@ function updateAuthUI(user) {
         const customName = (prof.nama || user.displayName || 'Pejuang ASN').trim();
         const firstName = customName.split(' ')[0] || 'Pejuang ASN';
         const tierText = prof.isAdmin ? 'ADMIN' : String(prof.tier || 'free').toUpperCase();
-        const targetText = (prof.tujuanInstansi || prof.tujuanJabatan)
-            ? `🎯 ${[prof.tujuanInstansi, prof.tujuanJabatan].filter(Boolean).join(' • ')}`
-            : '';
 
         if (btnAuth) btnAuth.style.display = 'none';
         if (userProfileEl) {
@@ -141,14 +138,13 @@ function updateAuthUI(user) {
 
             userProfileEl.style.display = 'flex';
             userProfileEl.innerHTML = `
-                <button type="button" class="nav-profile-chip" onclick="window.bukaModalProfilPeserta()" title="Klik untuk isi/ubah Profil, Tanggal Lahir, Tujuan Instansi & Jabatan">
+                <button type="button" class="nav-profile-chip" onclick="window.bukaModalProfilPeserta()" title="Profil Akun">
                     <img class="nav-profile-avatar" src="${user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(customName)}" alt="Avatar" />
                     <div class="nav-profile-info">
                         <div class="nav-profile-top">
                             <span class="nav-profile-name">${firstName}</span>
                             ${tierBadge}
                         </div>
-                        ${targetText ? `<span class="nav-profile-sub">${targetText}</span>` : ''}
                     </div>
                 </button>
                 <button type="button" class="btn-logout-modern" onclick="window.eksekusiLogout()" title="Keluar dari Akun">
@@ -157,6 +153,8 @@ function updateAuthUI(user) {
                 </button>
             `;
         }
+        const footerTopInfo = document.getElementById('asnFooterTopInfo');
+        if (footerTopInfo) footerTopInfo.style.display = 'none';
         if (dashUserName) dashUserName.textContent = customName;
         if (sidebarTierLabel) sidebarTierLabel.textContent = prof.isPaid || prof.isAdmin ? `PAKET ${tierText}` : 'AKUN FREE';
         if (kpiTierValue) kpiTierValue.textContent = tierText;
@@ -206,6 +204,8 @@ function updateAuthUI(user) {
         if (userProfileEl) userProfileEl.style.display = 'none';
         if (preLoginEl) preLoginEl.style.display = 'block';
         if (lobbyEl) lobbyEl.style.display = 'none';
+        const footerTopInfo = document.getElementById('asnFooterTopInfo');
+        if (footerTopInfo) footerTopInfo.style.display = '';
     }
 }
 
@@ -902,6 +902,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (typeof window.loadQuestionOverridesFromCloud === 'function') {
         window.loadQuestionOverridesFromCloud();
+    }
+    if (typeof window.renderPreviewLandingSubtes === 'function') {
+        window.renderPreviewLandingSubtes('twk');
     }
     if (typeof window.renderSavedExamsOnBeranda === 'function') {
         window.renderSavedExamsOnBeranda();
@@ -3639,22 +3642,167 @@ window.renderBrankasPembahasan = () => {
     `;
 };
 
-window.pilihPreviewLanding = (btnEl, poin, feedbackText) => {
-    const container = document.getElementById('landingPreviewOptions');
-    if (container) {
-        container.querySelectorAll('.preview-opt-btn').forEach(b => b.classList.remove('best', 'mid'));
+const LANDING_PREVIEW_SAMPLES = {
+    twk: {
+        key: 'twk',
+        num: 1,
+        badgeClass: 'twk',
+        badgeText: 'TWK • NASIONALISME & KEDAULATAN DATA',
+        timer: '28:45',
+        kategori: 'TWK',
+        subKategori: 'Nasionalisme',
+        soal: 'Sebuah instansi pemerintah daerah berencana mengadopsi sistem arsip kependudukan berbasis cloud. Vendor asing menawarkan harga 18% lebih murah, sedangkan konsorsium teknologi dalam negeri menawarkan platform yang telah tersertifikasi keamanan siber BSSN dengan selisih biaya tipis. Sebagai Pejabat Pembuat Komitmen, keputusan yang paling mencerminkan nasionalisme dan bela negara adalah...',
+        kunci: 'D',
+        opsi: [
+            { label: 'A', teks: 'Memilih vendor asing semata-mata demi efisiensi anggaran jangka pendek tanpa audit keamanan.', benar: false, poin: 0 },
+            { label: 'B', teks: 'Menunda digitalisasi arsip dan kembali menggunakan pencatatan manual di atas kertas.', benar: false, poin: 0 },
+            { label: 'C', teks: 'Membagi data kependudukan secara acak antara vendor asing dan vendor lokal agar adil.', benar: false, poin: 0 },
+            { label: 'D', teks: 'Memilih platform dalam negeri tersertifikasi BSSN guna menjaga kedaulatan data warga sekaligus mendukung kemandirian industri teknologi nasional.', benar: true, poin: 5 },
+            { label: 'E', teks: 'Meminta vendor asing menyalin sistem konsorsium lokal agar harganya tetap lebih murah.', benar: false, poin: 0 }
+        ],
+        pembahasan: 'Langkah tepat sesuai nilai Nasionalisme & Bela Negara adalah mengutamakan kemandirian ekonomi/teknologi dalam negeri dan menjaga kedaulatan data strategis negara (tersertifikasi BSSN), bukan sekadar mengejar selisih harga sesaat yang berisiko terhadap keamanan informasi nasional.'
+    },
+    tiu: {
+        key: 'tiu',
+        num: 2,
+        badgeClass: 'tiu',
+        badgeText: 'TIU • NUMERIK DERET ANGKA',
+        timer: '33:12',
+        kategori: 'TIU',
+        subKategori: 'Deret Angka',
+        soal: 'Perhatikan barisan bilangan berikut:\n4, 7, 13, 25, 49, ...\nBilangan yang paling tepat untuk melengkapi titik-titik pada deret tersebut adalah...',
+        kunci: 'C',
+        opsi: [
+            { label: 'A', teks: '73', benar: false, poin: 0 },
+            { label: 'B', teks: '85', benar: false, poin: 0 },
+            { label: 'C', teks: '97', benar: true, poin: 5 },
+            { label: 'D', teks: '99', benar: false, poin: 0 },
+            { label: 'E', teks: '101', benar: false, poin: 0 }
+        ],
+        pembahasan: 'Perhatikan selisih antarsuku yang selalu dikalikan 2 pada setiap lompatan: 4 ke 7 (+3), 7 ke 13 (+6), 13 ke 25 (+12), 25 ke 49 (+24). Maka lompatan selanjutnya adalah +24 × 2 = +48, sehingga 49 + 48 = 97.'
+    },
+    tkp: {
+        key: 'tkp',
+        num: 3,
+        badgeClass: 'tkp',
+        badgeText: 'TKP • PELAYANAN PUBLIK',
+        timer: '42:18',
+        kategori: 'TKP',
+        subKategori: 'Pelayanan Publik',
+        soal: 'Anda bertugas di loket Pelayanan Terpadu. Seorang lansia datang dari desa jauh membawa berkas yang kurang lengkap menjelang jam tutup layanan. Langkah terbaik Anda adalah...',
+        kunci: 'D',
+        opsi: [
+            { label: 'A', teks: 'Menolak berkas secara sopan dan memintanya kembali besok pagi saat loket baru dibuka.', poin: 2 },
+            { label: 'B', teks: 'Menerima dan mencatat kekurangan berkasnya agar ia tahu syarat apa saja yang perlu dilengkapi.', poin: 4 },
+            { label: 'C', teks: 'Tetap memproses permohonan tersebut agar pemohon tidak kecewa meski berkasnya belum lengkap.', poin: 1 },
+            { label: 'D', teks: 'Melayani dengan ramah, mengecek kekurangan berkasnya, lalu memandu solusi prioritas sesuai SOP.', poin: 5 },
+            { label: 'E', teks: 'Menjelaskan daftar syarat resmi di papan informasi dan mengarahkannya ke bagian pengaduan umum.', poin: 3 }
+        ],
+        pembahasan: 'Dalam aspek Pelayanan Publik TKP, skor tertinggi (Poin 5) selalu memadukan sikap ramah-empatik kepada kelompok rentan/lansia, membantu memeriksa kekurangan secara solutif, namun tetap patuh pada koridor SOP yang berlaku.'
     }
-    if (btnEl) {
-        btnEl.classList.add(poin >= 5 ? 'best' : 'mid');
+};
+
+window.activePreviewLandingSubtes = 'twk';
+window.previewLandingAnswered = {};
+
+window.switchPreviewLandingSubtes = (sub) => {
+    window.activePreviewLandingSubtes = LANDING_PREVIEW_SAMPLES[sub] ? sub : 'twk';
+    window.renderPreviewLandingSubtes();
+};
+
+window.renderPreviewLandingSubtes = () => {
+    const sub = window.activePreviewLandingSubtes || 'twk';
+    const q = LANDING_PREVIEW_SAMPLES[sub] || LANDING_PREVIEW_SAMPLES.twk;
+    const mainEl = document.getElementById('landingPreviewMain');
+    if (!mainEl) return;
+
+    document.querySelectorAll('#landingPreviewTabs .preview-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-sub') === sub);
+    });
+
+    const counterEl = document.getElementById('previewNavCounter');
+    if (counterEl) counterEl.textContent = `${q.kategori} • ${q.num}/3`;
+
+    const numGrid = document.getElementById('landingPreviewNumGrid');
+    if (numGrid) {
+        const order = ['twk', 'tiu', 'tkp'];
+        numGrid.innerHTML = order.map((k, idx) => {
+            const isCur = k === sub;
+            const isAns = Boolean(window.previewLandingAnswered[k]);
+            const cls = isCur ? 'current' : (isAns ? 'answered' : '');
+            return `<button type="button" class="pnum ${cls}" onclick="window.switchPreviewLandingSubtes('${k}')" title="Soal ${k.toUpperCase()}">${idx + 1}</button>`;
+        }).join('');
     }
-    const fb = document.getElementById('landingPreviewFeedback');
-    if (fb) {
-        fb.style.display = 'block';
-        fb.style.borderLeftColor = poin >= 5 ? '#16a34a' : '#f59e0b';
-        fb.style.background = poin >= 5 ? '#f0fdf4' : '#fffbeb';
-        fb.style.color = poin >= 5 ? '#14532d' : '#78350f';
-        fb.innerHTML = `<strong>Skor Opsi: +${poin} Poin</strong> — ${feedbackText}`;
+
+    const pickedLabel = window.previewLandingAnswered[sub] || null;
+    const optsHtml = q.opsi.map(opt => {
+        let extraCls = '';
+        if (pickedLabel) {
+            if (q.kategori === 'TKP') {
+                if (opt.poin >= 5) extraCls = 'best';
+                else if (opt.label === pickedLabel) extraCls = 'mid';
+            } else {
+                if (opt.benar) extraCls = 'best';
+                else if (opt.label === pickedLabel && !opt.benar) extraCls = 'wrong';
+            }
+        }
+        const poinBadge = pickedLabel
+            ? (q.kategori === 'TKP'
+                ? `<span style="margin-left:auto; font-size:0.72rem; font-weight:800; color:${opt.poin >= 5 ? '#15803d' : '#64748b'};">+${opt.poin}</span>`
+                : (opt.benar ? `<span style="margin-left:auto; font-size:0.72rem; font-weight:800; color:#15803d;"><i class="fas fa-check"></i> Kunci</span>` : ''))
+            : '';
+
+        return `
+            <button type="button" class="preview-opt-btn ${extraCls}" onclick="window.pilihPreviewLanding('${sub}', '${opt.label}')">
+                <span class="preview-opt-label">${opt.label}</span>
+                <span style="flex:1;">${opt.teks}</span>
+                ${poinBadge}
+            </button>
+        `;
+    }).join('');
+
+    let feedbackHtml = '';
+    if (pickedLabel) {
+        const pickedOpt = q.opsi.find(o => o.label === pickedLabel) || q.opsi[0];
+        const gotPoin = q.kategori === 'TKP' ? Number(pickedOpt.poin || 0) : (pickedOpt.benar ? 5 : 0);
+        const visualSvgHtml = (typeof buildMentorVisualHtml === 'function')
+            ? buildMentorVisualHtml(q)
+            : '';
+        const statusBanner = q.kategori === 'TKP'
+            ? `<div style="font-weight:800; margin-bottom:8px; color:${gotPoin >= 5 ? '#15803d' : '#b45309'};">Skor Opsi ${pickedLabel}: +${gotPoin} Poin (Maksimal 5 Poin • Opsi Terbaik: ${q.kunci})</div>`
+            : `<div style="font-weight:800; margin-bottom:8px; color:${pickedOpt.benar ? '#15803d' : '#b91c1c'};">${pickedOpt.benar ? `✅ Tepat! Jawabanmu ${pickedLabel} Benar (+5 Poin)` : `❌ Kurang Tepat (Jawabanmu ${pickedLabel}) — Kunci Benar: ${q.kunci}`}</div>`;
+
+        feedbackHtml = `
+            <div id="landingPreviewFeedback" class="preview-feedback-box" style="display:block; border-left-color:${gotPoin >= 5 ? '#16a34a' : '#f59e0b'}; background:${gotPoin >= 5 ? '#f0fdf4' : '#fffbeb'}; color:#1e293b;">
+                ${statusBanner}
+                ${visualSvgHtml}
+                <div style="font-size:0.83rem; line-height:1.6; color:#334155;">
+                    <strong style="color:#1e3a8a;"><i class="fas fa-chalkboard-teacher"></i> Pembahasan Mentor:</strong><br>
+                    ${q.pembahasan}
+                </div>
+            </div>
+        `;
+    } else {
+        feedbackHtml = `<div id="landingPreviewFeedback" class="preview-feedback-box" style="display:none;"></div>`;
     }
+
+    mainEl.innerHTML = `
+        <div class="preview-cat-topbar">
+            <span class="badge-subtes ${q.badgeClass}">${q.badgeText}</span>
+            <span class="preview-timer-pill"><i class="fas fa-stopwatch"></i> ${q.timer}</span>
+        </div>
+        <p class="preview-q-text" style="white-space:pre-line;">${q.soal}</p>
+        <div class="preview-options" id="landingPreviewOptions">
+            ${optsHtml}
+        </div>
+        ${feedbackHtml}
+    `;
+};
+
+window.pilihPreviewLanding = (sub, label) => {
+    const key = LANDING_PREVIEW_SAMPLES[sub] ? sub : (window.activePreviewLandingSubtes || 'twk');
+    window.previewLandingAnswered[key] = label;
+    window.renderPreviewLandingSubtes();
 };
 
 window.ubahTargetSkorSKD = async () => {
