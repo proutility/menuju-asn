@@ -2658,9 +2658,20 @@ function renderSoalSekarang() {
         const modeBadge = q.mode === 'baru'
             ? `<div style="margin-bottom:10px;"><span style="display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;background:linear-gradient(135deg,#eff6ff,#dbeafe);border:1px solid #93c5fd;color:#1d4ed8;font-size:0.75rem;font-weight:800;letter-spacing:0.3px;"><i class="fas fa-bolt"></i> TIPE SOAL TERBARU 2026</span></div>`
             : '';
+        const audioPlayerHtml = q.audioScript
+            ? `<div style="margin-bottom:12px; padding:10px 14px; background:linear-gradient(135deg,#eef2ff,#e0e7ff); border:1px solid #a5b4fc; border-radius:10px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+                <button type="button" onclick="window.playToeflAudio(this)" data-script="${escapeHtmlMentor(q.audioScript)}" style="background:#4f46e5; color:#fff; border:none; padding:7px 14px; border-radius:8px; font-weight:700; font-size:0.82rem; cursor:pointer; display:inline-flex; align-items:center; gap:6px;">
+                    <i class="fas fa-volume-up"></i> Putar Audio Listening (EN)
+                </button>
+                <button type="button" onclick="window.stopToeflAudio()" style="background:#fff; color:#4338ca; border:1px solid #c7d2fe; padding:7px 12px; border-radius:8px; font-weight:700; font-size:0.8rem; cursor:pointer;">
+                    <i class="fas fa-stop"></i> Stop
+                </button>
+                <span style="font-size:0.76rem; color:#4338ca; font-weight:600;">Audio dibacakan berbahasa Inggris; transkrip tersedia di Pembahasan setelah menjawab.</span>
+            </div>`
+            : '';
         qTextEl.innerHTML = q.gambar
-            ? `${modeBadge}${formatted}<div style="margin-top:14px; padding:12px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${q.gambar}</div>`
-            : `${modeBadge}${formatted}`;
+            ? `${modeBadge}${audioPlayerHtml}${formatted}<div style="margin-top:14px; padding:12px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; overflow-x:auto;">${q.gambar}</div>`
+            : `${modeBadge}${audioPlayerHtml}${formatted}`;
     }
 
     const opsListEl = document.getElementById('optionsListDisplay');
@@ -5956,6 +5967,17 @@ function buildMentorTrikAndJebakan(q, userAns, kunciLabel, gotPoin, maxPoin) {
             trik = 'Tunjukkan tanggung jawab penuh, manajemen prioritas yang adil, jujur pada data, dan perbaikan sistemik atas kendala kerja.';
             jebakan = 'Opsi bernilai 3–4 terlihat hati-hati, tetapi pasif menunda keputusan atau membebankan tugas ke staf lain.';
         }
+    } else if (kat === 'TOEFL') {
+        if (sub.includes('reading')) {
+            trik = 'Baca pertanyaan dulu, tangkap 2–3 kata kunci, lalu scan teks tanpa menerjemahkan kata per kata; soal Main Idea cek kalimat pertama tiap paragraf.';
+            jebakan = 'Memilih opsi yang memakai kata persis sama di teks tetapi maknanya dibalik atau terlalu sempit/terlalu luas.';
+        } else if (sub.includes('listening')) {
+            trik = 'Fokus pada pembicara kedua di Part A (sering berisi idiom atau nada penolakan/saran); hindari opsi yang bunyinya sekadar mirip kata yang terdengar.';
+            jebakan = 'Terkecoh kata-kata yang bunyinya sama (homofon) atau makna harfiah dari ungkapan idiom.';
+        } else {
+            trik = 'Cari Subjek + Verb utama kalimat dulu! Cek kesesuaian tunggal-jamak, penanda waktu (tenses), dan paralelisme sebelum memilih.';
+            jebakan = 'Tertipu frasa preposisi panjang di tengah kalimat sehingga salah menentukan apakah subjeknya tunggal atau jamak.';
+        }
     } else if (sub.includes('kecukupan data')) {
         trik = 'Uji (1) saja secara terpisah, lalu (2) saja secara terpisah. Jangan gabungkan keduanya sebelum memastikan masing-masing gagal memberi 1 nilai tunggal!';
         jebakan = 'Langsung menggabungkan (1) dan (2) padahal salah satunya sudah cukup, atau mengira 2 persamaan kelipatan memberi solusi unik.';
@@ -9224,4 +9246,18 @@ window.unduhPdfPaket = (sourceKey, withPembahasan = false) => {
     win.document.open();
     win.document.write(htmlDoc);
     win.document.close();
+};
+
+window.stopToeflAudio = () => {
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+};
+window.playToeflAudio = (btn) => {
+    if (!('speechSynthesis' in window)) return Swal.fire('Info', 'Browser Anda belum mendukung pemutar audio TTS.', 'info');
+    const script = btn?.getAttribute('data-script') || '';
+    if (!script) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(script);
+    u.lang = 'en-US';
+    u.rate = 0.94;
+    window.speechSynthesis.speak(u);
 };
