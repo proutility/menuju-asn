@@ -3815,25 +3815,27 @@ window.renderBrankasPembahasan = () => {
 
 const LANDING_PREVIEW_SAMPLES = {
     twk: {
+        id: 'preview_twk_1',
         key: 'twk',
         num: 1,
         badgeClass: 'twk',
-        badgeText: 'TWK • NASIONALISME & KEDAULATAN DATA',
+        badgeText: 'TWK • INTEGRITAS',
         timer: '28:45',
         kategori: 'TWK',
-        subKategori: 'Nasionalisme',
-        soal: 'Sebuah instansi pemerintah daerah berencana mengadopsi sistem arsip kependudukan berbasis cloud. Vendor asing menawarkan harga 18% lebih murah, sedangkan konsorsium teknologi dalam negeri menawarkan platform yang telah tersertifikasi keamanan siber BSSN dengan selisih biaya tipis. Sebagai Pejabat Pembuat Komitmen, keputusan yang paling mencerminkan nasionalisme dan bela negara adalah...',
-        kunci: 'D',
+        subKategori: 'Integritas',
+        soal: 'Setelah merampungkan pendampingan kelompok usaha di Kabupaten Buleleng, seorang analis kebijakan publik diberi amplop berisi uang transport tambahan oleh pengurus setempat meski seluruh biaya dinas sudah ditanggung negara. Sikap paling tepat adalah...',
+        kunci: 'E',
         opsi: [
-            { label: 'A', teks: 'Memilih vendor asing semata-mata demi efisiensi anggaran jangka pendek tanpa audit keamanan.', benar: false, poin: 0 },
-            { label: 'B', teks: 'Menunda digitalisasi arsip dan kembali menggunakan pencatatan manual di atas kertas.', benar: false, poin: 0 },
-            { label: 'C', teks: 'Membagi data kependudukan secara acak antara vendor asing dan vendor lokal agar adil.', benar: false, poin: 0 },
-            { label: 'D', teks: 'Memilih platform dalam negeri tersertifikasi BSSN guna menjaga kedaulatan data warga sekaligus mendukung kemandirian industri teknologi nasional.', benar: true, poin: 5 },
-            { label: 'E', teks: 'Meminta vendor asing menyalin sistem konsorsium lokal agar harganya tetap lebih murah.', benar: false, poin: 0 }
+            { label: 'A', teks: 'Menerima terlebih dahulu agar tidak menyinggung perasaan warga lalu melapor akhir tahun', benar: false, poin: 0 },
+            { label: 'B', teks: 'Menerima sebagian kecil sebagai bentuk penghormatan atas keramahtamahan pengurus desa', benar: false, poin: 0 },
+            { label: 'C', teks: 'Menitipkan amplop kepada ketua rombongan untuk dibagi rata sebagai uang kas tim demi menjaga ketertiban', benar: false, poin: 0 },
+            { label: 'D', teks: 'Menerima amplop tersebut lalu menyumbangkannya seluruhnya ke kotak amal masjid kantor', benar: false, poin: 0 },
+            { label: 'E', teks: 'Menolak pemberian dengan ramah sambil menjelaskan komitmen aturan larangan gratifikasi', benar: true, poin: 5 }
         ],
-        pembahasan: 'Langkah tepat sesuai nilai Nasionalisme & Bela Negara adalah mengutamakan kemandirian ekonomi/teknologi dalam negeri dan menjaga kedaulatan data strategis negara (tersertifikasi BSSN), bukan sekadar mengejar selisih harga sesaat yang berisiko terhadap keamanan informasi nasional.'
+        pembahasan: 'Penolakan langsung di tempat disertai penjelasan aturan adalah langkah paling bersih mencegah gratifikasi yang berhubungan dengan jabatan.'
     },
     tiu: {
+        id: 'preview_tiu_1',
         key: 'tiu',
         num: 2,
         badgeClass: 'tiu',
@@ -3853,6 +3855,7 @@ const LANDING_PREVIEW_SAMPLES = {
         pembahasan: 'Perhatikan selisih antarsuku yang selalu dikalikan 2 pada setiap lompatan: 4 ke 7 (+3), 7 ke 13 (+6), 13 ke 25 (+12), 25 ke 49 (+24). Maka lompatan selanjutnya adalah +24 × 2 = +48, sehingga 49 + 48 = 97.'
     },
     tkp: {
+        id: 'preview_tkp_1',
         key: 'tkp',
         num: 3,
         badgeClass: 'tkp',
@@ -3935,26 +3938,18 @@ window.renderPreviewLandingSubtes = () => {
     let feedbackHtml = '';
     if (pickedLabel) {
         const pickedOpt = q.opsi.find(o => o.label === pickedLabel) || q.opsi[0];
+        const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
         const gotPoin = q.kategori === 'TKP' ? Number(pickedOpt.poin || 0) : (pickedOpt.benar ? 5 : 0);
-        const visualSvgHtml = (typeof buildMentorVisualHtml === 'function')
-            ? buildMentorVisualHtml(q)
+        const mentorMarkup = typeof window.buildInteractivePembahasanHtml === 'function'
+            ? window.buildInteractivePembahasanHtml(q, pickedLabel, `landing_preview_${sub}`, {
+                headerTitle: 'Pembahasan Mentor (1x Klik)',
+                gotPoin,
+                maxPoin
+            })
             : '';
-        const statusBanner = q.kategori === 'TKP'
-            ? `<div style="font-weight:800; margin-bottom:8px; color:${gotPoin >= 5 ? '#15803d' : '#b45309'};">Skor Opsi ${pickedLabel}: +${gotPoin} Poin (Maksimal 5 Poin • Opsi Terbaik: ${q.kunci})</div>`
-            : `<div style="font-weight:800; margin-bottom:8px; color:${pickedOpt.benar ? '#15803d' : '#b91c1c'};">${pickedOpt.benar ? `✅ Tepat! Jawabanmu ${pickedLabel} Benar (+5 Poin)` : `❌ Kurang Tepat (Jawabanmu ${pickedLabel}) — Kunci Benar: ${q.kunci}`}</div>`;
-
-        feedbackHtml = `
-            <div id="landingPreviewFeedback" class="preview-feedback-box" style="display:block; border-left-color:${gotPoin >= 5 ? '#16a34a' : '#f59e0b'}; background:${gotPoin >= 5 ? '#f0fdf4' : '#fffbeb'}; color:#1e293b;">
-                ${statusBanner}
-                ${visualSvgHtml}
-                <div style="font-size:0.83rem; line-height:1.6; color:#334155;">
-                    <strong style="color:#1e3a8a;"><i class="fas fa-chalkboard-teacher"></i> Pembahasan Mentor:</strong><br>
-                    ${formatStructuredPembahasan(q.pembahasan)}
-                </div>
-            </div>
-        `;
+        feedbackHtml = `<div id="landingPreviewFeedback" style="display:block; margin-top:14px;">${mentorMarkup}</div>`;
     } else {
-        feedbackHtml = `<div id="landingPreviewFeedback" class="preview-feedback-box" style="display:none;"></div>`;
+        feedbackHtml = `<div id="landingPreviewFeedback" style="display:none;"></div>`;
     }
 
     mainEl.innerHTML = `
