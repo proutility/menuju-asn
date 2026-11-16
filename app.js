@@ -42,7 +42,8 @@ window.addEventListener('DOMContentLoaded', () => {
     
     onAuthStateChanged(auth, async (user) => {
         window.currentUser = user;
-        if (user) {
+        document.body.classList.toggle('has-logged-in', Boolean(user));
+    if (user) {
             await loadUserProfile(user);
         } else {
             window.currentUserProfile = { tier: 'free', isPaid: false };
@@ -158,6 +159,32 @@ function updateAuthUI(user) {
                     <i class="fas fa-power-off"></i>
                     <span>Keluar</span>
                 </button>
+            `;
+        }
+        const mobDrawerProf = document.getElementById('mobDrawerProfileBox');
+        if (mobDrawerProf) {
+            const tierStyleMap = {
+                ADMIN: 'background:linear-gradient(135deg,#fde047 0%,#f59e0b 100%); color:#0f172a; border:1px solid #fbbf24;',
+                PLATINUM: 'background:linear-gradient(135deg,#4f46e5 0%,#312e81 100%); color:#ffffff; border:1px solid #a5b4fc;',
+                GOLD: 'background:linear-gradient(135deg,#fef08a 0%,#eab308 100%); color:#713f12; border:1px solid #facc15;',
+                SILVER: 'background:linear-gradient(135deg,#f1f5f9 0%,#cbd5e1 100%); color:#0f172a; border:1px solid #e2e8f0;',
+                BRONZE: 'background:linear-gradient(135deg,#cd7f32 0%,#8c4a16 100%); color:#ffffff; border:1px solid #d99b66;',
+                SATUAN: 'background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%); color:#ffffff; border:1px solid #60a5fa;',
+                FREE: 'background:rgba(255,255,255,0.18); color:#cbd5e1;'
+            };
+            const badgeStyle = tierStyleMap[tierText] || (prof.isPaid ? tierStyleMap.BRONZE : tierStyleMap.FREE);
+            const avatarUrl = user.photoURL || 'https://ui-avatars.com/api/?name=' + encodeURIComponent(customName);
+            mobDrawerProf.innerHTML = `
+                <div class="mob-drawer-profile-card" onclick="window.toggleMobileMenuDrawer(false); window.bukaModalProfilPeserta();">
+                    <div class="mob-drawer-profile-left">
+                        <img src="${avatarUrl}" alt="Avatar" />
+                        <div style="min-width:0;">
+                            <div class="mob-drawer-profile-name">${firstName}</div>
+                            <span style="${badgeStyle} display:inline-block; font-size:0.62rem; font-weight:800; padding:2px 8px; border-radius:999px; margin-top:2px;">${tierText}</span>
+                        </div>
+                    </div>
+                    <span style="font-size:0.72rem; color:#fde047; font-weight:700;"><i class="fas fa-user-pen"></i> Profil</span>
+                </div>
             `;
         }
         const footerTopInfo = document.getElementById('asnFooterTopInfo');

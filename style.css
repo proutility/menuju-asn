@@ -1541,13 +1541,54 @@ footer {
 }
 
 @media (max-width: 640px) {
-    .nav-profile-sub,
+    .nav-profile-chip {
+        display: none !important;
+    }
     .btn-logout-modern span {
-        display: none;
+        display: inline !important;
     }
     .btn-logout-modern {
-        padding: 8px 10px;
+        padding: 7px 13px !important;
+        font-size: 0.76rem !important;
     }
+}
+
+.mob-drawer-profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 11px 13px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.mob-drawer-profile-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+}
+
+.mob-drawer-profile-left img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #fbbf24;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.mob-drawer-profile-name {
+    font-weight: 800;
+    font-size: 0.86rem;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* ===== ELEGANT BLUE-WHITE GRADIENTS, BUYER PILL, TESTIMONIALS & EXECUTIVE FOOTER ===== */
@@ -5900,5 +5941,11 @@ footer {
     }
     .cc-table-wrap {
         overflow-x: auto;
+    }
+}
+
+@media (max-width: 960px) {
+    body.has-logged-in .asn-footer-bottom {
+        padding-bottom: 78px;
     }
 }
