@@ -1523,35 +1523,57 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
         return window.mulaiSingleplayer('full');
     }
 
-    Swal.fire({
-        title: `🔒 ${namaFitur}`,
-        html: `
+    const fiturLower = String(namaFitur || '').toLowerCase();
+    const isPusatStudi = fiturLower.includes('pusat studi');
+    const isTryout = /to akbar|tryout/i.test(fiturLower);
+    const isBannerSatuan = fiturLower === 'paket satuan';
+    const satuanLabel = isTryout ? 'Rp 24.999 / TO' : (isBannerSatuan ? 'Mulai Rp 9.999' : 'Rp 9.999 / Paket');
+    const satuanDesc = isTryout
+        ? '<b>Rp 24.999 per Tryout Akbar</b>'
+        : (isBannerSatuan
+            ? '<b>Rp 9.999 / Paket Latihan</b> atau <b>Rp 24.999 / Tryout Akbar</b>'
+            : '<b>Rp 9.999 per Paket Latihan</b>');
+
+    const bodyHtml = isPusatStudi
+        ? `
+            <p style="font-size:0.92rem; color:#334155; margin-bottom:12px;">
+                Fitur <b>Pusat Studi ASN</b> tersedia eksklusif murni untuk <b>Paket Gold</b>.
+            </p>
+            <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#92400e; line-height:1.5; text-align:left;">
+                👑 Upgrade ke <b>Paket Gold (Rp 99.999)</b> untuk membuka seluruh modul materi, trik cepat TWK/TIU/TKP, 270 paket latihan, &amp; 5× Tryout Akbar.
+            </div>
+        `
+        : `
             <p style="font-size:0.92rem; color:#334155; margin-bottom:12px;">
                 Akses ini tersedia khusus untuk <b>${infoHarga}</b>.
             </p>
             <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#475569; line-height:1.5; text-align:left;">
-                <div style="margin-bottom:4px;">👑 <b>Paket Langganan:</b> Upgrade ke <b>${infoHarga}</b> untuk buka ratusan paket sekaligus.</div>
-                <div>💳 <b>Opsi Eceran:</b> Tidak ingin langganan? Tersedia opsi beli satuan <b>Rp 5.000 / Paket (TO)</b>.</div>
+                <div style="margin-bottom:4px;">👑 <b>Paket Langganan:</b> Upgrade ke <b>${infoHarga}</b> untuk buka banyak paket sekaligus.</div>
+                <div>💳 <b>Opsi Eceran:</b> Tidak ingin langganan? Tersedia beli satuan ${satuanDesc}.</div>
             </div>
-        `,
+        `;
+
+    Swal.fire({
+        title: `🔒 ${namaFitur}`,
+        html: bodyHtml,
         icon: 'info',
-        showDenyButton: true,
+        showDenyButton: !isPusatStudi,
         showCancelButton: true,
-        confirmButtonText: '👑 Lihat Paket',
-        denyButtonText: '💳 Beli Rp 5.000 / TO',
+        confirmButtonText: isPusatStudi ? '👑 Lihat Paket Gold' : '👑 Lihat Paket',
+        denyButtonText: `💳 Beli ${satuanLabel}`,
         cancelButtonText: 'Tutup',
         confirmButtonColor: '#1e3a8a',
         denyButtonColor: '#d97706'
     }).then(res => {
         if (res.isConfirmed) {
             if (typeof window.switchAppView === 'function') window.switchAppView('upgrade');
-        } else if (res.isDenied) {
+        } else if (res.isDenied && !isPusatStudi) {
             Swal.fire({
                 icon: 'info',
-                title: '💳 Pembelian Satuan Rp 5.000 / TO',
+                title: `💳 Pembelian Satuan ${satuanLabel}`,
                 html: `
                     <p style="font-size:0.88rem; color:#334155; margin-bottom:10px;">
-                        Fitur pembayaran eceran otomatis <b>Rp 5.000 per paket/TO</b> via <b>Xendit</b> (QRIS, E-Wallet &amp; Virtual Account) sedang dalam tahap integrasi akhir dan akan segera aktif!
+                        Fitur pembayaran eceran otomatis ${satuanDesc} via <b>Xendit</b> (QRIS, E-Wallet &amp; Virtual Account) sedang dalam tahap integrasi akhir dan akan segera aktif!
                     </p>
                     <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px; font-size:0.8rem; color:#92400e;">
                         💡 Sementara menunggu rilis Xendit, kamu juga bisa memilih paket <b>Bronze / Silver / Gold</b> atau hubungi Admin.
@@ -3062,7 +3084,7 @@ window.bukaReviewBrankas = (attemptId, filterMode = 'all') => {
     if (!canReview) {
         return window.bukaModalUpgrade(
             'Review Brankas Pembahasan',
-            'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
+            'Paket Satuan (Rp 9.999) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
         );
     }
     window.reviewState = {
