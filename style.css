@@ -5390,3 +5390,131 @@ footer {
     color: #ffffff;
     border-color: #ca8a04;
 }
+
+/* ===== PAKET PLATINUM, PRICING 4 KOLOM, TOEFL & PUSAT UNDUH PDF ===== */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    gap: 18px;
+    align-items: stretch;
+}
+
+.pricing-card.platinum {
+    border: 2px solid #818cf8;
+    background: linear-gradient(165deg, #ffffff 0%, #eef2ff 100%);
+    box-shadow: 0 14px 32px rgba(79, 70, 229, 0.14);
+}
+
+.popular-tag.platinum-tag {
+    background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%);
+    color: #ffffff;
+}
+
+.pkg-buyer-pill.platinum-pill {
+    background: #eef2ff;
+    color: #4338ca;
+    border-color: #c7d2fe;
+}
+
+.btn-pricing.platinum-btn {
+    background: linear-gradient(135deg, #4f46e5 0%, #312e81 100%);
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 6px 16px rgba(79, 70, 229, 0.28);
+}
+
+.btn-pricing.platinum-btn:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+
+.sidebar-badge.platinum {
+    background: linear-gradient(135deg, #4f46e5 0%, #312e81 100%);
+    color: #e0e7ff;
+    font-size: 0.56rem;
+    padding: 2px 6px;
+}
+
+.view-banner.platinum-banner {
+    background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 55%, #4f46e5 100%);
+    color: #ffffff;
+    box-shadow: 0 12px 28px rgba(49, 46, 129, 0.22);
+}
+
+.badge-access.platinum-badge {
+    background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+    color: #3730a3;
+    border: 1px solid #a5b4fc;
+}
+
+.card-mode.packet-card.platinum-border {
+    border-color: #a5b4fc;
+}
+
+.btn-card.tier-btn-platinum {
+    background: linear-gradient(135deg, #4f46e5 0%, #312e81 100%);
+    color: #ffffff;
+    border: 1.5px solid #4338ca;
+}
+
+.btn-card.tier-btn-platinum:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+
+.pdf-actions-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.btn-pdf-soal {
+    background: #eff6ff;
+    color: #1e40af;
+    border: 1.5px solid #93c5fd;
+    padding: 9px 10px;
+    border-radius: 10px;
+    font-family: var(--font-main);
+    font-size: 0.76rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.18s ease;
+}
+
+.btn-pdf-soal:hover {
+    background: #1d4ed8;
+    color: #ffffff;
+    border-color: #1d4ed8;
+}
+
+.btn-pdf-full {
+    background: linear-gradient(135deg, #4f46e5 0%, #312e81 100%);
+    color: #ffffff;
+    border: 1.5px solid #4338ca;
+    padding: 9px 10px;
+    border-radius: 10px;
+    font-family: var(--font-main);
+    font-size: 0.76rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.18s ease;
+}
+
+.btn-pdf-full:hover {
+    filter: brightness(1.1);
+}
+
+@media (max-width: 520px) {
+    .pdf-actions-row {
+        grid-template-columns: 1fr;
+    }
+}

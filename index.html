@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.5.8">
+    <link rel="stylesheet" href="style.css?v=2.6.2">
 </head>
 <body>
 
@@ -435,6 +435,26 @@
                         Pilih Gold (All-In)
                     </button>
                 </div>
+
+                <!-- PLATINUM -->
+                <div class="pricing-card platinum">
+                    <div class="popular-tag platinum-tag">💎 VIP COMPLETE + TOEFL &amp; PDF</div>
+                    <div class="pricing-card-top">
+                        <div class="pricing-tier">PLATINUM</div>
+                        <span class="pkg-buyer-pill platinum-pill" title="Peserta bergabung"><i class="fas fa-users"></i> 210+</span>
+                    </div>
+                    <div class="pricing-price">Rp 149.999</div>
+                    <p class="pricing-desc">Semua benefit Gold + Latihan Mandiri TOEFL &amp; FREE Download PDF Materi &amp; Soal.</p>
+                    <ul class="pricing-list">
+                        <li><i class="fas fa-check-circle"></i><span><strong>Semua Akses Paket Gold</strong> (270 Paket • 10.780 Soal + 5× TO Akbar + Pusat Studi + AI Mentor + CBT Arena 4 Peserta)</span></li>
+                        <li><i class="fas fa-check-circle"></i><span><strong>BONUS Latihan Mandiri TOEFL</strong> (Structure, Reading &amp; Listening)</span></li>
+                        <li><i class="fas fa-check-circle"></i><span><strong>FREE Download PDF Kumpulan Soal &amp; Materi</strong> per Subtes (TWK, TIU, TKP, TOEFL)</span></li>
+                        <li><i class="fas fa-check-circle"></i><span><strong>Cetak A4 Rapi + Soal &amp; Pembahasan</strong> siap belajar offline</span></li>
+                    </ul>
+                    <button class="btn-pricing platinum-btn" onclick="window.pilihPaketLanding('Paket Platinum', 'Rp 149.999')">
+                        Pilih Platinum (VIP)
+                    </button>
+                </div>
             </div>
         </section>
     </div>
@@ -468,6 +488,14 @@
                 <button class="sidebar-item" data-view="studi" onclick="window.switchAppView('studi')">
                     <i class="fas fa-graduation-cap"></i><span>Pusat Studi ASN</span>
                     <span class="sidebar-badge gold">GOLD</span>
+                </button>
+                <button class="sidebar-item" data-view="toefl" onclick="window.switchAppView('toefl')">
+                    <i class="fas fa-language"></i><span>Latihan TOEFL</span>
+                    <span class="sidebar-badge platinum">PLATINUM</span>
+                </button>
+                <button class="sidebar-item" data-view="pdf-library" onclick="window.switchAppView('pdf-library')">
+                    <i class="fas fa-file-pdf"></i><span>Download PDF Materi &amp; Soal</span>
+                    <span class="sidebar-badge platinum">PLATINUM</span>
                 </button>
                 <button class="sidebar-item" data-view="diskusi" onclick="window.switchAppView('diskusi')">
                     <i class="fas fa-headset"></i><span>Informasi &amp; Pengaduan</span>
@@ -1199,6 +1227,67 @@
                         </ul>
                         <button class="btn-pricing gold-btn" onclick="window.bukaModalUpgrade('Paket Gold', 'Rp 99.999')">Pilih Gold (All-In)</button>
                     </div>
+                    <div class="pricing-card platinum">
+                        <div class="popular-tag platinum-tag">💎 VIP COMPLETE + TOEFL &amp; PDF</div>
+                        <div class="pricing-card-top">
+                            <div class="pricing-tier">PLATINUM</div>
+                            <span class="pkg-buyer-pill platinum-pill"><i class="fas fa-users"></i> 210+</span>
+                        </div>
+                        <div class="pricing-price">Rp 149.999</div>
+                        <ul class="pricing-list">
+                            <li><i class="fas fa-check-circle"></i><span><strong>Semua Akses Gold</strong> (270 Paket • 5× TO Akbar • Pusat Studi • AI • Arena 4 Peserta)</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>BONUS Akses Penuh Latihan Mandiri TOEFL</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>FREE Download PDF Kumpulan Soal &amp; Materi</strong> Per Subtes</span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Pilihan PDF <strong>Soal Saja</strong> atau <strong>Soal + Pembahasan</strong></span></li>
+                        </ul>
+                        <button class="btn-pricing platinum-btn" onclick="window.bukaModalUpgrade('Paket Platinum', 'Rp 149.999')">Pilih Platinum (VIP)</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 7B: LATIHAN MANDIRI TOEFL (EKSKLUSIF PLATINUM) -->
+            <section id="view-toefl" class="app-view">
+                <div class="view-banner platinum-banner">
+                    <div>
+                        <h2><i class="fas fa-language"></i> Latihan Mandiri TOEFL (Eksklusif Platinum)</h2>
+                        <p>Asah skor TOEFL ITP/Prediction untuk syarat administrasi CASN &amp; instansi pusat: Structure, Reading &amp; Listening.</p>
+                    </div>
+                </div>
+
+                <div class="lobby-filter-bar">
+                    <div class="filter-chips" id="toeflFilterChips">
+                        <button class="filter-chip active" onclick="window.filterToeflPaket('all', this)">Semua</button>
+                        <button class="filter-chip" onclick="window.filterToeflPaket('structure', this)">Structure &amp; Written Expression</button>
+                        <button class="filter-chip" onclick="window.filterToeflPaket('reading', this)">Reading Comprehension</button>
+                        <button class="filter-chip" onclick="window.filterToeflPaket('listening', this)">Listening Comprehension</button>
+                    </div>
+                </div>
+
+                <div class="grid-modes" id="toeflPaketGrid">
+                    <!-- Diisi otomatis oleh window.renderToeflPaketCards() dari window.DATA_TOEFL -->
+                </div>
+            </section>
+
+            <!-- VIEW 7C: PUSAT UNDUH PDF MATERI & SOAL PER SUBTES (EKSKLUSIF PLATINUM) -->
+            <section id="view-pdf-library" class="app-view">
+                <div class="view-banner platinum-banner">
+                    <div>
+                        <h2><i class="fas fa-file-pdf"></i> Download PDF Materi &amp; Soal (Eksklusif Platinum)</h2>
+                        <p>Unduh kumpulan soal &amp; pembahasan siap cetak A4 per subtes (TWK, TIU, TKP, dan TOEFL) berwatermark resmi MENUJU ASN.</p>
+                    </div>
+                </div>
+
+                <div class="lobby-filter-bar">
+                    <div class="filter-chips" id="pdfSubtesTabs">
+                        <button class="filter-chip active" data-pdfsub="twk" onclick="window.switchPdfSubtesTab('twk', this)"><i class="fas fa-landmark"></i> Subtes TWK</button>
+                        <button class="filter-chip" data-pdfsub="tiu" onclick="window.switchPdfSubtesTab('tiu', this)"><i class="fas fa-brain"></i> Subtes TIU</button>
+                        <button class="filter-chip" data-pdfsub="tkp" onclick="window.switchPdfSubtesTab('tkp', this)"><i class="fas fa-user-check"></i> Subtes TKP</button>
+                        <button class="filter-chip" data-pdfsub="toefl" onclick="window.switchPdfSubtesTab('toefl', this)"><i class="fas fa-language"></i> Modul TOEFL</button>
+                    </div>
+                </div>
+
+                <div id="pdfLibraryGrid" class="grid-modes">
+                    <!-- Diisi otomatis oleh window.renderPdfLibraryView() -->
                 </div>
             </section>
 
@@ -1286,6 +1375,7 @@
                             <option value="bronze">BRONZE</option>
                             <option value="silver">SILVER</option>
                             <option value="gold">GOLD</option>
+                            <option value="platinum">PLATINUM</option>
                         </select>
                     </div>
                     <div class="cc-table-wrap">
@@ -1574,13 +1664,14 @@
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
     <script src="data_tryout_akbar.js?v=2.6.0"></script>
-    <script type="module" src="app.js?v=2.6.1"></script>
+    <script src="data_toefl.js?v=2.6.2"></script>
+    <script type="module" src="app.js?v=2.6.2"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.6.1')
+                navigator.serviceWorker.register('./sw.js?v=2.6.2')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });

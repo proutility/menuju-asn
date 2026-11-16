@@ -30,6 +30,7 @@ const TIER_CAPACITY = {
     bronze: 2,
     silver: 3,
     gold: 4,
+    platinum: 4,
     admin: 100
 };
 
@@ -132,6 +133,7 @@ function updateAuthUI(user) {
         if (userProfileEl) {
             const tierStyleMap = {
                 ADMIN: 'background:linear-gradient(135deg,#fde047 0%,#f59e0b 100%); color:#0f172a; border:1px solid #fbbf24;',
+                PLATINUM: 'background:linear-gradient(135deg,#4f46e5 0%,#312e81 100%); color:#ffffff; border:1px solid #a5b4fc;',
                 GOLD: 'background:linear-gradient(135deg,#fef08a 0%,#eab308 100%); color:#713f12; border:1px solid #facc15;',
                 SILVER: 'background:linear-gradient(135deg,#f1f5f9 0%,#cbd5e1 100%); color:#0f172a; border:1px solid #e2e8f0;',
                 BRONZE: 'background:linear-gradient(135deg,#cd7f32 0%,#8c4a16 100%); color:#ffffff; border:1px solid #d99b66;',
@@ -182,6 +184,12 @@ function updateAuthUI(user) {
         }
         if (typeof window.renderTryoutPaketCards === 'function') {
             window.renderTryoutPaketCards();
+        }
+        if (typeof window.renderToeflPaketCards === 'function') {
+            window.renderToeflPaketCards();
+        }
+        if (typeof window.renderPdfLibraryView === 'function') {
+            window.renderPdfLibraryView();
         }
         if (typeof window.applyAdminBypassUI === 'function') {
             window.applyAdminBypassUI();
@@ -361,6 +369,10 @@ window.switchAppView = (viewName) => {
         if (typeof window.syncPusatStudiButtons === 'function') window.syncPusatStudiButtons();
     } else if (viewName === 'diskusi') {
         if (typeof window.loadRiwayatPengaduanSaya === 'function') window.loadRiwayatPengaduanSaya();
+    } else if (viewName === 'toefl') {
+        if (typeof window.renderToeflPaketCards === 'function') window.renderToeflPaketCards();
+    } else if (viewName === 'pdf-library') {
+        if (typeof window.renderPdfLibraryView === 'function') window.renderPdfLibraryView();
     }
 };
 
@@ -585,6 +597,7 @@ window.filterCommandUsers = () => {
                         <option value="bronze" ${tier === 'bronze' ? 'selected' : ''}>BRONZE</option>
                         <option value="silver" ${tier === 'silver' ? 'selected' : ''}>SILVER</option>
                         <option value="gold" ${tier === 'gold' ? 'selected' : ''}>GOLD</option>
+                        <option value="platinum" ${tier === 'platinum' ? 'selected' : ''}>PLATINUM</option>
                     </select>
                 </td>
                 <td class="cc-actions-cell">
@@ -824,7 +837,7 @@ function hasSubtesPaketAccess(prof, subtes, paketNo) {
     if (prof.isAdmin) return true;
     if (!prof.isPaid) return false;
     const t = String(prof.tier || 'free').toLowerCase();
-    if (t === 'gold' || t === 'admin') return true;
+    if (t === 'gold' || t === 'platinum' || t === 'admin') return true;
     if (t === 'silver') return paketNo <= 45;
     if (t === 'bronze') return paketNo <= 17;
     if (t === 'satuan') return paketNo <= 5;
@@ -847,7 +860,7 @@ function hasTryoutPaketAccess(prof, toNo) {
     if (prof.isAdmin) return true;
     if (!prof.isPaid) return false;
     const t = String(prof.tier || 'free').toLowerCase();
-    if (t === 'gold' || t === 'admin') return true;
+    if (t === 'gold' || t === 'platinum' || t === 'admin') return true;
     if (t === 'silver') return Number(toNo) <= 3;
     if (t === 'bronze') return Number(toNo) <= 1;
     if (t === 'satuan') return Number(toNo) <= 1;
@@ -990,6 +1003,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.renderTkp40PaketCards();
     if (typeof window.renderTryoutPaketCards === 'function') {
         window.renderTryoutPaketCards();
+    }
+    if (typeof window.renderToeflPaketCards === 'function') {
+        window.renderToeflPaketCards();
+    }
+    if (typeof window.renderPdfLibraryView === 'function') {
+        window.renderPdfLibraryView();
     }
     if (typeof window.initSidebarCollapse === 'function') {
         window.initSidebarCollapse();
@@ -1597,6 +1616,8 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
 
     const fiturLower = String(namaFitur || '').toLowerCase();
     const isPusatStudi = fiturLower.includes('pusat studi');
+    const isPlatinumOnly = fiturLower.includes('toefl') || fiturLower.includes('pdf') || String(infoHarga || '').toLowerCase().includes('platinum');
+    const isExclusiveTier = isPusatStudi || isPlatinumOnly;
     const isTryout = /to akbar|tryout/i.test(fiturLower);
     const isBannerSatuan = fiturLower === 'paket satuan';
     const satuanLabel = isTryout ? 'Rp 24.999 / TO' : (isBannerSatuan ? 'Mulai Rp 9.999' : 'Rp 9.999 / Paket');
@@ -1606,13 +1627,22 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
             ? '<b>Rp 9.999 / Paket Latihan</b> atau <b>Rp 24.999 / Tryout Akbar</b>'
             : '<b>Rp 9.999 per Paket Latihan</b>');
 
-    const bodyHtml = isPusatStudi
+    const bodyHtml = isPlatinumOnly
         ? `
             <p style="font-size:0.92rem; color:#334155; margin-bottom:12px;">
-                Fitur <b>Pusat Studi ASN</b> tersedia eksklusif murni untuk <b>Paket Gold</b>.
+                Fitur ini tersedia eksklusif untuk <b>Paket Platinum (Rp 149.999)</b>.
+            </p>
+            <div style="background:#eef2ff; border:1px solid #c7d2fe; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#312e81; line-height:1.5; text-align:left;">
+                💎 Upgrade ke <b>Paket Platinum (Rp 149.999)</b> untuk membuka seluruh benefit Gold + <b>Latihan Mandiri TOEFL</b> + <b>FREE Download PDF Soal &amp; Pembahasan</b> per subtes.
+            </div>
+        `
+        : (isPusatStudi
+        ? `
+            <p style="font-size:0.92rem; color:#334155; margin-bottom:12px;">
+                Fitur <b>Pusat Studi ASN</b> tersedia eksklusif untuk <b>Paket Gold / Platinum</b>.
             </p>
             <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#92400e; line-height:1.5; text-align:left;">
-                👑 Upgrade ke <b>Paket Gold (Rp 99.999)</b> untuk membuka seluruh modul materi, trik cepat TWK/TIU/TKP, 270 paket latihan, &amp; 5× Tryout Akbar.
+                👑 Upgrade ke <b>Paket Gold (Rp 99.999)</b> atau <b>Platinum (Rp 149.999)</b> untuk membuka seluruh modul materi &amp; trik cepat 10 detik.
             </div>
         `
         : `
@@ -1623,23 +1653,23 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
                 <div style="margin-bottom:4px;">👑 <b>Paket Langganan:</b> Upgrade ke <b>${infoHarga}</b> untuk buka banyak paket sekaligus.</div>
                 <div>💳 <b>Opsi Eceran:</b> Tidak ingin langganan? Tersedia beli satuan ${satuanDesc}.</div>
             </div>
-        `;
+        `);
 
     Swal.fire({
         title: `🔒 ${namaFitur}`,
         html: bodyHtml,
         icon: 'info',
-        showDenyButton: !isPusatStudi,
+        showDenyButton: !isExclusiveTier,
         showCancelButton: true,
-        confirmButtonText: isPusatStudi ? '👑 Lihat Paket Gold' : '👑 Lihat Paket',
+        confirmButtonText: isPlatinumOnly ? '💎 Lihat Paket Platinum' : (isPusatStudi ? '👑 Lihat Paket Gold' : '👑 Lihat Paket'),
         denyButtonText: `💳 Beli ${satuanLabel}`,
         cancelButtonText: 'Tutup',
-        confirmButtonColor: '#1e3a8a',
+        confirmButtonColor: isPlatinumOnly ? '#4f46e5' : '#1e3a8a',
         denyButtonColor: '#d97706'
     }).then(res => {
         if (res.isConfirmed) {
             if (typeof window.switchAppView === 'function') window.switchAppView('upgrade');
-        } else if (res.isDenied && !isPusatStudi) {
+        } else if (res.isDenied && !isExclusiveTier) {
             Swal.fire({
                 icon: 'info',
                 title: `💳 Pembelian Satuan ${satuanLabel}`,
@@ -2022,6 +2052,21 @@ window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
             title = 'TKP Paket #1';
             saveId = 'tkp_1';
         }
+    } else if (tipe === 'toefl') {
+        const allToefl = Array.isArray(window.DATA_TOEFL) ? window.DATA_TOEFL : [];
+        const groups = typeof buildToeflPaketGroups === 'function' ? buildToeflPaketGroups(allToefl) : [];
+        const keyStr = String(paketNo || '1');
+        const found = groups.find(g => g.key === keyStr || String(g.paketNo) === keyStr) || groups[0];
+        if (found && found.questions.length > 0) {
+            window.currentQuestions = found.questions;
+            title = found.title;
+            saveId = `toefl_${found.key}`;
+        } else {
+            window.currentQuestions = [];
+            title = 'Latihan Mandiri TOEFL';
+            saveId = 'toefl_1';
+        }
+        window.examTimeRemaining = Math.max(15, window.currentQuestions.length) * 60;
     } else if (tipe === 'to_gratis') {
         const toPool = window.DATA_TRYOUT_AKBAR || [];
         window.currentQuestions = toPool.filter(q => q.paketTo === 0);
@@ -2098,6 +2143,7 @@ window.bukaLobbyPersiapanPaket = () => {
     if (tipe.startsWith('twk')) subtesKey = 'twk';
     else if (tipe.startsWith('tiu')) subtesKey = 'tiu';
     else if (tipe.startsWith('tkp')) subtesKey = 'tkp';
+    else if (tipe.startsWith('toefl')) subtesKey = 'toefl';
 
     const SPEC_MAP = {
         twk: {
@@ -2138,6 +2184,19 @@ window.bukaLobbyPersiapanPaket = () => {
             maxSub: 'Bobot Bertingkat 1 s.d. 5 Poin',
             desc: `Paket latihan Tes Karakteristik Pribadi (TKP) yang mengukur kematangan perilaku ASN pada 6 aspek pelayanan publik, jejaring kerja, sosial budaya, teknologi informasi (TIK), profesionalisme, dan anti-radikalisme.`,
             defaultTopics: ['Pelayanan Publik', 'Jejaring Kerja', 'Sosial Budaya', 'Teknologi Informasi (TIK)', 'Profesionalisme', 'Anti-Radikalisme']
+        },
+        toefl: {
+            tag: '[EKSKLUSIF PLATINUM]',
+            flyerKicker: 'LATIHAN MANDIRI TOEFL',
+            flyerTitle: 'TOEFL PRACTICE',
+            flyerIcon: 'fa-language',
+            themeClass: 'theme-tiu',
+            pgValue: 'Target Skor ≥ 500',
+            pgSub: 'Standar TOEFL ITP / CASN Pusat',
+            maxValue: `${totalSoal * 5} Poin`,
+            maxSub: 'Benar +5 • Salah / Kosong 0',
+            desc: 'Latihan Mandiri TOEFL untuk menguji Structure & Written Expression, Reading Comprehension, dan Listening Comprehension guna memenuhi syarat skor bahasa Inggris instansi pusat.',
+            defaultTopics: ['Structure & Written Expression', 'Reading Comprehension', 'Listening Comprehension']
         },
         full: {
             tag: '[TRY OUT AKBAR SKD]',
@@ -4111,7 +4170,7 @@ function isAllowedArenaUser(prof) {
     if (!prof) return false;
     if (prof.isAdmin) return true;
     const t = String(prof.tier || 'free').toLowerCase();
-    return Boolean(prof.isPaid && ['bronze', 'silver', 'gold'].includes(t));
+    return Boolean(prof.isPaid && ['bronze', 'silver', 'gold', 'platinum'].includes(t));
 }
 
 function buildArenaPaketOptionsHtml() {
@@ -4190,7 +4249,8 @@ window.bukaModalBikinRoom = () => {
         ? `
             <option value="bronze">Bronze (Maks 2 Peserta)</option>
             <option value="silver">Silver (Maks 3 Peserta)</option>
-            <option value="gold" selected>Gold (Maks 4 Peserta)</option>
+            <option value="gold">Gold (Maks 4 Peserta)</option>
+            <option value="platinum" selected>Platinum (Maks 4 Peserta)</option>
             <option value="custom_10">Admin Bebas (Maks 10 Peserta)</option>
             <option value="custom_25">Admin Bebas (Maks 25 Peserta)</option>
             <option value="admin">Akbar Nasional (Maks 100 Peserta)</option>
@@ -6506,7 +6566,7 @@ window.konfirmasiPakaiTokenBot = async (namaFitur = 'Tanya MenujuASN-BOT') => {
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
     const tier = prof.isAdmin ? 'admin' : (prof.isPaid ? String(prof.tier || 'bronze').toLowerCase() : 'free');
-    const defaultLim = tier === 'admin' ? 9999 : (tier === 'gold' ? 30 : (tier === 'silver' ? 20 : (tier === 'bronze' ? 10 : 0)));
+    const defaultLim = tier === 'admin' ? 9999 : ((tier === 'gold' || tier === 'platinum') ? 30 : (tier === 'silver' ? 20 : (tier === 'bronze' ? 10 : 0)));
     const totalLimit = window._botQuotaState?.totalLimit ?? defaultLim;
     const totalUsed = window._botQuotaState?.totalUsed ?? 0;
     const remaining = Math.max(0, totalLimit - totalUsed);
@@ -7947,7 +8007,7 @@ window.currentStudiQuizAnswers = {}; // { [babId_qIdx]: selectedOptionIndex }
 window.syncPusatStudiButtons = () => {
     const isGoldOrAdmin = Boolean(
         window.currentUserProfile?.isAdmin ||
-        String(window.currentUserProfile?.tier || '').toLowerCase() === 'gold'
+        ['gold', 'platinum'].includes(String(window.currentUserProfile?.tier || '').toLowerCase())
     );
     document.querySelectorAll('.btn-studi-open').forEach(btn => {
         if (isGoldOrAdmin) {
@@ -7967,7 +8027,7 @@ window.bukaMateriPusatStudi = (subtes) => {
 
     const isGoldOrAdmin = Boolean(
         window.currentUserProfile?.isAdmin ||
-        String(window.currentUserProfile?.tier || '').toLowerCase() === 'gold'
+        ['gold', 'platinum'].includes(String(window.currentUserProfile?.tier || '').toLowerCase())
     );
 
     if (!isGoldOrAdmin) {
@@ -8447,3 +8507,693 @@ function formatStructuredPembahasan(text) {
         .replace(/^([^\n:]{2,40})::\s*/gm, '<b>$1:</b> ')
         .replace(/\n+/g, '<br>');
 }
+
+
+// ==========================================================
+// 14. LATIHAN MANDIRI TOEFL & PUSAT UNDUH PDF (EKSKLUSIF PLATINUM)
+// ==========================================================
+function isPlatinumOrAdminUser() {
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    if (prof.isAdmin) return true;
+    return Boolean(prof.isPaid && String(prof.tier || '').toLowerCase() === 'platinum');
+}
+
+function classifyToeflCategory(subKat) {
+    const v = String(subKat || '').toLowerCase();
+    if (v.includes('listen')) return 'listening';
+    if (v.includes('read')) return 'reading';
+    return 'structure';
+}
+
+function buildToeflPaketGroups(rawList) {
+    const list = Array.isArray(rawList) ? rawList : [];
+    if (!list.length) return [];
+
+    const byKey = new Map();
+    list.forEach((q, idx) => {
+        if (!q) return;
+        const catKey = classifyToeflCategory(q.subKategori);
+        const pNo = q.paketNo || (Math.floor(idx / 25) + 1);
+        const key = `${catKey}_${pNo}`;
+        if (!byKey.has(key)) {
+            const catTitle = catKey === 'listening'
+                ? 'Listening Comprehension'
+                : (catKey === 'reading' ? 'Reading Comprehension' : 'Structure & Written Expression');
+            byKey.set(key, {
+                key,
+                catKey,
+                paketNo: pNo,
+                title: q.paketTitle || `TOEFL ${catTitle} #${pNo}`,
+                subKategori: q.subKategori || catTitle,
+                questions: []
+            });
+        }
+        byKey.get(key).questions.push(q);
+    });
+    return Array.from(byKey.values());
+}
+
+window.activeToeflFilter = 'all';
+
+window.filterToeflPaket = (filter, btnEl) => {
+    window.activeToeflFilter = filter || 'all';
+    document.querySelectorAll('#toeflFilterChips .filter-chip').forEach(btn => btn.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+
+    document.querySelectorAll('#toeflPaketGrid .packet-card').forEach(card => {
+        const cat = card.getAttribute('data-toeflcat') || 'structure';
+        const show = window.activeToeflFilter === 'all' || cat === window.activeToeflFilter;
+        card.style.display = show ? 'flex' : 'none';
+    });
+};
+
+window.renderToeflPaketCards = () => {
+    const grid = document.getElementById('toeflPaketGrid');
+    if (!grid) return;
+
+    const isPlat = isPlatinumOrAdminUser();
+    const rawList = Array.isArray(window.DATA_TOEFL) ? window.DATA_TOEFL : [];
+    const groups = buildToeflPaketGroups(rawList);
+
+    const placeholders = [
+        {
+            key: 'structure_1',
+            catKey: 'structure',
+            title: 'TOEFL Structure & Written Expression',
+            sub: 'Grammar, Clause, Inversion & Error Recognition',
+            desc: 'Latihan intensif Structure & Written Expression standar TOEFL ITP (Paket siap diisi di data_toefl.js).',
+            icon: 'fa-spell-check'
+        },
+        {
+            key: 'reading_1',
+            catKey: 'reading',
+            title: 'TOEFL Reading Comprehension',
+            sub: 'Main Idea, Inference, Vocabulary & Detail Passage',
+            desc: 'Latihan analisis wacana akademik bahasa Inggris standar TOEFL ITP (Paket siap diisi di data_toefl.js).',
+            icon: 'fa-book-open'
+        },
+        {
+            key: 'listening_1',
+            catKey: 'listening',
+            title: 'TOEFL Listening Comprehension',
+            sub: 'Short Dialogue, Long Conversation & Academic Talk',
+            desc: 'Latihan pemahaman percakapan & kuliah akademik TOEFL (Paket siap diisi di data_toefl.js).',
+            icon: 'fa-headphones'
+        }
+    ];
+
+    if (groups.length === 0) {
+        grid.innerHTML = placeholders.map(c => {
+            const ctaHtml = isPlat
+                ? `<button class="btn-card tier-btn-platinum" onclick="Swal.fire('Wadah TOEFL Siap!','Silakan isi bank soal ke file <b>data_toefl.js</b> (<code>window.DATA_TOEFL</code>), lalu paket ini otomatis aktif dikerjakan di ruang CBT.','info')"><i class="fas fa-hourglass-half"></i> Bank Soal Segera Hadir</button>`
+                : `<button class="btn-card tier-btn-platinum" onclick="window.bukaModalUpgrade('${c.title}', 'Paket Platinum (Rp 149.999)')"><i class="fas fa-lock"></i> Platinum</button>`;
+
+            return `
+                <div class="card-mode packet-card paid platinum-border" data-toeflcat="${c.catKey}">
+                    <div>
+                        <div class="packet-badges">
+                            <span class="badge-access platinum-badge"><i class="fas fa-gem"></i> PLATINUM</span>
+                            <span class="badge-cat">${c.catKey.toUpperCase()}</span>
+                        </div>
+                        <div class="card-mode-header">
+                            <div class="mode-icon blue" style="background:#eef2ff; color:#4338ca;"><i class="fas ${c.icon}"></i></div>
+                            <div>
+                                <h3>${c.title}</h3>
+                                <span style="font-size:0.75rem; color:#4338ca; font-weight:700;">${c.sub}</span>
+                            </div>
+                        </div>
+                        <p>${c.desc}</p>
+                    </div>
+                    ${ctaHtml}
+                </div>
+            `;
+        }).join('');
+    } else {
+        grid.innerHTML = groups.map(g => {
+            const ctaHtml = isPlat
+                ? `<button class="btn-card tier-btn-platinum" onclick="window.mulaiSingleplayer('toefl', '${g.key}')"><i class="fas fa-play"></i> Mulai Latihan</button>`
+                : `<button class="btn-card tier-btn-platinum" onclick="window.bukaModalUpgrade('${g.title}', 'Paket Platinum (Rp 149.999)')"><i class="fas fa-lock"></i> Platinum</button>`;
+            const icon = g.catKey === 'listening' ? 'fa-headphones' : (g.catKey === 'reading' ? 'fa-book-open' : 'fa-spell-check');
+            return `
+                <div class="card-mode packet-card paid platinum-border" data-toeflcat="${g.catKey}">
+                    <div>
+                        <div class="packet-badges">
+                            <span class="badge-access platinum-badge"><i class="fas fa-gem"></i> PLATINUM</span>
+                            <span class="badge-cat">TOEFL • ${g.catKey.toUpperCase()}</span>
+                        </div>
+                        <div class="card-mode-header">
+                            <div class="mode-icon blue" style="background:#eef2ff; color:#4338ca;"><i class="fas ${icon}"></i></div>
+                            <div>
+                                <h3>${escapeHtmlMentor(g.title)}</h3>
+                                <span style="font-size:0.75rem; color:#4338ca; font-weight:700;">${g.questions.length} Soal • ${g.questions.length} Menit</span>
+                            </div>
+                        </div>
+                        <p>${escapeHtmlMentor(g.subKategori)} — Simulasi TOEFL mandiri lengkap dengan Lobi Persiapan, Pembahasan, &amp; Brankas.</p>
+                    </div>
+                    ${ctaHtml}
+                </div>
+            `;
+        }).join('');
+    }
+
+    if (window.activeToeflFilter && window.activeToeflFilter !== 'all') {
+        const activeBtn = document.querySelector('#toeflFilterChips .filter-chip.active');
+        window.filterToeflPaket(window.activeToeflFilter, activeBtn);
+    }
+};
+
+window.activePdfSubtesTab = 'twk';
+
+window.switchPdfSubtesTab = (sub, btnEl) => {
+    window.activePdfSubtesTab = sub || 'twk';
+    document.querySelectorAll('#pdfSubtesTabs .filter-chip').forEach(b => b.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+    window.renderPdfLibraryView();
+};
+
+function getQuestionsForPdfSourceKey(sourceKey) {
+    const rawData = window.DATA_SKD_CPNS || [];
+    const key = String(sourceKey || '');
+
+    if (key.startsWith('twk_gratis_')) {
+        const no = Math.max(1, Math.min(3, Number(key.split('_')[2]) || 1));
+        return {
+            title: `TWK Gratis — Paket ${no}`,
+            subtes: 'TWK',
+            questions: (window.DATA_TWK_GRATIS || []).slice((no - 1) * 30, no * 30)
+        };
+    }
+    if (key.startsWith('tiu_gratis_')) {
+        const no = Math.max(1, Math.min(3, Number(key.split('_')[2]) || 1));
+        return {
+            title: `TIU Gratis — Paket ${no}`,
+            subtes: 'TIU',
+            questions: (window.DATA_TIU_GRATIS || []).slice((no - 1) * 35, no * 35)
+        };
+    }
+    if (key.startsWith('tkp_gratis_')) {
+        const no = Math.max(1, Math.min(3, Number(key.split('_')[2]) || 1));
+        return {
+            title: `TKP Gratis — Paket ${no}`,
+            subtes: 'TKP',
+            questions: (window.DATA_TKP_GRATIS || []).slice((no - 1) * 45, no * 45)
+        };
+    }
+    if (key.startsWith('twk_')) {
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
+        const qs = no <= 40
+            ? allPaidTwk.slice((no - 1) * 30, no * 30)
+            : (window.DATA_TWK_BATCH2 || []).slice((no - 41) * 30, (no - 40) * 30);
+        return { title: `TWK Paket #${no}${no > 40 ? ' (FR 2026)' : ''}`, subtes: 'TWK', questions: qs };
+    }
+    if (key.startsWith('tiu_')) {
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        const qs = no <= 40
+            ? rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id)).slice((no - 1) * 35, no * 35)
+            : (window.DATA_TIU_BATCH2 || []).slice((no - 41) * 35, (no - 40) * 35);
+        return { title: `TIU Paket #${no}${no > 40 ? ' (FR 2026)' : ''}`, subtes: 'TIU', questions: qs };
+    }
+    if (key.startsWith('tkp_')) {
+        const no = Math.max(1, Math.min(90, Number(key.split('_')[1]) || 1));
+        const allTkp = rawData.filter(q => q.kategori === 'TKP');
+        const packages = buildBalancedTkpPackages(allTkp, 40, 45);
+        const qs = no <= 40
+            ? (packages[no - 1] || [])
+            : (window.DATA_TKP_BATCH2 || []).slice((no - 41) * 45, (no - 40) * 45);
+        return { title: `TKP Paket #${no}${no > 40 ? ' (FR 2026)' : ''}`, subtes: 'TKP', questions: qs };
+    }
+    if (key.startsWith('toefl_')) {
+        const groups = buildToeflPaketGroups(window.DATA_TOEFL || []);
+        const gKey = key.replace(/^toefl_/, '');
+        const found = groups.find(g => g.key === gKey);
+        return found
+            ? { title: found.title, subtes: 'TOEFL', questions: found.questions }
+            : { title: 'Modul TOEFL', subtes: 'TOEFL', questions: [] };
+    }
+    return { title: 'Kumpulan Soal MENUJU ASN', subtes: 'SKD', questions: [] };
+}
+
+window.renderPdfLibraryView = () => {
+    const grid = document.getElementById('pdfLibraryGrid');
+    if (!grid) return;
+
+    const sub = window.activePdfSubtesTab || 'twk';
+    const isPlat = isPlatinumOrAdminUser();
+
+    if (sub === 'toefl') {
+        const groups = buildToeflPaketGroups(window.DATA_TOEFL || []);
+        if (!groups.length) {
+            grid.innerHTML = `
+                <div class="card-mode packet-card paid platinum-border" style="grid-column: 1 / -1;">
+                    <div>
+                        <div class="packet-badges">
+                            <span class="badge-access platinum-badge"><i class="fas fa-gem"></i> PLATINUM</span>
+                            <span class="badge-cat">PDF MODUL TOEFL</span>
+                        </div>
+                        <div class="card-mode-header">
+                            <div class="mode-icon blue" style="background:#eef2ff; color:#4338ca;"><i class="fas fa-file-pdf"></i></div>
+                            <div>
+                                <h3>Modul PDF TOEFL (Segera Hadir)</h3>
+                                <span style="font-size:0.75rem; color:#4338ca; font-weight:700;">Terhubung Otomatis ke window.DATA_TOEFL</span>
+                            </div>
+                        </div>
+                        <p>Begitu bank soal TOEFL diisi di <code>data_toefl.js</code>, seluruh paket TOEFL otomatis tersedia untuk diunduh sebagai PDF Soal Saja maupun PDF Soal + Pembahasan berwatermark MENUJU ASN.</p>
+                    </div>
+                    <div class="pdf-actions-row">
+                        <button type="button" class="btn-pdf-soal" onclick="${isPlat ? "Swal.fire('Info','Bank soal TOEFL belum diisi di data_toefl.js.','info')" : "window.bukaModalUpgrade('Download PDF Modul TOEFL', 'Paket Platinum (Rp 149.999)')"}">
+                            <i class="fas ${isPlat ? 'fa-file-lines' : 'fa-lock'}"></i> Unduh PDF Soal Saja
+                        </button>
+                        <button type="button" class="btn-pdf-full" onclick="${isPlat ? "Swal.fire('Info','Bank soal TOEFL belum diisi di data_toefl.js.','info')" : "window.bukaModalUpgrade('Download PDF Modul TOEFL', 'Paket Platinum (Rp 149.999)')"}">
+                            <i class="fas ${isPlat ? 'fa-file-pdf' : 'fa-lock'}"></i> Unduh PDF Soal + Pembahasan
+                        </button>
+                    </div>
+                </div>
+            `;
+            return;
+        }
+
+        grid.innerHTML = groups.map(g => {
+            const srcKey = `toefl_${g.key}`;
+            return `
+                <div class="card-mode packet-card paid platinum-border">
+                    <div>
+                        <div class="packet-badges">
+                            <span class="badge-access platinum-badge"><i class="fas fa-gem"></i> PLATINUM</span>
+                            <span class="badge-cat">PDF TOEFL</span>
+                        </div>
+                        <div class="card-mode-header">
+                            <div class="mode-icon blue" style="background:#eef2ff; color:#4338ca;"><i class="fas fa-file-pdf"></i></div>
+                            <div>
+                                <h3>${escapeHtmlMentor(g.title)}</h3>
+                                <span style="font-size:0.75rem; color:#4338ca; font-weight:700;">${g.questions.length} Soal • Siap Cetak A4</span>
+                            </div>
+                        </div>
+                        <p>Unduh dokumen PDF rapi lengkap dengan watermark identitas akun &amp; logo MENUJU ASN.</p>
+                    </div>
+                    <div class="pdf-actions-row">
+                        <button type="button" class="btn-pdf-soal" onclick="window.unduhPdfPaket('${srcKey}', false)">
+                            <i class="fas ${isPlat ? 'fa-file-lines' : 'fa-lock'}"></i> Unduh PDF Soal Saja
+                        </button>
+                        <button type="button" class="btn-pdf-full" onclick="window.unduhPdfPaket('${srcKey}', true)">
+                            <i class="fas ${isPlat ? 'fa-file-pdf' : 'fa-lock'}"></i> Unduh PDF Soal + Pembahasan
+                        </button>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        return;
+    }
+
+    // TWK / TIU / TKP: tampilkan 3 Paket Gratis + 90 Paket SKD
+    const items = [];
+    const subUpper = sub.toUpperCase();
+    const soalPerPaket = sub === 'twk' ? 30 : (sub === 'tiu' ? 35 : 45);
+    for (let g = 1; g <= 3; g++) {
+        items.push({
+            key: `${sub}_gratis_${g}`,
+            badge: `${subUpper} GRATIS • #${g}`,
+            title: `${subUpper} Gratis — Paket ${g}`,
+            sub: `${soalPerPaket} Soal • Format PDF A4`,
+            desc: `Kumpulan soal ${subUpper} Gratis Paket ${g} siap cetak A4.`
+        });
+    }
+    for (let i = 1; i <= 90; i++) {
+        const isFr = i > 40;
+        items.push({
+            key: `${sub}_${i}`,
+            badge: `${subUpper} • PAKET ${i}${isFr ? ' (FR 2026)' : ''}`,
+            title: `${subUpper} Paket #${i}${isFr ? ' — FR 2026' : ''}`,
+            sub: `${soalPerPaket} Soal • Format PDF A4`,
+            desc: `Kumpulan soal ${subUpper} Paket #${i} siap cetak A4 dengan watermark resmi.`
+        });
+    }
+
+    grid.innerHTML = items.map(it => `
+        <div class="card-mode packet-card paid platinum-border">
+            <div>
+                <div class="packet-badges">
+                    <span class="badge-access platinum-badge"><i class="fas fa-gem"></i> PLATINUM</span>
+                    <span class="badge-cat">${it.badge}</span>
+                </div>
+                <div class="card-mode-header">
+                    <div class="mode-icon blue" style="background:#eef2ff; color:#4338ca;"><i class="fas fa-file-pdf"></i></div>
+                    <div>
+                        <h3>${it.title}</h3>
+                        <span style="font-size:0.75rem; color:#4338ca; font-weight:700;">${it.sub}</span>
+                    </div>
+                </div>
+                <p>${it.desc}</p>
+            </div>
+            <div class="pdf-actions-row">
+                <button type="button" class="btn-pdf-soal" onclick="window.unduhPdfPaket('${it.key}', false)">
+                    <i class="fas ${isPlat ? 'fa-file-lines' : 'fa-lock'}"></i> Unduh PDF Soal Saja
+                </button>
+                <button type="button" class="btn-pdf-full" onclick="window.unduhPdfPaket('${it.key}', true)">
+                    <i class="fas ${isPlat ? 'fa-file-pdf' : 'fa-lock'}"></i> Unduh PDF Soal + Pembahasan
+                </button>
+            </div>
+        </div>
+    `).join('');
+};
+
+window.unduhPdfPaket = (sourceKey, withPembahasan = false) => {
+    if (!isPlatinumOrAdminUser()) {
+        return window.bukaModalUpgrade('Download PDF Materi & Soal', 'Paket Platinum (Rp 149.999)');
+    }
+
+    const pkg = getQuestionsForPdfSourceKey(sourceKey);
+    if (!pkg.questions || pkg.questions.length === 0) {
+        return Swal.fire('Info', 'Soal untuk modul PDF ini sedang disiapkan atau belum tersedia.', 'info');
+    }
+
+    const user = window.currentUser || {};
+    const prof = window.currentUserProfile || {};
+    const buyerName = escapeHtmlMentor((prof.nama || user.displayName || 'Peserta Platinum').trim());
+    const buyerEmail = escapeHtmlMentor(user.email || '-');
+    const nowText = new Date().toLocaleString('id-ID', {
+        day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+    const modeLabel = withPembahasan ? 'SOAL + KUNCI &amp; PEMBAHASAN' : 'SOAL LATIHAN SAJA';
+    const logoUrl = new URL('logo%20menuju%20asn.png', window.location.href).href;
+
+    const questionsMarkup = pkg.questions.map((q, idx) => {
+        const formattedSoal = formatQuestionTextHtml(q.soal).replace(/\n/g, '<br>');
+        const gambarHtml = q.gambar
+            ? `<div class="pdf-q-svg">${q.gambar}</div>`
+            : '';
+
+        const maxPoin = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
+        const opsiHtml = (q.opsi || []).map(o => {
+            const isBest = q.kategori === 'TKP' ? Number(o.poin || 0) >= maxPoin : Boolean(o.benar);
+            const highlightCls = (withPembahasan && isBest) ? 'pdf-opt-best' : '';
+            const tagHtml = withPembahasan
+                ? (q.kategori === 'TKP'
+                    ? `<span class="pdf-opt-tag">Poin ${o.poin || 0}</span>`
+                    : (o.benar ? `<span class="pdf-opt-tag">✓ Kunci</span>` : ''))
+                : '';
+            return `
+                <div class="pdf-opt-row ${highlightCls}">
+                    <strong>${escapeHtmlMentor(o.label)}.</strong>
+                    <span class="pdf-opt-text">${formatMentorTextWithSvg(o.teks)}</span>
+                    ${tagHtml}
+                </div>
+            `;
+        }).join('');
+
+        const pembahasanHtml = withPembahasan
+            ? `
+                <div class="pdf-pembahasan-box">
+                    <strong>Pembahasan:</strong> ${formatMentorTextWithSvg(q.pembahasan || '-')}
+                </div>
+            `
+            : '';
+
+        return `
+            <article class="pdf-question-item">
+                <div class="pdf-q-meta">
+                    <span class="pdf-q-num">No. ${idx + 1}</span>
+                    <span class="pdf-q-kat">${escapeHtmlMentor(q.kategori || pkg.subtes)}${q.subKategori ? ' • ' + escapeHtmlMentor(q.subKategori) : ''}</span>
+                </div>
+                <div class="pdf-q-body">${formattedSoal}${gambarHtml}</div>
+                <div class="pdf-opt-list">${opsiHtml}</div>
+                ${pembahasanHtml}
+            </article>
+        `;
+    }).join('');
+
+    const htmlDoc = `<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>${escapeHtmlMentor(pkg.title)} - MENUJU ASN</title>
+<style>
+    @page {
+        size: A4;
+        margin: 18mm 14mm 20mm 14mm;
+    }
+    * { box-sizing: border-box; }
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        color: #0f172a;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        line-height: 1.5;
+        font-size: 11pt;
+    }
+    /* WATERMARK TENGAH FIXED DI BELAKANG KONTEN (TIDAK MENGGANGGU SOAL) */
+    .pdf-watermark-center {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.065;
+        user-select: none;
+    }
+    .pdf-watermark-center img {
+        width: 240px;
+        height: 240px;
+        object-fit: contain;
+        margin-bottom: -10px;
+    }
+    .pdf-watermark-diag {
+        font-size: 46pt;
+        font-weight: 900;
+        letter-spacing: 6px;
+        color: #1e3a8a;
+        transform: rotate(-28deg);
+        margin-top: 10px;
+    }
+    /* WATERMARK IDENTITAS PEMBELI DI SETIAP HALAMAN CETAK */
+    .pdf-buyer-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        font-size: 7.5pt;
+        color: #64748b;
+        border-bottom: 1px solid #e2e8f0;
+        padding: 3px 0 4px;
+        display: flex;
+        justify-content: space-between;
+        background: rgba(255, 255, 255, 0.92);
+    }
+    .pdf-buyer-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        font-size: 7.5pt;
+        color: #64748b;
+        border-top: 1px solid #e2e8f0;
+        padding: 4px 0 2px;
+        display: flex;
+        justify-content: space-between;
+        background: rgba(255, 255, 255, 0.92);
+    }
+    /* LAYER DEPAN: KONTEN SOAL */
+    .pdf-content-wrap {
+        position: relative;
+        z-index: 1;
+        padding-top: 10mm;
+        padding-bottom: 10mm;
+    }
+    .pdf-doc-banner {
+        border: 1.5px solid #1e3a8a;
+        border-radius: 10px;
+        padding: 12px 16px;
+        margin-bottom: 16px;
+        background: rgba(248, 250, 252, 0.92);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    .pdf-doc-banner h1 {
+        margin: 0 0 3px;
+        font-size: 14pt;
+        color: #1e3a8a;
+    }
+    .pdf-doc-banner p {
+        margin: 0;
+        font-size: 9pt;
+        color: #475569;
+    }
+    .pdf-mode-pill {
+        background: #1e3a8a;
+        color: #ffffff;
+        font-size: 8pt;
+        font-weight: 800;
+        padding: 5px 10px;
+        border-radius: 999px;
+        white-space: nowrap;
+    }
+    .pdf-question-item {
+        position: relative;
+        z-index: 1;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        border: 1px solid #cbd5e1;
+        border-radius: 9px;
+        padding: 11px 14px;
+        margin-bottom: 12px;
+        background: rgba(255, 255, 255, 0.88);
+    }
+    .pdf-q-meta {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 6px;
+        font-size: 8.5pt;
+    }
+    .pdf-q-num {
+        background: #1e3a8a;
+        color: #ffffff;
+        font-weight: 800;
+        padding: 2px 8px;
+        border-radius: 6px;
+    }
+    .pdf-q-kat {
+        color: #475569;
+        font-weight: 700;
+    }
+    .pdf-q-body {
+        font-size: 10pt;
+        color: #0f172a;
+        margin-bottom: 8px;
+    }
+    .pdf-q-svg {
+        margin-top: 8px;
+        text-align: center;
+    }
+    .pdf-q-body svg, .pdf-opt-text svg {
+        max-width: 100%;
+        height: auto;
+    }
+    .soal-data-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 8px 0;
+        font-size: 9pt;
+    }
+    .soal-data-table th, .soal-data-table td {
+        border: 1px solid #94a3b8;
+        padding: 4px 7px;
+        text-align: center;
+    }
+    .soal-data-table th {
+        background: #e2e8f0;
+    }
+    .pdf-opt-list {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .pdf-opt-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 7px;
+        font-size: 9.5pt;
+        padding: 3px 6px;
+        border-radius: 5px;
+    }
+    .pdf-opt-row.pdf-opt-best {
+        background: #dcfce7;
+        border: 1px solid #86efac;
+        font-weight: 700;
+    }
+    .pdf-opt-text {
+        flex: 1;
+    }
+    .pdf-opt-tag {
+        font-size: 8pt;
+        font-weight: 800;
+        color: #15803d;
+        white-space: nowrap;
+    }
+    .pdf-pembahasan-box {
+        margin-top: 8px;
+        padding: 7px 10px;
+        background: #f8fafc;
+        border-left: 3px solid #2563eb;
+        border-radius: 4px;
+        font-size: 9pt;
+        color: #1e293b;
+    }
+    .no-print-bar {
+        position: fixed;
+        top: 12px;
+        right: 16px;
+        z-index: 99;
+        display: flex;
+        gap: 8px;
+    }
+    .no-print-btn {
+        background: #1e3a8a;
+        color: #fff;
+        border: none;
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    @media print {
+        .no-print-bar { display: none !important; }
+    }
+</style>
+</head>
+<body>
+    <div class="no-print-bar">
+        <button class="no-print-btn" onclick="window.print()">💾 Simpan / Cetak PDF</button>
+    </div>
+
+    <div class="pdf-watermark-center" aria-hidden="true">
+        <img src="${logoUrl}" alt="" />
+        <div class="pdf-watermark-diag">MENUJU ASN</div>
+    </div>
+
+    <div class="pdf-buyer-header">
+        <span><strong>MENUJU ASN</strong> • ${escapeHtmlMentor(pkg.title)}</span>
+        <span>Lisensi Eksklusif: <strong>${buyerName}</strong> (${buyerEmail})</span>
+    </div>
+
+    <div class="pdf-buyer-footer">
+        <span>© 2026 MENUJU ASN • Dilarang memperjualbelikan / menyebarluaskan tanpa izin</span>
+        <span>Diunduh: ${nowText}</span>
+    </div>
+
+    <div class="pdf-content-wrap">
+        <div class="pdf-doc-banner">
+            <div>
+                <h1>${escapeHtmlMentor(pkg.title)}</h1>
+                <p>Total ${pkg.questions.length} Butir Soal • Pemilik: ${buyerName} (${buyerEmail})</p>
+            </div>
+            <span class="pdf-mode-pill">${modeLabel}</span>
+        </div>
+        ${questionsMarkup}
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            setTimeout(() => { window.print(); }, 450);
+        });
+    </script>
+</body>
+</html>`;
+
+    const win = window.open('', '_blank');
+    if (!win) {
+        return Swal.fire('Pop-up Diblokir', 'Izinkan pop-up di browser Anda untuk membuka pratinjau cetak & Save as PDF.', 'warning');
+    }
+    win.document.open();
+    win.document.write(htmlDoc);
+    win.document.close();
+};
