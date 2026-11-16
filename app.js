@@ -2357,7 +2357,8 @@ function buildExamStageMarkup() {
                     </div>
                     <div class="exam-number-grid" id="examNumberGrid"></div>
                     <div class="exam-nav-legend">
-                        <span class="exam-legend-item"><span class="exam-legend-dot answered"></span> Dijawab</span>
+                        <span class="exam-legend-item"><span class="exam-legend-dot answered"></span> ${window.isInstantReviewMode ? 'Benar' : 'Dijawab'}</span>
+                        ${window.isInstantReviewMode ? '<span class="exam-legend-item"><span class="exam-legend-dot wrong"></span> Salah</span>' : ''}
                         <span class="exam-legend-item"><span class="exam-legend-dot ragu"></span> Ragu-ragu</span>
                         <span class="exam-legend-item"><span class="exam-legend-dot empty"></span> Belum diisi</span>
                     </div>
@@ -2571,8 +2572,9 @@ function renderSoalSekarang() {
                     : (opt.benar ? `<span style="margin-left:auto; font-size:0.75rem; font-weight:800; color:#15803d;">Kunci</span>` : '');
             }
 
+            const lockStyle = showInstant ? 'cursor:default;' : '';
             return `
-                <div class="option-item ${isSel ? 'selected' : ''}" style="${inlineStyle}" onclick="window.pilihJawaban('${q.id}', '${opt.label}', ${opt.poin || 0})">
+                <div class="option-item ${isSel ? 'selected' : ''}" style="${lockStyle}${inlineStyle}" onclick="window.pilihJawaban('${q.id}', '${opt.label}', ${opt.poin || 0})">
                     <div class="option-circle">${opt.label}</div>
                     <div class="option-label">${opt.teks}</div>
                     ${badgeHtml}
@@ -2639,8 +2641,20 @@ function renderExamNumberGrid() {
         if (isAnswered) answeredCount++;
 
         let statusClass = '';
-        if (isRagu) statusClass = 'ragu';
-        else if (isAnswered) statusClass = 'answered';
+        if (isRagu) {
+            statusClass = 'ragu';
+        } else if (isAnswered) {
+            if (window.isInstantReviewMode) {
+                const pickedOpt = (item.opsi || []).find(o => o.label === answers[item.id]);
+                const maxPoin = (item.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
+                const isCorrect = item.kategori === 'TKP'
+                    ? Number(pickedOpt?.poin || 0) >= maxPoin
+                    : Boolean(pickedOpt?.benar);
+                statusClass = isCorrect ? 'answered' : 'wrong';
+            } else {
+                statusClass = 'answered';
+            }
+        }
 
         const currentClass = idx === window.currentIdx ? 'current' : '';
         return `<button type="button" class="exam-num-btn ${statusClass} ${currentClass}" onclick="window.lompatKeSoal(${idx})">${idx + 1}</button>`;
@@ -2677,8 +2691,8 @@ window.lompatKeSoal = (idx) => {
 
 // HEMAT KUOTA: Klik opsi simpan lokal + kunci jawaban di Live Arena + live sync klasemen Arena
 window.pilihJawaban = (qId, label, poin) => {
-    if (window.currentAppMode === 'multiplayer' && window.userAnswers[qId]) {
-        return; // Kunci jawaban setelah memilih di Live CBT Arena agar adil
+    if ((window.currentAppMode === 'multiplayer' || window.isInstantReviewMode) && window.userAnswers[qId]) {
+        return; // Kunci jawaban setelah memilih di Live CBT Arena & Mode Drill agar tidak bisa diubah lagi
     }
     window.userAnswers[qId] = label;
     window.userAnswerPoints[qId] = poin;
