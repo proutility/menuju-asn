@@ -2215,6 +2215,7 @@ window.bukaLobbyPersiapanPaket = () => {
     };
 
     const spec = SPEC_MAP[subtesKey] || SPEC_MAP.twk;
+    const isToeflLobby = (subtesKey === 'toefl');
 
     // Hitung sebaran sub-kategori nyata dari daftar soal di paket ini
     const topicMap = {};
@@ -2252,7 +2253,7 @@ window.bukaLobbyPersiapanPaket = () => {
                     <div class="persiapan-spec-box">
                         <div class="persiapan-spec-label"><i class="fas fa-clock" style="color:#2563eb;"></i> Jumlah &amp; Durasi</div>
                         <div class="persiapan-spec-val">${totalSoal} Soal • ${durasiMenit} Menit</div>
-                        <div class="persiapan-spec-sub">Standar Timer CAT BKN</div>
+                        <div class="persiapan-spec-sub">${isToeflLobby ? 'Standar Timer TOEFL ITP' : 'Standar Timer CAT BKN'}</div>
                     </div>
                     <div class="persiapan-spec-box">
                         <div class="persiapan-spec-label"><i class="fas fa-bullseye" style="color:#16a34a;"></i> Passing Grade</div>
@@ -2283,7 +2284,7 @@ window.bukaLobbyPersiapanPaket = () => {
                     </div>
                     <ul class="persiapan-facility-list">
                         <li>Mengakses <strong>Pembahasan Mentor Interaktif</strong> beserta visualisasi konsep &amp; rumus cepat.</li>
-                        <li>Mendapatkan skor akhir, evaluasi kelulusan <strong>Passing Grade BKN</strong>, &amp; grafik tren otomatis di <strong>Brankas Pembahasan</strong>.</li>
+                        <li>${isToeflLobby ? 'Mendapatkan estimasi skor konversi <strong>TOEFL ITP (310–677)</strong> &amp; grafik tren otomatis di <strong>Brankas Pembahasan</strong>.' : 'Mendapatkan skor akhir, evaluasi kelulusan <strong>Passing Grade BKN</strong>, &amp; grafik tren otomatis di <strong>Brankas Pembahasan</strong>.'}</li>
                         <li>Tersedia fitur <strong>Ulangi Soal Salah (Remedial)</strong> di Brankas &amp; bedah soal bersama <strong>MenujuASN-Bot AI</strong>.</li>
                         <li>Progres dapat disimpan kapan saja melalui tombol <strong>Simpan &amp; Kembali</strong>.</li>
                     </ul>
@@ -2299,14 +2300,14 @@ window.bukaLobbyPersiapanPaket = () => {
                             <strong><i class="fas fa-stopwatch" style="color:#2563eb;"></i> Mode Fokus CAT</strong>
                             <span class="persiapan-mode-check"><i class="fas fa-check"></i></span>
                         </div>
-                        <p>Simulasi fokus sesuai ujian CAT BKN sesungguhnya. Kunci jawaban &amp; pembahasan dibuka setelah selesai.</p>
+                        <p>${isToeflLobby ? 'Simulasi fokus sesuai ujian TOEFL ITP sesungguhnya. Kunci jawaban &amp; pembahasan dibuka setelah selesai.' : 'Simulasi fokus sesuai ujian CAT BKN sesungguhnya. Kunci jawaban &amp; pembahasan dibuka setelah selesai.'}</p>
                     </div>
                     <div id="modeCardDrill" class="persiapan-mode-card drill-mode" onclick="window.pilihModePersiapan('drill')">
                         <div class="persiapan-mode-head">
                             <strong><i class="fas fa-bolt" style="color:#d97706;"></i> Mode Drill (Pembahasan Langsung)</strong>
                             <span class="persiapan-mode-check"><i class="fas fa-check"></i></span>
                         </div>
-                        <p>Begitu klik opsi jawaban A–E, langsung muncul kunci Benar/Salah, bobot TKP 1–5, &amp; pembahasan seketika!</p>
+                        <p>${isToeflLobby ? 'Begitu klik opsi jawaban A–D, langsung muncul kunci Benar/Salah &amp; pembahasan lengkap seketika!' : 'Begitu klik opsi jawaban A–E, langsung muncul kunci Benar/Salah, bobot TKP 1–5, &amp; pembahasan seketika!'}</p>
                     </div>
                 </div>
             </div>
@@ -2321,7 +2322,7 @@ window.bukaLobbyPersiapanPaket = () => {
                             </div>
                             <span>MENUJU ASN</span>
                         </div>
-                        <span class="persiapan-flyer-badge"><i class="fas fa-shield-alt"></i> CAT BKN 2027</span>
+                        <span class="persiapan-flyer-badge"><i class="fas fa-shield-alt"></i> ${isToeflLobby ? 'TOEFL ITP 2027' : 'CAT BKN 2027'}</span>
                     </div>
 
                     <div class="persiapan-flyer-body">
@@ -2331,7 +2332,7 @@ window.bukaLobbyPersiapanPaket = () => {
                             <div class="persiapan-flyer-num-row">
                                 <span class="persiapan-flyer-num">#${paketNo}</span>
                                 <div class="persiapan-flyer-tagline">
-                                    Satu langkah<br>lebih dekat dengan <strong>NIP 2027</strong>
+                                    ${isToeflLobby ? 'Siap tembus<br><strong>Skor 500+ TOEFL ITP</strong>' : 'Satu langkah<br>lebih dekat dengan <strong>NIP 2027</strong>'}
                                 </div>
                             </div>
                         </div>
@@ -2856,8 +2857,9 @@ window.nextSoal = () => {
 };
 
 function hitungSkorSekarang() {
-    let skorTWK = 0, skorTIU = 0, skorTKP = 0;
+    let skorTWK = 0, skorTIU = 0, skorTKP = 0, benarTOEFL = 0, countTOEFL = 0;
     window.currentQuestions.forEach(q => {
+        if (q.kategori === 'TOEFL') countTOEFL++;
         const userAns = window.userAnswers[q.id];
         if (!userAns) return;
         const opt = q.opsi.find(o => o.label === userAns);
@@ -2865,12 +2867,20 @@ function hitungSkorSekarang() {
         if (q.kategori === 'TWK' && opt.benar) skorTWK += 5;
         else if (q.kategori === 'TIU' && opt.benar) skorTIU += 5;
         else if (q.kategori === 'TKP') skorTKP += (opt.poin || 0);
+        else if (q.kategori === 'TOEFL' && opt.benar) benarTOEFL++;
     });
+    const sectionTOEFL = countTOEFL > 0 ? Math.round(31 + (benarTOEFL / countTOEFL) * 37) : 0;
+    const skorTOEFL = countTOEFL > 0 ? Math.min(677, Math.max(310, sectionTOEFL * 10)) : 0;
+    const totalSkor = countTOEFL > 0 ? skorTOEFL : (skorTWK + skorTIU + skorTKP);
     return {
         skorTWK,
         skorTIU,
         skorTKP,
-        totalSkor: skorTWK + skorTIU + skorTKP,
+        benarTOEFL,
+        countTOEFL,
+        sectionTOEFL,
+        skorTOEFL,
+        totalSkor,
         totalWaktu: Math.max(1, Math.round((Date.now() - window.examStartTimeMs) / 1000))
     };
 }
@@ -2946,7 +2956,7 @@ async function selesaikanUjian() {
         }
     }
 
-    const { skorTWK, skorTIU, skorTKP, totalSkor, totalWaktu } = hitungSkorSekarang();
+    const { skorTWK, skorTIU, skorTKP, benarTOEFL, countTOEFL, sectionTOEFL, skorTOEFL, totalSkor, totalWaktu } = hitungSkorSekarang();
     const qs = window.currentQuestions || [];
     const countTWK = qs.filter(q => q.kategori === 'TWK').length;
     const countTIU = qs.filter(q => q.kategori === 'TIU').length;
@@ -2959,9 +2969,10 @@ async function selesaikanUjian() {
     const lolosTWK = countTWK === 0 || skorTWK >= pgTWK;
     const lolosTIU = countTIU === 0 || skorTIU >= pgTIU;
     const lolosTKP = countTKP === 0 || skorTKP >= pgTKP;
-    const statusLolos = lolosTWK && lolosTIU && lolosTKP;
+    const lolosTOEFL = countTOEFL === 0 || skorTOEFL >= 500;
+    const statusLolos = countTOEFL > 0 ? lolosTOEFL : (lolosTWK && lolosTIU && lolosTKP);
 
-    const maxSkor = (countTWK + countTIU + countTKP) * 5;
+    const maxSkor = countTOEFL > 0 ? 677 : (countTWK + countTIU + countTKP) * 5;
     const menit = Math.floor((totalWaktu || 0) / 60);
     const detik = (totalWaktu || 0) % 60;
     const durasiText = `${menit}m ${detik}d`;
@@ -2991,6 +3002,10 @@ async function selesaikanUjian() {
     if (countTWK > 0) rows.push({ label: 'Tes Wawasan Kebangsaan (TWK)', pg: pgTWK, nilai: skorTWK, max: countTWK * 5, lolos: lolosTWK });
     if (countTIU > 0) rows.push({ label: 'Tes Inteligensi Umum (TIU)', pg: pgTIU, nilai: skorTIU, max: countTIU * 5, lolos: lolosTIU });
     if (countTKP > 0) rows.push({ label: 'Tes Karakteristik Pribadi (TKP)', pg: pgTKP, nilai: skorTKP, max: countTKP * 5, lolos: lolosTKP });
+    if (countTOEFL > 0) {
+        rows.push({ label: `Akurasi Jawaban Benar (${benarTOEFL}/${countTOEFL} Soal)`, pg: Math.ceil(countTOEFL * 0.52), nilai: benarTOEFL, max: countTOEFL, lolos: lolosTOEFL });
+        rows.push({ label: `Konversi Skor TOEFL ITP (Section: ${sectionTOEFL}/68)`, pg: 500, nilai: skorTOEFL, max: 677, lolos: lolosTOEFL });
+    }
 
     const rowsHtml = rows.map(r => {
         const pct = r.max > 0 ? Math.min(100, Math.round((r.nilai / r.max) * 100)) : 0;
