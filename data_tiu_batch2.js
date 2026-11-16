@@ -530,7 +530,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +7 dan turun ke bawah +15. Nilai '?' = 68 + 7 = 75."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +7 (31 → 38 → 45).\nPola Kolom:: Turun ke bawah selalu +15 (31 → 46 → 61).\nHitung (?):: Lewat baris terakhir: 68 + 7 = 75. Cek lewat kolom kanan: 60 + 15 = 75 ✓.\nCara Cepat:: Serong kanan-bawah = 7 + 15 = +22, jadi 31 → 53 → 53 + 22 = 75. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 53 − 31 = 75.\nKesimpulan:: Jawaban 75. Jebakan: 77/73 (meleset tipis, salah hitung di langkah akhir); 70/80 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0014",
@@ -571,7 +571,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 2 = Kolom 3. Maka (3 × 4) + 2 = 14."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 5 = 30, dan 32 − 30 = 2. Rumus: (K1 × K2) + 2.\nUji Rumus:: Baris 2: (2 × 9) + 2 = 20 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (3 × 4) + 2 = 12 + 2 = 14.\nKesimpulan:: Jawaban 14. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+2); sisa ini tetap di semua baris. Jebakan: 12 (lupa menambah +2); 16 (meleset tipis, salah hitung di langkah akhir); 9/19 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0015",
@@ -1965,7 +1965,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 1 = Kolom 3. Maka (6 × 4) + 1 = 25."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 9 = 72, dan 73 − 72 = 1. Rumus: (K1 × K2) + 1.\nUji Rumus:: Baris 2: (4 × 9) + 1 = 37 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (6 × 4) + 1 = 24 + 1 = 25.\nKesimpulan:: Jawaban 25. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+1); sisa ini tetap di semua baris. Jebakan: 27/23 (meleset tipis, salah hitung di langkah akhir); 30/20 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0049",
@@ -2006,7 +2006,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +7 dan turun ke bawah +10. Nilai '?' = 31 + 7 = 38."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +7 (4 → 11 → 18).\nPola Kolom:: Turun ke bawah selalu +10 (4 → 14 → 24).\nHitung (?):: Lewat baris terakhir: 31 + 7 = 38. Cek lewat kolom kanan: 28 + 10 = 38 ✓.\nCara Cepat:: Serong kanan-bawah = 7 + 10 = +17, jadi 4 → 21 → 21 + 17 = 38. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 21 − 4 = 38.\nKesimpulan:: Jawaban 38. Jebakan: 40/36 (meleset tipis, salah hitung di langkah akhir); 33/43 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0050",
@@ -3400,7 +3400,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +10 dan turun ke bawah +4. Nilai '?' = 50 + 10 = 60."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +10 (32 → 42 → 52).\nPola Kolom:: Turun ke bawah selalu +4 (32 → 36 → 40).\nHitung (?):: Lewat baris terakhir: 50 + 10 = 60. Cek lewat kolom kanan: 56 + 4 = 60 ✓.\nCara Cepat:: Serong kanan-bawah = 10 + 4 = +14, jadi 32 → 46 → 46 + 14 = 60. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 46 − 32 = 60.\nKesimpulan:: Jawaban 60. Jebakan: 62/58 (meleset tipis, salah hitung di langkah akhir); 55/65 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0084",
@@ -3441,7 +3441,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 11 = Kolom 3. Maka (8 × 9) + 11 = 83."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 4 × 5 = 20, dan 31 − 20 = 11. Rumus: (K1 × K2) + 11.\nUji Rumus:: Baris 2: (6 × 9) + 11 = 65 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 9) + 11 = 72 + 11 = 83.\nKesimpulan:: Jawaban 83. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+11); sisa ini tetap di semua baris. Jebakan: 85/81 (meleset tipis, salah hitung di langkah akhir); 78/88 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0085",
@@ -4835,7 +4835,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 16 = Kolom 3. Maka (8 × 7) + 16 = 72."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 9 = 81, dan 97 − 81 = 16. Rumus: (K1 × K2) + 16.\nUji Rumus:: Baris 2: (2 × 5) + 16 = 26 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 7) + 16 = 56 + 16 = 72.\nKesimpulan:: Jawaban 72. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+16); sisa ini tetap di semua baris. Jebakan: 74/70 (meleset tipis, salah hitung di langkah akhir); 67/77 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0119",
@@ -4876,7 +4876,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +6 dan turun ke bawah +7. Nilai '?' = 28 + 6 = 34."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +6 (8 → 14 → 20).\nPola Kolom:: Turun ke bawah selalu +7 (8 → 15 → 22).\nHitung (?):: Lewat baris terakhir: 28 + 6 = 34. Cek lewat kolom kanan: 27 + 7 = 34 ✓.\nCara Cepat:: Serong kanan-bawah = 6 + 7 = +13, jadi 8 → 21 → 21 + 13 = 34. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 21 − 8 = 34.\nKesimpulan:: Jawaban 34. Jebakan: 32/36 (meleset tipis, salah hitung di langkah akhir); 29/39 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0120",
@@ -6270,7 +6270,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +13 dan turun ke bawah +4. Nilai '?' = 29 + 13 = 42."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +13 (8 → 21 → 34).\nPola Kolom:: Turun ke bawah selalu +4 (8 → 12 → 16).\nHitung (?):: Lewat baris terakhir: 29 + 13 = 42. Cek lewat kolom kanan: 38 + 4 = 42 ✓.\nCara Cepat:: Serong kanan-bawah = 13 + 4 = +17, jadi 8 → 25 → 25 + 17 = 42. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 25 − 8 = 42.\nKesimpulan:: Jawaban 42. Jebakan: 40/44 (meleset tipis, salah hitung di langkah akhir); 47/37 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0154",
@@ -6311,7 +6311,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 5 = Kolom 3. Maka (9 × 5) + 5 = 50."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 4 = 32, dan 37 − 32 = 5. Rumus: (K1 × K2) + 5.\nUji Rumus:: Baris 2: (6 × 4) + 5 = 29 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 5) + 5 = 45 + 5 = 50.\nKesimpulan:: Jawaban 50. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+5); sisa ini tetap di semua baris. Jebakan: 45 (lupa menambah +5); 48/52 (meleset tipis, salah hitung di langkah akhir); 55 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0155",
@@ -7705,7 +7705,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 5 = Kolom 3. Maka (9 × 7) + 5 = 68."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 5 × 9 = 45, dan 50 − 45 = 5. Rumus: (K1 × K2) + 5.\nUji Rumus:: Baris 2: (5 × 6) + 5 = 35 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 7) + 5 = 63 + 5 = 68.\nKesimpulan:: Jawaban 68. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+5); sisa ini tetap di semua baris. Jebakan: 63 (lupa menambah +5); 66/70 (meleset tipis, salah hitung di langkah akhir); 73 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0189",
@@ -7746,7 +7746,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +2 dan turun ke bawah +9. Nilai '?' = 26 + 2 = 28."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +2 (6 → 8 → 10).\nPola Kolom:: Turun ke bawah selalu +9 (6 → 15 → 24).\nHitung (?):: Lewat baris terakhir: 26 + 2 = 28. Cek lewat kolom kanan: 19 + 9 = 28 ✓.\nCara Cepat:: Serong kanan-bawah = 2 + 9 = +11, jadi 6 → 17 → 17 + 11 = 28. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 17 − 6 = 28.\nKesimpulan:: Jawaban 28. Jebakan: 26 (menyalin angka di sebelah kiri ?); 30 (meleset tipis, salah hitung di langkah akhir); 33/23 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0190",
@@ -9140,7 +9140,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +3 dan turun ke bawah +4. Nilai '?' = 35 + 3 = 38."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +3 (24 → 27 → 30).\nPola Kolom:: Turun ke bawah selalu +4 (24 → 28 → 32).\nHitung (?):: Lewat baris terakhir: 35 + 3 = 38. Cek lewat kolom kanan: 34 + 4 = 38 ✓.\nCara Cepat:: Serong kanan-bawah = 3 + 4 = +7, jadi 24 → 31 → 31 + 7 = 38. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 31 − 24 = 38.\nKesimpulan:: Jawaban 38. Jebakan: 40/36 (meleset tipis, salah hitung di langkah akhir); 33/43 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0224",
@@ -9181,7 +9181,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 18 = Kolom 3. Maka (7 × 7) + 18 = 67."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 5 × 8 = 40, dan 58 − 40 = 18. Rumus: (K1 × K2) + 18.\nUji Rumus:: Baris 2: (9 × 6) + 18 = 72 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 7) + 18 = 49 + 18 = 67.\nKesimpulan:: Jawaban 67. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+18); sisa ini tetap di semua baris. Jebakan: 65/69 (meleset tipis, salah hitung di langkah akhir); 62/72 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0225",
@@ -10575,7 +10575,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 16 = Kolom 3. Maka (3 × 8) + 16 = 40."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 9 = 72, dan 88 − 72 = 16. Rumus: (K1 × K2) + 16.\nUji Rumus:: Baris 2: (9 × 9) + 16 = 97 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (3 × 8) + 16 = 24 + 16 = 40.\nKesimpulan:: Jawaban 40. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+16); sisa ini tetap di semua baris. Jebakan: 42/38 (meleset tipis, salah hitung di langkah akhir); 45/35 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0259",
@@ -10616,7 +10616,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +7 dan turun ke bawah +13. Nilai '?' = 46 + 7 = 53."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +7 (13 → 20 → 27).\nPola Kolom:: Turun ke bawah selalu +13 (13 → 26 → 39).\nHitung (?):: Lewat baris terakhir: 46 + 7 = 53. Cek lewat kolom kanan: 40 + 13 = 53 ✓.\nCara Cepat:: Serong kanan-bawah = 7 + 13 = +20, jadi 13 → 33 → 33 + 20 = 53. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 33 − 13 = 53.\nKesimpulan:: Jawaban 53. Jebakan: 55/51 (meleset tipis, salah hitung di langkah akhir); 48/58 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0260",
@@ -12010,7 +12010,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +5 dan turun ke bawah +13. Nilai '?' = 60 + 5 = 65."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +5 (29 → 34 → 39).\nPola Kolom:: Turun ke bawah selalu +13 (29 → 42 → 55).\nHitung (?):: Lewat baris terakhir: 60 + 5 = 65. Cek lewat kolom kanan: 52 + 13 = 65 ✓.\nCara Cepat:: Serong kanan-bawah = 5 + 13 = +18, jadi 29 → 47 → 47 + 18 = 65. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 47 − 29 = 65.\nKesimpulan:: Jawaban 65. Jebakan: 60 (menyalin angka di sebelah kiri ?); 67/63 (meleset tipis, salah hitung di langkah akhir); 70 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0294",
@@ -12051,7 +12051,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 13 = Kolom 3. Maka (4 × 3) + 13 = 25."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 2 = 18, dan 31 − 18 = 13. Rumus: (K1 × K2) + 13.\nUji Rumus:: Baris 2: (3 × 8) + 13 = 37 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 3) + 13 = 12 + 13 = 25.\nKesimpulan:: Jawaban 25. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+13); sisa ini tetap di semua baris. Jebakan: 23/27 (meleset tipis, salah hitung di langkah akhir); 30/20 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0295",
@@ -13445,7 +13445,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 8 = Kolom 3. Maka (4 × 8) + 8 = 40."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 4 = 36, dan 44 − 36 = 8. Rumus: (K1 × K2) + 8.\nUji Rumus:: Baris 2: (6 × 8) + 8 = 56 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 8) + 8 = 32 + 8 = 40.\nKesimpulan:: Jawaban 40. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+8); sisa ini tetap di semua baris. Jebakan: 42/38 (meleset tipis, salah hitung di langkah akhir); 45/35 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0329",
@@ -13486,7 +13486,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +6 dan turun ke bawah +16. Nilai '?' = 68 + 6 = 74."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +6 (30 → 36 → 42).\nPola Kolom:: Turun ke bawah selalu +16 (30 → 46 → 62).\nHitung (?):: Lewat baris terakhir: 68 + 6 = 74. Cek lewat kolom kanan: 58 + 16 = 74 ✓.\nCara Cepat:: Serong kanan-bawah = 6 + 16 = +22, jadi 30 → 52 → 52 + 22 = 74. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 52 − 30 = 74.\nKesimpulan:: Jawaban 74. Jebakan: 72/76 (meleset tipis, salah hitung di langkah akhir); 79/69 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0330",
@@ -14880,7 +14880,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +5 dan turun ke bawah +15. Nilai '?' = 62 + 5 = 67."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +5 (27 → 32 → 37).\nPola Kolom:: Turun ke bawah selalu +15 (27 → 42 → 57).\nHitung (?):: Lewat baris terakhir: 62 + 5 = 67. Cek lewat kolom kanan: 52 + 15 = 67 ✓.\nCara Cepat:: Serong kanan-bawah = 5 + 15 = +20, jadi 27 → 47 → 47 + 20 = 67. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 47 − 27 = 67.\nKesimpulan:: Jawaban 67. Jebakan: 62 (menyalin angka di sebelah kiri ?); 65/69 (meleset tipis, salah hitung di langkah akhir); 72 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0364",
@@ -14921,7 +14921,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 3 = Kolom 3. Maka (5 × 6) + 3 = 33."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 3 × 3 = 9, dan 12 − 9 = 3. Rumus: (K1 × K2) + 3.\nUji Rumus:: Baris 2: (6 × 7) + 3 = 45 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 6) + 3 = 30 + 3 = 33.\nKesimpulan:: Jawaban 33. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+3); sisa ini tetap di semua baris. Jebakan: 31/35 (meleset tipis, salah hitung di langkah akhir); 38/28 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0365",
@@ -16315,7 +16315,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 4 = Kolom 3. Maka (7 × 7) + 4 = 53."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 7 × 8 = 56, dan 60 − 56 = 4. Rumus: (K1 × K2) + 4.\nUji Rumus:: Baris 2: (8 × 9) + 4 = 76 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 7) + 4 = 49 + 4 = 53.\nKesimpulan:: Jawaban 53. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+4); sisa ini tetap di semua baris. Jebakan: 55/51 (meleset tipis, salah hitung di langkah akhir); 48/58 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0399",
@@ -16356,7 +16356,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +11 dan turun ke bawah +13. Nilai '?' = 68 + 11 = 79."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +11 (31 → 42 → 53).\nPola Kolom:: Turun ke bawah selalu +13 (31 → 44 → 57).\nHitung (?):: Lewat baris terakhir: 68 + 11 = 79. Cek lewat kolom kanan: 66 + 13 = 79 ✓.\nCara Cepat:: Serong kanan-bawah = 11 + 13 = +24, jadi 31 → 55 → 55 + 24 = 79. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 55 − 31 = 79.\nKesimpulan:: Jawaban 79. Jebakan: 77/81 (meleset tipis, salah hitung di langkah akhir); 74/84 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0400",
@@ -17750,7 +17750,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +3 dan turun ke bawah +12. Nilai '?' = 54 + 3 = 57."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +3 (27 → 30 → 33).\nPola Kolom:: Turun ke bawah selalu +12 (27 → 39 → 51).\nHitung (?):: Lewat baris terakhir: 54 + 3 = 57. Cek lewat kolom kanan: 45 + 12 = 57 ✓.\nCara Cepat:: Serong kanan-bawah = 3 + 12 = +15, jadi 27 → 42 → 42 + 15 = 57. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 42 − 27 = 57.\nKesimpulan:: Jawaban 57. Jebakan: 55/59 (meleset tipis, salah hitung di langkah akhir); 52/62 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0434",
@@ -17791,7 +17791,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 18 = Kolom 3. Maka (9 × 5) + 18 = 63."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 7 = 42, dan 60 − 42 = 18. Rumus: (K1 × K2) + 18.\nUji Rumus:: Baris 2: (8 × 9) + 18 = 90 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 5) + 18 = 45 + 18 = 63.\nKesimpulan:: Jawaban 63. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+18); sisa ini tetap di semua baris. Jebakan: 65/61 (meleset tipis, salah hitung di langkah akhir); 68/58 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0435",
@@ -19185,7 +19185,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 5 = Kolom 3. Maka (5 × 9) + 5 = 50."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 3 × 5 = 15, dan 20 − 15 = 5. Rumus: (K1 × K2) + 5.\nUji Rumus:: Baris 2: (8 × 6) + 5 = 53 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 9) + 5 = 45 + 5 = 50.\nKesimpulan:: Jawaban 50. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+5); sisa ini tetap di semua baris. Jebakan: 45 (lupa menambah +5); 48/52 (meleset tipis, salah hitung di langkah akhir); 55 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0469",
@@ -19226,7 +19226,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +7 dan turun ke bawah +17. Nilai '?' = 54 + 7 = 61."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +7 (13 → 20 → 27).\nPola Kolom:: Turun ke bawah selalu +17 (13 → 30 → 47).\nHitung (?):: Lewat baris terakhir: 54 + 7 = 61. Cek lewat kolom kanan: 44 + 17 = 61 ✓.\nCara Cepat:: Serong kanan-bawah = 7 + 17 = +24, jadi 13 → 37 → 37 + 24 = 61. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 37 − 13 = 61.\nKesimpulan:: Jawaban 61. Jebakan: 59/63 (meleset tipis, salah hitung di langkah akhir); 56/66 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0470",
@@ -20620,7 +20620,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +4 dan turun ke bawah +12. Nilai '?' = 35 + 4 = 39."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +4 (7 → 11 → 15).\nPola Kolom:: Turun ke bawah selalu +12 (7 → 19 → 31).\nHitung (?):: Lewat baris terakhir: 35 + 4 = 39. Cek lewat kolom kanan: 27 + 12 = 39 ✓.\nCara Cepat:: Serong kanan-bawah = 4 + 12 = +16, jadi 7 → 23 → 23 + 16 = 39. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 23 − 7 = 39.\nKesimpulan:: Jawaban 39. Jebakan: 41/37 (meleset tipis, salah hitung di langkah akhir); 44/34 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0504",
@@ -20661,7 +20661,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 7 = Kolom 3. Maka (7 × 6) + 7 = 49."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 6 = 36, dan 43 − 36 = 7. Rumus: (K1 × K2) + 7.\nUji Rumus:: Baris 2: (5 × 4) + 7 = 27 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 6) + 7 = 42 + 7 = 49.\nKesimpulan:: Jawaban 49. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+7); sisa ini tetap di semua baris. Jebakan: 47/51 (meleset tipis, salah hitung di langkah akhir); 54/44 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0505",
@@ -22055,7 +22055,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 13 = Kolom 3. Maka (8 × 5) + 13 = 53."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 4 × 9 = 36, dan 49 − 36 = 13. Rumus: (K1 × K2) + 13.\nUji Rumus:: Baris 2: (7 × 5) + 13 = 48 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 5) + 13 = 40 + 13 = 53.\nKesimpulan:: Jawaban 53. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+13); sisa ini tetap di semua baris. Jebakan: 55/51 (meleset tipis, salah hitung di langkah akhir); 58/48 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0539",
@@ -22096,7 +22096,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +4 dan turun ke bawah +17. Nilai '?' = 69 + 4 = 73."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +4 (31 → 35 → 39).\nPola Kolom:: Turun ke bawah selalu +17 (31 → 48 → 65).\nHitung (?):: Lewat baris terakhir: 69 + 4 = 73. Cek lewat kolom kanan: 56 + 17 = 73 ✓.\nCara Cepat:: Serong kanan-bawah = 4 + 17 = +21, jadi 31 → 52 → 52 + 21 = 73. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 52 − 31 = 73.\nKesimpulan:: Jawaban 73. Jebakan: 71/75 (meleset tipis, salah hitung di langkah akhir); 78/68 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0540",
@@ -23490,7 +23490,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +9 dan turun ke bawah +16. Nilai '?' = 67 + 9 = 76."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +9 (26 → 35 → 44).\nPola Kolom:: Turun ke bawah selalu +16 (26 → 42 → 58).\nHitung (?):: Lewat baris terakhir: 67 + 9 = 76. Cek lewat kolom kanan: 60 + 16 = 76 ✓.\nCara Cepat:: Serong kanan-bawah = 9 + 16 = +25, jadi 26 → 51 → 51 + 25 = 76. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 51 − 26 = 76.\nKesimpulan:: Jawaban 76. Jebakan: 78/74 (meleset tipis, salah hitung di langkah akhir); 71/81 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0574",
@@ -23531,7 +23531,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 8 = Kolom 3. Maka (8 × 7) + 8 = 64."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 5 × 4 = 20, dan 28 − 20 = 8. Rumus: (K1 × K2) + 8.\nUji Rumus:: Baris 2: (3 × 8) + 8 = 32 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 7) + 8 = 56 + 8 = 64.\nKesimpulan:: Jawaban 64. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+8); sisa ini tetap di semua baris. Jebakan: 66/62 (meleset tipis, salah hitung di langkah akhir); 69/59 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0575",
@@ -24925,7 +24925,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 11 = Kolom 3. Maka (6 × 7) + 11 = 53."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 5 = 40, dan 51 − 40 = 11. Rumus: (K1 × K2) + 11.\nUji Rumus:: Baris 2: (2 × 3) + 11 = 17 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (6 × 7) + 11 = 42 + 11 = 53.\nKesimpulan:: Jawaban 53. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+11); sisa ini tetap di semua baris. Jebakan: 55/51 (meleset tipis, salah hitung di langkah akhir); 48/58 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0609",
@@ -24966,7 +24966,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +3 dan turun ke bawah +9. Nilai '?' = 52 + 3 = 55."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +3 (31 → 34 → 37).\nPola Kolom:: Turun ke bawah selalu +9 (31 → 40 → 49).\nHitung (?):: Lewat baris terakhir: 52 + 3 = 55. Cek lewat kolom kanan: 46 + 9 = 55 ✓.\nCara Cepat:: Serong kanan-bawah = 3 + 9 = +12, jadi 31 → 43 → 43 + 12 = 55. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 43 − 31 = 55.\nKesimpulan:: Jawaban 55. Jebakan: 57/53 (meleset tipis, salah hitung di langkah akhir); 60/50 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0610",
@@ -26360,7 +26360,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +11 dan turun ke bawah +14. Nilai '?' = 45 + 11 = 56."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +11 (6 → 17 → 28).\nPola Kolom:: Turun ke bawah selalu +14 (6 → 20 → 34).\nHitung (?):: Lewat baris terakhir: 45 + 11 = 56. Cek lewat kolom kanan: 42 + 14 = 56 ✓.\nCara Cepat:: Serong kanan-bawah = 11 + 14 = +25, jadi 6 → 31 → 31 + 25 = 56. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 31 − 6 = 56.\nKesimpulan:: Jawaban 56. Jebakan: 58/54 (meleset tipis, salah hitung di langkah akhir); 51/61 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0644",
@@ -26401,7 +26401,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 6 = Kolom 3. Maka (5 × 6) + 6 = 36."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 7 × 5 = 35, dan 41 − 35 = 6. Rumus: (K1 × K2) + 6.\nUji Rumus:: Baris 2: (8 × 7) + 6 = 62 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 6) + 6 = 30 + 6 = 36.\nKesimpulan:: Jawaban 36. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+6); sisa ini tetap di semua baris. Jebakan: 34/38 (meleset tipis, salah hitung di langkah akhir); 41/31 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0645",
@@ -27795,7 +27795,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 12 = Kolom 3. Maka (5 × 5) + 12 = 37."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 9 = 81, dan 93 − 81 = 12. Rumus: (K1 × K2) + 12.\nUji Rumus:: Baris 2: (6 × 8) + 12 = 60 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 5) + 12 = 25 + 12 = 37.\nKesimpulan:: Jawaban 37. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+12); sisa ini tetap di semua baris. Jebakan: 35/39 (meleset tipis, salah hitung di langkah akhir); 32/42 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0679",
@@ -27836,7 +27836,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +10 dan turun ke bawah +8. Nilai '?' = 28 + 10 = 38."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +10 (2 → 12 → 22).\nPola Kolom:: Turun ke bawah selalu +8 (2 → 10 → 18).\nHitung (?):: Lewat baris terakhir: 28 + 10 = 38. Cek lewat kolom kanan: 30 + 8 = 38 ✓.\nCara Cepat:: Serong kanan-bawah = 10 + 8 = +18, jadi 2 → 20 → 20 + 18 = 38. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 20 − 2 = 38.\nKesimpulan:: Jawaban 38. Jebakan: 36/40 (meleset tipis, salah hitung di langkah akhir); 33/43 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0680",
@@ -29230,7 +29230,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +6 dan turun ke bawah +9. Nilai '?' = 45 + 6 = 51."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +6 (21 → 27 → 33).\nPola Kolom:: Turun ke bawah selalu +9 (21 → 30 → 39).\nHitung (?):: Lewat baris terakhir: 45 + 6 = 51. Cek lewat kolom kanan: 42 + 9 = 51 ✓.\nCara Cepat:: Serong kanan-bawah = 6 + 9 = +15, jadi 21 → 36 → 36 + 15 = 51. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 36 − 21 = 51.\nKesimpulan:: Jawaban 51. Jebakan: 53/49 (meleset tipis, salah hitung di langkah akhir); 46/56 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0714",
@@ -29271,7 +29271,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 9 = Kolom 3. Maka (9 × 8) + 9 = 81."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 6 = 48, dan 57 − 48 = 9. Rumus: (K1 × K2) + 9.\nUji Rumus:: Baris 2: (4 × 4) + 9 = 25 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 8) + 9 = 72 + 9 = 81.\nKesimpulan:: Jawaban 81. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+9); sisa ini tetap di semua baris. Jebakan: 83/79 (meleset tipis, salah hitung di langkah akhir); 86/76 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0715",
@@ -30665,7 +30665,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 4 = Kolom 3. Maka (4 × 8) + 4 = 36."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 2 × 4 = 8, dan 12 − 8 = 4. Rumus: (K1 × K2) + 4.\nUji Rumus:: Baris 2: (9 × 5) + 4 = 49 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 8) + 4 = 32 + 4 = 36.\nKesimpulan:: Jawaban 36. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+4); sisa ini tetap di semua baris. Jebakan: 38/34 (meleset tipis, salah hitung di langkah akhir); 41/31 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0749",
@@ -30706,7 +30706,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +4 dan turun ke bawah +9. Nilai '?' = 52 + 4 = 56."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +4 (30 → 34 → 38).\nPola Kolom:: Turun ke bawah selalu +9 (30 → 39 → 48).\nHitung (?):: Lewat baris terakhir: 52 + 4 = 56. Cek lewat kolom kanan: 47 + 9 = 56 ✓.\nCara Cepat:: Serong kanan-bawah = 4 + 9 = +13, jadi 30 → 43 → 43 + 13 = 56. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 43 − 30 = 56.\nKesimpulan:: Jawaban 56. Jebakan: 54/58 (meleset tipis, salah hitung di langkah akhir); 51/61 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0750",
@@ -32100,7 +32100,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +2 dan turun ke bawah +3. Nilai '?' = 22 + 2 = 24."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +2 (14 → 16 → 18).\nPola Kolom:: Turun ke bawah selalu +3 (14 → 17 → 20).\nHitung (?):: Lewat baris terakhir: 22 + 2 = 24. Cek lewat kolom kanan: 21 + 3 = 24 ✓.\nCara Cepat:: Serong kanan-bawah = 2 + 3 = +5, jadi 14 → 19 → 19 + 5 = 24. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 19 − 14 = 24.\nKesimpulan:: Jawaban 24. Jebakan: 22 (menyalin angka di sebelah kiri ?); 26 (meleset tipis, salah hitung di langkah akhir); 19/29 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0784",
@@ -32141,7 +32141,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 6 = Kolom 3. Maka (8 × 8) + 6 = 70."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 7 = 42, dan 48 − 42 = 6. Rumus: (K1 × K2) + 6.\nUji Rumus:: Baris 2: (5 × 3) + 6 = 21 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 8) + 6 = 64 + 6 = 70.\nKesimpulan:: Jawaban 70. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+6); sisa ini tetap di semua baris. Jebakan: 72/68 (meleset tipis, salah hitung di langkah akhir); 65/75 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0785",
@@ -33535,7 +33535,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 16 = Kolom 3. Maka (8 × 4) + 16 = 48."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 3 = 27, dan 43 − 27 = 16. Rumus: (K1 × K2) + 16.\nUji Rumus:: Baris 2: (3 × 6) + 16 = 34 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 4) + 16 = 32 + 16 = 48.\nKesimpulan:: Jawaban 48. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+16); sisa ini tetap di semua baris. Jebakan: 50/46 (meleset tipis, salah hitung di langkah akhir); 43/53 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0819",
@@ -33576,7 +33576,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +13 dan turun ke bawah +3. Nilai '?' = 24 + 13 = 37."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +13 (5 → 18 → 31).\nPola Kolom:: Turun ke bawah selalu +3 (5 → 8 → 11).\nHitung (?):: Lewat baris terakhir: 24 + 13 = 37. Cek lewat kolom kanan: 34 + 3 = 37 ✓.\nCara Cepat:: Serong kanan-bawah = 13 + 3 = +16, jadi 5 → 21 → 21 + 16 = 37. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 21 − 5 = 37.\nKesimpulan:: Jawaban 37. Jebakan: 35/39 (meleset tipis, salah hitung di langkah akhir); 42/32 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0820",
@@ -34970,7 +34970,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +10 dan turun ke bawah +11. Nilai '?' = 61 + 10 = 71."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +10 (29 → 39 → 49).\nPola Kolom:: Turun ke bawah selalu +11 (29 → 40 → 51).\nHitung (?):: Lewat baris terakhir: 61 + 10 = 71. Cek lewat kolom kanan: 60 + 11 = 71 ✓.\nCara Cepat:: Serong kanan-bawah = 10 + 11 = +21, jadi 29 → 50 → 50 + 21 = 71. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 50 − 29 = 71.\nKesimpulan:: Jawaban 71. Jebakan: 69/73 (meleset tipis, salah hitung di langkah akhir); 76/66 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0854",
@@ -35011,7 +35011,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 3 = Kolom 3. Maka (4 × 7) + 3 = 31."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 5 × 9 = 45, dan 48 − 45 = 3. Rumus: (K1 × K2) + 3.\nUji Rumus:: Baris 2: (7 × 9) + 3 = 66 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 7) + 3 = 28 + 3 = 31.\nKesimpulan:: Jawaban 31. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+3); sisa ini tetap di semua baris. Jebakan: 29/33 (meleset tipis, salah hitung di langkah akhir); 26/36 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0855",
@@ -36405,7 +36405,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 8 = Kolom 3. Maka (8 × 9) + 8 = 80."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 3 × 7 = 21, dan 29 − 21 = 8. Rumus: (K1 × K2) + 8.\nUji Rumus:: Baris 2: (2 × 9) + 8 = 26 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 9) + 8 = 72 + 8 = 80.\nKesimpulan:: Jawaban 80. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+8); sisa ini tetap di semua baris. Jebakan: 82/78 (meleset tipis, salah hitung di langkah akhir); 75/85 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0889",
@@ -36446,7 +36446,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +3 dan turun ke bawah +3. Nilai '?' = 28 + 3 = 31."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +3 (19 → 22 → 25).\nPola Kolom:: Turun ke bawah selalu +3 (19 → 22 → 25).\nHitung (?):: Lewat baris terakhir: 28 + 3 = 31. Cek lewat kolom kanan: 28 + 3 = 31 ✓.\nCara Cepat:: Serong kanan-bawah = 3 + 3 = +6, jadi 19 → 25 → 25 + 6 = 31. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 25 − 19 = 31.\nKesimpulan:: Jawaban 31. Jebakan: 33/29 (meleset tipis, salah hitung di langkah akhir); 36/26 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0890",
@@ -37840,7 +37840,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +11 dan turun ke bawah +15. Nilai '?' = 46 + 11 = 57."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +11 (5 → 16 → 27).\nPola Kolom:: Turun ke bawah selalu +15 (5 → 20 → 35).\nHitung (?):: Lewat baris terakhir: 46 + 11 = 57. Cek lewat kolom kanan: 42 + 15 = 57 ✓.\nCara Cepat:: Serong kanan-bawah = 11 + 15 = +26, jadi 5 → 31 → 31 + 26 = 57. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 31 − 5 = 57.\nKesimpulan:: Jawaban 57. Jebakan: 55/59 (meleset tipis, salah hitung di langkah akhir); 52/62 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0924",
@@ -37881,7 +37881,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 3 = Kolom 3. Maka (5 × 4) + 3 = 23."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 2 = 16, dan 19 − 16 = 3. Rumus: (K1 × K2) + 3.\nUji Rumus:: Baris 2: (4 × 6) + 3 = 27 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 4) + 3 = 20 + 3 = 23.\nKesimpulan:: Jawaban 23. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+3); sisa ini tetap di semua baris. Jebakan: 25/21 (meleset tipis, salah hitung di langkah akhir); 28/18 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0925",
@@ -39275,7 +39275,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 7 = Kolom 3. Maka (8 × 8) + 7 = 71."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 7 × 2 = 14, dan 21 − 14 = 7. Rumus: (K1 × K2) + 7.\nUji Rumus:: Baris 2: (7 × 9) + 7 = 70 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 8) + 7 = 64 + 7 = 71.\nKesimpulan:: Jawaban 71. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+7); sisa ini tetap di semua baris. Jebakan: 69/73 (meleset tipis, salah hitung di langkah akhir); 66/76 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0959",
@@ -39316,7 +39316,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +5 dan turun ke bawah +11. Nilai '?' = 48 + 5 = 53."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +5 (21 → 26 → 31).\nPola Kolom:: Turun ke bawah selalu +11 (21 → 32 → 43).\nHitung (?):: Lewat baris terakhir: 48 + 5 = 53. Cek lewat kolom kanan: 42 + 11 = 53 ✓.\nCara Cepat:: Serong kanan-bawah = 5 + 11 = +16, jadi 21 → 37 → 37 + 16 = 53. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 37 − 21 = 53.\nKesimpulan:: Jawaban 53. Jebakan: 48 (menyalin angka di sebelah kiri ?); 55/51 (meleset tipis, salah hitung di langkah akhir); 58 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0960",
@@ -40710,7 +40710,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +9 dan turun ke bawah +6. Nilai '?' = 50 + 9 = 59."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +9 (29 → 38 → 47).\nPola Kolom:: Turun ke bawah selalu +6 (29 → 35 → 41).\nHitung (?):: Lewat baris terakhir: 50 + 9 = 59. Cek lewat kolom kanan: 53 + 6 = 59 ✓.\nCara Cepat:: Serong kanan-bawah = 9 + 6 = +15, jadi 29 → 44 → 44 + 15 = 59. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 44 − 29 = 59.\nKesimpulan:: Jawaban 59. Jebakan: 57/61 (meleset tipis, salah hitung di langkah akhir); 64/54 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0994",
@@ -40751,7 +40751,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 8 = Kolom 3. Maka (4 × 7) + 8 = 36."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 3 × 9 = 27, dan 35 − 27 = 8. Rumus: (K1 × K2) + 8.\nUji Rumus:: Baris 2: (6 × 8) + 8 = 56 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 7) + 8 = 28 + 8 = 36.\nKesimpulan:: Jawaban 36. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+8); sisa ini tetap di semua baris. Jebakan: 34/38 (meleset tipis, salah hitung di langkah akhir); 41/31 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_0995",
@@ -42145,7 +42145,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 18 = Kolom 3. Maka (4 × 8) + 18 = 50."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 9 = 72, dan 90 − 72 = 18. Rumus: (K1 × K2) + 18.\nUji Rumus:: Baris 2: (5 × 3) + 18 = 33 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 8) + 18 = 32 + 18 = 50.\nKesimpulan:: Jawaban 50. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+18); sisa ini tetap di semua baris. Jebakan: 48/52 (meleset tipis, salah hitung di langkah akhir); 55/45 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1029",
@@ -42186,7 +42186,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +7 dan turun ke bawah +5. Nilai '?' = 26 + 7 = 33."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +7 (9 → 16 → 23).\nPola Kolom:: Turun ke bawah selalu +5 (9 → 14 → 19).\nHitung (?):: Lewat baris terakhir: 26 + 7 = 33. Cek lewat kolom kanan: 28 + 5 = 33 ✓.\nCara Cepat:: Serong kanan-bawah = 7 + 5 = +12, jadi 9 → 21 → 21 + 12 = 33. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 21 − 9 = 33.\nKesimpulan:: Jawaban 33. Jebakan: 28 (menyalin angka di atas ?); 35/31 (meleset tipis, salah hitung di langkah akhir); 38 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1030",
@@ -43580,7 +43580,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +6 dan turun ke bawah +7. Nilai '?' = 23 + 6 = 29."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +6 (3 → 9 → 15).\nPola Kolom:: Turun ke bawah selalu +7 (3 → 10 → 17).\nHitung (?):: Lewat baris terakhir: 23 + 6 = 29. Cek lewat kolom kanan: 22 + 7 = 29 ✓.\nCara Cepat:: Serong kanan-bawah = 6 + 7 = +13, jadi 3 → 16 → 16 + 13 = 29. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 16 − 3 = 29.\nKesimpulan:: Jawaban 29. Jebakan: 27/31 (meleset tipis, salah hitung di langkah akhir); 24/34 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1064",
@@ -43621,7 +43621,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 11 = Kolom 3. Maka (8 × 9) + 11 = 83."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 2 × 9 = 18, dan 29 − 18 = 11. Rumus: (K1 × K2) + 11.\nUji Rumus:: Baris 2: (7 × 6) + 11 = 53 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 9) + 11 = 72 + 11 = 83.\nKesimpulan:: Jawaban 83. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+11); sisa ini tetap di semua baris. Jebakan: 85/81 (meleset tipis, salah hitung di langkah akhir); 88/78 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1065",
@@ -45015,7 +45015,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 9 = Kolom 3. Maka (5 × 8) + 9 = 49."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 4 × 4 = 16, dan 25 − 16 = 9. Rumus: (K1 × K2) + 9.\nUji Rumus:: Baris 2: (8 × 7) + 9 = 65 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 8) + 9 = 40 + 9 = 49.\nKesimpulan:: Jawaban 49. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+9); sisa ini tetap di semua baris. Jebakan: 51/47 (meleset tipis, salah hitung di langkah akhir); 44/54 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1099",
@@ -45056,7 +45056,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +12 dan turun ke bawah +9. Nilai '?' = 61 + 12 = 73."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +12 (31 → 43 → 55).\nPola Kolom:: Turun ke bawah selalu +9 (31 → 40 → 49).\nHitung (?):: Lewat baris terakhir: 61 + 12 = 73. Cek lewat kolom kanan: 64 + 9 = 73 ✓.\nCara Cepat:: Serong kanan-bawah = 12 + 9 = +21, jadi 31 → 52 → 52 + 21 = 73. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 52 − 31 = 73.\nKesimpulan:: Jawaban 73. Jebakan: 71/75 (meleset tipis, salah hitung di langkah akhir); 78/68 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1100",
@@ -46450,7 +46450,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +14 dan turun ke bawah +5. Nilai '?' = 41 + 14 = 55."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +14 (17 → 31 → 45).\nPola Kolom:: Turun ke bawah selalu +5 (17 → 22 → 27).\nHitung (?):: Lewat baris terakhir: 41 + 14 = 55. Cek lewat kolom kanan: 50 + 5 = 55 ✓.\nCara Cepat:: Serong kanan-bawah = 14 + 5 = +19, jadi 17 → 36 → 36 + 19 = 55. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 36 − 17 = 55.\nKesimpulan:: Jawaban 55. Jebakan: 50 (menyalin angka di atas ?); 57/53 (meleset tipis, salah hitung di langkah akhir); 60 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1134",
@@ -46491,7 +46491,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 6 = Kolom 3. Maka (3 × 9) + 6 = 33."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 4 × 9 = 36, dan 42 − 36 = 6. Rumus: (K1 × K2) + 6.\nUji Rumus:: Baris 2: (7 × 4) + 6 = 34 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (3 × 9) + 6 = 27 + 6 = 33.\nKesimpulan:: Jawaban 33. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+6); sisa ini tetap di semua baris. Jebakan: 31/35 (meleset tipis, salah hitung di langkah akhir); 28/38 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1135",
@@ -47885,7 +47885,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 16 = Kolom 3. Maka (7 × 5) + 16 = 51."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 5 = 30, dan 46 − 30 = 16. Rumus: (K1 × K2) + 16.\nUji Rumus:: Baris 2: (2 × 9) + 16 = 34 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 5) + 16 = 35 + 16 = 51.\nKesimpulan:: Jawaban 51. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+16); sisa ini tetap di semua baris. Jebakan: 49/53 (meleset tipis, salah hitung di langkah akhir); 46/56 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1169",
@@ -47926,7 +47926,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +6 dan turun ke bawah +15. Nilai '?' = 45 + 6 = 51."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +6 (9 → 15 → 21).\nPola Kolom:: Turun ke bawah selalu +15 (9 → 24 → 39).\nHitung (?):: Lewat baris terakhir: 45 + 6 = 51. Cek lewat kolom kanan: 36 + 15 = 51 ✓.\nCara Cepat:: Serong kanan-bawah = 6 + 15 = +21, jadi 9 → 30 → 30 + 21 = 51. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 30 − 9 = 51.\nKesimpulan:: Jawaban 51. Jebakan: 53/49 (meleset tipis, salah hitung di langkah akhir); 56/46 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1170",
@@ -49320,7 +49320,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +5 dan turun ke bawah +16. Nilai '?' = 39 + 5 = 44."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +5 (2 → 7 → 12).\nPola Kolom:: Turun ke bawah selalu +16 (2 → 18 → 34).\nHitung (?):: Lewat baris terakhir: 39 + 5 = 44. Cek lewat kolom kanan: 28 + 16 = 44 ✓.\nCara Cepat:: Serong kanan-bawah = 5 + 16 = +21, jadi 2 → 23 → 23 + 21 = 44. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 23 − 2 = 44.\nKesimpulan:: Jawaban 44. Jebakan: 39 (menyalin angka di sebelah kiri ?); 46/42 (meleset tipis, salah hitung di langkah akhir); 49 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1204",
@@ -49361,7 +49361,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 9 = Kolom 3. Maka (3 × 7) + 9 = 30."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 2 = 18, dan 27 − 18 = 9. Rumus: (K1 × K2) + 9.\nUji Rumus:: Baris 2: (6 × 4) + 9 = 33 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (3 × 7) + 9 = 21 + 9 = 30.\nKesimpulan:: Jawaban 30. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+9); sisa ini tetap di semua baris. Jebakan: 28/32 (meleset tipis, salah hitung di langkah akhir); 25/35 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1205",
@@ -50755,7 +50755,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 16 = Kolom 3. Maka (6 × 6) + 16 = 52."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 6 = 48, dan 64 − 48 = 16. Rumus: (K1 × K2) + 16.\nUji Rumus:: Baris 2: (6 × 4) + 16 = 40 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (6 × 6) + 16 = 36 + 16 = 52.\nKesimpulan:: Jawaban 52. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+16); sisa ini tetap di semua baris. Jebakan: 54/50 (meleset tipis, salah hitung di langkah akhir); 47/57 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1239",
@@ -50796,7 +50796,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +13 dan turun ke bawah +17. Nilai '?' = 68 + 13 = 81."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +13 (21 → 34 → 47).\nPola Kolom:: Turun ke bawah selalu +17 (21 → 38 → 55).\nHitung (?):: Lewat baris terakhir: 68 + 13 = 81. Cek lewat kolom kanan: 64 + 17 = 81 ✓.\nCara Cepat:: Serong kanan-bawah = 13 + 17 = +30, jadi 21 → 51 → 51 + 30 = 81. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 51 − 21 = 81.\nKesimpulan:: Jawaban 81. Jebakan: 83/79 (meleset tipis, salah hitung di langkah akhir); 86/76 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1240",
@@ -52190,7 +52190,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +3 dan turun ke bawah +9. Nilai '?' = 50 + 3 = 53."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +3 (29 → 32 → 35).\nPola Kolom:: Turun ke bawah selalu +9 (29 → 38 → 47).\nHitung (?):: Lewat baris terakhir: 50 + 3 = 53. Cek lewat kolom kanan: 44 + 9 = 53 ✓.\nCara Cepat:: Serong kanan-bawah = 3 + 9 = +12, jadi 29 → 41 → 41 + 12 = 53. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 41 − 29 = 53.\nKesimpulan:: Jawaban 53. Jebakan: 55/51 (meleset tipis, salah hitung di langkah akhir); 58/48 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1274",
@@ -52231,7 +52231,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 3 = Kolom 3. Maka (9 × 8) + 3 = 75."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 3 × 8 = 24, dan 27 − 24 = 3. Rumus: (K1 × K2) + 3.\nUji Rumus:: Baris 2: (2 × 7) + 3 = 17 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 8) + 3 = 72 + 3 = 75.\nKesimpulan:: Jawaban 75. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+3); sisa ini tetap di semua baris. Jebakan: 73/77 (meleset tipis, salah hitung di langkah akhir); 80/70 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1275",
@@ -53625,7 +53625,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 16 = Kolom 3. Maka (7 × 4) + 16 = 44."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 3 = 24, dan 40 − 24 = 16. Rumus: (K1 × K2) + 16.\nUji Rumus:: Baris 2: (7 × 6) + 16 = 58 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 4) + 16 = 28 + 16 = 44.\nKesimpulan:: Jawaban 44. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+16); sisa ini tetap di semua baris. Jebakan: 42/46 (meleset tipis, salah hitung di langkah akhir); 39/49 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1309",
@@ -53666,7 +53666,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +10 dan turun ke bawah +15. Nilai '?' = 66 + 10 = 76."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +10 (26 → 36 → 46).\nPola Kolom:: Turun ke bawah selalu +15 (26 → 41 → 56).\nHitung (?):: Lewat baris terakhir: 66 + 10 = 76. Cek lewat kolom kanan: 61 + 15 = 76 ✓.\nCara Cepat:: Serong kanan-bawah = 10 + 15 = +25, jadi 26 → 51 → 51 + 25 = 76. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 51 − 26 = 76.\nKesimpulan:: Jawaban 76. Jebakan: 74/78 (meleset tipis, salah hitung di langkah akhir); 71/81 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1310",
@@ -55060,7 +55060,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +14 dan turun ke bawah +14. Nilai '?' = 57 + 14 = 71."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +14 (15 → 29 → 43).\nPola Kolom:: Turun ke bawah selalu +14 (15 → 29 → 43).\nHitung (?):: Lewat baris terakhir: 57 + 14 = 71. Cek lewat kolom kanan: 57 + 14 = 71 ✓.\nCara Cepat:: Serong kanan-bawah = 14 + 14 = +28, jadi 15 → 43 → 43 + 28 = 71. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 43 − 15 = 71.\nKesimpulan:: Jawaban 71. Jebakan: 69/73 (meleset tipis, salah hitung di langkah akhir); 76/66 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1344",
@@ -55101,7 +55101,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 11 = Kolom 3. Maka (9 × 3) + 11 = 38."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 8 × 4 = 32, dan 43 − 32 = 11. Rumus: (K1 × K2) + 11.\nUji Rumus:: Baris 2: (6 × 5) + 11 = 41 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 3) + 11 = 27 + 11 = 38.\nKesimpulan:: Jawaban 38. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+11); sisa ini tetap di semua baris. Jebakan: 36/40 (meleset tipis, salah hitung di langkah akhir); 33/43 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1345",
@@ -56495,7 +56495,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 18 = Kolom 3. Maka (7 × 3) + 18 = 39."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 2 = 12, dan 30 − 12 = 18. Rumus: (K1 × K2) + 18.\nUji Rumus:: Baris 2: (2 × 9) + 18 = 36 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 3) + 18 = 21 + 18 = 39.\nKesimpulan:: Jawaban 39. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+18); sisa ini tetap di semua baris. Jebakan: 37/41 (meleset tipis, salah hitung di langkah akhir); 44/34 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1379",
@@ -56536,7 +56536,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +4 dan turun ke bawah +12. Nilai '?' = 32 + 4 = 36."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +4 (4 → 8 → 12).\nPola Kolom:: Turun ke bawah selalu +12 (4 → 16 → 28).\nHitung (?):: Lewat baris terakhir: 32 + 4 = 36. Cek lewat kolom kanan: 24 + 12 = 36 ✓.\nCara Cepat:: Serong kanan-bawah = 4 + 12 = +16, jadi 4 → 20 → 20 + 16 = 36. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 20 − 4 = 36.\nKesimpulan:: Jawaban 36. Jebakan: 34/38 (meleset tipis, salah hitung di langkah akhir); 31/41 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1380",
@@ -57930,7 +57930,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Setiap geser ke kanan +4 dan turun ke bawah +13. Nilai '?' = 45 + 4 = 49."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +4 (15 → 19 → 23).\nPola Kolom:: Turun ke bawah selalu +13 (15 → 28 → 41).\nHitung (?):: Lewat baris terakhir: 45 + 4 = 49. Cek lewat kolom kanan: 36 + 13 = 49 ✓.\nCara Cepat:: Serong kanan-bawah = 4 + 13 = +17, jadi 15 → 32 → 32 + 17 = 49. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 32 − 15 = 49.\nKesimpulan:: Jawaban 49. Jebakan: 47/51 (meleset tipis, salah hitung di langkah akhir); 54/44 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1414",
@@ -57971,7 +57971,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 8 = Kolom 3. Maka (8 × 9) + 8 = 80."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 5 × 2 = 10, dan 18 − 10 = 8. Rumus: (K1 × K2) + 8.\nUji Rumus:: Baris 2: (3 × 3) + 8 = 17 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 9) + 8 = 72 + 8 = 80.\nKesimpulan:: Jawaban 80. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+8); sisa ini tetap di semua baris. Jebakan: 82/78 (meleset tipis, salah hitung di langkah akhir); 85/75 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1415",
@@ -59365,7 +59365,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 5 = Kolom 3. Maka (4 × 5) + 5 = 25."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 6 × 6 = 36, dan 41 − 36 = 5. Rumus: (K1 × K2) + 5.\nUji Rumus:: Baris 2: (3 × 4) + 5 = 17 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 5) + 5 = 20 + 5 = 25.\nKesimpulan:: Jawaban 25. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+5); sisa ini tetap di semua baris. Jebakan: 20 (lupa menambah +5); 27/23 (meleset tipis, salah hitung di langkah akhir); 30 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1449",
@@ -59406,7 +59406,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Setiap geser ke kanan +13 dan turun ke bawah +13. Nilai '?' = 71 + 13 = 84."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +13 (32 → 45 → 58).\nPola Kolom:: Turun ke bawah selalu +13 (32 → 45 → 58).\nHitung (?):: Lewat baris terakhir: 71 + 13 = 84. Cek lewat kolom kanan: 71 + 13 = 84 ✓.\nCara Cepat:: Serong kanan-bawah = 13 + 13 = +26, jadi 32 → 58 → 58 + 26 = 84. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 58 − 32 = 84.\nKesimpulan:: Jawaban 84. Jebakan: 82/86 (meleset tipis, salah hitung di langkah akhir); 89/79 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1450",
@@ -60800,7 +60800,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +12 dan turun ke bawah +5. Nilai '?' = 44 + 12 = 56."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +12 (22 → 34 → 46).\nPola Kolom:: Turun ke bawah selalu +5 (22 → 27 → 32).\nHitung (?):: Lewat baris terakhir: 44 + 12 = 56. Cek lewat kolom kanan: 51 + 5 = 56 ✓.\nCara Cepat:: Serong kanan-bawah = 12 + 5 = +17, jadi 22 → 39 → 39 + 17 = 56. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 39 − 22 = 56.\nKesimpulan:: Jawaban 56. Jebakan: 51 (menyalin angka di atas ?); 54/58 (meleset tipis, salah hitung di langkah akhir); 61 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1484",
@@ -60841,7 +60841,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 13 = Kolom 3. Maka (5 × 5) + 13 = 38."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 7 = 63, dan 76 − 63 = 13. Rumus: (K1 × K2) + 13.\nUji Rumus:: Baris 2: (6 × 8) + 13 = 61 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 5) + 13 = 25 + 13 = 38.\nKesimpulan:: Jawaban 38. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+13); sisa ini tetap di semua baris. Jebakan: 40/36 (meleset tipis, salah hitung di langkah akhir); 43/33 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1485",
@@ -62235,7 +62235,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 7 = Kolom 3. Maka (8 × 8) + 7 = 71."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 2 = 18, dan 25 − 18 = 7. Rumus: (K1 × K2) + 7.\nUji Rumus:: Baris 2: (5 × 6) + 7 = 37 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (8 × 8) + 7 = 64 + 7 = 71.\nKesimpulan:: Jawaban 71. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+7); sisa ini tetap di semua baris. Jebakan: 73/69 (meleset tipis, salah hitung di langkah akhir); 76/66 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1519",
@@ -62276,7 +62276,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +11 dan turun ke bawah +4. Nilai '?' = 37 + 11 = 48."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +11 (18 → 29 → 40).\nPola Kolom:: Turun ke bawah selalu +4 (18 → 22 → 26).\nHitung (?):: Lewat baris terakhir: 37 + 11 = 48. Cek lewat kolom kanan: 44 + 4 = 48 ✓.\nCara Cepat:: Serong kanan-bawah = 11 + 4 = +15, jadi 18 → 33 → 33 + 15 = 48. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 33 − 18 = 48.\nKesimpulan:: Jawaban 48. Jebakan: 50/46 (meleset tipis, salah hitung di langkah akhir); 43/53 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1520",
@@ -63670,7 +63670,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +9 dan turun ke bawah +13. Nilai '?' = 68 + 9 = 77."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +9 (33 → 42 → 51).\nPola Kolom:: Turun ke bawah selalu +13 (33 → 46 → 59).\nHitung (?):: Lewat baris terakhir: 68 + 9 = 77. Cek lewat kolom kanan: 64 + 13 = 77 ✓.\nCara Cepat:: Serong kanan-bawah = 9 + 13 = +22, jadi 33 → 55 → 55 + 22 = 77. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 55 − 33 = 77.\nKesimpulan:: Jawaban 77. Jebakan: 75/79 (meleset tipis, salah hitung di langkah akhir); 72/82 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1554",
@@ -63711,7 +63711,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 6 = Kolom 3. Maka (4 × 9) + 6 = 42."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 4 × 2 = 8, dan 14 − 8 = 6. Rumus: (K1 × K2) + 6.\nUji Rumus:: Baris 2: (7 × 8) + 6 = 62 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (4 × 9) + 6 = 36 + 6 = 42.\nKesimpulan:: Jawaban 42. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+6); sisa ini tetap di semua baris. Jebakan: 40/44 (meleset tipis, salah hitung di langkah akhir); 37/47 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1555",
@@ -65105,7 +65105,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 7 = Kolom 3. Maka (7 × 3) + 7 = 28."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 7 × 5 = 35, dan 42 − 35 = 7. Rumus: (K1 × K2) + 7.\nUji Rumus:: Baris 2: (7 × 6) + 7 = 49 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 3) + 7 = 21 + 7 = 28.\nKesimpulan:: Jawaban 28. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+7); sisa ini tetap di semua baris. Jebakan: 30/26 (meleset tipis, salah hitung di langkah akhir); 33/23 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1589",
@@ -65146,7 +65146,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Setiap geser ke kanan +9 dan turun ke bawah +5. Nilai '?' = 35 + 9 = 44."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +9 (16 → 25 → 34).\nPola Kolom:: Turun ke bawah selalu +5 (16 → 21 → 26).\nHitung (?):: Lewat baris terakhir: 35 + 9 = 44. Cek lewat kolom kanan: 39 + 5 = 44 ✓.\nCara Cepat:: Serong kanan-bawah = 9 + 5 = +14, jadi 16 → 30 → 30 + 14 = 44. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 30 − 16 = 44.\nKesimpulan:: Jawaban 44. Jebakan: 39 (menyalin angka di atas ?); 46/42 (meleset tipis, salah hitung di langkah akhir); 49 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1590",
@@ -66540,7 +66540,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +12 dan turun ke bawah +16. Nilai '?' = 48 + 12 = 60."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +12 (4 → 16 → 28).\nPola Kolom:: Turun ke bawah selalu +16 (4 → 20 → 36).\nHitung (?):: Lewat baris terakhir: 48 + 12 = 60. Cek lewat kolom kanan: 44 + 16 = 60 ✓.\nCara Cepat:: Serong kanan-bawah = 12 + 16 = +28, jadi 4 → 32 → 32 + 28 = 60. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 32 − 4 = 60.\nKesimpulan:: Jawaban 60. Jebakan: 62/58 (meleset tipis, salah hitung di langkah akhir); 55/65 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1624",
@@ -66581,7 +66581,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 5 = Kolom 3. Maka (9 × 8) + 5 = 77."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 9 × 9 = 81, dan 86 − 81 = 5. Rumus: (K1 × K2) + 5.\nUji Rumus:: Baris 2: (7 × 7) + 5 = 54 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 8) + 5 = 72 + 5 = 77.\nKesimpulan:: Jawaban 77. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+5); sisa ini tetap di semua baris. Jebakan: 72 (lupa menambah +5); 79/75 (meleset tipis, salah hitung di langkah akhir); 82 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1625",
@@ -67975,7 +67975,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 10 = Kolom 3. Maka (9 × 8) + 10 = 82."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 3 × 4 = 12, dan 22 − 12 = 10. Rumus: (K1 × K2) + 10.\nUji Rumus:: Baris 2: (6 × 3) + 10 = 28 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (9 × 8) + 10 = 72 + 10 = 82.\nKesimpulan:: Jawaban 82. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+10); sisa ini tetap di semua baris. Jebakan: 80/84 (meleset tipis, salah hitung di langkah akhir); 87/77 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1659",
@@ -68016,7 +68016,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +11 dan turun ke bawah +4. Nilai '?' = 23 + 11 = 34."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +11 (4 → 15 → 26).\nPola Kolom:: Turun ke bawah selalu +4 (4 → 8 → 12).\nHitung (?):: Lewat baris terakhir: 23 + 11 = 34. Cek lewat kolom kanan: 30 + 4 = 34 ✓.\nCara Cepat:: Serong kanan-bawah = 11 + 4 = +15, jadi 4 → 19 → 19 + 15 = 34. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 19 − 4 = 34.\nKesimpulan:: Jawaban 34. Jebakan: 36/32 (meleset tipis, salah hitung di langkah akhir); 29/39 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1660",
@@ -69410,7 +69410,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Setiap geser ke kanan +12 dan turun ke bawah +10. Nilai '?' = 62 + 12 = 74."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +12 (30 → 42 → 54).\nPola Kolom:: Turun ke bawah selalu +10 (30 → 40 → 50).\nHitung (?):: Lewat baris terakhir: 62 + 12 = 74. Cek lewat kolom kanan: 64 + 10 = 74 ✓.\nCara Cepat:: Serong kanan-bawah = 12 + 10 = +22, jadi 30 → 52 → 52 + 22 = 74. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 52 − 30 = 74.\nKesimpulan:: Jawaban 74. Jebakan: 76/72 (meleset tipis, salah hitung di langkah akhir); 69/79 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1694",
@@ -69451,7 +69451,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 8 = Kolom 3. Maka (7 × 9) + 8 = 71."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 2 × 8 = 16, dan 24 − 16 = 8. Rumus: (K1 × K2) + 8.\nUji Rumus:: Baris 2: (9 × 8) + 8 = 80 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (7 × 9) + 8 = 63 + 8 = 71.\nKesimpulan:: Jawaban 71. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+8); sisa ini tetap di semua baris. Jebakan: 69/73 (meleset tipis, salah hitung di langkah akhir); 76/66 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1695",
@@ -70845,7 +70845,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: (Kolom 1 × Kolom 2) + 4 = Kolom 3. Maka (5 × 5) + 4 = 29."
+    "pembahasan": "Amati:: Kolom 3 melonjak tidak beraturan, jadi polanya ada di dalam tiap baris (Kolom 1 & 2 → Kolom 3), bukan naik-turun.\nTemukan Rumus:: Baris 1: 2 × 3 = 6, dan 10 − 6 = 4. Rumus: (K1 × K2) + 4.\nUji Rumus:: Baris 2: (9 × 7) + 4 = 67 ✓ cocok, rumus sah.\nHitung (?):: Baris 3: (5 × 5) + 4 = 25 + 4 = 29.\nKesimpulan:: Jawaban 29. Cara cepat: cari \"sisa\" Kolom 3 terhadap hasil kali di baris 1 (+4); sisa ini tetap di semua baris. Jebakan: 27/31 (meleset tipis, salah hitung di langkah akhir); 34/24 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1729",
@@ -70886,7 +70886,7 @@ window.DATA_TIU_BATCH2 = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Setiap geser ke kanan +5 dan turun ke bawah +16. Nilai '?' = 52 + 5 = 57."
+    "pembahasan": "Pola Baris:: Geser ke kanan selalu +5 (15 → 20 → 25).\nPola Kolom:: Turun ke bawah selalu +16 (15 → 31 → 47).\nHitung (?):: Lewat baris terakhir: 52 + 5 = 57. Cek lewat kolom kanan: 41 + 16 = 57 ✓.\nCara Cepat:: Serong kanan-bawah = 5 + 16 = +21, jadi 15 → 36 → 36 + 21 = 57. Atau trik angka tengah: pojok + pojok seberangnya = 2 × tengah, maka ? = 2 × 36 − 15 = 57.\nKesimpulan:: Jawaban 57. Jebakan: 52 (menyalin angka di sebelah kiri ?); 59/55 (meleset tipis, salah hitung di langkah akhir); 62 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu2_1730",

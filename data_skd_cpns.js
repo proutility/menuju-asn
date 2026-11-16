@@ -61101,7 +61101,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 4 | 28 ]\nBaris 2: [ 7 | 8 | 60 ]\nBaris 3: [ 10 | 9 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 4 | 28 ]\nBaris 2: [ 7 | 8 | 60 ]\nBaris 3: [ 10 | 9 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -61135,7 +61135,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (10 + 9) × 4 = 76."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 4 = 7, dan 28 ÷ 7 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (7 + 8) × 4 = 15 × 4 = 60 ✓ cocok.\nHitung (?):: Baris 3: (10 + 9) × 4 = 19 × 4 = 76.\nKesimpulan:: Jawaban 76. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 90 (mengalikan K1 × K2, bukan menjumlah); 84/72/82 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0019",
@@ -61511,7 +61511,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 8 | 11 | 43 ]\nBaris 2: [ 4 | 2 | 18 ]\nBaris 3: [ 4 | 10 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 8 | 11 | 43 ]\nBaris 2: [ 4 | 2 | 18 ]\nBaris 3: [ 4 | 10 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -61545,7 +61545,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (4 × 4) + 10 = 26."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 43 − 11 = 32 = 8 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (4 × 4) + 2 = 16 + 2 = 18 ✓ cocok.\nHitung (?):: Baris 3: (4 × 4) + 10 = 16 + 10 = 26.\nKesimpulan:: Jawaban 26. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 30/22/32 (salah menerapkan selisih/rumus); 44 (salah memilih operasi)."
   },
   {
     "id": "tiu_0029",
@@ -64022,7 +64022,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 8 | 22 ]\nBaris 2: [ 6 | 5 | 22 ]\nBaris 3: [ 7 | 10 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 8 | 22 ]\nBaris 2: [ 6 | 5 | 22 ]\nBaris 3: [ 7 | 10 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -64056,7 +64056,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (7 + 10) × 2 = 34."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 8 = 11, dan 22 ÷ 11 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (6 + 5) × 2 = 11 × 2 = 22 ✓ cocok.\nHitung (?):: Baris 3: (7 + 10) × 2 = 17 × 2 = 34.\nKesimpulan:: Jawaban 34. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 70 (mengalikan K1 × K2, bukan menjumlah); 32 (meleset tipis, salah hitung di langkah akhir); 38/42 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0090",
@@ -64186,7 +64186,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 7 | 20 ]\nBaris 2: [ 7 | 6 | 26 ]\nBaris 3: [ 5 | 2 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 7 | 20 ]\nBaris 2: [ 7 | 6 | 26 ]\nBaris 3: [ 5 | 2 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -64220,7 +64220,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (5 + 2) × 2 = 14."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 7 = 10, dan 20 ÷ 10 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (7 + 6) × 2 = 13 × 2 = 26 ✓ cocok.\nHitung (?):: Baris 3: (5 + 2) × 2 = 7 × 2 = 14.\nKesimpulan:: Jawaban 14. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 10 (mengalikan K1 × K2, bukan menjumlah); 12 (meleset tipis, salah hitung di langkah akhir); 22/18 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0094",
@@ -65420,7 +65420,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 5 | 39 ]\nBaris 2: [ 6 | 4 | 30 ]\nBaris 3: [ 9 | 8 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 5 | 39 ]\nBaris 2: [ 6 | 4 | 30 ]\nBaris 3: [ 9 | 8 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -65454,7 +65454,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (9 + 8) × 3 = 51."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 8 + 5 = 13, dan 39 ÷ 13 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (6 + 4) × 3 = 10 × 3 = 30 ✓ cocok.\nHitung (?):: Baris 3: (9 + 8) × 3 = 17 × 3 = 51.\nKesimpulan:: Jawaban 51. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 72 (mengalikan K1 × K2, bukan menjumlah); 48/59/56 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0124",
@@ -66819,7 +66819,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 8 | 52 ]\nBaris 2: [ 7 | 7 | 56 ]\nBaris 3: [ 8 | 8 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 8 | 52 ]\nBaris 2: [ 7 | 7 | 56 ]\nBaris 3: [ 8 | 8 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -66853,7 +66853,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (8 + 8) × 4 = 64."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 5 + 8 = 13, dan 52 ÷ 13 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (7 + 7) × 4 = 14 × 4 = 56 ✓ cocok.\nHitung (?):: Baris 3: (8 + 8) × 4 = 16 × 4 = 64.\nKesimpulan:: Jawaban 64. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 66 (meleset tipis, salah hitung di langkah akhir); 60/70/72 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0158",
@@ -69578,7 +69578,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 6 | 27 ]\nBaris 2: [ 4 | 8 | 36 ]\nBaris 3: [ 9 | 10 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 6 | 27 ]\nBaris 2: [ 4 | 8 | 36 ]\nBaris 3: [ 9 | 10 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -69612,7 +69612,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (9 + 10) × 3 = 57."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 6 = 9, dan 27 ÷ 9 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (4 + 8) × 3 = 12 × 3 = 36 ✓ cocok.\nHitung (?):: Baris 3: (9 + 10) × 3 = 19 × 3 = 57.\nKesimpulan:: Jawaban 57. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 90 (mengalikan K1 × K2, bukan menjumlah); 54/62/65 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0225",
@@ -69865,7 +69865,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 2 | 21 ]\nBaris 2: [ 4 | 3 | 21 ]\nBaris 3: [ 12 | 6 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 2 | 21 ]\nBaris 2: [ 4 | 3 | 21 ]\nBaris 3: [ 12 | 6 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -69899,7 +69899,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (12 + 6) × 3 = 54."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 5 + 2 = 7, dan 21 ÷ 7 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (4 + 3) × 3 = 7 × 3 = 21 ✓ cocok.\nHitung (?):: Baris 3: (12 + 6) × 3 = 18 × 3 = 54.\nKesimpulan:: Jawaban 54. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 72 (mengalikan K1 × K2, bukan menjumlah); 62/51/59 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0232",
@@ -71020,7 +71020,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 6 | 2 | 16 ]\nBaris 2: [ 10 | 6 | 32 ]\nBaris 3: [ 8 | 2 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 6 | 2 | 16 ]\nBaris 2: [ 10 | 6 | 32 ]\nBaris 3: [ 8 | 2 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -71054,7 +71054,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (8 + 2) × 2 = 20."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 6 + 2 = 8, dan 16 ÷ 8 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (10 + 6) × 2 = 16 × 2 = 32 ✓ cocok.\nHitung (?):: Baris 3: (8 + 2) × 2 = 10 × 2 = 20.\nKesimpulan:: Jawaban 20. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 16 (mengalikan K1 × K2, bukan menjumlah); 18 (meleset tipis, salah hitung di langkah akhir); 28/24 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0260",
@@ -71471,7 +71471,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 8 | 33 ]\nBaris 2: [ 5 | 5 | 30 ]\nBaris 3: [ 12 | 8 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 8 | 33 ]\nBaris 2: [ 5 | 5 | 30 ]\nBaris 3: [ 12 | 8 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -71505,7 +71505,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (12 + 8) × 3 = 60."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 8 = 11, dan 33 ÷ 11 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (5 + 5) × 3 = 10 × 3 = 30 ✓ cocok.\nHitung (?):: Baris 3: (12 + 8) × 3 = 20 × 3 = 60.\nKesimpulan:: Jawaban 60. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 96 (mengalikan K1 × K2, bukan menjumlah); 57/65/68 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0271",
@@ -72540,7 +72540,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 6 | 6 | 36 ]\nBaris 2: [ 5 | 5 | 30 ]\nBaris 3: [ 5 | 2 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 6 | 6 | 36 ]\nBaris 2: [ 5 | 5 | 30 ]\nBaris 3: [ 5 | 2 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -72574,7 +72574,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (5 + 2) × 3 = 21."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 6 + 6 = 12, dan 36 ÷ 12 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (5 + 5) × 3 = 10 × 3 = 30 ✓ cocok.\nHitung (?):: Baris 3: (5 + 2) × 3 = 7 × 3 = 21.\nKesimpulan:: Jawaban 21. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 10 (mengalikan K1 × K2, bukan menjumlah); 18/29/26 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0297",
@@ -72950,7 +72950,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 4 | 16 ]\nBaris 2: [ 9 | 5 | 32 ]\nBaris 3: [ 4 | 12 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 4 | 16 ]\nBaris 2: [ 9 | 5 | 32 ]\nBaris 3: [ 4 | 12 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -72984,7 +72984,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 3) + Kolom 2. Maka untuk Baris 3: (4 × 3) + 12 = 24."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 16 − 4 = 12 = 4 × 3. Rumus: (K1 × 3) + K2.\nUji Rumus:: Baris 2: (9 × 3) + 5 = 27 + 5 = 32 ✓ cocok.\nHitung (?):: Baris 3: (4 × 3) + 12 = 12 + 12 = 24.\nKesimpulan:: Jawaban 24. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×3). Jebakan: 21/30/27 (salah menerapkan selisih/rumus); 40 (salah memilih operasi)."
   },
   {
     "id": "tiu_0307",
@@ -75789,7 +75789,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 4 | 36 ]\nBaris 2: [ 8 | 5 | 39 ]\nBaris 3: [ 9 | 8 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 4 | 36 ]\nBaris 2: [ 8 | 5 | 39 ]\nBaris 3: [ 9 | 8 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -75823,7 +75823,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (9 + 8) × 3 = 51."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 8 + 4 = 12, dan 36 ÷ 12 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (8 + 5) × 3 = 13 × 3 = 39 ✓ cocok.\nHitung (?):: Baris 3: (9 + 8) × 3 = 17 × 3 = 51.\nKesimpulan:: Jawaban 51. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 72 (mengalikan K1 × K2, bukan menjumlah); 56/48/59 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0376",
@@ -76861,7 +76861,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 6 | 3 | 27 ]\nBaris 2: [ 3 | 10 | 22 ]\nBaris 3: [ 7 | 14 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 6 | 3 | 27 ]\nBaris 2: [ 3 | 10 | 22 ]\nBaris 3: [ 7 | 14 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -76895,7 +76895,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (7 × 4) + 14 = 42."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 27 − 3 = 24 = 6 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (3 × 4) + 10 = 12 + 10 = 22 ✓ cocok.\nHitung (?):: Baris 3: (7 × 4) + 14 = 28 + 14 = 42.\nKesimpulan:: Jawaban 42. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 38/48/46 (salah menerapkan selisih/rumus); 63 (salah memilih operasi)."
   },
   {
     "id": "tiu_0402",
@@ -82496,7 +82496,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 7 | 3 | 40 ]\nBaris 2: [ 5 | 3 | 32 ]\nBaris 3: [ 9 | 3 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 7 | 3 | 40 ]\nBaris 2: [ 5 | 3 | 32 ]\nBaris 3: [ 9 | 3 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -82530,7 +82530,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (9 + 3) × 4 = 48."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 7 + 3 = 10, dan 40 ÷ 10 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (5 + 3) × 4 = 8 × 4 = 32 ✓ cocok.\nHitung (?):: Baris 3: (9 + 3) × 4 = 12 × 4 = 48.\nKesimpulan:: Jawaban 48. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 27 (mengalikan K1 × K2, bukan menjumlah); 56/44/54 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0539",
@@ -90317,7 +90317,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 6 | 4 | 16 ]\nBaris 2: [ 9 | 10 | 28 ]\nBaris 3: [ 4 | 5 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 6 | 4 | 16 ]\nBaris 2: [ 9 | 10 | 28 ]\nBaris 3: [ 4 | 5 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -90351,7 +90351,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (4 × 2) + 5 = 13."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 16 − 4 = 12 = 6 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (9 × 2) + 10 = 18 + 10 = 28 ✓ cocok.\nHitung (?):: Baris 3: (4 × 2) + 5 = 8 + 5 = 13.\nKesimpulan:: Jawaban 13. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 15/11/14 (meleset tipis, salah hitung di langkah akhir); 19 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0729",
@@ -92952,7 +92952,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 3 | 24 ]\nBaris 2: [ 6 | 6 | 48 ]\nBaris 3: [ 7 | 7 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 3 | 24 ]\nBaris 2: [ 6 | 6 | 48 ]\nBaris 3: [ 7 | 7 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -92986,7 +92986,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (7 + 7) × 4 = 56."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 3 = 6, dan 24 ÷ 6 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (6 + 6) × 4 = 12 × 4 = 48 ✓ cocok.\nHitung (?):: Baris 3: (7 + 7) × 4 = 14 × 4 = 56.\nKesimpulan:: Jawaban 56. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 49 (mengalikan K1 × K2, bukan menjumlah); 52/64/62 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0793",
@@ -94187,7 +94187,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 9 | 7 | 32 ]\nBaris 2: [ 7 | 4 | 22 ]\nBaris 3: [ 7 | 7 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 9 | 7 | 32 ]\nBaris 2: [ 7 | 4 | 22 ]\nBaris 3: [ 7 | 7 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -94221,7 +94221,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (7 + 7) × 2 = 28."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 9 + 7 = 16, dan 32 ÷ 16 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (7 + 4) × 2 = 11 × 2 = 22 ✓ cocok.\nHitung (?):: Baris 3: (7 + 7) × 2 = 14 × 2 = 28.\nKesimpulan:: Jawaban 28. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 49 (mengalikan K1 × K2, bukan menjumlah); 26 (meleset tipis, salah hitung di langkah akhir); 36/32 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0823",
@@ -95996,7 +95996,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 7 | 24 ]\nBaris 2: [ 10 | 8 | 36 ]\nBaris 3: [ 8 | 9 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 7 | 24 ]\nBaris 2: [ 10 | 8 | 36 ]\nBaris 3: [ 8 | 9 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -96030,7 +96030,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (8 + 9) × 2 = 34."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 5 + 7 = 12, dan 24 ÷ 12 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (10 + 8) × 2 = 18 × 2 = 36 ✓ cocok.\nHitung (?):: Baris 3: (8 + 9) × 2 = 17 × 2 = 34.\nKesimpulan:: Jawaban 34. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 72 (mengalikan K1 × K2, bukan menjumlah); 32 (meleset tipis, salah hitung di langkah akhir); 38/42 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0867",
@@ -97313,7 +97313,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 3 | 24 ]\nBaris 2: [ 10 | 4 | 56 ]\nBaris 3: [ 9 | 4 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 3 | 3 | 24 ]\nBaris 2: [ 10 | 4 | 56 ]\nBaris 3: [ 9 | 4 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -97347,7 +97347,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (9 + 4) × 4 = 52."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 3 + 3 = 6, dan 24 ÷ 6 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (10 + 4) × 4 = 14 × 4 = 56 ✓ cocok.\nHitung (?):: Baris 3: (9 + 4) × 4 = 13 × 4 = 52.\nKesimpulan:: Jawaban 52. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 36 (mengalikan K1 × K2, bukan menjumlah); 58/60/48 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0899",
@@ -98425,7 +98425,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 4 | 16 ]\nBaris 2: [ 6 | 5 | 29 ]\nBaris 3: [ 8 | 4 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 4 | 16 ]\nBaris 2: [ 6 | 5 | 29 ]\nBaris 3: [ 8 | 4 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -98459,7 +98459,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (8 × 4) + 4 = 36."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 16 − 4 = 12 = 3 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (6 × 4) + 5 = 24 + 5 = 29 ✓ cocok.\nHitung (?):: Baris 3: (8 × 4) + 4 = 32 + 4 = 36.\nKesimpulan:: Jawaban 36. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 32 (mengalikan K1 × K2); 42/40 (salah menerapkan selisih/rumus); 24 (salah memilih operasi)."
   },
   {
     "id": "tiu_0926",
@@ -99907,7 +99907,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 4 | 8 | 36 ]\nBaris 2: [ 9 | 9 | 54 ]\nBaris 3: [ 12 | 7 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 4 | 8 | 36 ]\nBaris 2: [ 9 | 9 | 54 ]\nBaris 3: [ 12 | 7 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -99941,7 +99941,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (12 + 7) × 3 = 57."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 4 + 8 = 12, dan 36 ÷ 12 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (9 + 9) × 3 = 18 × 3 = 54 ✓ cocok.\nHitung (?):: Baris 3: (12 + 7) × 3 = 19 × 3 = 57.\nKesimpulan:: Jawaban 57. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 84 (mengalikan K1 × K2, bukan menjumlah); 62/65/54 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0962",
@@ -100153,7 +100153,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 2 | 3 | 7 ]\nBaris 2: [ 6 | 7 | 19 ]\nBaris 3: [ 7 | 15 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 2 | 3 | 7 ]\nBaris 2: [ 6 | 7 | 19 ]\nBaris 3: [ 7 | 15 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -100187,7 +100187,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (7 × 2) + 15 = 29."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 7 − 3 = 4 = 2 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (6 × 2) + 7 = 12 + 7 = 19 ✓ cocok.\nHitung (?):: Baris 3: (7 × 2) + 15 = 14 + 15 = 29.\nKesimpulan:: Jawaban 29. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 27/31 (meleset tipis, salah hitung di langkah akhir); 35/37 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0968",
@@ -100276,7 +100276,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 7 | 4 | 22 ]\nBaris 2: [ 6 | 5 | 22 ]\nBaris 3: [ 8 | 8 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 7 | 4 | 22 ]\nBaris 2: [ 6 | 5 | 22 ]\nBaris 3: [ 8 | 8 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -100310,7 +100310,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (8 + 8) × 2 = 32."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 7 + 4 = 11, dan 22 ÷ 11 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (6 + 5) × 2 = 11 × 2 = 22 ✓ cocok.\nHitung (?):: Baris 3: (8 + 8) × 2 = 16 × 2 = 32.\nKesimpulan:: Jawaban 32. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 64 (mengalikan K1 × K2, bukan menjumlah); 30 (meleset tipis, salah hitung di langkah akhir); 36/40 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_0971",
@@ -101389,7 +101389,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 11 | 23 ]\nBaris 2: [ 4 | 8 | 24 ]\nBaris 3: [ 4 | 13 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 11 | 23 ]\nBaris 2: [ 4 | 8 | 24 ]\nBaris 3: [ 4 | 13 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -101423,7 +101423,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (4 × 4) + 13 = 29."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 23 − 11 = 12 = 3 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (4 × 4) + 8 = 16 + 8 = 24 ✓ cocok.\nHitung (?):: Baris 3: (4 × 4) + 13 = 16 + 13 = 29.\nKesimpulan:: Jawaban 29. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 35/25/33 (salah menerapkan selisih/rumus); 56 (salah memilih operasi)."
   },
   {
     "id": "tiu_0998",
@@ -102829,7 +102829,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 4 | 12 ]\nBaris 2: [ 9 | 7 | 25 ]\nBaris 3: [ 8 | 4 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 4 | 12 ]\nBaris 2: [ 9 | 7 | 25 ]\nBaris 3: [ 8 | 4 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -102863,7 +102863,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (8 × 2) + 4 = 20."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 12 − 4 = 8 = 4 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (9 × 2) + 7 = 18 + 7 = 25 ✓ cocok.\nHitung (?):: Baris 3: (8 × 2) + 4 = 16 + 4 = 20.\nKesimpulan:: Jawaban 20. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 22/18 (meleset tipis, salah hitung di langkah akhir); 26/16 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1033",
@@ -103280,7 +103280,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 5 | 39 ]\nBaris 2: [ 4 | 7 | 33 ]\nBaris 3: [ 8 | 6 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 5 | 39 ]\nBaris 2: [ 4 | 7 | 33 ]\nBaris 3: [ 8 | 6 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -103314,7 +103314,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (8 + 6) × 3 = 42."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 8 + 5 = 13, dan 39 ÷ 13 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (4 + 7) × 3 = 11 × 3 = 33 ✓ cocok.\nHitung (?):: Baris 3: (8 + 6) × 3 = 14 × 3 = 42.\nKesimpulan:: Jawaban 42. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 48 (mengalikan K1 × K2, bukan menjumlah); 47/50/39 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1044",
@@ -104353,7 +104353,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 4 | 24 ]\nBaris 2: [ 4 | 7 | 23 ]\nBaris 3: [ 4 | 10 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 4 | 24 ]\nBaris 2: [ 4 | 7 | 23 ]\nBaris 3: [ 4 | 10 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -104387,7 +104387,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (4 × 4) + 10 = 26."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 24 − 4 = 20 = 5 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (4 × 4) + 7 = 16 + 7 = 23 ✓ cocok.\nHitung (?):: Baris 3: (4 × 4) + 10 = 16 + 10 = 26.\nKesimpulan:: Jawaban 26. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 22/30/32 (salah menerapkan selisih/rumus); 44 (salah memilih operasi)."
   },
   {
     "id": "tiu_1070",
@@ -104722,7 +104722,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 11 | 31 ]\nBaris 2: [ 4 | 6 | 22 ]\nBaris 3: [ 10 | 6 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 11 | 31 ]\nBaris 2: [ 4 | 6 | 22 ]\nBaris 3: [ 10 | 6 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -104756,7 +104756,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (10 × 4) + 6 = 46."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 31 − 11 = 20 = 5 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (4 × 4) + 6 = 16 + 6 = 22 ✓ cocok.\nHitung (?):: Baris 3: (10 × 4) + 6 = 40 + 6 = 46.\nKesimpulan:: Jawaban 46. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 42/50/52 (salah menerapkan selisih/rumus); 34 (salah memilih operasi)."
   },
   {
     "id": "tiu_1079",
@@ -105875,7 +105875,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 5 | 20 ]\nBaris 2: [ 6 | 3 | 21 ]\nBaris 3: [ 4 | 11 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 5 | 20 ]\nBaris 2: [ 6 | 3 | 21 ]\nBaris 3: [ 4 | 11 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -105909,7 +105909,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 3) + Kolom 2. Maka untuk Baris 3: (4 × 3) + 11 = 23."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 20 − 5 = 15 = 5 × 3. Rumus: (K1 × 3) + K2.\nUji Rumus:: Baris 2: (6 × 3) + 3 = 18 + 3 = 21 ✓ cocok.\nHitung (?):: Baris 3: (4 × 3) + 11 = 12 + 11 = 23.\nKesimpulan:: Jawaban 23. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×3). Jebakan: 20/26/29 (salah menerapkan selisih/rumus); 37 (salah memilih operasi)."
   },
   {
     "id": "tiu_1107",
@@ -107070,7 +107070,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 7 | 10 | 24 ]\nBaris 2: [ 4 | 5 | 13 ]\nBaris 3: [ 7 | 8 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 7 | 10 | 24 ]\nBaris 2: [ 4 | 5 | 13 ]\nBaris 3: [ 7 | 8 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -107104,7 +107104,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (7 × 2) + 8 = 22."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 24 − 10 = 14 = 7 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (4 × 2) + 5 = 8 + 5 = 13 ✓ cocok.\nHitung (?):: Baris 3: (7 × 2) + 8 = 14 + 8 = 22.\nKesimpulan:: Jawaban 22. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 23/20/24 (meleset tipis, salah hitung di langkah akhir); 28 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1136",
@@ -107152,7 +107152,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 9 | 3 | 36 ]\nBaris 2: [ 4 | 3 | 21 ]\nBaris 3: [ 5 | 8 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 9 | 3 | 36 ]\nBaris 2: [ 4 | 3 | 21 ]\nBaris 3: [ 5 | 8 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -107186,7 +107186,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 3. Jadi (5 + 8) × 3 = 39."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 9 + 3 = 12, dan 36 ÷ 12 = 3. Rumus: (K1 + K2) × 3.\nUji Rumus:: Baris 2: (4 + 3) × 3 = 7 × 3 = 21 ✓ cocok.\nHitung (?):: Baris 3: (5 + 8) × 3 = 13 × 3 = 39.\nKesimpulan:: Jawaban 39. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 40 (mengalikan K1 × K2, bukan menjumlah); 47/44/36 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1138",
@@ -107234,7 +107234,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 3 | 9 ]\nBaris 2: [ 5 | 11 | 21 ]\nBaris 3: [ 5 | 14 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 3 | 9 ]\nBaris 2: [ 5 | 11 | 21 ]\nBaris 3: [ 5 | 14 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -107268,7 +107268,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (5 × 2) + 14 = 24."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 9 − 3 = 6 = 3 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (5 × 2) + 11 = 10 + 11 = 21 ✓ cocok.\nHitung (?):: Baris 3: (5 × 2) + 14 = 10 + 14 = 24.\nKesimpulan:: Jawaban 24. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 22/26 (meleset tipis, salah hitung di langkah akhir); 30 (salah menerapkan selisih/rumus); 33 (salah memilih operasi)."
   },
   {
     "id": "tiu_1140",
@@ -107398,7 +107398,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 6 | 12 ]\nBaris 2: [ 4 | 5 | 13 ]\nBaris 3: [ 8 | 13 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 6 | 12 ]\nBaris 2: [ 4 | 5 | 13 ]\nBaris 3: [ 8 | 13 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -107432,7 +107432,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (8 × 2) + 13 = 29."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 12 − 6 = 6 = 3 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (4 × 2) + 5 = 8 + 5 = 13 ✓ cocok.\nHitung (?):: Baris 3: (8 × 2) + 13 = 16 + 13 = 29.\nKesimpulan:: Jawaban 29. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 27/31 (meleset tipis, salah hitung di langkah akhir); 34/35 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1144",
@@ -111308,7 +111308,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 6 | 3 | 36 ]\nBaris 2: [ 6 | 4 | 40 ]\nBaris 3: [ 5 | 9 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 6 | 3 | 36 ]\nBaris 2: [ 6 | 4 | 40 ]\nBaris 3: [ 5 | 9 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -111342,7 +111342,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (5 + 9) × 4 = 56."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 6 + 3 = 9, dan 36 ÷ 9 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (6 + 4) × 4 = 10 × 4 = 40 ✓ cocok.\nHitung (?):: Baris 3: (5 + 9) × 4 = 14 × 4 = 56.\nKesimpulan:: Jawaban 56. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 45 (mengalikan K1 × K2, bukan menjumlah); 64/62/52 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1239",
@@ -111677,7 +111677,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 7 | 17 ]\nBaris 2: [ 7 | 9 | 23 ]\nBaris 3: [ 10 | 9 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 7 | 17 ]\nBaris 2: [ 7 | 9 | 23 ]\nBaris 3: [ 10 | 9 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -111711,7 +111711,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (10 × 2) + 9 = 29."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 17 − 7 = 10 = 5 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (7 × 2) + 9 = 14 + 9 = 23 ✓ cocok.\nHitung (?):: Baris 3: (10 × 2) + 9 = 20 + 9 = 29.\nKesimpulan:: Jawaban 29. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 27/28/31 (meleset tipis, salah hitung di langkah akhir); 35 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1248",
@@ -111923,7 +111923,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 9 | 8 | 34 ]\nBaris 2: [ 7 | 5 | 24 ]\nBaris 3: [ 10 | 10 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 9 | 8 | 34 ]\nBaris 2: [ 7 | 5 | 24 ]\nBaris 3: [ 10 | 10 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -111957,7 +111957,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (10 + 10) × 2 = 40."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 9 + 8 = 17, dan 34 ÷ 17 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (7 + 5) × 2 = 12 × 2 = 24 ✓ cocok.\nHitung (?):: Baris 3: (10 + 10) × 2 = 20 × 2 = 40.\nKesimpulan:: Jawaban 40. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 100 (mengalikan K1 × K2, bukan menjumlah); 38 (meleset tipis, salah hitung di langkah akhir); 44/48 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1254",
@@ -112873,7 +112873,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 8 | 64 ]\nBaris 2: [ 9 | 3 | 48 ]\nBaris 3: [ 10 | 5 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 8 | 64 ]\nBaris 2: [ 9 | 3 | 48 ]\nBaris 3: [ 10 | 5 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -112907,7 +112907,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 4. Jadi (10 + 5) × 4 = 60."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 8 + 8 = 16, dan 64 ÷ 16 = 4. Rumus: (K1 + K2) × 4.\nUji Rumus:: Baris 2: (9 + 3) × 4 = 12 × 4 = 48 ✓ cocok.\nHitung (?):: Baris 3: (10 + 5) × 4 = 15 × 4 = 60.\nKesimpulan:: Jawaban 60. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 50 (mengalikan K1 × K2, bukan menjumlah); 68/56/66 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1277",
@@ -113242,7 +113242,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 6 | 18 ]\nBaris 2: [ 6 | 9 | 27 ]\nBaris 3: [ 6 | 4 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 6 | 18 ]\nBaris 2: [ 6 | 9 | 27 ]\nBaris 3: [ 6 | 4 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -113276,7 +113276,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 3) + Kolom 2. Maka untuk Baris 3: (6 × 3) + 4 = 22."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 18 − 6 = 12 = 4 × 3. Rumus: (K1 × 3) + K2.\nUji Rumus:: Baris 2: (6 × 3) + 9 = 18 + 9 = 27 ✓ cocok.\nHitung (?):: Baris 3: (6 × 3) + 4 = 18 + 4 = 22.\nKesimpulan:: Jawaban 22. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×3). Jebakan: 18/19/28/25 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1286",
@@ -114355,7 +114355,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 2 | 3 | 9 ]\nBaris 2: [ 8 | 4 | 28 ]\nBaris 3: [ 5 | 6 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 2 | 3 | 9 ]\nBaris 2: [ 8 | 4 | 28 ]\nBaris 3: [ 5 | 6 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -114389,7 +114389,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 3) + Kolom 2. Maka untuk Baris 3: (5 × 3) + 6 = 21."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 9 − 3 = 6 = 2 × 3. Rumus: (K1 × 3) + K2.\nUji Rumus:: Baris 2: (8 × 3) + 4 = 24 + 4 = 28 ✓ cocok.\nHitung (?):: Baris 3: (5 × 3) + 6 = 15 + 6 = 21.\nKesimpulan:: Jawaban 21. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×3). Jebakan: 23 (meleset tipis, salah hitung di langkah akhir); 24/18/27 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1313",
@@ -115673,7 +115673,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 5 | 26 ]\nBaris 2: [ 8 | 6 | 28 ]\nBaris 3: [ 12 | 10 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 8 | 5 | 26 ]\nBaris 2: [ 8 | 6 | 28 ]\nBaris 3: [ 12 | 10 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -115707,7 +115707,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (12 + 10) × 2 = 44."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 8 + 5 = 13, dan 26 ÷ 13 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (8 + 6) × 2 = 14 × 2 = 28 ✓ cocok.\nHitung (?):: Baris 3: (12 + 10) × 2 = 22 × 2 = 44.\nKesimpulan:: Jawaban 44. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 120 (mengalikan K1 × K2, bukan menjumlah); 42 (meleset tipis, salah hitung di langkah akhir); 52/48 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1345",
@@ -117317,7 +117317,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 8 | 17 ]\nBaris 2: [ 9 | 4 | 31 ]\nBaris 3: [ 7 | 4 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 3 | 8 | 17 ]\nBaris 2: [ 9 | 4 | 31 ]\nBaris 3: [ 7 | 4 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -117351,7 +117351,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 3) + Kolom 2. Maka untuk Baris 3: (7 × 3) + 4 = 25."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 17 − 8 = 9 = 3 × 3. Rumus: (K1 × 3) + K2.\nUji Rumus:: Baris 2: (9 × 3) + 4 = 27 + 4 = 31 ✓ cocok.\nHitung (?):: Baris 3: (7 × 3) + 4 = 21 + 4 = 25.\nKesimpulan:: Jawaban 25. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×3). Jebakan: 28 (mengalikan K1 × K2); 19/22/31 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1385",
@@ -118960,7 +118960,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 3 | 28 ]\nBaris 2: [ 7 | 6 | 41 ]\nBaris 3: [ 4 | 14 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 3 | 28 ]\nBaris 2: [ 7 | 6 | 41 ]\nBaris 3: [ 4 | 14 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -118994,7 +118994,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 5) + Kolom 2. Maka untuk Baris 3: (4 × 5) + 14 = 34."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 28 − 3 = 25 = 5 × 5. Rumus: (K1 × 5) + K2.\nUji Rumus:: Baris 2: (7 × 5) + 6 = 35 + 6 = 41 ✓ cocok.\nHitung (?):: Baris 3: (4 × 5) + 14 = 20 + 14 = 34.\nKesimpulan:: Jawaban 34. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×5). Jebakan: 39/29/40 (salah menerapkan selisih/rumus); 74 (salah memilih operasi)."
   },
   {
     "id": "tiu_1425",
@@ -119083,7 +119083,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 7 | 10 | 24 ]\nBaris 2: [ 5 | 4 | 14 ]\nBaris 3: [ 7 | 9 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 7 | 10 | 24 ]\nBaris 2: [ 5 | 4 | 14 ]\nBaris 3: [ 7 | 9 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -119117,7 +119117,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "A",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (7 × 2) + 9 = 23."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 24 − 10 = 14 = 7 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (5 × 2) + 4 = 10 + 4 = 14 ✓ cocok.\nHitung (?):: Baris 3: (7 × 2) + 9 = 14 + 9 = 23.\nKesimpulan:: Jawaban 23. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 21/25 (meleset tipis, salah hitung di langkah akhir); 29/27 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1428",
@@ -120359,7 +120359,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 5 | 25 ]\nBaris 2: [ 9 | 11 | 47 ]\nBaris 3: [ 8 | 12 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 5 | 25 ]\nBaris 2: [ 9 | 11 | 47 ]\nBaris 3: [ 8 | 12 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -120393,7 +120393,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "E",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (8 × 4) + 12 = 44."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 25 − 5 = 20 = 5 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (9 × 4) + 11 = 36 + 11 = 47 ✓ cocok.\nHitung (?):: Baris 3: (8 × 4) + 12 = 32 + 12 = 44.\nKesimpulan:: Jawaban 44. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 50/40/48 (salah menerapkan selisih/rumus); 56 (salah memilih operasi)."
   },
   {
     "id": "tiu_1459",
@@ -121960,7 +121960,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 5 | 21 ]\nBaris 2: [ 3 | 4 | 16 ]\nBaris 3: [ 4 | 4 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 5 | 21 ]\nBaris 2: [ 3 | 4 | 16 ]\nBaris 3: [ 4 | 4 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -121994,7 +121994,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 4) + Kolom 2. Maka untuk Baris 3: (4 × 4) + 4 = 20."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 21 − 5 = 16 = 4 × 4. Rumus: (K1 × 4) + K2.\nUji Rumus:: Baris 2: (3 × 4) + 4 = 12 + 4 = 16 ✓ cocok.\nHitung (?):: Baris 3: (4 × 4) + 4 = 16 + 4 = 20.\nKesimpulan:: Jawaban 20. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×4). Jebakan: 16 (mengalikan K1 × K2); 22 (meleset tipis, salah hitung di langkah akhir); 26/24 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1498",
@@ -122827,7 +122827,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 7 | 15 ]\nBaris 2: [ 6 | 7 | 19 ]\nBaris 3: [ 10 | 15 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 4 | 7 | 15 ]\nBaris 2: [ 6 | 7 | 19 ]\nBaris 3: [ 10 | 15 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -122861,7 +122861,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (10 × 2) + 15 = 35."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 15 − 7 = 8 = 4 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (6 × 2) + 7 = 12 + 7 = 19 ✓ cocok.\nHitung (?):: Baris 3: (10 × 2) + 15 = 20 + 15 = 35.\nKesimpulan:: Jawaban 35. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 33/37 (meleset tipis, salah hitung di langkah akhir); 40/41 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1519",
@@ -122950,7 +122950,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 2 | 14 ]\nBaris 2: [ 4 | 3 | 14 ]\nBaris 3: [ 8 | 3 | ]\n\nNilai pengganti (?) yang tepat adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola matriks bilangan berikut:\nBaris 1: [ 5 | 2 | 14 ]\nBaris 2: [ 4 | 3 | 14 ]\nBaris 3: [ 8 | 3 | ? ]\n\nNilai pengganti (?) yang tepat adalah...",
     "opsi": [
       {
         "label": "A",
@@ -122984,7 +122984,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "C",
-    "pembahasan": "Pola tiap baris: Kolom 3 = (Kolom 1 + Kolom 2) × 2. Jadi (8 + 3) × 2 = 22."
+    "pembahasan": "Amati:: Kolom 3 jauh lebih besar dari Kolom 1 & 2, jadi cari operasi di dalam tiap baris.\nTemukan Rumus:: Baris 1: 5 + 2 = 7, dan 14 ÷ 7 = 2. Rumus: (K1 + K2) × 2.\nUji Rumus:: Baris 2: (4 + 3) × 2 = 7 × 2 = 14 ✓ cocok.\nHitung (?):: Baris 3: (8 + 3) × 2 = 11 × 2 = 22.\nKesimpulan:: Jawaban 22. Cara cepat: kalau Kolom 3 habis dibagi (K1 + K2), langsung curigai pola \"jumlah × konstanta\". Jebakan: 24 (mengalikan K1 × K2, bukan menjumlah); 20 (meleset tipis, salah hitung di langkah akhir); 26/30 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1522",
@@ -127475,7 +127475,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 8 | 10 | 34 ]\nBaris 2: [ 9 | 2 | 29 ]\nBaris 3: [ 4 | 14 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 8 | 10 | 34 ]\nBaris 2: [ 9 | 2 | 29 ]\nBaris 3: [ 4 | 14 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -127509,7 +127509,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "D",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 3) + Kolom 2. Maka untuk Baris 3: (4 × 3) + 14 = 26."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 34 − 10 = 24 = 8 × 3. Rumus: (K1 × 3) + K2.\nUji Rumus:: Baris 2: (9 × 3) + 2 = 27 + 2 = 29 ✓ cocok.\nHitung (?):: Baris 3: (4 × 3) + 14 = 12 + 14 = 26.\nKesimpulan:: Jawaban 26. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×3). Jebakan: 23/32/29 (salah menerapkan selisih/rumus); 46 (salah memilih operasi)."
   },
   {
     "id": "tiu_1632",
@@ -131591,7 +131591,7 @@ window.DATA_SKD_CPNS = [
     "kategori": "TIU",
     "subKategori": "Numerik - Deret Tabel",
     "mode": "baru",
-    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 3 | 13 ]\nBaris 2: [ 4 | 11 | 19 ]\nBaris 3: [ 10 | 5 | ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
+    "soal": "[Prediksi Mode Baru] Perhatikan pola angka pada tabel berikut:\nBaris 1: [ 5 | 3 | 13 ]\nBaris 2: [ 4 | 11 | 19 ]\nBaris 3: [ 10 | 5 | ? ]\n\nNilai yang tepat untuk menggantikan tanda (?) adalah...",
     "opsi": [
       {
         "label": "A",
@@ -131625,7 +131625,7 @@ window.DATA_SKD_CPNS = [
       }
     ],
     "kunci": "B",
-    "pembahasan": "Pola setiap baris: Kolom 3 = (Kolom 1 × 2) + Kolom 2. Maka untuk Baris 3: (10 × 2) + 5 = 25."
+    "pembahasan": "Amati:: Kolom 3 bukan hasil jumlah atau kali sederhana, jadi coba kurangi Kolom 3 dengan Kolom 2.\nTemukan Rumus:: Baris 1: 13 − 3 = 10 = 5 × 2. Rumus: (K1 × 2) + K2.\nUji Rumus:: Baris 2: (4 × 2) + 11 = 8 + 11 = 19 ✓ cocok.\nHitung (?):: Baris 3: (10 × 2) + 5 = 20 + 5 = 25.\nKesimpulan:: Jawaban 25. Cara cepat: hitung (K3 − K2) ÷ K1 di baris 1; hasilnya pengali tetap (×2). Jebakan: 23/27 (meleset tipis, salah hitung di langkah akhir); 20/31 (salah menerapkan selisih/rumus)."
   },
   {
     "id": "tiu_1732",

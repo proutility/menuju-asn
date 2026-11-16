@@ -1228,7 +1228,7 @@ window.renderAdminBankSoalWorkspace = () => {
             gotPoin: maxPoin,
             maxPoin
         })
-        : `<div style="padding:12px; background:#f8fafc; border-radius:10px;">${q.pembahasan || '-'}</div>`;
+        : `<div style="padding:12px; background:#f8fafc; border-radius:10px;">${formatStructuredPembahasan(q.pembahasan || '-')}</div>`;
 
     const editOptionsInputsHtml = (q.opsi || []).map((opt, oIdx) => {
         const rightControl = q.kategori === 'TKP'
@@ -3778,7 +3778,7 @@ window.renderPreviewLandingSubtes = () => {
                 ${visualSvgHtml}
                 <div style="font-size:0.83rem; line-height:1.6; color:#334155;">
                     <strong style="color:#1e3a8a;"><i class="fas fa-chalkboard-teacher"></i> Pembahasan Mentor:</strong><br>
-                    ${q.pembahasan}
+                    ${formatStructuredPembahasan(q.pembahasan)}
                 </div>
             </div>
         `;
@@ -5771,11 +5771,22 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
             `Berdasarkan analisis di atas, jawaban yang paling tepat adalah opsi ${kunciLabel}: **${bestOpt.teks}**.`
         ];
     }
-    if (parts.length > 4) {
+    // Format terstruktur "Judul:: isi" per baris -> judul langkah kustom, semua langkah dipertahankan
+    const customTitles = [];
+    const isStructured = /^[^\n:]{2,40}::/m.test(rawText);
+    if (isStructured) {
+        parts = rawText.split(/\n+/).map(s => s.trim()).filter(Boolean).map(line => {
+            const mm = line.match(/^([^:]{2,40})::\s*([\s\S]*)$/);
+            customTitles.push(mm ? mm[1].trim() : null);
+            return mm ? mm[2] : line;
+        });
+    }
+    if (!isStructured && parts.length > 4) {
         parts = [parts[0], parts[1], parts.slice(2).join(' ')];
     }
 
     const getStepTitle = (idx, total) => {
+        if (customTitles[idx]) return escapeHtmlMentor(customTitles[idx]);
         if (total === 1) return 'Inti Pembahasan & Kunci';
         if (idx === 0) return 'Tangkap Kata Kunci / Diketahui';
         if (idx === total - 1) return 'Kesimpulan & Kunci Jawaban';
@@ -5799,7 +5810,7 @@ window.buildInteractivePembahasanHtml = (q, userAns, uidSuffix = '0', meta = {})
 
     const isTiu = String(q.kategori || '').toUpperCase() === 'TIU';
     const subKatAttr = escapeHtmlMentor(q.subKategori || 'TIU');
-    const cleanSpeechRaw = rawText.replace(/<svg[\s\S]*?<\/svg>/gi, 'gambar pola');
+    const cleanSpeechRaw = rawText.replace(/<svg[\s\S]*?<\/svg>/gi, 'gambar pola').replace(/::/g, ':').replace(/\n+/g, '. ');
     const speechText = escapeHtmlMentor(`${cleanSpeechRaw}. Trik cepat: ${trik} Kunci jawaban terbaik adalah opsi ${kunciLabel}.`);
 
     window._botSoalContextMap = window._botSoalContextMap || {};
@@ -6041,7 +6052,7 @@ window.ujiPolaSerupaTiu = (soalId, subKategori) => {
                     fb.style.background = isBenar ? '#f0fdf4' : '#fffbeb';
                     fb.style.border = `1px solid ${isBenar ? '#bbf7d0' : '#fde68a'}`;
                     fb.style.color = isBenar ? '#166534' : '#92400e';
-                    fb.innerHTML = `<strong>${isBenar ? '✅ Mantap! Jawabanmu Benar!' : `❌ Kurang Tepat (Kunci: ${escapeHtmlMentor(q.kunci)})`}</strong><br>${formatMentorTextWithSvg(q.pembahasan)}`;
+                    fb.innerHTML = `<strong>${isBenar ? '✅ Mantap! Jawabanmu Benar!' : `❌ Kurang Tepat (Kunci: ${escapeHtmlMentor(q.kunci)})`}</strong><br>${formatMentorTextWithSvg(String(q.pembahasan || '').replace(/^([^\n:]{2,40})::\s*/gm, '$1: '))}`;
                 });
             });
         }
@@ -6214,7 +6225,28 @@ async function callMenujuAsnBot(payload) {
 }
 
 function formatBotTextHtml(text) {
-    return escapeHtmlMentor(String(text || ''))
+    let cleaned = String(text || '')
+        .replace(/\\rightarrow|\\to/g, '→')
+        .replace(/\\leftarrow/g, '←')
+        .replace(/\\dots|\\ldots|\\cdots/g, '...')
+        .replace(/\\times/g, '×')
+        .replace(/\\div/g, '÷')
+        .replace(/\\pm/g, '±')
+        .replace(/\\leq?/g, '≤')
+        .replace(/\\geq?/g, '≥')
+        .replace(/\\neq/g, '≠')
+        .replace(/\\approx/g, '≈')
+        .replace(/\\therefore/g, '∴')
+        .replace(/\\subset/g, '⊂')
+        .replace(/\\neg/g, '~')
+        .replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, '$1/$2')
+        .replace(/\\sqrt\{([^{}]+)\}/g, '√($1)')
+        .replace(/\\(?:text|textbf|mathrm)\{([^{}]+)\}/g, '$1')
+        .replace(/\$\$([\s\S]*?)\$\$/g, '$1')
+        .replace(/\$([^$\n]+?)\$/g, '$1')
+        .replace(/\\\(|\\\)|\\\[|\\\]/g, '');
+
+    return escapeHtmlMentor(cleaned)
         .replace(/^###\s+(.+)$/gm, '<div style="font-weight:800; color:#0f172a; margin:10px 0 4px;">$1</div>')
         .replace(/^##\s+(.+)$/gm, '<div style="font-weight:800; font-size:0.95rem; color:#0f172a; margin:10px 0 4px;">$1</div>')
         .replace(/^\*\s+/gm, '• ')
@@ -8173,3 +8205,12 @@ window.renderHalamanPusatStudi = (subtes, queryText = '') => {
         `;
     }).join('') + `</div>`;
 };
+
+// Pembahasan terstruktur ("Judul:: isi" per baris) -> HTML ringkas untuk tampilan non-mentor
+function formatStructuredPembahasan(text) {
+    const raw = String(text == null ? '' : text);
+    if (!/^[^\n:]{2,40}::/m.test(raw)) return raw;
+    return raw
+        .replace(/^([^\n:]{2,40})::\s*/gm, '<b>$1:</b> ')
+        .replace(/\n+/g, '<br>');
+}

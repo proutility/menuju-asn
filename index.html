@@ -1566,11 +1566,11 @@
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="data_skd_cpns.js?v=2.5.7"></script>
+    <script src="data_skd_cpns.js?v=2.5.8"></script>
     <script src="data_twk_gratis.js?v=2.5.7"></script>
     <script src="data_twk_batch2.js?v=2.5.7"></script>
     <script src="data_tiu_gratis.js?v=1.0.0"></script>
-    <script src="data_tiu_batch2.js?v=2.5.6"></script>
+    <script src="data_tiu_batch2.js?v=2.5.7"></script>
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
     <script type="module" src="app.js?v=2.5.8"></script>
@@ -1579,7 +1579,7 @@
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.5.7')
+                navigator.serviceWorker.register('./sw.js?v=2.5.8')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
