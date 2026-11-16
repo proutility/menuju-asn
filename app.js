@@ -326,6 +326,17 @@ window.switchAppView = (viewName) => {
     document.querySelectorAll('.sidebar-item, .mob-nav-btn').forEach(btn => {
         btn.classList.toggle('active', btn.getAttribute('data-view') === viewName);
     });
+
+    if (typeof window.applySidebarCollapse === 'function') {
+        if (viewName === 'persiapan') {
+            window.applySidebarCollapse(true);
+        } else {
+            let userPref = false;
+            try { userPref = localStorage.getItem('menuju_asn_sidebar_collapsed') === '1'; } catch (_) {}
+            window.applySidebarCollapse(userPref);
+        }
+    }
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     if (viewName === 'command') {
@@ -2201,7 +2212,7 @@ window.bukaLobbyPersiapanPaket = () => {
                             <div class="persiapan-flyer-num-row">
                                 <span class="persiapan-flyer-num">#${paketNo}</span>
                                 <div class="persiapan-flyer-tagline">
-                                    Satu langkah<br>lebih dekat ke <strong>NIP</strong>
+                                    Satu langkah<br>lebih dekat dengan <strong>NIP 2027</strong>
                                 </div>
                             </div>
                         </div>
