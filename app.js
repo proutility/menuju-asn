@@ -783,7 +783,7 @@ window.renderTryoutPaketCards = () => {
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
     const configs = [
-        { no: 0, tierAttr: 'free', badgeLeft: 'GRATIS • SEMUA AKUN', badgeRight: 'TO 0 • TRYOUT FULL', icon: 'fa-laptop-code', iconColor: 'blue', title: 'TO 0 – Gratis (Simulasi SKD)', sub: '110 Soal Pilihan • 100 Menit • TWK + TIU + TKP', desc: 'Simulasi Akbar SKD gratis untuk semua akun (30 TWK, 35 TIU, 45 TKP) lengkap dengan evaluasi Passing Grade BKN.', minTierLabel: 'Gratis Semua Akun', buyers: '999+' },
+        { no: 0, tierAttr: 'free', badgeLeft: 'GRATIS • SEMUA AKUN', badgeRight: 'TRYOUT GRATIS', icon: 'fa-laptop-code', iconColor: 'blue', title: 'Tryout Gratis (Simulasi SKD)', sub: '110 Soal Pilihan • 100 Menit • TWK + TIU + TKP', desc: 'Simulasi Akbar SKD gratis untuk semua akun (30 TWK, 35 TIU, 45 TKP) lengkap dengan evaluasi Passing Grade BKN.', minTierLabel: 'Gratis Semua Akun', buyers: '999+' },
         { no: 1, tierAttr: 'paid', badgeLeft: 'BRONZE • SILVER • GOLD', badgeRight: 'TO AKBAR 1', icon: 'fa-fire', iconColor: 'gold', title: 'TO Akbar #1 — SKD HOTS 2026', sub: '110 Soal • 100 Menit • Standar BKN', desc: 'Tryout Akbar ke-1 dengan kombinasi soal HOTS TWK, TIU, dan TKP berbobot 1–5 + analisis Brankas Pembahasan.', minTierLabel: 'Paket Bronze (Rp 49.999) / Silver / Gold', buyers: '620+' },
         { no: 2, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 2', icon: 'fa-bolt', iconColor: 'gold', title: 'TO Akbar #2 — SKD Prediksi 2026', sub: '110 Soal • 100 Menit • Format FR 2026', desc: 'Tryout Akbar ke-2 mencakup soal penalaran kasuistis, numerik tabel/matriks, serta evaluasi nilai subtes otomatis.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '510+' },
         { no: 3, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 3', icon: 'fa-award', iconColor: 'gold', title: 'TO Akbar #3 — SKD Intensif 2026', sub: '110 Soal • 100 Menit • Batch FR 2026', desc: 'Tryout Akbar ke-3 dengan tingkat kesulitan HOTS lanjutan, soal Kecukupan Data TIU & studi kasus TKP Anti-Radikalisme.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '475+' },
@@ -797,7 +797,7 @@ window.renderTryoutPaketCards = () => {
         const badgeAccessCls = isFree ? 'free' : (c.no >= 4 ? 'gold-badge' : 'paid');
         const cardCls = `card-mode packet-card ${isFree ? 'free' : 'paid'}${c.no >= 4 ? ' gold-border' : ''}`;
         const ctaHtml = unlocked
-            ? `<button class="btn-card ${isFree ? 'free-cta' : 'paid-cta'}" onclick="window.mulaiSingleplayer('${isFree ? 'to_gratis' : 'to_akbar'}', ${c.no})"><i class="fas fa-play"></i> Mulai ${c.no === 0 ? 'TO 0 Gratis' : 'TO Akbar #' + c.no}</button>`
+            ? `<button class="btn-card ${isFree ? 'free-cta' : 'paid-cta'}" onclick="window.mulaiSingleplayer('${isFree ? 'to_gratis' : 'to_akbar'}', ${c.no})"><i class="fas fa-play"></i> Mulai Tryout</button>`
             : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('${c.title}', '${c.minTierLabel}')"><i class="fas fa-lock"></i> ${c.no === 1 ? 'Bronze' : (c.no <= 3 ? 'Silver' : 'Gold')}</button>`;
 
         return `
@@ -1902,7 +1902,7 @@ window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
         const toPool = window.DATA_TRYOUT_AKBAR || [];
         window.currentQuestions = toPool.filter(q => q.paketTo === 0);
         window.examTimeRemaining = 100 * 60;
-        title = 'TO 0 – Gratis (Simulasi SKD 110 Soal)';
+        title = 'Tryout Gratis (Simulasi SKD 110 Soal)';
         saveId = 'to_gratis_0';
     } else if (tipe === 'to_akbar') {
         const no = Math.max(1, Math.min(5, Number(paketNo) || 1));
