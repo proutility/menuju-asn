@@ -1544,16 +1544,39 @@
             <button class="mob-nav-btn" data-view="cat" onclick="window.switchAppView('cat')">
                 <i class="fas fa-laptop-code"></i><span>CAT</span>
             </button>
-            <button class="mob-nav-btn" data-view="cbt" onclick="window.switchAppView('cbt')">
-                <i class="fas fa-users"></i><span>Arena</span>
+            <button class="mob-nav-btn" data-view="tryout" onclick="window.switchAppView('tryout')">
+                <i class="fas fa-clipboard-check"></i><span>Tryout</span>
             </button>
             <button class="mob-nav-btn" data-view="brankas" onclick="window.switchAppView('brankas')">
                 <i class="fas fa-vault"></i><span>Brankas</span>
             </button>
-            <button class="mob-nav-btn" data-view="diskusi" onclick="window.switchAppView('diskusi')">
-                <i class="fas fa-headset"></i><span>Pengaduan</span>
+            <button class="mob-nav-btn" id="mobMenuMoreBtn" type="button" onclick="window.toggleMobileMenuDrawer(true)">
+                <i class="fas fa-bars"></i><span>Menu</span>
             </button>
         </nav>
+
+        <!-- MOBILE DRAWER MENU LENGKAP (KHUSUS HANDPHONE) -->
+        <div id="mobileDrawerBackdrop" class="mobile-drawer-backdrop" onclick="window.toggleMobileMenuDrawer(false)"></div>
+        <div id="mobileMenuDrawer" class="mobile-menu-drawer" aria-hidden="true">
+            <div class="mobile-drawer-head">
+                <strong><i class="fas fa-compass" style="color:#1e3a8a;"></i> Semua Menu MENUJU ASN</strong>
+                <button type="button" onclick="window.toggleMobileMenuDrawer(false)" aria-label="Tutup Menu"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="mobile-drawer-grid">
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('beranda'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-home"></i><span>Beranda</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('cat'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-laptop-code"></i><span>Simulasi CAT</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('tryout'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-clipboard-check"></i><span>Tryout SKD</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('cbt'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-users"></i><span>CBT Arena</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('brankas'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-vault"></i><span>Brankas</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('studi'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-graduation-cap"></i><span>Pusat Studi</span><small class="gold">GOLD</small></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('toefl'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-language"></i><span>Latihan TOEFL</span><small class="platinum">PLATINUM</small></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('pdf-library'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-file-pdf"></i><span>Download PDF</span><small class="platinum">PLATINUM</small></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('bot'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-robot"></i><span>AI Bot &amp; Berita</span><small class="ai">AI</small></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('diskusi'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-headset"></i><span>Pengaduan</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('upgrade'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-crown"></i><span>Upgrade Paket</span></button>
+                <button type="button" id="mobCommandCenterBtn" class="mob-drawer-item" style="display:none;" onclick="window.switchAppView('command'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-user-shield"></i><span>Command Center</span><small class="admin">ADMIN</small></button>
+            </div>
+        </div>
     </div>
 
     <!-- EXAM STAGE -->

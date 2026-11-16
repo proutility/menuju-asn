@@ -168,6 +168,8 @@ function updateAuthUI(user) {
 
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = prof.isAdmin ? 'flex' : 'none';
+        const mobCmdBtn = document.getElementById('mobCommandCenterBtn');
+        if (mobCmdBtn) mobCmdBtn.style.display = prof.isAdmin ? 'flex' : 'none';
 
         if (preLoginEl) preLoginEl.style.display = 'none';
         if (lobbyEl && window.currentAppMode === 'lobby') {
@@ -216,6 +218,8 @@ function updateAuthUI(user) {
         }
         const navCmdBtn = document.getElementById('navCommandCenterBtn');
         if (navCmdBtn) navCmdBtn.style.display = 'none';
+        const mobCmdBtn = document.getElementById('mobCommandCenterBtn');
+        if (mobCmdBtn) mobCmdBtn.style.display = 'none';
         if (btnAuth) btnAuth.style.display = 'inline-flex';
         if (userProfileEl) userProfileEl.style.display = 'none';
         if (preLoginEl) preLoginEl.style.display = 'block';
@@ -2473,7 +2477,12 @@ function buildExamStageMarkup() {
                 ` : `
                     <div class="exam-nav-panel-head">
                         <h4><i class="fas fa-th" style="color:var(--primary);"></i> Nomor Soal</h4>
-                        <span class="exam-nav-count" id="examNavAnsweredCount">0/0 Terjawab</span>
+                        <div style="display:flex; align-items:center; gap:6px;">
+                            <span class="exam-nav-count" id="examNavAnsweredCount">0/0 Terjawab</span>
+                            <button type="button" id="examMobileGridToggleBtn" class="exam-mobile-grid-toggle" onclick="window.toggleMobileExamNavGrid()">
+                                <i class="fas fa-chevron-down"></i> Semua
+                            </button>
+                        </div>
                     </div>
                     <div class="exam-number-grid" id="examNumberGrid"></div>
                     <div class="exam-nav-legend">
@@ -2794,6 +2803,10 @@ function renderExamNumberGrid() {
     const countEl = document.getElementById('examNavAnsweredCount');
     if (countEl) {
         countEl.textContent = `${answeredCount}/${questions.length} Terjawab`;
+    }
+    const curBtn = gridEl.querySelector('.exam-num-btn.current');
+    if (curBtn && window.innerWidth <= 900) {
+        try { curBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }); } catch (_) {}
     }
 }
 
@@ -9308,4 +9321,26 @@ window.playToeflAudio = (btn) => {
         window.speechSynthesis.speak(u);
     };
     speakNext();
+};
+
+window.toggleMobileMenuDrawer = (forceOpen) => {
+    const drawer = document.getElementById('mobileMenuDrawer');
+    const backdrop = document.getElementById('mobileDrawerBackdrop');
+    if (!drawer || !backdrop) return;
+    const willOpen = typeof forceOpen === 'boolean' ? forceOpen : !drawer.classList.contains('open');
+    drawer.classList.toggle('open', willOpen);
+    backdrop.classList.toggle('open', willOpen);
+    drawer.setAttribute('aria-hidden', willOpen ? 'false' : 'true');
+};
+
+window.toggleMobileExamNavGrid = () => {
+    const panel = document.getElementById('examNavPanel');
+    const btn = document.getElementById('examMobileGridToggleBtn');
+    if (!panel) return;
+    const expanded = panel.classList.toggle('mobile-expanded');
+    if (btn) {
+        btn.innerHTML = expanded
+            ? '<i class="fas fa-chevron-up"></i> Minimalis'
+            : '<i class="fas fa-chevron-down"></i> Semua';
+    }
 };

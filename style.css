@@ -430,12 +430,73 @@ body {
     border-color: #eab308;
 }
 
+.exam-mobile-grid-toggle {
+    display: none;
+}
+
 @media (max-width: 900px) {
     .exam-workspace-grid {
         grid-template-columns: 1fr;
+        gap: 10px;
     }
     .exam-nav-panel {
         position: static;
+        order: -1;
+        padding: 10px 12px;
+        border-radius: 12px;
+    }
+    .exam-nav-panel-head {
+        margin-bottom: 8px;
+        padding-bottom: 6px;
+    }
+    .exam-nav-panel-head h4 {
+        font-size: 0.82rem;
+    }
+    .exam-mobile-grid-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        background: #f1f5f9;
+        color: #1e3a8a;
+        border: 1px solid #cbd5e1;
+        border-radius: 999px;
+        padding: 3px 9px;
+        font-size: 0.7rem;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    .exam-nav-panel:not(.mobile-expanded) .exam-number-grid {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 6px;
+        max-height: none;
+        padding: 2px 2px 4px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+    .exam-nav-panel:not(.mobile-expanded) .exam-number-grid::-webkit-scrollbar {
+        display: none;
+    }
+    .exam-nav-panel:not(.mobile-expanded) .exam-num-btn {
+        min-width: 34px;
+        width: 34px;
+        height: 32px;
+        flex-shrink: 0;
+        font-size: 0.76rem;
+        border-radius: 7px;
+    }
+    .exam-nav-panel.mobile-expanded .exam-number-grid {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 6px;
+        max-height: 220px;
+    }
+    .exam-nav-panel.mobile-expanded .exam-num-btn {
+        height: 34px;
+        font-size: 0.78rem;
+    }
+    .exam-nav-panel:not(.mobile-expanded) .exam-nav-legend {
+        display: none;
     }
 }
 
@@ -5516,5 +5577,328 @@ footer {
 @media (max-width: 520px) {
     .pdf-actions-row {
         grid-template-columns: 1fr;
+    }
+}
+
+/* ===== MOBILE DRAWER & POLISH RESPONSIVE MENYELURUH (<= 768px) ===== */
+.mobile-drawer-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.55);
+    backdrop-filter: blur(2px);
+    z-index: 9994;
+}
+
+.mobile-drawer-backdrop.open {
+    display: block;
+}
+
+.mobile-menu-drawer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    padding: 16px 16px 24px;
+    z-index: 9995;
+    box-shadow: 0 -10px 30px rgba(15, 23, 42, 0.25);
+    transform: translateY(105%);
+    transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+    max-height: 78vh;
+    overflow-y: auto;
+}
+
+.mobile-menu-drawer.open {
+    transform: translateY(0);
+}
+
+.mobile-drawer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.94rem;
+    color: #0f172a;
+}
+
+.mobile-drawer-head button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #cbd5e1;
+    background: #f8fafc;
+    color: #334155;
+    cursor: pointer;
+}
+
+.mobile-drawer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+}
+
+.mob-drawer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 12px 6px;
+    border-radius: 13px;
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+    color: #1e293b;
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.mob-drawer-item i {
+    font-size: 1.15rem;
+    color: #1e3a8a;
+}
+
+.mob-drawer-item small {
+    font-size: 0.56rem;
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 999px;
+}
+
+.mob-drawer-item small.gold { background: #fef3c7; color: #92400e; }
+.mob-drawer-item small.platinum { background: #e0e7ff; color: #3730a3; }
+.mob-drawer-item small.ai { background: #e0f2fe; color: #0369a1; }
+.mob-drawer-item small.admin { background: #fee2e2; color: #991b1b; }
+
+@media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .navbar-asn {
+        padding: 8px 12px;
+    }
+    .brand-logo-box {
+        width: 42px;
+        height: 42px;
+    }
+    .brand-logo-img {
+        width: 68px;
+        height: 68px;
+    }
+    .brand-text h1 {
+        font-size: 0.98rem;
+    }
+    .brand-text span {
+        font-size: 0.6rem;
+        display: block;
+        max-width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .nav-profile-chip {
+        padding: 4px 9px 4px 4px;
+        gap: 6px;
+    }
+    .nav-profile-avatar {
+        width: 28px;
+        height: 28px;
+    }
+    .nav-profile-name {
+        font-size: 0.74rem;
+        max-width: 74px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .landing-hero {
+        padding: 28px 14px 42px;
+    }
+    .landing-hero h1 {
+        font-size: 1.42rem;
+        line-height: 1.25;
+    }
+    .landing-hero-sub {
+        font-size: 0.85rem;
+    }
+    .landing-cta-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-landing-primary,
+    .btn-landing-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+    .landing-features,
+    .landing-preview-section,
+    .landing-testimonials,
+    .landing-pricing {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .landing-section-head h2 {
+        font-size: 1.32rem;
+    }
+    .preview-cat-shell {
+        padding: 14px;
+    }
+    .preview-subtes-tabs {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+    }
+    .preview-subtes-tabs::-webkit-scrollbar {
+        display: none;
+    }
+    .preview-tab-btn {
+        white-space: nowrap;
+        padding: 7px 13px;
+        font-size: 0.76rem;
+    }
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    /* Dashboard & Filter Chips Mobile */
+    .dash-welcome-banner {
+        padding: 18px 16px;
+        border-radius: 16px;
+    }
+    .dash-welcome-text h2 {
+        font-size: 1.22rem;
+    }
+    .dash-welcome-actions {
+        flex-direction: column;
+    }
+    .btn-dash-gold,
+    .btn-dash-ghost {
+        width: 100%;
+        justify-content: center;
+    }
+    .dash-kpi-grid {
+        gap: 10px;
+    }
+    .dash-kpi-card {
+        padding: 12px;
+        gap: 9px;
+    }
+    .kpi-value {
+        font-size: 1.02rem;
+    }
+    .view-banner {
+        padding: 16px;
+        border-radius: 14px;
+    }
+    .view-banner h2 {
+        font-size: 1.12rem;
+    }
+    .lobby-filter-bar {
+        padding: 8px 10px;
+    }
+    .filter-chips {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 3px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+    .filter-chips::-webkit-scrollbar {
+        display: none;
+    }
+    .filter-chip {
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding: 6px 12px;
+        font-size: 0.76rem;
+    }
+    .grid-modes {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .persiapan-top-bar {
+        padding: 12px 14px;
+    }
+    .persiapan-lobby-card {
+        padding: 16px;
+        gap: 18px;
+    }
+    .persiapan-info-col h2 {
+        font-size: 1.15rem;
+    }
+    .persiapan-flyer-card {
+        min-height: 205px;
+        padding: 18px;
+    }
+    .persiapan-flyer-title {
+        font-size: 1.28rem;
+    }
+    .persiapan-flyer-num {
+        font-size: 2.15rem;
+    }
+    /* Exam Stage Mobile */
+    #examStage {
+        padding: 10px 10px 28px;
+    }
+    .exam-header {
+        padding: 10px 12px;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+    .exam-timer {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+    .question-card {
+        padding: 14px 13px;
+        border-radius: 12px;
+    }
+    .question-text {
+        font-size: 0.93rem;
+        line-height: 1.58;
+        margin-bottom: 14px;
+    }
+    .option-item {
+        padding: 10px 11px;
+        gap: 9px;
+    }
+    .option-label {
+        font-size: 0.86rem;
+    }
+    .exam-nav {
+        gap: 6px;
+        margin-top: 14px;
+    }
+    .btn-nav {
+        padding: 9px 11px;
+        font-size: 0.78rem;
+        flex: 1;
+        justify-content: center;
+    }
+    /* Command Center Mobile */
+    .cc-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+    }
+    .cc-tabs::-webkit-scrollbar {
+        display: none;
+    }
+    .cc-tab {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .cc-table-wrap {
+        overflow-x: auto;
     }
 }
