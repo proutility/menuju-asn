@@ -379,9 +379,9 @@
                     <div class="pricing-price">Rp 49.999</div>
                     <p class="pricing-desc">Pemula / Coba dulu • Latihan rutin CAT mandiri &amp; duel CBT Arena.</p>
                     <ul class="pricing-list">
-                        <li><i class="fas fa-check-circle"></i><span><strong>50 Paket Latihan</strong> (17 TWK + 17 TIU + 16 TKP • ~1.825 soal)</span></li>
-                        <li><i class="fas fa-check-circle"></i><span><strong>1× Tryout Akbar</strong> (110 soal) + 3 Paket Gratis (330 soal)</span></li>
-                        <li><i class="fas fa-check-circle"></i><span>Total Didapat: <strong>± 2.265 Soal Terupdate</strong></span></li>
+                        <li><i class="fas fa-check-circle"></i><span><strong>51 Paket Latihan</strong> (17 TWK + 17 TIU + 17 TKP • 1.870 soal)</span></li>
+                        <li><i class="fas fa-check-circle"></i><span><strong>1× Tryout Akbar</strong> (110 soal) + TO 0 &amp; 3 Gratis (330 soal)</span></li>
+                        <li><i class="fas fa-check-circle"></i><span>Total Didapat: <strong>2.310 Soal Terupdate</strong></span></li>
                         <li><i class="fas fa-check-circle"></i><span><strong>1x Klik Pembahasan</strong> &amp; Grafik Tren Brankas</span></li>
                         <li><i class="fas fa-check-circle"></i><span><strong>MenujuASN-Bot AI</strong> (10 Token/Hari) &amp; Berita CASN</span></li>
                         <li><i class="fas fa-check-circle"></i><span>Live CBT Arena hingga <strong>2 Peserta / Room</strong></span></li>
@@ -820,68 +820,7 @@
                 </div>
 
                 <div class="grid-modes" id="tryoutSoalGrid">
-                    <!-- TRYOUT FREE (TERKUNCI SEMENTARA) -->
-                    <div class="card-mode packet-card free" data-tier="free">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access free"><i class="fas fa-lock"></i> GRATIS</span>
-                                <span class="badge-cat">TRYOUT FULL</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon blue"><i class="fas fa-laptop-code"></i></div>
-                                <div>
-                                    <h3>Simulasi Akbar SKD</h3>
-                                    <span style="font-size:0.75rem; color:#2563eb; font-weight:700;">110 Soal Pilihan • 100 Menit</span>
-                                </div>
-                            </div>
-                            <p>110 soal terbaik pilihan dari kurasi 330 soal gratis TWK, TIU, &amp; TKP dengan evaluasi Passing Grade otomatis.</p>
-                        </div>
-                        <button class="btn-card locked-free" onclick="window.infoPaketBelumTersedia('Simulasi Akbar SKD (110 Soal Pilihan)')">
-                            <i class="fas fa-lock"></i> Paket Soal Belum Tersedia
-                        </button>
-                    </div>
-
-                    <!-- TRYOUT BERBAYAR #1 -->
-                    <div class="card-mode packet-card paid" data-tier="paid">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>
-                                <span class="badge-cat">SATUAN Rp 5rb / PRO</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon gold"><i class="fas fa-fire"></i></div>
-                                <div>
-                                    <h3>Tryout SKD HOTS 2026 #1</h3>
-                                    <span style="font-size:0.75rem; color:#b45309; font-weight:700;">110 Soal • 100 Menit • HOTS</span>
-                                </div>
-                            </div>
-                            <p>Paket soal HOTS prediksi ASN lengkap dengan pembahasan detail &amp; pembobotan TKP 1–5.</p>
-                        </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Tryout SKD HOTS 2026 #1', 'Mulai Rp 5.000 / Paket')">
-                            <i class="fas fa-lock"></i> Buka Akses Paket
-                        </button>
-                    </div>
-
-                    <!-- TRYOUT BERBAYAR #2 -->
-                    <div class="card-mode packet-card paid" data-tier="paid">
-                        <div>
-                            <div class="packet-badges">
-                                <span class="badge-access paid"><i class="fas fa-lock"></i> BERBAYAR</span>
-                                <span class="badge-cat">SATUAN Rp 5rb / PRO</span>
-                            </div>
-                            <div class="card-mode-header">
-                                <div class="mode-icon gold"><i class="fas fa-trophy"></i></div>
-                                <div>
-                                    <h3>Tryout SKD HOTS 2026 #2</h3>
-                                    <span style="font-size:0.75rem; color:#b45309; font-weight:700;">110 Soal • 100 Menit • HOTS</span>
-                                </div>
-                            </div>
-                            <p>Simulasi intensif paket lanjutan dengan analisis skor TWK, TIU, TKP dan Brankas Pembahasan.</p>
-                        </div>
-                        <button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('Tryout SKD HOTS 2026 #2', 'Mulai Rp 5.000 / Paket')">
-                            <i class="fas fa-lock"></i> Buka Akses Paket
-                        </button>
-                    </div>
+                    <!-- Diisi otomatis oleh window.renderTryoutPaketCards() sesuai paket akun -->
                 </div>
             </section>
 
@@ -1159,9 +1098,9 @@
                         </div>
                         <div class="pricing-price">Rp 49.999</div>
                         <ul class="pricing-list">
-                            <li><i class="fas fa-check-circle"></i><span><strong>50 Paket Latihan</strong> (17 TWK + 17 TIU + 16 TKP • ~1.825 soal)</span></li>
-                            <li><i class="fas fa-check-circle"></i><span><strong>1× TO Akbar</strong> (110 soal) + 3 Paket Gratis (330 soal)</span></li>
-                            <li><i class="fas fa-check-circle"></i><span>Total Didapat: <strong>± 2.265 Soal</strong></span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>51 Paket Latihan</strong> (17 TWK + 17 TIU + 17 TKP • 1.870 soal)</span></li>
+                            <li><i class="fas fa-check-circle"></i><span><strong>1× TO Akbar</strong> (110 soal) + TO 0 &amp; 3 Gratis (330 soal)</span></li>
+                            <li><i class="fas fa-check-circle"></i><span>Total Didapat: <strong>2.310 Soal</strong></span></li>
                             <li><i class="fas fa-check-circle"></i><span><strong>Brankas Pembahasan</strong> &amp; Grafik Tren</span></li>
                             <li><i class="fas fa-check-circle"></i><span>Room CBT Arena hingga <strong>2 Peserta</strong></span></li>
                         </ul>
@@ -1573,7 +1512,7 @@
     <script src="data_tiu_batch2.js?v=2.5.8"></script>
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
-    <script type="module" src="app.js?v=2.5.8"></script>
+    <script type="module" src="app.js?v=2.5.9"></script>
     
     <script>
         // PWA Service Worker Registration

@@ -175,6 +175,9 @@ function updateAuthUI(user) {
         if (typeof window.renderTkp40PaketCards === 'function') {
             window.renderTkp40PaketCards();
         }
+        if (typeof window.renderTryoutPaketCards === 'function') {
+            window.renderTryoutPaketCards();
+        }
         if (typeof window.applyAdminBypassUI === 'function') {
             window.applyAdminBypassUI();
         }
@@ -735,10 +738,75 @@ function hasSubtesPaketAccess(prof, subtes, paketNo) {
     const t = String(prof.tier || 'free').toLowerCase();
     if (t === 'gold' || t === 'admin') return true;
     if (t === 'silver') return paketNo <= 45;
-    if (t === 'bronze') return paketNo <= (subtes === 'tkp' ? 16 : 17);
+    if (t === 'bronze') return paketNo <= 17;
     if (t === 'satuan') return paketNo <= 5;
     return true;
 }
+
+function getLockedSubtesLabel(subtesUpper, paketNo) {
+    if (paketNo > 45) return `Khusus Gold (#${paketNo})`;
+    if (paketNo > 17) return `Min. Silver (#${paketNo})`;
+    return `Buka Paket ${subtesUpper} #${paketNo}`;
+}
+
+function hasTryoutPaketAccess(prof, toNo) {
+    if (Number(toNo) === 0) return true;
+    if (!prof) return false;
+    if (prof.isAdmin) return true;
+    if (!prof.isPaid) return false;
+    const t = String(prof.tier || 'free').toLowerCase();
+    if (t === 'gold' || t === 'admin') return true;
+    if (t === 'silver') return Number(toNo) <= 3;
+    if (t === 'bronze') return Number(toNo) <= 1;
+    if (t === 'satuan') return Number(toNo) <= 1;
+    return false;
+}
+
+window.renderTryoutPaketCards = () => {
+    const grid = document.getElementById('tryoutSoalGrid');
+    if (!grid) return;
+
+    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
+    const configs = [
+        { no: 0, tierAttr: 'free', badgeLeft: 'GRATIS • SEMUA AKUN', badgeRight: 'TO 0 • TRYOUT FULL', icon: 'fa-laptop-code', iconColor: 'blue', title: 'TO 0 – Gratis (Simulasi SKD)', sub: '110 Soal Pilihan • 100 Menit • TWK + TIU + TKP', desc: 'Simulasi Akbar SKD gratis untuk semua akun (30 TWK, 35 TIU, 45 TKP) lengkap dengan evaluasi Passing Grade BKN.', minTierLabel: 'Gratis Semua Akun', buyers: '999+' },
+        { no: 1, tierAttr: 'paid', badgeLeft: 'BRONZE • SILVER • GOLD', badgeRight: 'TO AKBAR 1', icon: 'fa-fire', iconColor: 'gold', title: 'TO Akbar #1 — SKD HOTS 2026', sub: '110 Soal • 100 Menit • Standar BKN', desc: 'Tryout Akbar ke-1 dengan kombinasi soal HOTS TWK, TIU, dan TKP berbobot 1–5 + analisis Brankas Pembahasan.', minTierLabel: 'Paket Bronze (Rp 49.999) / Silver / Gold', buyers: '620+' },
+        { no: 2, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 2', icon: 'fa-bolt', iconColor: 'gold', title: 'TO Akbar #2 — SKD Prediksi 2026', sub: '110 Soal • 100 Menit • Format 2026 Baru', desc: 'Tryout Akbar ke-2 mencakup soal penalaran kasuistis, numerik tabel/matriks, serta evaluasi nilai subtes otomatis.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '510+' },
+        { no: 3, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 3', icon: 'fa-award', iconColor: 'gold', title: 'TO Akbar #3 — SKD Intensif 2026', sub: '110 Soal • 100 Menit • Batch 2026 Baru', desc: 'Tryout Akbar ke-3 dengan tingkat kesulitan HOTS lanjutan, soal Kecukupan Data TIU & studi kasus TKP Anti-Radikalisme.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '475+' },
+        { no: 4, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 4', icon: 'fa-crown', iconColor: 'gold', title: 'TO Akbar #4 — SKD Sultan All-In', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar ke-4 eksklusif Paket Gold dengan komposisi soal Batch 2 2026 Baru (Figural 9 Kotak, Matriks & HOTS).', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '390+' },
+        { no: 5, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 5', icon: 'fa-trophy', iconColor: 'gold', title: 'TO Akbar #5 — Grand Final SKD 2027', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar pamungkas ke-5 khusus Gold untuk menguji kesiapan penuh menembus Passing Grade & SKB CASN 2027.', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '365+' }
+    ];
+
+    grid.innerHTML = configs.map(c => {
+        const unlocked = hasTryoutPaketAccess(prof, c.no);
+        const isFree = c.no === 0;
+        const badgeAccessCls = isFree ? 'free' : (c.no >= 4 ? 'gold-badge' : 'paid');
+        const cardCls = `card-mode packet-card ${isFree ? 'free' : 'paid'}${c.no >= 4 ? ' gold-border' : ''}`;
+        const ctaHtml = unlocked
+            ? `<button class="btn-card ${isFree ? 'free-cta' : 'paid-cta'}" onclick="window.mulaiSingleplayer('${isFree ? 'to_gratis' : 'to_akbar'}', ${c.no})"><i class="fas fa-play"></i> Mulai ${c.no === 0 ? 'TO 0 Gratis' : 'TO Akbar #' + c.no}</button>`
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('${c.title}', '${c.minTierLabel}')"><i class="fas fa-lock"></i> Terkunci • ${c.no === 1 ? 'Min. Bronze' : (c.no <= 3 ? 'Min. Silver' : 'Khusus Gold')}</button>`;
+
+        return `
+            <div class="${cardCls}" data-tier="${c.tierAttr}">
+                <div>
+                    <div class="packet-badges">
+                        <span class="badge-access ${badgeAccessCls}"><i class="fas ${unlocked ? 'fa-unlock' : 'fa-lock'}"></i> ${c.badgeLeft}</span>
+                        <span class="badge-cat">${c.badgeRight}</span>
+                        <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${c.buyers}</span>
+                    </div>
+                    <div class="card-mode-header">
+                        <div class="mode-icon ${c.iconColor}"><i class="fas ${c.icon}"></i></div>
+                        <div>
+                            <h3>${c.title}</h3>
+                            <span style="font-size:0.75rem; color:${isFree ? '#2563eb' : '#b45309'}; font-weight:700;">${c.sub}</span>
+                        </div>
+                    </div>
+                    <p>${c.desc}</p>
+                </div>
+                ${ctaHtml}
+            </div>
+        `;
+    }).join('');
+};
 
 window.renderTwk40PaketCards = () => {
     const grid = document.getElementById('paketSoalGrid');
@@ -760,7 +828,7 @@ window.renderTwk40PaketCards = () => {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('twk', ${i})"><i class="fas fa-play"></i> Mulai Latihan TWK #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TWK Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.200 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TWK #${i}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TWK Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.200 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (#1–#17) / Silver (#1–#45) / Gold (#1–#90)')"><i class="fas fa-lock"></i> ${getLockedSubtesLabel('TWK', i)}</button>`;
 
         card.innerHTML = `
             <div>
@@ -811,7 +879,7 @@ window.renderTiu40PaketCards = () => {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tiu', ${i})"><i class="fas fa-play"></i> Mulai Latihan TIU #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TIU Paket #${i} (Batch ${isBatch2 ? '2 • 2026 Baru' : '1'})', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TIU #${i}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TIU Paket #${i} (Batch ${isBatch2 ? '2 • 2026 Baru' : '1'})', 'Paket Satuan (Rp 5.000) / Bronze (#1–#17) / Silver (#1–#45) / Gold (#1–#90)')"><i class="fas fa-lock"></i> ${getLockedSubtesLabel('TIU', i)}</button>`;
 
         card.innerHTML = `
             <div>
@@ -862,7 +930,7 @@ window.renderTkp40PaketCards = () => {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tkp', ${i})"><i class="fas fa-play"></i> Mulai Latihan TKP #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TKP Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.800 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)')"><i class="fas fa-lock"></i> Buka Paket TKP #${i}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TKP Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.800 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (#1–#17) / Silver (#1–#45) / Gold (#1–#90)')"><i class="fas fa-lock"></i> ${getLockedSubtesLabel('TKP', i)}</button>`;
 
         card.innerHTML = `
             <div>
@@ -897,6 +965,9 @@ document.addEventListener('DOMContentLoaded', () => {
     window.renderTwk40PaketCards();
     window.renderTiu40PaketCards();
     window.renderTkp40PaketCards();
+    if (typeof window.renderTryoutPaketCards === 'function') {
+        window.renderTryoutPaketCards();
+    }
     if (typeof window.initSidebarCollapse === 'function') {
         window.initSidebarCollapse();
     }
@@ -1881,9 +1952,39 @@ window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
             title = 'TKP Paket #1';
             saveId = 'tkp_1';
         }
+    } else if (tipe === 'to_gratis') {
+        const twkG = (window.DATA_TWK_GRATIS || []).slice(0, 30);
+        const tiuG = (window.DATA_TIU_GRATIS || []).slice(0, 35);
+        const tkpG = (window.DATA_TKP_GRATIS || []).slice(0, 45);
+        window.currentQuestions = [...twkG, ...tiuG, ...tkpG];
+        window.examTimeRemaining = 100 * 60;
+        title = 'TO 0 – Gratis (Simulasi SKD 110 Soal)';
+        saveId = 'to_gratis_0';
+    } else if (tipe === 'to_akbar') {
+        const no = Math.max(1, Math.min(5, Number(paketNo) || 1));
+        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
+        const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
+        const allTkp = rawData.filter(q => q.kategori === 'TKP');
+        const tkpPackages = buildBalancedTkpPackages(allTkp, 40, 45);
+        const twkSet = no >= 4 && (window.DATA_TWK_BATCH2 || []).length >= 30
+            ? (window.DATA_TWK_BATCH2 || []).slice((no - 4) * 30, (no - 3) * 30)
+            : allPaidTwk.slice((no + 10) * 30, (no + 11) * 30);
+        const tiuSet = no >= 3 && (window.DATA_TIU_BATCH2 || []).length >= 35
+            ? (window.DATA_TIU_BATCH2 || []).slice((no - 3) * 35, (no - 2) * 35)
+            : allPaidTiu.slice((no + 10) * 35, (no + 11) * 35);
+        const tkpSet = no >= 4 && (window.DATA_TKP_BATCH2 || []).length >= 45
+            ? (window.DATA_TKP_BATCH2 || []).slice((no - 4) * 45, (no - 3) * 45)
+            : (tkpPackages[no + 10] || allTkp.slice(0, 45));
+        window.currentQuestions = [...twkSet, ...tiuSet, ...tkpSet];
+        window.examTimeRemaining = 100 * 60;
+        title = `TO Akbar #${no} (Simulasi SKD 2026)`;
+        saveId = `to_akbar_${no}`;
     } else {
-        window.currentQuestions = [...rawData];
-        window.examTimeRemaining = 100 * 60; // 100 Menit standar BKN
+        const twk1 = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id)).slice(0, 30);
+        const tiu1 = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id)).slice(0, 35);
+        const tkp1 = buildBalancedTkpPackages(rawData.filter(q => q.kategori === 'TKP'), 40, 45)[0] || [];
+        window.currentQuestions = [...twk1, ...tiu1, ...tkp1];
+        window.examTimeRemaining = 100 * 60;
         title = 'Simulasi SKD Lengkap';
     }
 

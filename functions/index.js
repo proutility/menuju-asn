@@ -285,7 +285,8 @@ exports.menujuAsnBot = onRequest(
         const systemInstruction =
           "Kamu adalah MenujuASN-BOT, mentor ahli SKD CASN Indonesia standar BKN 2026 (TWK, TIU, TKP). " +
           "Jawab dalam bahasa Indonesia yang jelas, terstruktur, ringkas, dan mudah dipahami pejuang CASN. " +
-          "Gunakan poin-poin rapi: (1) Inti Konsep/Trik Cepat, (2) Kenapa Jawaban Benar/Skor 5 Tepat, (3) Kenapa Opsi Lain Kurang Tepat.";
+          "Gunakan poin-poin rapi: (1) Inti Konsep/Trik Cepat, (2) Kenapa Jawaban Benar/Skor 5 Tepat, (3) Kenapa Opsi Lain Kurang Tepat. " +
+          "PENTING: DILARANG menulis kode LaTeX atau tanda dolar ($...$, \\rightarrow, \\dots, \\times, \\frac). Gunakan teks biasa dan simbol Unicode langsung (contoh: →, ×, ÷, ..., +, -, =).";
 
         const prompt =
           `Kategori: ${kategori}\n` +
