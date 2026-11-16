@@ -5876,36 +5876,103 @@ function buildMentorVisualHtml(q) {
 function buildMentorTrikAndJebakan(q, userAns, kunciLabel, gotPoin, maxPoin) {
     const sub = String(q?.subKategori || '').toLowerCase();
     const kat = String(q?.kategori || '').toUpperCase();
+    const soalLow = String(q?.soal || '').toLowerCase();
 
     let trik = 'Baca kalimat tanya paling akhir terlebih dahulu agar fokus menangkap kata kunci sebelum menghitung atau memilih opsi.';
     let jebakan = 'Terburu-buru memilih opsi yang sekilas mirip padahal melenceng dari inti pertanyaan.';
 
     if (kat === 'TKP') {
-        trik = 'Cari opsi yang menunjukkan sikap paling proaktif, solutif, taat SOP, dan berorientasi pelayanan publik tanpa merugikan pihak lain.';
-        jebakan = 'Opsi bernilai 3–4 biasanya terlihat sopan, tetapi masih pasif (hanya menunggu atasan atau menunda solusi).';
+        if (sub.includes('pelayanan')) {
+            trik = 'Pilih opsi yang langsung memberi solusi tuntas, ramah, inklusif, dan tetap sesuai SOP tanpa melempar tanggung jawab ke warga.';
+            jebakan = 'Opsi bernilai 3–4 biasanya sopan, tetapi hanya menyuruh warga menunggu, mengisi formulir lagi, atau melempar ke petugas lain.';
+        } else if (sub.includes('jejaring')) {
+            trik = 'Prioritaskan inisiatif menyatukan pihak terkait, berbagi peran secara adil, dan menjaga komunikasi terbuka demi target bersama.';
+            jebakan = 'Opsi bernilai 3–4 cenderung bekerja sendiri-sendiri atau menunggu arahan atasan tanpa berkoordinasi aktif.';
+        } else if (sub.includes('sosial')) {
+            trik = 'Utamakan sikap menghargai keragaman budaya/keyakinan, dialogis, empatik, dan anti-diskriminasi.';
+            jebakan = 'Opsi bernilai rendah biasanya memaksakan kebiasaan mayoritas atau memilih menghindar dari interaksi lintas kelompok.';
+        } else if (sub.includes('tik')) {
+            trik = 'Pilih solusi teknologi yang aman (jaga privasi/data, hindari phishing), efisien, dan membantu tim ikut beradaptasi.';
+            jebakan = 'Opsi yang memakai cara manual terus-menerus atau mengabaikan keamanan data/tautan akan bernilai rendah.';
+        } else if (sub.includes('radikal')) {
+            trik = 'Tegas menolak intoleransi dan kekerasan, tetap santun/sejuk dalam dialog, serta menempuh pelaporan ke pembina/aparat resmi.';
+            jebakan = 'Sikap apatis ("diam saja biar aman") atau main hakim sendiri justru mendapat poin rendah.';
+        } else {
+            trik = 'Tunjukkan tanggung jawab penuh, manajemen prioritas yang adil, jujur pada data, dan perbaikan sistemik atas kendala kerja.';
+            jebakan = 'Opsi bernilai 3–4 terlihat hati-hati, tetapi pasif menunda keputusan atau membebankan tugas ke staf lain.';
+        }
+    } else if (sub.includes('kecukupan data')) {
+        trik = 'Uji (1) saja secara terpisah, lalu (2) saja secara terpisah. Jangan gabungkan keduanya sebelum memastikan masing-masing gagal memberi 1 nilai tunggal!';
+        jebakan = 'Langsung menggabungkan (1) dan (2) padahal salah satunya sudah cukup, atau mengira 2 persamaan kelipatan memberi solusi unik.';
+    } else if (sub.includes('matriks')) {
+        trik = 'Cek selisih baris (→) dan kolom (↓) dulu; jika kolom kanan melonjak acak, cari rumus operasi per baris seperti (K1 × K2) + k atau (K1 + K2) × k.';
+        jebakan = 'Salah arah membaca (baris vs kolom), atau lupa menambahkan/mengalikan konstanta penyesuai di baris terakhir.';
+    } else if (sub.includes('perkalian setara') || sub.includes('pembagian setara')) {
+        trik = 'Perkalian setara: satu sisi dibagi k, sisi lain dikali k. Pembagian setara: pembilang dan penyebut dikali/dibagi angka yang sama.';
+        jebakan = 'Mengalikan hanya satu sisi atau membagi satu sisi sambil mengalikan sisi lain pada operasi pembagian.';
+    } else if (sub.includes('tabel')) {
+        trik = 'Fokus hanya pada baris/kolom dan bobot yang ditanyakan soal, lalu coret data pengalih yang tidak diperlukan.';
+        jebakan = 'Tertukar baris kandidat atau salah menjumlahkan persentase bobot antar-komponen.';
     } else if (sub.includes('deret')) {
         trik = sub.includes('selang')
-            ? 'Langsung cek lompat 1 posisi (posisi ganjil dengan ganjil, genap dengan genap) jika angka terlihat naik-turun.'
+            ? 'Langsung cek lompat 1 posisi (ganjil dengan ganjil, genap dengan genap) jika angka terlihat naik-turun.'
             : 'Hitung selisih 3 pasangan awal sekaligus; jika belum konstan, cek rasio (×) atau selisih tingkat kedua.';
         jebakan = 'Mengira deret 1 pola padahal selang-seling, atau tertukar tanda (+ / −) di langkah terakhir.';
     } else if (sub.includes('silogisme') || sub.includes('logis')) {
         trik = 'Aturan 10 detik: Semua + Sebagian = Sebagian; coret term tengah yang sama, jangan menambah asumsi di luar premis.';
         jebakan = 'Membalik pernyataan "Semua A adalah B" menjadi "Semua B adalah A", padahal konversnya hanya "Sebagian B adalah A".';
+    } else if (sub.includes('argumen')) {
+        trik = 'Temukan hubungan sebab → akibat pada klaim: penguat menyingkirkan faktor lain, pelemah menunjukkan faktor alternatif atau data tandingan.';
+        jebakan = 'Memilih pernyataan yang masih satu topik, padahal tidak memengaruhi hubungan sebab-akibat yang diklaim.';
+    } else if (sub.includes('analitis')) {
+        trik = 'Tulis syarat yang pasti/mutlak lebih dulu (posisi ujung atau hari tetap), baru susun syarat berurutan dan larangan.';
+        jebakan = 'Mengabaikan satu syarat negatif ("tidak bersebelahan" / "bukan hari Sabtu") saat menyusun urutan.';
     } else if (sub.includes('figural')) {
-        trik = 'Lacak 1 elemen kecil dulu (arah panah/titik/arsiran), lalu cek apakah berputar ↻ 90° atau dicerminkan ↔.';
-        jebakan = 'Tertipu bentuk luar yang sama, padahal posisi cermin atau jumlah sudutnya berbeda 1.';
-    } else if (sub.includes('hitung') || sub.includes('numerik') || sub.includes('perbandingan')) {
-        trik = 'Gunakan pembulatan cerdas atau cek digit satuan/persentase pecahan istimewa (12,5% = 1/8; 33,3% = 1/3) untuk hemat waktu.';
-        jebakan = 'Salah konversi satuan (persen vs desimal) atau lupa urutan operasi perkalian/pembagian sebelum penjumlahan.';
+        trik = 'Lacak 1 elemen kecil dulu (jumlah sisi, titik, arsiran), lalu cek apakah berputar ↻ 45°/90° atau bergeser siklik tiap baris/kolom.';
+        jebakan = 'Tertipu bentuk luar yang sama, padahal jumlah titik, arsiran, atau arah rotasinya meleset satu langkah.';
+    } else if (sub.includes('hitung') || sub.includes('numerik') || sub.includes('perbandingan') || sub.includes('cerita')) {
+        trik = 'Gunakan pembulatan cerdas atau pecahan istimewa (12,5% = 1/8; 25% = 1/4); untuk perbandingan pekerja, pakai beban = orang × hari.';
+        jebakan = 'Menjawab jumlah total pekerja padahal yang ditanyakan adalah pekerja tambahan, atau salah konversi persen.';
     } else if (sub.includes('sinonim') || sub.includes('antonim') || sub.includes('kosakata')) {
         trik = 'Kenali makna dasar atau kata serapannya, lalu eliminasi opsi yang maknanya berlawanan/terlalu sempit.';
         jebakan = 'Memilih kata yang sering muncul dalam satu topik padahal bukan padanan/lawan kata yang diminta.';
     } else if (sub.includes('analogi') || kat === 'TIU') {
-        trik = 'Untuk analogi, buat 1 kalimat penghubung baku antara kata kiri dan kanan, lalu terapkan kalimat persis sama ke opsi.';
-        jebakan = 'Terbalik arah hubungan (sebab-akibat tertukar akibat-sebab) atau memilih kata yang sebidang makna tapi beda kelas kata.';
+        trik = 'Buat 1 kalimat penghubung baku antara kata kiri dan kanan, lalu terapkan kalimat persis sama ke pasangan opsi.';
+        jebakan = 'Terbalik arah hubungan (sebab-akibat tertukar akibat-sebab) atau memilih pasangan yang sebidang makna tapi beda relasi.';
+    } else if (sub.includes('bahasa')) {
+        if (soalLow.includes('gelar')) {
+            trik = 'Cek 3 aturan wajib gelar EYD V: singkatan pakai titik (Dr., S.H., M.H.), nama & gelar belakang dipisah koma, dan antargelar dipisah koma.';
+            jebakan = 'Lupa koma antara nama dan gelar belakang, menulis DR. semua kapital, atau menghilangkan titik di akhir singkatan gelar.';
+        } else if (soalLow.includes('konjungsi') || soalLow.includes('penghubung')) {
+            trik = 'Bedakan konjungsi antarkalimat (Namun, Oleh karena itu — hanya di awal kalimat baru) vs intrakalimat (tetapi, sedangkan, melainkan — di tengah kalimat).';
+            jebakan = 'Memakai "namun" atau "namun demikian" di tengah kalimat, atau memasang konjungsi ganda seperti "meskipun ... namun".';
+        } else if (soalLow.includes('kapital') || soalLow.includes('miring')) {
+            trik = 'Jabatan + nama instansi/orang = kapital; nama buku/majalah = miring; kata tugas (di, ke, dari, dan, yang) di tengah judul = huruf kecil.';
+            jebakan = 'Mengapitalkan kata tugas di tengah judul atau mengapitalkan nama jenis (seperti jeruk bali / gula jawa).';
+        } else if (soalLow.includes('baku') || soalLow.includes('serapan') || soalLow.includes('imbuhan')) {
+            trik = 'Cari 1 kata tidak baku saja untuk langsung mencoret opsi (ingat: apotek, praktik, jadwal, risiko, ekstrem, memengaruhi, menyukseskan).';
+            jebakan = 'Terkecoh kata populer yang sering dipakai lisan padahal salah di KBBI (apotik, praktek, resiko, merubah, mensukseskan).';
+        } else if (soalLow.includes('koma') || soalLow.includes('tanda') || soalLow.includes('partikel') || soalLow.includes('depan')) {
+            trik = 'Anak kalimat di depan induk wajib koma; preposisi tempat (di kantor, ke luar) dipisah, sedangkan imbuhan (dikeluarkan) disambung.';
+            jebakan = 'Memasang koma sebelum konjungsi di tengah kalimat (..., meskipun / ..., jika) atau menyambung kata depan "di/ke".';
+        } else {
+            trik = 'Uji tiap opsi terhadap 3 kaidah inti EYD V: subjek tidak diawali preposisi (Bagi/Dalam), kata baku KBBI, dan bebas pleonasme (agar supaya, para ... sekalian).';
+            jebakan = 'Memilih kalimat yang terdengar sopan atau formal secara lisan, padahal kehilangan subjek atau boros kata.';
+        }
     } else if (kat === 'TWK') {
-        trik = 'Kaitkan inti kasus dengan nilai dasar Pancasila, UUD 1945, integritas ASN, atau kepentingan keutuhan NKRI.';
-        jebakan = 'Memilih jawaban yang benar secara teori umum, tetapi kurang spesifik dengan konteks sila/pasal yang ditanyakan.';
+        if (sub.includes('nasionalisme')) {
+            trik = 'Pilih sikap yang mengutamakan kepentingan bangsa, kemandirian produk/ekonomi lokal, serta persatuan tanpa bersikap diskriminatif.';
+            jebakan = 'Opsi yang terkesan menjaga efisiensi sesaat tetapi mengorbankan produk rakyat, kedaulatan, atau persatuan daerah.';
+        } else if (sub.includes('integritas')) {
+            trik = 'Pilih tindakan yang menolak suap/gratifikasi/manipulasi sekecil apa pun, jujur pada data, dan menempuh jalur pelaporan resmi.';
+            jebakan = 'Opsi "jalan tengah" seperti menerima lalu disumbangkan atau menutupi kesalahan demi menjaga nama baik unit tetap salah.';
+        } else if (sub.includes('bela negara')) {
+            trik = 'Kaitkan masalah dengan ketahanan bangsa (keamanan siber, hoaks/deepfake, lingkungan, pangan, perbatasan) dan peran aktif sesuai kewenangan.';
+            jebakan = 'Memilih tindakan pasif menunggu pusat atau tindakan main hakim sendiri di luar prosedur resmi.';
+        } else {
+            trik = 'Identifikasi pilar yang diuji: Sila Pancasila (1–5), kewenangan lembaga UUD 1945 (MK/MA/DPR/DPD/BPK), atau prinsip Bhinneka Tunggal Ika & NKRI.';
+            jebakan = 'Tertukar kewenangan antarlembaga negara atau memilih jawaban yang benar secara umum namun meleset dari sila/pasal yang ditanya.';
+        }
     }
 
     const pickedOpt = userAns ? (q.opsi || []).find(o => o.label === userAns) : null;
