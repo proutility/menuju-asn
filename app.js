@@ -8922,6 +8922,42 @@ window.unduhPdfPaket = (sourceKey, withPembahasan = false) => {
         `;
     }).join('');
 
+    const answerKeySection = !withPembahasan
+        ? `
+            <section class="pdf-answer-key-page" style="break-before:page; page-break-before:always; position:relative; z-index:1; border:1.5px solid #1e3a8a; border-radius:10px; padding:14px 16px; background:rgba(255,255,255,0.92);">
+                <h2 style="margin:0 0 4px; font-size:12pt; color:#1e3a8a;">🔑 Kunci Jawaban — ${escapeHtmlMentor(pkg.title)}</h2>
+                <p style="margin:0 0 10px; font-size:8.5pt; color:#64748b;">Gunakan halaman ini untuk mengoreksi hasil latihan mandiri Anda.</p>
+                <div style="display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:6px 12px; font-size:9pt;">
+                    ${pkg.questions.map((q, idx) => {
+                        const maxP = (q.opsi || []).reduce((mx, o) => Math.max(mx, Number(o.poin || (o.benar ? 5 : 0))), 0) || 5;
+                        let keyText = '-';
+                        if (q.kategori === 'TKP') {
+                            const sorted = [...(q.opsi || [])].sort((a, b) => Number(b.poin || 0) - Number(a.poin || 0));
+                            keyText = sorted.map(o => `${o.label}(${o.poin || 0})`).join(' ');
+                        } else {
+                            const best = (q.opsi || []).find(o => o.benar);
+                            keyText = best ? best.label : (q.kunci || '-');
+                        }
+                        return `<div style="padding:4px 8px; border:1px solid #cbd5e1; border-radius:6px; background:#f8fafc;"><strong>${idx + 1}.</strong> ${escapeHtmlMentor(keyText)}</div>`;
+                    }).join('')}
+                </div>
+            </section>
+        `
+        : '';
+
+    const htmlBodyContent = `
+    <div class="pdf-content-wrap">
+        <div class="pdf-doc-banner">
+            <div>
+                <h1>${escapeHtmlMentor(pkg.title)}</h1>
+                <p>Total ${pkg.questions.length} Butir Soal • Pemilik: ${buyerName} (${buyerEmail})</p>
+            </div>
+            <span class="pdf-mode-pill">${modeLabel}</span>
+        </div>
+        ${questionsMarkup}
+        ${answerKeySection}
+    </div>`;
+
     const htmlDoc = `<!DOCTYPE html>
 <html lang="id">
 <head>
@@ -9170,16 +9206,8 @@ window.unduhPdfPaket = (sourceKey, withPembahasan = false) => {
         <span>Diunduh: ${nowText}</span>
     </div>
 
-    <div class="pdf-content-wrap">
-        <div class="pdf-doc-banner">
-            <div>
-                <h1>${escapeHtmlMentor(pkg.title)}</h1>
-                <p>Total ${pkg.questions.length} Butir Soal • Pemilik: ${buyerName} (${buyerEmail})</p>
-            </div>
-            <span class="pdf-mode-pill">${modeLabel}</span>
-        </div>
-        ${questionsMarkup}
-    </div>
+    ${htmlBodyContent}
+
 
     <script>
         window.addEventListener('load', () => {
