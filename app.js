@@ -2438,6 +2438,7 @@ function startExamSessionUI(restoredState = null) {
     const heroEl = document.getElementById('heroBannerSection');
     if (heroEl) heroEl.style.display = 'none';
 
+    document.body.classList.add('in-exam');
     const examStage = document.getElementById('examStage');
     examStage.style.display = 'block';
     examStage.innerHTML = buildExamStageMarkup();
@@ -4225,6 +4226,7 @@ window.kembaliKeLobby = () => {
     }
     window.activeRoomCode = null;
     window.latestRoomData = null;
+    document.body.classList.remove('in-exam');
     document.getElementById('examStage').style.display = 'none';
     document.getElementById('lobbySection').style.display = 'flex';
     const heroEl = document.getElementById('heroBannerSection');
