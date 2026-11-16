@@ -2066,7 +2066,8 @@ window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
             title = 'Latihan Mandiri TOEFL';
             saveId = 'toefl_1';
         }
-        window.examTimeRemaining = Math.max(15, window.currentQuestions.length) * 60;
+        const toeflCat = found ? found.catKey : 'structure';
+        window.examTimeRemaining = toeflCat === 'listening' ? 35 * 60 : (toeflCat === 'reading' ? 55 * 60 : 25 * 60);
     } else if (tipe === 'to_gratis') {
         const toPool = window.DATA_TRYOUT_AKBAR || [];
         window.currentQuestions = toPool.filter(q => q.paketTo === 0);
@@ -9249,15 +9250,47 @@ window.unduhPdfPaket = (sourceKey, withPembahasan = false) => {
 };
 
 window.stopToeflAudio = () => {
+    window._toeflAudioSeqId = (window._toeflAudioSeqId || 0) + 1;
     if ('speechSynthesis' in window) window.speechSynthesis.cancel();
 };
 window.playToeflAudio = (btn) => {
     if (!('speechSynthesis' in window)) return Swal.fire('Info', 'Browser Anda belum mendukung pemutar audio TTS.', 'info');
-    const script = btn?.getAttribute('data-script') || '';
+    const script = (btn?.getAttribute('data-script') || '').trim();
     if (!script) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(script);
-    u.lang = 'en-US';
-    u.rate = 0.94;
-    window.speechSynthesis.speak(u);
+    window.stopToeflAudio();
+    const seqId = window._toeflAudioSeqId;
+
+    // Split by Woman: / Man: / Narrator: without reading the labels aloud
+    const tokens = script.split(/(?=\b(?:Woman|Man|Narrator):\s*)/g).map(s => s.trim()).filter(Boolean);
+    const turns = tokens.map(tok => {
+        const m = tok.match(/^(Woman|Man|Narrator):\s*([\s\S]*)$/);
+        if (m) return { role: m[1], text: m[2].trim() };
+        return { role: 'Narrator', text: tok };
+    }).filter(t => t.text);
+
+    const voices = window.speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang));
+    const femaleVoice = voices.find(v => /female|zira|samantha|jenny|aria|google us english/i.test(v.name)) || voices[0] || null;
+    const maleVoice = voices.find(v => /male|david|mark|guy|daniel|ryan/i.test(v.name) && v !== femaleVoice) || voices[1] || femaleVoice;
+
+    let i = 0;
+    const speakNext = () => {
+        if (seqId !== window._toeflAudioSeqId || i >= turns.length) return;
+        const turn = turns[i++];
+        const u = new SpeechSynthesisUtterance(turn.text);
+        u.lang = 'en-US';
+        u.rate = 0.94;
+        if (turn.role === 'Woman') {
+            if (femaleVoice) u.voice = femaleVoice;
+            u.pitch = 1.18;
+        } else if (turn.role === 'Man') {
+            if (maleVoice) u.voice = maleVoice;
+            u.pitch = 0.84;
+        } else {
+            if (femaleVoice) u.voice = femaleVoice;
+            u.pitch = 1.0;
+        }
+        u.onend = () => { if (seqId === window._toeflAudioSeqId) setTimeout(speakNext, 260); };
+        window.speechSynthesis.speak(u);
+    };
+    speakNext();
 };
