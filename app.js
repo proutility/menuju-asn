@@ -2502,12 +2502,12 @@ function buildExamStageMarkup() {
                 ${window.currentAppMode === 'multiplayer' ? `
                     <div id="arenaLiveKlasemenSidebar"></div>
                 ` : `
-                    <div class="exam-nav-panel-head">
+                    <div class="exam-nav-panel-head" onclick="if(window.innerWidth<=900 && !event.target.closest('button')) window.toggleMobileExamNavGrid()">
                         <h4><i class="fas fa-th" style="color:var(--primary);"></i> Nomor Soal</h4>
                         <div style="display:flex; align-items:center; gap:6px;">
                             <span class="exam-nav-count" id="examNavAnsweredCount">0/0 Terjawab</span>
                             <button type="button" id="examMobileGridToggleBtn" class="exam-mobile-grid-toggle" onclick="window.toggleMobileExamNavGrid()">
-                                <i class="fas fa-chevron-down"></i> Semua
+                                <i class="fas fa-grip"></i> Buka
                             </button>
                         </div>
                     </div>
@@ -2842,6 +2842,10 @@ window.toggleRaguSoal = () => {
     if (!q) return;
     if (!window.raguAnswers) window.raguAnswers = {};
     window.raguAnswers[q.id] = !window.raguAnswers[q.id];
+    const navPanel = document.getElementById('examNavPanel');
+    if (navPanel && navPanel.classList.contains('mobile-expanded')) {
+        window.toggleMobileExamNavGrid(false);
+    }
     renderSoalSekarang();
 };
 
@@ -9360,14 +9364,16 @@ window.toggleMobileMenuDrawer = (forceOpen) => {
     drawer.setAttribute('aria-hidden', willOpen ? 'false' : 'true');
 };
 
-window.toggleMobileExamNavGrid = () => {
+window.toggleMobileExamNavGrid = (forceState) => {
     const panel = document.getElementById('examNavPanel');
     const btn = document.getElementById('examMobileGridToggleBtn');
     if (!panel) return;
-    const expanded = panel.classList.toggle('mobile-expanded');
+    const expanded = typeof forceState === 'boolean'
+        ? (panel.classList.toggle('mobile-expanded', forceState), forceState)
+        : panel.classList.toggle('mobile-expanded');
     if (btn) {
         btn.innerHTML = expanded
-            ? '<i class="fas fa-chevron-up"></i> Minimalis'
-            : '<i class="fas fa-chevron-down"></i> Semua';
+            ? '<i class="fas fa-times"></i> Tutup'
+            : '<i class="fas fa-grip"></i> Buka';
     }
 };
