@@ -371,7 +371,7 @@ window.switchAppView = (viewName) => {
         btn.classList.toggle('active', btn.getAttribute('data-view') === viewName);
     });
 
-    if (typeof window.applySidebarCollapse === 'function') {
+    if (typeof window.applySidebarCollapse === 'function' && window.innerWidth > 960) {
         if (viewName === 'persiapan') {
             window.applySidebarCollapse(true);
         } else {

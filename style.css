@@ -5945,6 +5945,10 @@ footer {
 }
 
 @media (max-width: 960px) {
+    .app-sidebar,
+    .app-shell.sidebar-collapsed .app-sidebar {
+        display: none !important;
+    }
     body.has-logged-in .asn-footer-bottom {
         padding-bottom: 78px;
     }
