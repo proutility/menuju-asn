@@ -130,11 +130,16 @@ function updateAuthUI(user) {
 
         if (btnAuth) btnAuth.style.display = 'none';
         if (userProfileEl) {
-            const tierBadge = prof.isAdmin
-                ? `<span style="background:#f59e0b; color:#0f172a; font-size:0.64rem; font-weight:800; padding:2px 7px; border-radius:999px;">ADMIN</span>`
-                : (prof.isPaid
-                    ? `<span style="background:#10b981; color:white; font-size:0.64rem; font-weight:800; padding:2px 7px; border-radius:999px;">${tierText}</span>`
-                    : `<span style="background:rgba(255,255,255,0.18); color:#cbd5e1; font-size:0.64rem; font-weight:700; padding:2px 7px; border-radius:999px;">FREE</span>`);
+            const tierStyleMap = {
+                ADMIN: 'background:linear-gradient(135deg,#fde047 0%,#f59e0b 100%); color:#0f172a; border:1px solid #fbbf24;',
+                GOLD: 'background:linear-gradient(135deg,#fef08a 0%,#eab308 100%); color:#713f12; border:1px solid #facc15;',
+                SILVER: 'background:linear-gradient(135deg,#f1f5f9 0%,#cbd5e1 100%); color:#0f172a; border:1px solid #e2e8f0;',
+                BRONZE: 'background:linear-gradient(135deg,#cd7f32 0%,#8c4a16 100%); color:#ffffff; border:1px solid #d99b66;',
+                SATUAN: 'background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%); color:#ffffff; border:1px solid #60a5fa;',
+                FREE: 'background:rgba(255,255,255,0.18); color:#cbd5e1;'
+            };
+            const badgeStyle = tierStyleMap[tierText] || (prof.isPaid ? tierStyleMap.BRONZE : tierStyleMap.FREE);
+            const tierBadge = `<span style="${badgeStyle} font-size:0.64rem; font-weight:800; padding:2px 8px; border-radius:999px; letter-spacing:0.3px;">${tierText}</span>`;
 
             userProfileEl.style.display = 'flex';
             userProfileEl.innerHTML = `
