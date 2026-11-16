@@ -784,11 +784,11 @@ window.renderTryoutPaketCards = () => {
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
     const configs = [
         { no: 0, tierAttr: 'free', badgeLeft: 'GRATIS • SEMUA AKUN', badgeRight: 'TRYOUT GRATIS', icon: 'fa-laptop-code', iconColor: 'blue', title: 'Tryout Gratis (Simulasi SKD)', sub: '110 Soal Pilihan • 100 Menit • TWK + TIU + TKP', desc: 'Simulasi Akbar SKD gratis untuk semua akun (30 TWK, 35 TIU, 45 TKP) lengkap dengan evaluasi Passing Grade BKN.', minTierLabel: 'Gratis Semua Akun', buyers: '999+' },
-        { no: 1, tierAttr: 'paid', badgeLeft: 'BRONZE • SILVER • GOLD', badgeRight: 'TO AKBAR 1', icon: 'fa-fire', iconColor: 'gold', title: 'TO Akbar #1 — SKD HOTS 2026', sub: '110 Soal • 100 Menit • Standar BKN', desc: 'Tryout Akbar ke-1 dengan kombinasi soal HOTS TWK, TIU, dan TKP berbobot 1–5 + analisis Brankas Pembahasan.', minTierLabel: 'Paket Bronze (Rp 49.999) / Silver / Gold', buyers: '620+' },
-        { no: 2, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 2', icon: 'fa-bolt', iconColor: 'gold', title: 'TO Akbar #2 — SKD Prediksi 2026', sub: '110 Soal • 100 Menit • Format FR 2026', desc: 'Tryout Akbar ke-2 mencakup soal penalaran kasuistis, numerik tabel/matriks, serta evaluasi nilai subtes otomatis.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '510+' },
-        { no: 3, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 3', icon: 'fa-award', iconColor: 'gold', title: 'TO Akbar #3 — SKD Intensif 2026', sub: '110 Soal • 100 Menit • Batch FR 2026', desc: 'Tryout Akbar ke-3 dengan tingkat kesulitan HOTS lanjutan, soal Kecukupan Data TIU & studi kasus TKP Anti-Radikalisme.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '475+' },
-        { no: 4, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 4', icon: 'fa-crown', iconColor: 'gold', title: 'TO Akbar #4 — SKD Sultan All-In', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar ke-4 eksklusif Paket Gold dengan komposisi soal Batch 2 FR 2026 (Figural 9 Kotak, Matriks & HOTS).', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '390+' },
-        { no: 5, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 5', icon: 'fa-trophy', iconColor: 'gold', title: 'TO Akbar #5 — Grand Final SKD 2027', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar pamungkas ke-5 khusus Gold untuk menguji kesiapan penuh menembus Passing Grade & SKB CASN 2027.', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '365+' }
+        { no: 1, tierAttr: 'paid', badgeLeft: 'BRONZE • SILVER • GOLD', badgeRight: 'TO AKBAR 1', icon: 'fa-fire', iconColor: 'gold', title: 'TO Akbar #1 — SKD HOTS 2026', sub: '110 Soal • 100 Menit • Standar BKN', desc: 'Tryout Akbar ke-1 dengan kombinasi soal HOTS TWK, TIU, dan TKP berbobot 1–5 + analisis Brankas Pembahasan.', minTierLabel: 'Paket Bronze', buyers: '620+' },
+        { no: 2, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 2', icon: 'fa-bolt', iconColor: 'gold', title: 'TO Akbar #2 — SKD Prediksi 2026', sub: '110 Soal • 100 Menit • Format FR 2026', desc: 'Tryout Akbar ke-2 mencakup soal penalaran kasuistis, numerik tabel/matriks, serta evaluasi nilai subtes otomatis.', minTierLabel: 'Paket Silver', buyers: '510+' },
+        { no: 3, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 3', icon: 'fa-award', iconColor: 'gold', title: 'TO Akbar #3 — SKD Intensif 2026', sub: '110 Soal • 100 Menit • Batch FR 2026', desc: 'Tryout Akbar ke-3 dengan tingkat kesulitan HOTS lanjutan, soal Kecukupan Data TIU & studi kasus TKP Anti-Radikalisme.', minTierLabel: 'Paket Silver', buyers: '475+' },
+        { no: 4, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 4', icon: 'fa-crown', iconColor: 'gold', title: 'TO Akbar #4 — SKD Sultan All-In', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar ke-4 eksklusif Paket Gold dengan komposisi soal Batch 2 FR 2026 (Figural 9 Kotak, Matriks & HOTS).', minTierLabel: 'Paket Gold', buyers: '390+' },
+        { no: 5, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 5', icon: 'fa-trophy', iconColor: 'gold', title: 'TO Akbar #5 — Grand Final SKD 2027', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar pamungkas ke-5 khusus Gold untuk menguji kesiapan penuh menembus Passing Grade & SKB CASN 2027.', minTierLabel: 'Paket Gold', buyers: '365+' }
     ];
 
     grid.innerHTML = configs.map(c => {
@@ -846,7 +846,7 @@ function renderSubtes90PaketCards(subtes) {
 
         const ctaHtml = hasAccess
             ? `<button class="btn-card ${tierMeta.btnCls}" onclick="window.mulaiSingleplayer('${subtes}', ${i})"><i class="fas fa-play"></i> Mulai Latihan</button>`
-            : `<button class="btn-card ${tierMeta.btnCls}" onclick="window.bukaModalUpgrade('${upper} Paket #${i}${isBatch2 ? ' (FR 2026)' : ''}', 'Paket ${tierMeta.label} (#1–#17 Bronze • #1–#45 Silver • #1–#90 Gold)')"><i class="fas fa-lock"></i> ${tierMeta.label}</button>`;
+            : `<button class="btn-card ${tierMeta.btnCls}" onclick="window.bukaModalUpgrade('${upper} Paket #${i}${isBatch2 ? ' (FR 2026)' : ''}', 'Paket ${tierMeta.label}')"><i class="fas fa-lock"></i> ${tierMeta.label}</button>`;
 
         let iconHtml = '';
         let subLine = '';
@@ -1521,16 +1521,41 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
     Swal.fire({
         title: `🔒 ${namaFitur}`,
         html: `
-            <p style="font-size:0.9rem; color:#475569; margin-bottom:10px;">
-                Fitur ini tersedia khusus untuk paket <b>${infoHarga}</b>.
+            <p style="font-size:0.92rem; color:#334155; margin-bottom:12px;">
+                Akses ini tersedia khusus untuk <b>${infoHarga}</b>.
             </p>
-            <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px; font-size:0.82rem; color:#92400e;">
-                💡 Hubungi Admin untuk aktivasi paket &amp; langsung buka seluruh akses belajar SKD 2026.
+            <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#475569; line-height:1.5; text-align:left;">
+                <div style="margin-bottom:4px;">👑 <b>Paket Langganan:</b> Upgrade ke <b>${infoHarga}</b> untuk buka ratusan paket sekaligus.</div>
+                <div>💳 <b>Opsi Eceran:</b> Tidak ingin langganan? Tersedia opsi beli satuan <b>Rp 5.000 / Paket (TO)</b>.</div>
             </div>
         `,
         icon: 'info',
-        confirmButtonText: 'Mengerti',
-        confirmButtonColor: '#1e3a8a'
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: '👑 Lihat Paket',
+        denyButtonText: '💳 Beli Rp 5.000 / TO',
+        cancelButtonText: 'Tutup',
+        confirmButtonColor: '#1e3a8a',
+        denyButtonColor: '#d97706'
+    }).then(res => {
+        if (res.isConfirmed) {
+            if (typeof window.switchAppView === 'function') window.switchAppView('upgrade');
+        } else if (res.isDenied) {
+            Swal.fire({
+                icon: 'info',
+                title: '💳 Pembelian Satuan Rp 5.000 / TO',
+                html: `
+                    <p style="font-size:0.88rem; color:#334155; margin-bottom:10px;">
+                        Fitur pembayaran eceran otomatis <b>Rp 5.000 per paket/TO</b> via <b>Xendit</b> (QRIS, E-Wallet &amp; Virtual Account) sedang dalam tahap integrasi akhir dan akan segera aktif!
+                    </p>
+                    <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px; font-size:0.8rem; color:#92400e;">
+                        💡 Sementara menunggu rilis Xendit, kamu juga bisa memilih paket <b>Bronze / Silver / Gold</b> atau hubungi Admin.
+                    </div>
+                `,
+                confirmButtonText: 'Siap, Mengerti',
+                confirmButtonColor: '#1e3a8a'
+            });
+        }
     });
 };
 
