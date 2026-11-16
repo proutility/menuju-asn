@@ -5323,3 +5323,70 @@ footer {
     background: #ef4444;
     color: #ffffff;
 }
+
+/* TIER BADGE MAHKOTA & TOMBOL MULAI LATIHAN (BRONZE / SILVER / GOLD) */
+.badge-crown-only {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 26px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    flex-shrink: 0;
+}
+
+.badge-crown-only.tier-bronze {
+    background: linear-gradient(135deg, #f3e2d0 0%, #e7c6a5 100%);
+    color: #854d0e;
+    border: 1px solid #c28853;
+}
+
+.badge-crown-only.tier-silver {
+    background: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
+    color: #334155;
+    border: 1px solid #94a3b8;
+}
+
+.badge-crown-only.tier-gold {
+    background: linear-gradient(135deg, #fef08a 0%, #facc15 100%);
+    color: #854d0e;
+    border: 1px solid #eab308;
+    box-shadow: 0 2px 6px rgba(234, 179, 8, 0.28);
+}
+
+.btn-card.tier-btn-bronze {
+    background: linear-gradient(135deg, #f5ebe0 0%, #e6ccb2 100%);
+    color: #7c3f12;
+    border: 1.5px solid #b07442;
+}
+
+.btn-card.tier-btn-bronze:hover {
+    background: linear-gradient(135deg, #9a5b25 0%, #7c3f12 100%);
+    color: #ffffff;
+    border-color: #7c3f12;
+}
+
+.btn-card.tier-btn-silver {
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    color: #334155;
+    border: 1.5px solid #94a3b8;
+}
+
+.btn-card.tier-btn-silver:hover {
+    background: linear-gradient(135deg, #64748b 0%, #475569 100%);
+    color: #ffffff;
+    border-color: #475569;
+}
+
+.btn-card.tier-btn-gold {
+    background: linear-gradient(135deg, #fef9c3 0%, #fde047 100%);
+    color: #854d0e;
+    border: 1.5px solid #eab308;
+}
+
+.btn-card.tier-btn-gold:hover {
+    background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%);
+    color: #ffffff;
+    border-color: #ca8a04;
+}

@@ -754,10 +754,14 @@ function hasSubtesPaketAccess(prof, subtes, paketNo) {
     return true;
 }
 
+function getSubtesTierMeta(paketNo) {
+    if (paketNo > 45) return { key: 'gold', label: 'Gold', badgeCls: 'tier-gold', btnCls: 'tier-btn-gold' };
+    if (paketNo > 17) return { key: 'silver', label: 'Silver', badgeCls: 'tier-silver', btnCls: 'tier-btn-silver' };
+    return { key: 'bronze', label: 'Bronze', badgeCls: 'tier-bronze', btnCls: 'tier-btn-bronze' };
+}
+
 function getLockedSubtesLabel(subtesUpper, paketNo) {
-    if (paketNo > 45) return `Khusus Gold (#${paketNo})`;
-    if (paketNo > 17) return `Min. Silver (#${paketNo})`;
-    return `Buka Paket ${subtesUpper} #${paketNo}`;
+    return getSubtesTierMeta(paketNo).label;
 }
 
 function hasTryoutPaketAccess(prof, toNo) {
@@ -781,9 +785,9 @@ window.renderTryoutPaketCards = () => {
     const configs = [
         { no: 0, tierAttr: 'free', badgeLeft: 'GRATIS • SEMUA AKUN', badgeRight: 'TO 0 • TRYOUT FULL', icon: 'fa-laptop-code', iconColor: 'blue', title: 'TO 0 – Gratis (Simulasi SKD)', sub: '110 Soal Pilihan • 100 Menit • TWK + TIU + TKP', desc: 'Simulasi Akbar SKD gratis untuk semua akun (30 TWK, 35 TIU, 45 TKP) lengkap dengan evaluasi Passing Grade BKN.', minTierLabel: 'Gratis Semua Akun', buyers: '999+' },
         { no: 1, tierAttr: 'paid', badgeLeft: 'BRONZE • SILVER • GOLD', badgeRight: 'TO AKBAR 1', icon: 'fa-fire', iconColor: 'gold', title: 'TO Akbar #1 — SKD HOTS 2026', sub: '110 Soal • 100 Menit • Standar BKN', desc: 'Tryout Akbar ke-1 dengan kombinasi soal HOTS TWK, TIU, dan TKP berbobot 1–5 + analisis Brankas Pembahasan.', minTierLabel: 'Paket Bronze (Rp 49.999) / Silver / Gold', buyers: '620+' },
-        { no: 2, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 2', icon: 'fa-bolt', iconColor: 'gold', title: 'TO Akbar #2 — SKD Prediksi 2026', sub: '110 Soal • 100 Menit • Format 2026 Baru', desc: 'Tryout Akbar ke-2 mencakup soal penalaran kasuistis, numerik tabel/matriks, serta evaluasi nilai subtes otomatis.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '510+' },
-        { no: 3, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 3', icon: 'fa-award', iconColor: 'gold', title: 'TO Akbar #3 — SKD Intensif 2026', sub: '110 Soal • 100 Menit • Batch 2026 Baru', desc: 'Tryout Akbar ke-3 dengan tingkat kesulitan HOTS lanjutan, soal Kecukupan Data TIU & studi kasus TKP Anti-Radikalisme.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '475+' },
-        { no: 4, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 4', icon: 'fa-crown', iconColor: 'gold', title: 'TO Akbar #4 — SKD Sultan All-In', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar ke-4 eksklusif Paket Gold dengan komposisi soal Batch 2 2026 Baru (Figural 9 Kotak, Matriks & HOTS).', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '390+' },
+        { no: 2, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 2', icon: 'fa-bolt', iconColor: 'gold', title: 'TO Akbar #2 — SKD Prediksi 2026', sub: '110 Soal • 100 Menit • Format FR 2026', desc: 'Tryout Akbar ke-2 mencakup soal penalaran kasuistis, numerik tabel/matriks, serta evaluasi nilai subtes otomatis.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '510+' },
+        { no: 3, tierAttr: 'paid', badgeLeft: 'SILVER • GOLD', badgeRight: 'TO AKBAR 3', icon: 'fa-award', iconColor: 'gold', title: 'TO Akbar #3 — SKD Intensif 2026', sub: '110 Soal • 100 Menit • Batch FR 2026', desc: 'Tryout Akbar ke-3 dengan tingkat kesulitan HOTS lanjutan, soal Kecukupan Data TIU & studi kasus TKP Anti-Radikalisme.', minTierLabel: 'Paket Silver (Rp 74.999) / Gold (Rp 99.999)', buyers: '475+' },
+        { no: 4, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 4', icon: 'fa-crown', iconColor: 'gold', title: 'TO Akbar #4 — SKD Sultan All-In', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar ke-4 eksklusif Paket Gold dengan komposisi soal Batch 2 FR 2026 (Figural 9 Kotak, Matriks & HOTS).', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '390+' },
         { no: 5, tierAttr: 'paid', badgeLeft: 'KHUSUS GOLD', badgeRight: 'TO AKBAR 5', icon: 'fa-trophy', iconColor: 'gold', title: 'TO Akbar #5 — Grand Final SKD 2027', sub: '110 Soal • 100 Menit • Eksklusif Gold', desc: 'Tryout Akbar pamungkas ke-5 khusus Gold untuk menguji kesiapan penuh menembus Passing Grade & SKB CASN 2027.', minTierLabel: 'Paket Gold (Rp 99.999)', buyers: '365+' }
     ];
 
@@ -794,7 +798,7 @@ window.renderTryoutPaketCards = () => {
         const cardCls = `card-mode packet-card ${isFree ? 'free' : 'paid'}${c.no >= 4 ? ' gold-border' : ''}`;
         const ctaHtml = unlocked
             ? `<button class="btn-card ${isFree ? 'free-cta' : 'paid-cta'}" onclick="window.mulaiSingleplayer('${isFree ? 'to_gratis' : 'to_akbar'}', ${c.no})"><i class="fas fa-play"></i> Mulai ${c.no === 0 ? 'TO 0 Gratis' : 'TO Akbar #' + c.no}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('${c.title}', '${c.minTierLabel}')"><i class="fas fa-lock"></i> Terkunci • ${c.no === 1 ? 'Min. Bronze' : (c.no <= 3 ? 'Min. Silver' : 'Khusus Gold')}</button>`;
+            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('${c.title}', '${c.minTierLabel}')"><i class="fas fa-lock"></i> ${c.no === 1 ? 'Bronze' : (c.no <= 3 ? 'Silver' : 'Gold')}</button>`;
 
         return `
             <div class="${cardCls}" data-tier="${c.tierAttr}">
@@ -819,43 +823,72 @@ window.renderTryoutPaketCards = () => {
     }).join('');
 };
 
-window.renderTwk40PaketCards = () => {
+function renderSubtes90PaketCards(subtes) {
     const grid = document.getElementById('paketSoalGrid');
     if (!grid) return;
 
-    grid.querySelectorAll('.twk-40-card').forEach(el => el.remove());
+    const cardClass = `${subtes}-40-card`;
+    grid.querySelectorAll(`.${cardClass}`).forEach(el => el.remove());
 
     const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
     const fragment = document.createDocumentFragment();
+    const upper = subtes.toUpperCase();
 
     for (let i = 1; i <= 90; i++) {
         const isBatch2 = i > 40;
-        const hasAccess = hasSubtesPaketAccess(prof, 'twk', i);
+        const hasAccess = hasSubtesPaketAccess(prof, subtes, i);
+        const tierMeta = getSubtesTierMeta(i);
         const card = document.createElement('div');
-        card.className = 'card-mode packet-card paid twk-40-card';
+        card.className = `card-mode packet-card paid ${cardClass}`;
         card.setAttribute('data-tier', 'paid');
         card.setAttribute('data-cat', 'subtes');
-        card.setAttribute('data-subtes', 'twk');
+        card.setAttribute('data-subtes', subtes);
 
         const ctaHtml = hasAccess
-            ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('twk', ${i})"><i class="fas fa-play"></i> Mulai Latihan TWK #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TWK Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.200 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (#1–#17) / Silver (#1–#45) / Gold (#1–#90)')"><i class="fas fa-lock"></i> ${getLockedSubtesLabel('TWK', i)}</button>`;
+            ? `<button class="btn-card ${tierMeta.btnCls}" onclick="window.mulaiSingleplayer('${subtes}', ${i})"><i class="fas fa-play"></i> Mulai Latihan</button>`
+            : `<button class="btn-card ${tierMeta.btnCls}" onclick="window.bukaModalUpgrade('${upper} Paket #${i}${isBatch2 ? ' (FR 2026)' : ''}', 'Paket ${tierMeta.label} (#1–#17 Bronze • #1–#45 Silver • #1–#90 Gold)')"><i class="fas fa-lock"></i> ${tierMeta.label}</button>`;
+
+        let iconHtml = '';
+        let subLine = '';
+        let descHtml = '';
+        let frBadge = '';
+
+        if (subtes === 'twk') {
+            iconHtml = '<div class="mode-icon blue"><i class="fas fa-landmark"></i></div>';
+            subLine = '<span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">30 Soal • 30 Menit • 5 Pilar TWK</span>';
+            descHtml = `Simulasi TWK 30 soal lengkap (Nasionalisme, Integritas, Bela Negara, Pilar Negara, Bahasa Indonesia • Paket ${i} dari 90).`;
+            frBadge = isBatch2 ? ' <span style="font-size:0.65rem;background:#dbeafe;color:#1d4ed8;padding:2px 6px;border-radius:999px;vertical-align:middle;">FR 2026</span>' : '';
+        } else if (subtes === 'tiu') {
+            iconHtml = '<div class="mode-icon gold"><i class="fas fa-brain"></i></div>';
+            subLine = `<span style="font-size:0.75rem; color:#b45309; font-weight:700;">35 Soal • 35 Menit • ${isBatch2 ? 'Kecukupan Data &amp; Matriks' : 'Mode Lama &amp; Baru'}</span>`;
+            descHtml = isBatch2
+                ? `Format TIU SKD FR 2026: Kecukupan Data, Matriks Deret, Tabel Kombinasi, Argumen &amp; Figural 9 Kotak (Paket ${i} dari 90).`
+                : `Simulasi TIU 35 soal seimbang (12 Verbal, 16 Numerik, 7 Figural SVG • Paket ${i} dari 90).`;
+            frBadge = isBatch2 ? ' <span style="font-size:0.65rem;background:#dbeafe;color:#1d4ed8;padding:2px 6px;border-radius:999px;vertical-align:middle;">FR 2026</span>' : '';
+        } else {
+            iconHtml = '<div class="mode-icon green"><i class="fas fa-user-check"></i></div>';
+            subLine = '<span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 45 Menit • 6 Topik Seimbang</span>';
+            descHtml = `Simulasi TKP 45 soal seimbang semua aspek (Paket ${i} dari 90 • Bank Soal TKP).`;
+            frBadge = isBatch2 ? ' <span style="font-size:0.65rem;background:#dcfce7;color:#15803d;padding:2px 6px;border-radius:999px;vertical-align:middle;">FR 2026</span>' : '';
+        }
+
+        const buyerCount = subtes === 'twk' ? (135 + ((i * 17) % 240)) : (subtes === 'tiu' ? (160 + ((i * 23) % 280)) : (145 + ((i * 19) % 250)));
 
         card.innerHTML = `
             <div>
                 <div class="packet-badges">
-                    <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
-                    <span class="badge-cat">${isBatch2 ? 'TWK 2026 BARU' : 'TWK'} • PAKET ${i}</span>
-                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${135 + ((i * 17) % 240)}+</span>
+                    <span class="badge-crown-only ${tierMeta.badgeCls}" title="Paket ${tierMeta.label}"><i class="fas fa-crown"></i></span>
+                    <span class="badge-cat">${upper} • PAKET ${i}</span>
+                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${buyerCount}+</span>
                 </div>
                 <div class="card-mode-header">
-                    <div class="mode-icon blue"><i class="fas fa-landmark"></i></div>
+                    ${iconHtml}
                     <div>
-                        <h3>TWK Paket #${i}${isBatch2 ? ' <span style="font-size:0.65rem;background:#dbeafe;color:#1d4ed8;padding:2px 6px;border-radius:999px;vertical-align:middle;">2026 BARU</span>' : ''}</h3>
-                        <span style="font-size:0.75rem; color:#1d4ed8; font-weight:700;">30 Soal • 30 Menit • 5 Pilar TWK</span>
+                        <h3>${upper} Paket #${i}${frBadge}</h3>
+                        ${subLine}
                     </div>
                 </div>
-                <p>Simulasi TWK 30 soal lengkap (Nasionalisme, Integritas, Bela Negara, Pilar Negara, Bahasa Indonesia • Paket ${i} dari 90).</p>
+                <p>${descHtml}</p>
             </div>
             ${ctaHtml}
         `;
@@ -868,109 +901,11 @@ window.renderTwk40PaketCards = () => {
         const activeChip = document.querySelector('#view-cat .filter-chip.active');
         window.filterPaketSoal(window.activePaketSoalFilter, activeChip);
     }
-};
+}
 
-window.renderTiu40PaketCards = () => {
-    const grid = document.getElementById('paketSoalGrid');
-    if (!grid) return;
-
-    grid.querySelectorAll('.tiu-40-card').forEach(el => el.remove());
-
-    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const fragment = document.createDocumentFragment();
-
-    for (let i = 1; i <= 90; i++) {
-        const isBatch2 = i > 40;
-        const hasAccess = hasSubtesPaketAccess(prof, 'tiu', i);
-        const card = document.createElement('div');
-        card.className = 'card-mode packet-card paid tiu-40-card';
-        card.setAttribute('data-tier', 'paid');
-        card.setAttribute('data-cat', 'subtes');
-        card.setAttribute('data-subtes', 'tiu');
-
-        const ctaHtml = hasAccess
-            ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tiu', ${i})"><i class="fas fa-play"></i> Mulai Latihan TIU #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TIU Paket #${i} (Batch ${isBatch2 ? '2 • 2026 Baru' : '1'})', 'Paket Satuan (Rp 5.000) / Bronze (#1–#17) / Silver (#1–#45) / Gold (#1–#90)')"><i class="fas fa-lock"></i> ${getLockedSubtesLabel('TIU', i)}</button>`;
-
-        card.innerHTML = `
-            <div>
-                <div class="packet-badges">
-                    <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
-                    <span class="badge-cat">${isBatch2 ? 'TIU 2026 BARU' : 'TIU'} • PAKET ${i}</span>
-                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${160 + ((i * 23) % 280)}+</span>
-                </div>
-                <div class="card-mode-header">
-                    <div class="mode-icon gold"><i class="fas fa-brain"></i></div>
-                    <div>
-                        <h3>TIU Paket #${i}${isBatch2 ? ' <span style="font-size:0.65rem;background:#dbeafe;color:#1d4ed8;padding:2px 6px;border-radius:999px;vertical-align:middle;">2026 BARU</span>' : ''}</h3>
-                        <span style="font-size:0.75rem; color:#b45309; font-weight:700;">35 Soal • 35 Menit • ${isBatch2 ? 'Kecukupan Data &amp; Matriks' : 'Mode Lama &amp; Baru'}</span>
-                    </div>
-                </div>
-                <p>${isBatch2 ? `Format TIU SKD Baru 2026: Kecukupan Data, Matriks Deret, Tabel Kombinasi, Argumen &amp; Figural 9 Kotak (Paket ${i} dari 90).` : `Simulasi TIU 35 soal seimbang (12 Verbal, 16 Numerik, 7 Figural SVG • Paket ${i} dari 90).`}</p>
-            </div>
-            ${ctaHtml}
-        `;
-        fragment.appendChild(card);
-    }
-
-    grid.appendChild(fragment);
-
-    if (window.activePaketSoalFilter && window.activePaketSoalFilter !== 'all') {
-        const activeChip = document.querySelector('#view-cat .filter-chip.active');
-        window.filterPaketSoal(window.activePaketSoalFilter, activeChip);
-    }
-};
-
-window.renderTkp40PaketCards = () => {
-    const grid = document.getElementById('paketSoalGrid');
-    if (!grid) return;
-
-    grid.querySelectorAll('.tkp-40-card').forEach(el => el.remove());
-
-    const prof = window.currentUserProfile || { tier: 'free', isPaid: false, isAdmin: false };
-    const fragment = document.createDocumentFragment();
-
-    for (let i = 1; i <= 90; i++) {
-        const isBatch2 = i > 40;
-        const hasAccess = hasSubtesPaketAccess(prof, 'tkp', i);
-        const card = document.createElement('div');
-        card.className = 'card-mode packet-card paid tkp-40-card';
-        card.setAttribute('data-tier', 'paid');
-        card.setAttribute('data-cat', 'subtes');
-        card.setAttribute('data-subtes', 'tkp');
-
-        const ctaHtml = hasAccess
-            ? `<button class="btn-card paid-cta" onclick="window.mulaiSingleplayer('tkp', ${i})"><i class="fas fa-play"></i> Mulai Latihan TKP #${i}</button>`
-            : `<button class="btn-card paid-cta" onclick="window.bukaModalUpgrade('TKP Paket #${i} (${isBatch2 ? 'Batch 2 • 2026 Baru' : '1.800 Soal'})', 'Paket Satuan (Rp 5.000) / Bronze (#1–#17) / Silver (#1–#45) / Gold (#1–#90)')"><i class="fas fa-lock"></i> ${getLockedSubtesLabel('TKP', i)}</button>`;
-
-        card.innerHTML = `
-            <div>
-                <div class="packet-badges">
-                    <span class="badge-access paid"><i class="fas fa-crown"></i> PAKET BERBAYAR</span>
-                    <span class="badge-cat">${isBatch2 ? 'TKP 2026 BARU' : 'TKP'} • PAKET ${i}</span>
-                    <span class="pkg-buyer-pill" style="margin-left:auto;" title="Peserta telah mengerjakan"><i class="fas fa-user-check"></i> ${145 + ((i * 19) % 250)}+</span>
-                </div>
-                <div class="card-mode-header">
-                    <div class="mode-icon green"><i class="fas fa-user-check"></i></div>
-                    <div>
-                        <h3>TKP Paket #${i}${isBatch2 ? ' <span style="font-size:0.65rem;background:#dcfce7;color:#15803d;padding:2px 6px;border-radius:999px;vertical-align:middle;">2026 BARU</span>' : ''}</h3>
-                        <span style="font-size:0.75rem; color:#059669; font-weight:700;">45 Soal • 45 Menit • 6 Topik Seimbang</span>
-                    </div>
-                </div>
-                <p>Simulasi TKP 45 soal seimbang semua aspek (Paket ${i} dari 90 • Bank Soal TKP).</p>
-            </div>
-            ${ctaHtml}
-        `;
-        fragment.appendChild(card);
-    }
-
-    grid.appendChild(fragment);
-
-    if (window.activePaketSoalFilter && window.activePaketSoalFilter !== 'all') {
-        const activeChip = document.querySelector('#view-cat .filter-chip.active');
-        window.filterPaketSoal(window.activePaketSoalFilter, activeChip);
-    }
-};
+window.renderTwk40PaketCards = () => renderSubtes90PaketCards('twk');
+window.renderTiu40PaketCards = () => renderSubtes90PaketCards('tiu');
+window.renderTkp40PaketCards = () => renderSubtes90PaketCards('tkp');
 
 document.addEventListener('DOMContentLoaded', () => {
     window.renderTwk40PaketCards();
