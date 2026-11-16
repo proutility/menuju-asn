@@ -1953,29 +1953,15 @@ window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
             saveId = 'tkp_1';
         }
     } else if (tipe === 'to_gratis') {
-        const twkG = (window.DATA_TWK_GRATIS || []).slice(0, 30);
-        const tiuG = (window.DATA_TIU_GRATIS || []).slice(0, 35);
-        const tkpG = (window.DATA_TKP_GRATIS || []).slice(0, 45);
-        window.currentQuestions = [...twkG, ...tiuG, ...tkpG];
+        const toPool = window.DATA_TRYOUT_AKBAR || [];
+        window.currentQuestions = toPool.filter(q => q.paketTo === 0);
         window.examTimeRemaining = 100 * 60;
         title = 'TO 0 – Gratis (Simulasi SKD 110 Soal)';
         saveId = 'to_gratis_0';
     } else if (tipe === 'to_akbar') {
         const no = Math.max(1, Math.min(5, Number(paketNo) || 1));
-        const allPaidTwk = rawData.filter(q => q.kategori === 'TWK' && /^twk_\d{4}$/.test(q.id));
-        const allPaidTiu = rawData.filter(q => q.kategori === 'TIU' && /^tiu_\d{4}$/.test(q.id));
-        const allTkp = rawData.filter(q => q.kategori === 'TKP');
-        const tkpPackages = buildBalancedTkpPackages(allTkp, 40, 45);
-        const twkSet = no >= 4 && (window.DATA_TWK_BATCH2 || []).length >= 30
-            ? (window.DATA_TWK_BATCH2 || []).slice((no - 4) * 30, (no - 3) * 30)
-            : allPaidTwk.slice((no + 10) * 30, (no + 11) * 30);
-        const tiuSet = no >= 3 && (window.DATA_TIU_BATCH2 || []).length >= 35
-            ? (window.DATA_TIU_BATCH2 || []).slice((no - 3) * 35, (no - 2) * 35)
-            : allPaidTiu.slice((no + 10) * 35, (no + 11) * 35);
-        const tkpSet = no >= 4 && (window.DATA_TKP_BATCH2 || []).length >= 45
-            ? (window.DATA_TKP_BATCH2 || []).slice((no - 4) * 45, (no - 3) * 45)
-            : (tkpPackages[no + 10] || allTkp.slice(0, 45));
-        window.currentQuestions = [...twkSet, ...tiuSet, ...tkpSet];
+        const toPool = window.DATA_TRYOUT_AKBAR || [];
+        window.currentQuestions = toPool.filter(q => q.paketTo === no);
         window.examTimeRemaining = 100 * 60;
         title = `TO Akbar #${no} (Simulasi SKD 2026)`;
         saveId = `to_akbar_${no}`;
