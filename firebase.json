@@ -38,6 +38,20 @@
         }
       },
       {
+        "source": "/api/midtrans",
+        "function": {
+          "functionId": "midtransApi",
+          "region": "asia-southeast2"
+        }
+      },
+      {
+        "source": "/api/midtrans-webhook",
+        "function": {
+          "functionId": "midtransWebhook",
+          "region": "asia-southeast2"
+        }
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

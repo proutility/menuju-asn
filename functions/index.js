@@ -499,3 +499,290 @@ exports.menujuAsnBot = onRequest(
     }
   }
 );
+
+
+// ==========================================================
+// MIDTRANS SNAP & WEBHOOK INTEGRATION (SANDBOX / PRODUCTION)
+// ==========================================================
+const MIDTRANS_PACKAGES = {
+  satuan_paket: { name: "Paket Satuan (1 Paket Latihan)", price: 9999, grantType: "satuan" },
+  satuan_to: { name: "Tryout Akbar Satuan", price: 24999, grantType: "satuan" },
+  bronze: { name: "Paket Bronze Menuju ASN", price: 49999, grantType: "tier", tier: "bronze" },
+  silver: { name: "Paket Silver Menuju ASN", price: 74999, grantType: "tier", tier: "silver" },
+  gold: { name: "Paket Gold Menuju ASN (All-In)", price: 99999, grantType: "tier", tier: "gold" },
+  platinum: { name: "Paket Platinum Menuju ASN (VIP)", price: 149999, grantType: "tier", tier: "platinum" }
+};
+
+async function getMidtransConfig() {
+  const db = getDb();
+  const snap = await db.collection("cpns_settings").doc("midtrans_config").get();
+  const d = snap.exists ? snap.data() : {};
+  const serverKey = String(d?.serverKey || process.env.MIDTRANS_SERVER_KEY || "").trim();
+  const clientKey = String(d?.clientKey || process.env.MIDTRANS_CLIENT_KEY || "").trim();
+  const signatureKey = String(d?.signatureKey || process.env.MIDTRANS_SIGNATURE_KEY || "").trim();
+  const isProduction = Boolean(d?.isProduction);
+  return { serverKey, clientKey, signatureKey, isProduction };
+}
+
+function getMidtransUrls(isProduction) {
+  return isProduction
+    ? {
+        snap: "https://app.midtrans.com/snap/v1/transactions",
+        api: "https://api.midtrans.com/v2"
+      }
+    : {
+        snap: "https://app.sandbox.midtrans.com/snap/v1/transactions",
+        api: "https://api.sandbox.midtrans.com/v2"
+      };
+}
+
+async function activatePaidOrder(db, admin, orderId, orderData, notifPayload = {}) {
+  if (!orderData || !orderData.uid) return false;
+  if (orderData.status === "paid") return true;
+
+  await db.collection("cpns_orders").doc(orderId).set({
+    status: "paid",
+    paidAtMs: Date.now(),
+    paymentType: String(notifPayload.payment_type || ""),
+    transactionStatus: String(notifPayload.transaction_status || "settlement")
+  }, { merge: true });
+
+  const userRef = db.collection("cpns_users").doc(orderData.uid);
+  if (orderData.grantType === "tier" && orderData.tier) {
+    await userRef.set({
+      isPaid: true,
+      tier: orderData.tier,
+      paidVia: "midtrans",
+      lastOrderId: orderId,
+      updatedAtMs: Date.now()
+    }, { merge: true });
+  } else if (orderData.grantType === "satuan") {
+    await userRef.set({
+      satuanCredits: admin.firestore.FieldValue.increment(1),
+      paidVia: "midtrans",
+      lastOrderId: orderId,
+      updatedAtMs: Date.now()
+    }, { merge: true });
+  }
+  return true;
+}
+
+exports.midtransApi = onRequest(
+  { region: "asia-southeast2", cors: true, maxInstances: 20, memory: "256MiB", timeoutSeconds: 30 },
+  async (req, res) => {
+    if (req.method === "OPTIONS") return res.status(204).send("");
+    if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
+
+    try {
+      const admin = getAdmin();
+      const db = getDb();
+      const body = req.body || {};
+      const action = String(body.action || "").trim();
+      const cfg = await getMidtransConfig();
+
+      if (action === "config") {
+        return res.json({
+          ok: true,
+          enabled: Boolean(cfg.serverKey),
+          isProduction: cfg.isProduction,
+          clientKey: cfg.clientKey
+        });
+      }
+
+      if (!cfg.serverKey) {
+        return res.status(503).json({
+          error: "Server Key Midtrans belum dikonfigurasi oleh Admin di Command Center."
+        });
+      }
+
+      const authHeader = req.headers.authorization || "";
+      if (!authHeader.startsWith("Bearer ")) {
+        return res.status(401).json({ error: "Silakan login terlebih dahulu." });
+      }
+      const decoded = await admin.auth().verifyIdToken(authHeader.slice(7).trim());
+      const uid = decoded.uid;
+      const email = decoded.email || "";
+      const name = decoded.name || email.split("@")[0] || "Pejuang ASN";
+      const urls = getMidtransUrls(cfg.isProduction);
+      const authBasic = "Basic " + Buffer.from(`${cfg.serverKey}:`).toString("base64");
+
+      if (action === "createTransaction") {
+        const packageId = String(body.packageId || "").trim().toLowerCase();
+        const pkg = MIDTRANS_PACKAGES[packageId];
+        if (!pkg) {
+          return res.status(400).json({ error: "Paket pembayaran tidak valid." });
+        }
+
+        const orderId = `MASN-${uid.slice(0, 6).toUpperCase()}-${Date.now()}`;
+        const snapPayload = {
+          transaction_details: {
+            order_id: orderId,
+            gross_amount: pkg.price
+          },
+          item_details: [
+            {
+              id: packageId,
+              price: pkg.price,
+              quantity: 1,
+              name: pkg.name.slice(0, 50)
+            }
+          ],
+          customer_details: {
+            first_name: name.slice(0, 50),
+            email: email || "peserta@menuju-asn.web.app"
+          },
+          callbacks: {
+            finish: "https://menuju-asn.web.app/?payment=finish"
+          }
+        };
+
+        const resp = await fetch(urls.snap, {
+          method: "POST",
+          headers: {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Authorization": authBasic
+          },
+          body: JSON.stringify(snapPayload),
+          signal: AbortSignal.timeout(15000)
+        });
+        const json = await resp.json();
+        if (!resp.ok || !json.token) {
+          const msg = (json?.error_messages || []).join(", ") || json?.status_message || `HTTP ${resp.status}`;
+          return res.status(400).json({ error: `Midtrans Error: ${msg}` });
+        }
+
+        await db.collection("cpns_orders").doc(orderId).set({
+          orderId,
+          uid,
+          email,
+          packageId,
+          packageName: pkg.name,
+          amount: pkg.price,
+          grantType: pkg.grantType,
+          tier: pkg.tier || null,
+          isProduction: cfg.isProduction,
+          status: "pending",
+          snapToken: json.token,
+          redirectUrl: json.redirect_url || "",
+          createdAtMs: Date.now()
+        });
+
+        return res.json({
+          ok: true,
+          orderId,
+          token: json.token,
+          redirectUrl: json.redirect_url || "",
+          clientKey: cfg.clientKey,
+          isProduction: cfg.isProduction,
+          packageName: pkg.name,
+          amount: pkg.price
+        });
+      }
+
+      if (action === "checkStatus") {
+        const orderId = String(body.orderId || "").trim();
+        if (!orderId) return res.status(400).json({ error: "orderId wajib diisi." });
+
+        const orderSnap = await db.collection("cpns_orders").doc(orderId).get();
+        if (!orderSnap.exists) return res.status(404).json({ error: "Order tidak ditemukan." });
+        const orderData = orderSnap.data();
+        if (orderData.uid !== uid) return res.status(403).json({ error: "Akses ditolak." });
+
+        if (orderData.status === "paid") {
+          return res.json({ ok: true, status: "paid", activated: true, tier: orderData.tier || null });
+        }
+
+        const resp = await fetch(`${urls.api}/${encodeURIComponent(orderId)}/status`, {
+          method: "GET",
+          headers: { "Accept": "application/json", "Authorization": authBasic },
+          signal: AbortSignal.timeout(12000)
+        });
+        const json = await resp.json();
+        const txStatus = String(json?.transaction_status || "").toLowerCase();
+        const fraudStatus = String(json?.fraud_status || "accept").toLowerCase();
+
+        if (txStatus === "settlement" || (txStatus === "capture" && fraudStatus === "accept")) {
+          await activatePaidOrder(db, admin, orderId, orderData, json);
+          return res.json({ ok: true, status: "paid", activated: true, tier: orderData.tier || null });
+        }
+
+        return res.json({ ok: true, status: txStatus || orderData.status, activated: false });
+      }
+
+      return res.status(400).json({ error: "Action Midtrans tidak dikenali." });
+    } catch (err) {
+      console.error("[midtransApi] Error:", err);
+      return res.status(500).json({ error: err.message || "Gagal memproses Midtrans." });
+    }
+  }
+);
+
+exports.midtransWebhook = onRequest(
+  { region: "asia-southeast2", cors: true, maxInstances: 20, memory: "256MiB", timeoutSeconds: 30 },
+  async (req, res) => {
+    if (req.method === "GET" || req.method === "HEAD" || req.method === "OPTIONS") {
+      return res.status(200).json({ ok: true, service: "midtransWebhook" });
+    }
+    if (req.method !== "POST") return res.status(405).send("Method not allowed");
+    try {
+      const admin = getAdmin();
+      const db = getDb();
+      const notif = req.body || {};
+      const orderId = String(notif.order_id || "").trim();
+      const statusCode = String(notif.status_code || "").trim();
+      const grossAmount = String(notif.gross_amount || "").trim();
+      const signatureKey = String(notif.signature_key || "").trim();
+
+      if (!orderId || !statusCode || !grossAmount || !signatureKey) {
+        return res.status(200).json({ ok: true, ping: true });
+      }
+
+      if (orderId.toLowerCase().includes("test") && !orderId.startsWith("MASN-")) {
+        return res.status(200).json({ ok: true, testPing: true });
+      }
+
+      const cfg = await getMidtransConfig();
+      if (!cfg.serverKey && !cfg.signatureKey) {
+        return res.status(200).json({ ok: true, pendingConfig: true });
+      }
+
+      const validKeys = [cfg.signatureKey, cfg.serverKey].filter(Boolean);
+      const isValidSig = validKeys.some((k) => {
+        const expectedSig = crypto
+          .createHash("sha512")
+          .update(`${orderId}${statusCode}${grossAmount}${k}`)
+          .digest("hex");
+        return expectedSig === signatureKey;
+      });
+
+      if (!isValidSig) {
+        console.warn("[midtransWebhook] Invalid signature for order:", orderId);
+        return res.status(403).json({ error: "Invalid signature" });
+      }
+
+      const orderSnap = await db.collection("cpns_orders").doc(orderId).get();
+      if (!orderSnap.exists) {
+        return res.status(200).json({ ok: true, ignored: "Order not found" });
+      }
+
+      const orderData = orderSnap.data();
+      const txStatus = String(notif.transaction_status || "").toLowerCase();
+      const fraudStatus = String(notif.fraud_status || "accept").toLowerCase();
+
+      if (txStatus === "settlement" || (txStatus === "capture" && fraudStatus === "accept")) {
+        await activatePaidOrder(db, admin, orderId, orderData, notif);
+      } else if (["expire", "cancel", "deny"].includes(txStatus)) {
+        await db.collection("cpns_orders").doc(orderId).set({
+          status: txStatus,
+          updatedAtMs: Date.now()
+        }, { merge: true });
+      }
+
+      return res.status(200).json({ ok: true });
+    } catch (err) {
+      console.error("[midtransWebhook] Error:", err);
+      return res.status(500).json({ error: err.message });
+    }
+  }
+);

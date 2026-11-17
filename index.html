@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.6.7">
+    <link rel="stylesheet" href="style.css?v=2.6.9">
 </head>
 <body>
 
@@ -1521,7 +1521,7 @@
                         <div id="ccNewsAdminList" style="margin-top:16px;"></div>
                     </div>
 
-                    <div class="cc-settings-card">
+                    <div class="cc-settings-card" style="margin-bottom:18px;">
                         <h3><i class="fas fa-robot"></i> API Key Khusus MenujuASN-BOT (Opsional)</h3>
                         <p>Secara default Cloud Function memakai key Gemini yang sudah aktif di server. Jika ingin memisahkan ke key Tier 1 lain, tempel di sini (tersimpan aman di <code>cpns_settings/ai_config</code>, tidak bisa dibaca peserta).</p>
                         <div class="cc-form-group">
@@ -1530,6 +1530,37 @@
                         </div>
                         <button class="btn-card primary" style="width:auto;" onclick="window.adminSimpanBotApiKey()">
                             <i class="fas fa-key"></i> Simpan API Key MenujuASN-BOT
+                        </button>
+                    </div>
+
+                    <div class="cc-settings-card">
+                        <h3><i class="fas fa-credit-card"></i> Integrasi Midtrans (Snap Checkout &amp; Webhook)</h3>
+                        <p>Tempel <b>Client Key</b> &amp; <b>Server Key</b> Midtrans (tersimpan aman di <code>cpns_settings/midtrans_config</code>). Gunakan <b>Sandbox</b> untuk uji coba, lalu ubah ke <b>Production</b> setelah disetujui Midtrans.</p>
+                        <div class="cc-form-group">
+                            <label for="ccMidtransEnv">Mode Environment Midtrans</label>
+                            <select id="ccMidtransEnv" style="width:100%; padding:9px 12px; border:1px solid #cbd5e1; border-radius:8px; font-size:0.86rem;">
+                                <option value="sandbox">Sandbox (Testing / Simulasi)</option>
+                                <option value="production">Production (Live Uang Asli)</option>
+                            </select>
+                        </div>
+                        <div class="cc-form-group">
+                            <label for="ccMidtransClientKey">Midtrans Client Key</label>
+                            <input type="text" id="ccMidtransClientKey" placeholder="SB-Mid-client-... atau Mid-client-..." />
+                        </div>
+                        <div class="cc-form-group">
+                            <label for="ccMidtransServerKey">Midtrans Server Key</label>
+                            <input type="password" id="ccMidtransServerKey" placeholder="SB-Mid-server-... atau Mid-server-..." />
+                        </div>
+                        <div class="cc-form-group">
+                            <label for="ccMidtransSignatureKey">Signature Secret Key (dari General Credentials)</label>
+                            <input type="password" id="ccMidtransSignatureKey" placeholder="Mid-server-... (untuk verifikasi webhook)" />
+                        </div>
+                        <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:9px 12px; margin-bottom:12px; font-size:0.78rem; color:#475569;">
+                            <b>Notification / Webhook URL (untuk Settings → Payment di Midtrans):</b><br/>
+                            <code>https://menuju-asn.web.app/api/midtrans-webhook</code>
+                        </div>
+                        <button class="btn-dash-gold" onclick="window.adminSimpanMidtransConfig()">
+                            <i class="fas fa-save"></i> Simpan Konfigurasi Midtrans
                         </button>
                     </div>
                 </div>
@@ -1688,14 +1719,14 @@
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
     <script src="data_tryout_akbar.js?v=2.6.0"></script>
-    <script src="data_toefl.js?v=2.6.7"></script>
-    <script type="module" src="app.js?v=2.6.7"></script>
+    <script src="data_toefl.js?v=2.6.9"></script>
+    <script type="module" src="app.js?v=2.6.9"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.6.7')
+                navigator.serviceWorker.register('./sw.js?v=2.6.9')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });

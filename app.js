@@ -1686,6 +1686,33 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
             </div>
         `);
 
+    const directPackageMap = {
+        'paket bronze': 'bronze',
+        'paket silver': 'silver',
+        'paket gold': 'gold',
+        'paket platinum': 'platinum'
+    };
+    const directPkgId = directPackageMap[fiturLower] || null;
+    if (directPkgId || isBannerSatuan) {
+        if (isBannerSatuan) {
+            return Swal.fire({
+                title: '💳 Pilih Pembelian Satuan',
+                html: `<p style="font-size:0.9rem; color:#334155;">Pilih jenis pembelian eceran otomatis via <b>Midtrans</b> (QRIS, VA Bank &amp; E-Wallet):</p>`,
+                showDenyButton: true,
+                showCancelButton: true,
+                confirmButtonText: '📦 1 Paket Latihan (Rp 9.999)',
+                denyButtonText: '🏆 Tryout Akbar (Rp 24.999)',
+                cancelButtonText: 'Batal',
+                confirmButtonColor: '#1e3a8a',
+                denyButtonColor: '#d97706'
+            }).then(res => {
+                if (res.isConfirmed) window.mulaiBayarMidtrans('satuan_paket');
+                else if (res.isDenied) window.mulaiBayarMidtrans('satuan_to');
+            });
+        }
+        return window.mulaiBayarMidtrans(directPkgId);
+    }
+
     Swal.fire({
         title: `🔒 ${namaFitur}`,
         html: bodyHtml,
@@ -1701,20 +1728,7 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
         if (res.isConfirmed) {
             if (typeof window.switchAppView === 'function') window.switchAppView('upgrade');
         } else if (res.isDenied && !isExclusiveTier) {
-            Swal.fire({
-                icon: 'info',
-                title: `💳 Pembelian Satuan ${satuanLabel}`,
-                html: `
-                    <p style="font-size:0.88rem; color:#334155; margin-bottom:10px;">
-                        Fitur pembayaran eceran otomatis ${satuanDesc} via <b>Xendit</b> (QRIS, E-Wallet &amp; Virtual Account) sedang dalam tahap integrasi akhir dan akan segera aktif!
-                    </p>
-                    <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:10px; font-size:0.8rem; color:#92400e;">
-                        💡 Sementara menunggu rilis Xendit, kamu juga bisa memilih paket <b>Bronze / Silver / Gold</b> atau hubungi Admin.
-                    </div>
-                `,
-                confirmButtonText: 'Siap, Mengerti',
-                confirmButtonColor: '#1e3a8a'
-            });
+            window.mulaiBayarMidtrans(isTryout ? 'satuan_to' : 'satuan_paket');
         }
     });
 };
@@ -9377,5 +9391,168 @@ window.toggleMobileExamNavGrid = (forceState) => {
         btn.innerHTML = expanded
             ? '<i class="fas fa-times"></i> Tutup'
             : '<i class="fas fa-grip"></i> Buka';
+    }
+};
+
+
+// ==========================================================
+// 13. MIDTRANS SNAP CHECKOUT & KONFIGURASI ADMIN
+// ==========================================================
+function loadMidtransSnapScript(clientKey, isProduction) {
+    return new Promise((resolve, reject) => {
+        const expectedSrc = isProduction
+            ? 'https://app.midtrans.com/snap/snap.js'
+            : 'https://app.sandbox.midtrans.com/snap/snap.js';
+        const existing = document.getElementById('midtrans-snap-script');
+        if (existing) {
+            if (existing.src === expectedSrc && typeof window.snap !== 'undefined') {
+                return resolve(window.snap);
+            }
+            existing.remove();
+            delete window.snap;
+        }
+        const s = document.createElement('script');
+        s.id = 'midtrans-snap-script';
+        s.src = expectedSrc;
+        if (clientKey) s.setAttribute('data-client-key', clientKey);
+        s.onload = () => resolve(window.snap);
+        s.onerror = () => reject(new Error('Gagal memuat script Midtrans Snap.'));
+        document.head.appendChild(s);
+    });
+}
+
+async function verifyMidtransOrderAndReload(orderId) {
+    if (!window.currentUser || !orderId) return;
+    try {
+        const idToken = await window.currentUser.getIdToken();
+        const resp = await fetch('/api/midtrans', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${idToken}`
+            },
+            body: JSON.stringify({ action: 'checkStatus', orderId })
+        });
+        const data = await resp.json().catch(() => ({}));
+        if (data.activated) {
+            await Swal.fire({
+                icon: 'success',
+                title: 'Pembayaran Berhasil! 🎉',
+                text: `Paket ${data.tier ? data.tier.toUpperCase() : 'Satuan'} kamu sudah aktif otomatis. Halaman akan dimuat ulang.`,
+                confirmButtonColor: '#1e3a8a'
+            });
+            window.location.reload();
+        } else {
+            Swal.fire({
+                icon: 'info',
+                title: 'Menunggu Pembayaran',
+                text: `Status transaksi (${orderId}): ${data.status || 'pending'}. Jika sudah transfer/scan QRIS, tunggu beberapa detik lalu muat ulang halaman.`,
+                confirmButtonColor: '#1e3a8a'
+            });
+        }
+    } catch (e) {
+        Swal.fire('Gagal Cek Status', e.message, 'error');
+    }
+}
+
+window.mulaiBayarMidtrans = async (packageId) => {
+    if (!window.currentUser) {
+        return Swal.fire({
+            icon: 'info',
+            title: 'Login Terlebih Dahulu',
+            text: 'Silakan login dengan akun Google agar paket otomatis aktif ke akunmu setelah pembayaran berhasil.',
+            confirmButtonText: 'Login Google',
+            confirmButtonColor: '#1e3a8a'
+        }).then(r => {
+            if (r.isConfirmed && typeof window.eksekusiLoginGoogle === 'function') window.eksekusiLoginGoogle();
+        });
+    }
+
+    Swal.fire({
+        title: 'Menyiapkan Pembayaran...',
+        text: 'Menghubungkan ke Midtrans Checkout',
+        allowOutsideClick: false,
+        didOpen: () => Swal.showLoading()
+    });
+
+    try {
+        const idToken = await window.currentUser.getIdToken();
+        const resp = await fetch('/api/midtrans', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${idToken}`
+            },
+            body: JSON.stringify({ action: 'createTransaction', packageId })
+        });
+        const data = await resp.json().catch(() => ({}));
+        if (!resp.ok || !data.ok || !data.token) {
+            throw new Error(data.error || `Gagal membuat transaksi Midtrans (HTTP ${resp.status})`);
+        }
+
+        if (data.clientKey) {
+            await loadMidtransSnapScript(data.clientKey, Boolean(data.isProduction));
+            Swal.close();
+            if (window.snap && typeof window.snap.pay === 'function') {
+                window.snap.pay(data.token, {
+                    onSuccess: () => verifyMidtransOrderAndReload(data.orderId),
+                    onPending: () => verifyMidtransOrderAndReload(data.orderId),
+                    onError: () => Swal.fire('Pembayaran Gagal', 'Transaksi dibatalkan atau gagal diproses Midtrans.', 'error'),
+                    onClose: () => {}
+                });
+                return;
+            }
+        }
+
+        Swal.close();
+        if (data.redirectUrl) {
+            window.open(data.redirectUrl, '_blank', 'noopener');
+            Swal.fire({
+                icon: 'info',
+                title: `Checkout ${data.packageName}`,
+                html: `Halaman pembayaran Midtrans telah dibuka di tab baru.<br><br>Order ID: <b>${escapeHtmlMentor(data.orderId)}</b>`,
+                confirmButtonText: 'Sudah Bayar • Cek Status',
+                showCancelButton: true,
+                cancelButtonText: 'Tutup',
+                confirmButtonColor: '#1e3a8a'
+            }).then(r => {
+                if (r.isConfirmed) verifyMidtransOrderAndReload(data.orderId);
+            });
+        }
+    } catch (err) {
+        Swal.fire('Gagal Membuka Pembayaran', err.message, 'error');
+    }
+};
+
+window.adminSimpanMidtransConfig = async () => {
+    if (!window.currentUserProfile?.isAdmin) return;
+    const env = document.getElementById('ccMidtransEnv')?.value || 'sandbox';
+    const clientKey = (document.getElementById('ccMidtransClientKey')?.value || '').trim();
+    const serverKey = (document.getElementById('ccMidtransServerKey')?.value || '').trim();
+    const signatureKey = (document.getElementById('ccMidtransSignatureKey')?.value || '').trim();
+
+    if (!serverKey) {
+        return Swal.fire('Server Key Wajib Diisi', 'Masukkan Server Key Midtrans (SB-Mid-server-... atau Mid-server-...).', 'warning');
+    }
+    try {
+        await setDoc(doc(db, 'cpns_settings', 'midtrans_config'), {
+            isProduction: env === 'production',
+            clientKey,
+            serverKey,
+            signatureKey,
+            updatedAtMs: Date.now(),
+            updatedBy: window.currentUser?.email || ''
+        }, { merge: true });
+        document.getElementById('ccMidtransServerKey').value = '';
+        if (document.getElementById('ccMidtransSignatureKey')) document.getElementById('ccMidtransSignatureKey').value = '';
+        Swal.fire({
+            icon: 'success',
+            title: 'Konfigurasi Midtrans Disimpan!',
+            text: `Mode aktif: ${env === 'production' ? 'PRODUCTION' : 'SANDBOX'}. Tersimpan aman di Firestore.`,
+            timer: 2200,
+            showConfirmButton: false
+        });
+    } catch (err) {
+        Swal.fire('Gagal Menyimpan', err.message, 'error');
     }
 };

@@ -285,9 +285,16 @@ service cloud.firestore {
     match /cpns_settings/ai_config {
       allow read, write: if isCpnsSuperAdmin();
     }
+    match /cpns_settings/midtrans_config {
+      allow read, write: if isCpnsSuperAdmin();
+    }
     match /cpns_settings/{docId} {
-      allow read: if docId != 'ai_config';
+      allow read: if docId != 'ai_config' && docId != 'midtrans_config';
       allow write: if isCpnsSuperAdmin();
+    }
+    match /cpns_orders/{orderId} {
+      allow read: if isCpnsSuperAdmin() || (request.auth != null && resource.data.uid == request.auth.uid);
+      allow write: if false;
     }
     match /cpns_news/{newsId} {
       allow read: if true;
