@@ -229,6 +229,9 @@ function updateAuthUI(user) {
         if (typeof window.renderBerandaProgressPanel === 'function') {
             window.renderBerandaProgressPanel();
         }
+        if (typeof window.renderKeranjangView === 'function') {
+            window.renderKeranjangView();
+        }
         if (typeof window.renderArenaSavedRooms === 'function') {
             window.renderArenaSavedRooms();
         }
@@ -404,6 +407,8 @@ window.switchAppView = (viewName) => {
         if (typeof window.renderToeflPaketCards === 'function') window.renderToeflPaketCards();
     } else if (viewName === 'pdf-library') {
         if (typeof window.renderPdfLibraryView === 'function') window.renderPdfLibraryView();
+    } else if (viewName === 'keranjang') {
+        if (typeof window.renderKeranjangView === 'function') window.renderKeranjangView();
     }
 };
 

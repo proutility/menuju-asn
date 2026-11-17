@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.6.9">
+    <link rel="stylesheet" href="style.css?v=2.7.0">
 </head>
 <body>
 
@@ -496,6 +496,9 @@
                 <button class="sidebar-item" data-view="pdf-library" onclick="window.switchAppView('pdf-library')">
                     <i class="fas fa-file-pdf"></i><span>Download PDF Materi &amp; Soal</span>
                     <span class="sidebar-badge platinum">PLATINUM</span>
+                </button>
+                <button class="sidebar-item" data-view="keranjang" onclick="window.switchAppView('keranjang')">
+                    <i class="fas fa-shopping-cart"></i><span>Keranjang &amp; Payment</span>
                 </button>
                 <button class="sidebar-item" data-view="diskusi" onclick="window.switchAppView('diskusi')">
                     <i class="fas fa-headset"></i><span>Informasi &amp; Pengaduan</span>
@@ -1291,6 +1294,53 @@
                 </div>
             </section>
 
+            <!-- VIEW 7D: KERANJANG, PAKET AKTIF & RIWAYAT PEMBAYARAN MIDTRANS -->
+            <section id="view-keranjang" class="app-view">
+                <div class="view-banner navy">
+                    <div class="command-banner-row" style="width:100%;">
+                        <div>
+                            <h2><i class="fas fa-shopping-cart"></i> Keranjang, Paket Aktif &amp; Riwayat Payment</h2>
+                            <p>Pantau paket yang sedang aktif di akunmu, kelola keranjang checkout Midtrans, dan cek riwayat transaksimu.</p>
+                        </div>
+                        <button class="btn-dash-gold" onclick="window.renderKeranjangView()">
+                            <i class="fas fa-sync-alt"></i> Refresh Status
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 1. PAKET AKTIF SAAT INI -->
+                <div id="keranjangPaketAktifBox" style="margin-bottom:18px;"></div>
+
+                <!-- 2. KERANJANG BELANJA & RIWAYAT PAYMENT MIDTRANS -->
+                <div class="bot-two-col">
+                    <div class="bot-panel-card">
+                        <div class="bot-panel-head">
+                            <div class="mode-icon gold"><i class="fas fa-cart-plus"></i></div>
+                            <div>
+                                <h3>Keranjang Checkout Midtrans</h3>
+                                <span>Pilih paket yang ingin dibeli lalu bayar otomatis via QRIS, Virtual Account, atau E-Wallet.</span>
+                            </div>
+                        </div>
+                        <div id="keranjangCheckoutBox"></div>
+                    </div>
+
+                    <div class="bot-panel-card">
+                        <div class="bot-panel-head" style="justify-content:space-between;">
+                            <div style="display:flex; align-items:center; gap:12px;">
+                                <div class="mode-icon blue"><i class="fas fa-receipt"></i></div>
+                                <div>
+                                    <h3>Riwayat Pembayaran</h3>
+                                    <span>Daftar transaksi Midtrans pada akunmu beserta status &amp; tombol cek aktivasi.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="keranjangRiwayatPaymentBox" style="max-height:420px; overflow-y:auto;">
+                            <div class="cc-empty">Memuat riwayat pembayaran...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- VIEW 8: SUPER ADMIN COMMAND CENTER (tamaverseapp@gmail.com) -->
             <section id="view-command" class="app-view">
                 <div class="view-banner command-banner">
@@ -1605,6 +1655,7 @@
                 <button type="button" class="mob-drawer-item" onclick="window.switchAppView('pdf-library'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-file-pdf"></i><span>Download PDF</span><small class="platinum">PLATINUM</small></button>
                 <button type="button" class="mob-drawer-item" onclick="window.switchAppView('bot'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-robot"></i><span>AI Bot &amp; Berita</span><small class="ai">AI</small></button>
                 <button type="button" class="mob-drawer-item" onclick="window.switchAppView('diskusi'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-headset"></i><span>Pengaduan</span></button>
+                <button type="button" class="mob-drawer-item" onclick="window.switchAppView('keranjang'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-shopping-cart"></i><span>Keranjang</span></button>
                 <button type="button" class="mob-drawer-item" onclick="window.switchAppView('upgrade'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-crown"></i><span>Upgrade Paket</span></button>
                 <button type="button" id="mobCommandCenterBtn" class="mob-drawer-item" style="display:none;" onclick="window.switchAppView('command'); window.toggleMobileMenuDrawer(false);"><i class="fas fa-user-shield"></i><span>Command Center</span><small class="admin">ADMIN</small></button>
             </div>
@@ -1719,14 +1770,14 @@
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
     <script src="data_tryout_akbar.js?v=2.6.0"></script>
-    <script src="data_toefl.js?v=2.6.9"></script>
-    <script type="module" src="app.js?v=2.6.9"></script>
+    <script src="data_toefl.js?v=2.7.0"></script>
+    <script type="module" src="app.js?v=2.7.0"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.6.9')
+                navigator.serviceWorker.register('./sw.js?v=2.7.0')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
