@@ -9633,3 +9633,413 @@ window.adminSimpanMidtransConfig = async () => {
         Swal.fire('Gagal Menyimpan', err.message, 'error');
     }
 };
+
+
+// ==========================================================
+// KERANJANG, PAKET AKTIF & RIWAYAT PEMBAYARAN MIDTRANS
+// ==========================================================
+const KERANJANG_CATALOG = [
+    {
+        id: 'platinum',
+        name: 'Paket Platinum (All-Access)',
+        originalPrice: 399000,
+        price: 149999,
+        discountLabel: 'DISKON 62%',
+        badge: 'BEST VALUE',
+        desc: 'Semua akses Gold + Latihan Mandiri TOEFL + Download PDF Soal & Pembahasan.'
+    },
+    {
+        id: 'gold',
+        name: 'Paket Gold (Full 90 Paket)',
+        originalPrice: 249000,
+        price: 99999,
+        discountLabel: 'HEMAT 60%',
+        badge: 'POPULER',
+        desc: '90 Paket TWK, 90 TIU, 90 TKP, 5 TO Akbar, Pusat Studi, AI Mentor & Arena.'
+    },
+    {
+        id: 'silver',
+        name: 'Paket Silver',
+        originalPrice: 149000,
+        price: 74999,
+        discountLabel: 'DISKON 50%',
+        badge: 'HEMAT',
+        desc: '50 Paket per Subtes + 3 Tryout Akbar + Pembahasan Lengkap.'
+    },
+    {
+        id: 'bronze',
+        name: 'Paket Bronze',
+        originalPrice: 99000,
+        price: 49999,
+        discountLabel: 'HEMAT 49%',
+        badge: 'DASAR',
+        desc: '15 Paket per Subtes + 1 Tryout Akbar + Pembahasan Step-by-Step.'
+    },
+    {
+        id: 'satuan_to',
+        name: 'Kredit 1x Tryout Akbar',
+        originalPrice: 49000,
+        price: 24999,
+        discountLabel: 'HEMAT 49%',
+        badge: 'ECERAN',
+        desc: 'Tambahan 1 kredit untuk mengikuti Tryout Akbar SKD.'
+    },
+    {
+        id: 'satuan_paket',
+        name: 'Kredit 1x Paket Latihan',
+        originalPrice: 19999,
+        price: 9999,
+        discountLabel: 'HEMAT 50%',
+        badge: 'ECERAN',
+        desc: 'Tambahan 1 kredit untuk membuka paket latihan subtes pilihanmu.'
+    }
+];
+
+window._cachedUserOrders = [];
+
+function getKeranjangStorageKey() {
+    const uid = window.currentUser?.uid || 'guest';
+    return 'menuju_asn_cart_' + uid;
+}
+
+function getKeranjangItems() {
+    try {
+        const raw = localStorage.getItem(getKeranjangStorageKey());
+        const parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed : [];
+    } catch (_) {
+        return [];
+    }
+}
+
+function saveKeranjangItems(items) {
+    try {
+        localStorage.setItem(getKeranjangStorageKey(), JSON.stringify(items));
+    } catch (_) {}
+}
+
+function formatRupiah(num) {
+    return 'Rp ' + Number(num || 0).toLocaleString('id-ID');
+}
+
+function formatTanggalIndo(ms) {
+    if (!ms) return '-';
+    try {
+        return new Date(ms).toLocaleString('id-ID', {
+            day: '2-digit',
+            month: 'short',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    } catch (_) {
+        return '-';
+    }
+}
+
+window.addToKeranjang = (pkgId) => {
+    const pkg = KERANJANG_CATALOG.find(p => p.id === pkgId);
+    if (!pkg) return;
+    const items = getKeranjangItems();
+    if (!items.includes(pkgId)) {
+        items.push(pkgId);
+        saveKeranjangItems(items);
+    }
+    window.renderKeranjangCheckoutBox();
+    Swal.fire({
+        toast: true,
+        position: 'top-end',
+        icon: 'success',
+        title: pkg.name + ' masuk keranjang!',
+        showConfirmButton: false,
+        timer: 1600
+    });
+};
+
+window.removeFromKeranjang = (pkgId) => {
+    const items = getKeranjangItems().filter(id => id !== pkgId);
+    saveKeranjangItems(items);
+    window.renderKeranjangCheckoutBox();
+};
+
+window.clearKeranjang = () => {
+    saveKeranjangItems([]);
+    window.renderKeranjangCheckoutBox();
+};
+
+window.checkoutKeranjangItem = async (pkgId) => {
+    if (typeof window.mulaiBayarMidtrans === 'function') {
+        await window.mulaiBayarMidtrans(pkgId);
+        if (typeof window.renderKeranjangRiwayatPayment === 'function') {
+            window.renderKeranjangRiwayatPayment();
+        }
+    }
+};
+
+window.cekStatusOrderMidtrans = async (orderId) => {
+    if (!orderId) return;
+    try {
+        Swal.fire({
+            title: 'Mengecek Status Midtrans...',
+            text: 'Order ID: ' + orderId,
+            allowOutsideClick: false,
+            didOpen: () => Swal.showLoading()
+        });
+        const res = await verifyMidtransOrderAndReload(orderId);
+        Swal.close();
+        if (res && res.paid) {
+            await Swal.fire('Pembayaran Lunas!', 'Paket sudah aktif di akunmu.', 'success');
+        } else {
+            await Swal.fire('Status Transaksi', 'Status saat ini: ' + ((res && (res.transactionStatus || res.status)) || 'pending') + '. Jika sudah membayar, coba cek beberapa saat lagi.', 'info');
+        }
+        window.renderKeranjangView();
+    } catch (err) {
+        Swal.fire('Gagal Cek Status', err?.message || 'Terjadi kesalahan saat menghubungi server.', 'error');
+    }
+};
+
+window.lanjutBayarOrderMidtrans = async (orderId) => {
+    const order = (window._cachedUserOrders || []).find(o => o.orderId === orderId);
+    if (!order) return;
+    if (order.snapToken && window.snap && typeof window.snap.pay === 'function') {
+        window.snap.pay(order.snapToken, {
+            onSuccess: async () => {
+                await verifyMidtransOrderAndReload(order.orderId);
+                window.renderKeranjangView();
+            },
+            onPending: async () => {
+                await verifyMidtransOrderAndReload(order.orderId);
+                window.renderKeranjangView();
+            },
+            onError: () => {
+                Swal.fire('Pembayaran Gagal', 'Transaksi Midtrans gagal atau dibatalkan.', 'error');
+            },
+            onClose: () => {
+                window.renderKeranjangRiwayatPayment();
+            }
+        });
+        return;
+    }
+    if (order.redirectUrl) {
+        window.open(order.redirectUrl, '_blank');
+        return;
+    }
+    if (order.packageId && typeof window.mulaiBayarMidtrans === 'function') {
+        await window.mulaiBayarMidtrans(order.packageId);
+    }
+};
+
+window.renderKeranjangPaketAktif = () => {
+    const box = document.getElementById('keranjangPaketAktifBox');
+    if (!box) return;
+    const prof = window.currentUserProfile || {};
+    const tier = String(prof.isAdmin ? 'admin' : (prof.tier || (prof.isPaid ? 'bronze' : 'free'))).toLowerCase();
+    const tierUpper = tier.toUpperCase();
+    const credits = Number(prof.satuanCredits || 0);
+
+    const tierMetaMap = {
+        admin: { label: 'SUPER ADMIN', bg: 'linear-gradient(135deg,#0f172a 0%,#1e3a8a 100%)', desc: 'Akses penuh seluruh fitur & Command Center.' },
+        platinum: { label: 'PAKET PLATINUM', bg: 'linear-gradient(135deg,#312e81 0%,#4f46e5 100%)', desc: 'Akses All-In: 90 Paket SKD, 5 TO Akbar, Pusat Studi, AI Mentor, TOEFL & PDF.' },
+        gold: { label: 'PAKET GOLD', bg: 'linear-gradient(135deg,#713f12 0%,#ca8a04 100%)', desc: '90 Paket per Subtes, 5 TO Akbar, Pusat Studi, AI Mentor & CBT Arena.' },
+        silver: { label: 'PAKET SILVER', bg: 'linear-gradient(135deg,#334155 0%,#475569 100%)', desc: '50 Paket per Subtes & 3 Tryout Akbar.' },
+        bronze: { label: 'PAKET BRONZE', bg: 'linear-gradient(135deg,#78350f 0%,#b45309 100%)', desc: '15 Paket per Subtes & 1 Tryout Akbar.' },
+        satuan: { label: 'PAKET SATUAN', bg: 'linear-gradient(135deg,#1e3a8a 0%,#2563eb 100%)', desc: 'Akses berbasis kredit satuan yang kamu beli.' },
+        free: { label: 'AKUN FREE', bg: 'linear-gradient(135deg,#1e293b 0%,#334155 100%)', desc: 'Akses gratis 3 Paket TWK, 3 TIU, 3 TKP.' }
+    };
+    const meta = tierMetaMap[tier] || tierMetaMap.free;
+
+    const cap = TIER_CAPACITY[tier] || TIER_CAPACITY.free;
+    const isPlatOrAdmin = tier === 'platinum' || tier === 'admin';
+    const isGoldUp = isPlatOrAdmin || tier === 'gold';
+
+    const badges = [
+        '<span style="background:rgba(255,255,255,0.14); padding:4px 10px; border-radius:999px; font-size:0.75rem; font-weight:700;">Latihan SKD: ' + (cap.subtes >= 90 ? 'Full 90 Paket' : cap.subtes + ' Paket/Subtes') + '</span>',
+        '<span style="background:rgba(255,255,255,0.14); padding:4px 10px; border-radius:999px; font-size:0.75rem; font-weight:700;">TO Akbar: ' + cap.tryout + ' Paket</span>',
+        credits > 0 ? '<span style="background:rgba(253,224,71,0.22); color:#fde047; padding:4px 10px; border-radius:999px; font-size:0.75rem; font-weight:800;">Kredit Satuan: ' + credits + '</span>' : '',
+        isGoldUp ? '<span style="background:rgba(34,197,94,0.22); color:#86efac; padding:4px 10px; border-radius:999px; font-size:0.75rem; font-weight:700;"><i class="fas fa-check"></i> Pusat Studi &amp; AI Mentor</span>' : '',
+        isPlatOrAdmin ? '<span style="background:rgba(165,180,252,0.25); color:#e0e7ff; padding:4px 10px; border-radius:999px; font-size:0.75rem; font-weight:800;"><i class="fas fa-crown"></i> TOEFL &amp; PDF Unlocked</span>' : ''
+    ].filter(Boolean).join('');
+
+    box.innerHTML = `
+        <div style="background:${meta.bg}; color:#ffffff; border-radius:18px; padding:20px 22px; box-shadow:0 10px 25px rgba(15,23,42,0.12); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;">
+            <div style="flex:1; min-width:240px;">
+                <div style="font-size:0.72rem; text-transform:uppercase; letter-spacing:1px; opacity:0.85; font-weight:800; margin-bottom:4px;">Status Paket Aktif Saat Ini</div>
+                <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+                    <h3 style="margin:0; font-size:1.35rem; font-weight:900;">${meta.label}</h3>
+                    <span style="background:#ffffff; color:#0f172a; font-size:0.7rem; font-weight:900; padding:3px 10px; border-radius:999px;">${tierUpper}</span>
+                </div>
+                <p style="margin:6px 0 12px; font-size:0.86rem; opacity:0.92;">${meta.desc}</p>
+                <div style="display:flex; flex-wrap:wrap; gap:8px;">${badges}</div>
+                ${prof.lastOrderId ? '<div style="margin-top:10px; font-size:0.74rem; opacity:0.8;">Order Terakhir: <code>' + prof.lastOrderId + '</code>' + (prof.paidVia ? ' (' + prof.paidVia + ')' : '') + '</div>' : ''}
+            </div>
+            ${!isPlatOrAdmin ? '<button class="btn-dash-gold" onclick="window.switchAppView(\'upgrade\')"><i class="fas fa-arrow-up"></i> Upgrade Paket</button>' : ''}
+        </div>
+    `;
+};
+
+window.renderKeranjangCheckoutBox = () => {
+    const box = document.getElementById('keranjangCheckoutBox');
+    if (!box) return;
+    const cartIds = getKeranjangItems();
+    const cartPkgs = cartIds.map(id => KERANJANG_CATALOG.find(p => p.id === id)).filter(Boolean);
+    const total = cartPkgs.reduce((sum, p) => sum + p.price, 0);
+
+    let cartHtml = '';
+    if (cartPkgs.length === 0) {
+        cartHtml = `
+            <div style="background:#f8fafc; border:1px dashed #cbd5e1; border-radius:12px; padding:14px; text-align:center; color:#64748b; font-size:0.85rem; margin-bottom:14px;">
+                <i class="fas fa-shopping-basket" style="font-size:1.2rem; margin-bottom:6px; display:block; color:#94a3b8;"></i>
+                Keranjangmu masih kosong. Pilih paket di bawah untuk menambahkan ke keranjang atau langsung bayar harga promo via Midtrans.
+            </div>
+        `;
+    } else {
+        cartHtml = `
+            <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:12px; padding:12px; margin-bottom:14px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                    <strong style="font-size:0.85rem; color:#1e3a8a;"><i class="fas fa-shopping-cart"></i> Item di Keranjang (${cartPkgs.length})</strong>
+                    <button onclick="window.clearKeranjang()" style="background:none; border:none; color:#ef4444; font-size:0.75rem; font-weight:700; cursor:pointer;">Kosongkan</button>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    ${cartPkgs.map(p => `
+                        <div style="background:#ffffff; border:1px solid #dbeafe; border-radius:10px; padding:10px 12px; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+                            <div>
+                                <div style="font-weight:800; font-size:0.86rem; color:#0f172a;">${p.name}</div>
+                                <div style="font-size:0.78rem; color:#1d4ed8; font-weight:700;">
+                                    <del class="price-strike-inline">${formatRupiah(p.originalPrice)}</del>
+                                    ${formatRupiah(p.price)}
+                                    <span class="promo-mini-tag">${p.discountLabel}</span>
+                                </div>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:6px;">
+                                <button onclick="window.checkoutKeranjangItem('${p.id}')" style="background:#1e3a8a; color:#ffffff; border:none; border-radius:8px; padding:6px 12px; font-size:0.76rem; font-weight:700; cursor:pointer;">
+                                    <i class="fas fa-credit-card"></i> Bayar
+                                </button>
+                                <button onclick="window.removeFromKeranjang('${p.id}')" title="Hapus" style="background:#fee2e2; color:#dc2626; border:none; border-radius:8px; padding:6px 9px; font-size:0.76rem; cursor:pointer;">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div style="margin-top:10px; padding-top:8px; border-top:1px solid #bfdbfe; display:flex; justify-content:space-between; align-items:center; font-size:0.82rem; color:#1e3a8a;">
+                    <span>Estimasi Total Promo</span>
+                    <strong>${formatRupiah(total)}</strong>
+                </div>
+            </div>
+        `;
+    }
+
+    const catalogHtml = `
+        <div style="font-size:0.8rem; font-weight:800; color:#334155; margin-bottom:8px;">Pilih Paket / Kredit Tambahan (Harga Promo Otomatis di Midtrans):</div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+            ${KERANJANG_CATALOG.map(p => {
+                const inCart = cartIds.includes(p.id);
+                return `
+                    <div style="border:1px solid #e2e8f0; border-radius:12px; padding:10px 12px; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; background:#ffffff;">
+                        <div style="flex:1; min-width:180px;">
+                            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
+                                <span style="font-weight:800; font-size:0.86rem; color:#0f172a;">${p.name}</span>
+                                <span style="font-size:0.65rem; font-weight:800; background:#fef3c7; color:#92400e; padding:2px 7px; border-radius:999px;">${p.badge}</span>
+                            </div>
+                            <div style="font-size:0.75rem; color:#64748b; margin-top:2px;">${p.desc}</div>
+                            <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-top:4px;">
+                                <del class="price-strike-inline" style="font-size:0.76rem;">${formatRupiah(p.originalPrice)}</del>
+                                <span style="font-size:0.88rem; font-weight:900; color:#0f172a;">${formatRupiah(p.price)}</span>
+                                <span class="promo-mini-tag">${p.discountLabel}</span>
+                            </div>
+                        </div>
+                        <div style="display:flex; gap:6px; flex-wrap:wrap;">
+                            <button onclick="window.addToKeranjang('${p.id}')" style="background:#f1f5f9; color:#0f172a; border:1px solid #cbd5e1; border-radius:8px; padding:6px 10px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                                ${inCart ? '<i class="fas fa-check"></i> Di Keranjang' : '<i class="fas fa-cart-plus"></i> + Keranjang'}
+                            </button>
+                            <button onclick="window.checkoutKeranjangItem('${p.id}')" style="background:linear-gradient(135deg,#1e3a8a 0%,#2563eb 100%); color:#ffffff; border:none; border-radius:8px; padding:6px 12px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                                Bayar Langsung
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('')}
+        </div>
+    `;
+
+    box.innerHTML = cartHtml + catalogHtml;
+};
+
+window.renderKeranjangRiwayatPayment = async () => {
+    const box = document.getElementById('keranjangRiwayatPaymentBox');
+    if (!box) return;
+    if (!window.currentUser) {
+        box.innerHTML = '<div class="cc-empty">Silakan login untuk melihat riwayat pembayaranmu.</div>';
+        return;
+    }
+    box.innerHTML = '<div class="cc-empty"><i class="fas fa-spinner fa-spin"></i> Memuat riwayat pembayaran...</div>';
+    try {
+        const q = query(
+            collection(db, 'cpns_orders'),
+            where('uid', '==', window.currentUser.uid),
+            limit(30)
+        );
+        const snap = await getDocs(q);
+        const orders = [];
+        snap.forEach(d => orders.push({ id: d.id, ...d.data() }));
+        orders.sort((a, b) => Number(b.createdAtMs || 0) - Number(a.createdAtMs || 0));
+        window._cachedUserOrders = orders;
+
+        if (orders.length === 0) {
+            box.innerHTML = '<div class="cc-empty">Belum ada riwayat transaksi Midtrans pada akun ini.</div>';
+            return;
+        }
+
+        box.innerHTML = orders.map(o => {
+            const st = String(o.status || 'pending').toLowerCase();
+            let badgeBg = '#fef3c7';
+            let badgeColor = '#92400e';
+            let badgeText = 'MENUNGGU BAYAR';
+            if (st === 'paid') {
+                badgeBg = '#dcfce7';
+                badgeColor = '#166534';
+                badgeText = 'LUNAS / AKTIF';
+            } else if (st === 'failed' || st === 'expired' || st === 'cancel' || st === 'deny') {
+                badgeBg = '#fee2e2';
+                badgeColor = '#991b1b';
+                badgeText = st.toUpperCase();
+            }
+
+            const isPending = st === 'pending';
+            return `
+                <div style="border:1px solid #e2e8f0; border-radius:12px; padding:12px; margin-bottom:10px; background:#ffffff;">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px; flex-wrap:wrap;">
+                        <div>
+                            <div style="font-weight:800; font-size:0.88rem; color:#0f172a;">${o.packageName || o.packageId || 'Paket MENUJU ASN'}</div>
+                            <div style="font-size:0.72rem; color:#64748b; margin-top:2px;">Order ID: <code>${o.orderId || o.id}</code></div>
+                        </div>
+                        <span style="background:${badgeBg}; color:${badgeColor}; font-size:0.68rem; font-weight:800; padding:3px 9px; border-radius:999px;">${badgeText}</span>
+                    </div>
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:0.78rem; color:#334155; flex-wrap:wrap; gap:6px;">
+                        <strong style="color:#0f172a; font-size:0.86rem;">${formatRupiah(o.amount)}</strong>
+                        <span>${o.paymentType ? o.paymentType.toUpperCase() + ' • ' : ''}${formatTanggalIndo(o.paidAtMs || o.createdAtMs)}</span>
+                    </div>
+                    ${isPending ? `
+                        <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
+                            <button onclick="window.cekStatusOrderMidtrans('${o.orderId || o.id}')" style="background:#f1f5f9; color:#0f172a; border:1px solid #cbd5e1; border-radius:8px; padding:6px 10px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                                <i class="fas fa-sync-alt"></i> Cek Status
+                            </button>
+                            <button onclick="window.lanjutBayarOrderMidtrans('${o.orderId || o.id}')" style="background:#1e3a8a; color:#ffffff; border:none; border-radius:8px; padding:6px 12px; font-size:0.74rem; font-weight:700; cursor:pointer;">
+                                <i class="fas fa-wallet"></i> Lanjut Bayar
+                            </button>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        }).join('');
+    } catch (err) {
+        console.error('Gagal load riwayat payment:', err);
+        box.innerHTML = '<div class="cc-empty" style="color:#dc2626;">Gagal memuat riwayat pembayaran: ' + (err?.message || 'Error') + '</div>';
+    }
+};
+
+window.renderKeranjangView = () => {
+    window.renderKeranjangPaketAktif();
+    window.renderKeranjangCheckoutBox();
+    window.renderKeranjangRiwayatPayment();
+};

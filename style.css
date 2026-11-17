@@ -6120,3 +6120,94 @@ footer {
 .btn-logout:active {
     box-shadow: 0 1px 0 #991b1b !important;
 }
+
+
+/* ANIMATED DISCOUNT & HARGA CORET */
+@keyframes promoPulse {
+    0%, 100% { transform: scale(1); box-shadow: 0 2px 8px rgba(220, 38, 38, 0.25); }
+    50% { transform: scale(1.06); box-shadow: 0 4px 14px rgba(220, 38, 38, 0.42); }
+}
+
+@keyframes promoSweep {
+    0% { transform: translateX(-140%) skewX(-20deg); }
+    45%, 100% { transform: translateX(240%) skewX(-20deg); }
+}
+
+.promo-price-wrap {
+    margin: 8px 0 6px;
+}
+
+.promo-strike-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+
+.price-strike,
+.price-strike-inline {
+    position: relative;
+    color: #94a3b8;
+    font-weight: 700;
+    text-decoration: line-through;
+    text-decoration-color: #ef4444;
+    text-decoration-thickness: 2px;
+}
+
+.price-strike {
+    font-size: 0.92rem;
+}
+
+.price-strike-inline {
+    font-size: 0.86em;
+    margin-right: 2px;
+}
+
+.promo-discount-pill {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    animation: promoPulse 2.1s ease-in-out infinite;
+}
+
+.promo-discount-pill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.45), transparent);
+    animation: promoSweep 2.6s ease-in-out infinite;
+}
+
+.promo-discount-pill.gold {
+    background: linear-gradient(135deg, #f59e0b 0%, #b45309 100%);
+}
+
+.promo-discount-pill.platinum {
+    background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);
+}
+
+.promo-mini-tag {
+    display: inline-block;
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: #ffffff;
+    font-size: 0.66rem;
+    font-weight: 900;
+    padding: 2px 7px;
+    border-radius: 999px;
+    margin-left: 3px;
+    vertical-align: middle;
+    animation: promoPulse 2.2s ease-in-out infinite;
+}
