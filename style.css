@@ -5984,3 +5984,139 @@ footer {
         padding-bottom: 74px;
     }
 }
+
+
+/* TACTILE LAYERED 3D BUTTONS */
+.cc-btn,
+.btn-dash-gold,
+.btn-dash-ghost,
+.btn-primary,
+.btn-cta,
+.btn-auth,
+.btn-logout,
+.btn-start-paket,
+.btn-mulai-cbt,
+.btn-submit-ujian,
+.cc-tab,
+#keranjangCheckoutBox button,
+#keranjangRiwayatPaymentBox button {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.11s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.11s cubic-bezier(0.22, 1, 0.36, 1), filter 0.14s ease !important;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cc-btn::after,
+.btn-dash-gold::after,
+.btn-primary::after,
+.btn-cta::after,
+.btn-start-paket::after,
+.btn-mulai-cbt::after,
+.btn-submit-ujian::after,
+#keranjangCheckoutBox button::after,
+#keranjangRiwayatPaymentBox button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, rgba(255,255,255,0) 55%, rgba(0,0,0,0.08) 100%);
+    pointer-events: none;
+    transition: opacity 0.14s ease;
+}
+
+.cc-btn:hover,
+.btn-dash-gold:hover,
+.btn-primary:hover,
+.btn-cta:hover,
+.btn-start-paket:hover,
+.btn-mulai-cbt:hover,
+.btn-submit-ujian:hover,
+#keranjangCheckoutBox button:hover,
+#keranjangRiwayatPaymentBox button:hover {
+    transform: translateY(-1.5px);
+    filter: brightness(1.05);
+}
+
+.cc-btn:active,
+.btn-dash-gold:active,
+.btn-dash-ghost:active,
+.btn-primary:active,
+.btn-cta:active,
+.btn-auth:active,
+.btn-logout:active,
+.btn-start-paket:active,
+.btn-mulai-cbt:active,
+.btn-submit-ujian:active,
+.cc-tab:active,
+#keranjangCheckoutBox button:active,
+#keranjangRiwayatPaymentBox button:active {
+    transform: translateY(3px) !important;
+    filter: brightness(0.96);
+}
+
+.cc-btn {
+    box-shadow: 0 3px 0 #1e293b, 0 4px 10px rgba(15, 23, 42, 0.14), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+.cc-btn.primary {
+    background: linear-gradient(180deg, #2563eb 0%, #1d4ed8 100%);
+    box-shadow: 0 3px 0 #1e3a8a, 0 5px 10px rgba(30, 58, 138, 0.24), inset 0 1px 0 rgba(255,255,255,0.28);
+}
+.cc-btn.success {
+    background: linear-gradient(180deg, #22c55e 0%, #16a34a 100%);
+    box-shadow: 0 3px 0 #15803d, 0 5px 10px rgba(22, 163, 74, 0.24), inset 0 1px 0 rgba(255,255,255,0.28);
+}
+.cc-btn.danger {
+    background: linear-gradient(180deg, #f87171 0%, #dc2626 100%);
+    box-shadow: 0 3px 0 #991b1b, 0 5px 10px rgba(220, 38, 38, 0.24), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+.cc-btn.dark-danger {
+    background: linear-gradient(180deg, #991b1b 0%, #7f1d1d 100%);
+    box-shadow: 0 3px 0 #450a0a, 0 5px 10px rgba(127, 29, 29, 0.28), inset 0 1px 0 rgba(255,255,255,0.2);
+}
+.cc-btn:active {
+    box-shadow: 0 1px 0 rgba(15, 23, 42, 0.65), 0 1px 3px rgba(15, 23, 42, 0.15) !important;
+}
+
+.btn-dash-gold {
+    box-shadow: 0 4px 0 #b45309, 0 7px 15px rgba(217, 119, 6, 0.28), inset 0 1px 0 rgba(255,255,255,0.45);
+}
+.btn-dash-gold:active {
+    box-shadow: 0 1px 0 #b45309, 0 2px 5px rgba(217, 119, 6, 0.2) !important;
+}
+
+.btn-dash-ghost {
+    box-shadow: 0 3px 0 rgba(255,255,255,0.18), inset 0 1px 0 rgba(255,255,255,0.2);
+}
+.btn-dash-ghost:active {
+    box-shadow: 0 1px 0 rgba(255,255,255,0.15) !important;
+}
+
+.cc-tab {
+    box-shadow: 0 3px 0 #cbd5e1, 0 3px 8px rgba(15, 23, 42, 0.06);
+}
+.cc-tab.active {
+    box-shadow: 0 3px 0 #020617, 0 6px 14px rgba(15, 23, 42, 0.22);
+}
+.cc-tab:active {
+    box-shadow: 0 1px 0 #94a3b8 !important;
+}
+
+.btn-primary,
+.btn-cta,
+.btn-start-paket,
+.btn-mulai-cbt {
+    box-shadow: 0 4px 0 #1e3a8a, 0 6px 14px rgba(30, 58, 138, 0.22), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+.btn-primary:active,
+.btn-cta:active,
+.btn-start-paket:active,
+.btn-mulai-cbt:active {
+    box-shadow: 0 1px 0 #1e3a8a, 0 2px 4px rgba(30, 58, 138, 0.18) !important;
+}
+
+.btn-logout {
+    box-shadow: 0 3px 0 #991b1b, 0 4px 10px rgba(220, 38, 38, 0.24), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+.btn-logout:active {
+    box-shadow: 0 1px 0 #991b1b !important;
+}

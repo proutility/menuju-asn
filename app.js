@@ -69,17 +69,26 @@ async function loadUserProfile(user) {
 
     try {
         const uSnap = await getDoc(doc(db, COLLECTIONS.USERS, user.uid));
+        const nowMs = Date.now();
         if (uSnap.exists()) {
             const d = uSnap.data();
             window.currentUserProfile = {
                 tier: isAdminEmail ? 'admin' : (d.tier || 'free'),
                 isPaid: isAdminEmail ? true : (d.isPaid === true),
                 isAdmin: isAdminEmail,
+                satuanCredits: Number(d.satuanCredits || 0),
+                paidVia: d.paidVia || '',
+                lastOrderId: d.lastOrderId || '',
                 nama: d.nama || localBio.nama || user.displayName || 'Pejuang ASN',
                 tanggalLahir: d.tanggalLahir || localBio.tanggalLahir || '',
                 tujuanInstansi: d.tujuanInstansi || localBio.tujuanInstansi || '',
-                tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || ''
+                tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || '',
+                lastLoginAt: nowMs
             };
+            setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
+                lastLoginAt: nowMs,
+                email: email
+            }, { merge: true }).catch(() => {});
         } else {
             if (!isAdminEmail) {
                 await setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
@@ -88,7 +97,8 @@ async function loadUserProfile(user) {
                     nama: user.displayName || 'Pejuang ASN',
                     tier: 'free',
                     isPaid: false,
-                    createdAt: Date.now()
+                    createdAt: nowMs,
+                    lastLoginAt: nowMs
                 }, { merge: true }).catch(() => {});
             }
             window.currentUserProfile = {
@@ -597,11 +607,30 @@ window.filterCommandUsers = () => {
     });
 
     if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
         return;
     }
 
     const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const escAttr = (s) => esc(s).replace(/'/g, '&#39;').replace(/"/g, '&quot;');
+    const fmtLastLogin = (u) => {
+        const ts = Number(u.lastLoginAt || u.updatedAt || u.createdAt || 0);
+        if (!ts) return '<span style="color:#94a3b8; font-size:0.75rem; font-style:italic;">Belum tercatat</span>';
+        const diffMin = Math.floor((Date.now() - ts) / 60000);
+        let rel = '';
+        if (diffMin < 2) rel = 'Baru saja';
+        else if (diffMin < 60) rel = diffMin + ' mnt lalu';
+        else if (diffMin < 1440) rel = Math.floor(diffMin / 60) + ' jam lalu';
+        else rel = Math.floor(diffMin / 1440) + ' hr lalu';
+        const dtStr = new Date(ts).toLocaleString('id-ID', {
+            day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+        const labelPrefix = u.lastLoginAt ? 'Login' : (u.updatedAt ? 'Aktif' : 'Daftar');
+        return `
+            <div style="font-size:0.78rem; font-weight:700; color:#0f172a;"><i class="far fa-clock" style="color:#2563eb;"></i> ${rel}</div>
+            <div style="font-size:0.7rem; color:#64748b;">${labelPrefix}: ${dtStr}</div>
+        `;
+    };
 
     tbody.innerHTML = filtered.map(u => {
         const tier = (u.tier || 'free').toLowerCase();
@@ -626,6 +655,7 @@ window.filterCommandUsers = () => {
                 <td>${instansiCellHtml}</td>
                 <td><span class="cc-tier-badge ${tier}">${tier.toUpperCase()}</span></td>
                 <td>${blocked ? '<span class="cc-status-pill blocked">DIBLOKIR</span>' : '<span class="cc-status-pill active">AKTIF</span>'}</td>
+                <td>${fmtLastLogin(u)}</td>
                 <td>
                     <select id="tierSelect-${u.id}" class="cc-select-mini">
                         <option value="free" ${tier === 'free' ? 'selected' : ''}>FREE</option>
@@ -640,6 +670,9 @@ window.filterCommandUsers = () => {
                     <button class="cc-btn primary" onclick="window.adminUbahTierUser('${u.id}')">Simpan</button>
                     <button class="cc-btn ${blocked ? 'success' : 'danger'}" onclick="window.adminToggleBlokirUser('${u.id}', ${blocked})">
                         ${blocked ? 'Buka' : 'Blokir'}
+                    </button>
+                    <button class="cc-btn dark-danger" onclick="window.adminHapusUserPermanen('${u.id}', '${escAttr(u.nama || 'Pejuang ASN')}', '${escAttr(u.email || '-')}')" title="Hapus Permanen Peserta">
+                        <i class="fas fa-trash-alt"></i> Hapus
                     </button>
                 </td>
             </tr>
@@ -667,6 +700,45 @@ window.adminToggleBlokirUser = async (uid, currentBlocked) => {
         window.loadCommandCenterData();
     } catch (err) {
         Swal.fire('Gagal', err.message, 'error');
+    }
+};
+
+window.adminHapusUserPermanen = async (uid, nama, email) => {
+    const cleanEmail = String(email || '').toLowerCase().trim();
+    if (ADMIN_EMAILS.map(e => e.toLowerCase()).includes(cleanEmail)) {
+        return Swal.fire('Tidak Diizinkan', 'Akun Super Admin tidak dapat dihapus permanen.', 'warning');
+    }
+    const conf = await Swal.fire({
+        icon: 'warning',
+        title: 'Hapus Permanen Peserta?',
+        html: `
+            <div style="text-align:left; font-size:0.9rem; color:#334155;">
+                <p style="margin-bottom:8px;">Data peserta berikut akan <strong>dihapus permanen</strong> dari database Firestore:</p>
+                <div style="background:#fef2f2; border:1px solid #fecaca; border-radius:10px; padding:10px 12px; color:#991b1b;">
+                    <div><strong>Nama:</strong> ${nama || '-'}</div>
+                    <div><strong>Email:</strong> ${email || '-'}</div>
+                </div>
+                <p style="margin-top:10px; font-size:0.8rem; color:#64748b;">Tindakan ini tidak dapat dibatalkan.</p>
+            </div>
+        `,
+        showCancelButton: true,
+        confirmButtonText: '🗑️ Ya, Hapus Permanen',
+        cancelButtonText: 'Batal',
+        confirmButtonColor: '#991b1b'
+    });
+    if (!conf.isConfirmed) return;
+    try {
+        await deleteDoc(doc(db, COLLECTIONS.USERS, uid));
+        Swal.fire({
+            icon: 'success',
+            title: 'Terhapus Permanen',
+            text: 'Data peserta berhasil dihapus dari Radar Peserta.',
+            timer: 1500,
+            showConfirmButton: false
+        });
+        window.loadCommandCenterData();
+    } catch (err) {
+        Swal.fire('Gagal Menghapus', err.message, 'error');
     }
 };
 

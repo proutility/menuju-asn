@@ -276,7 +276,15 @@ service cloud.firestore {
           request.resource.data.get('tier', 'free') == 'free'
         )
       );
-      allow update, delete: if isCpnsSuperAdmin();
+      allow update: if isCpnsSuperAdmin() || (
+        request.auth != null &&
+        request.auth.uid == userId &&
+        request.resource.data.get('tier', 'free') == resource.data.get('tier', 'free') &&
+        request.resource.data.get('isPaid', false) == resource.data.get('isPaid', false) &&
+        request.resource.data.get('isBlocked', false) == resource.data.get('isBlocked', false) &&
+        request.resource.data.get('satuanCredits', 0) == resource.data.get('satuanCredits', 0)
+      );
+      allow delete: if isCpnsSuperAdmin();
     }
     match /cpns_tryout_sessions/{document=**} {
       allow read: if true;
