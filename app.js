@@ -7043,6 +7043,17 @@ window.jalankanAnalisisKelemahanAI = async () => {
 
 const DEFAULT_CURATED_NEWS = [
     {
+        id: 'curated-cnn-kemenkeu-1915-cpns-2026',
+        tag: 'CNN INDONESIA',
+        dateLabel: '17 Nov 2026',
+        title: 'Kemenkeu Buka 1.915 Formasi CPNS 2026, Lulusan SMA Bisa Daftar',
+        desc: 'Kementerian Keuangan membuka 1.915 formasi CPNS 2026 jalur umum untuk lulusan SMA/SMK, D3, hingga S1 di berbagai unit Eselon I. Pendaftaran dijadwalkan pekan keempat November melalui sscasn.bkn.go.id.',
+        url: 'https://www.cnnindonesia.com/ekonomi/20261117110536-532-1428020/kemenkeu-buka-1915-formasi-cpns-2026-lulusan-sma-bisa-daftar',
+        imageUrl: 'assets/news/news-sscasn.svg',
+        fallbackImage: 'assets/news/news-sscasn.svg',
+        createdAtMs: 1794900000000
+    },
+    {
         id: 'curated-menpan-pppk-cpns-2026',
         tag: 'KEMENPAN-RB',
         dateLabel: '06 Nov 2026',
