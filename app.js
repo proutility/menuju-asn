@@ -83,6 +83,7 @@ async function loadUserProfile(user) {
                 tanggalLahir: d.tanggalLahir || localBio.tanggalLahir || '',
                 tujuanInstansi: d.tujuanInstansi || localBio.tujuanInstansi || '',
                 tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || '',
+                recentExams: Array.isArray(d.recentExams) ? d.recentExams : [],
                 lastLoginAt: nowMs
             };
             setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
@@ -443,9 +444,29 @@ window.loadCommandCenterData = async () => {
     if (!window.currentUserProfile?.isAdmin) return;
 
     try {
-        // 1. Load Users (Radar Peserta & Langganan)
+        // 1. Load Users (Radar Peserta & Langganan) + Fallback Brankas
         const usersSnap = await getDocs(query(collection(db, COLLECTIONS.USERS), limit(100)));
         window.ccCachedUsers = [];
+        window.ccBrankasByUid = {};
+        try {
+            if (COLLECTIONS.BRANKAS) {
+                const brankasSnap = await getDocs(query(collection(db, COLLECTIONS.BRANKAS), limit(150)));
+                brankasSnap.forEach(bd => {
+                    const b = bd.data() || {};
+                    const bUid = b.uid;
+                    if (!bUid) return;
+                    if (!window.ccBrankasByUid[bUid]) window.ccBrankasByUid[bUid] = [];
+                    window.ccBrankasByUid[bUid].push({
+                        title: b.title || b.paketTitle || b.tipe || 'Latihan / TO',
+                        accessedAt: Number(b.createdAtMs || b.savedAt || b.timestamp || 0)
+                    });
+                });
+                Object.keys(window.ccBrankasByUid).forEach(k => {
+                    window.ccBrankasByUid[k].sort((a, b) => b.accessedAt - a.accessedAt);
+                });
+            }
+        } catch (_) {}
+
         let paidCount = 0;
         usersSnap.forEach(d => {
             const u = { id: d.id, ...d.data() };
@@ -607,7 +628,7 @@ window.filterCommandUsers = () => {
     });
 
     if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="8" class="cc-empty">Tidak ada peserta yang cocok dengan filter.</td></tr>';
         return;
     }
 
@@ -656,6 +677,26 @@ window.filterCommandUsers = () => {
                 <td><span class="cc-tier-badge ${tier}">${tier.toUpperCase()}</span></td>
                 <td>${blocked ? '<span class="cc-status-pill blocked">DIBLOKIR</span>' : '<span class="cc-status-pill active">AKTIF</span>'}</td>
                 <td>${fmtLastLogin(u)}</td>
+                <td>${(() => {
+                    const fromUser = Array.isArray(u.recentExams) ? u.recentExams : [];
+                    const fromBrankas = (window.ccBrankasByUid && window.ccBrankasByUid[u.id]) || [];
+                    const merged = [...fromUser];
+                    for (const b of fromBrankas) {
+                        if (merged.length >= 3) break;
+                        if (!merged.some(m => m.title === b.title)) merged.push(b);
+                    }
+                    const top3 = merged.slice(0, 3);
+                    if (top3.length === 0) {
+                        return '<span style="color:#94a3b8; font-size:0.74rem; font-style:italic;">Belum ada riwayat</span>';
+                    }
+                    return '<div style="display:flex; flex-direction:column; gap:4px; max-width:220px;">' + top3.map((item, idx) => {
+                        const dt = item.accessedAt ? new Date(item.accessedAt).toLocaleString('id-ID', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }) : '';
+                        return `<div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:7px; padding:3px 7px; font-size:0.72rem; line-height:1.3;">
+                            <strong style="color:#1e3a8a;">${idx + 1}. ${esc(item.title || 'Latihan')}</strong>
+                            ${dt ? `<span style="color:#64748b; font-size:0.67rem; display:block;">${dt}</span>` : ''}
+                        </div>`;
+                    }).join('') + '</div>';
+                })()}</td>
                 <td>
                     <select id="tierSelect-${u.id}" class="cc-select-mini">
                         <option value="free" ${tier === 'free' ? 'selected' : ''}>FREE</option>
@@ -2233,6 +2274,9 @@ window.mulaiSingleplayer = (tipe, paketNo = null, forceMode = null) => {
     window.isInstantReviewMode = (forceMode === 'drill');
     if (forceMode === 'drill' && window.currentPackageMeta) {
         window.currentPackageMeta.title = `${title} • Mode Drill`;
+    }
+    if (typeof window.recordUserRecentExamAccess === 'function') {
+        window.recordUserRecentExamAccess(window.currentPackageMeta?.title || title, tipe);
     }
     startExamSessionUI();
 };
@@ -10053,4 +10097,21 @@ window.renderKeranjangView = () => {
     window.renderKeranjangPaketAktif();
     window.renderKeranjangCheckoutBox();
     window.renderKeranjangRiwayatPayment();
+};
+
+window.recordUserRecentExamAccess = (examTitle, tipe) => {
+    if (!window.currentUser || !examTitle) return;
+    const prev = Array.isArray(window.currentUserProfile?.recentExams) ? window.currentUserProfile.recentExams : [];
+    const cleanTitle = String(examTitle).trim();
+    const filtered = prev.filter(item => item && item.title !== cleanTitle);
+    const updated = [
+        { title: cleanTitle, tipe: String(tipe || ''), accessedAt: Date.now() },
+        ...filtered
+    ].slice(0, 3);
+    if (window.currentUserProfile) {
+        window.currentUserProfile.recentExams = updated;
+    }
+    setDoc(doc(db, COLLECTIONS.USERS, window.currentUser.uid), {
+        recentExams: updated
+    }, { merge: true }).catch(() => {});
 };
