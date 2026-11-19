@@ -6211,3 +6211,168 @@ footer {
     vertical-align: middle;
     animation: promoPulse 2.2s ease-in-out infinite;
 }
+
+
+/* ONBOARDING SPOTLIGHT TOUR */
+@keyframes tourRingPulse {
+    0% { transform: scale(1); opacity: 0.9; }
+    65% { transform: scale(1.09, 1.18); opacity: 0; }
+    100% { transform: scale(1.09, 1.18); opacity: 0; }
+}
+
+@keyframes tourCardIn {
+    from { opacity: 0; transform: translateY(8px) scale(0.97); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.onboarding-backdrop-blocker {
+    position: fixed;
+    inset: 0;
+    z-index: 99980;
+    background: transparent;
+}
+
+.onboarding-spotlight-ring {
+    position: fixed;
+    z-index: 99985;
+    border-radius: 16px;
+    border: 3px solid #f59e0b;
+    box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.74), 0 0 26px rgba(245, 158, 11, 0.72), inset 0 0 12px rgba(253, 224, 71, 0.35);
+    pointer-events: none;
+    transition: top 0.32s cubic-bezier(0.22, 1, 0.36, 1), left 0.32s cubic-bezier(0.22, 1, 0.36, 1), width 0.32s cubic-bezier(0.22, 1, 0.36, 1), height 0.32s cubic-bezier(0.22, 1, 0.36, 1), border-radius 0.25s ease;
+}
+
+.onboarding-spotlight-ring::after {
+    content: "";
+    position: absolute;
+    inset: -7px;
+    border-radius: inherit;
+    border: 3px solid #fde047;
+    animation: tourRingPulse 1.5s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+.onboarding-tour-card {
+    position: fixed;
+    z-index: 99990;
+    width: min(350px, calc(100vw - 24px));
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 18px;
+    padding: 16px 18px;
+    box-shadow: 0 22px 48px rgba(15, 23, 42, 0.36), 0 0 0 1px rgba(255, 255, 255, 0.6);
+    color: #0f172a;
+    animation: tourCardIn 0.24s ease-out;
+}
+
+.onboarding-tour-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.onboarding-step-pill {
+    background: #eff6ff;
+    color: #1e3a8a;
+    border: 1px solid #bfdbfe;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.onboarding-skip-btn {
+    background: none;
+    border: none;
+    color: #64748b;
+    font-size: 0.76rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 4px 6px;
+}
+.onboarding-skip-btn:hover {
+    color: #0f172a;
+}
+
+.onboarding-tour-title {
+    margin: 0 0 6px;
+    font-size: 1.02rem;
+    font-weight: 900;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.onboarding-tour-desc {
+    margin: 0 0 14px;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: #475569;
+}
+
+.onboarding-tour-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.onboarding-dots {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.onboarding-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: #cbd5e1;
+    transition: all 0.2s ease;
+}
+
+.onboarding-dot.active {
+    width: 18px;
+    background: #1e3a8a;
+}
+
+.onboarding-btn-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.onboarding-btn-prev {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    padding: 7px 11px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.onboarding-btn-next {
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    padding: 7px 13px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 3px 0 #172554;
+}
+
+.onboarding-btn-next.finish {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #0f172a;
+    box-shadow: 0 3px 0 #92400e;
+}
+
+.onboarding-btn-next:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #172554;
+}

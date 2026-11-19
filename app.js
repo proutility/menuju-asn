@@ -84,6 +84,7 @@ async function loadUserProfile(user) {
                 tujuanInstansi: d.tujuanInstansi || localBio.tujuanInstansi || '',
                 tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || '',
                 recentExams: Array.isArray(d.recentExams) ? d.recentExams : [],
+                onboardingDone: d.onboardingDone === true,
                 lastLoginAt: nowMs
             };
             setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
@@ -242,6 +243,9 @@ function updateAuthUI(user) {
         }
         if (typeof window.renderKeranjangView === 'function') {
             window.renderKeranjangView();
+        }
+        if (typeof window.maybeStartFirstLoginTour === 'function') {
+            window.maybeStartFirstLoginTour(user);
         }
         if (typeof window.renderArenaSavedRooms === 'function') {
             window.renderArenaSavedRooms();
@@ -10125,4 +10129,252 @@ window.recordUserRecentExamAccess = (examTitle, tipe) => {
     setDoc(doc(db, COLLECTIONS.USERS, window.currentUser.uid), {
         recentExams: updated
     }, { merge: true }).catch(() => {});
+};
+
+
+// ==========================================================
+// ONBOARDING SPOTLIGHT TOUR (FIRST-TIME LOGIN -> 30 SOAL TWK)
+// ==========================================================
+window._onboardingTourActive = false;
+
+function markOnboardingTourDone() {
+    const uid = window.currentUser?.uid;
+    if (uid) {
+        try {
+            localStorage.setItem('menuju_asn_onboarding_done_' + uid, '1');
+        } catch (_) {}
+        if (window.currentUserProfile) {
+            window.currentUserProfile.onboardingDone = true;
+        }
+        setDoc(doc(db, COLLECTIONS.USERS, uid), {
+            onboardingDone: true
+        }, { merge: true }).catch(() => {});
+    }
+}
+
+function getOnboardingTourSteps() {
+    const isMob = window.innerWidth <= 960;
+    const pickVisible = (selectors) => {
+        for (const sel of selectors) {
+            const el = document.querySelector(sel);
+            if (el) {
+                const r = el.getBoundingClientRect();
+                if (r.width > 0 && r.height > 0) return el;
+            }
+        }
+        return null;
+    };
+
+    return [
+        {
+            icon: 'fas fa-laptop-code',
+            iconColor: '#2563eb',
+            title: 'Simulasi CAT Per Subtes',
+            desc: 'Latih ketajamanmu di subtes TWK (30 soal), TIU (35 soal), dan TKP (45 soal) lengkap dengan pembahasan step-by-step.',
+            getTarget: () => pickVisible(isMob
+                ? ['.mob-nav-btn[data-view="cat"]', '#heroBannerSection .btn-dash-gold', '#heroBannerSection']
+                : ['.sidebar-item[data-view="cat"]', '#heroBannerSection .btn-dash-gold'])
+        },
+        {
+            icon: 'fas fa-clipboard-check',
+            iconColor: '#16a34a',
+            title: 'Tryout Akbar Standar BKN',
+            desc: 'Uji kesiapan menghadapi 110 soal gabungan TWK, TIU, dan TKP dengan timer 100 menit sesuai sistem CAT BKN asli.',
+            getTarget: () => pickVisible(isMob
+                ? ['.mob-nav-btn[data-view="tryout"]', '.dash-kpi-card', '#heroBannerSection']
+                : ['.sidebar-item[data-view="tryout"]', '.dash-kpi-card'])
+        },
+        {
+            icon: 'fas fa-vault',
+            iconColor: '#7c3aed',
+            title: 'Brankas Pembahasan & Grafik',
+            desc: 'Semua riwayat latihan & skor tryout otomatis tersimpan. Kamu bisa review jawaban benar/salah serta trik cepat 10 detik.',
+            getTarget: () => pickVisible(isMob
+                ? ['.dash-kpi-card:nth-child(2)', '.mob-nav-btn[data-view="brankas"]', '#heroBannerSection']
+                : ['.sidebar-item[data-view="brankas"]', '.dash-kpi-card:nth-child(2)'])
+        },
+        {
+            icon: 'fas fa-robot',
+            iconColor: '#0284c7',
+            title: 'AI Mentor & Berita CASN',
+            desc: 'Bingung memahami suatu soal atau materi? Tanya MenujuASN-Bot AI kapan saja, sekaligus pantau info resmi CPNS terbaru.',
+            getTarget: () => pickVisible(isMob
+                ? ['.mob-nav-btn[data-view="bot"]', '#heroBannerSection .btn-dash-ghost', '#heroBannerSection']
+                : ['.sidebar-item[data-view="bot"]', '#heroBannerSection .btn-dash-ghost'])
+        },
+        {
+            icon: 'fas fa-rocket',
+            iconColor: '#d97706',
+            title: 'Mulai Pemanasan: 30 Soal TWK!',
+            desc: 'Sekarang kamu siap! Klik tombol di bawah untuk langsung mencoba 30 soal TWK Gratis Paket 1 dan lihat skor awalmu.',
+            getTarget: () => pickVisible(['#heroBannerSection .btn-dash-gold', '#heroBannerSection', '.mob-nav-btn[data-view="cat"]'])
+        }
+    ];
+}
+
+window.closeOnboardingTour = (markDone = true) => {
+    window._onboardingTourActive = false;
+    if (markDone) markOnboardingTourDone();
+    ['onboardingBlocker', 'onboardingSpotlightRing', 'onboardingTourCard'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.remove();
+    });
+    if (window._onboardingRepositionHandler) {
+        window.removeEventListener('resize', window._onboardingRepositionHandler);
+        window.removeEventListener('scroll', window._onboardingRepositionHandler, true);
+        window._onboardingRepositionHandler = null;
+    }
+};
+
+window.startOnboardingTour = (force = false) => {
+    if (window._onboardingTourActive) return;
+    if (!window.currentUser || window.currentAppMode !== 'lobby') return;
+
+    const uid = window.currentUser.uid;
+    let localDone = false;
+    try { localDone = localStorage.getItem('menuju_asn_onboarding_done_' + uid) === '1'; } catch (_) {}
+    if (!force && (localDone || window.currentUserProfile?.onboardingDone)) return;
+
+    if (typeof window.switchAppView === 'function') {
+        window.switchAppView('beranda');
+    }
+
+    window._onboardingTourActive = true;
+    const steps = getOnboardingTourSteps();
+    let stepIdx = 0;
+
+    const blocker = document.createElement('div');
+    blocker.id = 'onboardingBlocker';
+    blocker.className = 'onboarding-backdrop-blocker';
+
+    const ring = document.createElement('div');
+    ring.id = 'onboardingSpotlightRing';
+    ring.className = 'onboarding-spotlight-ring';
+
+    const card = document.createElement('div');
+    card.id = 'onboardingTourCard';
+    card.className = 'onboarding-tour-card';
+
+    document.body.appendChild(blocker);
+    document.body.appendChild(ring);
+    document.body.appendChild(card);
+
+    const positionStep = () => {
+        if (!window._onboardingTourActive) return;
+        const step = steps[stepIdx];
+        const target = step.getTarget();
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+
+        let rect = { top: vh * 0.25, left: vw * 0.1, width: vw * 0.8, height: 120 };
+        if (target) {
+            const rawR = target.getBoundingClientRect();
+            const pad = 8;
+            rect = {
+                top: Math.max(8, rawR.top - pad),
+                left: Math.max(8, rawR.left - pad),
+                width: Math.min(vw - 16, rawR.width + pad * 2),
+                height: Math.min(vh - 16, rawR.height + pad * 2)
+            };
+        }
+
+        ring.style.top = rect.top + 'px';
+        ring.style.left = rect.left + 'px';
+        ring.style.width = rect.width + 'px';
+        ring.style.height = rect.height + 'px';
+        ring.style.borderRadius = (rect.height < 64 && rect.width < 260) ? '999px' : '16px';
+
+        // Measure card and position smartly
+        const cardW = Math.min(350, vw - 24);
+        const cardH = card.offsetHeight || 195;
+        let cardTop = rect.top + rect.height + 16;
+        if (cardTop + cardH > vh - 14) {
+            cardTop = Math.max(14, rect.top - cardH - 16);
+        }
+        let cardLeft = rect.left;
+        if (rect.width < 260 && vw > 960 && rect.left < 280) {
+            // Sidebar item on desktop: place card neatly to the right of sidebar
+            cardLeft = rect.left + rect.width + 18;
+            cardTop = Math.min(vh - cardH - 14, Math.max(14, rect.top - 10));
+        }
+        cardLeft = Math.max(12, Math.min(vw - cardW - 12, cardLeft));
+
+        card.style.top = cardTop + 'px';
+        card.style.left = cardLeft + 'px';
+    };
+
+    const renderStep = () => {
+        const step = steps[stepIdx];
+        const target = step.getTarget();
+        if (target && typeof target.scrollIntoView === 'function') {
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        const isLast = stepIdx === steps.length - 1;
+        const dotsHtml = steps.map((_, i) => `<span class="onboarding-dot ${i === stepIdx ? 'active' : ''}"></span>`).join('');
+
+        card.innerHTML = `
+            <div class="onboarding-tour-top">
+                <span class="onboarding-step-pill">Panduan ${stepIdx + 1} / ${steps.length}</span>
+                <button type="button" class="onboarding-skip-btn" id="onboardingSkipBtn">Lewati</button>
+            </div>
+            <h4 class="onboarding-tour-title">
+                <i class="${step.icon}" style="color:${step.iconColor};"></i>
+                <span>${step.title}</span>
+            </h4>
+            <p class="onboarding-tour-desc">${step.desc}</p>
+            <div class="onboarding-tour-footer">
+                <div class="onboarding-dots">${dotsHtml}</div>
+                <div class="onboarding-btn-row">
+                    ${stepIdx > 0 ? '<button type="button" class="onboarding-btn-prev" id="onboardingPrevBtn">Kembali</button>' : ''}
+                    <button type="button" class="onboarding-btn-next ${isLast ? 'finish' : ''}" id="onboardingNextBtn">
+                        ${isLast ? '<i class="fas fa-play"></i> Coba 30 Soal TWK' : 'Lanjut <i class="fas fa-arrow-right"></i>'}
+                    </button>
+                </div>
+            </div>
+        `;
+
+        document.getElementById('onboardingSkipBtn')?.addEventListener('click', () => {
+            window.closeOnboardingTour(true);
+        });
+        document.getElementById('onboardingPrevBtn')?.addEventListener('click', () => {
+            if (stepIdx > 0) {
+                stepIdx--;
+                renderStep();
+            }
+        });
+        document.getElementById('onboardingNextBtn')?.addEventListener('click', () => {
+            if (!isLast) {
+                stepIdx++;
+                renderStep();
+            } else {
+                window.closeOnboardingTour(true);
+                if (typeof window.mulaiSingleplayer === 'function') {
+                    window.mulaiSingleplayer('twk_gratis', 1);
+                }
+            }
+        });
+
+        setTimeout(positionStep, 120);
+    };
+
+    window._onboardingRepositionHandler = () => positionStep();
+    window.addEventListener('resize', window._onboardingRepositionHandler);
+    window.addEventListener('scroll', window._onboardingRepositionHandler, true);
+
+    renderStep();
+};
+
+window.maybeStartFirstLoginTour = (user) => {
+    if (!user || window._onboardingTourScheduled || window._onboardingTourActive) return;
+    if (window.currentUserProfile?.isAdmin) return;
+    let localDone = false;
+    try { localDone = localStorage.getItem('menuju_asn_onboarding_done_' + user.uid) === '1'; } catch (_) {}
+    if (localDone || window.currentUserProfile?.onboardingDone) return;
+
+    window._onboardingTourScheduled = true;
+    setTimeout(() => {
+        window._onboardingTourScheduled = false;
+        window.startOnboardingTour(false);
+    }, 750);
 };
