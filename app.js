@@ -7087,6 +7087,17 @@ window.jalankanAnalisisKelemahanAI = async () => {
 
 const DEFAULT_CURATED_NEWS = [
     {
+        id: 'curated-detik-jabar-3-instansi-cpns-2026',
+        tag: 'DETIKJABAR',
+        dateLabel: '19 Nov 2026',
+        title: '3 Instansi Umumkan Buka Lowongan di CPNS 2026, Simak Kuota dan Cara Daftarnya',
+        desc: 'Tiga instansi besar (Kemenkeu 1.915 formasi, Kemenkes, dan Mahkamah Agung) mengumumkan pembukaan lowongan CPNS 2026. Simak rincian kuota serta alur pendaftaran terpusat lewat sscasn.bkn.go.id.',
+        url: 'https://www.detik.com/jabar/berita/d-8758794/3-instansi-umumkan-buka-lowongan-di-cpns-2026-simak-kuota-dan-cara-daftarnya',
+        imageUrl: 'assets/news/news-akun-cpns.svg',
+        fallbackImage: 'assets/news/news-akun-cpns.svg',
+        createdAtMs: 1795090000000
+    },
+    {
         id: 'curated-cnn-kemenkeu-1915-cpns-2026',
         tag: 'CNN INDONESIA',
         dateLabel: '17 Nov 2026',
