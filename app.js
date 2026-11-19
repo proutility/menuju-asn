@@ -1783,10 +1783,10 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
     const bodyHtml = isPlatinumOnly
         ? `
             <p style="font-size:0.92rem; color:#334155; margin-bottom:12px;">
-                Fitur ini tersedia eksklusif untuk <b>Paket Platinum (Rp 149.999)</b>.
+                Fitur ini tersedia eksklusif untuk <b>Paket Platinum (Rp 99.000)</b>.
             </p>
             <div style="background:#eef2ff; border:1px solid #c7d2fe; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#312e81; line-height:1.5; text-align:left;">
-                💎 Upgrade ke <b>Paket Platinum (Rp 149.999)</b> untuk membuka seluruh benefit Gold + <b>Latihan Mandiri TOEFL</b> + <b>FREE Download PDF Soal &amp; Pembahasan</b> per subtes.
+                💎 Upgrade ke <b>Paket Platinum (Rp 99.000)</b> untuk membuka seluruh benefit Gold + <b>Latihan Mandiri TOEFL</b> + <b>FREE Download PDF Soal &amp; Pembahasan</b> per subtes.
             </div>
         `
         : (isPusatStudi
@@ -1795,7 +1795,7 @@ window.bukaModalUpgrade = (namaFitur, infoHarga) => {
                 Fitur <b>Pusat Studi ASN</b> tersedia eksklusif untuk <b>Paket Gold / Platinum</b>.
             </p>
             <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:11px; padding:11px 13px; font-size:0.82rem; color:#92400e; line-height:1.5; text-align:left;">
-                👑 Upgrade ke <b>Paket Gold (Rp 99.999)</b> atau <b>Platinum (Rp 149.999)</b> untuk membuka seluruh modul materi &amp; trik cepat 10 detik.
+                👑 Upgrade ke <b>Paket Gold (Rp 74.900)</b> atau <b>Platinum (Rp 99.000)</b> untuk membuka seluruh modul materi &amp; trik cepat 10 detik.
             </div>
         `
         : `
@@ -3426,7 +3426,7 @@ window.bukaReviewBrankas = (attemptId, filterMode = 'all') => {
     if (!canReview) {
         return window.bukaModalUpgrade(
             'Review Brankas Pembahasan',
-            'Paket Satuan (Rp 9.999) / Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
+            'Paket Satuan (Rp 9.999) / Bronze (Rp 29.000) / Silver (Rp 49.000) / Gold (Rp 74.900)'
         );
     }
     window.reviewState = {
@@ -4326,7 +4326,7 @@ window.mulaiModeBelajar1Klik = async () => {
     if (!prof.isPaid && !prof.isAdmin) {
         return window.bukaModalUpgrade(
             'Mode Belajar 1x Klik Pembahasan',
-            'Paket Bronze (Rp 49.999) / Silver (Rp 74.999) / Gold (Rp 99.999)'
+            'Paket Bronze (Rp 29.000) / Silver (Rp 49.000) / Gold (Rp 74.900)'
         );
     }
 
@@ -8276,7 +8276,7 @@ window.bukaMateriPusatStudi = (subtes) => {
     );
 
     if (!isGoldOrAdmin) {
-        return window.bukaModalUpgrade(`Pusat Studi ASN - Modul ${key.toUpperCase()}`, 'Paket Gold (Rp 99.999)');
+        return window.bukaModalUpgrade(`Pusat Studi ASN - Modul ${key.toUpperCase()}`, 'Paket Gold (Rp 74.900)');
     }
 
     const isSubtesChanged = window.currentStudiSubtes !== key;
@@ -8851,7 +8851,7 @@ window.renderToeflPaketCards = () => {
         grid.innerHTML = placeholders.map(c => {
             const ctaHtml = isPlat
                 ? `<button class="btn-card tier-btn-platinum" onclick="Swal.fire('Wadah TOEFL Siap!','Silakan isi bank soal ke file <b>data_toefl.js</b> (<code>window.DATA_TOEFL</code>), lalu paket ini otomatis aktif dikerjakan di ruang CBT.','info')"><i class="fas fa-hourglass-half"></i> Bank Soal Segera Hadir</button>`
-                : `<button class="btn-card tier-btn-platinum" onclick="window.bukaModalUpgrade('${c.title}', 'Paket Platinum (Rp 149.999)')"><i class="fas fa-lock"></i> Platinum</button>`;
+                : `<button class="btn-card tier-btn-platinum" onclick="window.bukaModalUpgrade('${c.title}', 'Paket Platinum (Rp 99.000)')"><i class="fas fa-lock"></i> Platinum</button>`;
 
             return `
                 <div class="card-mode packet-card paid platinum-border" data-toeflcat="${c.catKey}">
@@ -8877,7 +8877,7 @@ window.renderToeflPaketCards = () => {
         grid.innerHTML = groups.map(g => {
             const ctaHtml = isPlat
                 ? `<button class="btn-card tier-btn-platinum" onclick="window.mulaiSingleplayer('toefl', '${g.key}')"><i class="fas fa-play"></i> Mulai Latihan</button>`
-                : `<button class="btn-card tier-btn-platinum" onclick="window.bukaModalUpgrade('${g.title}', 'Paket Platinum (Rp 149.999)')"><i class="fas fa-lock"></i> Platinum</button>`;
+                : `<button class="btn-card tier-btn-platinum" onclick="window.bukaModalUpgrade('${g.title}', 'Paket Platinum (Rp 99.000)')"><i class="fas fa-lock"></i> Platinum</button>`;
             const icon = g.catKey === 'listening' ? 'fa-headphones' : (g.catKey === 'reading' ? 'fa-book-open' : 'fa-spell-check');
             return `
                 <div class="card-mode packet-card paid platinum-border" data-toeflcat="${g.catKey}">
@@ -9006,10 +9006,10 @@ window.renderPdfLibraryView = () => {
                         <p>Begitu bank soal TOEFL diisi di <code>data_toefl.js</code>, seluruh paket TOEFL otomatis tersedia untuk diunduh sebagai PDF Soal Saja maupun PDF Soal + Pembahasan berwatermark MENUJU ASN.</p>
                     </div>
                     <div class="pdf-actions-row">
-                        <button type="button" class="btn-pdf-soal" onclick="${isPlat ? "Swal.fire('Info','Bank soal TOEFL belum diisi di data_toefl.js.','info')" : "window.bukaModalUpgrade('Download PDF Modul TOEFL', 'Paket Platinum (Rp 149.999)')"}">
+                        <button type="button" class="btn-pdf-soal" onclick="${isPlat ? "Swal.fire('Info','Bank soal TOEFL belum diisi di data_toefl.js.','info')" : "window.bukaModalUpgrade('Download PDF Modul TOEFL', 'Paket Platinum (Rp 99.000)')"}">
                             <i class="fas ${isPlat ? 'fa-file-lines' : 'fa-lock'}"></i> Unduh PDF Soal Saja
                         </button>
-                        <button type="button" class="btn-pdf-full" onclick="${isPlat ? "Swal.fire('Info','Bank soal TOEFL belum diisi di data_toefl.js.','info')" : "window.bukaModalUpgrade('Download PDF Modul TOEFL', 'Paket Platinum (Rp 149.999)')"}">
+                        <button type="button" class="btn-pdf-full" onclick="${isPlat ? "Swal.fire('Info','Bank soal TOEFL belum diisi di data_toefl.js.','info')" : "window.bukaModalUpgrade('Download PDF Modul TOEFL', 'Paket Platinum (Rp 99.000)')"}">
                             <i class="fas ${isPlat ? 'fa-file-pdf' : 'fa-lock'}"></i> Unduh PDF Soal + Pembahasan
                         </button>
                     </div>
@@ -9104,7 +9104,7 @@ window.renderPdfLibraryView = () => {
 
 window.unduhPdfPaket = (sourceKey, withPembahasan = false) => {
     if (!isPlatinumOrAdminUser()) {
-        return window.bukaModalUpgrade('Download PDF Materi & Soal', 'Paket Platinum (Rp 149.999)');
+        return window.bukaModalUpgrade('Download PDF Materi & Soal', 'Paket Platinum (Rp 99.000)');
     }
 
     const pkg = getQuestionsForPdfSourceKey(sourceKey);
@@ -9712,36 +9712,36 @@ const KERANJANG_CATALOG = [
     {
         id: 'platinum',
         name: 'Paket Platinum (All-Access)',
-        originalPrice: 399000,
-        price: 149999,
-        discountLabel: 'DISKON 62%',
+        originalPrice: 149999,
+        price: 99000,
+        discountLabel: 'DISKON 34%',
         badge: 'BEST VALUE',
         desc: 'Semua akses Gold + Latihan Mandiri TOEFL + Download PDF Soal & Pembahasan.'
     },
     {
         id: 'gold',
         name: 'Paket Gold (Full 90 Paket)',
-        originalPrice: 249000,
-        price: 99999,
-        discountLabel: 'HEMAT 60%',
+        originalPrice: 99999,
+        price: 74900,
+        discountLabel: 'HEMAT 25%',
         badge: 'POPULER',
         desc: '90 Paket TWK, 90 TIU, 90 TKP, 5 TO Akbar, Pusat Studi, AI Mentor & Arena.'
     },
     {
         id: 'silver',
         name: 'Paket Silver',
-        originalPrice: 149000,
-        price: 74999,
-        discountLabel: 'DISKON 50%',
+        originalPrice: 74999,
+        price: 49000,
+        discountLabel: 'DISKON 35%',
         badge: 'HEMAT',
         desc: '50 Paket per Subtes + 3 Tryout Akbar + Pembahasan Lengkap.'
     },
     {
         id: 'bronze',
         name: 'Paket Bronze',
-        originalPrice: 99000,
-        price: 49999,
-        discountLabel: 'HEMAT 49%',
+        originalPrice: 49999,
+        price: 29000,
+        discountLabel: 'HEMAT 42%',
         badge: 'DASAR',
         desc: '15 Paket per Subtes + 1 Tryout Akbar + Pembahasan Step-by-Step.'
     },

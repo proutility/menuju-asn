@@ -507,10 +507,10 @@ exports.menujuAsnBot = onRequest(
 const MIDTRANS_PACKAGES = {
   satuan_paket: { name: "Paket Satuan (1 Paket Latihan)", price: 9999, grantType: "satuan" },
   satuan_to: { name: "Tryout Akbar Satuan", price: 24999, grantType: "satuan" },
-  bronze: { name: "Paket Bronze Menuju ASN", price: 49999, grantType: "tier", tier: "bronze" },
-  silver: { name: "Paket Silver Menuju ASN", price: 74999, grantType: "tier", tier: "silver" },
-  gold: { name: "Paket Gold Menuju ASN (All-In)", price: 99999, grantType: "tier", tier: "gold" },
-  platinum: { name: "Paket Platinum Menuju ASN (VIP)", price: 149999, grantType: "tier", tier: "platinum" }
+  bronze: { name: "Paket Bronze Menuju ASN", price: 29000, grantType: "tier", tier: "bronze" },
+  silver: { name: "Paket Silver Menuju ASN", price: 49000, grantType: "tier", tier: "silver" },
+  gold: { name: "Paket Gold Menuju ASN (All-In)", price: 74900, grantType: "tier", tier: "gold" },
+  platinum: { name: "Paket Platinum Menuju ASN (VIP)", price: 99000, grantType: "tier", tier: "platinum" }
 };
 
 async function getMidtransConfig() {
