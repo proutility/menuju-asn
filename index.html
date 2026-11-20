@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.7.9">
+    <link rel="stylesheet" href="style.css?v=2.8.0">
 </head>
 <body>
 
@@ -1775,14 +1775,22 @@
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
     <script src="data_tryout_akbar.js?v=2.6.0"></script>
-    <script src="data_toefl.js?v=2.7.9"></script>
-    <script type="module" src="app.js?v=2.7.9"></script>
+    <script src="data_toefl.js?v=2.8.0"></script>
+    <script type="module" src="app.js?v=2.8.0"></script>
     
     <script>
-        // PWA Service Worker Registration
+        // PWA Service Worker Registration (auto-reload once on SW update)
         if ('serviceWorker' in navigator) {
+            const hadController = Boolean(navigator.serviceWorker.controller);
+            let swRefreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (hadController && !swRefreshing) {
+                    swRefreshing = true;
+                    window.location.reload();
+                }
+            });
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.7.9')
+                navigator.serviceWorker.register('./sw.js?v=2.8.0')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });

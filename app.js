@@ -85,7 +85,7 @@ async function loadUserProfile(user) {
                 tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || '',
                 recentExams: Array.isArray(d.recentExams) ? d.recentExams : [],
                 onboardingDone: d.onboardingDone === true,
-                onboardingV2Done: d.onboardingV2Done === true,
+                onboardingV3Done: d.onboardingV3Done === true,
                 lastLoginAt: nowMs
             };
             setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
@@ -10142,13 +10142,13 @@ function markOnboardingTourDone() {
     const uid = window.currentUser?.uid;
     if (uid) {
         try {
-            localStorage.setItem('menuju_asn_onboarding_v2_' + uid, '1');
+            localStorage.setItem('menuju_asn_onboarding_v3_' + uid, '1');
         } catch (_) {}
         if (window.currentUserProfile) {
-            window.currentUserProfile.onboardingV2Done = true;
+            window.currentUserProfile.onboardingV3Done = true;
         }
         setDoc(doc(db, COLLECTIONS.USERS, uid), {
-            onboardingV2Done: true
+            onboardingV3Done: true
         }, { merge: true }).catch(() => {});
     }
 }
@@ -10229,12 +10229,13 @@ window.closeOnboardingTour = (markDone = true) => {
 
 window.startOnboardingTour = (force = false) => {
     if (window._onboardingTourActive) return;
-    if (!window.currentUser || window.currentAppMode !== 'lobby') return;
+    const lobbyCheck = document.getElementById('lobbySection');
+    if (!window.currentUser || window.currentAppMode !== 'lobby' || !lobbyCheck || lobbyCheck.style.display === 'none') return;
 
     const uid = window.currentUser.uid;
     let localDone = false;
-    try { localDone = localStorage.getItem('menuju_asn_onboarding_v2_' + uid) === '1'; } catch (_) {}
-    if (!force && (localDone || window.currentUserProfile?.onboardingV2Done)) return;
+    try { localDone = localStorage.getItem('menuju_asn_onboarding_v3_' + uid) === '1'; } catch (_) {}
+    if (!force && (localDone || window.currentUserProfile?.onboardingV3Done)) return;
 
     if (typeof window.switchAppView === 'function') {
         window.switchAppView('beranda');
@@ -10370,8 +10371,8 @@ window.maybeStartFirstLoginTour = (user) => {
     if (!user || window._onboardingTourScheduled || window._onboardingTourActive) return;
     if (window.currentUserProfile?.isAdmin) return;
     let localDone = false;
-    try { localDone = localStorage.getItem('menuju_asn_onboarding_v2_' + user.uid) === '1'; } catch (_) {}
-    if (localDone || window.currentUserProfile?.onboardingV2Done) return;
+    try { localDone = localStorage.getItem('menuju_asn_onboarding_v3_' + user.uid) === '1'; } catch (_) {}
+    if (localDone || window.currentUserProfile?.onboardingV3Done) return;
 
     window._onboardingTourScheduled = true;
     const waitAndStart = (attempt = 0) => {
