@@ -85,6 +85,7 @@ async function loadUserProfile(user) {
                 tujuanJabatan: d.tujuanJabatan || localBio.tujuanJabatan || '',
                 recentExams: Array.isArray(d.recentExams) ? d.recentExams : [],
                 onboardingDone: d.onboardingDone === true,
+                onboardingV2Done: d.onboardingV2Done === true,
                 lastLoginAt: nowMs
             };
             setDoc(doc(db, COLLECTIONS.USERS, user.uid), {
@@ -10141,13 +10142,13 @@ function markOnboardingTourDone() {
     const uid = window.currentUser?.uid;
     if (uid) {
         try {
-            localStorage.setItem('menuju_asn_onboarding_done_' + uid, '1');
+            localStorage.setItem('menuju_asn_onboarding_v2_' + uid, '1');
         } catch (_) {}
         if (window.currentUserProfile) {
-            window.currentUserProfile.onboardingDone = true;
+            window.currentUserProfile.onboardingV2Done = true;
         }
         setDoc(doc(db, COLLECTIONS.USERS, uid), {
-            onboardingDone: true
+            onboardingV2Done: true
         }, { merge: true }).catch(() => {});
     }
 }
@@ -10232,8 +10233,8 @@ window.startOnboardingTour = (force = false) => {
 
     const uid = window.currentUser.uid;
     let localDone = false;
-    try { localDone = localStorage.getItem('menuju_asn_onboarding_done_' + uid) === '1'; } catch (_) {}
-    if (!force && (localDone || window.currentUserProfile?.onboardingDone)) return;
+    try { localDone = localStorage.getItem('menuju_asn_onboarding_v2_' + uid) === '1'; } catch (_) {}
+    if (!force && (localDone || window.currentUserProfile?.onboardingV2Done)) return;
 
     if (typeof window.switchAppView === 'function') {
         window.switchAppView('beranda');
@@ -10369,12 +10370,21 @@ window.maybeStartFirstLoginTour = (user) => {
     if (!user || window._onboardingTourScheduled || window._onboardingTourActive) return;
     if (window.currentUserProfile?.isAdmin) return;
     let localDone = false;
-    try { localDone = localStorage.getItem('menuju_asn_onboarding_done_' + user.uid) === '1'; } catch (_) {}
-    if (localDone || window.currentUserProfile?.onboardingDone) return;
+    try { localDone = localStorage.getItem('menuju_asn_onboarding_v2_' + user.uid) === '1'; } catch (_) {}
+    if (localDone || window.currentUserProfile?.onboardingV2Done) return;
 
     window._onboardingTourScheduled = true;
-    setTimeout(() => {
+    const waitAndStart = (attempt = 0) => {
+        if (!window.currentUser || window.currentAppMode !== 'lobby') {
+            window._onboardingTourScheduled = false;
+            return;
+        }
+        if (typeof Swal !== 'undefined' && Swal.isVisible() && attempt < 10) {
+            setTimeout(() => waitAndStart(attempt + 1), 350);
+            return;
+        }
         window._onboardingTourScheduled = false;
         window.startOnboardingTour(false);
-    }, 750);
+    };
+    setTimeout(() => waitAndStart(0), 1700);
 };

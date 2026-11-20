@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet" href="style.css?v=2.7.8">
+    <link rel="stylesheet" href="style.css?v=2.7.9">
 </head>
 <body>
 
@@ -541,6 +541,9 @@
                             </button>
                             <button class="btn-dash-ghost" onclick="window.switchAppView('cbt')">
                                 <i class="fas fa-users"></i> Masuk CBT Arena
+                            </button>
+                            <button class="btn-dash-ghost" onclick="window.startOnboardingTour(true)" title="Lihat Panduan Fitur Aplikasi">
+                                <i class="fas fa-compass"></i> Panduan
                             </button>
                         </div>
                     </div>
@@ -1772,14 +1775,14 @@
     <script src="data_tkp_gratis.js?v=2.5.7"></script>
     <script src="data_tkp_batch2.js?v=2.5.7"></script>
     <script src="data_tryout_akbar.js?v=2.6.0"></script>
-    <script src="data_toefl.js?v=2.7.8"></script>
-    <script type="module" src="app.js?v=2.7.8"></script>
+    <script src="data_toefl.js?v=2.7.9"></script>
+    <script type="module" src="app.js?v=2.7.9"></script>
     
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js?v=2.7.8')
+                navigator.serviceWorker.register('./sw.js?v=2.7.9')
                     .then(reg => console.log('MENUJU ASN PWA Registered:', reg.scope))
                     .catch(err => console.warn('PWA registration failed:', err));
             });
